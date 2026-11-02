@@ -2,30 +2,18 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { getAuthorSlugFromName } from '@/data/newsData';
-import { BookOpen, Clock, ArrowRight } from 'lucide-react';
+import { getHomepageLongReads, getAuthorSlugFromName } from '@/data/newsData';
 
 export default function WeekendLongReads() {
-  const essays = [
-    {
-      id: 'ent-1',
-      title: 'Paramount and Skydance Finalize Landmark $8 Billion Merger to Form Unified Entertainment Powerhouse',
-      author: 'Maya Patel',
-      authorRole: 'Hollywood & Entertainment Bureau Chief',
-      readTime: '6 min read',
-      excerpt: 'The transformative combination creates a multi-platform content titan spanning global box-office franchises, television studios, and cutting-edge interactive animation technologies.',
-      imageUrl: '/images/news/paramount-skydance-merger-clears-regulatory-review-triggering-new-wave-of-hollywood-ip-deals.webp'
-    },
-    {
-      id: 'inv-1',
-      title: 'The AI Power Crunch: How Surging Data Center Demand Is Testing America’s Energy Capacity',
-      author: 'Carlos Mendoza & Astrid Holm',
-      authorRole: 'Investigative Projects Team',
-      readTime: '9 min read',
-      excerpt: 'A national investigation reveals how the explosive expansion of gigawatt-scale artificial intelligence compute clusters is colliding with aging electrical grids, sparking a fierce race for dedicated nuclear and geothermal energy contracts.',
-      imageUrl: '/images/news/the-ai-power-crunch-how-surging-data-center-demand-and-grid-congestion-are-testing-america-s-energy-capacity.webp'
-    }
-  ];
+  const essays = getHomepageLongReads().map(art => ({
+    id: art.id,
+    title: art.title,
+    author: art.author.name,
+    authorRole: art.author.role,
+    readTime: art.readTime,
+    excerpt: art.summary,
+    imageUrl: art.imageUrl
+  }));
 
   return (
     <section style={{ padding: '24px 0 32px 0' }}>
@@ -98,15 +86,10 @@ export default function WeekendLongReads() {
                 borderTop: '1px solid var(--border-rule)',
                 paddingTop: '8px'
               }}>
-                <div>
-                  <Link href={`/author/${getAuthorSlugFromName(item.author)}`} style={{ textDecoration: 'none' }}>
-                    <strong style={{ color: 'var(--text-primary)', display: 'block' }}>{item.author}</strong>
-                  </Link>
-                  <span style={{ fontSize: '0.64rem' }}>{item.authorRole}</span>
-                </div>
-                <span style={{ display: 'flex', alignItems: 'center', gap: '3px' }}>
-                  <Clock size={11} /> {item.readTime}
-                </span>
+                <Link href={`/author/${getAuthorSlugFromName(item.author)}`} style={{ fontWeight: 700, color: 'var(--text-primary)', textDecoration: 'none' }}>
+                  By {item.author} • {item.authorRole}
+                </Link>
+                <span>{item.readTime}</span>
               </div>
             </div>
           ))}

@@ -41,7 +41,7 @@ export default function CurvedBentoHero() {
   const wireFeed = WIRE_STORIES.slice(0, 2);
 
   // Bottom Highlights Grid (4 items with clean spacing)
-  const bottomHighlights = TRENDING_RANKED_ARTICLES.slice(0, 4);
+  
 
   return (
     <section style={{ padding: '12px 0 24px 0' }}>
@@ -230,54 +230,7 @@ export default function CurvedBentoHero() {
 
         </div>
 
-        {/* ================= BOTTOM HIGHLIGHTS MATRIX ================= */}
-        <div style={{
-          display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))',
-          gap: '20px',
-          borderTop: '2px solid var(--border-strong)',
-          paddingTop: '16px'
-        }}>
-          {bottomHighlights.map((art) => (
-            <div
-              key={art.id}
-              style={{
-                display: 'flex',
-                gap: '12px',
-                alignItems: 'flex-start'
-              }}
-            >
-              <Link href={`/article/${art.id}`} style={{ display: 'block', textDecoration: 'none' }}>
-                <div className="aura-img-wrap" style={{ width: '85px', height: '75px', flexShrink: 0 }}>
-                  <img src={art.imageUrl} alt={art.title} className="aura-card-img" />
-                </div>
-              </Link>
-
-              <div style={{ flex: 1 }}>
-                <span className="aura-pill" style={{ marginBottom: '3px' }}>
-                  {art.category}
-                </span>
-
-                <Link href={`/article/${art.id}`} style={{ textDecoration: 'none' }}>
-                  <h5 className="font-heading" style={{
-                    fontSize: '0.82rem',
-                    fontWeight: 800,
-                    lineHeight: 1.25,
-                    color: 'var(--text-primary)',
-                    marginBottom: '3px'
-                  }}>
-                    {art.title}
-                  </h5>
-                </Link>
-
-                <span style={{ fontSize: '0.64rem', color: 'var(--text-muted)' }}>
-                  By <Link href={`/author/${getAuthorSlugFromName(art.author.name)}`} style={{ color: 'var(--text-primary)', textDecoration: 'none', fontWeight: 700 }}>{art.author.name}</Link> • {art.readTime}
-                </span>
-              </div>
-            </div>
-          ))}
-        </div>
-
+        
       </div>
     </section>
   );

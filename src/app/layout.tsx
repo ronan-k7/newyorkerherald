@@ -17,6 +17,9 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     siteName: 'Newyorkerherald'
+  },
+  verification: {
+    google: '9KIyIylEdWO-tSAwTxG_XzyPo9VATx8TFc_7P-HdaCw'
   }
 };
 

@@ -71,7 +71,7 @@ export default function CurvedHeader({ activeCategory = 'All', onSelectCategory 
           <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '5px', fontWeight: 700, color: 'var(--text-primary)' }}>
               <span style={{ width: '6px', height: '6px', borderRadius: '0px', backgroundColor: 'var(--brand-primary)', display: 'inline-block' }} />
-              <span>{dateStr || 'Mon, Aug 17, 2026'}</span>
+              <span>{dateStr || 'Mon, Nov 2, 2026'}</span>
             </div>
             
             <div className="hidden-mobile" style={{ display: 'flex', alignItems: 'center', gap: '4px', color: 'var(--text-muted)' }}>

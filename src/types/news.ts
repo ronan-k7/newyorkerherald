@@ -87,6 +87,7 @@ export interface VideoItem {
   videoUrl: string;
   description: string;
   publishedAt: string;
+  showName?: string;
 }
 
 export interface PodcastEpisode {

@@ -2,11 +2,11 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { getAllArticles } from '@/data/newsData';
+import { getHomepageExecutiveBriefing } from '@/data/newsData';
 import { ListOrdered, ArrowRight, Zap, Clock } from 'lucide-react';
 
 export default function ExecutiveDigest() {
-  const articles = getAllArticles().slice(0, 8);
+  const articles = getHomepageExecutiveBriefing();
 
   return (
     <section style={{ padding: '24px 0 32px 0' }}>
@@ -19,7 +19,7 @@ export default function ExecutiveDigest() {
           </h3>
 
           <span style={{ fontSize: '0.72rem', color: 'var(--text-muted)', fontWeight: 600 }}>
-            8 Core Developments in 4 Minutes
+            4 Core Developments in 2 Minutes
           </span>
         </div>
 

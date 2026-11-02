@@ -44,6 +44,11 @@
   --border-rule: #E5E7EB;
   --border-subtle: #E5E7EB;
   --border-strong: #111827;
+  --border-hairline: #E5E7EB;
+  --border-glass: rgba(229, 231, 235, 0.6);
+  --accent-rose: #E11D48;
+  --accent-rose-light: #FFE4E6;
+  --radius-card: 4px;
 
   /* Subtle Smooth Radii on Media */
   --radius-xs: 2px;
@@ -93,6 +98,10 @@
   --border-rule: #1E2536;
   --border-subtle: #1E2536;
   --border-strong: #F9FAFB;
+  --border-hairline: #1E2536;
+  --border-glass: rgba(30, 37, 54, 0.6);
+  --accent-rose: #FB7185;
+  --accent-rose-light: rgba(251, 113, 133, 0.2);
 }
 
 /* Warm Linen Broadsheet Mode */
@@ -116,6 +125,10 @@
   --border-rule: #E5DEC9;
   --border-subtle: #E5DEC9;
   --border-strong: #1C1917;
+  --border-hairline: #E5DEC9;
+  --border-glass: rgba(229, 222, 201, 0.6);
+  --accent-rose: #E11D48;
+  --accent-rose-light: #FFE4E6;
 }
 
 /* Reset & Base */
@@ -395,6 +408,88 @@ html, body {
   height: 145px;
 }
 
+
+/* Broadsheet Section Grids */
+.photojournalism-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 24px;
+  gap: 24px;
+}
+
+.weekend-reads-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 32px;
+  gap: 32px;
+}
+
+.executive-digest-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-gap: 24px;
+  gap: 24px;
+}
+
+.department-split-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 24px;
+  gap: 24px;
+}
+
+.media-theater-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-gap: 24px;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.podcasts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-gap: 16px;
+  gap: 16px;
+}
+
+.opinion-stream-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-gap: 24px;
+  gap: 24px;
+}
+
+.hero-bottom-highlights {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-gap: 20px;
+  gap: 20px;
+  border-top: 2px solid var(--border-strong);
+  padding-top: 16px;
+}
+
+
+/* Department Portals System */
+.department-portals-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  grid-gap: 20px;
+  gap: 20px;
+}
+
+.department-portal-img {
+  height: 175px;
+  width: 100%;
+}
+
+.department-split-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 28px;
+  gap: 28px;
+}
+
 @media (max-width: 1024px) {
   .bento-hero-grid {
     grid-template-columns: repeat(12, 1fr);
@@ -451,14 +546,15 @@ html, body {
     height: 180px !important;
   }
 
-  /* Department Portals Grid on Mobile */
-  .department-portals-grid {
-    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)) !important;
-    gap: 12px !important;
+    /* Department Portals Grid on Mobile */
+  .department-portals-grid,
+  .department-split-grid {
+    grid-template-columns: 1fr !important;
+    gap: 18px !important;
   }
 
   .department-portal-img {
-    height: 95px !important;
+    height: 180px !important;
   }
 
   /* Two Column Asymmetrical Layouts to Single Column on Tablet/Mobile */
@@ -560,5 +656,19 @@ html, body {
   .footer-newsletter-box button {
     width: 100% !important;
   }
+
+  /* Mobile Responsive Grids - Full single-column flow with no horizontal overflow */
+  .photojournalism-grid,
+  .weekend-reads-grid,
+  .executive-digest-grid,
+  .department-split-grid,
+  .media-theater-grid,
+  .podcasts-grid,
+  .opinion-stream-grid,
+  .hero-bottom-highlights {
+    grid-template-columns: 1fr !important;
+    gap: 18px !important;
+  }
+
 }
 

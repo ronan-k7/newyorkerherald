@@ -2,36 +2,36 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { Camera, MapPin, ArrowRight } from 'lucide-react';
+import { Camera, MapPin } from 'lucide-react';
 
 export default function PhotojournalismGallery() {
   const photoEssays = [
     {
       id: 'photo-1',
-      title: 'Dawn Over the Golden Gate: Transit Fleet Electrification',
-      location: 'San Francisco, California',
-      photographer: 'Elena Rostova / Visuals Bureau',
-      date: 'Aug 16, 2026',
-      imageUrl: '/images/news/capitol-hill-intensifies-ai-oversight-as-frontier-labs-deploy-autonomous-agentic-software.webp',
-      caption: 'Automated electric transit ferries commence morning commute operations along the bay as technological corridors integrate renewable microgrids.'
+      title: 'Pacific Fleet Deployment: Dawn Flight Deck Operations',
+      location: 'San Diego Naval Station, California',
+      photographer: 'David Miller / Visuals Desk',
+      date: 'Nov 2, 2026',
+      imageUrl: '/images/news/white-house-orders-realignment-of-joint-military-exercises-and-pacific-deployments-amid-high-stakes-diplomacy.webp',
+      caption: 'Naval aviators conduct comprehensive pre-flight safety inspections on the carrier flight deck during scheduled Pacific maneuvers.'
     },
     {
       id: 'photo-2',
-      title: 'Geothermal Borehole Telemetry in the Yellowstone Volcanic Plateau',
-      location: 'Wyoming & Montana',
+      title: 'Mojave Desert Telemetry: Critical Minerals Field Testing',
+      location: 'Mountain Pass, California',
       photographer: 'Dr. Rebecca Foster / Science Field Desk',
-      date: 'Aug 15, 2026',
-      imageUrl: '/images/news/usgs-supervolcano-research-reveals-yellowstone-eruptions-occur-in-complex-multi-pulse-sequences.webp',
-      caption: 'Seismic imaging sensors deploy deep borehole telemetry to map subterranean magma chamber pressure dynamics in realtime.'
+      date: 'Nov 1, 2026',
+      imageUrl: '/images/news/bipartisan-congressional-coalition-finalizes-critical-minerals-strategic-stockpile-legislation.webp',
+      caption: 'Geological survey engineers monitor extraction purity sensors at a domestic rare-earth refining facility in San Bernardino County.'
     },
     {
       id: 'photo-3',
-      title: 'Starbase Cryogenic Assembly Bays and Orbital Launch Mounts',
-      location: 'Boca Chica, Texas',
-      photographer: 'Dr. Neil Campbell / Aerospace Desk',
-      date: 'Aug 14, 2026',
-      imageUrl: '/images/news/spacex-releases-landmark-financial-disclosures-as-starlink-orbital-network-surpasses-6-000-satellites.webp',
-      caption: 'Engineers inspect super-heavy cryogenic propellant transfer valves prior to high-altitude flight readiness tests.'
+      title: 'Metro Infrastructure Expansion Ahead of LA28 Games',
+      location: 'Los Angeles, California',
+      photographer: 'Elena Rostova / Visuals Bureau',
+      date: 'Nov 1, 2026',
+      imageUrl: '/images/news/la28-olympic-organizers-secure-multi-billion-dollar-founding-corporate-sponsorships-with-delta-honda.webp',
+      caption: 'Transit crews install high-speed automated signaling corridors connecting downtown transit hubs with future international sports venues.'
     }
   ];
 
@@ -51,11 +51,7 @@ export default function PhotojournalismGallery() {
         </div>
 
         {/* 3-Column Photo Essay Gallery */}
-        <div style={{
-          display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))',
-          gap: '24px'
-        }}>
+        <div className="photojournalism-grid">
           {photoEssays.map((item) => (
             <div
               key={item.id}
@@ -98,8 +94,8 @@ export default function PhotojournalismGallery() {
               <p style={{
                 fontSize: '0.76rem',
                 color: 'var(--text-secondary)',
-                lineHeight: 1.4,
-                marginBottom: '8px'
+                lineHeight: 1.45,
+                marginBottom: '10px'
               }}>
                 {item.caption}
               </p>
@@ -114,7 +110,9 @@ export default function PhotojournalismGallery() {
                 borderTop: '1px solid var(--border-rule)',
                 paddingTop: '6px'
               }}>
-                <span>Photo: {item.photographer}</span>
+                <span style={{ display: 'flex', alignItems: 'center', gap: '3px' }}>
+                  <Camera size={11} /> {item.photographer}
+                </span>
                 <span>{item.date}</span>
               </div>
             </div>

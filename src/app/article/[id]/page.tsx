@@ -261,9 +261,17 @@ export default function ArticleDetailPage() {
               color: 'var(--text-primary)',
               marginBottom: '36px'
             }}>
-              <p style={{ marginBottom: '18px' }}>
-                {article.body || article.summary}
-              </p>
+              {article.body ? (
+                article.body.split('\n\n').map((paragraph, pIdx) => (
+                  <p key={pIdx} style={{ marginBottom: '18px' }}>
+                    {paragraph}
+                  </p>
+                ))
+              ) : (
+                <>
+                  <p style={{ marginBottom: '18px' }}>
+                    {article.summary}
+                  </p>
 
               <p style={{ marginBottom: '20px' }}>
                 Senior policy advisers and technical analysts across the national security and industrial technology apparatus have underscored the strategic implications of these shifts. As regulatory frameworks adapt to unprecedented computing demands and geopolitical competition, institutional stakeholders are accelerating procurement cycles.
@@ -284,6 +292,8 @@ export default function ArticleDetailPage() {
                 &ldquo;The sheer scale of infrastructure deployment required over the next twenty-four months exceeds any peacetime industrial mobilization of the past four decades.&rdquo;
               </blockquote>
 
+              </>
+              )}
               <p style={{ marginBottom: '18px' }}>
                 Congressional testimony scheduled for later this month is expected to address cross-agency coordination, focusing specifically on supply chain resiliency, sovereign compute clusters, and long-term capital allocation strategies designed to safeguard domestic competitiveness.
               </p>
