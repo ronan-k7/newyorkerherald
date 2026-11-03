@@ -10,7 +10,8 @@ import {
   Clock,
   Calendar,
   Building2,
-  DollarSign
+  DollarSign,
+  ExternalLink
 } from 'lucide-react';
 import { useNews } from '@/context/NewsContext';
 
@@ -615,6 +616,99 @@ export default function AlinaHabbaSpecialDossierPage() {
                 ))}
               </div>
             </div>
+
+            {/* Primary Source References Box */}
+            <div style={{
+              backgroundColor: 'var(--bg-surface-elevated)',
+              border: '1px solid var(--border-hairline)',
+              borderRadius: 'var(--radius-sm)',
+              padding: '16px 18px',
+              boxShadow: '0 4px 14px rgba(0,0,0,0.03)'
+            }}>
+              <div style={{
+                display: 'flex',
+                alignItems: 'center',
+                gap: '6px',
+                marginBottom: '10px',
+                borderBottom: '1px solid var(--border-hairline)',
+                paddingBottom: '8px'
+              }}>
+                <ExternalLink size={13} color="var(--brand-primary)" />
+                <h4 className="font-heading" style={{
+                  fontSize: '0.78rem',
+                  fontWeight: 900,
+                  textTransform: 'uppercase',
+                  letterSpacing: '0.05em',
+                  color: 'var(--text-primary)',
+                  margin: 0
+                }}>
+                  Source References
+                </h4>
+              </div>
+
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+                <a
+                  href="https://news.meaww.com/trump-calls-former-lawyer-alina-habbas-50m-deal-not-acceptable"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{
+                    display: 'flex',
+                    alignItems: 'flex-start',
+                    gap: '8px',
+                    textDecoration: 'none',
+                    fontSize: '0.74rem',
+                    color: 'var(--text-primary)',
+                    lineHeight: 1.35,
+                    padding: '8px 10px',
+                    borderRadius: 'var(--radius-xs)',
+                    backgroundColor: 'var(--bg-canvas)',
+                    border: '1px solid var(--border-hairline)',
+                    transition: 'all 0.15s ease'
+                  }}
+                >
+                  <ExternalLink size={12} color="var(--text-muted)" style={{ marginTop: '2px', flexShrink: 0 }} />
+                  <div>
+                    <span style={{ fontWeight: 700, color: 'var(--brand-primary)', display: 'block' }}>
+                      MEA WorldWide (MEAWW)
+                    </span>
+                    <span style={{ color: 'var(--text-secondary)', fontSize: '0.7rem' }}>
+                      Trump Calls Former Lawyer Alina Habba’s $50M Deal ‘Not Acceptable’
+                    </span>
+                  </div>
+                </a>
+
+                <a
+                  href="https://rollcall.com/factbase/trump/transcript/donald-trump-press-gaggle-mar-a-lago-halloween-party-october-31-2026/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{
+                    display: 'flex',
+                    alignItems: 'flex-start',
+                    gap: '8px',
+                    textDecoration: 'none',
+                    fontSize: '0.74rem',
+                    color: 'var(--text-primary)',
+                    lineHeight: 1.35,
+                    padding: '8px 10px',
+                    borderRadius: 'var(--radius-xs)',
+                    backgroundColor: 'var(--bg-canvas)',
+                    border: '1px solid var(--border-hairline)',
+                    transition: 'all 0.15s ease'
+                  }}
+                >
+                  <ExternalLink size={12} color="var(--text-muted)" style={{ marginTop: '2px', flexShrink: 0 }} />
+                  <div>
+                    <span style={{ fontWeight: 700, color: 'var(--brand-primary)', display: 'block' }}>
+                      Roll Call / Factba.se
+                    </span>
+                    <span style={{ color: 'var(--text-secondary)', fontSize: '0.7rem' }}>
+                      Donald Trump Press Gaggle Transcript — Mar-a-Lago (October 31, 2026)
+                    </span>
+                  </div>
+                </a>
+              </div>
+            </div>
+
 
 
 
