@@ -5,11 +5,11 @@ import { useParams } from 'next/navigation';
 import Link from 'next/link';
 import CurvedHeader from '@/components/Header/CurvedHeader';
 import CurvedFooter from '@/components/Footer/CurvedFooter';
+import ArticleShareMenu from '@/components/Common/ArticleShareMenu';
 import { getArticleById, getAllArticles, AUTHORS_DATA, getAuthorSlugFromName, getArticleUrl } from '@/data/newsData';
 import { useNews } from '@/context/NewsContext';
 import { 
   Clock, 
-  Share2, 
   ArrowLeft, 
   Plus, 
   Check, 
@@ -23,8 +23,13 @@ export default function ArticleDetailPage() {
   const articleId = (params?.slug || params?.id) as string;
   const article = getArticleById(articleId);
 
-  const [copied, setCopied] = useState(false);
   const [isFollowingAuthor, setIsFollowingAuthor] = useState(false);
+
+  useEffect(() => {
+    if (articleId === 'the-vanity-of-alina-habba-mildon') {
+      window.location.replace('/us/the-vanity-of-alina-habba-mildon');
+    }
+  }, [articleId]);
 
   if (!article) {
     return (
@@ -49,13 +54,7 @@ export default function ArticleDetailPage() {
     a => a.name.toLowerCase().includes(article.author.name.toLowerCase()) || article.author.name.toLowerCase().includes(a.name.toLowerCase())
   );
 
-  const handleShare = () => {
-    if (typeof window !== 'undefined') {
-      navigator.clipboard.writeText(window.location.href);
-      setCopied(true);
-      setTimeout(() => setCopied(false), 3000);
-    }
-  };
+  const isAlinaHabba = article.id === 'the-vanity-of-alina-habba-mildon';
 
   return (
     <main style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
@@ -96,34 +95,23 @@ export default function ArticleDetailPage() {
               </span>
 
               <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                
-
-                <button
-                  onClick={handleShare}
-                  style={{
-                    display: 'flex',
-                    alignItems: 'center',
-                    gap: '4px',
-                    fontSize: '0.7rem',
-                    fontWeight: 600,
-                    color: 'var(--text-muted)'
-                  }}
-                >
-                  <Share2 size={12} />
-                  <span>{copied ? 'Copied' : 'Share'}</span>
-                </button>
+                <ArticleShareMenu 
+                  title={article.title}
+                  summary={article.summary}
+                  url={getArticleUrl(article)}
+                />
               </div>
             </div>
 
-            {/* Left Aligned Main Headline */}
+            {/* Headline */}
             <h1 className="font-heading" style={{
               fontSize: 'clamp(1.85rem, 3.2vw, 2.7rem)',
               fontWeight: 900,
               lineHeight: 1.14,
               color: 'var(--text-primary)',
               letterSpacing: '-0.035em',
-              margin: '0 0 12px 0',
-              textAlign: 'left'
+              margin: isAlinaHabba ? '0 auto 12px auto' : '0 0 12px 0',
+              textAlign: isAlinaHabba ? 'center' : 'left'
             }}>
               {article.title}
             </h1>
@@ -133,8 +121,8 @@ export default function ArticleDetailPage() {
               fontSize: '1.05rem',
               color: 'var(--text-secondary)',
               lineHeight: 1.48,
-              margin: '0 0 16px 0',
-              textAlign: 'left'
+              margin: isAlinaHabba ? '0 auto 16px auto' : '0 0 16px 0',
+              textAlign: isAlinaHabba ? 'center' : 'left'
             }}>
               {article.summary}
             </p>
@@ -240,6 +228,34 @@ export default function ArticleDetailPage() {
               <p style={{ marginBottom: '18px' }}>
                 Congressional testimony scheduled for later this month is expected to address cross-agency coordination, focusing specifically on supply chain resiliency, sovereign compute clusters, and long-term capital allocation strategies designed to safeguard domestic competitiveness.
               </p>
+            </div>
+
+            {/* End of Article Share Bar */}
+            <div style={{
+              marginTop: '36px',
+              paddingTop: '20px',
+              borderTop: '1px solid var(--border-rule)',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'space-between',
+              flexWrap: 'wrap',
+              gap: '14px'
+            }}>
+              <div>
+                <span style={{ fontSize: '0.74rem', fontWeight: 800, color: 'var(--text-primary)', textTransform: 'uppercase', letterSpacing: '0.05em', display: 'block' }}>
+                  Share this story
+                </span>
+                <span style={{ fontSize: '0.7rem', color: 'var(--text-muted)' }}>
+                  Distribute this dispatch to social platforms and discussion networks.
+                </span>
+              </div>
+              <ArticleShareMenu 
+                title={article.title}
+                summary={article.summary}
+                url={getArticleUrl(article)}
+                triggerText="Share Story"
+                align="right"
+              />
             </div>
 
           </article>

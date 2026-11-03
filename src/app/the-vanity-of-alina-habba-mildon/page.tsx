@@ -1,15 +1,14 @@
 'use client';
 
-import React, { useState } from 'react';
+import React from 'react';
 import Link from 'next/link';
 import CurvedHeader from '@/components/Header/CurvedHeader';
 import CurvedFooter from '@/components/Footer/CurvedFooter';
+import ArticleShareMenu from '@/components/Common/ArticleShareMenu';
 import { 
   ArrowLeft, 
-  Share2, 
   Clock, 
   Calendar, 
-  Check, 
   Building2, 
   DollarSign, 
   FileText
@@ -17,21 +16,12 @@ import {
 import { useNews } from '@/context/NewsContext';
 
 export default function AlinaHabbaSpecialDossierPage() {
-  const [copied, setCopied] = useState(false);
   const articleId = 'the-vanity-of-alina-habba-mildon';
   React.useEffect(() => {
     if (typeof window !== 'undefined' && window.location.pathname === '/the-vanity-of-alina-habba-mildon') {
       window.history.replaceState(null, '', '/us/the-vanity-of-alina-habba-mildon');
     }
   }, []);
-
-  const handleShare = () => {
-    if (typeof window !== 'undefined') {
-      navigator.clipboard.writeText(window.location.href);
-      setCopied(true);
-      setTimeout(() => setCopied(false), 2500);
-    }
-  };
 
   const timelineEvents = [
     {
@@ -114,80 +104,77 @@ export default function AlinaHabbaSpecialDossierPage() {
               </span>
             </div>
             <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-              
-              <button
-                onClick={handleShare}
-                style={{
-                  display: 'flex', alignItems: 'center', gap: '5px',
-                  fontSize: '0.72rem', fontWeight: 700, padding: '5px 11px',
-                  borderRadius: 'var(--radius-xs)',
-                  border: '1px solid var(--border-hairline)',
-                  backgroundColor: 'var(--bg-surface-elevated)',
-                  color: 'var(--text-primary)',
-                  cursor: 'pointer'
-                }}
-              >
-                {copied ? <Check size={12} color="var(--accent-emerald)" /> : <Share2 size={12} />}
-                <span>{copied ? 'Copied' : 'Share'}</span>
-              </button>
+              <ArticleShareMenu 
+                title="The Vanity of Alina Habba Mildon: Beauty, Power, Ambition and the Price of Loyalty"
+                url="/us/the-vanity-of-alina-habba-mildon"
+              />
             </div>
           </div>
 
-          {/* Headline */}
-          <h1 className="font-heading" style={{
-            fontSize: 'clamp(2.6rem, 5vw, 4rem)',
-            fontWeight: 900,
-            color: 'var(--text-primary)',
-            lineHeight: 1.06,
-            letterSpacing: '-0.04em',
-            margin: '0 0 18px 0',
-            maxWidth: '900px'
-          }}>
-            The Vanity of Alina Habba Mildon
-          </h1>
+          {/* Centered Editorial Header Content */}
+          <div style={{ textAlign: 'center', maxWidth: '980px', margin: '0 auto' }}>
+            {/* Headline */}
+            <h1 className="font-heading" style={{
+              fontSize: 'clamp(2.6rem, 5vw, 4rem)',
+              fontWeight: 900,
+              color: 'var(--text-primary)',
+              lineHeight: 1.06,
+              letterSpacing: '-0.04em',
+              margin: '0 auto 18px auto',
+              textAlign: 'center',
+              maxWidth: '960px'
+            }}>
+              The Vanity of Alina Habba Mildon
+            </h1>
 
-          {/* Subtitle */}
-          <p style={{
-            fontSize: 'clamp(1.1rem, 1.6vw, 1.35rem)',
-            color: 'var(--brand-primary)',
-            fontWeight: 700,
-            lineHeight: 1.35,
-            letterSpacing: '-0.015em',
-            margin: '0 0 16px 0',
-            maxWidth: '820px'
-          }}>
-            Beauty, Power, Ambition and the Price of Loyalty: From the White House to the Herrera Velutini Banking Dynasty
-          </p>
+            {/* Subtitle */}
+            <p style={{
+              fontSize: 'clamp(1.1rem, 1.6vw, 1.35rem)',
+              color: 'var(--brand-primary)',
+              fontWeight: 700,
+              lineHeight: 1.35,
+              letterSpacing: '-0.015em',
+              margin: '0 auto 16px auto',
+              textAlign: 'center',
+              maxWidth: '860px'
+            }}>
+              Beauty, Power, Ambition and the Price of Loyalty: From the White House to the Herrera Velutini Banking Dynasty
+            </p>
 
-          {/* Deck */}
-          <p style={{
-            fontSize: '1.02rem',
-            color: 'var(--text-secondary)',
-            lineHeight: 1.65,
-            margin: '0 0 20px 0',
-            maxWidth: '780px'
-          }}>
-            An exhaustive examination into the extraordinary $50 million legal and advisory agreement between Donald Trump&apos;s former personal attorney and Concord Partners, the high-altitude corporate summits in London, a whirlwind $10 million social reinvention, and the sudden presidential rupture that reverberated from Mar-a-Lago to European banking chambers.
-          </p>
+            {/* Deck / Summary */}
+            <p style={{
+              fontSize: '1.05rem',
+              color: 'var(--text-secondary)',
+              lineHeight: 1.65,
+              margin: '0 auto 22px auto',
+              textAlign: 'center',
+              maxWidth: '820px'
+            }}>
+              An exhaustive examination into the extraordinary $50 million legal and advisory agreement between Donald Trump&apos;s former personal attorney and Concord Partners, the high-altitude corporate summits in London, a whirlwind $10 million social reinvention, and the sudden presidential rupture that reverberated from Mar-a-Lago to European banking chambers.
+            </p>
 
-          {/* Byline */}
-          <div style={{
-            display: 'flex',
-            alignItems: 'center',
-            gap: '8px',
-            flexWrap: 'wrap',
-            fontSize: '0.78rem',
-            color: 'var(--text-muted)',
-            paddingBottom: '20px',
-            borderBottom: '1px solid var(--border-hairline)'
-          }}>
-            <span style={{ fontWeight: 800, color: 'var(--text-primary)', textTransform: 'uppercase', letterSpacing: '0.04em' }}>
-              By Newyorkerherald Staff
-            </span>
-            <span>&bull;</span>
-            <span>Special Dossier &amp; Investigative Bureau</span>
-            <span>&bull;</span>
-            <span>Published November 2026</span>
+            {/* Byline */}
+            <div style={{
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              gap: '8px',
+              flexWrap: 'wrap',
+              fontSize: '0.78rem',
+              color: 'var(--text-muted)',
+              paddingBottom: '20px',
+              borderBottom: '1px solid var(--border-hairline)',
+              margin: '0 auto',
+              textAlign: 'center'
+            }}>
+              <span style={{ fontWeight: 800, color: 'var(--text-primary)', textTransform: 'uppercase', letterSpacing: '0.04em' }}>
+                By Newyorkerherald Staff
+              </span>
+              <span>&bull;</span>
+              <span>Special Dossier &amp; Investigative Bureau</span>
+              <span>&bull;</span>
+              <span>Published November 2026</span>
+            </div>
           </div>
 
           {/* Hero Image — Full Width, Completely Visible */}
@@ -543,6 +530,33 @@ export default function AlinaHabbaSpecialDossierPage() {
               }}>
                 &ldquo;In the end, vanity may attract attention, ambition may create opportunity and power may command influence. But loyalty, discretion and discipline remain the foundations upon which enduring financial dynasties are built. And perhaps that is the most important lesson of the controversy surrounding Alina Habba Mildon: power can be acquired in a moment, but trust takes generations to build.&rdquo;
               </p>
+            </div>
+
+            {/* End of Dossier Share Action */}
+            <div style={{
+              marginTop: '40px',
+              paddingTop: '24px',
+              borderTop: '1px solid var(--border-rule)',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'space-between',
+              flexWrap: 'wrap',
+              gap: '16px'
+            }}>
+              <div>
+                <div style={{ fontSize: '0.78rem', fontWeight: 800, textTransform: 'uppercase', letterSpacing: '0.04em', color: 'var(--text-primary)' }}>
+                  Share this Special Dossier
+                </div>
+                <div style={{ fontSize: '0.72rem', color: 'var(--text-muted)' }}>
+                  Distribute this investigation across your social and professional networks.
+                </div>
+              </div>
+              <ArticleShareMenu
+                title="The Vanity of Alina Habba Mildon: Beauty, Power, Ambition and the Price of Loyalty"
+                url="/us/the-vanity-of-alina-habba-mildon"
+                triggerText="Share Dossier"
+                align="right"
+              />
             </div>
 
           </article>

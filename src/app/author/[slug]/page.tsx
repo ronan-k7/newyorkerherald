@@ -5,6 +5,7 @@ import { useParams } from 'next/navigation';
 import Link from 'next/link';
 import CurvedHeader from '@/components/Header/CurvedHeader';
 import CurvedFooter from '@/components/Footer/CurvedFooter';
+import ArticleShareMenu from '@/components/Common/ArticleShareMenu';
 import { AUTHORS, AUTHORS_DATA, getAllArticles, getArticleUrl } from '@/data/newsData';
 import { 
   Award, 
@@ -160,23 +161,7 @@ export default function AuthorProfilePage() {
                   <span>{isFollowing ? 'Following Byline' : 'Follow Byline'}</span>
                 </button>
 
-                <button
-                  onClick={handleShare}
-                  style={{
-                    display: 'flex',
-                    alignItems: 'center',
-                    gap: '4px',
-                    border: '1px solid var(--border-rule)',
-                    padding: '7px 12px',
-                    borderRadius: '0px',
-                    fontSize: '0.74rem',
-                    fontWeight: 600,
-                    color: 'var(--text-primary)'
-                  }}
-                >
-                  <Share2 size={12} />
-                  <span>{copied ? 'Copied' : 'Share'}</span>
-                </button>
+                <ArticleShareMenu title={author ? `${author.name} — Editorial Byline & Profile` : "Editorial Byline"} triggerText="Share Profile" align="right" />
               </div>
             </div>
 
