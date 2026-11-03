@@ -287,6 +287,47 @@ As the Federal Energy Regulatory Commission (FERC) convenes national stakeholder
 };
 
 export const CATEGORY_ARTICLES: Record<string, Article[]> = {
+  'Investigation': [
+    {
+        "id": "the-vanity-of-alina-habba-mildon",
+        "title": "The Vanity of Alina Habba Mildon: Beauty, Power, Ambition and the Price of Loyalty",
+        "kicker": "SPECIAL INVESTIGATIVE DOSSIER • EXCLUSIVE REPORT",
+        "summary": "From the White House inner circle to the 240-year-old Herrera Velutini banking dynasty: an exhaustive investigation into Alina Habba’s contested $50 million advisory agreement, her whirlwind reinvention, and Donald Trump’s dramatic Halloween intervention at Mar-a-Lago.",
+        "body": "Alina Habba was once a symbol of beauty, power and strength. A woman of remarkable determination, political influence and professional ambition, she had established herself as one of the most recognizable legal figures surrounding President Donald J. Trump. Her career represented confidence, resilience and loyalty, qualities that appeared to position her for an extraordinary future beyond public service.\n\nYet behind the glamour of Washington, the prestige of presidential proximity and the opportunities of international finance, another story was beginning to unfold. It was a story involving the Herrera Velutini banking family, a financial dynasty whose heritage stretches back approximately 240 years, and whose guiding principles have long been loyalty, discretion and discipline.",
+        "category": "Investigation",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Newyorkerherald Staff",
+            "role": "Editorial Board & Special Dossier Unit",
+            "avatar": "/images/authors/sarah_mitchell.jpg"
+        },
+        "publishedAt": "2h ago",
+        "readTime": "12 min read",
+        "imageUrl": "/images/news/alina-habba-image.webp",
+        "imageCaption": "Alina Habba Mildon, former senior legal adviser, at the center of an unfolding international banking inquiry.",
+        "imageCredit": "Newyorkerherald Special Dossier / Archive",
+        "isLead": false,
+        "isInvestigative": true,
+        "commentCount": 68,
+        "bullets": [
+            "Investigation traces Habba Mildon’s transition from senior presidential adviser to legal counsel for the 240-year-old Herrera Velutini banking dynasty.",
+            "Four-year, $50M Concord Partners agreement encompassed oversight of 20+ international law firms and $100M annual legal and advisory budgets.",
+            "President Trump’s dramatic Halloween intervention at Mar-a-Lago branded the arrangement unacceptable, bringing immense scrutiny to all parties."
+        ],
+        "tags": [
+            "Investigation",
+            "Alina Habba",
+            "Herrera Velutini",
+            "Donald Trump",
+            "Banking Dynasty",
+            "White House",
+            "Special Dossier"
+        ]
+    }
+  ],
   'U.S. Politics': [
     {
         "id": "supreme-court-rejects-emergency-challenge-over-20-000-california-ballots-as-judge-bars-federal-election-interference",
@@ -462,6 +503,42 @@ In Washington, national security officials convened in the White House Situation
   ],
 
   'Business & Economy': [
+    {
+        "id": "oracle-prices-historic-20-billion-debt-and-equity-offering-to-finance-massive-ai-cloud-data-center-expansion",
+        "title": "Oracle Prices Historic $20 Billion Debt and Equity Offering to Finance Massive AI Cloud Data Center Expansion",
+        "kicker": "WALL STREET & AI CAPITAL • MEGA FINANCING",
+        "summary": "Oracle Corporation priced a concurrent public capital raise comprising $9.9 billion in common stock and $10 billion in senior investment-grade notes to fund hyperscale compute infrastructure and secure proprietary AI cloud contracts.",
+        "body": "AUSTIN, Texas & NEW YORK — In one of the largest corporate capital-raising campaigns in modern technology history, enterprise software and cloud infrastructure giant Oracle Corporation formally announced the pricing Monday of a massive $19.9 billion concurrent public offering. The colossal financial transaction—consisting of $9.9 billion in newly issued common stock and $10 billion in senior investment-grade notes spanning four maturity tranches—is slated to close on Wednesday, November 4, providing Oracle with an immense balance sheet war chest to finance its accelerating artificial intelligence cloud infrastructure expansion.\n\nAccording to regulatory filings submitted to the Securities and Exchange Commission, the proceeds will be allocated directly toward funding capital expenditures for next-generation AI data centers, acquiring tens of thousands of liquid-cooled high-bandwidth graphics processing units, repaying maturing commercial paper debt, and financing strategic enterprise software initiatives. The equity portion of the offering was priced at an institutional discount of less than two percent against Oracle’s prior closing valuation, underscoring intense institutional demand from global asset managers and sovereign wealth funds.\n\nOracle’s aggressive capital mobilization comes as the cloud conglomerate, founded by billionaire Larry Ellison, experiences unprecedented demand for its Oracle Cloud Infrastructure (OCI) Supercluster architecture. Over the past four quarters, Oracle has secured landmark cloud hosting and computing contracts with leading generative AI labs, federal defense entities, and Fortune 500 financial institutions, positioning OCI as a primary high-performance alternative to traditional hyperscalers such as Amazon Web Services and Microsoft Azure.\n\nWall Street investment banks serving as joint lead book-running managers noted that the debt tranches, maturing between 2031 and 2056, were oversubscribed by more than three times the initial issuance volume despite market volatility preceding the U.S. midterm elections. Fixed-income investors were drawn to Oracle’s strong operational cash flow profile, robust enterprise recurring subscription base, and strategic positioning at the heart of the global enterprise AI compute buildout.\n\nIndustry analysts emphasize that Oracle’s mega-offering marks a pivotal moment in corporate finance, illustrating how the extraordinary capital intensity of modern artificial intelligence compute requires legacy enterprise technology leaders to leverage both public equity markets and institutional bond markets simultaneously to maintain competitive technological parity against multi-trillion-dollar competitors.",
+        "category": "Business",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Newyorkerherald Staff",
+            "role": "Editorial Board & Newsroom Desks",
+            "avatar": "/images/authors/sarah_mitchell.jpg"
+        },
+        "publishedAt": "3h ago",
+        "readTime": "6 min read",
+        "imageUrl": "/images/news/oracle-prices-historic-20-billion-debt-and-equity-offering-to-finance-massive-ai-cloud-data-center-expansion.webp",
+        "imageCaption": "Oracle corporate operations hub in Austin, Texas, where the software giant finalized its landmark $20 billion public capital raise.",
+        "imageCredit": "Bloomberg / Michael Short",
+        "commentCount": 22,
+        "bullets": [
+            "Oracle Corporation finalizes $19.9 billion concurrent offering: $9.9B common stock and $10B senior debt notes.",
+            "Capital allocated toward hyperscale OCI Superclusters, high-performance GPU acquisitions, and general corporate debt retirement.",
+            "Institutional order book oversubscribed by three times as enterprise demand for specialized AI training clusters surges."
+        ],
+        "tags": [
+            "Business",
+            "Oracle",
+            "AI Infrastructure",
+            "Wall Street",
+            "Cloud Computing",
+            "Corporate Finance"
+        ]
+    },
     {
       id: 'university-engineering-co-op-students-earn-record-99-5m-as-tech-employers-compete-for-applied-talent',
       title: 'University Engineering Co-Op Students Earn Record $99.5 Million as Industrial Tech Employers Compete for Applied Talent',

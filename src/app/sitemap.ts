@@ -5,7 +5,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://newyorkerherald.com';
   const now = new Date();
 
-  // Static core routes
+  // 1. Core Institutional & Static Pages
   const staticRoutes: MetadataRoute.Sitemap = [
     {
       url: `${baseUrl}`,
@@ -16,7 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     {
       url: `${baseUrl}/the-vanity-of-alina-habba-mildon`,
       lastModified: now,
-      changeFrequency: 'daily',
+      changeFrequency: 'hourly',
       priority: 0.95,
     },
     {
@@ -49,21 +49,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'yearly',
       priority: 0.4,
     },
-    {
-      url: `${baseUrl}/privacy`,
-      lastModified: now,
-      changeFrequency: 'yearly',
-      priority: 0.2,
-    },
-    {
-      url: `${baseUrl}/terms`,
-      lastModified: now,
-      changeFrequency: 'yearly',
-      priority: 0.2,
-    },
   ];
 
-  // Category pages
+  // 2. All 8 Category Hub Pages
   const categoryRoutes: MetadataRoute.Sitemap = Object.keys(CATEGORIES_META).map((slug) => ({
     url: `${baseUrl}/category/${slug}`,
     lastModified: now,
@@ -71,7 +59,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9,
   }));
 
-  // Author pages
+  // 3. Author / Editorial Profile Hubs
   const authorRoutes: MetadataRoute.Sitemap = Object.keys(AUTHORS_DATA).map((slug) => ({
     url: `${baseUrl}/author/${slug}`,
     lastModified: now,
@@ -79,7 +67,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  // Article pages (unique slugs)
+  // 4. All Published News & Investigative Articles (Unique Slugs)
   const articles = getAllArticles();
   const seenArticles = new Set<string>();
   const articleRoutes: MetadataRoute.Sitemap = [];
@@ -88,7 +76,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     if (!article.id || seenArticles.has(article.id)) continue;
     seenArticles.add(article.id);
 
-    // Try parsing article published date if available
     let articleDate = now;
     if (article.publishedAt) {
       const parsed = new Date(article.publishedAt);
