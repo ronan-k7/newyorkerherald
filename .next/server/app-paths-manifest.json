@@ -1,6 +1,4 @@
 {
-  "/api/bookmarks/route": "app/api/bookmarks/route.js",
-  "/api/auth/me/route": "app/api/auth/me/route.js",
-  "/_not-found/page": "app/_not-found/page.js",
-  "/page": "app/page.js"
+  "/sitemap.xml/route": "app/sitemap.xml/route.js",
+  "/robots.txt/route": "app/robots.txt/route.js"
 }
