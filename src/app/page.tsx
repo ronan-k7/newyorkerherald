@@ -8,7 +8,6 @@ import CurvedDepartmentPortals from '@/components/CategorySection/CurvedDepartme
 import InvestigativeDossier from '@/components/Sections/InvestigativeDossier';
 import PhotojournalismGallery from '@/components/Sections/PhotojournalismGallery';
 import WeekendLongReads from '@/components/Sections/WeekendLongReads';
-import CurvedMediaTheater from '@/components/Multimedia/CurvedMediaTheater';
 import CurvedOpinionStream from '@/components/Opinion/CurvedOpinionStream';
 import CurvedFooter from '@/components/Footer/CurvedFooter';
 
@@ -36,10 +35,7 @@ export default function HomePage() {
         {/* 6. Weekend Long-Reads & Literary Essays */}
         <WeekendLongReads />
 
-        {/* 7. Multimedia: Visual Documentaries & Audio Briefs */}
-        <CurvedMediaTheater />
-
-        {/* 8. Opinion: Columns & Perspectives */}
+        {/* 7. Opinion: Columns & Perspectives */}
         <CurvedOpinionStream />
       </main>
 
