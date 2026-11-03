@@ -17,10 +17,32 @@ import { useNews } from '@/context/NewsContext';
 
 export default function AlinaHabbaSpecialDossierPage() {
   const articleId = 'the-vanity-of-alina-habba-mildon';
+  const sidebarRef = React.useRef<HTMLElement>(null);
+  const [stickyTop, setStickyTop] = React.useState(60);
+
   React.useEffect(() => {
     if (typeof window !== 'undefined' && window.location.pathname === '/the-vanity-of-alina-habba-mildon') {
       window.history.replaceState(null, '', '/us/the-vanity-of-alina-habba-mildon');
     }
+  }, []);
+
+  React.useEffect(() => {
+    const updateSticky = () => {
+      if (!sidebarRef.current) return;
+      const sidebarHeight = sidebarRef.current.offsetHeight;
+      const vh = window.innerHeight;
+      // If sidebar fits comfortably in viewport with header (44px) + margin, stick to 60px.
+      // If viewport is shorter, stick such that the bottom (source section) is cleanly visible.
+      if (sidebarHeight + 80 <= vh) {
+        setStickyTop(60);
+      } else {
+        setStickyTop(Math.min(60, vh - sidebarHeight - 24));
+      }
+    };
+
+    updateSticky();
+    window.addEventListener('resize', updateSticky);
+    return () => window.removeEventListener('resize', updateSticky);
   }, []);
 
   const timelineEvents = [
@@ -536,19 +558,18 @@ export default function AlinaHabbaSpecialDossierPage() {
 
           </article>
 
-          {/* ================= RIGHT: STICKY TIMELINE & QUICK LOOKUP ================= */}
+          {/* ================= RIGHT: STICKY TIMELINE & SOURCES ================= */}
           <aside
+            ref={sidebarRef}
             className="sticky-dossier-sidebar"
             style={{
               position: 'sticky',
-              top: '60px',
+              top: `${stickyTop}px`,
               alignSelf: 'start',
-              maxHeight: 'calc(100vh - 76px)',
-              overflowY: 'auto',
               display: 'flex',
               flexDirection: 'column',
-              gap: '20px',
-              scrollbarWidth: 'thin'
+              gap: '14px',
+              transition: 'top 0.2s ease'
             }}
           >
 
@@ -557,13 +578,13 @@ export default function AlinaHabbaSpecialDossierPage() {
               backgroundColor: 'var(--bg-surface-elevated)',
               border: '1px solid var(--border-hairline)',
               borderRadius: 'var(--radius-sm)',
-              padding: '20px',
+              padding: '16px 18px',
               boxShadow: '0 4px 16px rgba(0,0,0,0.03)'
             }}>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '16px', borderBottom: '1px solid var(--border-hairline)', paddingBottom: '12px' }}>
-                <Calendar size={16} color="var(--brand-primary)" />
+              <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '12px', borderBottom: '1px solid var(--border-hairline)', paddingBottom: '10px' }}>
+                <Calendar size={15} color="var(--brand-primary)" />
                 <h3 className="font-heading" style={{
-                  fontSize: '0.96rem',
+                  fontSize: '0.92rem',
                   fontWeight: 900,
                   textTransform: 'uppercase',
                   letterSpacing: '0.04em',
@@ -575,24 +596,24 @@ export default function AlinaHabbaSpecialDossierPage() {
               </div>
 
               {/* Timeline Items */}
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', position: 'relative' }}>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '12px', position: 'relative' }}>
 
                 {/* Vertical Hairline Rule */}
                 <div style={{
                   position: 'absolute',
-                  top: '8px',
-                  bottom: '8px',
-                  left: '7px',
+                  top: '6px',
+                  bottom: '6px',
+                  left: '6px',
                   width: '2px',
                   backgroundColor: 'var(--border-hairline)'
                 }} />
 
                 {timelineEvents.map((ev, i) => (
-                  <div key={i} style={{ display: 'flex', gap: '14px', position: 'relative', zIndex: 1 }}>
+                  <div key={i} style={{ display: 'flex', gap: '12px', position: 'relative', zIndex: 1 }}>
                     {/* Node Dot */}
                     <div style={{
-                      width: '16px',
-                      height: '16px',
+                      width: '14px',
+                      height: '14px',
                       borderRadius: '50%',
                       backgroundColor: i === timelineEvents.length - 1 ? 'var(--brand-primary)' : 'var(--bg-surface)',
                       border: '2px solid var(--brand-primary)',
@@ -601,7 +622,7 @@ export default function AlinaHabbaSpecialDossierPage() {
                     }} />
 
                     {/* Event Content */}
-                    <div>
+                    <div style={{ minWidth: 0, flex: 1 }}>
                       <div style={{ display: 'flex', alignItems: 'center', gap: '6px', marginBottom: '2px', flexWrap: 'wrap' }}>
                         <span style={{ fontSize: '0.78rem', fontWeight: 900, color: 'var(--text-primary)' }}>
                           {ev.year}
@@ -611,11 +632,11 @@ export default function AlinaHabbaSpecialDossierPage() {
                         </span>
                       </div>
 
-                      <div style={{ fontSize: '0.82rem', fontWeight: 800, color: 'var(--brand-primary)', marginBottom: '4px' }}>
+                      <div style={{ fontSize: '0.8rem', fontWeight: 800, color: 'var(--brand-primary)', marginBottom: '3px' }}>
                         {ev.title}
                       </div>
 
-                      <p style={{ fontSize: '0.74rem', color: 'var(--text-secondary)', lineHeight: 1.45, margin: 0 }}>
+                      <p style={{ fontSize: '0.73rem', color: 'var(--text-secondary)', lineHeight: 1.4, margin: 0 }}>
                         {ev.description}
                       </p>
                     </div>
@@ -629,16 +650,16 @@ export default function AlinaHabbaSpecialDossierPage() {
               backgroundColor: 'var(--bg-surface-elevated)',
               border: '1px solid var(--border-hairline)',
               borderRadius: 'var(--radius-sm)',
-              padding: '16px 18px',
+              padding: '14px 16px',
               boxShadow: '0 4px 14px rgba(0,0,0,0.03)'
             }}>
               <div style={{
                 display: 'flex',
                 alignItems: 'center',
                 gap: '6px',
-                marginBottom: '10px',
+                marginBottom: '8px',
                 borderBottom: '1px solid var(--border-hairline)',
-                paddingBottom: '8px'
+                paddingBottom: '6px'
               }}>
                 <ExternalLink size={13} color="var(--brand-primary)" />
                 <h4 className="font-heading" style={{
@@ -653,7 +674,7 @@ export default function AlinaHabbaSpecialDossierPage() {
                 </h4>
               </div>
 
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
                 <a
                   href="https://news.meaww.com/trump-calls-former-lawyer-alina-habbas-50m-deal-not-acceptable"
                   target="_blank"
@@ -663,10 +684,10 @@ export default function AlinaHabbaSpecialDossierPage() {
                     alignItems: 'flex-start',
                     gap: '8px',
                     textDecoration: 'none',
-                    fontSize: '0.74rem',
+                    fontSize: '0.72rem',
                     color: 'var(--text-primary)',
                     lineHeight: 1.35,
-                    padding: '8px 10px',
+                    padding: '6px 8px',
                     borderRadius: 'var(--radius-xs)',
                     backgroundColor: 'var(--bg-canvas)',
                     border: '1px solid var(--border-hairline)',
@@ -678,7 +699,7 @@ export default function AlinaHabbaSpecialDossierPage() {
                     <span style={{ fontWeight: 700, color: 'var(--brand-primary)', display: 'block' }}>
                       MEA WorldWide (MEAWW)
                     </span>
-                    <span style={{ color: 'var(--text-secondary)', fontSize: '0.7rem' }}>
+                    <span style={{ color: 'var(--text-secondary)', fontSize: '0.68rem' }}>
                       Trump Calls Former Lawyer Alina Habba’s $50M Deal ‘Not Acceptable’
                     </span>
                   </div>
@@ -693,10 +714,10 @@ export default function AlinaHabbaSpecialDossierPage() {
                     alignItems: 'flex-start',
                     gap: '8px',
                     textDecoration: 'none',
-                    fontSize: '0.74rem',
+                    fontSize: '0.72rem',
                     color: 'var(--text-primary)',
                     lineHeight: 1.35,
-                    padding: '8px 10px',
+                    padding: '6px 8px',
                     borderRadius: 'var(--radius-xs)',
                     backgroundColor: 'var(--bg-canvas)',
                     border: '1px solid var(--border-hairline)',
@@ -708,16 +729,13 @@ export default function AlinaHabbaSpecialDossierPage() {
                     <span style={{ fontWeight: 700, color: 'var(--brand-primary)', display: 'block' }}>
                       Roll Call / Factba.se
                     </span>
-                    <span style={{ color: 'var(--text-secondary)', fontSize: '0.7rem' }}>
+                    <span style={{ color: 'var(--text-secondary)', fontSize: '0.68rem' }}>
                       Donald Trump Press Gaggle Transcript — Mar-a-Lago (October 31, 2026)
                     </span>
                   </div>
                 </a>
               </div>
             </div>
-
-
-
 
           </aside>
 

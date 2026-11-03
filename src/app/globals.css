@@ -701,10 +701,8 @@ html, body {
   position: sticky;
   top: 60px;
   align-self: start;
-  max-height: calc(100vh - 76px);
-  overflow-y: auto;
-  scrollbar-width: thin;
-  scrollbar-color: var(--border-rule) transparent;
+  max-height: none;
+  overflow-y: visible;
 }
 
 /* Scrolled Sticky Header states */
