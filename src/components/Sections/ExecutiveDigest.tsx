@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { getHomepageExecutiveBriefing } from '@/data/newsData';
+import { getHomepageExecutiveBriefing, getArticleUrl } from '@/data/newsData';
 import { ListOrdered, ArrowRight, Zap, Clock } from 'lucide-react';
 
 export default function ExecutiveDigest() {
@@ -55,7 +55,7 @@ export default function ExecutiveDigest() {
                   {art.category}
                 </span>
 
-                <Link href={`/article/${art.id}`} style={{ textDecoration: 'none' }}>
+                <Link href={getArticleUrl(art)} style={{ textDecoration: 'none' }}>
                   <h4 className="font-heading" style={{
                     fontSize: '0.86rem',
                     fontWeight: 800,

@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { CATEGORY_ARTICLES } from '@/data/newsData';
+import { CATEGORY_ARTICLES, getArticleUrl } from '@/data/newsData';
 import { Atom, Dna, Sparkles, ArrowRight } from 'lucide-react';
 
 export default function FrontierScienceGrid() {
@@ -60,7 +60,7 @@ export default function FrontierScienceGrid() {
                 {art.kicker}
               </span>
 
-              <Link href={`/article/${art.id}`} style={{ textDecoration: 'none' }}>
+              <Link href={getArticleUrl(art)} style={{ textDecoration: 'none' }}>
                 <h4 className="font-heading" style={{
                   fontSize: '0.88rem',
                   fontWeight: 800,

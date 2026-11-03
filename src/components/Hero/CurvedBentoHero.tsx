@@ -3,7 +3,8 @@
 import React from 'react';
 import Link from 'next/link';
 import { 
-  LEAD_ARTICLE, 
+  LEAD_ARTICLE,
+  getArticleUrl, 
   SECONDARY_LEAD_STORIES, 
   WIRE_STORIES, 
   TRENDING_RANKED_ARTICLES, 
@@ -76,14 +77,14 @@ export default function CurvedBentoHero() {
             </div>
 
             {/* Enlarged Prominent Hero Image */}
-            <Link href={`/article/${LEAD_ARTICLE.id}`} style={{ display: 'block', textDecoration: 'none' }}>
+            <Link href={getArticleUrl(LEAD_ARTICLE)} style={{ display: 'block', textDecoration: 'none' }}>
               <div className="aura-img-wrap hero-lead-image" style={{ width: '100%', marginBottom: '14px' }}>
                 <img src={LEAD_ARTICLE.imageUrl} alt={LEAD_ARTICLE.title} className="aura-card-img" />
               </div>
             </Link>
 
             {/* Lead Headline */}
-            <Link href={`/article/${LEAD_ARTICLE.id}`} style={{ textDecoration: 'none', marginBottom: '8px' }}>
+            <Link href={getArticleUrl(LEAD_ARTICLE)} style={{ textDecoration: 'none', marginBottom: '8px' }}>
               <h2 className="font-heading" style={{
                 fontSize: 'clamp(1.4rem, 2.2vw, 1.85rem)',
                 fontWeight: 900,
@@ -133,7 +134,7 @@ export default function CurvedBentoHero() {
                   borderBottom: idx !== 1 ? '1px solid var(--border-rule)' : 'none'
                 }}
               >
-                <Link href={`/article/${story.id}`} style={{ display: 'block', textDecoration: 'none' }}>
+                <Link href={getArticleUrl(story)} style={{ display: 'block', textDecoration: 'none' }}>
                   <div className="aura-img-wrap hero-secondary-image" style={{ width: '100%', marginBottom: '8px' }}>
                     <img src={story.imageUrl} alt={story.title} className="aura-card-img" />
                   </div>
@@ -143,7 +144,7 @@ export default function CurvedBentoHero() {
                   {story.category}
                 </span>
 
-                <Link href={`/article/${story.id}`} style={{ textDecoration: 'none' }}>
+                <Link href={getArticleUrl(story)} style={{ textDecoration: 'none' }}>
                   <h3 className="font-heading" style={{
                     fontSize: '0.88rem',
                     fontWeight: 800,
@@ -189,7 +190,7 @@ export default function CurvedBentoHero() {
                     borderBottom: idx !== wireFeed.length - 1 ? '1px solid var(--border-rule)' : 'none'
                   }}
                 >
-                  <Link href={`/article/${item.id}`} style={{ display: 'block', textDecoration: 'none' }}>
+                  <Link href={getArticleUrl(item)} style={{ display: 'block', textDecoration: 'none' }}>
                     <div className="aura-img-wrap hero-secondary-image" style={{ width: '100%', marginBottom: '8px' }}>
                       <img src={item.imageUrl} alt={item.title} className="aura-card-img" />
                     </div>
@@ -204,7 +205,7 @@ export default function CurvedBentoHero() {
                     </span>
                   </div>
 
-                  <Link href={`/article/${item.id}`} style={{ textDecoration: 'none' }}>
+                  <Link href={getArticleUrl(item)} style={{ textDecoration: 'none' }}>
                     <h5 className="font-heading" style={{
                       fontSize: '0.84rem',
                       fontWeight: 800,

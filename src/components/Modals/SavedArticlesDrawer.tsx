@@ -3,7 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { useNews } from '@/context/NewsContext';
-import { getAllArticles } from '@/data/newsData';
+import { getAllArticles, getArticleUrl } from '@/data/newsData';
 import { X, Bookmark, Trash2, ArrowRight } from 'lucide-react';
 
 export default function SavedArticlesDrawer() {
@@ -89,7 +89,7 @@ export default function SavedArticlesDrawer() {
                 />
                 <div style={{ flex: 1 }}>
                   <Link
-                    href={`/article/${art.id}`}
+                    href={getArticleUrl(art)}
                     onClick={() => setIsReadingListOpen(false)}
                     style={{ textDecoration: 'none' }}
                   >

@@ -24,7 +24,7 @@ export default function HomePage() {
         {/* 2. Top Stories: Executive Speed-Read Briefing */}
         <ExecutiveDigest />
 
-        {/* 3. Core Department Portals: U.S. Politics, Business & Economy, Tech & AI, Entertainment, Sports, Health & Science */}
+        {/* 3. Core Department Portals: U.S., Politics, Business & Economy, Tech, Entertainment, Sports, Science */}
         <CurvedDepartmentPortals />
 
         {/* 4. Investigation: Deep-Dive Investigative Dossier */}

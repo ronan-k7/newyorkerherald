@@ -5,13 +5,13 @@ import { useParams } from 'next/navigation';
 import Link from 'next/link';
 import CurvedHeader from '@/components/Header/CurvedHeader';
 import CurvedFooter from '@/components/Footer/CurvedFooter';
-import { CATEGORIES_META, getAllArticles, getArticlesByCategorySlug, getAuthorSlugFromName } from '@/data/newsData';
+import { CATEGORIES_META, getAllArticles, getArticlesByCategorySlug, getAuthorSlugFromName, getArticleUrl } from '@/data/newsData';
 import { Clock, ArrowLeft, Bookmark, ArrowRight, Zap, Filter, Flame } from 'lucide-react';
 import { useNews } from '@/context/NewsContext';
 
 export default function CategoryPage() {
   const params = useParams();
-  const slug = (params?.slug as string) || 'politics';
+  const slug = ((params?.category || params?.slug) as string) || 'politics';
   const allArts = getAllArticles();
 
   const [activeFilter, setActiveFilter] = useState('All Reporting');
@@ -114,7 +114,7 @@ export default function CategoryPage() {
           }}>
             {/* Left Photo (7 Cols) */}
             <div style={{ gridColumn: 'span 7' }}>
-              <Link href={`/article/${lead.id}`} style={{ display: 'block', textDecoration: 'none' }}>
+              <Link href={getArticleUrl(lead)} style={{ display: 'block', textDecoration: 'none' }}>
                 <div className="aura-img-wrap" style={{ height: 'clamp(200px, 32vw, 360px)', width: '100%', marginBottom: '6px' }}>
                   <img src={lead.imageUrl} alt={lead.title} className="aura-card-img" />
                 </div>
@@ -147,7 +147,7 @@ export default function CategoryPage() {
                 </button>
               </div>
 
-              <Link href={`/article/${lead.id}`} style={{ textDecoration: 'none', marginBottom: '10px' }}>
+              <Link href={getArticleUrl(lead)} style={{ textDecoration: 'none', marginBottom: '10px' }}>
                 <h2 className="font-heading" style={{
                   fontSize: 'clamp(1.4rem, 2.2vw, 1.85rem)',
                   fontWeight: 900,
@@ -213,7 +213,7 @@ export default function CategoryPage() {
                   alignItems: 'start'
                 }}
               >
-                <Link href={`/article/${story.id}`} style={{ display: 'block', textDecoration: 'none' }}>
+                <Link href={getArticleUrl(story)} style={{ display: 'block', textDecoration: 'none' }}>
                   <div className="aura-img-wrap category-stream-img" style={{ height: '140px', width: '100%' }}>
                     <img src={story.imageUrl} alt={story.title} className="aura-card-img" />
                   </div>
@@ -224,7 +224,7 @@ export default function CategoryPage() {
                     {story.kicker}
                   </span>
 
-                  <Link href={`/article/${story.id}`} style={{ textDecoration: 'none' }}>
+                  <Link href={getArticleUrl(story)} style={{ textDecoration: 'none' }}>
                     <h3 className="font-heading" style={{
                       fontSize: '1rem',
                       fontWeight: 800,
@@ -280,7 +280,7 @@ export default function CategoryPage() {
                     </span>
                   </div>
 
-                  <Link href={`/article/${disp.id}`} style={{ textDecoration: 'none' }}>
+                  <Link href={getArticleUrl(disp)} style={{ textDecoration: 'none' }}>
                     <h5 className="font-heading" style={{
                       fontSize: '0.82rem',
                       fontWeight: 800,
@@ -325,7 +325,7 @@ export default function CategoryPage() {
                   flexDirection: 'column'
                 }}
               >
-                <Link href={`/article/${art.id}`} style={{ display: 'block', textDecoration: 'none' }}>
+                <Link href={getArticleUrl(art)} style={{ display: 'block', textDecoration: 'none' }}>
                   <div className="aura-img-wrap" style={{ height: '115px', width: '100%', marginBottom: '8px' }}>
                     <img src={art.imageUrl} alt={art.title} className="aura-card-img" />
                   </div>
@@ -335,7 +335,7 @@ export default function CategoryPage() {
                   {art.kicker}
                 </span>
 
-                <Link href={`/article/${art.id}`} style={{ textDecoration: 'none' }}>
+                <Link href={getArticleUrl(art)} style={{ textDecoration: 'none' }}>
                   <h4 className="font-heading" style={{
                     fontSize: '0.82rem',
                     fontWeight: 800,

@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { useNews } from '@/context/NewsContext';
-import { getAllArticles } from '@/data/newsData';
+import { getAllArticles, getArticleUrl } from '@/data/newsData';
 import { Search, X, ArrowRight, FileText } from 'lucide-react';
 
 export default function SearchModal() {
@@ -68,7 +68,7 @@ export default function SearchModal() {
           {filtered.map((art) => (
             <Link
               key={art.id}
-              href={`/article/${art.id}`}
+              href={getArticleUrl(art)}
               onClick={() => setIsSearchOpen(false)}
               style={{
                 display: 'flex',

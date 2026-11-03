@@ -23,6 +23,12 @@ export default function AlinaHabbaSpecialDossierPage() {
   const articleId = 'the-vanity-of-alina-habba-mildon';
   const isBookmarked = bookmarks.includes(articleId);
 
+  React.useEffect(() => {
+    if (typeof window !== 'undefined' && window.location.pathname === '/the-vanity-of-alina-habba-mildon') {
+      window.history.replaceState(null, '', '/us/the-vanity-of-alina-habba-mildon');
+    }
+  }, []);
+
   const handleShare = () => {
     if (typeof window !== 'undefined') {
       navigator.clipboard.writeText(window.location.href);

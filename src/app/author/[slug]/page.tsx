@@ -5,7 +5,7 @@ import { useParams } from 'next/navigation';
 import Link from 'next/link';
 import CurvedHeader from '@/components/Header/CurvedHeader';
 import CurvedFooter from '@/components/Footer/CurvedFooter';
-import { AUTHORS, AUTHORS_DATA, getAllArticles } from '@/data/newsData';
+import { AUTHORS, AUTHORS_DATA, getAllArticles, getArticleUrl } from '@/data/newsData';
 import { 
   Award, 
   GraduationCap, 
@@ -298,7 +298,7 @@ export default function AuthorProfilePage() {
                     alignItems: 'start'
                   }}
                 >
-                  <Link href={`/article/${art.id}`} style={{ display: 'block', textDecoration: 'none' }}>
+                  <Link href={getArticleUrl(art)} style={{ display: 'block', textDecoration: 'none' }}>
                     <div className="aura-img-wrap" style={{ height: '120px', width: '100%' }}>
                       <img src={art.imageUrl} alt={art.title} className="aura-card-img" />
                     </div>
@@ -321,7 +321,7 @@ export default function AuthorProfilePage() {
                       </button>
                     </div>
 
-                    <Link href={`/article/${art.id}`} style={{ textDecoration: 'none' }}>
+                    <Link href={getArticleUrl(art)} style={{ textDecoration: 'none' }}>
                       <h3 className="font-heading" style={{
                         fontSize: '0.98rem',
                         fontWeight: 800,

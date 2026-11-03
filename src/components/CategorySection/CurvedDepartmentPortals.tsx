@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { getHomepageDepartmentArticles, getArticlesByCategorySlug, getAuthorSlugFromName } from '@/data/newsData';
+import { getHomepageDepartmentArticles, getArticlesByCategorySlug, getAuthorSlugFromName, getArticleUrl } from '@/data/newsData';
 import { ArrowRight } from 'lucide-react';
 
 export default function CurvedDepartmentPortals() {
@@ -31,7 +31,7 @@ export default function CurvedDepartmentPortals() {
         height: '100%'
       }}
     >
-      <Link href={`/article/${art.id}`} style={{ display: 'block', textDecoration: 'none' }}>
+      <Link href={getArticleUrl(art)} style={{ display: 'block', textDecoration: 'none' }}>
         <div className="aura-img-wrap department-portal-img" style={{ width: '100%', marginBottom: '8px' }}>
           <img src={art.imageUrl} alt={art.title} className="aura-card-img" />
         </div>
@@ -41,7 +41,7 @@ export default function CurvedDepartmentPortals() {
         {art.category}
       </span>
 
-      <Link href={`/article/${art.id}`} style={{ textDecoration: 'none' }}>
+      <Link href={getArticleUrl(art)} style={{ textDecoration: 'none' }}>
         <h4 className="font-heading" style={{
           fontSize: '0.88rem',
           fontWeight: 800,
@@ -181,13 +181,13 @@ export default function CurvedDepartmentPortals() {
                     borderBottom: i !== entertainment.length - 1 ? '1px solid var(--border-rule)' : 'none'
                   }}
                 >
-                  <Link href={`/article/${item.id}`} style={{ display: 'block', textDecoration: 'none' }}>
+                  <Link href={getArticleUrl(item)} style={{ display: 'block', textDecoration: 'none' }}>
                     <div className="aura-img-wrap" style={{ width: '85px', height: '68px', flexShrink: 0 }}>
                       <img src={item.imageUrl} alt={item.title} className="aura-card-img" />
                     </div>
                   </Link>
                   <div style={{ flex: 1 }}>
-                    <Link href={`/article/${item.id}`} style={{ textDecoration: 'none' }}>
+                    <Link href={getArticleUrl(item)} style={{ textDecoration: 'none' }}>
                       <h5 className="font-heading" style={{ fontSize: '0.82rem', fontWeight: 800, color: 'var(--text-primary)', lineHeight: 1.25, margin: '0 0 4px 0' }}>
                         {item.title}
                       </h5>
@@ -225,13 +225,13 @@ export default function CurvedDepartmentPortals() {
                     borderBottom: i !== sports.length - 1 ? '1px solid var(--border-rule)' : 'none'
                   }}
                 >
-                  <Link href={`/article/${item.id}`} style={{ display: 'block', textDecoration: 'none' }}>
+                  <Link href={getArticleUrl(item)} style={{ display: 'block', textDecoration: 'none' }}>
                     <div className="aura-img-wrap" style={{ width: '85px', height: '68px', flexShrink: 0 }}>
                       <img src={item.imageUrl} alt={item.title} className="aura-card-img" />
                     </div>
                   </Link>
                   <div style={{ flex: 1 }}>
-                    <Link href={`/article/${item.id}`} style={{ textDecoration: 'none' }}>
+                    <Link href={getArticleUrl(item)} style={{ textDecoration: 'none' }}>
                       <h5 className="font-heading" style={{ fontSize: '0.82rem', fontWeight: 800, color: 'var(--text-primary)', lineHeight: 1.25, margin: '0 0 4px 0' }}>
                         {item.title}
                       </h5>
@@ -248,7 +248,7 @@ export default function CurvedDepartmentPortals() {
           </div>
         </div>
 
-        {/* ================= SECTION 5: HEALTH & SCIENCE ================= */}
+        {/* ================= SECTION 5: SCIENCE ================= */}
         <div>
           <div className="section-header">
             <h3 className="section-title">

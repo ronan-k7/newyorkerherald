@@ -1,5 +1,5 @@
 import { MetadataRoute } from 'next';
-import { getAllArticles, CATEGORIES_META, AUTHORS_DATA } from '@/data/newsData';
+import { getAllArticles, CATEGORIES_META, AUTHORS_DATA, getArticleUrl } from '@/data/newsData';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://newyorkerherald.com';
@@ -14,7 +14,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1.0,
     },
     {
-      url: `${baseUrl}/the-vanity-of-alina-habba-mildon`,
+      url: `${baseUrl}/us/the-vanity-of-alina-habba-mildon`,
       lastModified: now,
       changeFrequency: 'hourly',
       priority: 0.95,
@@ -52,12 +52,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
 
   // 2. All Category Hub Pages (U.S., Politics, Business, Tech, Entertainment, Sports, Science, Opinion, Investigation)
-  const categoryRoutes: MetadataRoute.Sitemap = Object.keys(CATEGORIES_META).map((slug) => ({
-    url: `${baseUrl}/category/${slug}`,
-    lastModified: now,
-    changeFrequency: 'hourly',
-    priority: 0.9,
-  }));
+  const categoryRoutes: MetadataRoute.Sitemap = [];
+  for (const slug of Object.keys(CATEGORIES_META)) {
+    categoryRoutes.push({
+      url: `${baseUrl}/${slug}`,
+      lastModified: now,
+      changeFrequency: 'hourly',
+      priority: 0.9,
+    });
+    categoryRoutes.push({
+      url: `${baseUrl}/category/${slug}`,
+      lastModified: now,
+      changeFrequency: 'hourly',
+      priority: 0.85,
+    });
+  }
 
   // 3. Author / Editorial Profile Hubs
   const authorRoutes: MetadataRoute.Sitemap = Object.keys(AUTHORS_DATA).map((slug) => ({
@@ -84,8 +93,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
       }
     }
 
+    const articleUrlPath = getArticleUrl(article);
     articleRoutes.push({
-      url: `${baseUrl}/article/${article.id}`,
+      url: `${baseUrl}${articleUrlPath}`,
       lastModified: articleDate,
       changeFrequency: 'daily',
       priority: 0.8,

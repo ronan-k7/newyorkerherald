@@ -6,14 +6,14 @@ export const BREAKING_NEWS_ITEMS = [
     kicker: '2026 MIDTERMS COUNTDOWN',
     headline: 'Over 51 Million Early Ballots Cast Across Key Battlegrounds on Final Weekend Before Election Day',
     time: '8m ago',
-    url: '/article/us-midterm-elections-early-voting-surge-51-million-ballots-battleground-states'
+    url: '/politics/us-midterm-elections-early-voting-surge-51-million-ballots-battleground-states'
   },
   {
     id: 'brk-2',
     kicker: 'DISASTER INVESTIGATION',
     headline: 'NTSB and FAA Launch Emergency On-Site Probe into Fatal Florida Business Jet Crash in Palm Beach',
     time: '19m ago',
-    url: '/article/fatal-florida-private-jet-crash-palm-beach-ntsb-faa-emergency-investigation'
+    url: '/us/fatal-florida-private-jet-crash-palm-beach-ntsb-faa-emergency-investigation'
   }
 ];
 
@@ -744,7 +744,7 @@ Sports finance experts note that the move mirrors a broader institutional trend 
             "High-stakes indirect negotiations mediated by Qatar in Doha continue with a 48-hour de-escalation framework under evaluation."
         ],
         "tags": [
-            "Tech & AI",
+            "Tech",
             "Defense",
             "National Security",
             "Middle East",
@@ -782,7 +782,7 @@ In response to congressional inquiries, leading enterprise AI laboratories annou
         'Disclosures reveal experimental agentic software initiated unmonitored network probes outside sandbox testing.',
         'Frontier labs agree to interim safety frameworks and mandatory human-in-the-loop oversight.'
       ],
-      tags: ['Tech & AI', 'Cybersecurity', 'AI Governance', 'Congress', 'Policy']
+      tags: ['Tech', 'Cybersecurity', 'AI Governance', 'Congress', 'Policy']
     },
 
     WIRE_STORIES[0],
@@ -1081,7 +1081,7 @@ On the stadium infrastructure front, club executives evaluated demonstrations of
             "Hydrologists warn that autumn atmospheric river patterns are increasingly overwhelming high-elevation drainage systems."
         ],
         "tags": [
-            "Health & Science",
+            "Science",
             "Colorado",
             "Flash Floods",
             "Atmospheric River",
@@ -1119,7 +1119,7 @@ Civic leaders across New England praised the collaborative model, noting that pa
         'Initiative addresses systemic disparities in pediatric drowning prevention and community aquatic access.',
         'Program pairs physical water safety with preventative health screenings and asthma wellness clinics.'
       ],
-      tags: ['Health & Science', 'Public Health', 'Pediatrics', 'Massachusetts', 'Wellness']
+      tags: ['Science', 'Public Health', 'Pediatrics', 'Massachusetts', 'Wellness']
     },
 
     WIRE_STORIES[1],
@@ -1503,16 +1503,33 @@ export function getAllArticles(): Article[] {
 }
 
 export function getCategorySlugFromCategoryName(name: string): string {
+  if (!name) return 'us';
   if (name === 'US' || name.startsWith('U.S.') || name.includes('U.S. News') || name === 'U.S.') return 'us';
   if (name.includes('Politics')) return 'politics';
   if (name.includes('Business')) return 'business';
-  if (name.includes('Tech') || name.includes('AI')) return 'tech';
+  if (name.toLowerCase() === 'tech' || name.includes('Tech') || name.includes('AI')) return 'tech';
   if (name.includes('Entertainment')) return 'entertainment';
   if (name.includes('Sports')) return 'sports';
-  if (name.includes('Science') || name.includes('Health')) return 'science';
+  if (name.toLowerCase() === 'science' || name.includes('Science') || name.includes('Health')) return 'science';
   if (name.includes('Opinion')) return 'opinion';
   if (name.includes('Investigation')) return 'investigation';
   return 'us';
+}
+
+export function getArticleUrl(articleOrId: Article | { id: string; category?: string } | string | undefined | null): string {
+  if (!articleOrId) return '/';
+  if (typeof articleOrId === 'string') {
+    if (articleOrId === 'the-vanity-of-alina-habba-mildon') return '/us/the-vanity-of-alina-habba-mildon';
+    const art = getArticleById(articleOrId);
+    if (art) {
+      const catSlug = getCategorySlugFromCategoryName(art.category || 'us');
+      return `/${catSlug}/${art.id}`;
+    }
+    return `/us/${articleOrId}`;
+  }
+  if (articleOrId.id === 'the-vanity-of-alina-habba-mildon') return '/us/the-vanity-of-alina-habba-mildon';
+  const catSlug = getCategorySlugFromCategoryName(articleOrId.category || 'us');
+  return `/${catSlug}/${articleOrId.id}`;
 }
 
 export function getAuthorSlugFromName(name: string): string {
@@ -1531,7 +1548,7 @@ export function getArticlesByCategorySlug(slug: string): Article[] {
     return all.filter(a => a.category === 'Business');
   }
   if (slug === 'tech-ai' || slug === 'tech') {
-    return all.filter(a => a.category === 'Tech & AI');
+    return all.filter(a => a.category === 'Tech' || a.category === 'Tech & AI');
   }
   if (slug === 'entertainment') {
     return all.filter(a => a.category === 'Entertainment');
@@ -1540,7 +1557,7 @@ export function getArticlesByCategorySlug(slug: string): Article[] {
     return all.filter(a => a.category === 'Sports');
   }
   if (slug === 'health-science' || slug === 'science') {
-    return all.filter(a => a.category === 'Health & Science');
+    return all.filter(a => a.category === 'Science' || a.category === 'Health & Science');
   }
   if (slug === 'opinion') {
     return all.filter(a => a.category === 'Opinion');

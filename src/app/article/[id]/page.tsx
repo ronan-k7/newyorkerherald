@@ -5,7 +5,7 @@ import { useParams } from 'next/navigation';
 import Link from 'next/link';
 import CurvedHeader from '@/components/Header/CurvedHeader';
 import CurvedFooter from '@/components/Footer/CurvedFooter';
-import { getArticleById, getAllArticles, AUTHORS_DATA, getAuthorSlugFromName } from '@/data/newsData';
+import { getArticleById, getAllArticles, AUTHORS_DATA, getAuthorSlugFromName, getArticleUrl } from '@/data/newsData';
 import { useNews } from '@/context/NewsContext';
 import { 
   Bookmark, 
@@ -24,7 +24,7 @@ import { Comment } from '@/types/news';
 
 export default function ArticleDetailPage() {
   const params = useParams();
-  const articleId = params?.id as string;
+  const articleId = (params?.slug || params?.id) as string;
   const article = getArticleById(articleId);
 
   const { bookmarks, toggleBookmark, currentUser } = useNews();
@@ -447,7 +447,7 @@ export default function ArticleDetailPage() {
                       borderBottom: idx !== relatedArticles.length - 1 ? '1px solid var(--border-rule)' : 'none'
                     }}
                   >
-                    <Link href={`/article/${rel.id}`} style={{ display: 'block', textDecoration: 'none' }}>
+                    <Link href={getArticleUrl(rel)} style={{ display: 'block', textDecoration: 'none' }}>
                       <div className="aura-img-wrap" style={{ width: '75px', height: '60px', flexShrink: 0 }}>
                         <img src={rel.imageUrl} alt={rel.title} className="aura-card-img" />
                       </div>
@@ -457,7 +457,7 @@ export default function ArticleDetailPage() {
                       <span className="aura-pill" style={{ marginBottom: '2px' }}>
                         {rel.kicker}
                       </span>
-                      <Link href={`/article/${rel.id}`} style={{ textDecoration: 'none' }}>
+                      <Link href={getArticleUrl(rel)} style={{ textDecoration: 'none' }}>
                         <h4 className="font-heading" style={{ fontSize: '0.78rem', fontWeight: 800, lineHeight: 1.25, color: 'var(--text-primary)', margin: '2px 0 2px 0' }}>
                           {rel.title}
                         </h4>
@@ -486,7 +486,7 @@ export default function ArticleDetailPage() {
                     <span className="font-mono" style={{ fontSize: '0.85rem', fontWeight: 900, color: 'var(--brand-primary)', width: '18px' }}>
                       0{i + 1}
                     </span>
-                    <Link href={`/article/${trend.id}`} style={{ textDecoration: 'none', flex: 1 }}>
+                    <Link href={getArticleUrl(trend)} style={{ textDecoration: 'none', flex: 1 }}>
                       <p style={{ fontSize: '0.76rem', fontWeight: 700, lineHeight: 1.3, color: 'var(--text-primary)', margin: 0 }}>
                         {trend.title}
                       </p>

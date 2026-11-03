@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { getHomepageLongReads, getAuthorSlugFromName } from '@/data/newsData';
+import { getHomepageLongReads, getAuthorSlugFromName, getArticleUrl } from '@/data/newsData';
 
 export default function WeekendLongReads() {
   const essays = getHomepageLongReads().map(art => ({
@@ -44,7 +44,7 @@ export default function WeekendLongReads() {
                 flexDirection: 'column'
               }}
             >
-              <Link href={`/article/${item.id}`} style={{ display: 'block', textDecoration: 'none' }}>
+              <Link href={getArticleUrl(item.id)} style={{ display: 'block', textDecoration: 'none' }}>
                 <div className="aura-img-wrap" style={{ height: '220px', width: '100%', marginBottom: '14px' }}>
                   <img src={item.imageUrl} alt={item.title} className="aura-card-img" />
                 </div>
@@ -54,7 +54,7 @@ export default function WeekendLongReads() {
                 Long-Form Essay
               </span>
 
-              <Link href={`/article/${item.id}`} style={{ textDecoration: 'none' }}>
+              <Link href={getArticleUrl(item.id)} style={{ textDecoration: 'none' }}>
                 <h4 className="font-heading" style={{
                   fontSize: '1.15rem',
                   fontWeight: 900,

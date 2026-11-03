@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { INVESTIGATIVE_FEATURE } from '@/data/newsData';
+import { INVESTIGATIVE_FEATURE, getArticleUrl } from '@/data/newsData';
 import { ShieldAlert, FileText, ArrowRight, Clock, Award, CheckCircle2 } from 'lucide-react';
 
 export default function InvestigativeDossier() {
@@ -41,7 +41,7 @@ export default function InvestigativeDossier() {
         }}>
           {/* Main Dossier (8 cols) */}
           <div style={{ gridColumn: 'span 8', borderRight: '1px solid var(--border-rule)', paddingRight: '32px' }}>
-            <Link href={`/article/${INVESTIGATIVE_FEATURE.id}`} style={{ display: 'block', textDecoration: 'none' }}>
+            <Link href={getArticleUrl(INVESTIGATIVE_FEATURE)} style={{ display: 'block', textDecoration: 'none' }}>
               <div className="aura-img-wrap" style={{ height: 'clamp(200px, 30vw, 320px)', width: '100%', marginBottom: '16px' }}>
                 <img src={INVESTIGATIVE_FEATURE.imageUrl} alt={INVESTIGATIVE_FEATURE.title} className="aura-card-img" />
               </div>
@@ -51,7 +51,7 @@ export default function InvestigativeDossier() {
               {INVESTIGATIVE_FEATURE.kicker}
             </span>
 
-            <Link href={`/article/${INVESTIGATIVE_FEATURE.id}`} style={{ textDecoration: 'none' }}>
+            <Link href={getArticleUrl(INVESTIGATIVE_FEATURE)} style={{ textDecoration: 'none' }}>
               <h2 className="font-heading" style={{
                 fontSize: 'clamp(1.5rem, 2.4vw, 2.1rem)',
                 fontWeight: 900,
@@ -117,7 +117,7 @@ export default function InvestigativeDossier() {
             </div>
 
             <Link
-              href={`/article/${INVESTIGATIVE_FEATURE.id}`}
+              href={getArticleUrl(INVESTIGATIVE_FEATURE)}
               style={{
                 display: 'inline-flex',
                 alignItems: 'center',
