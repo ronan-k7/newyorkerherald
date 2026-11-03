@@ -3,10 +3,10 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useNews } from '@/context/NewsContext';
-import { 
-  CloudSun, 
-  Search, 
-  Compass, 
+import {
+  CloudSun,
+  Search,
+  Compass,
   ShieldAlert,
   Flame
 } from 'lucide-react';
@@ -18,7 +18,7 @@ interface CurvedHeaderProps {
 
 export default function CurvedHeader({ activeCategory = 'All', onSelectCategory }: CurvedHeaderProps) {
   const {
-    setIsSearchOpen 
+    setIsSearchOpen
   } = useNews();
 
   const [dateStr, setDateStr] = useState('');
@@ -66,7 +66,7 @@ export default function CurvedHeader({ activeCategory = 'All', onSelectCategory 
               <span style={{ width: '6px', height: '6px', borderRadius: '0px', backgroundColor: 'var(--brand-primary)', display: 'inline-block' }} />
               <span>{dateStr || 'Mon, Nov 2, 2026'}</span>
             </div>
-            
+
             <div className="hidden-mobile" style={{ display: 'flex', alignItems: 'center', gap: '4px', color: 'var(--text-muted)' }}>
               <CloudSun size={13} color="var(--accent-amber)" />
               <span>24°C • Global Edition</span>
@@ -100,9 +100,9 @@ export default function CurvedHeader({ activeCategory = 'All', onSelectCategory 
                 onMouseLeave={(e) => (e.currentTarget.style.color = "var(--text-muted)")}
               >
                 <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/>
-                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
-                  <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/>
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                  <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
                 </svg>
               </a>
               <a
@@ -122,7 +122,7 @@ export default function CurvedHeader({ activeCategory = 'All', onSelectCategory 
                 onMouseLeave={(e) => (e.currentTarget.style.color = "var(--text-muted)")}
               >
                 <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                  <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
                 </svg>
               </a>
               <a
@@ -142,7 +142,7 @@ export default function CurvedHeader({ activeCategory = 'All', onSelectCategory 
                 onMouseLeave={(e) => (e.currentTarget.style.color = "var(--text-muted)")}
               >
                 <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M13.54 12a6.8 6.8 0 0 1-6.77 6.82A6.8 6.8 0 0 1 0 12a6.8 6.8 0 0 1 6.77-6.82A6.8 6.8 0 0 1 13.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/>
+                  <path d="M13.54 12a6.8 6.8 0 0 1-6.77 6.82A6.8 6.8 0 0 1 0 12a6.8 6.8 0 0 1 6.77-6.82A6.8 6.8 0 0 1 13.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z" />
                 </svg>
               </a>
               <a
@@ -162,12 +162,12 @@ export default function CurvedHeader({ activeCategory = 'All', onSelectCategory 
                 onMouseLeave={(e) => (e.currentTarget.style.color = "var(--text-muted)")}
               >
                 <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/>
+                  <path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z" />
                 </svg>
               </a>
             </div>
 
-            
+
           </div>
         </div>
       </div>
@@ -221,7 +221,7 @@ export default function CurvedHeader({ activeCategory = 'All', onSelectCategory 
               minWidth: '220px'
             }} className="header-search-bar">
             <Search size={14} color="var(--text-muted)" />
-            <span>Search reporting...</span>
+            <span>Search</span>
           </div>
         </div>
       </div>

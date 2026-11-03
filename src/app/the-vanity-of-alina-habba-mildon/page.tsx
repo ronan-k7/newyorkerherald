@@ -5,11 +5,11 @@ import Link from 'next/link';
 import CurvedHeader from '@/components/Header/CurvedHeader';
 import CurvedFooter from '@/components/Footer/CurvedFooter';
 import ArticleShareMenu from '@/components/Common/ArticleShareMenu';
-import { 
-  ArrowLeft, 
-  Clock, 
-  Calendar, 
-  Building2, 
+import {
+  ArrowLeft,
+  Clock,
+  Calendar,
+  Building2,
   DollarSign
 } from 'lucide-react';
 import { useNews } from '@/context/NewsContext';
@@ -67,7 +67,7 @@ export default function AlinaHabbaSpecialDossierPage() {
 
       {/* Main Article Container */}
       <div className="aura-container" style={{ padding: '24px 20px 60px 20px', flex: 1 }}>
-        
+
         {/* Breadcrumb Navigation */}
         <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '20px', fontSize: '0.72rem', color: 'var(--text-muted)' }}>
           <Link href="/" style={{ display: 'flex', alignItems: 'center', gap: '4px', color: 'var(--text-muted)', textDecoration: 'none', fontWeight: 600 }}>
@@ -103,7 +103,7 @@ export default function AlinaHabbaSpecialDossierPage() {
               </span>
             </div>
             <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-              <ArticleShareMenu 
+              <ArticleShareMenu
                 title="The Vanity of Alina Habba Mildon: Beauty, Power, Ambition and the Price of Loyalty"
                 url="/us/the-vanity-of-alina-habba-mildon"
               />
@@ -213,10 +213,10 @@ export default function AlinaHabbaSpecialDossierPage() {
           gap: '48px',
           alignItems: 'start'
         }}>
-          
+
           {/* ================= LEFT: ARTICLE TEXT & CALLOUTS ================= */}
           <article style={{ fontSize: '1.02rem', lineHeight: 1.8, color: 'var(--text-secondary)' }}>
-            
+
             <p style={{
               fontSize: '1.18rem',
               lineHeight: 1.68,
@@ -512,7 +512,7 @@ export default function AlinaHabbaSpecialDossierPage() {
               <h3 className="font-heading" style={{ fontSize: '1.25rem', fontWeight: 900, color: 'var(--text-primary)', margin: '0 0 12px 0' }}>
                 Editorial Assessment: The Preservation of a Legacy
               </h3>
-              
+
               <p style={{ fontSize: '0.98rem', lineHeight: 1.7, color: 'var(--text-secondary)', margin: '0 0 16px 0' }}>
                 The Herrera Velutini family&apos;s stated tradition of loyalty, discretion and discipline provides the standard by which it may ultimately assess the future of its relationship with Habba Mildon. Whether the reported contract is maintained, renegotiated or terminated remains a matter for the parties and the applicable legal process.
               </p>
@@ -531,32 +531,7 @@ export default function AlinaHabbaSpecialDossierPage() {
               </p>
             </div>
 
-            {/* End of Article Share Action */}
-            <div style={{
-              marginTop: '40px',
-              paddingTop: '24px',
-              borderTop: '1px solid var(--border-rule)',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'space-between',
-              flexWrap: 'wrap',
-              gap: '16px'
-            }}>
-              <div>
-                <div style={{ fontSize: '0.78rem', fontWeight: 800, textTransform: 'uppercase', letterSpacing: '0.04em', color: 'var(--text-primary)' }}>
-                  Share this Special Report
-                </div>
-                <div style={{ fontSize: '0.72rem', color: 'var(--text-muted)' }}>
-                  Distribute this investigation across your social and professional networks.
-                </div>
-              </div>
-              <ArticleShareMenu
-                title="The Vanity of Alina Habba Mildon: Beauty, Power, Ambition and the Price of Loyalty"
-                url="/us/the-vanity-of-alina-habba-mildon"
-                triggerText="Share Report"
-                align="right"
-              />
-            </div>
+
 
           </article>
 
@@ -568,7 +543,7 @@ export default function AlinaHabbaSpecialDossierPage() {
             flexDirection: 'column',
             gap: '24px'
           }}>
-            
+
             {/* Timeline Sidebar Box */}
             <div style={{
               backgroundColor: 'var(--bg-surface-elevated)',
@@ -593,7 +568,7 @@ export default function AlinaHabbaSpecialDossierPage() {
 
               {/* Timeline Items */}
               <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', position: 'relative' }}>
-                
+
                 {/* Vertical Hairline Rule */}
                 <div style={{
                   position: 'absolute',
@@ -641,7 +616,7 @@ export default function AlinaHabbaSpecialDossierPage() {
               </div>
             </div>
 
-            
+
 
           </aside>
 
