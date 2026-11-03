@@ -6,7 +6,7 @@ import { CATEGORY_ARTICLES } from '@/data/newsData';
 import { Atom, Dna, Sparkles, ArrowRight } from 'lucide-react';
 
 export default function FrontierScienceGrid() {
-  const scienceStories = CATEGORY_ARTICLES['health-science'] || [];
+  const scienceStories = CATEGORY_ARTICLES['Science'] || CATEGORY_ARTICLES['health-science'] || [];
 
   return (
     <section style={{ padding: '24px 0 32px 0' }}>
@@ -24,7 +24,7 @@ export default function FrontierScienceGrid() {
             </h3>
           </div>
 
-          <Link href="/category/health-science" style={{
+          <Link href="/category/science" style={{
             display: 'flex',
             alignItems: 'center',
             gap: '3px',

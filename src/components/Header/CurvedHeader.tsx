@@ -42,10 +42,10 @@ export default function CurvedHeader({ activeCategory = 'All', onSelectCategory 
     { name: 'U.S.', slug: 'us', href: '/category/us' },
     { name: 'Politics', slug: 'politics', href: '/category/politics' },
     { name: 'Business & Economy', slug: 'business', href: '/category/business' },
-    { name: 'Tech & AI', slug: 'tech-ai', href: '/category/tech-ai' },
+    { name: 'Tech', slug: 'tech', href: '/category/tech' },
     { name: 'Entertainment', slug: 'entertainment', href: '/category/entertainment' },
     { name: 'Sports', slug: 'sports', href: '/category/sports' },
-    { name: 'Health & Science', slug: 'health-science', href: '/category/health-science' },
+    { name: 'Science', slug: 'science', href: '/category/science' },
     { name: 'Opinion', slug: 'opinion', href: '/category/opinion' },
     { name: 'Investigation', slug: 'investigation', href: '/category/investigation' },
   ];

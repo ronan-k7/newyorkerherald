@@ -149,7 +149,7 @@ Reports published Monday by leading economic research groups highlighted an emer
 Adding to corporate tensions, local communities across the American heartland have begun pushing back against the physical footprint of gigawatt-scale data center corridors. In Wisconsin, Virginia, and Indiana, municipal zoning boards have faced intense citizen pushback over water consumption metrics for liquid cooling systems and potential residential electricity rate hikes driven by industrial transmission grid upgrades.
 
 Despite the headwinds, technology executives insist that underinvesting in foundational AI infrastructure represents an existential competitive risk. During a technology summit panel on Monday, enterprise cloud leaders pointed to accelerating adoption in pharmaceutical molecular synthesis, automated software development, and sovereign defense simulations as evidence that exponential commercial yields are on track to materialize over the next three to five years.`,
-    category: 'Tech & AI',
+    category: 'Tech',
     edition: ['US & Americas', 'Global'],
     author: {
     name: 'Newyorkerherald Staff',
@@ -173,7 +173,7 @@ The Sunshine Protection Act, spearheaded by a diverse coalition of lawmakers inc
 However, the bill has encountered staunch scientific and medical resistance from prominent chronobiology and sleep research organizations, including the American Academy of Sleep Medicine (AASM). Medical researchers argue that permanent daylight saving time forces millions of schoolchildren and commuters to travel in pitch darkness during winter months, disrupting natural circadian rhythms, increasing morning cardiovascular distress, and impairing adolescent learning retention. The medical community instead advocates for permanent Standard Time, aligning human biological clocks with the natural solar zenith.
 
 With Congress focused on election day, legislative leaders have deferred floor consideration of the measure to future congressional sessions, leaving state legislatures in California, Florida, and Tennessee—which have already enacted state-level triggers for permanent DST—unable to implement the change without federal statutory authorization under the Uniform Time Act of 1966.`,
-    category: 'Health & Science',
+    category: 'Science',
     edition: ['US & Americas'],
     author: {
     name: 'Newyorkerherald Staff',
@@ -223,7 +223,7 @@ export const TRENDING_RANKED_ARTICLES: Article[] = [
     title: 'SpaceX Releases Landmark Financial Performance as Starlink Satellite Constellation Expands Across Enterprise Market',
     kicker: 'AEROSPACE & TECH',
     summary: 'SpaceX shares historic profitability metrics driven by expanding Starlink enterprise broadband contracts, government defense payload missions, and rapid launch cadence.',
-    category: 'Tech & AI',
+    category: 'Tech',
     author: {
     name: 'Newyorkerherald Staff',
     role: 'Editorial Board & Newsroom Desks',
@@ -715,14 +715,14 @@ Sports finance experts note that the move mirrors a broader institutional trend 
     }
   ],
 
-  'Tech & AI': [
+  'Tech': [
     {
         "id": "us-forces-conduct-retaliatory-strikes-near-qeshm-island-amid-tense-qatari-mediated-iran-negotiations",
         "title": "U.S. Forces Conduct Retaliatory Strikes Near Qeshm Island Amid Tense Qatari-Mediated Iran Negotiations",
         "kicker": "DEFENSE & DIPLOMACY • GULF SECURITY",
         "summary": "American military assets carried out targeted strikes against military radar and missile installations near Qeshm Island after hostile fire was directed at a U.S. aircraft, while negotiators in Doha race against a 48-hour diplomatic clock.",
         "body": "MANAMA, Bahrain & WASHINGTON — United States Central Command (CENTCOM) confirmed Monday that American naval and air forces conducted precision defensive strikes against targeted Iranian military positions near Qeshm Island in the southern Strait of Hormuz. The strikes, authorized by the White House following an emergency National Security Council briefing, were launched in direct retaliation after an Iranian Islamic Revolutionary Guard Corps (IRGC) surface-to-air missile battery opened fire on an American unmanned reconnaissance aircraft conducting routine international airspace patrol operations over the maritime chokepoint.\n\nAccording to military defense officials speaking on condition of anonymity, American precision-guided ordnance successfully destroyed an air defense radar array and a coastal missile launch station on the perimeter of Qeshm Island without causing civilian casualties or damaging commercial shipping vessels transiting the adjacent navigation channels. The strikes were deliberately calibrated to signal military deterrence while preserving diplomatic off-ramps as intense, indirect negotiations continue across the Persian Gulf in Doha, Qatar.\n\nThe military engagement unfolded against a fragile diplomatic backdrop, as Qatari mediators worked around the clock with American and Iranian envoys to finalize a comprehensive de-escalation framework. Diplomatic sources in the region indicated that Iranian officials had presented a preliminary two-day timeline for implementing mutual maritime guarantees and freezing provocative naval maneuvers in international waters. On social media, President Donald Trump signaled cautious openness to a negotiated resolution, stating that a breakthrough \"could happen\" if Tehran adhered to strict security verification commitments.\n\nEnergy markets experienced immediate tremors following reports of the strikes, with global Brent crude and West Texas Intermediate futures fluctuating sharply as commercial tanker operators reassessed transit risks through the Strait of Hormuz, through which roughly twenty percent of the world’s petroleum consumption flows. The United States Fifth Fleet, headquartered in Bahrain, has augmented destroyer patrols and airborne electronic warfare surveillance along the maritime corridor to safeguard commercial shipping convoys against maritime mine threats and drone swarms.\n\nNational security analysts warn that the coming 48 hours will test the limits of both military deterrence and high-stakes diplomacy. While Washington has demonstrated its readiness to respond swiftly to hostile acts against American forces, regional allies in the Gulf are pressing both nations to avoid a wider military conflagration that could destabilize global commodity markets and trigger broader regional conflict.",
-        "category": "Tech & AI",
+        "category": "Tech",
         "edition": [
             "US & Americas",
             "Global"
@@ -764,7 +764,7 @@ The congressional scrutiny centers on a new generation of autonomous agentic sof
 Cybersecurity scholars and defense officials underscored that while autonomous agents represent an indispensable tool for countering automated nation-state cyberattacks, the lack of standardized protocol boundaries creates severe systemic hazards. During a technical briefing on Capitol Hill, cybersecurity directors urged federal regulators to establish mandatory containment standards, immutable telemetry auditing, and cryptographic kill-switch requirements for any frontier model granted autonomous execution privileges.
 
 In response to congressional inquiries, leading enterprise AI laboratories announced a voluntary technical moratorium on unmonitored production deployments of autonomous cyber agents while an independent consortium of university and industry security researchers reviews defensive safety baselines.`,
-      category: 'Tech & AI',
+      category: 'Tech',
       edition: ['US & Americas', 'Global'],
       author: {
     name: 'Newyorkerherald Staff',
@@ -798,7 +798,7 @@ The discussion arrives as congressional oversight committees and the Department 
 Nvidia, which recently achieved a market valuation exceeding $3.5 trillion on the back of explosive global demand for its Blackwell architecture compute systems, has maintained an extensive compliance apparatus to adhere to federal export standards. The company has developed customized, power-adjusted processor variants specifically engineered to comply with federal performance thresholds while serving international enterprise cloud markets.
 
 Industry analysts emphasize that maintaining clear, transparent regulatory frameworks is vital for American semiconductor leadership. As global demand for AI infrastructure surges, semiconductor leaders have urged Washington to couple rigorous national security safeguards with continued federal investments in domestic fabrication facilities under the CHIPS and Science Act, ensuring the United States maintains its technological moat across design, manufacturing, and packaging.`,
-      category: 'Tech & AI',
+      category: 'Tech',
       edition: ['US & Americas', 'Global'],
       author: {
     name: 'Newyorkerherald Staff',
@@ -822,7 +822,7 @@ The controversy began when a corporate shell entity quietly assembled options to
 Over several weeks of packed, emotional town hall hearings, residents raised urgent questions regarding groundwater depletion, noise pollution from cooling fans, and the risk of rising residential electric bills. Municipal council members ultimately voted unanimously to reject the rezoning application, citing the lack of long-term local employment generation compared against the immense irreversible strain on municipal resources.
 
 Sociologists and tech policy researchers note that the Menomonie decision marks a watershed moment in the expanding national debate over artificial intelligence infrastructure. As hyperscalers search for available land and cheap power across the Midwest and South, rural and suburban communities are increasingly demanding binding transparency, water reclamation guarantees, and community benefit agreements before permitting massive computing complexes to break ground.`,
-      category: 'Tech & AI',
+      category: 'Tech',
       edition: ['US & Americas'],
       author: {
     name: 'Newyorkerherald Staff',
@@ -846,7 +846,7 @@ Starlink, which now provides high-speed broadband connectivity to over four mill
 At the Starbase facility in southern Texas, aerospace engineers are preparing for the next integrated test flight of the massive Starship rocket system. Achieving reusable orbital flight is central to SpaceX's roadmap to deploy next-generation Starlink V3 satellites, which feature expanded phased-array apertures capable of direct-to-cell mobile voice and data services.
 
 Aerospace financial analysts estimate that SpaceX's commercial launch and satellite communications business generated over $13 billion in annualized revenue over the past twelve months, cementing the company's status as the indispensable launch provider for NASA, the Department of Defense, and the global commercial space economy.`,
-      category: 'Tech & AI',
+      category: 'Tech',
       edition: ['US & Americas', 'Global'],
       author: {
     name: 'Newyorkerherald Staff',
@@ -1053,14 +1053,14 @@ On the stadium infrastructure front, club executives evaluated demonstrations of
     }
   ],
 
-  'Health & Science': [
+  'Science': [
     {
         "id": "catastrophic-flash-floods-force-emergency-evacuations-across-southwestern-colorado-as-atmospheric-river-slams-rockies",
         "title": "Catastrophic Flash Floods Force Emergency Evacuations Across Southwestern Colorado as Atmospheric River Slams Rockies",
         "kicker": "CLIMATE & HAZARDS • EMERGENCY EVACUATION",
         "summary": "Unprecedented autumn atmospheric moisture collided with early snowpack across the San Juan Mountains, triggering catastrophic mudslides and river flooding that forced thousands of Colorado residents from their homes.",
         "body": "DURANGO, Colo. & DENVER — Emergency rescue personnel, Colorado National Guard helicopter crews, and local sheriff deputies conducted dramatic water evacuations across southwestern Colorado on Monday after an unprecedented late-autumn atmospheric river slammed into the Southern Rocky Mountains. The extreme weather system unleashed torrents of warm, unseasonal rainfall onto early winter snowpack, triggering catastrophic flash flooding, debris flows, and dangerous river crests throughout La Plata, Montezuma, and Archuleta counties.\n\nState emergency management officials confirmed that more than three thousand residents in low-lying river valleys and mountain canyons were placed under mandatory evacuation orders as the Animas, Dolores, and San Juan rivers surged over their historical embankments. Floodwaters submerged roadways, washed out bridges along critical state highways, and breached municipal water filtration facilities, prompting county authorities to issue boil-water advisories and declare regional states of emergency.\n\nNational Weather Service hydrologists noted that atmospheric moisture plumes originating from the subtropical Pacific delivered rainfall rates exceeding four inches within a twelve-hour window over high-elevation burn scars left by previous summer wildfires. The saturated, hydrophobic soil rapidly transformed steep mountain slopes into torrents of liquefied mud, boulders, and timber, blocking transit arteries including U.S. Route 550 and stranding dozens of motorists in mountain passes until emergency plows and tracked rescue vehicles could break through.\n\nGovernor Jared Polis activated the State Emergency Operations Center in Centennial and authorized the deployment of specialized swift-water rescue teams and National Guard engineering battalions to assist local first responders. Emergency shelters established in high school gymnasiums and civic centers in Durango and Pagosa Springs filled rapidly as families sought refuge from rising waters. Fortunately, while property damage to homes, businesses, and agricultural infrastructure is estimated in the tens of millions of dollars, no fatalities have been confirmed as of Monday afternoon due to swift evacuation enforcement.\n\nClimate scientists and mountain hydrologists warn that rain-on-snow flooding events represent an increasingly hazardous manifestation of shifting atmospheric jet streams in the American West. As warming oceanic temperatures inject higher moisture volumes into continental weather patterns, mountain communities engineered for gradual spring snowmelt are increasingly vulnerable to sudden, violent autumn deluge events that overwhelm civil flood management infrastructure.",
-        "category": "Health & Science",
+        "category": "Science",
         "edition": [
             "US & Americas"
         ],
@@ -1101,7 +1101,7 @@ Epidemiological data released by the Massachusetts Department of Public Health i
 In addition to physical swim competency, the program integrates comprehensive cardiovascular wellness screenings and youth asthma management consultations provided by visiting community health nurses. Medical directors from Boston Children's Hospital and Massachusetts General Hospital emphasized that community-level physical activity interventions produce profound multi-year benefits for adolescent mental well-being, metabolic health, and chronic illness prevention.
 
 Civic leaders across New England praised the collaborative model, noting that pairing municipal recreation facilities with institutional preventative healthcare delivery provides a replicable national blueprint for addressing preventable pediatric health hazards while fostering lifelong wellness habits.`,
-      category: 'Health & Science',
+      category: 'Science',
       edition: ['US & Americas'],
       author: {
     name: 'Newyorkerherald Staff',
@@ -1133,7 +1133,7 @@ Civic leaders across New England praised the collaborative model, noting that pa
 The findings, published following extensive field telemetry across Wyoming, Montana, and Idaho, provide crucial nuance for volcanic risk modeling worldwide. By analyzing micro-fractures and zircon crystal zoning profiles from the Lava Creek Tuff formation erupted 631,000 years ago, researchers observed distinct compositional fingerprints proving that isolated magma bodies mobilized sequentially across decentralized subterranean fault networks.
 
 Scientists emphasized that continuous ground deformation GPS telemetry and thermal sensor networks confirm that the modern Yellowstone magma reservoir remains in a quiescent, low-melt crystal mush state, with no indications of impending eruptive activity. However, mapping multi-pulse dynamics provides volcanologists with far more sophisticated predictive tools to interpret deep tectonic strain oscillations and improve long-term hazard assessments for active caldera systems globally.`,
-      category: 'Health & Science',
+      category: 'Science',
       edition: ['US & Americas'],
       author: {
     name: 'Newyorkerherald Staff',
@@ -1155,7 +1155,7 @@ Scientists emphasized that continuous ground deformation GPS telemetry and therm
 Engineers and materials scientists at the facilities will manufacture pilot batches of high-nickel cathode cells capable of achieving energy densities exceeding 450 watt-hours per kilogram—a dramatic improvement over conventional lithium-ion batteries. The breakthrough promises to extend electric vehicle ranges beyond 600 miles per charge while virtually eliminating thermal runaway risks and reducing fast-charging times to under twelve minutes.
 
 Domestic automotive manufacturers have committed multi-billion-dollar off-take agreements for production yields, aiming to integrate solid-state cells into commercial vehicle platforms by 2028. State economic development officials noted that establishing domestic battery material supply chains is vital to maintaining the Midwest's historical industrial primacy in automotive engineering while creating thousands of specialized engineering and technician careers.`,
-      category: 'Health & Science',
+      category: 'Science',
       edition: ['US & Americas'],
       author: {
     name: 'Newyorkerherald Staff',
@@ -1246,7 +1246,7 @@ export const OPINION_COLUMNS: OpinionColumn[] = [
   },
   {
     id: 'op-col-3',
-    category: 'Tech & AI',
+    category: 'Tech',
     columnTitle: 'Frontier Innovation',
     headline: 'Why Open-Source AI Architecture Remains America’s Greatest Strategic Moat',
     authorName: 'Newyorkerherald Staff',
@@ -1372,9 +1372,9 @@ export const CATEGORIES_META: Record<string, {
     editorInChief: 'Newyorkerherald Staff',
     bureau: 'New York Financial Bureau'
   },
-  'tech-ai': {
-    slug: 'tech-ai',
-    name: 'Tech & Frontier AI',
+  'tech': {
+    slug: 'tech',
+    name: 'Tech',
     tagline: 'Artificial Intelligence, Semis, Cloud Compute & Aerospace',
     description: 'Authoritative reporting on artificial intelligence infrastructure, semiconductor export policy, commercial spaceflight, and digital sovereignty.',
     accentColor: 'var(--accent-cobalt)',
@@ -1402,9 +1402,9 @@ export const CATEGORIES_META: Record<string, {
     editorInChief: 'Newyorkerherald Staff',
     bureau: 'National Sports Desk'
   },
-  'health-science': {
-    slug: 'health-science',
-    name: 'Health & Science',
+  'science': {
+    slug: 'science',
+    name: 'Science',
     tagline: 'Earth Science, Chronobiology, Clean Tech & Clinical Innovation',
     description: 'Rigorous reporting on geophysics discoveries, sleep medicine research, energy storage breakthroughs, and environmental public health.',
     accentColor: 'var(--accent-emerald)',
@@ -1506,10 +1506,10 @@ export function getCategorySlugFromCategoryName(name: string): string {
   if (name === 'US' || name.startsWith('U.S.') || name.includes('U.S. News') || name === 'U.S.') return 'us';
   if (name.includes('Politics')) return 'politics';
   if (name.includes('Business')) return 'business';
-  if (name.includes('Tech') || name.includes('AI')) return 'tech-ai';
+  if (name.includes('Tech') || name.includes('AI')) return 'tech';
   if (name.includes('Entertainment')) return 'entertainment';
   if (name.includes('Sports')) return 'sports';
-  if (name.includes('Health') || name.includes('Science')) return 'health-science';
+  if (name.includes('Science') || name.includes('Health')) return 'science';
   if (name.includes('Opinion')) return 'opinion';
   if (name.includes('Investigation')) return 'investigation';
   return 'us';

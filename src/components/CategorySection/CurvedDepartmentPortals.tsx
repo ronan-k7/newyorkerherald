@@ -17,10 +17,10 @@ export default function CurvedDepartmentPortals() {
   // Full category totals for section overview links
   const politicsTotal = getArticlesByCategorySlug('politics').length;
   const businessTotal = getArticlesByCategorySlug('business').length;
-  const techTotal = getArticlesByCategorySlug('tech-ai').length;
+  const techTotal = getArticlesByCategorySlug('tech').length;
   const entertainmentTotal = getArticlesByCategorySlug('entertainment').length;
   const sportsTotal = getArticlesByCategorySlug('sports').length;
-  const scienceTotal = getArticlesByCategorySlug('health-science').length;
+  const scienceTotal = getArticlesByCategorySlug('science').length;
 
   const renderCard = (art: any) => (
     <div
@@ -131,14 +131,14 @@ export default function CurvedDepartmentPortals() {
           </div>
         </div>
 
-        {/* ================= SECTION 3: TECH & AI ================= */}
+        {/* ================= SECTION 3: TECH ================= */}
         <div>
           <div className="section-header">
             <h3 className="section-title">
-              Tech & AI
+              Tech
             </h3>
 
-            <Link href="/category/tech-ai" style={{
+            <Link href="/category/tech" style={{
               display: 'flex',
               alignItems: 'center',
               gap: '3px',
@@ -252,10 +252,10 @@ export default function CurvedDepartmentPortals() {
         <div>
           <div className="section-header">
             <h3 className="section-title">
-              Health & Science
+              Science
             </h3>
 
-            <Link href="/category/health-science" style={{
+            <Link href="/category/science" style={{
               display: 'flex',
               alignItems: 'center',
               gap: '3px',

@@ -1,11 +1,14 @@
 export type ArticleCategory = 
   | 'US'
+  | 'U.S. News'
   | 'Politics'
   | 'U.S. Politics'
   | 'Business' 
+  | 'Tech'
   | 'Tech & AI' 
   | 'Entertainment' 
   | 'Sports' 
+  | 'Science'
   | 'Health & Science'
   | 'Investigation'
   | 'Opinion';

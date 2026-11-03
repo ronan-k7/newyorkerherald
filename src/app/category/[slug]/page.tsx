@@ -18,7 +18,8 @@ export default function CategoryPage() {
 
   const categoryArticles = getArticlesByCategorySlug(slug);
   const articles = categoryArticles.length > 0 ? categoryArticles : allArts;
-  const categoryMeta = CATEGORIES_META[slug];
+  const resolvedSlug = slug === 'tech-ai' ? 'tech' : slug === 'health-science' ? 'science' : slug;
+  const categoryMeta = CATEGORIES_META[resolvedSlug] || CATEGORIES_META[slug];
   const info = {
     name: categoryMeta?.name || slug.replace(/-/g, ' ').toUpperCase(),
     description: categoryMeta?.description || 'Curated field reporting, investigative analyses, and primary-source verified journalism from the Newyorkerherald global newsroom.',
