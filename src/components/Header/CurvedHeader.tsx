@@ -24,9 +24,23 @@ export default function CurvedHeader({ activeCategory = 'All', onSelectCategory 
   }, []);
 
   useEffect(() => {
+    let ticking = false;
+
     const handleScroll = () => {
-      // Threshold: collapse full masthead once scrolled past 40px
-      setIsScrolled(window.scrollY > 40);
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          const scrollY = window.scrollY;
+          // Hysteresis window: collapse when scrolled past 60px, expand back only when scrolled back above 20px
+          // This completely prevents oscillation, shivering, or rapid state toggling
+          if (scrollY > 60) {
+            setIsScrolled(true);
+          } else if (scrollY < 20) {
+            setIsScrolled(false);
+          }
+          ticking = false;
+        });
+        ticking = true;
+      }
     };
 
     window.addEventListener('scroll', handleScroll, { passive: true });
@@ -50,35 +64,9 @@ export default function CurvedHeader({ activeCategory = 'All', onSelectCategory 
   ];
 
   return (
-    <header
-      className={`curved-header-root ${isScrolled ? 'is-scrolled' : ''}`}
-      style={{
-        position: 'sticky',
-        top: 0,
-        zIndex: 100,
-        backgroundColor: 'var(--bg-glass)',
-        backdropFilter: 'blur(16px)',
-        WebkitBackdropFilter: 'blur(16px)',
-        borderBottom: '1px solid var(--border-rule)',
-        boxShadow: isScrolled ? '0 4px 16px rgba(0, 0, 0, 0.06)' : 'none',
-        transition: 'box-shadow 0.25s ease'
-      }}
-    >
-      {/* Top Strip - collapsed when scrolled */}
-      <div
-        className="header-top-strip"
-        style={{
-          borderBottom: isScrolled ? 'none' : '1px solid var(--border-rule)',
-          padding: isScrolled ? '0' : '5px 0',
-          maxHeight: isScrolled ? '0px' : '36px',
-          opacity: isScrolled ? 0 : 1,
-          overflow: 'hidden',
-          pointerEvents: isScrolled ? 'none' : 'auto',
-          transition: 'max-height 0.25s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.2s ease, padding 0.25s ease',
-          fontSize: '0.72rem',
-          color: 'var(--text-secondary)'
-        }}
-      >
+    <header className={`curved-header-root ${isScrolled ? 'is-scrolled' : ''}`}>
+      {/* Top Strip - collapsed smoothly when scrolled */}
+      <div className="header-top-strip">
         <div className="aura-container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
           {/* Left: Date & Weather */}
           <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
@@ -189,18 +177,8 @@ export default function CurvedHeader({ activeCategory = 'All', onSelectCategory 
         </div>
       </div>
 
-      {/* Main Masthead Banner - collapsed when scrolled */}
-      <div
-        className="header-masthead-banner"
-        style={{
-          padding: isScrolled ? '0' : '26px 0',
-          maxHeight: isScrolled ? '0px' : '150px',
-          opacity: isScrolled ? 0 : 1,
-          overflow: 'hidden',
-          pointerEvents: isScrolled ? 'none' : 'auto',
-          transition: 'max-height 0.28s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.2s ease, padding 0.28s ease'
-        }}
-      >
+      {/* Main Masthead Banner - collapsed smoothly when scrolled */}
+      <div className="header-masthead-banner">
         <div className="aura-container masthead-banner-container" style={{
           display: 'flex',
           alignItems: 'center',
@@ -255,41 +233,20 @@ export default function CurvedHeader({ activeCategory = 'All', onSelectCategory 
         </div>
       </div>
 
-      {/* Synchronized Exact Category Bar - transforms into slim sticky header bar */}
-      <div
-        className="header-category-bar"
-        style={{
-          borderTop: isScrolled ? 'none' : '1px solid var(--border-rule)',
-          backgroundColor: 'transparent',
-          minHeight: isScrolled ? '44px' : '38px',
-          display: 'flex',
-          alignItems: 'center',
-          transition: 'min-height 0.25s ease'
-        }}
-      >
+      {/* Category Bar - transforms into slim sticky header bar */}
+      <div className="header-category-bar">
         <div
           className="aura-container"
           style={{
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'space-between',
-            gap: isScrolled ? '10px' : '0px',
-            width: '100%'
+            width: '100%',
+            height: '100%'
           }}
         >
           {/* Left: Compact brand logo when scrolled */}
-          <div
-            style={{
-              display: 'flex',
-              alignItems: 'center',
-              maxWidth: isScrolled ? '240px' : '0px',
-              opacity: isScrolled ? 1 : 0,
-              overflow: 'hidden',
-              pointerEvents: isScrolled ? 'auto' : 'none',
-              transition: 'max-width 0.25s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.2s ease',
-              flexShrink: 0
-            }}
-          >
+          <div className="header-compact-logo">
             <Link
               href="/"
               className="font-heading"
@@ -304,7 +261,7 @@ export default function CurvedHeader({ activeCategory = 'All', onSelectCategory 
                 alignItems: 'center',
                 gap: '7px',
                 paddingRight: '12px',
-                marginRight: '4px',
+                marginRight: '6px',
                 borderRight: '1px solid var(--border-rule)',
                 lineHeight: 1
               }}
@@ -328,12 +285,13 @@ export default function CurvedHeader({ activeCategory = 'All', onSelectCategory 
             style={{
               display: 'flex',
               alignItems: 'center',
-              gap: isScrolled ? '2px' : '4px',
+              gap: '2px',
               overflowX: 'auto',
               scrollbarWidth: 'none',
               msOverflowStyle: 'none',
               flex: 1,
-              minWidth: 0
+              minWidth: 0,
+              height: '100%'
             }}
           >
             {categories.map((cat) => {
@@ -349,14 +307,14 @@ export default function CurvedHeader({ activeCategory = 'All', onSelectCategory 
                     display: 'flex',
                     alignItems: 'center',
                     gap: '4px',
-                    padding: isScrolled ? '5px 10px' : '8px 12px',
-                    fontSize: isScrolled ? '0.74rem' : '0.76rem',
+                    padding: '6px 11px',
+                    fontSize: '0.75rem',
                     fontWeight: isActive ? 900 : 700,
                     whiteSpace: 'nowrap',
                     textDecoration: 'none',
                     color: isActive ? 'var(--brand-primary)' : 'var(--text-secondary)',
                     borderBottom: isActive ? '2px solid var(--brand-primary)' : '2px solid transparent',
-                    transition: 'color var(--transition-fast), padding 0.2s ease, font-size 0.2s ease'
+                    transition: 'color var(--transition-fast)'
                   }}
                 >
                   <span>{cat.name}</span>
@@ -366,18 +324,7 @@ export default function CurvedHeader({ activeCategory = 'All', onSelectCategory 
           </nav>
 
           {/* Right: Compact Search button when scrolled */}
-          <div
-            style={{
-              display: 'flex',
-              alignItems: 'center',
-              maxWidth: isScrolled ? '110px' : '0px',
-              opacity: isScrolled ? 1 : 0,
-              overflow: 'hidden',
-              pointerEvents: isScrolled ? 'auto' : 'none',
-              transition: 'max-width 0.25s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.2s ease',
-              flexShrink: 0
-            }}
-          >
+          <div className="header-compact-search">
             <button
               type="button"
               onClick={() => setIsSearchOpen(true)}
@@ -397,7 +344,8 @@ export default function CurvedHeader({ activeCategory = 'All', onSelectCategory 
                 cursor: 'pointer',
                 whiteSpace: 'nowrap',
                 transition: 'all var(--transition-fast)',
-                lineHeight: 1
+                lineHeight: 1,
+                marginLeft: '6px'
               }}
               onMouseEnter={(e) => {
                 e.currentTarget.style.color = 'var(--text-primary)';

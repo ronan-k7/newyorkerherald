@@ -705,25 +705,121 @@ html, body {
   overflow-y: visible;
 }
 
-/* Scrolled Sticky Header states */
-.curved-header-root.is-scrolled .header-top-strip,
+/* ================= STICKY HEADER SHORTENING (SMOOTH & STABLE) ================= */
+.curved-header-root {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: var(--bg-glass);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--border-rule);
+  transition: box-shadow 0.25s ease;
+  will-change: box-shadow;
+}
+
+.curved-header-root.is-scrolled {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+
+.header-top-strip {
+  border-bottom: 1px solid var(--border-rule);
+  padding: 5px 0;
+  font-size: 0.72rem;
+  color: var(--text-secondary);
+  overflow: hidden;
+  max-height: 40px;
+  opacity: 1;
+  box-sizing: border-box;
+  transition: max-height 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+              opacity 0.2s ease,
+              padding 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+              border-color 0.2s ease;
+}
+
+.curved-header-root.is-scrolled .header-top-strip {
+  max-height: 0;
+  opacity: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  border-bottom-color: transparent;
+  pointer-events: none;
+}
+
+.header-masthead-banner {
+  padding: 24px 0;
+  overflow: hidden;
+  max-height: 160px;
+  opacity: 1;
+  box-sizing: border-box;
+  transition: max-height 0.32s cubic-bezier(0.4, 0, 0.2, 1),
+              opacity 0.2s ease,
+              padding 0.32s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .curved-header-root.is-scrolled .header-masthead-banner {
-  max-height: 0px !important;
-  height: 0px !important;
-  padding: 0 !important;
-  margin: 0 !important;
-  border: none !important;
-  opacity: 0 !important;
-  overflow: hidden !important;
-  pointer-events: none !important;
+  max-height: 0;
+  opacity: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  pointer-events: none;
 }
 
 .curved-header-root.is-scrolled .masthead-banner-container {
-  padding: 0 !important;
-  margin: 0 !important;
-  height: 0 !important;
-  min-height: 0 !important;
-  overflow: hidden !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  opacity: 0;
+}
+
+.header-category-bar {
+  border-top: 1px solid var(--border-rule);
+  background-color: transparent;
+  height: 44px;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  transition: border-top-color 0.2s ease;
+}
+
+.curved-header-root.is-scrolled .header-category-bar {
+  border-top-color: transparent;
+}
+
+.header-compact-logo {
+  display: flex;
+  align-items: center;
+  max-width: 0px;
+  opacity: 0;
+  overflow: hidden;
+  pointer-events: none;
+  flex-shrink: 0;
+  white-space: nowrap;
+  transition: max-width 0.28s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.2s ease;
+}
+
+.curved-header-root.is-scrolled .header-compact-logo {
+  max-width: 240px;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.header-compact-search {
+  display: flex;
+  align-items: center;
+  max-width: 0px;
+  opacity: 0;
+  overflow: hidden;
+  pointer-events: none;
+  flex-shrink: 0;
+  white-space: nowrap;
+  transition: max-width 0.28s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.2s ease;
+}
+
+.curved-header-root.is-scrolled .header-compact-search {
+  max-width: 110px;
+  opacity: 1;
+  pointer-events: auto;
 }
 
 @media (max-width: 900px) {
