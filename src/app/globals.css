@@ -653,4 +653,45 @@ html, body {
     gap: 18px !important;
   }
 
+  /* Special Dossier Responsive Layout */
+  .alina-hero-showcase {
+    grid-template-columns: 1fr !important;
+    gap: 24px !important;
+    padding: 20px !important;
+  }
+  .alina-hero-img-col {
+    order: -1;
+    min-height: 320px !important;
+    height: 340px !important;
+  }
+  .alina-dossier-grid {
+    grid-template-columns: 1fr !important;
+    gap: 36px !important;
+  }
+
+}
+
+/* Special Dossier Feature Hero Layout (Desktop Base) */
+.alina-hero-showcase {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+  gap: 36px;
+  align-items: stretch;
+}
+
+.alina-hero-img-col {
+  position: relative;
+  min-height: 500px;
+  height: 100%;
+  border-radius: var(--radius-xs);
+  overflow: hidden;
+  background-color: #0A0C10;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.alina-dossier-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 340px;
+  gap: 48px;
+  align-items: start;
 }
