@@ -343,7 +343,7 @@ img {
 
 /* Prevent accidental horizontal overflow globally */
 html, body {
-  overflow-x: hidden;
+  overflow-x: clip;
   max-width: 100vw;
 }
 
@@ -694,4 +694,23 @@ html, body {
   grid-template-columns: minmax(0, 1fr) 340px;
   gap: 48px;
   align-items: start;
+}
+
+.sticky-dossier-sidebar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 24px;
+  align-self: start;
+  max-height: calc(100vh - 48px);
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-rule) transparent;
+}
+
+@media (max-width: 900px) {
+  .sticky-dossier-sidebar {
+    position: static;
+    max-height: none;
+    overflow-y: visible;
+  }
 }

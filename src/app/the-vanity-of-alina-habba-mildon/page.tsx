@@ -537,21 +537,28 @@ export default function AlinaHabbaSpecialDossierPage() {
           </article>
 
           {/* ================= RIGHT: STICKY TIMELINE & QUICK LOOKUP ================= */}
-          <aside style={{
-            position: 'sticky',
-            top: '24px',
-            display: 'flex',
-            flexDirection: 'column',
-            gap: '24px'
-          }}>
+          <aside
+            className="sticky-dossier-sidebar"
+            style={{
+              position: 'sticky',
+              top: '24px',
+              alignSelf: 'start',
+              maxHeight: 'calc(100vh - 48px)',
+              overflowY: 'auto',
+              display: 'flex',
+              flexDirection: 'column',
+              gap: '20px',
+              scrollbarWidth: 'thin'
+            }}
+          >
 
             {/* Timeline Sidebar Box */}
             <div style={{
               backgroundColor: 'var(--bg-surface-elevated)',
               border: '1px solid var(--border-hairline)',
               borderRadius: 'var(--radius-sm)',
-              padding: '24px',
-              boxShadow: '0 6px 20px rgba(0,0,0,0.04)'
+              padding: '20px',
+              boxShadow: '0 4px 16px rgba(0,0,0,0.03)'
             }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '16px', borderBottom: '1px solid var(--border-hairline)', paddingBottom: '12px' }}>
                 <Calendar size={16} color="var(--brand-primary)" />
@@ -568,7 +575,7 @@ export default function AlinaHabbaSpecialDossierPage() {
               </div>
 
               {/* Timeline Items */}
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', position: 'relative' }}>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', position: 'relative' }}>
 
                 {/* Vertical Hairline Rule */}
                 <div style={{
