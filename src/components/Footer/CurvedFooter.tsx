@@ -20,15 +20,6 @@ export default function CurvedFooter() {
     { name: 'Investigation', href: '/category/investigation' },
   ];
 
-  const editorialDesks = [
-    { name: 'Editorial Board', beat: 'Governance & Institutional Voice', href: '/author/editorial-board' },
-    { name: 'Washington Bureau', beat: 'National Politics & Congress', href: '/author/editorial-board' },
-    { name: 'New York Financial Desk', beat: 'Global Markets & Macroeconomics', href: '/author/editorial-board' },
-    { name: 'San Francisco Tech Desk', beat: 'Frontier AI & Silicon Valley', href: '/author/editorial-board' },
-    { name: 'National Science Bureau', beat: 'Climate, Health & Technology', href: '/author/editorial-board' },
-    { name: 'Investigative Desk', beat: 'Enterprise & In-Depth Inquiries', href: '/author/editorial-board' },
-  ];
-
   const institutional = [
     { name: 'About Us', href: '/about' },
     { name: 'Editorial Policy', href: '/editorial-policy' },
@@ -173,25 +164,6 @@ export default function CurvedFooter() {
                 <li key={c.href}>
                   <Link href={c.href} style={{ fontSize: '0.76rem', color: 'var(--text-secondary)', textDecoration: 'none' }}>
                     {c.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Editorial Desks */}
-          <div>
-            <h4 style={{ fontSize: '0.72rem', fontWeight: 800, textTransform: 'uppercase', color: 'var(--text-primary)', marginBottom: '8px' }}>
-              Editorial Desks
-            </h4>
-            <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '5px' }}>
-              {editorialDesks.map((a) => (
-                <li key={a.name}>
-                  <Link href={a.href} style={{ fontSize: '0.76rem', color: 'var(--text-secondary)', textDecoration: 'none', fontWeight: 600 }}>
-                    <span>{a.name}</span>
-                    <span style={{ display: 'block', fontSize: '0.66rem', color: 'var(--text-muted)', fontWeight: 400 }}>
-                      {a.beat}
-                    </span>
                   </Link>
                 </li>
               ))}
