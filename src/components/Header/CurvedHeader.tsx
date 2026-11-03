@@ -39,7 +39,8 @@ export default function CurvedHeader({ activeCategory = 'All', onSelectCategory 
   // EXACT same categories as the primary site
   const categories = [
     { name: 'Top Stories', slug: '', href: '/' },
-    { name: 'U.S. Politics', slug: 'politics', href: '/category/politics' },
+    { name: 'U.S.', slug: 'us', href: '/category/us' },
+    { name: 'Politics', slug: 'politics', href: '/category/politics' },
     { name: 'Business & Economy', slug: 'business', href: '/category/business' },
     { name: 'Tech & AI', slug: 'tech-ai', href: '/category/tech-ai' },
     { name: 'Entertainment', slug: 'entertainment', href: '/category/entertainment' },

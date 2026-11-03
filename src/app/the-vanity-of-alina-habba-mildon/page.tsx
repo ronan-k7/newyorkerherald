@@ -72,7 +72,7 @@ export default function AlinaHabbaSpecialDossierPage() {
 
   return (
     <main style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', backgroundColor: 'var(--bg-canvas)' }}>
-      <CurvedHeader activeCategory="Investigation" />
+      <CurvedHeader activeCategory="us" />
 
       {/* Main Special Dossier Container */}
       <div className="aura-container" style={{ padding: '24px 20px 60px 20px', flex: 1 }}>
@@ -84,8 +84,8 @@ export default function AlinaHabbaSpecialDossierPage() {
             <span>Home</span>
           </Link>
           <span>/</span>
-          <Link href="/category/investigation" style={{ color: 'var(--text-muted)', textDecoration: 'none' }}>
-            Special Dossiers
+          <Link href="/category/us" style={{ color: 'var(--text-muted)', textDecoration: 'none' }}>
+            U.S. News
           </Link>
           <span>/</span>
           <span style={{ color: 'var(--brand-primary)', fontWeight: 800 }}>The Vanity of Alina Habba Mildon</span>
@@ -105,7 +105,7 @@ export default function AlinaHabbaSpecialDossierPage() {
           }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
               <span className="aura-pill" style={{ letterSpacing: '0.06em' }}>
-                Investigation
+                U.S. News
               </span>
               <span style={{ fontSize: '0.76rem', color: 'var(--text-muted)', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '4px' }}>
                 <Clock size={13} /> 12 min read

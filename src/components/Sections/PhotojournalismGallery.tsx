@@ -19,7 +19,7 @@ export default function PhotojournalismGallery() {
       id: 'photo-2',
       title: 'Mojave Desert Telemetry: Critical Minerals Field Testing',
       location: 'Mountain Pass, California',
-      photographer: 'Dr. Rebecca Foster / Science Field Desk',
+      photographer: 'Newyorkerherald Staff / Science Field Desk',
       date: 'Nov 1, 2026',
       imageUrl: '/images/news/bipartisan-congressional-coalition-finalizes-critical-minerals-strategic-stockpile-legislation.webp',
       caption: 'Geological survey engineers monitor extraction purity sensors at a domestic rare-earth refining facility in San Bernardino County.'
@@ -28,7 +28,7 @@ export default function PhotojournalismGallery() {
       id: 'photo-3',
       title: 'Metro Infrastructure Expansion Ahead of LA28 Games',
       location: 'Los Angeles, California',
-      photographer: 'Elena Rostova / Visuals Bureau',
+      photographer: 'Newyorkerherald Staff / Visuals Bureau',
       date: 'Nov 1, 2026',
       imageUrl: '/images/news/la28-olympic-organizers-secure-multi-billion-dollar-founding-corporate-sponsorships-with-delta-honda.webp',
       caption: 'Transit crews install high-speed automated signaling corridors connecting downtown transit hubs with future international sports venues.'

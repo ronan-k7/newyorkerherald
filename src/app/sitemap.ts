@@ -51,7 +51,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
-  // 2. All 8 Category Hub Pages
+  // 2. All Category Hub Pages (U.S., Politics, Business, Tech, Entertainment, Sports, Science, Opinion, Investigation)
   const categoryRoutes: MetadataRoute.Sitemap = Object.keys(CATEGORIES_META).map((slug) => ({
     url: `${baseUrl}/category/${slug}`,
     lastModified: now,

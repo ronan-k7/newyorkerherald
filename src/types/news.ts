@@ -1,5 +1,7 @@
 export type ArticleCategory = 
-  | 'U.S. Politics' 
+  | 'US'
+  | 'Politics'
+  | 'U.S. Politics'
   | 'Business' 
   | 'Tech & AI' 
   | 'Entertainment' 

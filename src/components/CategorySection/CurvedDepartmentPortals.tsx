@@ -79,11 +79,11 @@ export default function CurvedDepartmentPortals() {
     <section style={{ padding: '16px 0 24px 0' }}>
       <div className="aura-container" style={{ display: 'flex', flexDirection: 'column', gap: '32px' }}>
         
-        {/* ================= SECTION 1: U.S. POLITICS ================= */}
+        {/* ================= SECTION 1: POLITICS ================= */}
         <div>
           <div className="section-header">
             <h3 className="section-title">
-              U.S. Politics
+              Politics
             </h3>
 
             <Link href="/category/politics" style={{

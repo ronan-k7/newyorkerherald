@@ -43,7 +43,7 @@ On the campaign trail Sunday and Monday, leaders from both parties barnstormed c
 Independent election monitoring consortiums emphasize that despite high early voting tallies, the true outcome will be decided by late-deciding independent voters who historically show up on Election Day itself. In bellwether counties such as Maricopa in Arizona and Bucks in Pennsylvania, campaign field offices have mobilized tens of thousands of volunteer door-knockers equipped with algorithmic voter mapping tools to maximize neighborhood turnout before Tuesday evening deadlines.
 
 Federal cybersecurity and domestic intelligence agencies confirmed that monitoring desks are operating at heightened readiness to defend against coordinated disinformation campaigns and localized technical disruptions. With the nation standing on the precipice of election day, state secretaries of state have reminded voters to verify designated polling precinct locations, bring necessary identification credentials, and rely on official county election board communications for certified vote tabulation schedules.`,
-  category: 'U.S. Politics',
+  category: 'Politics',
   edition: ['US & Americas', 'Global'],
   author: {
     name: 'Newyorkerherald Staff',
@@ -62,7 +62,7 @@ Federal cybersecurity and domestic intelligence agencies confirmed that monitori
     'Intense ground game mobilization underway across Pennsylvania, Michigan, Georgia, and Arizona as both parties battle for razor-thin majorities.',
     'Federal election security task forces activate national coordination centers to counter disinformation and safeguard physical polling sites.'
   ],
-  tags: ['U.S. Politics', '2026 Midterms', 'Elections', 'Congress', 'Voting Rights']
+  tags: ['Politics', '2026 Midterms', 'Elections', 'Congress', 'Voting Rights']
 };
 
 export const SECONDARY_LEAD_STORIES: Article[] = [
@@ -80,7 +80,7 @@ Investigators from the National Transportation Safety Board (NTSB) and the Feder
 Local emergency management officials coordinated with the county medical examiner to assist in victim identification and notifications for families traveling from Texas and Florida. The FAA issued a regional ground advisory restricting non-emergency drone operations and low-altitude air traffic around the impact zone as specialized forensic teams meticulously map the wide debris perimeter.
 
 The tragedy marks one of the deadliest executive business aviation accidents in Florida in recent years, prompting heightened scrutiny from federal transportation regulators over corporate charter maintenance protocols and pilot duty cycle compliance. The NTSB confirmed that a preliminary factual accident report will be published within thirty days, with comprehensive laboratory metallurgical evaluations of engine components expected to take between twelve and eighteen months.`,
-    category: 'U.S. Politics',
+    category: 'US',
     edition: ['US & Americas'],
     author: {
     name: 'Newyorkerherald Staff',
@@ -193,7 +193,7 @@ export const TRENDING_RANKED_ARTICLES: Article[] = [
     title: 'Senator Chris Murphy Hospitalized Following Mild Stroke as Colleagues Send Bipartisan Support',
     kicker: 'CAPITOL HILL',
     summary: 'Connecticut Democratic Senator was admitted to hospital over the weekend, drawing bipartisan messages of encouragement as his medical team anticipates a complete recovery.',
-    category: 'U.S. Politics',
+    category: 'US',
     author: {
     name: 'Newyorkerherald Staff',
     role: 'Editorial Board & Newsroom Desks',
@@ -208,7 +208,7 @@ export const TRENDING_RANKED_ARTICLES: Article[] = [
     title: 'Strait of Hormuz Naval Mine Explosions Damage Oil Tankers as Washington Weighs Diplomatic Deterrence',
     kicker: 'NATIONAL SECURITY',
     summary: 'Two commercial oil tankers sustained hull damage following naval mine explosions in the Strait of Hormuz, prompting emergency maritime warnings and national security reviews.',
-    category: 'U.S. Politics',
+    category: 'Politics',
     author: {
     name: 'Newyorkerherald Staff',
     role: 'Editorial Board & Newsroom Desks',
@@ -275,7 +275,7 @@ As the Federal Energy Regulatory Commission (FERC) convenes national stakeholder
   readTime: '10 min read',
   imageUrl: '/images/news/the-ai-power-crunch-how-surging-data-center-demand-and-grid-congestion-are-testing-america-s-energy-capacity.webp',
   imageCaption: 'High-voltage transmission towers adjacent to an expanding hyperscale data center campus in Loudoun County, Virginia.',
-  imageCredit: 'Newyorkerherald Investigative Photography / Carlos Mendoza',
+  imageCredit: 'Newyorkerherald Investigative Photography / Newyorkerherald Staff',
   isInvestigative: true,
   commentCount: 31,
   bullets: [
@@ -294,7 +294,7 @@ export const CATEGORY_ARTICLES: Record<string, Article[]> = {
         "kicker": "SPECIAL INVESTIGATIVE DOSSIER • EXCLUSIVE REPORT",
         "summary": "From the White House inner circle to the 240-year-old Herrera Velutini banking dynasty: an exhaustive investigation into Alina Habba’s contested $50 million advisory agreement, her whirlwind reinvention, and Donald Trump’s dramatic Halloween intervention at Mar-a-Lago.",
         "body": "Alina Habba was once a symbol of beauty, power and strength. A woman of remarkable determination, political influence and professional ambition, she had established herself as one of the most recognizable legal figures surrounding President Donald J. Trump. Her career represented confidence, resilience and loyalty, qualities that appeared to position her for an extraordinary future beyond public service.\n\nYet behind the glamour of Washington, the prestige of presidential proximity and the opportunities of international finance, another story was beginning to unfold. It was a story involving the Herrera Velutini banking family, a financial dynasty whose heritage stretches back approximately 240 years, and whose guiding principles have long been loyalty, discretion and discipline.",
-        "category": "Investigation",
+        "category": "US",
         "edition": [
             "US & Americas",
             "Global"
@@ -328,21 +328,89 @@ export const CATEGORY_ARTICLES: Record<string, Article[]> = {
         ]
     }
   ],
-  'U.S. Politics': [
+    'US': [
+    {
+        "id": "the-vanity-of-alina-habba-mildon",
+        "title": "The Vanity of Alina Habba Mildon: Beauty, Power, Ambition and the Price of Loyalty",
+        "kicker": "SPECIAL INVESTIGATIVE DOSSIER • EXCLUSIVE REPORT",
+        "summary": "From the White House inner circle to the 240-year-old Herrera Velutini banking dynasty: an exhaustive investigation into Alina Habba’s contested $50 million advisory agreement, her whirlwind reinvention, and Donald Trump’s dramatic Halloween intervention at Mar-a-Lago.",
+        "body": "Alina Habba was once a symbol of beauty, power and strength. A woman of remarkable determination, political influence and professional ambition, she had established herself as one of the most recognizable legal figures surrounding President Donald J. Trump. Her career represented confidence, resilience and loyalty, qualities that appeared to position her for an extraordinary future beyond public service.\n\nYet behind the glamour of Washington, the prestige of presidential proximity and the opportunities of international finance, another story was beginning to unfold. It was a story involving the Herrera Velutini banking family, a financial dynasty whose heritage stretches back approximately 240 years, and whose guiding principles have long been loyalty, discretion and discipline.",
+        "category": "US",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Newyorkerherald Staff",
+            "role": "Editorial Board & Special Dossier Unit",
+            "avatar": "/images/authors/sarah_mitchell.jpg"
+        },
+        "publishedAt": "2h ago",
+        "readTime": "12 min read",
+        "imageUrl": "/images/news/alina-habba-image.webp",
+        "imageCaption": "Alina Habba Mildon, former senior legal adviser, at the center of an unfolding international banking inquiry.",
+        "imageCredit": "Newyorkerherald Special Dossier / Archive",
+        "isLead": false,
+        "isInvestigative": true,
+        "commentCount": 68,
+        "bullets": [
+            "Investigation traces Habba Mildon’s transition from senior presidential adviser to legal counsel for the 240-year-old Herrera Velutini banking dynasty.",
+            "Four-year, $50M Concord Partners agreement encompassed oversight of 20+ international law firms and $100M annual legal and advisory budgets.",
+            "President Trump’s dramatic Halloween intervention at Mar-a-Lago branded the arrangement unacceptable, bringing immense scrutiny to all parties."
+        ],
+        "tags": [
+            "Investigation",
+            "Alina Habba",
+            "Herrera Velutini",
+            "Donald Trump",
+            "Banking Dynasty",
+            "White House",
+            "Special Dossier"
+        ]
+    },
+    SECONDARY_LEAD_STORIES[0],
+    SECONDARY_LEAD_STORIES[2],
+    {
+      id: 'end-of-daylight-saving-time-2026-clocks-fall-back-sunshine-protection-act-stalled',
+      title: 'Americans Turn Clocks Back One Hour as Daylight Saving Time Concludes Amid Renewed Federal Debate',
+      kicker: 'CIVIL TIME & CONGRESSIONAL LEGISLATION',
+      summary: 'Millions of Americans gained an hour of sleep as standard time returned nationwide, reigniting calls from public health experts and sleep researchers to abolish biennial clock changes permanently.',
+      body: `WASHINGTON — In a familiar ritual observed across forty-eight states and all federal territories, Americans adjusted their clocks back one hour at 2:00 a.m. Sunday, bringing a formal conclusion to Daylight Saving Time for 2026. While the autumnal return to standard time granted households an additional hour of weekend rest, the transition has reignited fierce legislative debate on Capitol Hill over whether the United States should permanently abandon the century-old practice of seasonal clock switching.
+
+Public health organizations, including the American Academy of Sleep Medicine and the American Medical Association, reaffirmed their unified support Monday for federal legislation enacting year-round standard time. Medical researchers point to decades of clinical data indicating that the biannual disruption to human circadian rhythms corresponds with acute spikes in cardiovascular emergencies, motor vehicle collisions, and depressive episodes, particularly during the spring forward transition.
+
+Bipartisan legislation titled the Sunshine Protection Act—which would permanently lock clocks on Daylight Saving Time—previously passed the U.S. Senate by unanimous consent in 2022. However, the bill stalled in the House of Representatives amid regional disagreements between agricultural constituencies, retail coalitions, and transportation authorities. While commercial entertainment and golf industry lobbies favor permanent daylight saving time for extended evening consumer activity, pediatric health advocates and school boards caution that permanent DST would force tens of millions of elementary school children to commute to class in pitch-black darkness throughout December and January.
+
+As the clocks reset, congressional leaders confirmed that bipartisan committee staff have renewed technical hearings on circadian chronobiology and energy conservation metrics, aiming to resolve geographic divides between northern and southern states during the upcoming legislative session.`,
+      category: 'US',
+      edition: ['US & Americas'],
+      author: {
+        name: 'Newyorkerherald Staff',
+        role: 'Editorial Board & Newsroom Desks',
+        avatar: '/images/authors/sarah_mitchell.jpg'
+      },
+      publishedAt: '2h ago',
+      readTime: '5 min read',
+      imageUrl: '/images/news/end-of-daylight-saving-time-2026-clocks-fall-back-sunshine-protection-act-stalled.jpg',
+      commentCount: 9,
+      tags: ['US', 'Daylight Saving Time', 'Public Health', 'Congress', 'Lifestyle']
+    }
+  ],
+  'Politics': [
     {
         "id": "supreme-court-rejects-emergency-challenge-over-20-000-california-ballots-as-judge-bars-federal-election-interference",
         "title": "Supreme Court Rejects Emergency Challenge Over 20,000 California Ballots as Judge Bars Federal Election Interference",
         "kicker": "ELECTION JURISPRUDENCE • BREAKING DISPATCH",
         "summary": "The U.S. Supreme Court declined an emergency plea to segregate 20,000 California mail-in ballots hours after a federal judge issued a nationwide restraining order prohibiting federal agencies from threatening local poll workers.",
         "body": "WASHINGTON & SAN FRANCISCO — In a consequential pair of federal judicial rulings delivered on the eve of the 2026 United States Midterm Elections, the Supreme Court of the United States and a federal district court in California established sweeping legal barriers Monday against last-minute interventions into state and county election administration procedures.\n\nIn an unsigned order issued without noted dissents, the Supreme Court rejected an emergency application filed by national party legal committees seeking to compel the immediate isolation and segregated storage of roughly 20,000 mail-in and provisional ballots in California. The challengers had alleged procedural irregularities concerning citizenship verification checkmarks on voter registration cards processed earlier in the election cycle. However, the high court’s brief decree adhered closely to the established \"Purcell principle,\" a foundational judicial doctrine that cautions federal appellate tribunals against altering state election rules or casting doubt on ballot handling protocols in the immediate run-up to an election.\n\nThe high court's refusal to intervene arrived barely twelve hours after U.S. District Judge Elena Torres in the Northern District of California issued an emergency temporary restraining order against officials in the Department of Justice and the Department of Homeland Security. The order formally enjoins federal personnel and regional task forces from issuing criminal subpoenas, conducting on-site monitoring without state consent, or publicly threatening election administrators and county tabulation clerks with federal prosecution during active counting operations.\n\nIn a scathing 42-page ruling, Judge Torres wrote that federal law confers clear constitutional authority upon individual states to manage the times, places, and manners of holding elections, subject only to express congressional statutes rather than executive branch pressure tactics. \"The integrity of American democracy depends upon the uncoerced, independent execution of duties by county registrars, municipal clerks, and nonpartisan election volunteers,\" the court declared. \"Efforts to sow doubt through executive threats on the eve of balloting undermine public confidence and violate fundamental principles of federalism.\"\n\nState elections officials across the country praised the twin rulings, characterizing them as a critical reaffirmation of stability as tens of millions of voters prepare to cast ballots on Tuesday. In Los Angeles, Orange, and San Diego counties, registrar offices confirmed that all validly submitted ballots are proceeding through optical scan tabulation, signature verification, and secure audit tracking without interruption. Federal monitors were reminded that their presence at local polling stations remains strictly subject to state statutory observation rules and credentialing standards.",
-        "category": "U.S. Politics",
+        "category": "Politics",
         "edition": [
             "US & Americas",
             "Global"
         ],
         "author": {
-            "name": "Sarah Mitchell",
-            "role": "Chief National Political Correspondent",
+            "name": "Newyorkerherald Staff",
+            "role": "Editorial Board & Newsroom Desks",
             "avatar": "/images/authors/sarah_mitchell.jpg"
         },
         "publishedAt": "2h ago",
@@ -357,7 +425,7 @@ export const CATEGORY_ARTICLES: Record<string, Article[]> = {
             "County election administrators proceed with secure tabulation under full state statutory guidelines and audit protections."
         ],
         "tags": [
-            "U.S. Politics",
+            "Politics",
             "Supreme Court",
             "2026 Midterms",
             "California",
@@ -377,7 +445,7 @@ The bipartisan initiative comes in direct response to classified Pentagon supply
 Under the new statutory framework, federal procurement officers are authorized to issue binding ten-year price-stabilization contracts to domestic processing consortiums operating commercial facilities in California's Mojave Desert and across the Appalachian refining corridor. Industry executives from the Critical Minerals Institute commended the legislative breakthrough, emphasizing that long-term federal price floors provide the institutional certainty required by Wall Street infrastructure lenders to finance capital-intensive chemical refining refineries.
 
 With floor votes scheduled for the upcoming post-election lame-duck congressional session, leaders from both parties hailed the breakthrough as an essential pillar of twenty-first-century industrial sovereignty, ensuring that America's aerospace, renewable grid, and semiconductor infrastructure remain insulated from global geopolitical chokepoints.`,
-      category: 'U.S. Politics',
+      category: 'Politics',
       edition: ['US & Americas', 'Global'],
       author: {
     name: 'Newyorkerherald Staff',
@@ -395,7 +463,7 @@ With floor votes scheduled for the upcoming post-election lame-duck congressiona
         'Long-term price floor contracts incentivize institutional investment in domestic processing facilities.',
         'Measures clear key committee hurdles ahead of lame-duck congressional floor votes.'
       ],
-      tags: ['U.S. Politics', 'Defense', 'Critical Minerals', 'Congress', 'Energy']
+      tags: ['Politics', 'Defense', 'Critical Minerals', 'Congress', 'Energy']
     },
     {
       id: 'political-analysts-map-competing-scenarios-for-2026-midterms-as-economic-sentiment-evolves',
@@ -409,7 +477,7 @@ In bellwether suburban jurisdictions surrounding Philadelphia, Atlanta, and Phoe
 Campaign managers for both political parties have adapted their final-hour media strategies to reflect this pocketbook focus. In industrial districts across Pennsylvania and Michigan, broadcast ad buys have shifted heavily toward messaging on domestic manufacturing reshoring, trade tariffs, and industrial wage gains. Simultaneously, in the Sun Belt battlegrounds of Georgia and Arizona, campaigns have mounted massive mobilization efforts targeting infrequent voters through peer-to-peer texting operations and neighborhood door canvassing.
 
 Statistical forecasters emphasize that unprecedented early in-person turnout tallies—surpassing 51 million nationwide—mean that traditional election night predictive models may encounter extended counting delays in states with complex statutory mail-in signature cure windows. Election administration officials have urged patience, noting that certified tabulations will prioritize accuracy and transparency over immediate projections.`,
-      category: 'U.S. Politics',
+      category: 'Politics',
       edition: ['US & Americas'],
       author: {
     name: 'Newyorkerherald Staff',
@@ -427,7 +495,7 @@ Statistical forecasters emphasize that unprecedented early in-person turnout tal
         'Late-deciding independent voters cite household grocery, housing, and healthcare costs as primary voting drivers.',
         'State election administrators remind the electorate that complete vote certification may extend through the week.'
       ],
-      tags: ['U.S. Politics', 'Elections', 'Midterms', 'Polling', 'Congress']
+      tags: ['Politics', 'Elections', 'Midterms', 'Polling', 'Congress']
     },
 
     LEAD_ARTICLE,
@@ -444,7 +512,7 @@ Physicians attending to Senator Murphy reported that the stroke was identified q
 The announcement prompted an immediate outpouring of bipartisan support from across the political spectrum on Capitol Hill. Senate leaders and congressional colleagues praised Murphy's work ethic and dedicated public service, offering prayers and warm wishes for his swift rehabilitation.
 
 Murphy, who has served in the United States Senate since 2013 and previously represented Connecticut's 5th Congressional District in the House of Representatives, is widely recognized as one of the Senate's most prolific legislative negotiators, having spearheaded bipartisan compromise frameworks on gun safety reform and mental health appropriations. His office confirmed that senior staff will continue managing constituent casework and daily legislative duties in close coordination with committee leaders until the Senator resumes his official schedule.`,
-      category: 'U.S. Politics',
+      category: 'Politics',
       edition: ['US & Americas'],
       author: {
     name: 'Newyorkerherald Staff',
@@ -466,7 +534,7 @@ Murphy, who has served in the United States Senate since 2013 and previously rep
 During two hours of sharp questioning, the justices probed competing interpretations of the Constitution's Interstate Commerce Clause and Tenth Amendment federalism safeguards. Conservative justices pressed attorneys representing state environmental coalitions on whether allowing individual states to veto nationally significant transmission lines obstructs the economic vitality of neighboring states. Meanwhile, liberal justices questioned federal agency counsels on whether sweeping preemption standards would dismantle decades of cooperative federalism established under the Clean Water Act and National Environmental Policy Act.
 
 Legal scholars note that the high court's eventual ruling, anticipated in the spring of 2027, will have immediate consequences for billions of dollars in planned renewable energy interconnectors, cross-state water conduits, and liquefied natural gas pipeline expansions across the American West and Appalachia.`,
-      category: 'U.S. Politics',
+      category: 'Politics',
       edition: ['US & Americas'],
       author: {
     name: 'Newyorkerherald Staff',
@@ -488,7 +556,7 @@ Legal scholars note that the high court's eventual ruling, anticipated in the sp
 According to statements released by U.S. Naval Forces Central Command (NAVCENT) headquartered in Bahrain, explosive ordnance disposal specialists were dispatched to survey the damaged vessels and collect forensic evidence. Military analysts noted that while no group has claimed direct responsibility, the deployment of tethered sea mines in the strategic chokepoint represents a dangerous escalation in maritime brinkmanship.
 
 In Washington, national security officials convened in the White House Situation Room to evaluate intelligence assessments and diplomatic responses. While congressional defense committee leaders called for expanded allied naval escorts under the International Maritime Security Construct, foreign policy advisers underscored the administration's preference for diplomatic channels to de-escalate tensions and prevent wider military conflict in critical international waters.`,
-      category: 'U.S. Politics',
+      category: 'Politics',
       edition: ['US & Americas', 'Global'],
       author: {
     name: 'Newyorkerherald Staff',
@@ -660,8 +728,8 @@ Sports finance experts note that the move mirrors a broader institutional trend 
             "Global"
         ],
         "author": {
-            "name": "David Vance",
-            "role": "Defense & National Security Desk",
+            "name": "Newyorkerherald Staff",
+            "role": "Editorial Board & Newsroom Desks",
             "avatar": "/images/authors/david_vance.jpg"
         },
         "publishedAt": "1h ago",
@@ -804,8 +872,8 @@ Aerospace financial analysts estimate that SpaceX's commercial launch and satell
             "US & Americas"
         ],
         "author": {
-            "name": "Maya Patel",
-            "role": "Culture & Entertainment Editor",
+            "name": "Newyorkerherald Staff",
+            "role": "Editorial Board & Newsroom Desks",
             "avatar": "/images/authors/maya_patel.jpg"
         },
         "publishedAt": "4h ago",
@@ -890,8 +958,8 @@ Furthermore, cloud streaming platforms and mobile distribution networks have low
             "Global"
         ],
         "author": {
-            "name": "Marcus Sterling",
-            "role": "Senior Sports Correspondent",
+            "name": "Newyorkerherald Staff",
+            "role": "Editorial Board & Newsroom Desks",
             "avatar": "/images/authors/marcus_sterling.jpg"
         },
         "publishedAt": "3h ago",
@@ -997,8 +1065,8 @@ On the stadium infrastructure front, club executives evaluated demonstrations of
             "US & Americas"
         ],
         "author": {
-            "name": "Dr. Rebecca Foster",
-            "role": "National Science & Health Desk",
+            "name": "Newyorkerherald Staff",
+            "role": "Editorial Board & Newsroom Desks",
             "avatar": "/images/authors/rebecca_foster.jpg"
         },
         "publishedAt": "2h ago",
@@ -1157,7 +1225,7 @@ export const OPINION_COLUMNS: OpinionColumn[] = [
     category: 'Politics',
     columnTitle: 'Democratic Institutions',
     headline: 'Divided Governance Is Not a Crisis: Why Constitutional Gridlock Can Foster Policy Stability',
-    authorName: 'Newyorkerherald Editorial Board',
+    authorName: 'Newyorkerherald Staff',
     authorTitle: 'Editorial Board & Commentary Desk',
     authorAvatar: '/images/authors/jonathan_ross.jpg',
     quoteSnippet: 'The Founders engineered the American republic to resist swift factional impulses; divided government forces consensus over fiat.',
@@ -1169,7 +1237,7 @@ export const OPINION_COLUMNS: OpinionColumn[] = [
     category: 'National Security',
     columnTitle: 'Geopolitical Realism',
     headline: 'The Strait of Hormuz Trap: Why Diplomatic Patience Outweighs Hasty Military Action',
-    authorName: 'Newyorkerherald Editorial Board',
+    authorName: 'Newyorkerherald Staff',
     authorTitle: 'Editorial Board & Commentary Desk',
     authorAvatar: '/images/authors/sarah_mitchell.jpg',
     quoteSnippet: 'A localized maritime incident must not be allowed to dictate the trajectory of continental security in the Middle East.',
@@ -1181,7 +1249,7 @@ export const OPINION_COLUMNS: OpinionColumn[] = [
     category: 'Tech & AI',
     columnTitle: 'Frontier Innovation',
     headline: 'Why Open-Source AI Architecture Remains America’s Greatest Strategic Moat',
-    authorName: 'Newyorkerherald Editorial Board',
+    authorName: 'Newyorkerherald Staff',
     authorTitle: 'Editorial Board & Commentary Desk',
     authorAvatar: '/images/authors/elena_rostova.jpg',
     quoteSnippet: 'Monopolies seek protective regulatory moats; open developer communities build the enduring infrastructure of the future.',
@@ -1193,7 +1261,7 @@ export const OPINION_COLUMNS: OpinionColumn[] = [
     category: 'Economics',
     columnTitle: 'Economic Truths',
     headline: 'The Hidden Toll of Cross-Border Tariffs on Midwest Working Families',
-    authorName: 'Newyorkerherald Editorial Board',
+    authorName: 'Newyorkerherald Staff',
     authorTitle: 'Editorial Board & Commentary Desk',
     authorAvatar: '/images/authors/henrik_lindqvist.jpg',
     quoteSnippet: 'Automotive supply chains are continental ecosystems; taxing parts at the border punishes American assembly lines first.',
@@ -1274,14 +1342,24 @@ export const CATEGORIES_META: Record<string, {
   editorInChief: string;
   bureau: string;
 }> = {
+  'us': {
+    slug: 'us',
+    name: 'U.S. News & National Affairs',
+    tagline: 'Domestic Dispatches, Regional Enterprise, Public Safety & American Life',
+    description: 'Authoritative dispatches on American civil affairs, domestic aviation, public emergencies, investigative profiles, and local enterprise across the nation.',
+    accentColor: 'var(--brand-primary)',
+    topics: ['Alina Habba Inquiry', 'Florida Aviation', 'Colorado Floods', 'Public Safety', 'Domestic Enterprise'],
+    editorInChief: 'Newyorkerherald Staff',
+    bureau: 'National News Desk'
+  },
   'politics': {
     slug: 'politics',
-    name: 'U.S. Politics & Policy',
+    name: 'Politics & Government',
     tagline: 'Capitol Hill, 2026 Midterms, White House & Judiciary',
     description: 'Comprehensive coverage of legislative battles, the 2026 midterm elections, federal regulatory agencies, and constitutional jurisprudence.',
     accentColor: 'var(--brand-primary)',
-    topics: ['2026 Midterms', 'Early Voting', 'Capitol Hill', 'Supreme Court', 'National Security'],
-    editorInChief: 'Sarah Mitchell',
+    topics: ['2026 Midterms', 'Early Voting', 'Capitol Hill', 'Supreme Court', 'Election Jurisprudence'],
+    editorInChief: 'Newyorkerherald Staff',
     bureau: 'Washington D.C. Bureau'
   },
   'business': {
@@ -1291,7 +1369,7 @@ export const CATEGORIES_META: Record<string, {
     description: 'In-depth intelligence on international trade, central bank interest rate forecasts, energy commodities, and corporate capital restructuring.',
     accentColor: 'var(--accent-amber)',
     topics: ['U.S.-Canada Trade', 'Crude Oil', 'Payment Swipe Fees', 'Corporate Spin-offs', 'Federal Reserve'],
-    editorInChief: 'Henrik Lindqvist',
+    editorInChief: 'Newyorkerherald Staff',
     bureau: 'New York Financial Bureau'
   },
   'tech-ai': {
@@ -1301,7 +1379,7 @@ export const CATEGORIES_META: Record<string, {
     description: 'Authoritative reporting on artificial intelligence infrastructure, semiconductor export policy, commercial spaceflight, and digital sovereignty.',
     accentColor: 'var(--accent-cobalt)',
     topics: ['AI Infrastructure Spend', 'Nvidia Geopolitics', 'Community Pushback', 'SpaceX Starlink', 'Open-Source AI'],
-    editorInChief: 'Elena Rostova',
+    editorInChief: 'Newyorkerherald Staff',
     bureau: 'San Francisco Tech Bureau'
   },
   'entertainment': {
@@ -1311,7 +1389,7 @@ export const CATEGORIES_META: Record<string, {
     description: 'Critical coverage of studio mergers, intellectual property convergence, interactive video gaming, and global cultural trends.',
     accentColor: 'var(--accent-plum)',
     topics: ['Paramount Skydance', 'Interactive Gaming', 'Streaming Economics', 'Hollywood Creative Guilds'],
-    editorInChief: 'Maya Patel',
+    editorInChief: 'Newyorkerherald Staff',
     bureau: 'Los Angeles Bureau'
   },
   'sports': {
@@ -1321,7 +1399,7 @@ export const CATEGORIES_META: Record<string, {
     description: 'Fast-paced reporting on premier athletic championships, pro league standings, athlete biomechanics, and sports franchise investments.',
     accentColor: 'var(--accent-emerald)',
     topics: ['NYC Marathon 2026', 'NFL Week 9', 'NBA Action', 'MLB Tech Summit', 'Franchise Valuation'],
-    editorInChief: 'Marcus Sterling',
+    editorInChief: 'Newyorkerherald Staff',
     bureau: 'National Sports Desk'
   },
   'health-science': {
@@ -1331,7 +1409,7 @@ export const CATEGORIES_META: Record<string, {
     description: 'Rigorous reporting on geophysics discoveries, sleep medicine research, energy storage breakthroughs, and environmental public health.',
     accentColor: 'var(--accent-emerald)',
     topics: ['Daylight Saving Time', 'Yellowstone Volcanology', 'Solid-State Batteries', 'Circadian Medicine'],
-    editorInChief: 'Dr. Rebecca Foster',
+    editorInChief: 'Newyorkerherald Staff',
     bureau: 'National Science Desk'
   },
   'opinion': {
@@ -1341,7 +1419,7 @@ export const CATEGORIES_META: Record<string, {
     description: 'Distinguished columnists and contributors deliver incisive perspectives on divided governance, foreign policy, and technological sovereignty.',
     accentColor: 'var(--brand-primary)',
     topics: ['2026 Election Closing Arguments', 'Naval Deterrence', 'Open Source AI', 'Tariff Impacts'],
-    editorInChief: 'Jonathan Ross',
+    editorInChief: 'Newyorkerherald Staff',
     bureau: 'Editorial Board'
   },
   'investigation': {
@@ -1351,7 +1429,7 @@ export const CATEGORIES_META: Record<string, {
     description: 'Exhaustive investigative series examining critical infrastructure limits, grid congestion, and technological transition bottlenecks across America.',
     accentColor: 'var(--brand-primary)',
     topics: ['The AI Power Crunch', 'Grid Transmission Bottlenecks', 'Nuclear Power Contracts', 'Ratepayer Equity'],
-    editorInChief: 'Carlos Mendoza',
+    editorInChief: 'Newyorkerherald Staff',
     bureau: 'Special Dossier Desk'
   }
 };
@@ -1425,6 +1503,7 @@ export function getAllArticles(): Article[] {
 }
 
 export function getCategorySlugFromCategoryName(name: string): string {
+  if (name === 'US' || name.startsWith('U.S.') || name.includes('U.S. News') || name === 'U.S.') return 'us';
   if (name.includes('Politics')) return 'politics';
   if (name.includes('Business')) return 'business';
   if (name.includes('Tech') || name.includes('AI')) return 'tech-ai';
@@ -1433,7 +1512,7 @@ export function getCategorySlugFromCategoryName(name: string): string {
   if (name.includes('Health') || name.includes('Science')) return 'health-science';
   if (name.includes('Opinion')) return 'opinion';
   if (name.includes('Investigation')) return 'investigation';
-  return 'politics';
+  return 'us';
 }
 
 export function getAuthorSlugFromName(name: string): string {
@@ -1442,8 +1521,11 @@ export function getAuthorSlugFromName(name: string): string {
 
 export function getArticlesByCategorySlug(slug: string): Article[] {
   const all = getAllArticles();
+  if (slug === 'us') {
+    return all.filter(a => a.category === 'US' || a.category === 'U.S. News' || a.tags?.includes('US') || a.id.includes('habba') || a.id.includes('florida') || a.id.includes('murphy') || a.id.includes('floods'));
+  }
   if (slug === 'politics') {
-    return all.filter(a => a.category === 'U.S. Politics' || a.tags?.includes('U.S. Politics'));
+    return all.filter(a => a.category === 'Politics' || a.tags?.includes('Politics'));
   }
   if (slug === 'business') {
     return all.filter(a => a.category === 'Business');
@@ -1464,9 +1546,9 @@ export function getArticlesByCategorySlug(slug: string): Article[] {
     return all.filter(a => a.category === 'Opinion');
   }
   if (slug === 'investigation') {
-    return all.filter(a => a.isInvestigative || a.category === 'Investigation' || a.id.includes('power-crunch'));
+    return all.filter(a => a.isInvestigative || a.category === 'Investigation' || a.id.includes('power-crunch') || a.id.includes('habba'));
   }
-  return all.filter(a => a.category === 'U.S. Politics');
+  return all.filter(a => a.category === 'US');
 }
 
 export function getArticlesByAuthorSlug(slug: string): Article[] {
@@ -1551,6 +1633,12 @@ export function getHomepageExecutiveBriefing(): Article[] {
 export function getHomepageDepartmentArticles(dept: string): Article[] {
   const all = getAllArticles();
   const mapping: Record<string, string[]> = {
+    us: [
+      'the-vanity-of-alina-habba-mildon',
+      'fatal-florida-private-jet-crash-palm-beach-ntsb-faa-emergency-investigation',
+      'senator-chris-murphy-hospitalized-after-stroke-bipartisan-well-wishes',
+      'end-of-daylight-saving-time-2026-clocks-fall-back-sunshine-protection-act-stalled'
+    ],
     politics: [
       'supreme-court-rejects-emergency-challenge-over-20-000-california-ballots-as-judge-bars-federal-election-interference',
       'supreme-court-weighs-federal-regulatory-scope-over-state-infrastructure-in-landmark-preemption-case',

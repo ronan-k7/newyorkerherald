@@ -27,12 +27,14 @@ export default function CurvedFooter() {
   };
 
   const categories = [
+    { name: 'U.S. News', href: '/category/us' },
     { name: 'Politics & Policy', href: '/category/politics' },
     { name: 'Business & Markets', href: '/category/business' },
     { name: 'Tech & Frontier AI', href: '/category/tech-ai' },
     { name: 'Culture & Entertainment', href: '/category/entertainment' },
     { name: 'Sports & Athletics', href: '/category/sports' },
     { name: 'Health & Science', href: '/category/health-science' },
+    { name: 'Investigation', href: '/category/investigation' },
   ];
 
   const editorialDesks = [
