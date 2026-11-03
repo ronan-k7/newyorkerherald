@@ -1,0 +1,759 @@
+'use client';
+
+import React, { useState } from 'react';
+import Link from 'next/link';
+import CurvedHeader from '@/components/Header/CurvedHeader';
+import CurvedFooter from '@/components/Footer/CurvedFooter';
+import { 
+  ArrowLeft, 
+  Bookmark, 
+  Share2, 
+  Clock, 
+  Calendar, 
+  Briefcase, 
+  Scale, 
+  ShieldAlert, 
+  Check, 
+  Building2, 
+  Landmark, 
+  DollarSign, 
+  ChevronRight,
+  FileText
+} from 'lucide-react';
+import { useNews } from '@/context/NewsContext';
+
+export default function AlinaHabbaSpecialDossierPage() {
+  const { bookmarks, toggleBookmark } = useNews();
+  const [copied, setCopied] = useState(false);
+  const articleId = 'the-vanity-of-alina-habba-mildon';
+  const isBookmarked = bookmarks.includes(articleId);
+
+  const handleShare = () => {
+    if (typeof window !== 'undefined') {
+      navigator.clipboard.writeText(window.location.href);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2500);
+    }
+  };
+
+  const timelineEvents = [
+    {
+      year: '2024',
+      badge: 'Initial Connection',
+      title: 'First Professional Engagement',
+      description: 'Habba reportedly first met and worked with the Herrera banking interests, prior to entering senior federal public service.'
+    },
+    {
+      year: 'December 2025',
+      badge: 'Public Service Exit',
+      title: 'Departure & The Friday Call',
+      description: 'Her public service concluded and she began exploring a new professional chapter. A reported Friday-afternoon call was placed to the family.'
+    },
+    {
+      year: 'January 2026',
+      badge: 'Executive Clemency',
+      title: 'Presidential Pardon Granted',
+      description: 'President Donald Trump formally granted a presidential pardon to Julio Herrera Velutini. Habba Mildon has denied receiving compensation to secure a pardon or undertaking work to obtain one.'
+    },
+    {
+      year: 'February 26, 2026',
+      badge: 'London Headquarters',
+      title: 'Corporate Summit & Business Lunch',
+      description: 'A reported 108-minute business lunch with Julio Herrera Velutini, family members and senior advisers took place at the family’s London corporate headquarters.'
+    },
+    {
+      year: 'March 23, 2026',
+      badge: '25 Days Later',
+      title: 'Personal Reinvention & Second Meeting',
+      description: 'Habba reportedly requested a second London meeting, discussing her divorce and relationship with Turkish businessman Turhan Mildon. The relationship led to an engagement and an extravagant wedding celebration estimated at approximately $10 million.'
+    },
+    {
+      year: 'October 31, 2026',
+      badge: 'Mar-a-Lago',
+      title: 'Trump’s Halloween Intervention',
+      description: 'President Donald J. Trump publicly criticized the reported compensation agreement at Mar-a-Lago, denouncing it as "totally obnoxious and outrageous" and unacceptable.'
+    }
+  ];
+
+  return (
+    <main style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', backgroundColor: 'var(--bg-canvas)' }}>
+      <CurvedHeader activeCategory="Investigation" />
+
+      {/* Main Special Dossier Container */}
+      <div className="aura-container" style={{ padding: '24px 20px 60px 20px', flex: 1 }}>
+        
+        {/* Breadcrumb Navigation */}
+        <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '20px', fontSize: '0.72rem', color: 'var(--text-muted)' }}>
+          <Link href="/" style={{ display: 'flex', alignItems: 'center', gap: '4px', color: 'var(--text-muted)', textDecoration: 'none', fontWeight: 600 }}>
+            <ArrowLeft size={12} />
+            <span>Home</span>
+          </Link>
+          <span>/</span>
+          <Link href="/category/investigation" style={{ color: 'var(--text-muted)', textDecoration: 'none' }}>
+            Special Dossiers
+          </Link>
+          <span>/</span>
+          <span style={{ color: 'var(--brand-primary)', fontWeight: 800 }}>The Vanity of Alina Habba Mildon</span>
+        </div>
+
+        {/* ================= HERO EDITORIAL MASTHEAD ================= */}
+        <header style={{
+          borderBottom: '2px solid var(--text-primary)',
+          paddingBottom: '32px',
+          marginBottom: '36px'
+        }}>
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '12px', marginBottom: '14px' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+              <span className="aura-pill" style={{ backgroundColor: 'var(--brand-primary)', color: '#FFFFFF', letterSpacing: '0.08em' }}>
+                INVESTIGATIVE DOSSIER • EXCLUSIVE REPORT
+              </span>
+              <span style={{ fontSize: '0.74rem', color: 'var(--text-muted)', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '4px' }}>
+                <Clock size={12} /> 12 Min Read
+              </span>
+            </div>
+
+            <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+              <button
+                onClick={() => toggleBookmark(articleId)}
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '5px',
+                  fontSize: '0.72rem',
+                  fontWeight: 700,
+                  padding: '5px 12px',
+                  borderRadius: 'var(--radius-xs)',
+                  border: '1px solid var(--border-hairline)',
+                  backgroundColor: 'var(--bg-surface-elevated)',
+                  color: isBookmarked ? 'var(--brand-primary)' : 'var(--text-primary)',
+                  cursor: 'pointer'
+                }}
+              >
+                <Bookmark size={13} fill={isBookmarked ? 'currentColor' : 'none'} />
+                <span>{isBookmarked ? 'Saved in Dossier' : 'Save Investigation'}</span>
+              </button>
+
+              <button
+                onClick={handleShare}
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '5px',
+                  fontSize: '0.72rem',
+                  fontWeight: 700,
+                  padding: '5px 12px',
+                  borderRadius: 'var(--radius-xs)',
+                  border: '1px solid var(--border-hairline)',
+                  backgroundColor: 'var(--bg-surface-elevated)',
+                  color: 'var(--text-primary)',
+                  cursor: 'pointer'
+                }}
+              >
+                {copied ? <Check size={13} color="var(--accent-emerald)" /> : <Share2 size={13} />}
+                <span>{copied ? 'Link Copied!' : 'Share Dossier'}</span>
+              </button>
+            </div>
+          </div>
+
+          <h1 className="font-heading" style={{
+            fontSize: 'clamp(2.4rem, 4.4vw, 3.8rem)',
+            fontWeight: 900,
+            color: 'var(--text-primary)',
+            lineHeight: 1.08,
+            letterSpacing: '-0.04em',
+            margin: '0 0 14px 0'
+          }}>
+            The Vanity of Alina Habba Mildon
+          </h1>
+
+          <p style={{
+            fontSize: 'clamp(1.15rem, 1.8vw, 1.35rem)',
+            color: 'var(--brand-primary)',
+            fontWeight: 700,
+            lineHeight: 1.35,
+            letterSpacing: '-0.015em',
+            margin: '0 0 18px 0',
+            maxWidth: '960px'
+          }}>
+            Beauty, Power, Ambition and the Price of Loyalty: From the White House to the Herrera Velutini Banking Dynasty
+          </p>
+
+          <p style={{
+            fontSize: '1rem',
+            color: 'var(--text-secondary)',
+            lineHeight: 1.6,
+            margin: '0 0 24px 0',
+            maxWidth: '920px'
+          }}>
+            An exhaustive examination into the extraordinary $50 million legal and advisory agreement between Donald Trump’s former personal attorney and Concord Partners, the high-altitude corporate summits in London, a whirlwind $10 million social reinvention, and the sudden presidential rupture that reverberated from Mar-a-Lago to European banking chambers.
+          </p>
+
+          {/* Byline Strip */}
+          <div style={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            flexWrap: 'wrap',
+            gap: '12px',
+            paddingTop: '16px',
+            borderTop: '1px solid var(--border-hairline)',
+            fontSize: '0.76rem',
+            color: 'var(--text-muted)'
+          }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+              <span style={{ fontWeight: 800, color: 'var(--text-primary)', textTransform: 'uppercase', letterSpacing: '0.04em' }}>
+                By Newyorkerherald Staff
+              </span>
+              <span>•</span>
+              <span>Special Dossier &amp; Investigative Bureau</span>
+              <span>•</span>
+              <span>Published November 2026</span>
+            </div>
+
+            <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+              <Landmark size={14} color="var(--brand-primary)" />
+              <span style={{ fontStyle: 'italic' }}>Document Ref: NYH-DOSSIER-HABBA-2026</span>
+            </div>
+          </div>
+        </header>
+
+        {/* ================= HERO VISUAL SECTION ================= */}
+        <div style={{ marginBottom: '44px' }}>
+          <div style={{
+            position: 'relative',
+            width: '100%',
+            height: 'clamp(320px, 50vw, 560px)',
+            backgroundColor: '#0F1115',
+            borderRadius: 'var(--radius-sm)',
+            overflow: 'hidden',
+            border: '1px solid var(--border-rule)',
+            boxShadow: '0 12px 32px rgba(0,0,0,0.12)'
+          }}>
+            <img 
+              src="/images/news/alina-habba-image.webp" 
+              alt="Alina Habba Mildon" 
+              style={{
+                width: '100%',
+                height: '100%',
+                objectFit: 'cover',
+                objectPosition: 'center 20%',
+                display: 'block'
+              }}
+            />
+
+            {/* Editorial Vignette Overlay */}
+            <div style={{
+              position: 'absolute',
+              inset: 0,
+              background: 'linear-gradient(180deg, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.4) 60%, rgba(0,0,0,0.88) 100%)',
+              display: 'flex',
+              flexDirection: 'column',
+              justifyContent: 'flex-end',
+              padding: 'clamp(20px, 4vw, 36px)'
+            }}>
+              <span className="aura-pill" style={{
+                backgroundColor: 'rgba(211, 47, 47, 0.95)',
+                color: '#FFFFFF',
+                alignSelf: 'flex-start',
+                marginBottom: '10px',
+                backdropFilter: 'blur(4px)'
+              }}>
+                Exclusive Profile &amp; Chronicle
+              </span>
+              <p style={{
+                color: '#FFFFFF',
+                fontSize: 'clamp(0.92rem, 1.4vw, 1.15rem)',
+                fontWeight: 600,
+                maxWidth: '850px',
+                lineHeight: 1.45,
+                margin: '0 0 6px 0',
+                textShadow: '0 2px 8px rgba(0,0,0,0.8)'
+              }}>
+                Alina Habba Mildon: From senior presidential legal defender to General Counsel candidate for the 240-year-old Herrera Velutini financial dynasty.
+              </p>
+              <span style={{ color: 'rgba(255,255,255,0.7)', fontSize: '0.72rem' }}>
+                Photo: Newyorkerherald Special Dossier Archive • London &amp; Palm Beach Bureau
+              </span>
+            </div>
+          </div>
+        </div>
+
+        {/* ================= 2-COLUMN DOSSIER GRID (Content + Sticky Timeline) ================= */}
+        <div style={{
+          display: 'grid',
+          gridTemplateColumns: 'minmax(0, 1fr) 340px',
+          gap: '48px',
+          alignItems: 'start'
+        }}>
+          
+          {/* ================= LEFT: ARTICLE TEXT & CALLOUTS ================= */}
+          <article style={{ fontSize: '1.02rem', lineHeight: 1.8, color: 'var(--text-secondary)' }}>
+            
+            <p style={{
+              fontSize: '1.18rem',
+              lineHeight: 1.68,
+              color: 'var(--text-primary)',
+              fontWeight: 500,
+              marginBottom: '28px'
+            }}>
+              <strong style={{ fontSize: '1.5rem', float: 'left', lineHeight: '1', paddingRight: '8px', paddingTop: '4px', color: 'var(--brand-primary)', fontFamily: 'var(--font-heading)' }}>A</strong>lina Habba was once a symbol of beauty, power and strength. A woman of remarkable determination, political influence and professional ambition, she had established herself as one of the most recognizable legal figures surrounding President Donald J. Trump. Her career represented confidence, resilience and loyalty, qualities that appeared to position her for an extraordinary future beyond public service.
+            </p>
+
+            <p>
+              Yet behind the glamour of Washington, the prestige of presidential proximity and the opportunities of international finance, another story was beginning to unfold. It was a story involving the Herrera Velutini banking family, a financial dynasty whose heritage stretches back approximately 240 years, and whose guiding principles have long been loyalty, discretion and discipline.
+            </p>
+
+            <p>
+              According to an account of her relationship with the family, Habba had first met and worked with the Herrera banking interests in 2024, before entering public service. That earlier professional connection would eventually provide the foundation for what was envisioned as a significant role within the family&apos;s international financial organization.
+            </p>
+
+            <p>
+              Following her service as senior adviser to President Trump, acting United States attorney for New Jersey and senior adviser to Attorney General Pam Bondi, Habba reportedly began looking toward a different professional future.
+            </p>
+
+            <p>
+              Her ambition was to join a family office with the international reach, influence and complexity of an organization such as the Trump Organization. She wanted a position in which her legal experience, political relationships and professional resources could be dedicated to a single family enterprise.
+            </p>
+
+            <p>
+              The role she envisioned was not an ordinary legal appointment. It was that of General Counsel and Senior Adviser, a position carrying considerable responsibility across international business, banking, regulatory affairs and strategic decision-making.
+            </p>
+
+            {/* Blockquote Breakout */}
+            <blockquote style={{
+              borderLeft: '4px solid var(--brand-primary)',
+              margin: '32px 0',
+              padding: '16px 24px',
+              backgroundColor: 'var(--bg-surface-elevated)',
+              borderRadius: '0 var(--radius-xs) var(--radius-xs) 0',
+              fontSize: '1.08rem',
+              fontStyle: 'italic',
+              color: 'var(--text-primary)',
+              lineHeight: 1.6
+            }}>
+              &ldquo;Then, on a Friday afternoon, the Herrera Velutini family reportedly received a telephone call from Alina Habba. She wanted to meet. Her stated purpose was to discuss her future following the conclusion of her public service in December 2025.&rdquo;
+            </blockquote>
+
+            <p>
+              She reportedly expressed a willingness to dedicate herself fully to the family, making herself available around the clock to coordinate its lawyers, business advisers, regulatory relationships and financial interests across jurisdictions stretching from the Middle East to Latin America.
+            </p>
+
+            <p>
+              For Habba, this represented more than another prestigious title. It was an opportunity to establish herself as a leader within the Herrera Velutini banking and financial enterprise, a chance to transform her Washington experience into a lasting career at the highest levels of international private finance.
+            </p>
+
+            <p>
+              For the family, the proposition appeared to offer the services of a highly visible American lawyer with direct experience in government, complex litigation and the management of influential relationships.
+            </p>
+
+            {/* Section: The London Summit */}
+            <h2 className="font-heading" style={{
+              fontSize: '1.55rem',
+              fontWeight: 900,
+              color: 'var(--text-primary)',
+              letterSpacing: '-0.025em',
+              margin: '40px 0 16px 0',
+              borderBottom: '1px solid var(--border-hairline)',
+              paddingBottom: '8px'
+            }}>
+              The 108-Minute Summit at the City of London
+            </h2>
+
+            <p>
+              The first significant meeting described in the account took place on February 26, 2026, at the family&apos;s corporate headquarters in the City of London. Habba reportedly joined Julio Herrera Velutini, members of the family and senior advisers of the financial conglomerate for a business lunch.
+            </p>
+
+            <p>
+              The gathering lasted precisely one hour and 48 minutes. In keeping with the Herrera Velutini family&apos;s reported practice of abstaining from alcohol, the lunch was described as a focused business discussion, without the distractions often associated with high-level corporate entertaining.
+            </p>
+
+            <p>
+              The conversation centered on the integration of the family&apos;s various financial services, the coordination of international business operations and the responsibilities that would accompany Habba&apos;s proposed leadership position. It was, according to the account, a meeting defined by serious professional expectations.
+            </p>
+
+            <p>
+              Habba subsequently returned to the United States aboard an aircraft associated with the family.
+            </p>
+
+            {/* ================= REQUIRED HIGHLIGHT BOX ================= */}
+            <div style={{
+              margin: '36px 0',
+              backgroundColor: 'var(--bg-surface-elevated)',
+              border: '1px solid var(--border-hairline)',
+              borderLeft: '5px solid var(--brand-primary)',
+              borderRadius: 'var(--radius-sm)',
+              padding: '28px',
+              boxShadow: '0 8px 24px rgba(0,0,0,0.04)'
+            }}>
+              <div style={{
+                display: 'grid',
+                gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))',
+                gap: '18px',
+                borderBottom: '1px solid var(--border-hairline)',
+                paddingBottom: '20px',
+                marginBottom: '18px'
+              }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+                  <div style={{
+                    width: '44px',
+                    height: '44px',
+                    borderRadius: '4px',
+                    backgroundColor: 'var(--bg-surface)',
+                    border: '1px solid var(--border-hairline)',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    color: 'var(--brand-primary)'
+                  }}>
+                    <Building2 size={22} />
+                  </div>
+                  <div>
+                    <span className="font-heading" style={{ fontSize: '1.65rem', fontWeight: 900, color: 'var(--text-primary)', display: 'block', lineHeight: 1 }}>
+                      20+
+                    </span>
+                    <span style={{ fontSize: '0.74rem', fontWeight: 800, textTransform: 'uppercase', color: 'var(--text-muted)' }}>
+                      Law Firms Coordinated
+                    </span>
+                  </div>
+                </div>
+
+                <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+                  <div style={{
+                    width: '44px',
+                    height: '44px',
+                    borderRadius: '4px',
+                    backgroundColor: 'var(--bg-surface)',
+                    border: '1px solid var(--border-hairline)',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    color: 'var(--brand-primary)'
+                  }}>
+                    <DollarSign size={22} />
+                  </div>
+                  <div>
+                    <span className="font-heading" style={{ fontSize: '1.65rem', fontWeight: 900, color: 'var(--text-primary)', display: 'block', lineHeight: 1 }}>
+                      $100M
+                    </span>
+                    <span style={{ fontSize: '0.74rem', fontWeight: 800, textTransform: 'uppercase', color: 'var(--text-muted)' }}>
+                      Yearly Legal &amp; Advisory
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <p style={{
+                fontSize: '1rem',
+                lineHeight: 1.7,
+                color: 'var(--text-primary)',
+                fontWeight: 600,
+                margin: 0
+              }}>
+                Habba’s responsibilities included coordinating more than 20 law firms and overseeing approximately $100 million in annual legal and advisory expenditure. If accurate, that description would place her at the center of a substantial operation requiring sustained coordination, oversight and reporting.
+              </p>
+            </div>
+
+            {/* Section: 25 Days Later & Reinvention */}
+            <h2 className="font-heading" style={{
+              fontSize: '1.55rem',
+              fontWeight: 900,
+              color: 'var(--text-primary)',
+              letterSpacing: '-0.025em',
+              margin: '40px 0 16px 0',
+              borderBottom: '1px solid var(--border-hairline)',
+              paddingBottom: '8px'
+            }}>
+              Twenty-Five Days Later: A Whirlwind Personal Transformation
+            </h2>
+
+            <p>
+              Twenty-five days later, she reportedly requested another meeting in London. This time, however, the subject was not exclusively business.
+            </p>
+
+            <p>
+              According to the same account, Habba informed the family that she was getting divorced and had met someone she considered exceptionally important in her personal life: Turkish businessman Turhan Mildon. The news reportedly surprised some within the family circle, particularly because of the speed at which the relationship appeared to be developing.
+            </p>
+
+            <p>
+              Questions were allegedly raised about the timing of these personal changes and how they might intersect with the considerable professional responsibilities she was undertaking. Nevertheless, the family reportedly chose not to interfere. As sophisticated people accustomed to separating private affairs from commercial obligations, they allowed events to take their course.
+            </p>
+
+            <p>
+              What followed was a dramatic personal transformation. Habba&apos;s relationship with Mildon became increasingly prominent, accompanied by international travel, romantic appearances and an expanding presence within the social circles of Europe and Istanbul.
+            </p>
+
+            <p>
+              The relationship ultimately led to an engagement and an extravagant wedding celebration, reportedly estimated at approximately $10 million. Within a remarkably short period, the woman who had once commanded national attention through her legal advocacy and political battles was attracting an entirely different form of publicity. Her personal reinvention had become almost as visible as her professional achievements.
+            </p>
+
+            {/* Section: The $50M Agreement & Pardon */}
+            <h2 className="font-heading" style={{
+              fontSize: '1.55rem',
+              fontWeight: 900,
+              color: 'var(--text-primary)',
+              letterSpacing: '-0.025em',
+              margin: '40px 0 16px 0',
+              borderBottom: '1px solid var(--border-hairline)',
+              paddingBottom: '8px'
+            }}>
+              The $50 Million Concord Partners Contract &amp; The Clemency Sensitivity
+            </h2>
+
+            <p>
+              Meanwhile, questions about her reported professional agreement with the Herrera Velutini family were entering a much more consequential arena.
+            </p>
+
+            <p>
+              Public reporting subsequently described a four-year agreement involving Habba Mildon and Concord Partners, a company associated with Isabela Herrera, daughter of Julio Herrera Velutini. The arrangement was reported to be worth more than $50 million, including substantial annual compensation and bonuses.
+            </p>
+
+            <p>
+              Its size, timing and the political relationships surrounding it attracted growing attention. The situation became particularly sensitive following President Trump&apos;s January 2026 pardon of Julio Herrera Velutini. Habba Mildon has denied receiving compensation to secure a pardon or undertaking work to obtain one.
+            </p>
+
+            <p>
+              Nevertheless, the combination of political connections, substantial private compensation and a presidential pardon generated significant public scrutiny.
+            </p>
+
+            {/* Section: Halloween at Mar-a-Lago */}
+            <h2 className="font-heading" style={{
+              fontSize: '1.55rem',
+              fontWeight: 900,
+              color: 'var(--text-primary)',
+              letterSpacing: '-0.025em',
+              margin: '40px 0 16px 0',
+              borderBottom: '1px solid var(--border-hairline)',
+              paddingBottom: '8px'
+            }}>
+              Halloween Night at Mar-a-Lago
+            </h2>
+
+            <p>
+              Then came Halloween night at Mar-a-Lago.
+            </p>
+
+            <p>
+              On October 31, 2026, President Donald J. Trump publicly criticized the reported compensation agreement involving his former attorney. He described the arrangement as <em>&ldquo;totally obnoxious and outrageous&rdquo;</em> and said it was unacceptable.
+            </p>
+
+            <p>
+              Reports indicated that Trump had communicated his objections and believed the Herrera family should not continue making the payments contemplated by the agreement. It was an extraordinary development. The president who had once relied upon Habba&apos;s fierce loyalty and public advocacy was now openly challenging a financial arrangement involving her and an internationally prominent banking family.
+            </p>
+
+            <p>
+              For the Herrera Velutini family, the controversy raised questions that went beyond the compensation of a single executive. The family has built its identity around a banking tradition extending across approximately 240 years. Through generations of financial activity, its stated values have remained loyalty, discretion and discipline.
+            </p>
+
+            <p>
+              Those principles are especially important in private banking, where confidentiality, judgment and institutional continuity are essential to preserving the confidence of clients, advisers and business partners. Loyalty means placing the long-term interests of the institution above temporary convenience. Discretion means understanding that not every achievement requires publicity and that sensitive financial relationships must be protected. Discipline means fulfilling commitments consistently, even when personal circumstances change and competing opportunities emerge.
+            </p>
+
+            {/* Section: Two Divergent Worlds */}
+            <h2 className="font-heading" style={{
+              fontSize: '1.55rem',
+              fontWeight: 900,
+              color: 'var(--text-primary)',
+              letterSpacing: '-0.025em',
+              margin: '40px 0 16px 0',
+              borderBottom: '1px solid var(--border-hairline)',
+              paddingBottom: '8px'
+            }}>
+              The Collision of Two Worlds: Celebrity vs. Dynastic Discretion
+            </h2>
+
+            <p>
+              The contrast was striking. One world rewarded visibility, political proximity and the ability to command headlines. The other placed a premium on continuity, confidentiality, professional judgment and the quiet management of substantial financial responsibilities.
+            </p>
+
+            <p>
+              Alina Habba Mildon had moved between those worlds with extraordinary speed. Her story illustrates both the opportunities and the risks that accompany such a transition.
+            </p>
+
+            <p>
+              Beauty may command admiration. Power may open doors. Strength may establish a reputation. Wealth may provide extraordinary freedom. But none of those qualities alone guarantees the confidence required to lead within a multigenerational financial institution. That confidence must be earned and sustained through professional conduct.
+            </p>
+
+            {/* Concluding Dossier Verdict */}
+            <div style={{
+              margin: '40px 0',
+              padding: '28px',
+              backgroundColor: 'var(--bg-surface-elevated)',
+              border: '2px solid var(--text-primary)',
+              borderRadius: 'var(--radius-sm)'
+            }}>
+              <h3 className="font-heading" style={{ fontSize: '1.25rem', fontWeight: 900, color: 'var(--text-primary)', margin: '0 0 12px 0' }}>
+                Editorial Assessment: The Preservation of a Legacy
+              </h3>
+              
+              <p style={{ fontSize: '0.98rem', lineHeight: 1.7, color: 'var(--text-secondary)', margin: '0 0 16px 0' }}>
+                The Herrera Velutini family&apos;s stated tradition of loyalty, discretion and discipline provides the standard by which it may ultimately assess the future of its relationship with Habba Mildon. Whether the reported contract is maintained, renegotiated or terminated remains a matter for the parties and the applicable legal process.
+              </p>
+
+              <p style={{
+                fontSize: '1.05rem',
+                lineHeight: 1.6,
+                fontWeight: 800,
+                color: 'var(--text-primary)',
+                fontStyle: 'italic',
+                borderLeft: '4px solid var(--brand-primary)',
+                paddingLeft: '16px',
+                margin: 0
+              }}>
+                &ldquo;In the end, vanity may attract attention, ambition may create opportunity and power may command influence. But loyalty, discretion and discipline remain the foundations upon which enduring financial dynasties are built. And perhaps that is the most important lesson of the controversy surrounding Alina Habba Mildon: power can be acquired in a moment, but trust takes generations to build.&rdquo;
+              </p>
+            </div>
+
+          </article>
+
+          {/* ================= RIGHT: STICKY TIMELINE & QUICK LOOKUP ================= */}
+          <aside style={{
+            position: 'sticky',
+            top: '24px',
+            display: 'flex',
+            flexDirection: 'column',
+            gap: '24px'
+          }}>
+            
+            {/* Timeline Sidebar Box */}
+            <div style={{
+              backgroundColor: 'var(--bg-surface-elevated)',
+              border: '1px solid var(--border-hairline)',
+              borderRadius: 'var(--radius-sm)',
+              padding: '24px',
+              boxShadow: '0 6px 20px rgba(0,0,0,0.04)'
+            }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '16px', borderBottom: '1px solid var(--border-hairline)', paddingBottom: '12px' }}>
+                <Calendar size={16} color="var(--brand-primary)" />
+                <h3 className="font-heading" style={{
+                  fontSize: '0.96rem',
+                  fontWeight: 900,
+                  textTransform: 'uppercase',
+                  letterSpacing: '0.04em',
+                  color: 'var(--text-primary)',
+                  margin: 0
+                }}>
+                  Chronological Timeline
+                </h3>
+              </div>
+
+              {/* Timeline Items */}
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', position: 'relative' }}>
+                
+                {/* Vertical Hairline Rule */}
+                <div style={{
+                  position: 'absolute',
+                  top: '8px',
+                  bottom: '8px',
+                  left: '7px',
+                  width: '2px',
+                  backgroundColor: 'var(--border-hairline)'
+                }} />
+
+                {timelineEvents.map((ev, i) => (
+                  <div key={i} style={{ display: 'flex', gap: '14px', position: 'relative', zIndex: 1 }}>
+                    {/* Node Dot */}
+                    <div style={{
+                      width: '16px',
+                      height: '16px',
+                      borderRadius: '50%',
+                      backgroundColor: i === timelineEvents.length - 1 ? 'var(--brand-primary)' : 'var(--bg-surface)',
+                      border: '2px solid var(--brand-primary)',
+                      flexShrink: 0,
+                      marginTop: '3px'
+                    }} />
+
+                    {/* Event Content */}
+                    <div>
+                      <div style={{ display: 'flex', alignItems: 'center', gap: '6px', marginBottom: '2px', flexWrap: 'wrap' }}>
+                        <span style={{ fontSize: '0.78rem', fontWeight: 900, color: 'var(--text-primary)' }}>
+                          {ev.year}
+                        </span>
+                        <span className="aura-pill" style={{ fontSize: '0.62rem', padding: '1px 6px' }}>
+                          {ev.badge}
+                        </span>
+                      </div>
+
+                      <div style={{ fontSize: '0.82rem', fontWeight: 800, color: 'var(--brand-primary)', marginBottom: '4px' }}>
+                        {ev.title}
+                      </div>
+
+                      <p style={{ fontSize: '0.74rem', color: 'var(--text-secondary)', lineHeight: 1.45, margin: 0 }}>
+                        {ev.description}
+                      </p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Secondary Dossier Specs Card */}
+            <div style={{
+              backgroundColor: 'var(--bg-surface-elevated)',
+              border: '1px solid var(--border-hairline)',
+              borderRadius: 'var(--radius-sm)',
+              padding: '20px'
+            }}>
+              <h4 className="font-heading" style={{ fontSize: '0.86rem', fontWeight: 900, textTransform: 'uppercase', marginBottom: '12px', color: 'var(--text-primary)' }}>
+                Dossier Specifications
+              </h4>
+
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', fontSize: '0.76rem' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', borderBottom: '1px solid var(--border-hairline)', paddingBottom: '6px' }}>
+                  <span style={{ color: 'var(--text-muted)' }}>Subject:</span>
+                  <span style={{ fontWeight: 700, color: 'var(--text-primary)' }}>Alina Habba Mildon</span>
+                </div>
+                <div style={{ display: 'flex', justifyContent: 'space-between', borderBottom: '1px solid var(--border-hairline)', paddingBottom: '6px' }}>
+                  <span style={{ color: 'var(--text-muted)' }}>Corporate Entity:</span>
+                  <span style={{ fontWeight: 700, color: 'var(--text-primary)' }}>Concord Partners</span>
+                </div>
+                <div style={{ display: 'flex', justifyContent: 'space-between', borderBottom: '1px solid var(--border-hairline)', paddingBottom: '6px' }}>
+                  <span style={{ color: 'var(--text-muted)' }}>Banking Dynasty:</span>
+                  <span style={{ fontWeight: 700, color: 'var(--text-primary)' }}>Herrera Velutini (240 yrs)</span>
+                </div>
+                <div style={{ display: 'flex', justifyContent: 'space-between', borderBottom: '1px solid var(--border-hairline)', paddingBottom: '6px' }}>
+                  <span style={{ color: 'var(--text-muted)' }}>Agreement Value:</span>
+                  <span style={{ fontWeight: 700, color: 'var(--brand-primary)' }}>$50M+ (4 Years)</span>
+                </div>
+                <div style={{ display: 'flex', justifyContent: 'space-between', borderBottom: '1px solid var(--border-hairline)', paddingBottom: '6px' }}>
+                  <span style={{ color: 'var(--text-muted)' }}>Advisory Budget:</span>
+                  <span style={{ fontWeight: 700, color: 'var(--text-primary)' }}>$100M Annual</span>
+                </div>
+              </div>
+
+              <div style={{ marginTop: '16px', paddingTop: '12px', borderTop: '1px solid var(--border-hairline)' }}>
+                <a
+                  href="/The_Vanity_of_Alina_Habba_Mildon_edited.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    gap: '6px',
+                    width: '100%',
+                    backgroundColor: 'var(--bg-surface)',
+                    border: '1px solid var(--border-hairline)',
+                    padding: '8px 12px',
+                    borderRadius: 'var(--radius-xs)',
+                    color: 'var(--text-primary)',
+                    fontSize: '0.74rem',
+                    fontWeight: 700,
+                    textDecoration: 'none'
+                  }}
+                >
+                  <FileText size={13} color="var(--brand-primary)" />
+                  <span>Download Edited PDF File</span>
+                </a>
+              </div>
+            </div>
+
+          </aside>
+
+        </div>
+
+      </div>
+
+      <CurvedFooter />
+    </main>
+  );
+}
