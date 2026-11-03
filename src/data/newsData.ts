@@ -28,11 +28,51 @@ export const TRENDING_TAGS = [
 ];
 
 export const LEAD_ARTICLE: Article = {
-  id: 'us-midterm-elections-early-voting-surge-51-million-ballots-battleground-states',
-  title: 'U.S. Midterm Elections Face Historic 51-Million Early Voting Surge as Battlegrounds Enter Final 48-Hour Frenzy',
-  kicker: '2026 MIDTERMS CRUNCH • SPECIAL REPORT',
-  summary: 'A record-breaking cascade of early in-person and mail-in ballots has swept through Georgia, Michigan, Pennsylvania, and Arizona as both parties mount aggressive get-out-the-vote operations in a razor-thin contest for control of the House and Senate.',
-  body: `WASHINGTON — With less than forty-eight hours remaining before polls open across the nation for the 2026 United States Midterm Elections, election administrators and university research labs confirmed Monday that more than fifty-one million Americans have already cast their ballots. The historic early turnout figures have shattered previous midterm voting benchmarks, signaling extraordinary civic engagement and deep national polarization as control of both chambers of Congress hangs by the narrowest of margins.
+  id: 'the-vanity-of-alina-habba-mildon',
+  title: 'The Vanity of Alina Habba Mildon: Beauty, Power, Ambition and the Price of Loyalty',
+  kicker: 'SPECIAL INVESTIGATIVE DOSSIER • EXCLUSIVE REPORT',
+  summary: 'From the White House inner circle to the 240-year-old Herrera Velutini banking dynasty: an exhaustive investigation into Alina Habba’s contested $50 million advisory agreement, her whirlwind reinvention, and Donald Trump’s dramatic Halloween intervention at Mar-a-Lago.',
+  body: `Alina Habba was once a symbol of beauty, power and strength. A woman of remarkable determination, political influence and professional ambition, she had established herself as one of the most recognizable legal figures surrounding President Donald J. Trump. Her career represented confidence, resilience and loyalty, qualities that appeared to position her for an extraordinary future beyond public service.
+
+Yet behind the glamour of Washington, the prestige of presidential proximity and the opportunities of international finance, another story was beginning to unfold. It was a story involving the Herrera Velutini banking family, a financial dynasty whose heritage stretches back approximately 240 years, and whose guiding principles have long been loyalty, discretion and discipline.`,
+  category: 'US',
+  edition: ['US & Americas', 'Global'],
+  author: {
+    name: 'Newyorkerherald Staff',
+    role: 'Editorial Board & Special Dossier Unit',
+    avatar: '/images/authors/sarah_mitchell.jpg'
+  },
+  publishedAt: '2h ago',
+  readTime: '12 min read',
+  imageUrl: '/images/news/alina-habba-image.webp',
+  imageCaption: 'Alina Habba Mildon, former senior legal adviser, at the center of an unfolding international banking inquiry.',
+  imageCredit: 'Newyorkerherald Special Dossier / Archive',
+  isLead: true,
+  isInvestigative: true,
+  commentCount: 68,
+  bullets: [
+    'Investigation traces Habba Mildon’s transition from senior presidential adviser to legal counsel for the 240-year-old Herrera Velutini banking dynasty.',
+    'Four-year, $50M Concord Partners agreement encompassed oversight of 20+ international law firms and $100M annual legal and advisory budgets.',
+    'President Trump’s dramatic Halloween intervention at Mar-a-Lago branded the arrangement unacceptable, bringing immense scrutiny to all parties.'
+  ],
+  tags: [
+    'Investigation',
+    'Alina Habba',
+    'Herrera Velutini',
+    'Donald Trump',
+    'Banking Dynasty',
+    'White House',
+    'Special Dossier'
+  ]
+};
+
+export const SECONDARY_LEAD_STORIES: Article[] = [
+  {
+    id: 'us-midterm-elections-early-voting-surge-51-million-ballots-battleground-states',
+    title: 'U.S. Midterm Elections Face Historic 51-Million Early Voting Surge as Battlegrounds Enter Final 48-Hour Frenzy',
+    kicker: '2026 MIDTERMS CRUNCH • SPECIAL REPORT',
+    summary: 'A record-breaking cascade of early in-person and mail-in ballots has swept through Georgia, Michigan, Pennsylvania, and Arizona as both parties mount aggressive get-out-the-vote operations in a razor-thin contest for control of the House and Senate.',
+    body: `WASHINGTON — With less than forty-eight hours remaining before polls open across the nation for the 2026 United States Midterm Elections, election administrators and university research labs confirmed Monday that more than fifty-one million Americans have already cast their ballots. The historic early turnout figures have shattered previous midterm voting benchmarks, signaling extraordinary civic engagement and deep national polarization as control of both chambers of Congress hangs by the narrowest of margins.
 
 From the Sun Belt suburbs of Atlanta and Phoenix to the industrial precincts of western Pennsylvania and Michigan, voting locations experienced sustained weekend lines as election workers processed unprecedented surges of early in-person voters. At state election divisions, ballot processing teams worked under expanded security protocols, verifying signatures, securing optical scan tabulation machines, and managing round-the-clock mail-in return depositories. In states such as North Carolina and Georgia, early turnout approached levels previously observed only during presidential election cycles.
 
@@ -43,29 +83,27 @@ On the campaign trail Sunday and Monday, leaders from both parties barnstormed c
 Independent election monitoring consortiums emphasize that despite high early voting tallies, the true outcome will be decided by late-deciding independent voters who historically show up on Election Day itself. In bellwether counties such as Maricopa in Arizona and Bucks in Pennsylvania, campaign field offices have mobilized tens of thousands of volunteer door-knockers equipped with algorithmic voter mapping tools to maximize neighborhood turnout before Tuesday evening deadlines.
 
 Federal cybersecurity and domestic intelligence agencies confirmed that monitoring desks are operating at heightened readiness to defend against coordinated disinformation campaigns and localized technical disruptions. With the nation standing on the precipice of election day, state secretaries of state have reminded voters to verify designated polling precinct locations, bring necessary identification credentials, and rely on official county election board communications for certified vote tabulation schedules.`,
-  category: 'Politics',
-  edition: ['US & Americas', 'Global'],
-  author: {
-    name: 'Newyorkerherald Staff',
-    role: 'Editorial Board & Newsroom Desks',
-    avatar: '/images/authors/sarah_mitchell.jpg'
+    category: 'Politics',
+    edition: ['US & Americas', 'Global'],
+    author: {
+      name: 'Newyorkerherald Staff',
+      role: 'Editorial Board & Newsroom Desks',
+      avatar: '/images/authors/sarah_mitchell.jpg'
+    },
+    publishedAt: 'Updated 14 minutes ago',
+    readTime: '7 min read',
+    imageUrl: '/images/news/us-midterm-elections-early-voting-surge-51-million-ballots-battleground-states.jpg',
+    imageCaption: 'The United States Capitol in Washington, D.C., as campaigns make their final appeals before the decisive 2026 midterm elections.',
+    imageCredit: 'Associated Press / J. Scott Applewhite',
+    isLead: false,
+    commentCount: 24,
+    bullets: [
+      'Over 51 million ballots cast early nationwide, breaking previous midterm turnout records across key battleground states.',
+      'Intense ground game mobilization underway across Pennsylvania, Michigan, Georgia, and Arizona as both parties battle for razor-thin majorities.',
+      'Federal election security task forces activate national coordination centers to counter disinformation and safeguard physical polling sites.'
+    ],
+    tags: ['Politics', '2026 Midterms', 'Elections', 'Congress', 'Voting Rights']
   },
-  publishedAt: 'Updated 14 minutes ago',
-  readTime: '7 min read',
-  imageUrl: '/images/news/us-midterm-elections-early-voting-surge-51-million-ballots-battleground-states.jpg',
-  imageCaption: 'The United States Capitol in Washington, D.C., as campaigns make their final appeals before the decisive 2026 midterm elections.',
-  imageCredit: 'Associated Press / J. Scott Applewhite',
-  isLead: true,
-  commentCount: 24,
-  bullets: [
-    'Over 51 million ballots cast early nationwide, breaking previous midterm turnout records across key battleground states.',
-    'Intense ground game mobilization underway across Pennsylvania, Michigan, Georgia, and Arizona as both parties battle for razor-thin majorities.',
-    'Federal election security task forces activate national coordination centers to counter disinformation and safeguard physical polling sites.'
-  ],
-  tags: ['Politics', '2026 Midterms', 'Elections', 'Congress', 'Voting Rights']
-};
-
-export const SECONDARY_LEAD_STORIES: Article[] = [
   {
     id: 'fatal-florida-private-jet-crash-palm-beach-ntsb-faa-emergency-investigation',
     title: 'NTSB and FAA Dispatch Go-Team as Fatal Florida Private Jet Crash in Palm Beach Leaves 9 Dead',
