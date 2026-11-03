@@ -35,13 +35,13 @@ export default function CurvedFooter() {
     { name: 'Health & Science', href: '/category/health-science' },
   ];
 
-  const authors = [
-    { name: 'Sarah Mitchell', beat: 'National Security Desk', href: '/author/sarah-mitchell' },
-    { name: 'David Vance', beat: 'AI Governance Bureau', href: '/author/david-vance' },
-    { name: 'Henrik Lindqvist', beat: 'Chief Economics Desk', href: '/author/henrik-lindqvist' },
-    { name: 'Elena Rostova', beat: 'Silicon Valley AI', href: '/author/elena-rostova' },
-    { name: 'Dr. Rebecca Foster', beat: 'Science & Geology', href: '/author/rebecca-foster' },
-    { name: 'Marcus Sterling', beat: 'Sports Finance Desk', href: '/author/marcus-sterling' },
+  const editorialDesks = [
+    { name: 'Editorial Board', beat: 'Governance & Institutional Voice', href: '/author/editorial-board' },
+    { name: 'Washington Bureau', beat: 'National Politics & Congress', href: '/author/editorial-board' },
+    { name: 'New York Financial Desk', beat: 'Global Markets & Macroeconomics', href: '/author/editorial-board' },
+    { name: 'San Francisco Tech Desk', beat: 'Frontier AI & Silicon Valley', href: '/author/editorial-board' },
+    { name: 'National Science Bureau', beat: 'Climate, Health & Technology', href: '/author/editorial-board' },
+    { name: 'Special Dossier Desk', beat: 'Investigative Enterprise Inquiries', href: '/author/editorial-board' },
   ];
 
   const institutional = [
@@ -287,13 +287,13 @@ export default function CurvedFooter() {
             </ul>
           </div>
 
-          {/* Journalists */}
+          {/* Editorial Desks */}
           <div>
             <h4 style={{ fontSize: '0.72rem', fontWeight: 800, textTransform: 'uppercase', color: 'var(--text-primary)', marginBottom: '8px' }}>
-              Journalists
+              Editorial Desks
             </h4>
             <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '5px' }}>
-              {authors.map((a) => (
+              {editorialDesks.map((a) => (
                 <li key={a.href}>
                   <Link href={a.href} style={{ fontSize: '0.76rem', color: 'var(--text-secondary)', textDecoration: 'none', fontWeight: 600 }}>
                     <span>{a.name}</span>

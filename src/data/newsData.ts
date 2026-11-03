@@ -46,8 +46,8 @@ Federal cybersecurity and domestic intelligence agencies confirmed that monitori
   category: 'U.S. Politics',
   edition: ['US & Americas', 'Global'],
   author: {
-    name: 'Sarah Mitchell',
-    role: 'Chief National Political Correspondent',
+    name: 'Newyorkerherald Staff',
+    role: 'Editorial Board & Newsroom Desks',
     avatar: '/images/authors/sarah_mitchell.jpg'
   },
   publishedAt: 'Updated 14 minutes ago',
@@ -83,10 +83,10 @@ The tragedy marks one of the deadliest executive business aviation accidents in 
     category: 'U.S. Politics',
     edition: ['US & Americas'],
     author: {
-      name: 'Tyler Brooks',
-      role: 'National Breaking News Editor',
-      avatar: '/images/authors/tyler_brooks.jpg'
-    },
+    name: 'Newyorkerherald Staff',
+    role: 'Editorial Board & Newsroom Desks',
+    avatar: '/images/authors/sarah_mitchell.jpg'
+  },
     publishedAt: '35m ago',
     readTime: '6 min read',
     imageUrl: '/images/news/fatal-florida-private-jet-crash-palm-beach-ntsb-faa-emergency-investigation.jpg',
@@ -117,10 +117,10 @@ With financial markets and manufacturing executives watching closely, trade poli
     category: 'Business',
     edition: ['US & Americas', 'Global'],
     author: {
-      name: 'Henrik Lindqvist',
-      role: 'Chief Economics Editor',
-      avatar: '/images/authors/henrik_lindqvist.jpg'
-    },
+    name: 'Newyorkerherald Staff',
+    role: 'Editorial Board & Newsroom Desks',
+    avatar: '/images/authors/sarah_mitchell.jpg'
+  },
     publishedAt: '52m ago',
     readTime: '6 min read',
     imageUrl: '/images/news/us-canada-cross-border-trade-talks-carney-trump-tariff-negotiations.avif',
@@ -152,10 +152,10 @@ Despite the headwinds, technology executives insist that underinvesting in found
     category: 'Tech & AI',
     edition: ['US & Americas', 'Global'],
     author: {
-      name: 'Elena Rostova',
-      role: 'Silicon Valley Tech Bureau Chief',
-      avatar: '/images/authors/elena_rostova.jpg'
-    },
+    name: 'Newyorkerherald Staff',
+    role: 'Editorial Board & Newsroom Desks',
+    avatar: '/images/authors/sarah_mitchell.jpg'
+  },
     publishedAt: '1h ago',
     readTime: '5 min read',
     imageUrl: '/images/news/nvidia-ai-data-center-spending-1-trillion-capex-bubble-debate.jpg',
@@ -176,10 +176,10 @@ With Congress focused on election day, legislative leaders have deferred floor c
     category: 'Health & Science',
     edition: ['US & Americas'],
     author: {
-      name: 'Dr. Rebecca Foster',
-      role: 'National Science & Health Desk',
-      avatar: '/images/authors/rebecca_foster.jpg'
-    },
+    name: 'Newyorkerherald Staff',
+    role: 'Editorial Board & Newsroom Desks',
+    avatar: '/images/authors/sarah_mitchell.jpg'
+  },
     publishedAt: '2h ago',
     readTime: '5 min read',
     imageUrl: '/images/news/america-turns-the-clocks-back-one-hour-as-bipartisan-sunshine-protection-act-remains-paralyzed-in-congress.jpg',
@@ -194,7 +194,11 @@ export const TRENDING_RANKED_ARTICLES: Article[] = [
     kicker: 'CAPITOL HILL',
     summary: 'Connecticut Democratic Senator was admitted to hospital over the weekend, drawing bipartisan messages of encouragement as his medical team anticipates a complete recovery.',
     category: 'U.S. Politics',
-    author: { name: 'Sarah Mitchell', role: 'Chief Political Correspondent' },
+    author: {
+    name: 'Newyorkerherald Staff',
+    role: 'Editorial Board & Newsroom Desks',
+    avatar: '/images/authors/sarah_mitchell.jpg'
+  },
     publishedAt: '3h ago',
     readTime: '5 min read',
     imageUrl: '/images/news/senator-chris-murphy-hospitalized-following-mild-stroke-as-colleagues-send-bipartisan-support.jpg'
@@ -205,7 +209,11 @@ export const TRENDING_RANKED_ARTICLES: Article[] = [
     kicker: 'NATIONAL SECURITY',
     summary: 'Two commercial oil tankers sustained hull damage following naval mine explosions in the Strait of Hormuz, prompting emergency maritime warnings and national security reviews.',
     category: 'U.S. Politics',
-    author: { name: 'David Vance', role: 'Defense & National Security Desk' },
+    author: {
+    name: 'Newyorkerherald Staff',
+    role: 'Editorial Board & Newsroom Desks',
+    avatar: '/images/authors/sarah_mitchell.jpg'
+  },
     publishedAt: '5h ago',
     readTime: '5 min read',
     imageUrl: '/images/news/strait-of-hormuz-naval-mine-explosions-damage-oil-tankers-as-washington-weighs-diplomatic-deterrence.jpg'
@@ -216,7 +224,11 @@ export const TRENDING_RANKED_ARTICLES: Article[] = [
     kicker: 'AEROSPACE & TECH',
     summary: 'SpaceX shares historic profitability metrics driven by expanding Starlink enterprise broadband contracts, government defense payload missions, and rapid launch cadence.',
     category: 'Tech & AI',
-    author: { name: 'Dr. Neil Campbell', role: 'Aerospace & Frontier Tech Desk' },
+    author: {
+    name: 'Newyorkerherald Staff',
+    role: 'Editorial Board & Newsroom Desks',
+    avatar: '/images/authors/sarah_mitchell.jpg'
+  },
     publishedAt: '6h ago',
     readTime: '6 min read',
     imageUrl: '/images/news/spacex-releases-landmark-financial-performance-as-starlink-satellite-constellation-expands-across-enterprise-market.jpeg'
@@ -227,7 +239,11 @@ export const TRENDING_RANKED_ARTICLES: Article[] = [
     kicker: 'ATHLETICS & MARATHON',
     summary: 'Over fifty thousand runners traversed the five boroughs of New York City on Sunday, culminating in electrifying Central Park finishes and record spectator turnouts.',
     category: 'Sports',
-    author: { name: 'Marcus Sterling', role: 'Senior Sports Correspondent' },
+    author: {
+    name: 'Newyorkerherald Staff',
+    role: 'Editorial Board & Newsroom Desks',
+    avatar: '/images/authors/sarah_mitchell.jpg'
+  },
     publishedAt: '4h ago',
     readTime: '5 min read',
     imageUrl: '/images/news/new-york-city-marathon-2026-chepkirui-almgren-historic-victories-central-park.jpg'
@@ -251,9 +267,9 @@ As the Federal Energy Regulatory Commission (FERC) convenes national stakeholder
   category: 'Investigation',
   edition: ['US & Americas', 'Global'],
   author: {
-    name: 'Carlos Mendoza',
-    role: 'Chief Investigative Correspondent, Special Projects Desk',
-    avatar: '/images/authors/carlos_mendoza.jpg'
+    name: 'Newyorkerherald Staff',
+    role: 'Editorial Board & Newsroom Desks',
+    avatar: '/images/authors/sarah_mitchell.jpg'
   },
   publishedAt: 'Updated Nov 2, 2026',
   readTime: '10 min read',
@@ -322,7 +338,11 @@ Under the new statutory framework, federal procurement officers are authorized t
 With floor votes scheduled for the upcoming post-election lame-duck congressional session, leaders from both parties hailed the breakthrough as an essential pillar of twenty-first-century industrial sovereignty, ensuring that America's aerospace, renewable grid, and semiconductor infrastructure remain insulated from global geopolitical chokepoints.`,
       category: 'U.S. Politics',
       edition: ['US & Americas', 'Global'],
-      author: { name: 'Sarah Mitchell', role: 'Chief Political Correspondent' },
+      author: {
+    name: 'Newyorkerherald Staff',
+    role: 'Editorial Board & Newsroom Desks',
+    avatar: '/images/authors/sarah_mitchell.jpg'
+  },
       publishedAt: '2h ago',
       readTime: '6 min read',
       imageUrl: '/images/news/bipartisan-congressional-coalition-finalizes-critical-minerals-strategic-stockpile-legislation.webp',
@@ -350,7 +370,11 @@ Campaign managers for both political parties have adapted their final-hour media
 Statistical forecasters emphasize that unprecedented early in-person turnout tallies—surpassing 51 million nationwide—mean that traditional election night predictive models may encounter extended counting delays in states with complex statutory mail-in signature cure windows. Election administration officials have urged patience, noting that certified tabulations will prioritize accuracy and transparency over immediate projections.`,
       category: 'U.S. Politics',
       edition: ['US & Americas'],
-      author: { name: 'Tyler Brooks', role: 'National Political Correspondent' },
+      author: {
+    name: 'Newyorkerherald Staff',
+    role: 'Editorial Board & Newsroom Desks',
+    avatar: '/images/authors/sarah_mitchell.jpg'
+  },
       publishedAt: '3h ago',
       readTime: '6 min read',
       imageUrl: '/images/news/political-analysts-map-competing-scenarios-for-2026-midterms-as-economic-sentiment-evolves.webp',
@@ -381,7 +405,11 @@ The announcement prompted an immediate outpouring of bipartisan support from acr
 Murphy, who has served in the United States Senate since 2013 and previously represented Connecticut's 5th Congressional District in the House of Representatives, is widely recognized as one of the Senate's most prolific legislative negotiators, having spearheaded bipartisan compromise frameworks on gun safety reform and mental health appropriations. His office confirmed that senior staff will continue managing constituent casework and daily legislative duties in close coordination with committee leaders until the Senator resumes his official schedule.`,
       category: 'U.S. Politics',
       edition: ['US & Americas'],
-      author: { name: 'Sarah Mitchell', role: 'Chief Political Correspondent' },
+      author: {
+    name: 'Newyorkerherald Staff',
+    role: 'Editorial Board & Newsroom Desks',
+    avatar: '/images/authors/sarah_mitchell.jpg'
+  },
       publishedAt: '3h ago',
       readTime: '5 min read',
       imageUrl: '/images/news/senator-chris-murphy-hospitalized-following-mild-stroke-as-colleagues-send-bipartisan-support.jpg',
@@ -399,7 +427,11 @@ During two hours of sharp questioning, the justices probed competing interpretat
 Legal scholars note that the high court's eventual ruling, anticipated in the spring of 2027, will have immediate consequences for billions of dollars in planned renewable energy interconnectors, cross-state water conduits, and liquefied natural gas pipeline expansions across the American West and Appalachia.`,
       category: 'U.S. Politics',
       edition: ['US & Americas'],
-      author: { name: 'Rachel Goldberg', role: 'Supreme Court Bureau' },
+      author: {
+    name: 'Newyorkerherald Staff',
+    role: 'Editorial Board & Newsroom Desks',
+    avatar: '/images/authors/sarah_mitchell.jpg'
+  },
       publishedAt: '4h ago',
       readTime: '5 min read',
       imageUrl: '/images/news/supreme-court-weighs-federal-regulatory-scope-over-state-infrastructure-in-landmark-preemption-case.jpg',
@@ -417,7 +449,11 @@ According to statements released by U.S. Naval Forces Central Command (NAVCENT) 
 In Washington, national security officials convened in the White House Situation Room to evaluate intelligence assessments and diplomatic responses. While congressional defense committee leaders called for expanded allied naval escorts under the International Maritime Security Construct, foreign policy advisers underscored the administration's preference for diplomatic channels to de-escalate tensions and prevent wider military conflict in critical international waters.`,
       category: 'U.S. Politics',
       edition: ['US & Americas', 'Global'],
-      author: { name: 'David Vance', role: 'Defense & National Security Desk' },
+      author: {
+    name: 'Newyorkerherald Staff',
+    role: 'Editorial Board & Newsroom Desks',
+    avatar: '/images/authors/sarah_mitchell.jpg'
+  },
       publishedAt: '5h ago',
       readTime: '5 min read',
       imageUrl: '/images/news/strait-of-hormuz-naval-mine-explosions-damage-oil-tankers-as-washington-weighs-diplomatic-deterrence.jpg',
@@ -440,7 +476,11 @@ Data published in the National Association of Colleges and Employers (NACE) annu
 With multi-billion-dollar domestic semiconductor facilities under construction across Ohio, Arizona, and New York, university deans confirmed that corporate sponsorships for dedicated cooperative engineering tracks have expanded significantly, establishing a sustainable bridge between rigorous academic research and the demands of modern industrial manufacturing.`,
       category: 'Business',
       edition: ['US & Americas'],
-      author: { name: 'Claire Montgomery', role: 'Workforce Trends & Industry' },
+      author: {
+    name: 'Newyorkerherald Staff',
+    role: 'Editorial Board & Newsroom Desks',
+    avatar: '/images/authors/sarah_mitchell.jpg'
+  },
       publishedAt: '4h ago',
       readTime: '6 min read',
       imageUrl: '/images/news/university-engineering-co-op-students-earn-record-99-5m-as-tech-employers-compete-for-applied-talent.webp',
@@ -470,7 +510,11 @@ The resurgence in energy commodities comes at a delicate juncture for central ba
 Domestically, U.S. oil and gas producers operating across the Permian Basin in Texas and New Mexico noted that while domestic extraction volumes remain near historic highs of 13.4 million barrels per day, capital discipline and supply chain bottlenecks for drilling equipment continue to constrain rapid output surges. Energy economists expect refinery utilization rates to remain elevated as refiners balance seasonal gasoline transitions with robust commercial aviation kerosene demand.`,
       category: 'Business',
       edition: ['US & Americas', 'Global'],
-      author: { name: 'Henrik Lindqvist', role: 'Chief Economics Editor' },
+      author: {
+    name: 'Newyorkerherald Staff',
+    role: 'Editorial Board & Newsroom Desks',
+    avatar: '/images/authors/sarah_mitchell.jpg'
+  },
       publishedAt: '1h ago',
       readTime: '5 min read',
       imageUrl: '/images/news/crude-oil-climbs-toward-90-as-global-supply-concerns-mount-over-stalled-middle-east-talks.avif',
@@ -490,7 +534,11 @@ Banking and financial services trade associations, including the American Banker
 However, independent retailers argue that payment fees have become the second-highest operating expense behind labor for thousands of gas stations, restaurants, and family-owned markets. With inflation and consumer purchasing power remaining a central issue for voters heading into the midterms, merchant coalitions are demanding that congressional leaders prioritize a floor vote during the upcoming post-election legislative session.`,
       category: 'Business',
       edition: ['US & Americas'],
-      author: { name: 'Claire Montgomery', role: 'Commercial Banking Correspondent' },
+      author: {
+    name: 'Newyorkerherald Staff',
+    role: 'Editorial Board & Newsroom Desks',
+    avatar: '/images/authors/sarah_mitchell.jpg'
+  },
       publishedAt: '4h ago',
       readTime: '5 min read',
       imageUrl: '/images/news/main-street-merchants-and-retail-coalitions-press-congress-to-pass-credit-card-competition-act-as-fees-hit-record-highs.jpg',
@@ -510,7 +558,11 @@ Under the corporate spin-off structure, existing MSGS shareholders will receive 
 Sports finance experts note that the move mirrors a broader institutional trend toward treating elite professional sports franchises as irreplaceable sovereign cultural assets with uncorrelated financial return profiles, setting a precedent that other multi-team ownership conglomerates in North America may soon replicate.`,
       category: 'Business',
       edition: ['US & Americas'],
-      author: { name: 'Marcus Sterling', role: 'Sports Finance Desk' },
+      author: {
+    name: 'Newyorkerherald Staff',
+    role: 'Editorial Board & Newsroom Desks',
+    avatar: '/images/authors/sarah_mitchell.jpg'
+  },
       publishedAt: '5h ago',
       readTime: '5 min read',
       imageUrl: '/images/news/msg-sports-advances-corporate-separation-of-new-york-rangers-to-unlock-pure-play-nhl-franchise-value.jpg',
@@ -569,7 +621,11 @@ Cybersecurity scholars and defense officials underscored that while autonomous a
 In response to congressional inquiries, leading enterprise AI laboratories announced a voluntary technical moratorium on unmonitored production deployments of autonomous cyber agents while an independent consortium of university and industry security researchers reviews defensive safety baselines.`,
       category: 'Tech & AI',
       edition: ['US & Americas', 'Global'],
-      author: { name: 'David Vance', role: 'Cybersecurity & Tech Policy' },
+      author: {
+    name: 'Newyorkerherald Staff',
+    role: 'Editorial Board & Newsroom Desks',
+    avatar: '/images/authors/sarah_mitchell.jpg'
+  },
       publishedAt: '4h ago',
       readTime: '6 min read',
       imageUrl: '/images/news/lawmakers-scrutinize-autonomous-ai-cybersecurity-agents-following-unauthorized-model-exploits.webp',
@@ -599,7 +655,11 @@ Nvidia, which recently achieved a market valuation exceeding $3.5 trillion on th
 Industry analysts emphasize that maintaining clear, transparent regulatory frameworks is vital for American semiconductor leadership. As global demand for AI infrastructure surges, semiconductor leaders have urged Washington to couple rigorous national security safeguards with continued federal investments in domestic fabrication facilities under the CHIPS and Science Act, ensuring the United States maintains its technological moat across design, manufacturing, and packaging.`,
       category: 'Tech & AI',
       edition: ['US & Americas', 'Global'],
-      author: { name: 'Elena Rostova', role: 'Silicon Valley Tech Bureau' },
+      author: {
+    name: 'Newyorkerherald Staff',
+    role: 'Editorial Board & Newsroom Desks',
+    avatar: '/images/authors/sarah_mitchell.jpg'
+  },
       publishedAt: '2h ago',
       readTime: '5 min read',
       imageUrl: '/images/news/nvidia-ceo-scrutiny-and-ai-export-controls-draw-fresh-spotlight-in-washington-semiconductor-debate.jpeg',
@@ -619,7 +679,11 @@ Over several weeks of packed, emotional town hall hearings, residents raised urg
 Sociologists and tech policy researchers note that the Menomonie decision marks a watershed moment in the expanding national debate over artificial intelligence infrastructure. As hyperscalers search for available land and cheap power across the Midwest and South, rural and suburban communities are increasingly demanding binding transparency, water reclamation guarantees, and community benefit agreements before permitting massive computing complexes to break ground.`,
       category: 'Tech & AI',
       edition: ['US & Americas'],
-      author: { name: 'Dr. Neil Campbell', role: 'Aerospace & Industrial Tech Desk' },
+      author: {
+    name: 'Newyorkerherald Staff',
+    role: 'Editorial Board & Newsroom Desks',
+    avatar: '/images/authors/sarah_mitchell.jpg'
+  },
       publishedAt: '3h ago',
       readTime: '5 min read',
       imageUrl: '/images/news/midwest-townspeople-halt-multibillion-dollar-ai-data-center-project-in-historic-pushback-against-tech-sprawl.avif',
@@ -639,7 +703,11 @@ At the Starbase facility in southern Texas, aerospace engineers are preparing fo
 Aerospace financial analysts estimate that SpaceX's commercial launch and satellite communications business generated over $13 billion in annualized revenue over the past twelve months, cementing the company's status as the indispensable launch provider for NASA, the Department of Defense, and the global commercial space economy.`,
       category: 'Tech & AI',
       edition: ['US & Americas', 'Global'],
-      author: { name: 'Dr. Neil Campbell', role: 'Aerospace Desk' },
+      author: {
+    name: 'Newyorkerherald Staff',
+    role: 'Editorial Board & Newsroom Desks',
+    avatar: '/images/authors/sarah_mitchell.jpg'
+  },
       publishedAt: '4h ago',
       readTime: '5 min read',
       imageUrl: '/images/news/spacex-releases-landmark-financial-performance-as-starlink-satellite-constellation-expands-across-enterprise-market.jpeg',
@@ -698,7 +766,11 @@ Speaking to industry analysts during an inaugural investor presentation in Centu
 Hollywood creative guilds and talent agencies have watched the integration closely, seeking assurances that new digital workflows and IP licensing frameworks will safeguard residual compensation structures and creative authorship rights for screenwriters, actors, and digital animators. The studio confirmed an expansive theatrical release calendar featuring six major tentpole productions scheduled for 2027 alongside interactive virtual world rollouts.`,
       category: 'Entertainment',
       edition: ['US & Americas'],
-      author: { name: 'Maya Patel', role: 'Hollywood & Entertainment Bureau Chief' },
+      author: {
+    name: 'Newyorkerherald Staff',
+    role: 'Editorial Board & Newsroom Desks',
+    avatar: '/images/authors/sarah_mitchell.jpg'
+  },
       publishedAt: '2h ago',
       readTime: '5 min read',
       imageUrl: '/images/news/paramount-skydance-merger-completes-formal-integration-uniting-studio-blockbusters-with-gaming-franchises.jpg',
@@ -716,7 +788,11 @@ With global gaming software and hardware expenditures surpassing $210 billion an
 Furthermore, cloud streaming platforms and mobile distribution networks have lowered barriers to entry, enabling independent developers to achieve unprecedented global reach. Entertainment finance executives emphasize that as interactive game engines incorporate hyper-realistic physics rendering and generative narrative tools, the historical divide between cinema and gaming is evaporating into unified, persistent virtual entertainment ecosystems.`,
       category: 'Entertainment',
       edition: ['US & Americas'],
-      author: { name: 'Maya Patel', role: 'Entertainment Bureau Chief' },
+      author: {
+    name: 'Newyorkerherald Staff',
+    role: 'Editorial Board & Newsroom Desks',
+    avatar: '/images/authors/sarah_mitchell.jpg'
+  },
       publishedAt: '4h ago',
       readTime: '5 min read',
       imageUrl: '/images/news/interactive-gaming-surpasses-film-and-television-as-the-leading-growth-engine-for-global-entertainment-ip.jpg',
@@ -776,7 +852,11 @@ The men's race produced one of the most stunning upsets in modern distance runni
 Wheelchair division champions Daniel Romanchuk of the United States and Susannah Scaroni put on dominant clinics, sweeping the podiums and setting new course split records along the Verrazzano-Narrows and Queensboro bridges. Race organizers and city officials celebrated the logistical triumph of the event, which generated an estimated $420 million in economic activity for local hospitality and retail merchants across New York City.`,
       category: 'Sports',
       edition: ['US & Americas'],
-      author: { name: 'Marcus Sterling', role: 'Senior Sports Editor' },
+      author: {
+    name: 'Newyorkerherald Staff',
+    role: 'Editorial Board & Newsroom Desks',
+    avatar: '/images/authors/sarah_mitchell.jpg'
+  },
       publishedAt: '2h ago',
       readTime: '5 min read',
       imageUrl: '/images/news/new-york-city-marathon-2026-chepkirui-almgren-historic-victories-central-park.jpg',
@@ -794,7 +874,11 @@ Across the country at SoFi Stadium, the battle for Los Angeles gridiron supremac
 Meanwhile, on the hardwood, NBA action reached a fever pitch Sunday evening as superstar guard Luka Doncic delivered a tour-de-force performance, dropping 45 points, 15 rebounds, and 9 assists to guide his squad to a thrilling 131-125 victory over the Toronto Raptors. Doncic's masterclass included a flurry of step-back three-pointers during the fourth quarter, drawing standing ovations from the home crowd and reinforcing his early-season status as the leading candidate for the league's Most Valuable Player award.`,
       category: 'Sports',
       edition: ['US & Americas'],
-      author: { name: 'Marcus Sterling', role: 'National Sports Desk' },
+      author: {
+    name: 'Newyorkerherald Staff',
+    role: 'Editorial Board & Newsroom Desks',
+    avatar: '/images/authors/sarah_mitchell.jpg'
+  },
       publishedAt: '3h ago',
       readTime: '5 min read',
       imageUrl: '/images/news/nfl-week-9-commanders-crush-eagles-rams-chargers-derby-luka-45-points.jpg',
@@ -812,7 +896,11 @@ Central to discussions is the rollout of high-frequency optical motion-capture s
 On the stadium infrastructure front, club executives evaluated demonstrations of automated checkout concessions, facial recognition ticketing lanes, and augmented reality game overlays accessible via mobile devices. Baseball operations leaders emphasized that while traditional scouting and player development intuition remain irreplaceable, incorporating real-time computational analytics is vital for competitive advantage in modern professional sports.`,
       category: 'Sports',
       edition: ['US & Americas'],
-      author: { name: 'Marcus Sterling', role: 'Sports Analytics Desk' },
+      author: {
+    name: 'Newyorkerherald Staff',
+    role: 'Editorial Board & Newsroom Desks',
+    avatar: '/images/authors/sarah_mitchell.jpg'
+  },
       publishedAt: '5h ago',
       readTime: '5 min read',
       imageUrl: '/images/news/mlb-tech-summit-miami-2026-ai-analytics-stadium-infrastructure-revolution.webp',
@@ -870,7 +958,11 @@ In addition to physical swim competency, the program integrates comprehensive ca
 Civic leaders across New England praised the collaborative model, noting that pairing municipal recreation facilities with institutional preventative healthcare delivery provides a replicable national blueprint for addressing preventable pediatric health hazards while fostering lifelong wellness habits.`,
       category: 'Health & Science',
       edition: ['US & Americas'],
-      author: { name: 'Claire Montgomery', role: 'Public Health Desk' },
+      author: {
+    name: 'Newyorkerherald Staff',
+    role: 'Editorial Board & Newsroom Desks',
+    avatar: '/images/authors/sarah_mitchell.jpg'
+  },
       publishedAt: '5h ago',
       readTime: '5 min read',
       imageUrl: '/images/news/community-water-safety-programs-in-massachusetts-expand-free-life-saving-training-for-youth.webp',
@@ -898,7 +990,11 @@ The findings, published following extensive field telemetry across Wyoming, Mont
 Scientists emphasized that continuous ground deformation GPS telemetry and thermal sensor networks confirm that the modern Yellowstone magma reservoir remains in a quiescent, low-melt crystal mush state, with no indications of impending eruptive activity. However, mapping multi-pulse dynamics provides volcanologists with far more sophisticated predictive tools to interpret deep tectonic strain oscillations and improve long-term hazard assessments for active caldera systems globally.`,
       category: 'Health & Science',
       edition: ['US & Americas'],
-      author: { name: 'Dr. Rebecca Foster', role: 'Earth Science Field Desk' },
+      author: {
+    name: 'Newyorkerherald Staff',
+    role: 'Editorial Board & Newsroom Desks',
+    avatar: '/images/authors/sarah_mitchell.jpg'
+  },
       publishedAt: '4h ago',
       readTime: '5 min read',
       imageUrl: '/images/news/usgs-supervolcano-research-reveals-yellowstone-eruptions-occur-in-complex-multi-pulse-sequences.jpg',
@@ -916,7 +1012,11 @@ Engineers and materials scientists at the facilities will manufacture pilot batc
 Domestic automotive manufacturers have committed multi-billion-dollar off-take agreements for production yields, aiming to integrate solid-state cells into commercial vehicle platforms by 2028. State economic development officials noted that establishing domestic battery material supply chains is vital to maintaining the Midwest's historical industrial primacy in automotive engineering while creating thousands of specialized engineering and technician careers.`,
       category: 'Health & Science',
       edition: ['US & Americas'],
-      author: { name: 'Dr. Neil Campbell', role: 'Industrial Technology Desk' },
+      author: {
+    name: 'Newyorkerherald Staff',
+    role: 'Editorial Board & Newsroom Desks',
+    avatar: '/images/authors/sarah_mitchell.jpg'
+  },
       publishedAt: '5h ago',
       readTime: '5 min read',
       imageUrl: '/images/news/advanced-solid-state-battery-pilot-facilities-break-ground-across-midwest-clean-tech-corridors.jpg',
@@ -940,10 +1040,10 @@ As voters enter polling precincts tomorrow, the enduring promise of the American
       category: 'Opinion',
       edition: ['US & Americas', 'Global'],
       author: {
-        name: 'Jonathan Ross',
-        role: 'Contributing Editor & Scholar',
-        avatar: '/images/authors/jonathan_ross.jpg'
-      },
+    name: 'Newyorkerherald Staff',
+    role: 'Editorial Board & Newsroom Desks',
+    avatar: '/images/authors/sarah_mitchell.jpg'
+  },
       publishedAt: '2h ago',
       readTime: '6 min read',
       imageUrl: '/images/news/the-closing-argument-america-votes-under-the-shadow-of-polarized-governance.jpeg',
@@ -962,10 +1062,10 @@ When independent academic researchers, startup founders, and global developers h
       category: 'Opinion',
       edition: ['US & Americas', 'Global'],
       author: {
-        name: 'Marcus Vance',
-        role: 'Technology Critic & Author',
-        avatar: '/images/authors/marcus_vance.jpg'
-      },
+    name: 'Newyorkerherald Staff',
+    role: 'Editorial Board & Newsroom Desks',
+    avatar: '/images/authors/sarah_mitchell.jpg'
+  },
       publishedAt: '4h ago',
       readTime: '6 min read',
       imageUrl: '/images/news/the-open-source-paradox-why-decentralized-ai-models-are-essential-for-american-innovation.jpg',
@@ -980,8 +1080,8 @@ export const OPINION_COLUMNS: OpinionColumn[] = [
     category: 'Politics',
     columnTitle: 'Democratic Institutions',
     headline: 'Divided Governance Is Not a Crisis: Why Constitutional Gridlock Can Foster Policy Stability',
-    authorName: 'Jonathan Ross',
-    authorTitle: 'Contributing Editor & Scholar',
+    authorName: 'Newyorkerherald Editorial Board',
+    authorTitle: 'Editorial Board & Commentary Desk',
     authorAvatar: '/images/authors/jonathan_ross.jpg',
     quoteSnippet: 'The Founders engineered the American republic to resist swift factional impulses; divided government forces consensus over fiat.',
     date: 'Nov 2, 2026',
@@ -992,8 +1092,8 @@ export const OPINION_COLUMNS: OpinionColumn[] = [
     category: 'National Security',
     columnTitle: 'Geopolitical Realism',
     headline: 'The Strait of Hormuz Trap: Why Diplomatic Patience Outweighs Hasty Military Action',
-    authorName: 'Sarah Mitchell',
-    authorTitle: 'Chief National Security Correspondent',
+    authorName: 'Newyorkerherald Editorial Board',
+    authorTitle: 'Editorial Board & Commentary Desk',
     authorAvatar: '/images/authors/sarah_mitchell.jpg',
     quoteSnippet: 'A localized maritime incident must not be allowed to dictate the trajectory of continental security in the Middle East.',
     date: 'Nov 2, 2026',
@@ -1004,8 +1104,8 @@ export const OPINION_COLUMNS: OpinionColumn[] = [
     category: 'Tech & AI',
     columnTitle: 'Frontier Innovation',
     headline: 'Why Open-Source AI Architecture Remains America’s Greatest Strategic Moat',
-    authorName: 'Elena Rostova',
-    authorTitle: 'Silicon Valley Bureau Chief',
+    authorName: 'Newyorkerherald Editorial Board',
+    authorTitle: 'Editorial Board & Commentary Desk',
     authorAvatar: '/images/authors/elena_rostova.jpg',
     quoteSnippet: 'Monopolies seek protective regulatory moats; open developer communities build the enduring infrastructure of the future.',
     date: 'Nov 1, 2026',
@@ -1016,8 +1116,8 @@ export const OPINION_COLUMNS: OpinionColumn[] = [
     category: 'Economics',
     columnTitle: 'Economic Truths',
     headline: 'The Hidden Toll of Cross-Border Tariffs on Midwest Working Families',
-    authorName: 'Henrik Lindqvist',
-    authorTitle: 'Chief Economics Editor',
+    authorName: 'Newyorkerherald Editorial Board',
+    authorTitle: 'Editorial Board & Commentary Desk',
     authorAvatar: '/images/authors/henrik_lindqvist.jpg',
     quoteSnippet: 'Automotive supply chains are continental ecosystems; taxing parts at the border punishes American assembly lines first.',
     date: 'Nov 1, 2026',
@@ -1195,108 +1295,31 @@ export interface AuthorProfile {
 }
 
 export const AUTHORS_DATA: Record<string, AuthorProfile> = {
-  'sarah-mitchell': {
-    slug: 'sarah-mitchell',
-    name: 'Sarah Mitchell',
-    role: 'Chief National Political Correspondent',
-    bureau: 'Washington D.C. Bureau',
+  'editorial-board': {
+    slug: 'editorial-board',
+    name: 'Newyorkerherald Staff',
+    role: 'Editorial Board & Newsroom Desks',
+    bureau: 'Global Editorial Bureau',
     avatar: '/images/authors/sarah_mitchell.jpg',
-    bio: 'Sarah Mitchell leads national political, election, and congressional reporting for Newyorkerherald. Prior to joining the newsroom, she covered presidential campaigns and high-stakes legislative negotiations on Capitol Hill.',
-    beat: 'National Politics & Midterm Elections',
-    articlesCount: 154,
-    twitter: '@mitchell_nyh',
-    email: 's.mitchell@newyorkerherald.com',
-    awards: ['Gerald R. Ford Award for Distinguished Reporting', 'National Press Club Citation 2024'],
-    education: 'M.A. Political Science, Georgetown University'
+    bio: 'The Newyorkerherald editorial staff and newsroom correspondents produce real-time reporting, investigative dossiers, policy intelligence, and verified news dispatches across the United States and the international stage.',
+    beat: 'National & Global Affairs',
+    articlesCount: 250,
+    twitter: '@nyherald_news',
+    email: 'editorial@newyorkerherald.com',
+    awards: ['National Press Club Citation for Excellence in Digital Journalism'],
+    education: 'Columbia School of Journalism / Global Newsroom Network'
   },
-  'tyler-brooks': {
-    slug: 'tyler-brooks',
-    name: 'Tyler Brooks',
-    role: 'National Breaking News Editor',
-    bureau: 'National Desk',
-    avatar: '/images/authors/tyler_brooks.jpg',
-    bio: 'Tyler Brooks oversees rapid-response coverage of domestic disasters, transportation safety, and major breaking events across the United States.',
-    beat: 'Disasters & Aviation Safety',
-    articlesCount: 98,
-    twitter: '@brooks_nyh',
-    email: 't.brooks@newyorkerherald.com'
-  },
-  'henrik-lindqvist': {
-    slug: 'henrik-lindqvist',
-    name: 'Henrik Lindqvist',
-    role: 'Chief Economics Editor',
-    bureau: 'New York Bureau',
-    avatar: '/images/authors/henrik_lindqvist.jpg',
-    bio: 'Henrik Lindqvist oversees global macroeconomic intelligence, central banking, and international trade policy for Newyorkerherald.',
-    beat: 'Global Trade & Energy Markets',
-    articlesCount: 168,
-    email: 'h.lindqvist@newyorkerherald.com'
-  },
-  'elena-rostova': {
-    slug: 'elena-rostova',
-    name: 'Elena Rostova',
-    role: 'Silicon Valley Tech Bureau Chief',
-    bureau: 'San Francisco Bureau',
-    avatar: '/images/authors/elena_rostova.jpg',
-    bio: 'Elena Rostova covers artificial intelligence breakthroughs, frontier models, semiconductor export controls, and venture capital across the Bay Area.',
-    beat: 'Artificial Intelligence & Big Tech',
-    articlesCount: 147,
-    email: 'e.rostova@newyorkerherald.com'
-  },
-  'dr-rebecca-foster': {
-    slug: 'dr-rebecca-foster',
-    name: 'Dr. Rebecca Foster',
-    role: 'National Science & Health Desk',
-    bureau: 'Science Bureau',
-    avatar: '/images/authors/rebecca_foster.jpg',
-    bio: 'Dr. Rebecca Foster holds a doctorate in geophysics and reports on earth sciences, chronobiology, space exploration, and clinical innovation.',
-    beat: 'Earth Science & Chronobiology',
-    articlesCount: 112,
-    email: 'r.foster@newyorkerherald.com'
-  },
-  'marcus-sterling': {
-    slug: 'marcus-sterling',
-    name: 'Marcus Sterling',
-    role: 'Senior Sports Editor',
-    bureau: 'National Sports Desk',
-    avatar: '/images/authors/marcus_sterling.jpg',
-    bio: 'Marcus Sterling covers championship sports, marathons, franchise valuations, and athletic performance technology.',
-    beat: 'Pro Sports & Athletics',
-    articlesCount: 139,
-    email: 'm.sterling@newyorkerherald.com'
-  },
-  'carlos-mendoza': {
-    slug: 'carlos-mendoza',
-    name: 'Carlos Mendoza',
-    role: 'Chief Investigative Correspondent',
-    bureau: 'Special Dossier Desk',
-    avatar: '/images/authors/carlos_mendoza.jpg',
-    bio: 'Carlos Mendoza leads enterprise investigative investigations examining national electrical grids, critical infrastructure, and corporate regulatory compliance.',
-    beat: 'Investigative Projects',
-    articlesCount: 88,
-    email: 'c.mendoza@newyorkerherald.com'
-  },
-  'maya-patel': {
-    slug: 'maya-patel',
-    name: 'Maya Patel',
-    role: 'Hollywood & Entertainment Bureau Chief',
-    bureau: 'Los Angeles Bureau',
-    avatar: '/images/authors/maya_patel.jpg',
-    bio: 'Maya Patel covers studio mergers, interactive digital gaming, and the convergence of traditional cinema with interactive virtual media.',
-    beat: 'Hollywood & Gaming IP',
-    articlesCount: 122,
-    email: 'm.patel@newyorkerherald.com'
-  },
-  'jonathan-ross': {
-    slug: 'jonathan-ross',
-    name: 'Jonathan Ross',
-    role: 'Contributing Editor & Scholar',
-    bureau: 'Editorial Board',
-    avatar: '/images/authors/jonathan_ross.jpg',
-    bio: 'Jonathan Ross writes on constitutional governance, democratic norms, and political philosophy for the opinion section.',
-    beat: 'Opinion & Public Affairs',
-    articlesCount: 75,
-    email: 'j.ross@newyorkerherald.com'
+  'staff': {
+    slug: 'staff',
+    name: 'Newyorkerherald Staff',
+    role: 'Editorial Board & Newsroom Desks',
+    bureau: 'Global Editorial Bureau',
+    avatar: '/images/authors/sarah_mitchell.jpg',
+    bio: 'The Newyorkerherald editorial staff and newsroom correspondents produce real-time reporting, investigative dossiers, policy intelligence, and verified news dispatches across the United States and the international stage.',
+    beat: 'National & Global Affairs',
+    articlesCount: 250,
+    twitter: '@nyherald_news',
+    email: 'editorial@newyorkerherald.com'
   }
 };
 
@@ -1337,30 +1360,7 @@ export function getCategorySlugFromCategoryName(name: string): string {
 }
 
 export function getAuthorSlugFromName(name: string): string {
-  const clean = name.split('&')[0].trim().toLowerCase()
-    .replace('prof. ', '')
-    .replace('dr. ', '')
-    .replace(/[^a-z0-9]/g, '-')
-    .replace(/-+/g, '-')
-    .replace(/^-|-$/g, '');
-  
-  if (clean.includes('sarah')) return 'sarah-mitchell';
-  if (clean.includes('david')) return 'david-vance';
-  if (clean.includes('henrik')) return 'henrik-lindqvist';
-  if (clean.includes('elena')) return 'elena-rostova';
-  if (clean.includes('campbell')) return 'dr-neil-campbell';
-  if (clean.includes('foster')) return 'dr-rebecca-foster';
-  if (clean.includes('sterling')) return 'marcus-sterling';
-  if (clean.includes('maya-patel') || clean === 'maya-patel') return 'maya-patel';
-  if (clean.includes('claire') || clean.includes('montgomery')) return 'claire-montgomery';
-  if (clean.includes('tyler') || clean.includes('brooks')) return 'tyler-brooks';
-  if (clean.includes('carlos') || clean.includes('mendoza')) return 'carlos-mendoza';
-  if (clean.includes('jonathan') || clean.includes('ross')) return 'jonathan-ross';
-  if (clean.includes('kimberly') || clean.includes('adams')) return 'kimberly-adams';
-  if (clean.includes('marcus-vance') || clean.includes('vance')) return 'marcus-vance';
-  if (clean.includes('maya-lin') || clean.includes('chen')) return 'maya-lin-chen';
-  
-  return 'sarah-mitchell';
+  return 'editorial-board';
 }
 
 export function getArticlesByCategorySlug(slug: string): Article[] {
@@ -1393,15 +1393,7 @@ export function getArticlesByCategorySlug(slug: string): Article[] {
 }
 
 export function getArticlesByAuthorSlug(slug: string): Article[] {
-  const all = getAllArticles();
-  const authorProfile = AUTHORS_DATA[slug];
-  if (!authorProfile) return all.slice(0, 4);
-
-  const namePieces = authorProfile.name.toLowerCase().split(' ');
-  return all.filter(a => {
-    const authorName = (a.author?.name || '').toLowerCase();
-    return namePieces.some(p => p.length > 2 && authorName.includes(p));
-  });
+  return getAllArticles();
 }
 
 export function getArticleById(id: string): Article | undefined {
