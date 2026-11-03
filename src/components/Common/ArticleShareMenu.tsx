@@ -5,9 +5,7 @@ import {
   Share2, 
   Check, 
   Copy, 
-  X, 
-  Mail,
-  ExternalLink
+  X
 } from 'lucide-react';
 
 interface ArticleShareMenuProps {
@@ -141,11 +139,6 @@ export default function ArticleShareMenu({
           <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.121l-6.871 4.326-2.962-.924c-.643-.204-.657-.643.136-.953l11.57-4.461c.537-.196 1.006.128.832.942z"/>
         </svg>
       )
-    },
-    {
-      name: 'Email',
-      href: `mailto:?subject=${encodedTitle}&body=${encodedText}%0A${encodedUrl}`,
-      icon: <Mail size={13} />
     }
   ];
 
@@ -185,7 +178,7 @@ export default function ArticleShareMenu({
             top: 'calc(100% + 6px)',
             right: align === 'right' ? 0 : 'auto',
             left: align === 'left' ? 0 : 'auto',
-            width: '290px',
+            width: '280px',
             backgroundColor: 'var(--bg-surface-elevated)',
             border: '1px solid var(--border-rule)',
             borderRadius: 'var(--radius-xs)',
@@ -235,7 +228,7 @@ export default function ArticleShareMenu({
             display: 'grid',
             gridTemplateColumns: 'repeat(2, 1fr)',
             gap: '6px',
-            marginBottom: '12px'
+            marginBottom: '10px'
           }}>
             {shareOptions.map((item) => (
               <a
@@ -277,62 +270,46 @@ export default function ArticleShareMenu({
             ))}
           </div>
 
-          {/* Direct Link Row */}
+          {/* Clean Copy Link Action */}
           <div style={{
             borderTop: '1px solid var(--border-hairline)',
-            paddingTop: '9px'
+            paddingTop: '10px'
           }}>
-            <div style={{
-              fontSize: '0.64rem',
-              fontWeight: 700,
-              textTransform: 'uppercase',
-              letterSpacing: '0.06em',
-              color: 'var(--text-muted)',
-              marginBottom: '5px'
-            }}>
-              Direct Link
-            </div>
-            <div style={{ display: 'flex', gap: '6px', alignItems: 'center' }}>
-              <input
-                type="text"
-                readOnly
-                value={fullUrl}
-                onClick={(e) => (e.target as HTMLInputElement).select()}
-                style={{
-                  flex: 1,
-                  padding: '5px 7px',
-                  fontSize: '0.7rem',
-                  borderRadius: 'var(--radius-xs)',
-                  border: '1px solid var(--border-hairline)',
-                  backgroundColor: 'var(--bg-canvas)',
-                  color: 'var(--text-secondary)',
-                  outline: 'none',
-                  minWidth: 0
-                }}
-              />
-              <button
-                type="button"
-                onClick={handleCopyLink}
-                style={{
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: '4px',
-                  padding: '5px 9px',
-                  fontSize: '0.7rem',
-                  fontWeight: 700,
-                  borderRadius: 'var(--radius-xs)',
-                  border: 'none',
-                  backgroundColor: copied ? 'var(--accent-emerald)' : 'var(--text-primary)',
-                  color: '#ffffff',
-                  cursor: 'pointer',
-                  whiteSpace: 'nowrap',
-                  transition: 'background-color 0.15s ease'
-                }}
-              >
-                {copied ? <Check size={11} /> : <Copy size={11} />}
-                <span>{copied ? 'Copied' : 'Copy'}</span>
-              </button>
-            </div>
+            <button
+              type="button"
+              onClick={handleCopyLink}
+              style={{
+                width: '100%',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                gap: '6px',
+                padding: '7px 10px',
+                fontSize: '0.74rem',
+                fontWeight: 700,
+                borderRadius: 'var(--radius-xs)',
+                border: '1px solid var(--border-hairline)',
+                backgroundColor: copied ? 'var(--accent-emerald)' : 'var(--bg-canvas)',
+                color: copied ? '#ffffff' : 'var(--text-primary)',
+                cursor: 'pointer',
+                transition: 'all 0.15s ease'
+              }}
+              onMouseEnter={(e) => {
+                if (!copied) {
+                  e.currentTarget.style.backgroundColor = 'var(--bg-surface-elevated)';
+                  e.currentTarget.style.borderColor = 'var(--text-muted)';
+                }
+              }}
+              onMouseLeave={(e) => {
+                if (!copied) {
+                  e.currentTarget.style.backgroundColor = 'var(--bg-canvas)';
+                  e.currentTarget.style.borderColor = 'var(--border-hairline)';
+                }
+              }}
+            >
+              {copied ? <Check size={13} /> : <Copy size={13} />}
+              <span>{copied ? 'Link Copied!' : 'Copy Link'}</span>
+            </button>
           </div>
         </div>
       )}

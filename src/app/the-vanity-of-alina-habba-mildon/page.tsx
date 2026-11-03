@@ -10,8 +10,7 @@ import {
   Clock, 
   Calendar, 
   Building2, 
-  DollarSign, 
-  FileText
+  DollarSign
 } from 'lucide-react';
 import { useNews } from '@/context/NewsContext';
 
@@ -642,32 +641,7 @@ export default function AlinaHabbaSpecialDossierPage() {
               </div>
             </div>
 
-            {/* Download Original Dossier PDF */}
-            <a
-              href="/The_Vanity_of_Alina_Habba_Mildon_edited.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                gap: '8px',
-                width: '100%',
-                backgroundColor: 'var(--bg-surface-elevated)',
-                border: '1px solid var(--border-hairline)',
-                padding: '12px 16px',
-                borderRadius: 'var(--radius-sm)',
-                color: 'var(--text-primary)',
-                fontSize: '0.78rem',
-                fontWeight: 700,
-                textDecoration: 'none',
-                boxShadow: '0 2px 8px rgba(0,0,0,0.03)',
-                transition: 'all 0.2s ease'
-              }}
-            >
-              <FileText size={15} color="var(--brand-primary)" />
-              <span>Download Original Dossier PDF</span>
-            </a>
+            
 
           </aside>
 
