@@ -13,7 +13,6 @@ import {
 } from '@/data/newsData';
 import { useNews } from '@/context/NewsContext';
 import { 
-  Bookmark, 
   Clock, 
   Activity,
   Zap,
@@ -21,8 +20,7 @@ import {
 } from 'lucide-react';
 
 export default function CurvedBentoHero() {
-  const { bookmarks, toggleBookmark } = useNews();
-  const isBookmarked = (id: string) => bookmarks.includes(id);
+  
 
   const allArts = getAllArticles();
   
@@ -54,26 +52,13 @@ export default function CurvedBentoHero() {
           
           {/* ================= COL 1: ENLARGED LEAD ARTICLE (6 Cols) ================= */}
           <div className="bento-hero-lead">
-            {/* Lead Kicker & Bookmark */}
+            {/* Lead Kicker */}
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '10px' }}>
               <span className="aura-pill">
                 {LEAD_ARTICLE.category}
               </span>
 
-              <button
-                onClick={() => toggleBookmark(LEAD_ARTICLE.id)}
-                style={{
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: '4px',
-                  fontSize: '0.7rem',
-                  fontWeight: 700,
-                  color: isBookmarked(LEAD_ARTICLE.id) ? 'var(--brand-primary)' : 'var(--text-muted)'
-                }}
-              >
-                <Bookmark size={12} fill={isBookmarked(LEAD_ARTICLE.id) ? 'currentColor' : 'none'} />
-                <span>{isBookmarked(LEAD_ARTICLE.id) ? 'Saved' : 'Save'}</span>
-              </button>
+              
             </div>
 
             {/* Enlarged Prominent Hero Image */}

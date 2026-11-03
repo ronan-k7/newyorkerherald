@@ -8,7 +8,6 @@ import CurvedFooter from '@/components/Footer/CurvedFooter';
 import { getArticleById, getAllArticles, AUTHORS_DATA, getAuthorSlugFromName, getArticleUrl } from '@/data/newsData';
 import { useNews } from '@/context/NewsContext';
 import { 
-  Bookmark, 
   Clock, 
   Share2, 
   ArrowLeft, 
@@ -24,7 +23,6 @@ export default function ArticleDetailPage() {
   const articleId = (params?.slug || params?.id) as string;
   const article = getArticleById(articleId);
 
-  const { bookmarks, toggleBookmark } = useNews();
   const [copied, setCopied] = useState(false);
   const [isFollowingAuthor, setIsFollowingAuthor] = useState(false);
 
@@ -43,7 +41,6 @@ export default function ArticleDetailPage() {
     );
   }
 
-  const isBookmarked = bookmarks.includes(article.id);
   const allArts = getAllArticles();
   const relatedArticles = allArts.filter(a => a.id !== article.id && (a.category === article.category || a.kicker === article.kicker)).slice(0, 5);
   const trendingSidebar = allArts.filter(a => a.id !== article.id).slice(0, 4);
@@ -99,20 +96,7 @@ export default function ArticleDetailPage() {
               </span>
 
               <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                <button
-                  onClick={() => toggleBookmark(article.id)}
-                  style={{
-                    display: 'flex',
-                    alignItems: 'center',
-                    gap: '4px',
-                    fontSize: '0.7rem',
-                    fontWeight: 700,
-                    color: isBookmarked ? 'var(--brand-primary)' : 'var(--text-muted)'
-                  }}
-                >
-                  <Bookmark size={12} fill={isBookmarked ? 'currentColor' : 'none'} />
-                  <span>{isBookmarked ? 'Saved' : 'Save Story'}</span>
-                </button>
+                
 
                 <button
                   onClick={handleShare}

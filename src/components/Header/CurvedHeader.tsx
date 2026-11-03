@@ -5,7 +5,6 @@ import Link from 'next/link';
 import { useNews } from '@/context/NewsContext';
 import { 
   CloudSun, 
-  Bookmark, 
   Search, 
   Compass, 
   ShieldAlert,
@@ -18,9 +17,7 @@ interface CurvedHeaderProps {
 }
 
 export default function CurvedHeader({ activeCategory = 'All', onSelectCategory }: CurvedHeaderProps) {
-  const { 
-    bookmarks, 
-    setIsReadingListOpen, 
+  const {
     setIsSearchOpen 
   } = useNews();
 
@@ -76,7 +73,7 @@ export default function CurvedHeader({ activeCategory = 'All', onSelectCategory 
             </div>
           </div>
 
-          {/* Right: Social Media, Bookmarks, Account */}
+          {/* Right: Social Media */}
           <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
             {/* Social Media Links */}
             <div className="hidden-mobile" style={{
@@ -170,29 +167,7 @@ export default function CurvedHeader({ activeCategory = 'All', onSelectCategory 
               </a>
             </div>
 
-            {/* Saved Drawer */}
-            <button
-              onClick={() => setIsReadingListOpen(true)}
-              style={{
-                display: 'flex',
-                alignItems: 'center',
-                gap: '4px',
-                border: '1px solid var(--border-rule)',
-                padding: '3px 8px',
-                borderRadius: '0px',
-                fontSize: '0.72rem',
-                fontWeight: 600,
-                color: 'var(--text-primary)'
-              }}
-            >
-              <Bookmark size={11} color={bookmarks.length > 0 ? 'var(--brand-primary)' : 'currentColor'} />
-              <span>Saved</span>
-              {bookmarks.length > 0 && (
-                <span className="aura-pill" style={{ padding: '1px 4px', fontSize: '0.6rem' }}>
-                  {bookmarks.length}
-                </span>
-              )}
-            </button>
+            
           </div>
         </div>
       </div>

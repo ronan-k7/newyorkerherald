@@ -26,7 +26,7 @@ export default function PrivacyPolicyPage() {
     {
       icon: Globe,
       title: 'Cookies and Similar Technologies',
-      body: 'Newyorkerherald may use cookies and similar technologies to improve website functionality, remember user reading preferences (such as light/dark mode and saved bookmarks), analyze traffic patterns, and support advertising or analytics services. Users can manage cookie preferences directly through their web browser settings.'
+      body: 'Newyorkerherald may use cookies and similar technologies to improve website functionality, remember user reading preferences (such as light/dark mode and custom reading settings), analyze traffic patterns, and support advertising or analytics services. Users can manage cookie preferences directly through their web browser settings.'
     },
     {
       icon: UserCheck,

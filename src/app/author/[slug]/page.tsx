@@ -16,7 +16,6 @@ import {
   FileText, 
   Clock,
   ArrowLeft,
-  Bookmark,
   MapPin
 } from 'lucide-react';
 import { useNews } from '@/context/NewsContext';
@@ -29,9 +28,6 @@ export default function AuthorProfilePage() {
   const [isFollowing, setIsFollowing] = useState(false);
   const [copied, setCopied] = useState(false);
   const [activeTab, setActiveTab] = useState<'all' | 'investigations' | 'analysis'>('all');
-
-  const { bookmarks, toggleBookmark } = useNews();
-  const isBookmarked = (id: string) => bookmarks.includes(id);
 
   const allArticles = getAllArticles();
   const authorArticles = author 
@@ -309,16 +305,7 @@ export default function AuthorProfilePage() {
                       <span className="aura-pill">
                         {art.kicker}
                       </span>
-                      <button
-                        onClick={() => toggleBookmark(art.id)}
-                        style={{
-                          fontSize: '0.66rem',
-                          fontWeight: 700,
-                          color: isBookmarked(art.id) ? 'var(--brand-primary)' : 'var(--text-muted)'
-                        }}
-                      >
-                        <Bookmark size={11} fill={isBookmarked(art.id) ? 'currentColor' : 'none'} />
-                      </button>
+                      
                     </div>
 
                     <Link href={getArticleUrl(art)} style={{ textDecoration: 'none' }}>

@@ -8,10 +8,6 @@ interface NewsContextType {
   setTheme: (theme: ThemeMode) => void;
   fontScale: FontSize;
   setFontScale: (size: FontSize) => void;
-  bookmarks: string[];
-  toggleBookmark: (articleId: string) => Promise<void>;
-  isReadingListOpen: boolean;
-  setIsReadingListOpen: (open: boolean) => void;
   isSearchOpen: boolean;
   setIsSearchOpen: (open: boolean) => void;
   activeVideo: VideoItem | null;
@@ -30,8 +26,6 @@ const NewsContext = createContext<NewsContextType | undefined>(undefined);
 export function NewsProvider({ children }: { children: React.ReactNode }) {
   const [theme, setThemeState] = useState<ThemeMode>('light');
   const [fontScale, setFontScaleState] = useState<FontSize>('lg');
-  const [bookmarks, setBookmarks] = useState<string[]>([]);
-  const [isReadingListOpen, setIsReadingListOpen] = useState(false);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [activeVideo, setActiveVideo] = useState<VideoItem | null>(null);
   const [currentUser, setCurrentUser] = useState<UserAccount | null>(null);
@@ -50,16 +44,6 @@ export function NewsProvider({ children }: { children: React.ReactNode }) {
         }
       })
       .catch(() => {});
-
-    // Fetch bookmarks
-    fetch('/api/bookmarks')
-      .then(res => res.json())
-      .then(data => {
-        if (data.bookmarks) {
-          setBookmarks(data.bookmarks);
-        }
-      })
-      .catch(() => {});
   }, []);
 
   const setTheme = (newTheme: ThemeMode) => {
@@ -74,25 +58,6 @@ export function NewsProvider({ children }: { children: React.ReactNode }) {
     if (newScale === 'sm') document.documentElement.style.fontSize = '14.5px';
     if (newScale === 'md') document.documentElement.style.fontSize = '15.5px';
     if (newScale === 'lg') document.documentElement.style.fontSize = '17px';
-  };
-
-  const toggleBookmark = async (articleId: string) => {
-    const isBookmarked = bookmarks.includes(articleId);
-    const newBookmarks = isBookmarked
-      ? bookmarks.filter(id => id !== articleId)
-      : [...bookmarks, articleId];
-
-    setBookmarks(newBookmarks);
-
-    try {
-      await fetch('/api/bookmarks', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ articleId, action: isBookmarked ? 'remove' : 'add' })
-      });
-    } catch (err) {
-      console.error('Failed to sync bookmarks:', err);
-    }
   };
 
   const login = async (email: string, password: string): Promise<boolean> => {
@@ -142,10 +107,6 @@ export function NewsProvider({ children }: { children: React.ReactNode }) {
         setTheme,
         fontScale,
         setFontScale,
-        bookmarks,
-        toggleBookmark,
-        isReadingListOpen,
-        setIsReadingListOpen,
         isSearchOpen,
         setIsSearchOpen,
         activeVideo,

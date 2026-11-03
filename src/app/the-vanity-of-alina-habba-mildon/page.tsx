@@ -6,7 +6,6 @@ import CurvedHeader from '@/components/Header/CurvedHeader';
 import CurvedFooter from '@/components/Footer/CurvedFooter';
 import { 
   ArrowLeft, 
-  Bookmark, 
   Share2, 
   Clock, 
   Calendar, 
@@ -18,11 +17,8 @@ import {
 import { useNews } from '@/context/NewsContext';
 
 export default function AlinaHabbaSpecialDossierPage() {
-  const { bookmarks, toggleBookmark } = useNews();
   const [copied, setCopied] = useState(false);
   const articleId = 'the-vanity-of-alina-habba-mildon';
-  const isBookmarked = bookmarks.includes(articleId);
-
   React.useEffect(() => {
     if (typeof window !== 'undefined' && window.location.pathname === '/the-vanity-of-alina-habba-mildon') {
       window.history.replaceState(null, '', '/us/the-vanity-of-alina-habba-mildon');
@@ -118,21 +114,7 @@ export default function AlinaHabbaSpecialDossierPage() {
               </span>
             </div>
             <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-              <button
-                onClick={() => toggleBookmark(articleId)}
-                style={{
-                  display: 'flex', alignItems: 'center', gap: '5px',
-                  fontSize: '0.72rem', fontWeight: 700, padding: '5px 11px',
-                  borderRadius: 'var(--radius-xs)',
-                  border: '1px solid var(--border-hairline)',
-                  backgroundColor: 'var(--bg-surface-elevated)',
-                  color: isBookmarked ? 'var(--brand-primary)' : 'var(--text-primary)',
-                  cursor: 'pointer'
-                }}
-              >
-                <Bookmark size={12} fill={isBookmarked ? 'currentColor' : 'none'} />
-                <span>{isBookmarked ? 'Saved' : 'Save'}</span>
-              </button>
+              
               <button
                 onClick={handleShare}
                 style={{

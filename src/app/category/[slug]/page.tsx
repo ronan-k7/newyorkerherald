@@ -6,7 +6,7 @@ import Link from 'next/link';
 import CurvedHeader from '@/components/Header/CurvedHeader';
 import CurvedFooter from '@/components/Footer/CurvedFooter';
 import { CATEGORIES_META, getAllArticles, getArticlesByCategorySlug, getAuthorSlugFromName, getArticleUrl } from '@/data/newsData';
-import { Clock, ArrowLeft, Bookmark, ArrowRight, Zap, Filter, Flame } from 'lucide-react';
+import { Clock, ArrowLeft, ArrowRight, Zap, Filter, Flame } from 'lucide-react';
 import { useNews } from '@/context/NewsContext';
 
 export default function CategoryPage() {
@@ -25,9 +25,6 @@ export default function CategoryPage() {
     description: categoryMeta?.description || 'Curated field reporting, investigative analyses, and primary-source verified journalism from the Newyorkerherald global newsroom.',
     accentColor: categoryMeta?.accentColor || 'var(--brand-primary)'
   };
-
-  const { bookmarks, toggleBookmark } = useNews();
-  const isBookmarked = (id: string) => bookmarks.includes(id);
 
   const lead = articles[0] || allArts[0];
   const streamStories = articles.length > 1 ? articles.slice(1, 4) : allArts.filter(a => a.id !== lead.id).slice(0, 3);
@@ -131,20 +128,7 @@ export default function CategoryPage() {
                 <span className="aura-pill">
                   {lead.kicker}
                 </span>
-                <button
-                  onClick={() => toggleBookmark(lead.id)}
-                  style={{
-                    display: 'flex',
-                    alignItems: 'center',
-                    gap: '3px',
-                    fontSize: '0.66rem',
-                    fontWeight: 700,
-                    color: isBookmarked(lead.id) ? 'var(--brand-primary)' : 'var(--text-muted)'
-                  }}
-                >
-                  <Bookmark size={11} fill={isBookmarked(lead.id) ? 'currentColor' : 'none'} />
-                  <span>{isBookmarked(lead.id) ? 'Saved' : 'Save'}</span>
-                </button>
+                
               </div>
 
               <Link href={getArticleUrl(lead)} style={{ textDecoration: 'none', marginBottom: '10px' }}>
