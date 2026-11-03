@@ -9,15 +9,12 @@ export default function CurvedFooter() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  const categories = [
+  const topCategories = [
     { name: 'U.S. News', href: '/category/us' },
     { name: 'Politics & Policy', href: '/category/politics' },
     { name: 'Business & Markets', href: '/category/business' },
     { name: 'Tech', href: '/category/tech' },
     { name: 'Culture & Entertainment', href: '/category/entertainment' },
-    { name: 'Sports & Athletics', href: '/category/sports' },
-    { name: 'Science', href: '/category/science' },
-    { name: 'Investigation', href: '/category/investigation' },
   ];
 
   const institutional = [
@@ -154,13 +151,13 @@ export default function CurvedFooter() {
             </div>
           </div>
 
-          {/* Departments */}
+          {/* Top Categories */}
           <div>
             <h4 style={{ fontSize: '0.72rem', fontWeight: 800, textTransform: 'uppercase', color: 'var(--text-primary)', marginBottom: '8px' }}>
-              Departments
+              Top Categories
             </h4>
             <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '5px' }}>
-              {categories.map((c) => (
+              {topCategories.map((c) => (
                 <li key={c.href}>
                   <Link href={c.href} style={{ fontSize: '0.76rem', color: 'var(--text-secondary)', textDecoration: 'none' }}>
                     {c.name}
