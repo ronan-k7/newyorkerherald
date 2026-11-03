@@ -4,283 +4,399 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import CurvedHeader from '@/components/Header/CurvedHeader';
 import CurvedFooter from '@/components/Footer/CurvedFooter';
-import { Mail, MapPin, Phone, ShieldCheck, Check, Send, ArrowLeft, Lock, FileText } from 'lucide-react';
+import { ArrowLeft, Mail, AlertCircle, Send, CheckCircle2, Building, MessageSquare, ShieldCheck, Newspaper, Megaphone } from 'lucide-react';
 
 export default function ContactPage() {
   const [submitted, setSubmitted] = useState(false);
-  const [department, setDepartment] = useState('investigative');
-  const [formData, setFormData] = useState({ name: '', email: '', message: '', isConfidential: false });
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    department: 'general',
+    subject: '',
+    message: ''
+  });
 
-  const bureaus = [
+  const channels = [
     {
-      city: 'Washington D.C.',
-      role: 'Global Headquarters & National Security Desk',
-      address: '1400 K Street NW, Suite 900, Washington, D.C. 20005',
-      email: 'dc.newsroom@newyorkerherald.com',
-      phone: '+1 (202) 555-0194'
+      icon: Mail,
+      title: 'General Inquiries',
+      email: 'contact@newyorkerherald.com',
+      desc: 'Questions about our content, editorial standards, partnerships, or general readership matters.'
     },
     {
-      city: 'London',
-      role: 'European & Middle East Financial Bureau',
-      address: '10 Fleet Street, EC4Y 1AU, London, United Kingdom',
-      email: 'london.bureau@newyorkerherald.com',
-      phone: '+44 20 7946 0921'
+      icon: Newspaper,
+      title: 'News Tips & Story Ideas',
+      email: 'editorial@newyorkerherald.com',
+      desc: 'Have a story we should investigate? Share tips, documents, and leads with our reporters.'
     },
     {
-      city: 'Tokyo',
-      role: 'Asia-Pacific Tech & Geopolitics Desk',
-      address: 'Roppongi Hills Mori Tower, Minato-ku, Tokyo 106-6108',
-      email: 'tokyo.bureau@newyorkerherald.com',
-      phone: '+81 3 5555 0143'
+      icon: AlertCircle,
+      title: 'Corrections & Accuracy Requests',
+      email: 'corrections@newyorkerherald.com',
+      desc: 'If you notice a factual error, provide the headline, article URL, and evidence for review.'
+    },
+    {
+      icon: MessageSquare,
+      title: 'Media & Press Inquiries',
+      email: 'press@newyorkerherald.com',
+      desc: 'Journalists and media outlets seeking interviews, statements, or editorial commentary.'
+    },
+    {
+      icon: Megaphone,
+      title: 'Advertising & Partnerships',
+      email: 'advertising@newyorkerherald.com',
+      desc: 'Inquiries regarding corporate sponsorships, syndication licenses, and brand partnerships.'
     }
   ];
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    setSubmitted(true);
+    if (formData.email && formData.message) {
+      setSubmitted(true);
+    }
   };
 
   return (
     <main style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
       <CurvedHeader />
 
-      <div className="aura-container" style={{ padding: '20px 20px 48px 20px', flex: 1 }}>
+      <div className="aura-container" style={{ padding: '24px 20px 56px 20px', flex: 1 }}>
         
-        {/* Breadcrumbs */}
-        <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '14px', fontSize: '0.72rem', color: 'var(--text-muted)' }}>
-          <Link href="/" style={{ display: 'flex', alignItems: 'center', gap: '3px', color: 'var(--text-muted)', textDecoration: 'none', fontWeight: 600 }}>
+        {/* Breadcrumb */}
+        <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '16px', fontSize: '0.72rem', color: 'var(--text-muted)' }}>
+          <Link href="/" style={{ display: 'flex', alignItems: 'center', gap: '4px', color: 'var(--text-muted)', textDecoration: 'none', fontWeight: 600 }}>
             <ArrowLeft size={12} />
             <span>Home</span>
           </Link>
           <span>/</span>
-          <span style={{ color: 'var(--brand-primary)', fontWeight: 800 }}>Newsroom Directory</span>
+          <span style={{ color: 'var(--brand-primary)', fontWeight: 800 }}>Contact Us</span>
         </div>
 
-        {/* Hero Masthead */}
+        {/* Masthead Header */}
         <div style={{
-          borderBottom: '2px solid var(--border-strong)',
-          paddingBottom: '20px',
-          marginBottom: '28px'
+          borderBottom: '2px solid var(--text-primary)',
+          paddingBottom: '24px',
+          marginBottom: '36px'
         }}>
-          <span className="aura-pill" style={{ marginBottom: '8px' }}>
-            Bureau Communications
+          <span className="aura-pill" style={{ marginBottom: '10px' }}>
+            Newsroom Directory &amp; Communications
           </span>
 
           <h1 className="font-heading" style={{
-            fontSize: 'clamp(2.2rem, 3.8vw, 3rem)',
+            fontSize: 'clamp(2.2rem, 4vw, 3.2rem)',
             fontWeight: 900,
             color: 'var(--text-primary)',
-            lineHeight: 1.12,
+            lineHeight: 1.1,
             letterSpacing: '-0.035em',
-            margin: '0 0 10px 0'
+            margin: '0 0 12px 0'
           }}>
-            Global Newsroom Directory & Secure Drop
+            Contact Us
           </h1>
 
-          <p style={{ fontSize: '1.05rem', color: 'var(--text-secondary)', maxWidth: '820px', lineHeight: 1.5, margin: 0 }}>
-            Direct transmission lines for confidential investigative tips, editorial correspondence, sovereign data requests, and subscriber services.
+          <p style={{ fontSize: '1.05rem', color: 'var(--text-secondary)', maxWidth: '820px', lineHeight: 1.55, margin: 0 }}>
+            At Newyorkerherald, we value our readers, sources, contributors, and partners. Whether you have a news tip, feedback about our reporting, a correction request, or a business inquiry, we welcome your message.
           </p>
         </div>
 
-        {/* 3-Column Bureau Cards Spread */}
+        {/* Grid Layout */}
         <div style={{
           display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
-          gap: '24px',
-          marginBottom: '36px',
-          borderBottom: '1px solid var(--border-rule)',
-          paddingBottom: '32px'
-        }}>
-          {bureaus.map((b, i) => (
-            <div key={i} style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
-              <span className="aura-pill" style={{ alignSelf: 'flex-start' }}>
-                Bureau {i + 1}
-              </span>
-              <h3 className="font-heading" style={{ fontSize: '1.2rem', fontWeight: 900, color: 'var(--text-primary)', margin: 0 }}>
-                {b.city}
-              </h3>
-              <p style={{ fontSize: '0.78rem', fontWeight: 600, color: 'var(--brand-primary)', margin: 0 }}>
-                {b.role}
-              </p>
-
-              <div style={{ display: 'flex', gap: '8px', alignItems: 'flex-start', fontSize: '0.8rem', color: 'var(--text-secondary)', marginTop: '4px' }}>
-                <MapPin size={14} color="var(--brand-primary)" style={{ flexShrink: 0, marginTop: '2px' }} />
-                <span>{b.address}</span>
-              </div>
-
-              <div style={{ display: 'flex', gap: '8px', alignItems: 'center', fontSize: '0.78rem', color: 'var(--text-secondary)' }}>
-                <Mail size={14} color="var(--brand-primary)" style={{ flexShrink: 0 }} />
-                <span className="font-mono">{b.email}</span>
-              </div>
-
-              <div style={{ display: 'flex', gap: '8px', alignItems: 'center', fontSize: '0.78rem', color: 'var(--text-secondary)' }}>
-                <Phone size={14} color="var(--brand-primary)" style={{ flexShrink: 0 }} />
-                <span>{b.phone}</span>
-              </div>
-            </div>
-          ))}
-        </div>
-
-        {/* 2-Column Transmission Form & Encryption Protocol */}
-        <div className="grid-12-split-5-7" style={{
-          display: 'grid',
-          gridTemplateColumns: 'repeat(12, 1fr)',
-          gap: '36px',
+          gridTemplateColumns: 'minmax(0, 1.2fr) minmax(0, 0.8fr)',
+          gap: '40px',
           alignItems: 'start'
         }}>
-          {/* Left Column: Secure Encryption Info (5 Cols) */}
-          <div style={{ gridColumn: 'span 5', borderRight: '1px solid var(--border-rule)', paddingRight: '28px' }}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '6px', marginBottom: '8px' }}>
-              <Lock size={14} color="var(--brand-primary)" />
-              <span className="aura-pill">Encrypted Channel</span>
-            </div>
-            <h2 className="font-heading" style={{ fontSize: '1.35rem', fontWeight: 900, color: 'var(--text-primary)', marginBottom: '10px' }}>
-              Investigative Source Confidentiality
-            </h2>
-            <p style={{ fontSize: '0.86rem', color: 'var(--text-secondary)', lineHeight: 1.55, margin: '0 0 12px 0' }}>
-              For sensitive government disclosures or whistleblower submissions, our transmission pipeline operates over ephemeral end-to-end cryptographic relays. IP logs and routing fingerprints are automatically purged upon ingestion.
-            </p>
-            <div style={{ backgroundColor: 'var(--bg-subtle)', padding: '12px', borderLeft: '3px solid var(--brand-primary)', fontSize: '0.74rem', color: 'var(--text-muted)' }}>
-              <strong>PGP Key Fingerprint:</strong><br />
-              <span className="font-mono">8F2A 91BC 44E2 09D1 7720 EE81 405A 669B</span>
-            </div>
-          </div>
+          
+          {/* Left Column: Direct Inquiries Form */}
+          <div>
+            <div style={{
+              backgroundColor: 'var(--bg-surface-elevated)',
+              border: '1px solid var(--border-hairline)',
+              borderRadius: 'var(--radius-sm)',
+              padding: '28px'
+            }}>
+              <h2 className="font-heading" style={{
+                fontSize: '1.3rem',
+                fontWeight: 900,
+                color: 'var(--text-primary)',
+                marginBottom: '6px'
+              }}>
+                Send a Direct Message
+              </h2>
+              <p style={{ fontSize: '0.84rem', color: 'var(--text-secondary)', marginBottom: '20px' }}>
+                We strive to respond to all inquiries within 2–5 business days.
+              </p>
 
-          {/* Right Column: Transmission Form (7 Cols) */}
-          <div style={{ gridColumn: 'span 7' }}>
-            <span className="aura-pill" style={{ marginBottom: '8px' }}>
-              Direct Transmission Form
-            </span>
-
-            {submitted ? (
-              <div style={{ padding: '24px 0' }}>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '6px', color: 'var(--brand-primary)', marginBottom: '8px' }}>
-                  <Check size={18} />
-                  <strong style={{ fontSize: '1.1rem' }}>Dispatch Encrypted & Transmitted</strong>
+              {submitted ? (
+                <div style={{
+                  padding: '24px',
+                  backgroundColor: 'var(--bg-surface)',
+                  border: '1px solid var(--border-hairline)',
+                  borderRadius: 'var(--radius-xs)',
+                  textAlign: 'center'
+                }}>
+                  <CheckCircle2 size={32} color="var(--accent-emerald)" style={{ margin: '0 auto 10px auto' }} />
+                  <h3 className="font-heading" style={{ fontSize: '1.1rem', fontWeight: 800, margin: '0 0 6px 0', color: 'var(--text-primary)' }}>
+                    Message Received
+                  </h3>
+                  <p style={{ fontSize: '0.82rem', color: 'var(--text-secondary)', margin: 0 }}>
+                    Thank you for contacting Newyorkerherald. Your submission has been routed to the appropriate editorial desk.
+                  </p>
                 </div>
-                <p style={{ fontSize: '0.88rem', color: 'var(--text-secondary)', margin: 0 }}>
-                  Your message has been assigned tracking hash <code className="font-mono">DOM-8840-X</code>. An editor will review the intelligence shortly.
-                </p>
-              </div>
-            ) : (
-              <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '14px' }}>
-                <div className="contact-inputs-grid" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '14px' }}>
+              ) : (
+                <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '14px' }}>
+                  <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '14px' }}>
+                    <div>
+                      <label style={{ display: 'block', fontSize: '0.72rem', fontWeight: 800, textTransform: 'uppercase', marginBottom: '4px', color: 'var(--text-primary)' }}>
+                        Your Name
+                      </label>
+                      <input
+                        type="text"
+                        required
+                        placeholder="John Doe"
+                        value={formData.name}
+                        onChange={e => setFormData({ ...formData, name: e.target.value })}
+                        style={{
+                          width: '100%',
+                          padding: '8px 12px',
+                          fontSize: '0.82rem',
+                          borderRadius: 'var(--radius-xs)',
+                          border: '1px solid var(--border-hairline)',
+                          backgroundColor: 'var(--bg-surface)',
+                          color: 'var(--text-primary)',
+                          outline: 'none'
+                        }}
+                      />
+                    </div>
+                    <div>
+                      <label style={{ display: 'block', fontSize: '0.72rem', fontWeight: 800, textTransform: 'uppercase', marginBottom: '4px', color: 'var(--text-primary)' }}>
+                        Email Address
+                      </label>
+                      <input
+                        type="email"
+                        required
+                        placeholder="john@example.com"
+                        value={formData.email}
+                        onChange={e => setFormData({ ...formData, email: e.target.value })}
+                        style={{
+                          width: '100%',
+                          padding: '8px 12px',
+                          fontSize: '0.82rem',
+                          borderRadius: 'var(--radius-xs)',
+                          border: '1px solid var(--border-hairline)',
+                          backgroundColor: 'var(--bg-surface)',
+                          color: 'var(--text-primary)',
+                          outline: 'none'
+                        }}
+                      />
+                    </div>
+                  </div>
+
+                  <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '14px' }}>
+                    <div>
+                      <label style={{ display: 'block', fontSize: '0.72rem', fontWeight: 800, textTransform: 'uppercase', marginBottom: '4px', color: 'var(--text-primary)' }}>
+                        Department Desk
+                      </label>
+                      <select
+                        value={formData.department}
+                        onChange={e => setFormData({ ...formData, department: e.target.value })}
+                        style={{
+                          width: '100%',
+                          padding: '8px 12px',
+                          fontSize: '0.82rem',
+                          borderRadius: 'var(--radius-xs)',
+                          border: '1px solid var(--border-hairline)',
+                          backgroundColor: 'var(--bg-surface)',
+                          color: 'var(--text-primary)',
+                          outline: 'none'
+                        }}
+                      >
+                        <option value="general">General Inquiries</option>
+                        <option value="editorial">News Tips &amp; Stories</option>
+                        <option value="corrections">Corrections &amp; Accuracy</option>
+                        <option value="press">Media &amp; Press</option>
+                        <option value="advertising">Advertising &amp; Partnerships</option>
+                      </select>
+                    </div>
+
+                    <div>
+                      <label style={{ display: 'block', fontSize: '0.72rem', fontWeight: 800, textTransform: 'uppercase', marginBottom: '4px', color: 'var(--text-primary)' }}>
+                        Subject Line
+                      </label>
+                      <input
+                        type="text"
+                        required
+                        placeholder="Inquiry topic"
+                        value={formData.subject}
+                        onChange={e => setFormData({ ...formData, subject: e.target.value })}
+                        style={{
+                          width: '100%',
+                          padding: '8px 12px',
+                          fontSize: '0.82rem',
+                          borderRadius: 'var(--radius-xs)',
+                          border: '1px solid var(--border-hairline)',
+                          backgroundColor: 'var(--bg-surface)',
+                          color: 'var(--text-primary)',
+                          outline: 'none'
+                        }}
+                      />
+                    </div>
+                  </div>
+
                   <div>
-                    <label style={{ display: 'block', fontSize: '0.74rem', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '4px' }}>
-                      Name / Source Alias
+                    <label style={{ display: 'block', fontSize: '0.72rem', fontWeight: 800, textTransform: 'uppercase', marginBottom: '4px', color: 'var(--text-primary)' }}>
+                      Detailed Message
                     </label>
-                    <input
-                      type="text"
+                    <textarea
                       required
-                      value={formData.name}
-                      onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+                      rows={5}
+                      placeholder="Please provide as much detail as possible, including links or references where applicable..."
+                      value={formData.message}
+                      onChange={e => setFormData({ ...formData, message: e.target.value })}
                       style={{
                         width: '100%',
-                        padding: '8px 10px',
-                        border: '1px solid var(--border-rule)',
+                        padding: '10px 12px',
+                        fontSize: '0.82rem',
+                        lineHeight: 1.5,
+                        borderRadius: 'var(--radius-xs)',
+                        border: '1px solid var(--border-hairline)',
                         backgroundColor: 'var(--bg-surface)',
                         color: 'var(--text-primary)',
-                        fontSize: '0.84rem',
-                        borderRadius: '0px',
-                        outline: 'none'
+                        outline: 'none',
+                        resize: 'vertical'
                       }}
                     />
                   </div>
 
-                  <div>
-                    <label style={{ display: 'block', fontSize: '0.74rem', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '4px' }}>
-                      Secure Contact Email
-                    </label>
-                    <input
-                      type="email"
-                      required
-                      value={formData.email}
-                      onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                      style={{
-                        width: '100%',
-                        padding: '8px 10px',
-                        border: '1px solid var(--border-rule)',
-                        backgroundColor: 'var(--bg-surface)',
-                        color: 'var(--text-primary)',
-                        fontSize: '0.84rem',
-                        borderRadius: '0px',
-                        outline: 'none'
-                      }}
-                    />
-                  </div>
-                </div>
-
-                <div>
-                  <label style={{ display: 'block', fontSize: '0.74rem', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '4px' }}>
-                    Target Department Desk
-                  </label>
-                  <select
-                    value={department}
-                    onChange={(e) => setDepartment(e.target.value)}
+                  <button
+                    type="submit"
                     style={{
-                      width: '100%',
-                      padding: '8px 10px',
-                      border: '1px solid var(--border-rule)',
-                      backgroundColor: 'var(--bg-surface)',
-                      color: 'var(--text-primary)',
-                      fontSize: '0.84rem',
-                      borderRadius: '0px',
-                      outline: 'none'
+                      alignSelf: 'flex-start',
+                      backgroundColor: 'var(--brand-primary)',
+                      color: '#FFFFFF',
+                      padding: '8px 20px',
+                      borderRadius: 'var(--radius-xs)',
+                      fontWeight: 800,
+                      fontSize: '0.82rem',
+                      display: 'flex',
+                      alignItems: 'center',
+                      gap: '6px',
+                      cursor: 'pointer',
+                      border: 'none'
                     }}
                   >
-                    <option value="investigative">Investigative Projects Desk</option>
-                    <option value="politics">U.S. Politics & Capitol Hill Bureau</option>
-                    <option value="business">Global Markets & Commodities Desk</option>
-                    <option value="tech">AI & Frontier Technology Bureau</option>
-                    <option value="general">Editorial Board & Reader Inquiries</option>
-                  </select>
-                </div>
+                    <Send size={14} />
+                    <span>Send Message</span>
+                  </button>
+                </form>
+              )}
+            </div>
 
-                <div>
-                  <label style={{ display: 'block', fontSize: '0.74rem', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '4px' }}>
-                    Dispatch Memorandum / Confidential Tip
-                  </label>
-                  <textarea
-                    rows={4}
-                    required
-                    value={formData.message}
-                    onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                    placeholder="Provide detailed background, primary documentation references, or story pitches..."
-                    style={{
-                      width: '100%',
-                      padding: '8px 10px',
-                      border: '1px solid var(--border-rule)',
-                      backgroundColor: 'var(--bg-surface)',
-                      color: 'var(--text-primary)',
-                      fontSize: '0.84rem',
-                      borderRadius: '0px',
-                      outline: 'none'
-                    }}
-                  />
-                </div>
-
-                <button
-                  type="submit"
-                  style={{
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    gap: '6px',
-                    backgroundColor: 'var(--badge-red-bg)',
-                    color: '#FFFFFF',
-                    padding: '9px 18px',
-                    borderRadius: '0px',
-                    fontSize: '0.78rem',
-                    fontWeight: 700,
-                    alignSelf: 'flex-start'
-                  }}
-                >
-                  <Send size={13} />
-                  <span>Transmit to Bureau</span>
-                </button>
-              </form>
-            )}
+            {/* Corrections Instructions Card */}
+            <div style={{
+              marginTop: '24px',
+              backgroundColor: 'var(--bg-surface-elevated)',
+              border: '1px solid var(--border-hairline)',
+              borderLeft: '4px solid var(--accent-amber)',
+              borderRadius: 'var(--radius-sm)',
+              padding: '20px'
+            }}>
+              <h3 className="font-heading" style={{ fontSize: '0.98rem', fontWeight: 800, margin: '0 0 6px 0', color: 'var(--text-primary)' }}>
+                Submitting a Correction
+              </h3>
+              <p style={{ fontSize: '0.82rem', color: 'var(--text-secondary)', lineHeight: 1.5, margin: '0 0 8px 0' }}>
+                When submitting an error or factual dispute, please include:
+              </p>
+              <ul style={{ fontSize: '0.78rem', color: 'var(--text-secondary)', margin: 0, paddingLeft: '18px', display: 'flex', flexDirection: 'column', gap: '4px' }}>
+                <li>The exact article headline</li>
+                <li>The article URL</li>
+                <li>A specific description of the issue or discrepancy</li>
+                <li>Supporting documentation, records, or authoritative links</li>
+              </ul>
+            </div>
           </div>
+
+          {/* Right Column: Dedicated Email Directory */}
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+            <h2 className="font-heading" style={{
+              fontSize: '1.15rem',
+              fontWeight: 900,
+              color: 'var(--text-primary)',
+              margin: 0
+            }}>
+              Department Directory
+            </h2>
+
+            {channels.map((chan, idx) => {
+              const Icon = chan.icon;
+              return (
+                <div key={idx} style={{
+                  backgroundColor: 'var(--bg-surface-elevated)',
+                  border: '1px solid var(--border-hairline)',
+                  borderRadius: 'var(--radius-sm)',
+                  padding: '16px'
+                }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '6px' }}>
+                    <div style={{
+                      width: '24px',
+                      height: '24px',
+                      borderRadius: '3px',
+                      backgroundColor: 'var(--bg-surface)',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      color: 'var(--brand-primary)'
+                    }}>
+                      <Icon size={13} />
+                    </div>
+                    <h3 className="font-heading" style={{ fontSize: '0.88rem', fontWeight: 800, color: 'var(--text-primary)', margin: 0 }}>
+                      {chan.title}
+                    </h3>
+                  </div>
+
+                  <a
+                    href={`mailto:${chan.email}`}
+                    style={{
+                      display: 'inline-block',
+                      fontSize: '0.82rem',
+                      fontWeight: 700,
+                      color: 'var(--brand-primary)',
+                      textDecoration: 'none',
+                      marginBottom: '4px'
+                    }}
+                  >
+                    {chan.email}
+                  </a>
+
+                  <p style={{ fontSize: '0.74rem', color: 'var(--text-secondary)', lineHeight: 1.4, margin: 0 }}>
+                    {chan.desc}
+                  </p>
+                </div>
+              );
+            })}
+
+            {/* Social Channels */}
+            <div style={{
+              backgroundColor: 'var(--bg-surface-elevated)',
+              border: '1px solid var(--border-hairline)',
+              borderRadius: 'var(--radius-sm)',
+              padding: '16px'
+            }}>
+              <h3 className="font-heading" style={{ fontSize: '0.88rem', fontWeight: 800, color: 'var(--text-primary)', margin: '0 0 6px 0' }}>
+                Connect With Us
+              </h3>
+              <p style={{ fontSize: '0.74rem', color: 'var(--text-secondary)', lineHeight: 1.4, margin: '0 0 10px 0' }}>
+                Stay informed by following Newyorkerherald across social channels for breaking updates and investigations:
+              </p>
+              <div style={{ display: 'flex', gap: '12px', fontSize: '0.76rem', fontWeight: 700 }}>
+                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand-primary)', textDecoration: 'none' }}>X (Twitter)</a>
+                <span style={{ color: 'var(--border-hairline)' }}>•</span>
+                <a href="https://reddit.com" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand-primary)', textDecoration: 'none' }}>Reddit</a>
+                <span style={{ color: 'var(--border-hairline)' }}>•</span>
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand-primary)', textDecoration: 'none' }}>Instagram</a>
+              </div>
+            </div>
+          </div>
+
         </div>
 
       </div>

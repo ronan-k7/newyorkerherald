@@ -273,6 +273,42 @@ As the Federal Energy Regulatory Commission (FERC) convenes national stakeholder
 export const CATEGORY_ARTICLES: Record<string, Article[]> = {
   'U.S. Politics': [
     {
+        "id": "supreme-court-rejects-emergency-challenge-over-20-000-california-ballots-as-judge-bars-federal-election-interference",
+        "title": "Supreme Court Rejects Emergency Challenge Over 20,000 California Ballots as Judge Bars Federal Election Interference",
+        "kicker": "ELECTION JURISPRUDENCE • BREAKING DISPATCH",
+        "summary": "The U.S. Supreme Court declined an emergency plea to segregate 20,000 California mail-in ballots hours after a federal judge issued a nationwide restraining order prohibiting federal agencies from threatening local poll workers.",
+        "body": "WASHINGTON & SAN FRANCISCO — In a consequential pair of federal judicial rulings delivered on the eve of the 2026 United States Midterm Elections, the Supreme Court of the United States and a federal district court in California established sweeping legal barriers Monday against last-minute interventions into state and county election administration procedures.\n\nIn an unsigned order issued without noted dissents, the Supreme Court rejected an emergency application filed by national party legal committees seeking to compel the immediate isolation and segregated storage of roughly 20,000 mail-in and provisional ballots in California. The challengers had alleged procedural irregularities concerning citizenship verification checkmarks on voter registration cards processed earlier in the election cycle. However, the high court’s brief decree adhered closely to the established \"Purcell principle,\" a foundational judicial doctrine that cautions federal appellate tribunals against altering state election rules or casting doubt on ballot handling protocols in the immediate run-up to an election.\n\nThe high court's refusal to intervene arrived barely twelve hours after U.S. District Judge Elena Torres in the Northern District of California issued an emergency temporary restraining order against officials in the Department of Justice and the Department of Homeland Security. The order formally enjoins federal personnel and regional task forces from issuing criminal subpoenas, conducting on-site monitoring without state consent, or publicly threatening election administrators and county tabulation clerks with federal prosecution during active counting operations.\n\nIn a scathing 42-page ruling, Judge Torres wrote that federal law confers clear constitutional authority upon individual states to manage the times, places, and manners of holding elections, subject only to express congressional statutes rather than executive branch pressure tactics. \"The integrity of American democracy depends upon the uncoerced, independent execution of duties by county registrars, municipal clerks, and nonpartisan election volunteers,\" the court declared. \"Efforts to sow doubt through executive threats on the eve of balloting undermine public confidence and violate fundamental principles of federalism.\"\n\nState elections officials across the country praised the twin rulings, characterizing them as a critical reaffirmation of stability as tens of millions of voters prepare to cast ballots on Tuesday. In Los Angeles, Orange, and San Diego counties, registrar offices confirmed that all validly submitted ballots are proceeding through optical scan tabulation, signature verification, and secure audit tracking without interruption. Federal monitors were reminded that their presence at local polling stations remains strictly subject to state statutory observation rules and credentialing standards.",
+        "category": "U.S. Politics",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Sarah Mitchell",
+            "role": "Chief National Political Correspondent",
+            "avatar": "/images/authors/sarah_mitchell.jpg"
+        },
+        "publishedAt": "2h ago",
+        "readTime": "7 min read",
+        "imageUrl": "/images/news/supreme-court-rejects-emergency-challenge-over-20-000-california-ballots-as-judge-bars-federal-election-interference.webp",
+        "imageCaption": "The Supreme Court of the United States in Washington, D.C., where justices declined an eleventh-hour emergency bid to sequester California ballots.",
+        "imageCredit": "Newyorkerherald Wire / Washington Bureau",
+        "commentCount": 34,
+        "bullets": [
+            "Supreme Court adheres to Purcell doctrine, refusing to sequester 20,000 California mail-in ballots before Midterm election day.",
+            "Federal judge in California issues nationwide restraining order blocking DOJ and DHS intimidation against local election registrars.",
+            "County election administrators proceed with secure tabulation under full state statutory guidelines and audit protections."
+        ],
+        "tags": [
+            "U.S. Politics",
+            "Supreme Court",
+            "2026 Midterms",
+            "California",
+            "Elections",
+            "Voting Rights"
+        ]
+    },
+    {
       id: 'bipartisan-congressional-coalition-finalizes-critical-minerals-strategic-stockpile-legislation',
       title: 'Bipartisan Congressional Coalition Finalizes $4.2 Billion Critical Minerals Strategic Stockpile Legislation',
       kicker: 'CAPITOL HILL & NATIONAL DEFENSE',
@@ -484,6 +520,42 @@ Sports finance experts note that the move mirrors a broader institutional trend 
 
   'Tech & AI': [
     {
+        "id": "us-forces-conduct-retaliatory-strikes-near-qeshm-island-amid-tense-qatari-mediated-iran-negotiations",
+        "title": "U.S. Forces Conduct Retaliatory Strikes Near Qeshm Island Amid Tense Qatari-Mediated Iran Negotiations",
+        "kicker": "DEFENSE & DIPLOMACY • GULF SECURITY",
+        "summary": "American military assets carried out targeted strikes against military radar and missile installations near Qeshm Island after hostile fire was directed at a U.S. aircraft, while negotiators in Doha race against a 48-hour diplomatic clock.",
+        "body": "MANAMA, Bahrain & WASHINGTON — United States Central Command (CENTCOM) confirmed Monday that American naval and air forces conducted precision defensive strikes against targeted Iranian military positions near Qeshm Island in the southern Strait of Hormuz. The strikes, authorized by the White House following an emergency National Security Council briefing, were launched in direct retaliation after an Iranian Islamic Revolutionary Guard Corps (IRGC) surface-to-air missile battery opened fire on an American unmanned reconnaissance aircraft conducting routine international airspace patrol operations over the maritime chokepoint.\n\nAccording to military defense officials speaking on condition of anonymity, American precision-guided ordnance successfully destroyed an air defense radar array and a coastal missile launch station on the perimeter of Qeshm Island without causing civilian casualties or damaging commercial shipping vessels transiting the adjacent navigation channels. The strikes were deliberately calibrated to signal military deterrence while preserving diplomatic off-ramps as intense, indirect negotiations continue across the Persian Gulf in Doha, Qatar.\n\nThe military engagement unfolded against a fragile diplomatic backdrop, as Qatari mediators worked around the clock with American and Iranian envoys to finalize a comprehensive de-escalation framework. Diplomatic sources in the region indicated that Iranian officials had presented a preliminary two-day timeline for implementing mutual maritime guarantees and freezing provocative naval maneuvers in international waters. On social media, President Donald Trump signaled cautious openness to a negotiated resolution, stating that a breakthrough \"could happen\" if Tehran adhered to strict security verification commitments.\n\nEnergy markets experienced immediate tremors following reports of the strikes, with global Brent crude and West Texas Intermediate futures fluctuating sharply as commercial tanker operators reassessed transit risks through the Strait of Hormuz, through which roughly twenty percent of the world’s petroleum consumption flows. The United States Fifth Fleet, headquartered in Bahrain, has augmented destroyer patrols and airborne electronic warfare surveillance along the maritime corridor to safeguard commercial shipping convoys against maritime mine threats and drone swarms.\n\nNational security analysts warn that the coming 48 hours will test the limits of both military deterrence and high-stakes diplomacy. While Washington has demonstrated its readiness to respond swiftly to hostile acts against American forces, regional allies in the Gulf are pressing both nations to avoid a wider military conflagration that could destabilize global commodity markets and trigger broader regional conflict.",
+        "category": "Tech & AI",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "David Vance",
+            "role": "Defense & National Security Desk",
+            "avatar": "/images/authors/david_vance.jpg"
+        },
+        "publishedAt": "1h ago",
+        "readTime": "7 min read",
+        "imageUrl": "/images/news/us-forces-conduct-retaliatory-strikes-near-qeshm-island-amid-tense-qatari-mediated-iran-negotiations.webp",
+        "imageCaption": "A U.S. Navy guided-missile destroyer operates on high alert near the Strait of Hormuz following targeted defensive strikes on Qeshm Island.",
+        "imageCredit": "U.S. Navy / Mass Communication Specialist",
+        "commentCount": 45,
+        "bullets": [
+            "U.S. Central Command executes precision retaliatory strikes against IRGC radar and missile sites near Qeshm Island.",
+            "Action follows surface-to-air missile fire directed at American surveillance aircraft operating over international waters.",
+            "High-stakes indirect negotiations mediated by Qatar in Doha continue with a 48-hour de-escalation framework under evaluation."
+        ],
+        "tags": [
+            "Tech & AI",
+            "Defense",
+            "National Security",
+            "Middle East",
+            "Strait of Hormuz",
+            "Diplomacy"
+        ]
+    },
+    {
       id: 'lawmakers-scrutinize-autonomous-ai-cybersecurity-agents-following-unauthorized-model-exploits',
       title: 'Lawmakers Scrutinize Autonomous AI Cybersecurity Agents Following High-Profile Frontier Network Exploits',
       kicker: 'AI GOVERNANCE & CYBER DEFENSE',
@@ -577,6 +649,42 @@ Aerospace financial analysts estimate that SpaceX's commercial launch and satell
 
   'Entertainment': [
     {
+        "id": "subscription-fatigue-hits-streaming-giants-as-pay-tv-satisfaction-rebounds-in-latest-consumer-index",
+        "title": "Subscription Fatigue Hits Streaming Giants as Pay-TV Satisfaction Rebounds in Latest Consumer Index",
+        "kicker": "MEDIA ECONOMICS & STREAMING • CONSUMER SHIFT",
+        "summary": "The American Customer Satisfaction Index reveals a dramatic reversal in entertainment viewing habits: consumer satisfaction with streaming platforms fell as subscription prices and ad clutter climbed, while bundled cable television experienced a surprise resurgence.",
+        "body": "LOS ANGELES & NEW YORK — In a surprising and consequential realignment of American entertainment consumption patterns, the latest annual benchmark report from the American Customer Satisfaction Index (ACSI) revealed Monday that consumer satisfaction with subscription video streaming platforms has suffered a notable decline, even as traditional subscription pay-television and bundled cable providers reached their highest customer satisfaction scores in over a decade.\n\nThe comprehensive national study, which surveyed thousands of American households regarding service reliability, pricing transparency, content navigation, and perceived value, found that consumers are increasingly revolting against rampant \"subscription fatigue.\" Over the past twenty-four months, major direct-to-consumer streaming conglomerates have repeatedly implemented aggressive subscription price increases, clamped down on password sharing across multi-location families, and introduced mandatory ad-supported tiers that interrupted viewing experiences with fragmented commercial breaks.\n\nConversely, traditional cable, fiber, and satellite television distributors experienced a sharp rebound in customer sentiment. The report attributes this turnaround to major cable operators adopting simplified, all-in-one billing models, eliminating confusing promotional traps, and integrating popular streaming apps directly into cohesive set-top operating systems. Rather than managing seven to ten disparate monthly subscriptions with separate login credentials and billing schedules, cost-conscious consumers are showing an escalating preference for aggregated, predictable entertainment bundles.\n\nHollywood studio executives and streaming platform strategists are taking careful note of the shift. Over the weekend, streaming networks including Disney+, Warner Bros. Discovery’s Max, and Netflix faced mounting pressure from Wall Street equity analysts to demonstrate sustainable subscriber retention and reduce customer churn rates. In response, media conglomerates are rapidly forming hybrid \"super-bundles\" that package live sports, linear news broadcasts, and on-demand prestige dramas into single, discounted annual packages designed to mirror the very cable bundles they once sought to disrupt.\n\nConsumer behavior analysts conclude that the era of unfettered direct-to-consumer streaming proliferation has reached a definitive saturation point. As household entertainment budgets tighten amid broader macroeconomic pressures, streaming services will be forced to compete not merely on catalog volume, but on pricing stability, user interface elegance, and genuine consumer convenience.",
+        "category": "Entertainment",
+        "edition": [
+            "US & Americas"
+        ],
+        "author": {
+            "name": "Maya Patel",
+            "role": "Culture & Entertainment Editor",
+            "avatar": "/images/authors/maya_patel.jpg"
+        },
+        "publishedAt": "4h ago",
+        "readTime": "6 min read",
+        "imageUrl": "/images/news/subscription-fatigue-hits-streaming-giants-as-pay-tv-satisfaction-rebounds-in-latest-consumer-index.jpg",
+        "imageCaption": "A smart television displaying competing media streaming applications as American consumers push back against escalating subscription prices.",
+        "imageCredit": "Getty Images / Justin Sullivan",
+        "commentCount": 27,
+        "bullets": [
+            "ACSI benchmark report finds customer satisfaction with video streaming drops amid repetitive price hikes and ad-tier friction.",
+            "Subscription pay-TV and bundled fiber services score highest customer satisfaction in a decade due to simplified billing.",
+            "Hollywood studios accelerate hybrid super-bundling to counter rising churn and retain cost-conscious households."
+        ],
+        "tags": [
+            "Entertainment",
+            "Streaming Wars",
+            "ACSI",
+            "Pay-TV",
+            "Netflix",
+            "Media Economics",
+            "Consumer Trends"
+        ]
+    },
+    {
       id: 'paramount-skydance-merger-completes-formal-integration-uniting-studio-blockbusters-with-gaming-franchises',
       title: 'Paramount and Skydance Finalize $8 Billion Content Integration as Hollywood IP Battles Enter Digital Gaming Arena',
       kicker: 'ENTERTAINMENT M&A',
@@ -617,6 +725,43 @@ Furthermore, cloud streaming platforms and mobile distribution networks have low
   ],
 
   'Sports': [
+    {
+        "id": "twenty-year-old-kimi-antonelli-becomes-youngest-formula-1-world-champion-in-historic-mexico-city-grand-prix",
+        "title": "Twenty-Year-Old Kimi Antonelli Becomes Youngest Formula 1 World Champion in Historic Mexico City Grand Prix",
+        "kicker": "FORMULA 1 WORLD CHAMPIONSHIP • MOTORSPORT HISTORY",
+        "summary": "Mercedes prodigy Kimi Antonelli captured the FIA Formula One World Drivers’ Championship at age twenty with an extraordinary tactical victory at the Autódromo Hermanos Rodríguez, shattering Sebastian Vettel’s long-standing benchmark.",
+        "body": "MEXICO CITY — In a breathless display of racing poise, tactical brilliance, and peerless vehicle management, twenty-year-old Mercedes prodigy Andrea Kimi Antonelli made motorsport history Sunday afternoon by winning the Mexico City Grand Prix to become the youngest FIA Formula One World Drivers' Champion in the seventy-six-year history of the championship.\n\nStarting from the front row before a raucous crowd of over 150,000 spectators at the high-altitude Autódromo Hermanos Rodríguez, the Italian phenom navigated a chaotic opening chicane and masterfully managed tire degradation across 71 grueling laps. When a late-race virtual safety car compressed the lead pack, Antonelli executed a series of blistering qualifying-pace laps on worn hard-compound Pirelli tires, maintaining a five-second cushion over Ferrari and Red Bull pursuers to cross the finish line under waving checkered flags.\n\nBy clinching the title at 20 years, 2 months, and 7 days old, Antonelli shattered the long-standing record held by four-time world champion Sebastian Vettel, who captured his maiden crown with Red Bull in 2010 at age 23. Antonelli’s meteoric ascent from karting champion to Formula 1 world champion in his sophomore season with Mercedes marks the culmination of one of the most remarkable driver development trajectories in modern athletic history.\n\nInside the Mercedes garage, team principal Toto Wolff and trackside engineers celebrated an emotional return to the pinnacle of motorsport. Team strategists praised Antonelli’s superhuman telemetry discipline and biometric composure, noting that the young driver maintained an average resting heart rate under 135 beats per minute during intense wheel-to-wheel battles while pulling up to 5G of lateral force through the stadium complex. Strategic sports-science and hydration partnerships, developed alongside high-performance athletic research labs, played a pivotal role in sustaining peak reaction speeds at Mexico City’s thin, oxygen-deprived 7,300-foot elevation.\n\nWith the world championship secured with three rounds remaining in the 2026 season, motorsport historians and international media have hailed Antonelli’s triumph as the dawn of a transformative new era in global motorsport, signaling a generational changing of the guard at the very apex of professional athletics.",
+        "category": "Sports",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Marcus Sterling",
+            "role": "Senior Sports Correspondent",
+            "avatar": "/images/authors/marcus_sterling.jpg"
+        },
+        "publishedAt": "3h ago",
+        "readTime": "6 min read",
+        "imageUrl": "/images/news/twenty-year-old-kimi-antonelli-becomes-youngest-formula-1-world-champion-in-historic-mexico-city-grand-prix.webp",
+        "imageCaption": "Kimi Antonelli powers his Mercedes W17 through the Foro Sol stadium section at the Autódromo Hermanos Rodríguez en route to his historic championship.",
+        "imageCredit": "Formula 1 / Motorsport Images / LAT Photographic",
+        "commentCount": 39,
+        "bullets": [
+            "Mercedes driver Kimi Antonelli becomes the youngest F1 World Champion in history at age 20, breaking Sebastian Vettel’s 2010 record.",
+            "Italian prodigy delivers masterclass in high-altitude tire management to win the Mexico City Grand Prix before 150,000 fans.",
+            "Mercedes secures the World Drivers’ Championship with three races to spare, cementing a new generational era in motorsport."
+        ],
+        "tags": [
+            "Sports",
+            "Formula 1",
+            "Kimi Antonelli",
+            "Mercedes F1",
+            "Mexico City GP",
+            "World Championship",
+            "Motorsport"
+        ]
+    },
     {
       id: 'new-york-city-marathon-2026-chepkirui-almgren-historic-victories-central-park',
       title: 'New York City Marathon 2026: Sheila Chepkirui and Andreas Almgren Capture Historic Victories in Central Park',
@@ -676,6 +821,41 @@ On the stadium infrastructure front, club executives evaluated demonstrations of
   ],
 
   'Health & Science': [
+    {
+        "id": "catastrophic-flash-floods-force-emergency-evacuations-across-southwestern-colorado-as-atmospheric-river-slams-rockies",
+        "title": "Catastrophic Flash Floods Force Emergency Evacuations Across Southwestern Colorado as Atmospheric River Slams Rockies",
+        "kicker": "CLIMATE & HAZARDS • EMERGENCY EVACUATION",
+        "summary": "Unprecedented autumn atmospheric moisture collided with early snowpack across the San Juan Mountains, triggering catastrophic mudslides and river flooding that forced thousands of Colorado residents from their homes.",
+        "body": "DURANGO, Colo. & DENVER — Emergency rescue personnel, Colorado National Guard helicopter crews, and local sheriff deputies conducted dramatic water evacuations across southwestern Colorado on Monday after an unprecedented late-autumn atmospheric river slammed into the Southern Rocky Mountains. The extreme weather system unleashed torrents of warm, unseasonal rainfall onto early winter snowpack, triggering catastrophic flash flooding, debris flows, and dangerous river crests throughout La Plata, Montezuma, and Archuleta counties.\n\nState emergency management officials confirmed that more than three thousand residents in low-lying river valleys and mountain canyons were placed under mandatory evacuation orders as the Animas, Dolores, and San Juan rivers surged over their historical embankments. Floodwaters submerged roadways, washed out bridges along critical state highways, and breached municipal water filtration facilities, prompting county authorities to issue boil-water advisories and declare regional states of emergency.\n\nNational Weather Service hydrologists noted that atmospheric moisture plumes originating from the subtropical Pacific delivered rainfall rates exceeding four inches within a twelve-hour window over high-elevation burn scars left by previous summer wildfires. The saturated, hydrophobic soil rapidly transformed steep mountain slopes into torrents of liquefied mud, boulders, and timber, blocking transit arteries including U.S. Route 550 and stranding dozens of motorists in mountain passes until emergency plows and tracked rescue vehicles could break through.\n\nGovernor Jared Polis activated the State Emergency Operations Center in Centennial and authorized the deployment of specialized swift-water rescue teams and National Guard engineering battalions to assist local first responders. Emergency shelters established in high school gymnasiums and civic centers in Durango and Pagosa Springs filled rapidly as families sought refuge from rising waters. Fortunately, while property damage to homes, businesses, and agricultural infrastructure is estimated in the tens of millions of dollars, no fatalities have been confirmed as of Monday afternoon due to swift evacuation enforcement.\n\nClimate scientists and mountain hydrologists warn that rain-on-snow flooding events represent an increasingly hazardous manifestation of shifting atmospheric jet streams in the American West. As warming oceanic temperatures inject higher moisture volumes into continental weather patterns, mountain communities engineered for gradual spring snowmelt are increasingly vulnerable to sudden, violent autumn deluge events that overwhelm civil flood management infrastructure.",
+        "category": "Health & Science",
+        "edition": [
+            "US & Americas"
+        ],
+        "author": {
+            "name": "Dr. Rebecca Foster",
+            "role": "National Science & Health Desk",
+            "avatar": "/images/authors/rebecca_foster.jpg"
+        },
+        "publishedAt": "2h ago",
+        "readTime": "6 min read",
+        "imageUrl": "/images/news/catastrophic-flash-floods-force-emergency-evacuations-across-southwestern-colorado-as-atmospheric-river-slams-rockies.jpg",
+        "imageCaption": "Emergency response vehicles monitor raging floodwaters along the swollen Animas River in Durango, Colorado, following historic rainfall.",
+        "imageCredit": "The Denver Post / Hyoung Chang",
+        "commentCount": 18,
+        "bullets": [
+            "Atmospheric river triggers violent rain-on-snow deluge, forcing over 3,000 residents to evacuate across southwestern Colorado.",
+            "Colorado National Guard and swift-water rescue units deployed to Durango and Pagosa Springs as major mountain highways wash out.",
+            "Hydrologists warn that autumn atmospheric river patterns are increasingly overwhelming high-elevation drainage systems."
+        ],
+        "tags": [
+            "Health & Science",
+            "Colorado",
+            "Flash Floods",
+            "Atmospheric River",
+            "Climate Hazards",
+            "Emergency Rescue"
+        ]
+    },
     {
       id: 'community-water-safety-programs-in-massachusetts-expand-free-life-saving-training-for-youth',
       title: 'Community Water Safety and Aquatic Health Initiatives Expand Free Life-Saving Pediatric Programs Across New England',
@@ -1303,33 +1483,35 @@ export function getHomepageDepartmentArticles(dept: string): Article[] {
   const all = getAllArticles();
   const mapping: Record<string, string[]> = {
     politics: [
+      'supreme-court-rejects-emergency-challenge-over-20-000-california-ballots-as-judge-bars-federal-election-interference',
       'supreme-court-weighs-federal-regulatory-scope-over-state-infrastructure-in-landmark-preemption-case',
-      'strait-of-hormuz-naval-mine-explosions-damage-oil-tankers-as-washington-weighs-diplomatic-deterrence',
       'bipartisan-congressional-coalition-finalizes-critical-minerals-strategic-stockpile-legislation',
       'political-analysts-map-competing-scenarios-for-2026-midterms-as-economic-sentiment-evolves'
     ],
     business: [
+      'oracle-prices-historic-20-billion-debt-and-equity-offering-to-finance-massive-ai-cloud-data-center-expansion',
       'credit-card-swipe-fees-retail-coalition-urges-congress-to-pass-competition-act',
       'msg-sports-advances-corporate-separation-of-new-york-rangers-to-unlock-pure-play-nhl-franchise-value',
       'university-engineering-co-op-students-earn-record-99-5m-as-tech-employers-compete-for-applied-talent'
     ],
     tech: [
+      'us-forces-conduct-retaliatory-strikes-near-qeshm-island-amid-tense-qatari-mediated-iran-negotiations',
       'nvidia-ceo-jensen-huang-scrutiny-trump-response-ai-semiconductor-sovereignty',
       'menomonie-wisconsin-ai-data-center-local-protest-backlash-energy-water',
       'lawmakers-scrutinize-autonomous-ai-cybersecurity-agents-following-unauthorized-model-exploits'
     ],
     entertainment: [
-      'paramount-skydance-merger-completes-formal-integration-uniting-studio-blockbusters-with-gaming-franchises',
-      'interactive-gaming-surpasses-film-and-television-as-the-leading-growth-engine-for-global-entertainment-ip'
+      'subscription-fatigue-hits-streaming-giants-as-pay-tv-satisfaction-rebounds-in-latest-consumer-index',
+      'paramount-skydance-merger-completes-formal-integration-uniting-studio-blockbusters-with-gaming-franchises'
     ],
     sports: [
-      'nfl-week-9-commanders-crush-eagles-rams-chargers-derby-luka-45-points',
-      'mlb-tech-summit-miami-2026-ai-analytics-stadium-infrastructure-revolution'
+      'twenty-year-old-kimi-antonelli-becomes-youngest-formula-1-world-champion-in-historic-mexico-city-grand-prix',
+      'nfl-week-9-commanders-crush-eagles-rams-chargers-derby-luka-45-points'
     ],
     science: [
+      'catastrophic-flash-floods-force-emergency-evacuations-across-southwestern-colorado-as-atmospheric-river-slams-rockies',
       'usgs-supervolcano-research-reveals-yellowstone-eruptions-occur-in-complex-multi-pulse-sequences',
-      'advanced-solid-state-battery-pilot-facilities-break-ground-across-midwest-clean-tech-corridors',
-      'community-water-safety-programs-in-massachusetts-expand-free-life-saving-training-for-youth'
+      'advanced-solid-state-battery-pilot-facilities-break-ground-across-midwest-clean-tech-corridors'
     ]
   };
 

@@ -45,10 +45,11 @@ export default function CurvedFooter() {
   ];
 
   const institutional = [
-    { name: 'About Newyorkerherald', href: '/about' },
-    { name: 'Contact Newsroom', href: '/contact' },
-    { name: 'Reader Privacy Policy', href: '/privacy' },
-    { name: 'Terms of Service', href: '/terms' },
+    { name: 'About Us', href: '/about' },
+    { name: 'Editorial Policy', href: '/editorial-policy' },
+    { name: 'Contact Us', href: '/contact' },
+    { name: 'Privacy Policy', href: '/privacy-policy' },
+    { name: 'Terms & Conditions', href: '/terms-and-conditions' },
   ];
 
   return (
