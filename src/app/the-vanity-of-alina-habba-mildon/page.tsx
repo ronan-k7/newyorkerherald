@@ -96,19 +96,72 @@ export default function AlinaHabbaSpecialDossierPage() {
           <span style={{ color: 'var(--brand-primary)', fontWeight: 800 }}>The Vanity of Alina Habba Mildon</span>
         </div>
 
-        {/* ================= HERO EDITORIAL MASTHEAD ================= */}
-        <header style={{
-          borderBottom: '2px solid var(--text-primary)',
-          paddingBottom: '32px',
-          marginBottom: '36px'
+        {/* ================= COMBINED HERO SECTION (Title & Image Unified) ================= */}
+        <section style={{
+          position: 'relative',
+          width: '100%',
+          minHeight: 'clamp(540px, 65vh, 680px)',
+          borderRadius: 'var(--radius-sm)',
+          overflow: 'hidden',
+          backgroundColor: '#090B0E',
+          border: '1px solid var(--border-rule)',
+          boxShadow: '0 20px 48px rgba(0,0,0,0.18)',
+          marginBottom: '44px',
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'space-between',
+          padding: 'clamp(24px, 4.5vw, 52px)'
         }}>
-          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '12px', marginBottom: '14px' }}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-              <span className="aura-pill" style={{ backgroundColor: 'var(--brand-primary)', color: '#FFFFFF', letterSpacing: '0.08em' }}>
+          {/* Background Hero Image */}
+          <img 
+            src="/images/news/alina-habba-image.webp" 
+            alt="The Vanity of Alina Habba Mildon" 
+            style={{
+              position: 'absolute',
+              inset: 0,
+              width: '100%',
+              height: '100%',
+              objectFit: 'cover',
+              objectPosition: 'center 20%',
+              display: 'block',
+              zIndex: 1
+            }}
+          />
+
+          {/* Cinematic Editorial Scrim Gradients */}
+          <div style={{
+            position: 'absolute',
+            inset: 0,
+            background: 'linear-gradient(180deg, rgba(9, 11, 14, 0.45) 0%, rgba(9, 11, 14, 0.72) 45%, rgba(9, 11, 14, 0.98) 100%), linear-gradient(90deg, rgba(9, 11, 14, 0.96) 0%, rgba(9, 11, 14, 0.88) 45%, rgba(9, 11, 14, 0.35) 85%, rgba(9, 11, 14, 0.8) 100%)',
+            zIndex: 2
+          }} />
+
+          {/* Top Bar: Kicker Pill, Read Time & Action Buttons */}
+          <div style={{
+            position: 'relative',
+            zIndex: 3,
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            flexWrap: 'wrap',
+            gap: '12px',
+            borderBottom: '1px solid rgba(255, 255, 255, 0.15)',
+            paddingBottom: '18px'
+          }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '10px', flexWrap: 'wrap' }}>
+              <span className="aura-pill" style={{
+                backgroundColor: 'var(--brand-primary)',
+                color: '#FFFFFF',
+                letterSpacing: '0.08em',
+                fontWeight: 800,
+                fontSize: '0.72rem',
+                padding: '4px 11px',
+                border: '1px solid rgba(255, 255, 255, 0.25)'
+              }}>
                 INVESTIGATIVE DOSSIER • EXCLUSIVE REPORT
               </span>
-              <span style={{ fontSize: '0.74rem', color: 'var(--text-muted)', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '4px' }}>
-                <Clock size={12} /> 12 Min Read
+              <span style={{ fontSize: '0.75rem', color: 'rgba(255, 255, 255, 0.78)', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '5px' }}>
+                <Clock size={13} /> 12 Min Read
               </span>
             </div>
 
@@ -118,15 +171,17 @@ export default function AlinaHabbaSpecialDossierPage() {
                 style={{
                   display: 'flex',
                   alignItems: 'center',
-                  gap: '5px',
-                  fontSize: '0.72rem',
+                  gap: '6px',
+                  fontSize: '0.74rem',
                   fontWeight: 700,
-                  padding: '5px 12px',
+                  padding: '7px 15px',
                   borderRadius: 'var(--radius-xs)',
-                  border: '1px solid var(--border-hairline)',
-                  backgroundColor: 'var(--bg-surface-elevated)',
-                  color: isBookmarked ? 'var(--brand-primary)' : 'var(--text-primary)',
-                  cursor: 'pointer'
+                  border: '1px solid rgba(255, 255, 255, 0.22)',
+                  backgroundColor: isBookmarked ? 'rgba(211, 47, 47, 0.85)' : 'rgba(20, 24, 33, 0.65)',
+                  backdropFilter: 'blur(8px)',
+                  color: '#FFFFFF',
+                  cursor: 'pointer',
+                  transition: 'all 0.2s ease'
                 }}
               >
                 <Bookmark size={13} fill={isBookmarked ? 'currentColor' : 'none'} />
@@ -138,145 +193,95 @@ export default function AlinaHabbaSpecialDossierPage() {
                 style={{
                   display: 'flex',
                   alignItems: 'center',
-                  gap: '5px',
-                  fontSize: '0.72rem',
+                  gap: '6px',
+                  fontSize: '0.74rem',
                   fontWeight: 700,
-                  padding: '5px 12px',
+                  padding: '7px 15px',
                   borderRadius: 'var(--radius-xs)',
-                  border: '1px solid var(--border-hairline)',
-                  backgroundColor: 'var(--bg-surface-elevated)',
-                  color: 'var(--text-primary)',
-                  cursor: 'pointer'
+                  border: '1px solid rgba(255, 255, 255, 0.22)',
+                  backgroundColor: 'rgba(20, 24, 33, 0.65)',
+                  backdropFilter: 'blur(8px)',
+                  color: '#FFFFFF',
+                  cursor: 'pointer',
+                  transition: 'all 0.2s ease'
                 }}
               >
-                {copied ? <Check size={13} color="var(--accent-emerald)" /> : <Share2 size={13} />}
+                {copied ? <Check size={13} color="#4ade80" /> : <Share2 size={13} />}
                 <span>{copied ? 'Link Copied!' : 'Share Dossier'}</span>
               </button>
             </div>
           </div>
 
-          <h1 className="font-heading" style={{
-            fontSize: 'clamp(2.4rem, 4.4vw, 3.8rem)',
-            fontWeight: 900,
-            color: 'var(--text-primary)',
-            lineHeight: 1.08,
-            letterSpacing: '-0.04em',
-            margin: '0 0 14px 0'
-          }}>
-            The Vanity of Alina Habba Mildon
-          </h1>
-
-          <p style={{
-            fontSize: 'clamp(1.15rem, 1.8vw, 1.35rem)',
-            color: 'var(--brand-primary)',
-            fontWeight: 700,
-            lineHeight: 1.35,
-            letterSpacing: '-0.015em',
-            margin: '0 0 18px 0',
-            maxWidth: '960px'
-          }}>
-            Beauty, Power, Ambition and the Price of Loyalty: From the White House to the Herrera Velutini Banking Dynasty
-          </p>
-
-          <p style={{
-            fontSize: '1rem',
-            color: 'var(--text-secondary)',
-            lineHeight: 1.6,
-            margin: '0 0 24px 0',
-            maxWidth: '920px'
-          }}>
-            An exhaustive examination into the extraordinary $50 million legal and advisory agreement between Donald Trump’s former personal attorney and Concord Partners, the high-altitude corporate summits in London, a whirlwind $10 million social reinvention, and the sudden presidential rupture that reverberated from Mar-a-Lago to European banking chambers.
-          </p>
-
-          {/* Byline Strip */}
-          <div style={{
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'space-between',
-            flexWrap: 'wrap',
-            gap: '12px',
-            paddingTop: '16px',
-            borderTop: '1px solid var(--border-hairline)',
-            fontSize: '0.76rem',
-            color: 'var(--text-muted)'
-          }}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-              <span style={{ fontWeight: 800, color: 'var(--text-primary)', textTransform: 'uppercase', letterSpacing: '0.04em' }}>
-                By Newyorkerherald Staff
-              </span>
-              <span>•</span>
-              <span>Special Dossier &amp; Investigative Bureau</span>
-              <span>•</span>
-              <span>Published November 2026</span>
-            </div>
-
-            <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-              <Landmark size={14} color="var(--brand-primary)" />
-              <span style={{ fontStyle: 'italic' }}>Document Ref: NYH-DOSSIER-HABBA-2026</span>
-            </div>
-          </div>
-        </header>
-
-        {/* ================= HERO VISUAL SECTION ================= */}
-        <div style={{ marginBottom: '44px' }}>
+          {/* Main Title, Subhead, Deck & Byline Strip */}
           <div style={{
             position: 'relative',
-            width: '100%',
-            height: 'clamp(320px, 50vw, 560px)',
-            backgroundColor: '#0F1115',
-            borderRadius: 'var(--radius-sm)',
-            overflow: 'hidden',
-            border: '1px solid var(--border-rule)',
-            boxShadow: '0 12px 32px rgba(0,0,0,0.12)'
+            zIndex: 3,
+            maxWidth: '940px',
+            marginTop: 'clamp(36px, 6vw, 80px)'
           }}>
-            <img 
-              src="/images/news/alina-habba-image.webp" 
-              alt="Alina Habba Mildon" 
-              style={{
-                width: '100%',
-                height: '100%',
-                objectFit: 'cover',
-                objectPosition: 'center 20%',
-                display: 'block'
-              }}
-            />
-
-            {/* Editorial Vignette Overlay */}
-            <div style={{
-              position: 'absolute',
-              inset: 0,
-              background: 'linear-gradient(180deg, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.4) 60%, rgba(0,0,0,0.88) 100%)',
-              display: 'flex',
-              flexDirection: 'column',
-              justifyContent: 'flex-end',
-              padding: 'clamp(20px, 4vw, 36px)'
+            <h1 className="font-heading" style={{
+              fontSize: 'clamp(2.4rem, 4.8vw, 4.2rem)',
+              fontWeight: 900,
+              color: '#FFFFFF',
+              lineHeight: 1.05,
+              letterSpacing: '-0.04em',
+              margin: '0 0 16px 0',
+              textShadow: '0 3px 14px rgba(0,0,0,0.7)'
             }}>
-              <span className="aura-pill" style={{
-                backgroundColor: 'rgba(211, 47, 47, 0.95)',
-                color: '#FFFFFF',
-                alignSelf: 'flex-start',
-                marginBottom: '10px',
-                backdropFilter: 'blur(4px)'
-              }}>
-                Exclusive Profile &amp; Chronicle
-              </span>
-              <p style={{
-                color: '#FFFFFF',
-                fontSize: 'clamp(0.92rem, 1.4vw, 1.15rem)',
-                fontWeight: 600,
-                maxWidth: '850px',
-                lineHeight: 1.45,
-                margin: '0 0 6px 0',
-                textShadow: '0 2px 8px rgba(0,0,0,0.8)'
-              }}>
-                Alina Habba Mildon: From senior presidential legal defender to General Counsel candidate for the 240-year-old Herrera Velutini financial dynasty.
-              </p>
-              <span style={{ color: 'rgba(255,255,255,0.7)', fontSize: '0.72rem' }}>
+              The Vanity of Alina Habba Mildon
+            </h1>
+
+            <p style={{
+              fontSize: 'clamp(1.12rem, 1.8vw, 1.4rem)',
+              color: '#E5A93C',
+              fontWeight: 700,
+              lineHeight: 1.35,
+              letterSpacing: '-0.015em',
+              margin: '0 0 18px 0',
+              textShadow: '0 2px 8px rgba(0,0,0,0.6)'
+            }}>
+              Beauty, Power, Ambition and the Price of Loyalty: From the White House to the Herrera Velutini Banking Dynasty
+            </p>
+
+            <p style={{
+              fontSize: 'clamp(0.96rem, 1.3vw, 1.08rem)',
+              color: 'rgba(255, 255, 255, 0.88)',
+              lineHeight: 1.6,
+              margin: '0 0 24px 0',
+              maxWidth: '860px',
+              textShadow: '0 1px 4px rgba(0,0,0,0.7)'
+            }}>
+              An exhaustive examination into the extraordinary $50 million legal and advisory agreement between Donald Trump’s former personal attorney and Concord Partners, the high-altitude corporate summits in London, a whirlwind $10 million social reinvention, and the sudden presidential rupture that reverberated from Mar-a-Lago to European banking chambers.
+            </p>
+
+            {/* Combined Byline & Photo Credit Strip */}
+            <div style={{
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'space-between',
+              flexWrap: 'wrap',
+              gap: '12px',
+              paddingTop: '16px',
+              borderTop: '1px solid rgba(255, 255, 255, 0.18)',
+              fontSize: '0.78rem',
+              color: 'rgba(255, 255, 255, 0.72)'
+            }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '8px', flexWrap: 'wrap' }}>
+                <span style={{ fontWeight: 800, color: '#FFFFFF', textTransform: 'uppercase', letterSpacing: '0.04em' }}>
+                  By Newyorkerherald Staff
+                </span>
+                <span>•</span>
+                <span>Special Dossier &amp; Investigative Bureau</span>
+                <span>•</span>
+                <span>Published November 2026</span>
+              </div>
+
+              <span style={{ fontSize: '0.72rem', color: 'rgba(255, 255, 255, 0.55)', fontStyle: 'italic' }}>
                 Photo: Newyorkerherald Special Dossier Archive • London &amp; Palm Beach Bureau
               </span>
             </div>
           </div>
-        </div>
+        </section>
 
         {/* ================= 2-COLUMN DOSSIER GRID (Content + Sticky Timeline) ================= */}
         <div style={{
@@ -686,66 +691,32 @@ export default function AlinaHabbaSpecialDossierPage() {
               </div>
             </div>
 
-            {/* Secondary Dossier Specs Card */}
-            <div style={{
-              backgroundColor: 'var(--bg-surface-elevated)',
-              border: '1px solid var(--border-hairline)',
-              borderRadius: 'var(--radius-sm)',
-              padding: '20px'
-            }}>
-              <h4 className="font-heading" style={{ fontSize: '0.86rem', fontWeight: 900, textTransform: 'uppercase', marginBottom: '12px', color: 'var(--text-primary)' }}>
-                Dossier Specifications
-              </h4>
-
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', fontSize: '0.76rem' }}>
-                <div style={{ display: 'flex', justifyContent: 'space-between', borderBottom: '1px solid var(--border-hairline)', paddingBottom: '6px' }}>
-                  <span style={{ color: 'var(--text-muted)' }}>Subject:</span>
-                  <span style={{ fontWeight: 700, color: 'var(--text-primary)' }}>Alina Habba Mildon</span>
-                </div>
-                <div style={{ display: 'flex', justifyContent: 'space-between', borderBottom: '1px solid var(--border-hairline)', paddingBottom: '6px' }}>
-                  <span style={{ color: 'var(--text-muted)' }}>Corporate Entity:</span>
-                  <span style={{ fontWeight: 700, color: 'var(--text-primary)' }}>Concord Partners</span>
-                </div>
-                <div style={{ display: 'flex', justifyContent: 'space-between', borderBottom: '1px solid var(--border-hairline)', paddingBottom: '6px' }}>
-                  <span style={{ color: 'var(--text-muted)' }}>Banking Dynasty:</span>
-                  <span style={{ fontWeight: 700, color: 'var(--text-primary)' }}>Herrera Velutini (240 yrs)</span>
-                </div>
-                <div style={{ display: 'flex', justifyContent: 'space-between', borderBottom: '1px solid var(--border-hairline)', paddingBottom: '6px' }}>
-                  <span style={{ color: 'var(--text-muted)' }}>Agreement Value:</span>
-                  <span style={{ fontWeight: 700, color: 'var(--brand-primary)' }}>$50M+ (4 Years)</span>
-                </div>
-                <div style={{ display: 'flex', justifyContent: 'space-between', borderBottom: '1px solid var(--border-hairline)', paddingBottom: '6px' }}>
-                  <span style={{ color: 'var(--text-muted)' }}>Advisory Budget:</span>
-                  <span style={{ fontWeight: 700, color: 'var(--text-primary)' }}>$100M Annual</span>
-                </div>
-              </div>
-
-              <div style={{ marginTop: '16px', paddingTop: '12px', borderTop: '1px solid var(--border-hairline)' }}>
-                <a
-                  href="/The_Vanity_of_Alina_Habba_Mildon_edited.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={{
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    gap: '6px',
-                    width: '100%',
-                    backgroundColor: 'var(--bg-surface)',
-                    border: '1px solid var(--border-hairline)',
-                    padding: '8px 12px',
-                    borderRadius: 'var(--radius-xs)',
-                    color: 'var(--text-primary)',
-                    fontSize: '0.74rem',
-                    fontWeight: 700,
-                    textDecoration: 'none'
-                  }}
-                >
-                  <FileText size={13} color="var(--brand-primary)" />
-                  <span>Download Edited PDF File</span>
-                </a>
-              </div>
-            </div>
+            {/* Download Original Dossier PDF */}
+            <a
+              href="/The_Vanity_of_Alina_Habba_Mildon_edited.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                gap: '8px',
+                width: '100%',
+                backgroundColor: 'var(--bg-surface-elevated)',
+                border: '1px solid var(--border-hairline)',
+                padding: '12px 16px',
+                borderRadius: 'var(--radius-sm)',
+                color: 'var(--text-primary)',
+                fontSize: '0.78rem',
+                fontWeight: 700,
+                textDecoration: 'none',
+                boxShadow: '0 2px 8px rgba(0,0,0,0.03)',
+                transition: 'all 0.2s ease'
+              }}
+            >
+              <FileText size={15} color="var(--brand-primary)" />
+              <span>Download Original Dossier PDF</span>
+            </a>
 
           </aside>
 
