@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import { NewsProvider } from '@/context/NewsContext';
-import AuthModal from '@/components/Modals/AuthModal';
 import VideoModal from '@/components/Modals/VideoModal';
 import SavedArticlesDrawer from '@/components/Modals/SavedArticlesDrawer';
 import SearchModal from '@/components/Modals/SearchModal';
@@ -33,7 +32,6 @@ export default function RootLayout({
       <body>
         <NewsProvider>
           {children}
-          <AuthModal />
           <VideoModal />
           <SavedArticlesDrawer />
           <SearchModal />

@@ -7,8 +7,6 @@ import {
   CloudSun, 
   Bookmark, 
   Search, 
-  User, 
-  LogOut, 
   Compass, 
   ShieldAlert,
   Flame
@@ -23,10 +21,7 @@ export default function CurvedHeader({ activeCategory = 'All', onSelectCategory 
   const { 
     bookmarks, 
     setIsReadingListOpen, 
-    setIsSearchOpen, 
-    currentUser, 
-    setIsAuthModalOpen, 
-    logout 
+    setIsSearchOpen 
   } = useNews();
 
   const [dateStr, setDateStr] = useState('');
@@ -157,7 +152,7 @@ export default function CurvedHeader({ activeCategory = 'All', onSelectCategory 
                 href="https://substack.com/@newyorkerherald1"
                 target="_blank"
                 rel="noopener noreferrer"
-                title="Subscribe on Substack"
+                title="Substack"
                 style={{
                   color: "var(--text-muted)",
                   display: "flex",
@@ -198,44 +193,6 @@ export default function CurvedHeader({ activeCategory = 'All', onSelectCategory 
                 </span>
               )}
             </button>
-
-            {/* Member Sign In */}
-            {currentUser ? (
-              <div style={{ display: 'flex', alignItems: 'center', gap: '5px' }}>
-                <span style={{
-                  backgroundColor: 'var(--bg-subtle)',
-                  color: 'var(--text-primary)',
-                  padding: '3px 8px',
-                  borderRadius: '0px',
-                  fontSize: '0.72rem',
-                  fontWeight: 700,
-                  border: '1px solid var(--border-rule)'
-                }}>
-                  {currentUser.name.split(' ')[0]}
-                </span>
-                <button onClick={() => logout()} style={{ color: 'var(--text-muted)', padding: '2px' }} title="Sign Out">
-                  <LogOut size={12} />
-                </button>
-              </div>
-            ) : (
-              <button
-                onClick={() => setIsAuthModalOpen(true)}
-                style={{
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: '4px',
-                  backgroundColor: 'var(--badge-red-bg)',
-                  color: '#FFFFFF',
-                  padding: '3px 10px',
-                  borderRadius: '0px',
-                  fontSize: '0.72rem',
-                  fontWeight: 700
-                }}
-              >
-                <User size={11} />
-                <span>Sign In</span>
-              </button>
-            )}
           </div>
         </div>
       </div>

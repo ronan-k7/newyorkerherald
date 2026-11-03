@@ -1,27 +1,10 @@
 'use client';
 
-import React, { useState } from 'react';
+import React from 'react';
 import Link from 'next/link';
-import { useNews } from '@/context/NewsContext';
-import { Sparkles, ArrowUp, Check, ShieldCheck } from 'lucide-react';
+import { Sparkles, ArrowUp, ShieldCheck } from 'lucide-react';
 
 export default function CurvedFooter() {
-  const { subscribeToNewsletter } = useNews();
-  const [email, setEmail] = useState('');
-  const [subscribed, setSubscribed] = useState(false);
-
-  const handleSubscribe = async (e: React.FormEvent) => {
-    e.preventDefault();
-    if (email.trim()) {
-      await subscribeToNewsletter(email.trim());
-      setSubscribed(true);
-      setTimeout(() => {
-        setSubscribed(false);
-        setEmail('');
-      }, 4000);
-    }
-  };
-
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
@@ -63,81 +46,6 @@ export default function CurvedFooter() {
       transition: 'var(--transition-smooth)'
     }}>
       <div className="aura-container">
-        
-        {/* Flat Newsletter Strip */}
-        <div className="footer-newsletter-box" style={{
-          backgroundColor: 'var(--bg-surface-elevated)',
-          border: '1px solid var(--border-hairline)',
-          borderRadius: 'var(--radius-sm)',
-          padding: '18px 24px',
-          display: 'flex',
-          justifyContent: 'space-between',
-          alignItems: 'center',
-          flexWrap: 'wrap',
-          gap: '16px',
-          marginBottom: '28px'
-        }}>
-          <div>
-            <h3 className="font-heading" style={{ fontSize: '1rem', fontWeight: 900, margin: '0 0 2px 0', color: 'var(--text-primary)', textTransform: 'uppercase' }}>
-              Subscribe to our Newsletter
-            </h3>
-            <p style={{ fontSize: '0.78rem', color: 'var(--text-secondary)', margin: 0 }}>
-              Verified policy analysis, economic data, and daily reporting delivered at 6:00 AM EST.
-            </p>
-          </div>
-
-          <div>
-            {subscribed ? (
-              <div style={{
-                display: 'flex',
-                alignItems: 'center',
-                gap: '5px',
-                color: 'var(--accent-emerald)',
-                fontWeight: 700,
-                fontSize: '0.78rem'
-              }}>
-                <Check size={14} />
-                <span>Subscribed! Check your inbox.</span>
-              </div>
-            ) : (
-              <form onSubmit={handleSubscribe} style={{ display: 'flex', gap: '6px' }}>
-                <input
-                  type="email"
-                  required
-                  placeholder="Enter your work email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  style={{
-                    padding: '6px 12px',
-                    borderRadius: 'var(--radius-xs)',
-                    border: '1px solid var(--border-hairline)',
-                    backgroundColor: 'var(--bg-surface)',
-                    color: 'var(--text-primary)',
-                    fontSize: '0.78rem',
-                    outline: 'none',
-                    minWidth: '220px'
-                  }}
-                />
-                <button
-                  type="submit"
-                  style={{
-                    backgroundColor: 'var(--brand-primary)',
-                    color: '#FFFFFF',
-                    padding: '6px 14px',
-                    borderRadius: 'var(--radius-xs)',
-                    fontWeight: 700,
-                    fontSize: '0.78rem',
-                    cursor: 'pointer',
-                    whiteSpace: 'nowrap'
-                  }}
-                >
-                  Subscribe
-                </button>
-              </form>
-            )}
-          </div>
-        </div>
-
         {/* Directory Grid with Hairline Dividers */}
         <div style={{
           display: 'grid',
@@ -238,7 +146,7 @@ export default function CurvedFooter() {
                 href="https://substack.com/@newyorkerherald1"
                 target="_blank"
                 rel="noopener noreferrer"
-                title="Subscribe on Substack"
+                title="Substack"
                 style={{
                   color: 'var(--text-muted)',
                   display: 'flex',

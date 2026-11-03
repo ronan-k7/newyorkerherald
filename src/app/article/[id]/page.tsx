@@ -12,39 +12,21 @@ import {
   Clock, 
   Share2, 
   ArrowLeft, 
-  Send, 
-  User, 
   Plus, 
   Check, 
   Flame, 
   TrendingUp, 
   FileText 
 } from 'lucide-react';
-import { Comment } from '@/types/news';
 
 export default function ArticleDetailPage() {
   const params = useParams();
   const articleId = (params?.slug || params?.id) as string;
   const article = getArticleById(articleId);
 
-  const { bookmarks, toggleBookmark, currentUser } = useNews();
+  const { bookmarks, toggleBookmark } = useNews();
   const [copied, setCopied] = useState(false);
   const [isFollowingAuthor, setIsFollowingAuthor] = useState(false);
-
-  const [comments, setComments] = useState<Comment[]>([]);
-  const [commentText, setCommentText] = useState('');
-  const [submittingComment, setSubmittingComment] = useState(false);
-
-  useEffect(() => {
-    if (articleId) {
-      fetch(`/api/comments?articleId=${articleId}`)
-        .then(res => res.json())
-        .then(data => {
-          if (data.comments) setComments(data.comments);
-        })
-        .catch(() => {});
-    }
-  }, [articleId]);
 
   if (!article) {
     return (
@@ -76,26 +58,6 @@ export default function ArticleDetailPage() {
       setCopied(true);
       setTimeout(() => setCopied(false), 3000);
     }
-  };
-
-  const handlePostComment = async (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!commentText.trim() || submittingComment) return;
-
-    setSubmittingComment(true);
-    try {
-      const res = await fetch('/api/comments', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ articleId: article.id, content: commentText.trim() })
-      });
-      const data = await res.json();
-      if (data.success && data.comment) {
-        setComments([data.comment, ...comments]);
-        setCommentText('');
-      }
-    } catch {}
-    setSubmittingComment(false);
   };
 
   return (
@@ -233,8 +195,6 @@ export default function ArticleDetailPage() {
               </div>
             </div>
 
-
-
             {/* Key Takeaways Box */}
             {article.bullets && (
               <div style={{
@@ -273,103 +233,29 @@ export default function ArticleDetailPage() {
                     {article.summary}
                   </p>
 
-              <p style={{ marginBottom: '20px' }}>
-                Senior policy advisers and technical analysts across the national security and industrial technology apparatus have underscored the strategic implications of these shifts. As regulatory frameworks adapt to unprecedented computing demands and geopolitical competition, institutional stakeholders are accelerating procurement cycles.
-              </p>
+                  <p style={{ marginBottom: '20px' }}>
+                    Senior policy advisers and technical analysts across the national security and industrial technology apparatus have underscored the strategic implications of these shifts. As regulatory frameworks adapt to unprecedented computing demands and geopolitical competition, institutional stakeholders are accelerating procurement cycles.
+                  </p>
 
-              {/* Left-Aligned Pull Quote */}
-              <blockquote style={{
-                borderLeft: '3px solid var(--border-strong)',
-                padding: '10px 0 10px 18px',
-                margin: '24px 0',
-                fontFamily: 'var(--font-heading)',
-                fontSize: '1.2rem',
-                fontWeight: 800,
-                lineHeight: 1.35,
-                color: 'var(--text-primary)',
-                textAlign: 'left'
-              }}>
-                &ldquo;The sheer scale of infrastructure deployment required over the next twenty-four months exceeds any peacetime industrial mobilization of the past four decades.&rdquo;
-              </blockquote>
-
-              </>
+                  {/* Left-Aligned Pull Quote */}
+                  <blockquote style={{
+                    borderLeft: '3px solid var(--border-strong)',
+                    padding: '10px 0 10px 18px',
+                    margin: '24px 0',
+                    fontFamily: 'var(--font-heading)',
+                    fontSize: '1.2rem',
+                    fontWeight: 800,
+                    lineHeight: 1.35,
+                    color: 'var(--text-primary)',
+                    textAlign: 'left'
+                  }}>
+                    &ldquo;The sheer scale of infrastructure deployment required over the next twenty-four months exceeds any peacetime industrial mobilization of the past four decades.&rdquo;
+                  </blockquote>
+                </>
               )}
               <p style={{ marginBottom: '18px' }}>
                 Congressional testimony scheduled for later this month is expected to address cross-agency coordination, focusing specifically on supply chain resiliency, sovereign compute clusters, and long-term capital allocation strategies designed to safeguard domestic competitiveness.
               </p>
-            </div>
-
-            {/* Interactive Comment Forum */}
-            <div style={{ borderTop: '2px solid var(--border-strong)', paddingTop: '20px', marginBottom: '32px' }}>
-              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '14px' }}>
-                <h3 className="section-title" style={{ fontSize: '1.05rem' }}>
-                  Comments ({comments.length})
-                </h3>
-                <span style={{ fontSize: '0.7rem', color: 'var(--text-muted)' }}>
-                  Civic Forum
-                </span>
-              </div>
-
-              {/* Post Comment Form */}
-              <form onSubmit={handlePostComment} style={{ marginBottom: '20px' }}>
-                <textarea
-                  value={commentText}
-                  onChange={(e) => setCommentText(e.target.value)}
-                  placeholder="Join the discussion with thoughtful analysis..."
-                  rows={3}
-                  style={{
-                    width: '100%',
-                    padding: '8px 10px',
-                    border: '1px solid var(--border-rule)',
-                    backgroundColor: 'var(--bg-surface)',
-                    color: 'var(--text-primary)',
-                    fontFamily: 'inherit',
-                    fontSize: '0.82rem',
-                    borderRadius: '0px',
-                    marginBottom: '8px',
-                    outline: 'none'
-                  }}
-                />
-                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                  <span style={{ fontSize: '0.66rem', color: 'var(--text-muted)' }}>
-                    {currentUser ? `Signed in as ${currentUser.name}` : 'Post anonymously'}
-                  </span>
-                  <button
-                    type="submit"
-                    disabled={submittingComment || !commentText.trim()}
-                    style={{
-                      display: 'flex',
-                      alignItems: 'center',
-                      gap: '4px',
-                      backgroundColor: 'var(--badge-red-bg)',
-                      color: '#FFFFFF',
-                      padding: '5px 12px',
-                      borderRadius: '0px',
-                      fontSize: '0.72rem',
-                      fontWeight: 700,
-                      opacity: commentText.trim() ? 1 : 0.6
-                    }}
-                  >
-                    <Send size={11} />
-                    <span>Publish</span>
-                  </button>
-                </div>
-              </form>
-
-              {/* Comment Stream */}
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
-                {comments.map((c) => (
-                  <div key={c.id} style={{ borderBottom: '1px solid var(--border-rule)', paddingBottom: '10px' }}>
-                    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '2px' }}>
-                      <strong style={{ fontSize: '0.76rem', color: 'var(--text-primary)' }}>{c.authorName}</strong>
-                      <span style={{ fontSize: '0.64rem', color: 'var(--text-muted)' }}>{c.createdAt}</span>
-                    </div>
-                    <p style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', lineHeight: 1.38, margin: 0 }}>
-                      {c.content}
-                    </p>
-                  </div>
-                ))}
-              </div>
             </div>
 
           </article>
