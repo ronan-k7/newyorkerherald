@@ -30,7 +30,7 @@ export const TRENDING_TAGS = [
 export const LEAD_ARTICLE: Article = {
   id: 'the-vanity-of-alina-habba-mildon',
   title: 'The Vanity of Alina Habba Mildon: Beauty, Power, Ambition and the Price of Loyalty',
-  kicker: 'SPECIAL INVESTIGATIVE DOSSIER • EXCLUSIVE REPORT',
+  kicker: 'INVESTIGATIVE REPORT • EXCLUSIVE',
   summary: 'From the White House inner circle to the 240-year-old Herrera Velutini banking dynasty: an exhaustive investigation into Alina Habba’s contested $50 million advisory agreement, her whirlwind reinvention, and Donald Trump’s dramatic Halloween intervention at Mar-a-Lago.',
   body: `Alina Habba was once a symbol of beauty, power and strength. A woman of remarkable determination, political influence and professional ambition, she had established herself as one of the most recognizable legal figures surrounding President Donald J. Trump. Her career represented confidence, resilience and loyalty, qualities that appeared to position her for an extraordinary future beyond public service.
 
@@ -39,14 +39,14 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
   edition: ['US & Americas', 'Global'],
   author: {
     name: 'Newyorkerherald Staff',
-    role: 'Editorial Board & Special Dossier Unit',
+    role: 'Editorial Board & Investigative Reporting Unit',
     avatar: '/images/authors/sarah_mitchell.jpg'
   },
   publishedAt: '2h ago',
   readTime: '12 min read',
   imageUrl: '/images/news/alina-habba-image.webp',
   imageCaption: 'Alina Habba Mildon, former senior legal adviser, at the center of an unfolding international banking inquiry.',
-  imageCredit: 'Newyorkerherald Special Dossier / Archive',
+  imageCredit: 'Newyorkerherald Archive',
   isLead: true,
   isInvestigative: true,
   commentCount: 68,
@@ -62,7 +62,7 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
     'Donald Trump',
     'Banking Dynasty',
     'White House',
-    'Special Dossier'
+    'Special Report'
   ]
 };
 
@@ -329,7 +329,7 @@ export const CATEGORY_ARTICLES: Record<string, Article[]> = {
     {
         "id": "the-vanity-of-alina-habba-mildon",
         "title": "The Vanity of Alina Habba Mildon: Beauty, Power, Ambition and the Price of Loyalty",
-        "kicker": "SPECIAL INVESTIGATIVE DOSSIER • EXCLUSIVE REPORT",
+        "kicker": "INVESTIGATIVE REPORT • EXCLUSIVE",
         "summary": "From the White House inner circle to the 240-year-old Herrera Velutini banking dynasty: an exhaustive investigation into Alina Habba’s contested $50 million advisory agreement, her whirlwind reinvention, and Donald Trump’s dramatic Halloween intervention at Mar-a-Lago.",
         "body": "Alina Habba was once a symbol of beauty, power and strength. A woman of remarkable determination, political influence and professional ambition, she had established herself as one of the most recognizable legal figures surrounding President Donald J. Trump. Her career represented confidence, resilience and loyalty, qualities that appeared to position her for an extraordinary future beyond public service.\n\nYet behind the glamour of Washington, the prestige of presidential proximity and the opportunities of international finance, another story was beginning to unfold. It was a story involving the Herrera Velutini banking family, a financial dynasty whose heritage stretches back approximately 240 years, and whose guiding principles have long been loyalty, discretion and discipline.",
         "category": "US",
@@ -339,14 +339,14 @@ export const CATEGORY_ARTICLES: Record<string, Article[]> = {
         ],
         "author": {
             "name": "Newyorkerherald Staff",
-            "role": "Editorial Board & Special Dossier Unit",
+            "role": "Editorial Board & Investigative Reporting Unit",
             "avatar": "/images/authors/sarah_mitchell.jpg"
         },
         "publishedAt": "2h ago",
         "readTime": "12 min read",
         "imageUrl": "/images/news/alina-habba-image.webp",
         "imageCaption": "Alina Habba Mildon, former senior legal adviser, at the center of an unfolding international banking inquiry.",
-        "imageCredit": "Newyorkerherald Special Dossier / Archive",
+        "imageCredit": "Newyorkerherald Archive",
         "isLead": false,
         "isInvestigative": true,
         "commentCount": 68,
@@ -362,7 +362,7 @@ export const CATEGORY_ARTICLES: Record<string, Article[]> = {
             "Donald Trump",
             "Banking Dynasty",
             "White House",
-            "Special Dossier"
+            "Special Report"
         ]
     }
   ],
@@ -370,7 +370,7 @@ export const CATEGORY_ARTICLES: Record<string, Article[]> = {
     {
         "id": "the-vanity-of-alina-habba-mildon",
         "title": "The Vanity of Alina Habba Mildon: Beauty, Power, Ambition and the Price of Loyalty",
-        "kicker": "SPECIAL INVESTIGATIVE DOSSIER • EXCLUSIVE REPORT",
+        "kicker": "INVESTIGATIVE REPORT • EXCLUSIVE",
         "summary": "From the White House inner circle to the 240-year-old Herrera Velutini banking dynasty: an exhaustive investigation into Alina Habba’s contested $50 million advisory agreement, her whirlwind reinvention, and Donald Trump’s dramatic Halloween intervention at Mar-a-Lago.",
         "body": "Alina Habba was once a symbol of beauty, power and strength. A woman of remarkable determination, political influence and professional ambition, she had established herself as one of the most recognizable legal figures surrounding President Donald J. Trump. Her career represented confidence, resilience and loyalty, qualities that appeared to position her for an extraordinary future beyond public service.\n\nYet behind the glamour of Washington, the prestige of presidential proximity and the opportunities of international finance, another story was beginning to unfold. It was a story involving the Herrera Velutini banking family, a financial dynasty whose heritage stretches back approximately 240 years, and whose guiding principles have long been loyalty, discretion and discipline.",
         "category": "US",
@@ -380,14 +380,14 @@ export const CATEGORY_ARTICLES: Record<string, Article[]> = {
         ],
         "author": {
             "name": "Newyorkerherald Staff",
-            "role": "Editorial Board & Special Dossier Unit",
+            "role": "Editorial Board & Investigative Reporting Unit",
             "avatar": "/images/authors/sarah_mitchell.jpg"
         },
         "publishedAt": "2h ago",
         "readTime": "12 min read",
         "imageUrl": "/images/news/alina-habba-image.webp",
         "imageCaption": "Alina Habba Mildon, former senior legal adviser, at the center of an unfolding international banking inquiry.",
-        "imageCredit": "Newyorkerherald Special Dossier / Archive",
+        "imageCredit": "Newyorkerherald Archive",
         "isLead": false,
         "isInvestigative": true,
         "commentCount": 68,
@@ -403,7 +403,7 @@ export const CATEGORY_ARTICLES: Record<string, Article[]> = {
             "Donald Trump",
             "Banking Dynasty",
             "White House",
-            "Special Dossier"
+            "Special Report"
         ]
     },
     SECONDARY_LEAD_STORIES[0],
@@ -1331,7 +1331,7 @@ export const MULTIMEDIA_VIDEOS: VideoItem[] = [
     thumbnail: '/images/news/vid_yellowstone.jpg',
     videoUrl: 'https://www.youtube.com/embed/K-Kwxv604dQ',
     description: 'A special visual investigation exploring the electrical substations and nuclear power contracts fueling America’s artificial intelligence compute boom.',
-    showName: 'Newyorkerherald Special Dossier'
+    showName: 'Newyorkerherald Investigations'
   },
   {
     id: 'vid-3',
@@ -1462,13 +1462,13 @@ export const CATEGORIES_META: Record<string, {
   },
   'investigation': {
     slug: 'investigation',
-    name: 'Investigative Dossiers',
+    name: 'In-Depth Investigations',
     tagline: 'Deep-Dive Data Journalism & Enterprise Inquiries',
     description: 'Exhaustive investigative series examining critical infrastructure limits, grid congestion, and technological transition bottlenecks across America.',
     accentColor: 'var(--brand-primary)',
     topics: ['The AI Power Crunch', 'Grid Transmission Bottlenecks', 'Nuclear Power Contracts', 'Ratepayer Equity'],
     editorInChief: 'Newyorkerherald Staff',
-    bureau: 'Special Dossier Desk'
+    bureau: 'Investigative Desk'
   }
 };
 
@@ -1494,7 +1494,7 @@ export const AUTHORS_DATA: Record<string, AuthorProfile> = {
     role: 'Editorial Board & Newsroom Desks',
     bureau: 'Global Editorial Bureau',
     avatar: '/images/authors/sarah_mitchell.jpg',
-    bio: 'The Newyorkerherald editorial staff and newsroom correspondents produce real-time reporting, investigative dossiers, policy intelligence, and verified news dispatches across the United States and the international stage.',
+    bio: 'The Newyorkerherald editorial staff and newsroom correspondents produce real-time reporting, in-depth investigations, policy intelligence, and verified news dispatches across the United States and the international stage.',
     beat: 'National & Global Affairs',
     articlesCount: 250,
     twitter: '@nyherald_news',
@@ -1508,7 +1508,7 @@ export const AUTHORS_DATA: Record<string, AuthorProfile> = {
     role: 'Editorial Board & Newsroom Desks',
     bureau: 'Global Editorial Bureau',
     avatar: '/images/authors/sarah_mitchell.jpg',
-    bio: 'The Newyorkerherald editorial staff and newsroom correspondents produce real-time reporting, investigative dossiers, policy intelligence, and verified news dispatches across the United States and the international stage.',
+    bio: 'The Newyorkerherald editorial staff and newsroom correspondents produce real-time reporting, in-depth investigations, policy intelligence, and verified news dispatches across the United States and the international stage.',
     beat: 'National & Global Affairs',
     articlesCount: 250,
     twitter: '@nyherald_news',

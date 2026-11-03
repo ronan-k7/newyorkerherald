@@ -129,7 +129,7 @@ export default function InvestigativeDossier() {
                 marginTop: '8px'
               }}
             >
-              <span>Read Full Multi-Part Dossier</span>
+              <span>Read Full Investigation</span>
               <ArrowRight size={13} />
             </Link>
           </div>

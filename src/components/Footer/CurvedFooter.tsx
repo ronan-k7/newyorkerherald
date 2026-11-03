@@ -26,7 +26,7 @@ export default function CurvedFooter() {
     { name: 'New York Financial Desk', beat: 'Global Markets & Macroeconomics', href: '/author/editorial-board' },
     { name: 'San Francisco Tech Desk', beat: 'Frontier AI & Silicon Valley', href: '/author/editorial-board' },
     { name: 'National Science Bureau', beat: 'Climate, Health & Technology', href: '/author/editorial-board' },
-    { name: 'Special Dossier Desk', beat: 'Investigative Enterprise Inquiries', href: '/author/editorial-board' },
+    { name: 'Investigative Desk', beat: 'Enterprise & In-Depth Inquiries', href: '/author/editorial-board' },
   ];
 
   const institutional = [
@@ -186,7 +186,7 @@ export default function CurvedFooter() {
             </h4>
             <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '5px' }}>
               {editorialDesks.map((a) => (
-                <li key={a.href}>
+                <li key={a.name}>
                   <Link href={a.href} style={{ fontSize: '0.76rem', color: 'var(--text-secondary)', textDecoration: 'none', fontWeight: 600 }}>
                     <span>{a.name}</span>
                     <span style={{ display: 'block', fontSize: '0.66rem', color: 'var(--text-muted)', fontWeight: 400 }}>

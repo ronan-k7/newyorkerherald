@@ -41,7 +41,7 @@ export default function PrivacyPolicyPage() {
     {
       icon: AlertCircle,
       title: 'External Links',
-      body: 'Our articles and dossiers contain links to external third-party websites for reference and source attribution. Newyorkerherald is not responsible for the privacy practices, content, or policies of external sites. Readers are encouraged to review the policies of any destination they visit.'
+      body: 'Our articles and investigative reports contain links to external third-party websites for reference and source attribution. Newyorkerherald is not responsible for the privacy practices, content, or policies of external sites. Readers are encouraged to review the policies of any destination they visit.'
     },
     {
       icon: ShieldCheck,

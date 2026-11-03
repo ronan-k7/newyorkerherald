@@ -65,7 +65,7 @@ export default function AlinaHabbaSpecialDossierPage() {
     <main style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', backgroundColor: 'var(--bg-canvas)' }}>
       <CurvedHeader activeCategory="us" />
 
-      {/* Main Special Dossier Container */}
+      {/* Main Article Container */}
       <div className="aura-container" style={{ padding: '24px 20px 60px 20px', flex: 1 }}>
         
         {/* Breadcrumb Navigation */}
@@ -170,7 +170,7 @@ export default function AlinaHabbaSpecialDossierPage() {
                 By Newyorkerherald Staff
               </span>
               <span>&bull;</span>
-              <span>Special Dossier &amp; Investigative Bureau</span>
+              <span>Investigative Reporting Bureau</span>
               <span>&bull;</span>
               <span>Published November 2026</span>
             </div>
@@ -200,7 +200,7 @@ export default function AlinaHabbaSpecialDossierPage() {
             }}>
               Alina Habba Mildon, former senior legal adviser to President Trump, at the center of the reported $50 million Concord Partners advisory agreement.
               <span style={{ display: 'block', fontSize: '0.7rem', marginTop: '2px', fontWeight: 600, fontStyle: 'normal', color: 'var(--text-muted)' }}>
-                Newyorkerherald Special Dossier Archive
+                Newyorkerherald Investigative Archive
               </span>
             </figcaption>
           </figure>
@@ -501,7 +501,7 @@ export default function AlinaHabbaSpecialDossierPage() {
               Beauty may command admiration. Power may open doors. Strength may establish a reputation. Wealth may provide extraordinary freedom. But none of those qualities alone guarantees the confidence required to lead within a multigenerational financial institution. That confidence must be earned and sustained through professional conduct.
             </p>
 
-            {/* Concluding Dossier Verdict */}
+            {/* Concluding Verdict */}
             <div style={{
               margin: '40px 0',
               padding: '28px',
@@ -531,7 +531,7 @@ export default function AlinaHabbaSpecialDossierPage() {
               </p>
             </div>
 
-            {/* End of Dossier Share Action */}
+            {/* End of Article Share Action */}
             <div style={{
               marginTop: '40px',
               paddingTop: '24px',
@@ -544,7 +544,7 @@ export default function AlinaHabbaSpecialDossierPage() {
             }}>
               <div>
                 <div style={{ fontSize: '0.78rem', fontWeight: 800, textTransform: 'uppercase', letterSpacing: '0.04em', color: 'var(--text-primary)' }}>
-                  Share this Special Dossier
+                  Share this Special Report
                 </div>
                 <div style={{ fontSize: '0.72rem', color: 'var(--text-muted)' }}>
                   Distribute this investigation across your social and professional networks.
@@ -553,7 +553,7 @@ export default function AlinaHabbaSpecialDossierPage() {
               <ArticleShareMenu
                 title="The Vanity of Alina Habba Mildon: Beauty, Power, Ambition and the Price of Loyalty"
                 url="/us/the-vanity-of-alina-habba-mildon"
-                triggerText="Share Dossier"
+                triggerText="Share Report"
                 align="right"
               />
             </div>
