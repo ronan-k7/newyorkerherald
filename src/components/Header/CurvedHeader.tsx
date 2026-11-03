@@ -3,13 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useNews } from '@/context/NewsContext';
-import {
-  CloudSun,
-  Search,
-  Compass,
-  ShieldAlert,
-  Flame
-} from 'lucide-react';
+import { CloudSun, Search } from 'lucide-react';
 
 interface CurvedHeaderProps {
   activeCategory?: string;
@@ -22,10 +16,23 @@ export default function CurvedHeader({ activeCategory = 'All', onSelectCategory 
   } = useNews();
 
   const [dateStr, setDateStr] = useState('');
+  const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
     const now = new Date();
     setDateStr(now.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric' }));
+  }, []);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      // Threshold: collapse full masthead once scrolled past 40px
+      setIsScrolled(window.scrollY > 40);
+    };
+
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    handleScroll();
+
+    return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
   // EXACT same categories as the primary site
@@ -43,22 +50,35 @@ export default function CurvedHeader({ activeCategory = 'All', onSelectCategory 
   ];
 
   return (
-    <header style={{
-      position: 'sticky',
-      top: 0,
-      zIndex: 100,
-      backgroundColor: 'var(--bg-glass)',
-      backdropFilter: 'blur(12px)',
-      borderBottom: '1px solid var(--border-rule)',
-      transition: 'var(--transition-smooth)'
-    }}>
-      {/* Top Strip */}
-      <div style={{
+    <header
+      className={`curved-header-root ${isScrolled ? 'is-scrolled' : ''}`}
+      style={{
+        position: 'sticky',
+        top: 0,
+        zIndex: 100,
+        backgroundColor: 'var(--bg-glass)',
+        backdropFilter: 'blur(16px)',
+        WebkitBackdropFilter: 'blur(16px)',
         borderBottom: '1px solid var(--border-rule)',
-        padding: '5px 0',
-        fontSize: '0.72rem',
-        color: 'var(--text-secondary)'
-      }}>
+        boxShadow: isScrolled ? '0 4px 16px rgba(0, 0, 0, 0.06)' : 'none',
+        transition: 'box-shadow 0.25s ease'
+      }}
+    >
+      {/* Top Strip - collapsed when scrolled */}
+      <div
+        className="header-top-strip"
+        style={{
+          borderBottom: isScrolled ? 'none' : '1px solid var(--border-rule)',
+          padding: isScrolled ? '0' : '5px 0',
+          maxHeight: isScrolled ? '0px' : '36px',
+          opacity: isScrolled ? 0 : 1,
+          overflow: 'hidden',
+          pointerEvents: isScrolled ? 'none' : 'auto',
+          transition: 'max-height 0.25s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.2s ease, padding 0.25s ease',
+          fontSize: '0.72rem',
+          color: 'var(--text-secondary)'
+        }}
+      >
         <div className="aura-container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
           {/* Left: Date & Weather */}
           <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
@@ -75,7 +95,6 @@ export default function CurvedHeader({ activeCategory = 'All', onSelectCategory 
 
           {/* Right: Social Media */}
           <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-            {/* Social Media Links */}
             <div className="hidden-mobile" style={{
               display: "flex",
               alignItems: "center",
@@ -166,14 +185,22 @@ export default function CurvedHeader({ activeCategory = 'All', onSelectCategory 
                 </svg>
               </a>
             </div>
-
-
           </div>
         </div>
       </div>
 
-      {/* Main Masthead Banner */}
-      <div style={{ padding: '28px 0' }}>
+      {/* Main Masthead Banner - collapsed when scrolled */}
+      <div
+        className="header-masthead-banner"
+        style={{
+          padding: isScrolled ? '0' : '26px 0',
+          maxHeight: isScrolled ? '0px' : '150px',
+          opacity: isScrolled ? 0 : 1,
+          overflow: 'hidden',
+          pointerEvents: isScrolled ? 'none' : 'auto',
+          transition: 'max-height 0.28s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.2s ease, padding 0.28s ease'
+        }}
+      >
         <div className="aura-container masthead-banner-container" style={{
           display: 'flex',
           alignItems: 'center',
@@ -204,7 +231,7 @@ export default function CurvedHeader({ activeCategory = 'All', onSelectCategory 
             </span>
           </Link>
 
-          {/* Quick Search */}
+          {/* Quick Search in Masthead */}
           <div
             onClick={() => setIsSearchOpen(true)}
             style={{
@@ -219,43 +246,117 @@ export default function CurvedHeader({ activeCategory = 'All', onSelectCategory 
               fontSize: '0.82rem',
               cursor: 'pointer',
               minWidth: '220px'
-            }} className="header-search-bar">
+            }}
+            className="header-search-bar"
+          >
             <Search size={14} color="var(--text-muted)" />
             <span>Search</span>
           </div>
         </div>
       </div>
 
-      {/* Synchronized Exact Category Bar */}
-      <div style={{
-        borderTop: '1px solid var(--border-rule)',
-        backgroundColor: 'var(--bg-surface)'
-      }}>
-        <div className="aura-container">
-          <nav style={{
+      {/* Synchronized Exact Category Bar - transforms into slim sticky header bar */}
+      <div
+        className="header-category-bar"
+        style={{
+          borderTop: isScrolled ? 'none' : '1px solid var(--border-rule)',
+          backgroundColor: 'transparent',
+          minHeight: isScrolled ? '44px' : '38px',
+          display: 'flex',
+          alignItems: 'center',
+          transition: 'min-height 0.25s ease'
+        }}
+      >
+        <div
+          className="aura-container"
+          style={{
             display: 'flex',
             alignItems: 'center',
-            gap: '4px',
-            overflowX: 'auto',
-            scrollbarWidth: 'none'
-          }}>
+            justifyContent: 'space-between',
+            gap: isScrolled ? '10px' : '0px',
+            width: '100%'
+          }}
+        >
+          {/* Left: Compact brand logo when scrolled */}
+          <div
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              maxWidth: isScrolled ? '240px' : '0px',
+              opacity: isScrolled ? 1 : 0,
+              overflow: 'hidden',
+              pointerEvents: isScrolled ? 'auto' : 'none',
+              transition: 'max-width 0.25s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.2s ease',
+              flexShrink: 0
+            }}
+          >
+            <Link
+              href="/"
+              className="font-heading"
+              style={{
+                textDecoration: 'none',
+                color: 'var(--text-primary)',
+                fontWeight: 900,
+                fontSize: '0.94rem',
+                letterSpacing: '-0.03em',
+                whiteSpace: 'nowrap',
+                display: 'flex',
+                alignItems: 'center',
+                gap: '7px',
+                paddingRight: '12px',
+                marginRight: '4px',
+                borderRight: '1px solid var(--border-rule)',
+                lineHeight: 1
+              }}
+              title="Newyorker Herald Home"
+            >
+              <span
+                style={{
+                  width: '7px',
+                  height: '7px',
+                  backgroundColor: 'var(--brand-primary)',
+                  display: 'inline-block',
+                  flexShrink: 0
+                }}
+              />
+              <span>NEWYORKERHERALD</span>
+            </Link>
+          </div>
+
+          {/* Center: Scrollable Categories */}
+          <nav
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              gap: isScrolled ? '2px' : '4px',
+              overflowX: 'auto',
+              scrollbarWidth: 'none',
+              msOverflowStyle: 'none',
+              flex: 1,
+              minWidth: 0
+            }}
+          >
             {categories.map((cat) => {
               const isActive = (cat.slug === '' && (!activeCategory || activeCategory === 'All' || activeCategory === 'Top Stories')) || activeCategory === cat.slug;
               return (
                 <Link
                   key={cat.name}
                   href={cat.href}
+                  onClick={() => {
+                    if (onSelectCategory) onSelectCategory(cat.slug || 'All');
+                  }}
                   style={{
                     display: 'flex',
                     alignItems: 'center',
                     gap: '4px',
-                    padding: '8px 12px',
-                    fontSize: '0.76rem',
+                    padding: isScrolled ? '5px 10px' : '8px 12px',
+                    fontSize: isScrolled ? '0.74rem' : '0.76rem',
                     fontWeight: isActive ? 900 : 700,
                     whiteSpace: 'nowrap',
                     textDecoration: 'none',
                     color: isActive ? 'var(--brand-primary)' : 'var(--text-secondary)',
-                    borderBottom: isActive ? '2px solid var(--brand-primary)' : '2px solid transparent'
+                    borderBottom: isActive ? '2px solid var(--brand-primary)' : '2px solid transparent',
+                    transition: 'color var(--transition-fast), padding 0.2s ease, font-size 0.2s ease'
                   }}
                 >
                   <span>{cat.name}</span>
@@ -263,6 +364,54 @@ export default function CurvedHeader({ activeCategory = 'All', onSelectCategory 
               );
             })}
           </nav>
+
+          {/* Right: Compact Search button when scrolled */}
+          <div
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              maxWidth: isScrolled ? '110px' : '0px',
+              opacity: isScrolled ? 1 : 0,
+              overflow: 'hidden',
+              pointerEvents: isScrolled ? 'auto' : 'none',
+              transition: 'max-width 0.25s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.2s ease',
+              flexShrink: 0
+            }}
+          >
+            <button
+              type="button"
+              onClick={() => setIsSearchOpen(true)}
+              aria-label="Search articles"
+              title="Search"
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                gap: '6px',
+                background: 'var(--bg-surface-elevated)',
+                border: '1px solid var(--border-rule)',
+                borderRadius: '0px',
+                padding: '5px 11px',
+                color: 'var(--text-secondary)',
+                fontSize: '0.74rem',
+                fontWeight: 600,
+                cursor: 'pointer',
+                whiteSpace: 'nowrap',
+                transition: 'all var(--transition-fast)',
+                lineHeight: 1
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.color = 'var(--text-primary)';
+                e.currentTarget.style.borderColor = 'var(--text-secondary)';
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.color = 'var(--text-secondary)';
+                e.currentTarget.style.borderColor = 'var(--border-rule)';
+              }}
+            >
+              <Search size={13} color="currentColor" />
+              <span className="hidden-mobile">Search</span>
+            </button>
+          </div>
         </div>
       </div>
     </header>

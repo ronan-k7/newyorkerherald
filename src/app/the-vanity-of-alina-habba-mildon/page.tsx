@@ -541,9 +541,9 @@ export default function AlinaHabbaSpecialDossierPage() {
             className="sticky-dossier-sidebar"
             style={{
               position: 'sticky',
-              top: '24px',
+              top: '60px',
               alignSelf: 'start',
-              maxHeight: 'calc(100vh - 48px)',
+              maxHeight: 'calc(100vh - 76px)',
               overflowY: 'auto',
               display: 'flex',
               flexDirection: 'column',
