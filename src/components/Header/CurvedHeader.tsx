@@ -51,7 +51,7 @@ export default function CurvedHeader({ activeCategory = 'All', onSelectCategory 
 
   // EXACT same categories as the primary site
   const categories = [
-    { name: 'Top Stories', slug: '', href: '/' },
+    { name: 'Home', slug: '', href: '/' },
     { name: 'U.S.', slug: 'us', href: '/category/us' },
     { name: 'Politics', slug: 'politics', href: '/category/politics' },
     { name: 'Business & Economy', slug: 'business', href: '/category/business' },
@@ -295,7 +295,7 @@ export default function CurvedHeader({ activeCategory = 'All', onSelectCategory 
             }}
           >
             {categories.map((cat) => {
-              const isActive = (cat.slug === '' && (!activeCategory || activeCategory === 'All' || activeCategory === 'Top Stories')) || activeCategory === cat.slug;
+              const isActive = (cat.slug === '' && (!activeCategory || activeCategory === 'All' || activeCategory === 'Home' || activeCategory === 'Top Stories')) || activeCategory === cat.slug;
               return (
                 <Link
                   key={cat.name}
