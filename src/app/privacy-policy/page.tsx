@@ -173,7 +173,7 @@ export default function PrivacyPolicyPage() {
                 By using Newyorkerherald, you acknowledge and agree to the practices described in this Privacy Policy. We remain committed to protecting user privacy and maintaining complete transparency in how information is collected, used, and safeguarded.
               </p>
               <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', margin: 0 }}>
-                Questions? Direct your privacy questions to <a href="mailto:contact@newyorkerherald.com" style={{ color: 'var(--brand-primary)', textDecoration: 'underline' }}>contact@newyorkerherald.com</a>.
+                Questions? Direct your privacy questions to <a href="mailto:newyorkerherld@gmail.com" style={{ color: 'var(--brand-primary)', textDecoration: 'underline' }}>newyorkerherld@gmail.com</a>.
               </p>
             </div>
           </div>

@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import CurvedHeader from '@/components/Header/CurvedHeader';
 import CurvedFooter from '@/components/Footer/CurvedFooter';
-import { ArrowLeft, Mail, AlertCircle, Send, CheckCircle2, Building, MessageSquare, ShieldCheck, Newspaper, Megaphone } from 'lucide-react';
+import { ArrowLeft, Mail, AlertCircle, Send, CheckCircle2, MessageSquare, Newspaper, Megaphone } from 'lucide-react';
 
 export default function ContactPage() {
   const [submitted, setSubmitted] = useState(false);
@@ -19,32 +19,32 @@ export default function ContactPage() {
   const channels = [
     {
       icon: Mail,
-      title: 'General Inquiries',
-      email: 'contact@newyorkerherald.com',
+      title: 'General & Newsroom Inquiries',
+      email: 'newyorkerherld@gmail.com',
       desc: 'Questions about our content, editorial standards, partnerships, or general readership matters.'
     },
     {
       icon: Newspaper,
-      title: 'News Tips & Story Ideas',
-      email: 'editorial@newyorkerherald.com',
-      desc: 'Have a story we should investigate? Share tips, documents, and leads with our reporters.'
+      title: 'News Tips & Story Leads',
+      email: 'newyorkerherld@gmail.com',
+      desc: 'Have a story we should investigate? Share tips, documents, and leads directly with our editors.'
     },
     {
       icon: AlertCircle,
-      title: 'Corrections & Accuracy Requests',
-      email: 'corrections@newyorkerherald.com',
-      desc: 'If you notice a factual error, provide the headline, article URL, and evidence for review.'
+      title: 'Corrections & Accuracy Desk',
+      email: 'newyorkerherld@gmail.com',
+      desc: 'If you notice a factual error, provide the headline, article URL, and evidence for editorial review.'
     },
     {
       icon: MessageSquare,
       title: 'Media & Press Inquiries',
-      email: 'press@newyorkerherald.com',
+      email: 'newyorkerherld@gmail.com',
       desc: 'Journalists and media outlets seeking interviews, statements, or editorial commentary.'
     },
     {
       icon: Megaphone,
       title: 'Advertising & Partnerships',
-      email: 'advertising@newyorkerherald.com',
+      email: 'newyorkerherld@gmail.com',
       desc: 'Inquiries regarding corporate sponsorships, syndication licenses, and brand partnerships.'
     }
   ];
@@ -94,7 +94,7 @@ export default function ContactPage() {
           </h1>
 
           <p style={{ fontSize: '1.05rem', color: 'var(--text-secondary)', maxWidth: '820px', lineHeight: 1.55, margin: 0 }}>
-            At Newyorkerherald, we value our readers, sources, contributors, and partners. Whether you have a news tip, feedback about our reporting, a correction request, or a business inquiry, we welcome your message.
+            At Newyorkerherald, we value our readers, sources, contributors, and partners. Whether you have a news tip, feedback about our reporting, a correction request, or a business inquiry, reach out directly at <strong style={{ color: 'var(--text-primary)' }}>newyorkerherld@gmail.com</strong>.
           </p>
         </div>
 
@@ -123,7 +123,7 @@ export default function ContactPage() {
                 Send a Direct Message
               </h2>
               <p style={{ fontSize: '0.84rem', color: 'var(--text-secondary)', marginBottom: '20px' }}>
-                We strive to respond to all inquiries within 2–5 business days.
+                We strive to respond to all inquiries within 2–5 business days. Direct inbox: <strong style={{ color: 'var(--brand-primary)' }}>newyorkerherld@gmail.com</strong>
               </p>
 
               {submitted ? (
@@ -139,7 +139,7 @@ export default function ContactPage() {
                     Message Received
                   </h3>
                   <p style={{ fontSize: '0.82rem', color: 'var(--text-secondary)', margin: 0 }}>
-                    Thank you for contacting Newyorkerherald. Your submission has been routed to the appropriate editorial desk.
+                    Thank you for contacting Newyorkerherald. Your submission has been forwarded to our editorial team at newyorkerherld@gmail.com.
                   </p>
                 </div>
               ) : (
@@ -304,7 +304,7 @@ export default function ContactPage() {
                 Submitting a Correction
               </h3>
               <p style={{ fontSize: '0.82rem', color: 'var(--text-secondary)', lineHeight: 1.5, margin: '0 0 8px 0' }}>
-                When submitting an error or factual dispute, please include:
+                When submitting an error or factual dispute to <strong style={{ color: 'var(--brand-primary)' }}>newyorkerherld@gmail.com</strong>, please include:
               </p>
               <ul style={{ fontSize: '0.78rem', color: 'var(--text-secondary)', margin: 0, paddingLeft: '18px', display: 'flex', flexDirection: 'column', gap: '4px' }}>
                 <li>The exact article headline</li>
@@ -315,7 +315,7 @@ export default function ContactPage() {
             </div>
           </div>
 
-          {/* Right Column: Dedicated Email Directory */}
+          {/* Right Column: Dedicated Contact & Social Directory */}
           <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
             <h2 className="font-heading" style={{
               fontSize: '1.15rem',
@@ -323,7 +323,7 @@ export default function ContactPage() {
               color: 'var(--text-primary)',
               margin: 0
             }}>
-              Department Directory
+              Editorial Contact
             </h2>
 
             {channels.map((chan, idx) => {
@@ -374,7 +374,7 @@ export default function ContactPage() {
               );
             })}
 
-            {/* Social Channels */}
+            {/* Official Social Channels */}
             <div style={{
               backgroundColor: 'var(--bg-surface-elevated)',
               border: '1px solid var(--border-hairline)',
@@ -382,17 +382,48 @@ export default function ContactPage() {
               padding: '16px'
             }}>
               <h3 className="font-heading" style={{ fontSize: '0.88rem', fontWeight: 800, color: 'var(--text-primary)', margin: '0 0 6px 0' }}>
-                Connect With Us
+                Follow Newyorkerherald
               </h3>
-              <p style={{ fontSize: '0.74rem', color: 'var(--text-secondary)', lineHeight: 1.4, margin: '0 0 10px 0' }}>
-                Stay informed by following Newyorkerherald across social channels for breaking updates and investigations:
+              <p style={{ fontSize: '0.74rem', color: 'var(--text-secondary)', lineHeight: 1.4, margin: '0 0 12px 0' }}>
+                Stay informed with real-time news, commentary, and dispatches across our official publication channels:
               </p>
-              <div style={{ display: 'flex', gap: '12px', fontSize: '0.76rem', fontWeight: 700 }}>
-                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand-primary)', textDecoration: 'none' }}>X (Twitter)</a>
-                <span style={{ color: 'var(--border-hairline)' }}>•</span>
-                <a href="https://reddit.com" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand-primary)', textDecoration: 'none' }}>Reddit</a>
-                <span style={{ color: 'var(--border-hairline)' }}>•</span>
-                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand-primary)', textDecoration: 'none' }}>Instagram</a>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', fontSize: '0.78rem', fontWeight: 700 }}>
+                <a
+                  href="https://www.instagram.com/newyorker_herald/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: 'var(--brand-primary)', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '6px' }}
+                >
+                  <span>→ Instagram:</span>
+                  <span style={{ color: 'var(--text-secondary)', fontWeight: 500 }}>@newyorker_herald</span>
+                </a>
+                <a
+                  href="https://www.facebook.com/profile.php?id=61595450824941"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: 'var(--brand-primary)', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '6px' }}
+                >
+                  <span>→ Facebook:</span>
+                  <span style={{ color: 'var(--text-secondary)', fontWeight: 500 }}>Newyorkerherald Official</span>
+                </a>
+                <a
+                  href="https://medium.com/@newyorkerherald"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: 'var(--brand-primary)', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '6px' }}
+                >
+                  <span>→ Medium:</span>
+                  <span style={{ color: 'var(--text-secondary)', fontWeight: 500 }}>@newyorkerherald</span>
+                </a>
+                <a
+                  href="https://substack.com/@newyorkerherald1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: 'var(--brand-primary)', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '6px' }}
+                >
+                  <span>→ Substack:</span>
+                  <span style={{ color: 'var(--text-secondary)', fontWeight: 500 }}>@newyorkerherald1</span>
+                </a>
               </div>
             </div>
           </div>

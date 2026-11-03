@@ -1305,7 +1305,7 @@ export const AUTHORS_DATA: Record<string, AuthorProfile> = {
     beat: 'National & Global Affairs',
     articlesCount: 250,
     twitter: '@nyherald_news',
-    email: 'editorial@newyorkerherald.com',
+    email: 'newyorkerherld@gmail.com',
     awards: ['National Press Club Citation for Excellence in Digital Journalism'],
     education: 'Columbia School of Journalism / Global Newsroom Network'
   },
@@ -1319,7 +1319,7 @@ export const AUTHORS_DATA: Record<string, AuthorProfile> = {
     beat: 'National & Global Affairs',
     articlesCount: 250,
     twitter: '@nyherald_news',
-    email: 'editorial@newyorkerherald.com'
+    email: 'newyorkerherld@gmail.com'
   }
 };
 
