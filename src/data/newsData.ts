@@ -3,35 +3,35 @@ import { Article, OpinionColumn, FactCheckItem, PhotoStory, VideoItem, PodcastEp
 export const BREAKING_NEWS_ITEMS = [
   {
     id: 'brk-1',
-    kicker: 'MIDTERMS EVE RULING',
-    headline: 'Supreme Court Declines Emergency Application to Invalidate Disputed California Mail-in Ballots',
-    time: '4m ago',
-    url: '/politics/supreme-court-declines-emergency-bid-to-block-california-mail-in-ballots-on-midterm-election-eve'
+    kicker: '2026 MIDTERMS RESULT',
+    headline: 'Republicans Capture Senate Majority as Battle for House Control Comes Down to Western Recounts',
+    time: '2m ago',
+    url: '/politics/2026-midterm-election-results-republicans-secure-senate-majority-as-battle-for-house-control-comes-down-to-razor-thin-west-coast-recounts'
   },
   {
     id: 'brk-2',
-    kicker: 'PERSIAN GULF CLASH',
-    headline: 'Crude Surges Above $89 Following Precision U.S. Defensive Strikes on Iranian Drone Bases on Qeshm Island',
-    time: '18m ago',
-    url: '/business/crude-oil-surges-above-89-dollars-as-us-strikes-on-iranian-drone-bases-in-strait-of-hormuz-shake-global-energy-markets'
+    kicker: 'WALL STREET RECORD',
+    headline: 'S&P 500 Surges to Historic All-Time High Above 6,050 Following Midterm Clarity and Steady Jobs Data',
+    time: '14m ago',
+    url: '/business/wall-street-rallies-to-new-record-highs-as-sp-500-surges-following-midterm-clarity-and-robust-employment-data'
   },
   {
     id: 'brk-3',
-    kicker: 'DEEP SPACE MILESTONE',
-    headline: 'NASA Voyager 1 Reaches Historic One Light-Day (15.6 Billion Miles) Threshold from Earth',
-    time: '32m ago',
-    url: '/science/nasa-voyager-1-reaches-historic-one-light-day-distance-from-earth-as-historic-spacecraft-enters-final-interstellar-phase'
+    kicker: 'DEEP SPACE DISCOVERY',
+    headline: 'NASA James Webb Space Telescope Confirms Atmospheric Water Vapor on Habitable-Zone Rocky Exoplanet',
+    time: '28m ago',
+    url: '/science/nasa-james-webb-telescope-confirms-atmospheric-water-vapor-and-carbon-compounds-on-earth-sized-habitable-zone-exoplanet'
   }
 ];
 
 export const TRENDING_TAGS = [
-  '#MidtermElections2026',
-  '#EarlyVotingSurge',
-  '#USCanadaTariffTalks',
-  '#NvidiaAIOversight',
-  '#PalmBeachCrash',
-  '#DaylightSavingEnd',
-  '#NYMarathon2026'
+  '#MidtermResults2026',
+  '#SenateMajority',
+  '#WorldSeriesGame7',
+  '#GrammyNominations2027',
+  '#JWSTExoplanet',
+  '#WallStreetRally',
+  '#Proposition40'
 ];
 
 export const LEAD_ARTICLE: Article = {
@@ -74,6 +74,42 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
 };
 
 export const SECONDARY_LEAD_STORIES: Article[] = [
+    {
+    "id": "2026-midterm-election-results-republicans-secure-senate-majority-as-battle-for-house-control-comes-down-to-razor-thin-west-coast-recounts",
+    "title": "2026 Midterm Election Results: Republicans Secure Senate Majority as Battle for House Control Comes Down to Razor-Thin West Coast Recounts",
+    "kicker": "2026 MIDTERM DECISION • CONGRESSIONAL BALANCE OF POWER",
+    "summary": "Republicans have flipped pivotal Senate seats in Montana, West Virginia, and Ohio to capture an outright majority in the upper chamber, while control of the House of Representatives hinges on tens of thousands of late-counted mail ballots across competitive districts in California, Arizona, and Oregon.",
+    "body": "WASHINGTON — After a tense, historic election night that stretched into Wednesday evening and Thursday morning across multiple time zones, the political contours of the 120th United States Congress have begun to crystallize with profound ramifications for American governance. Decision desks and nonpartisan election analysts officially projected that the Republican Party has captured a decisive majority in the United States Senate, successfully flipping battleground seats in Montana, West Virginia, and Ohio while defending vulnerable incumbents in Texas and Florida. However, the battle for control of the House of Representatives remains locked in an extraordinarily tight deadlock, with ultimate leadership of the lower chamber hanging on tens of thousands of uncounted mail-in and provisional ballots across California's Central Valley, Orange County, Arizona, and the Pacific Northwest.\n\nThe capture of the Senate majority marks a consequential strategic triumph for Senate Republican campaign leadership, who systematically targeted rural turnout, energy independence, and consumer economic anxieties surrounding stubborn borrowing costs and persistent food inflation. In Montana, Republican challenger Tim Sheehy defeated three-term Democratic incumbent Jon Tester following an arduous, high-spending campaign characterized by record-breaking television and digital advertising expenditures. In West Virginia, outgoing Governor Jim Justice secured the Senate seat vacated by retiring independent Joe Manchin by an overwhelming double-digit margin, while in Ohio, Republican challenger Bernie Moreno ousted longtime Democratic Senator Sherrod Brown in a fierce industrial battleground contest that saw unprecedented union split-ticket voting.\n\nWith at least 52 seats secured in the upper chamber, Senate Republicans will command the legislative schedule, control committee chairmanships, and wield unilateral authority over executive branch appointments, federal judicial vacancies, and potential Supreme Court confirmations for the upcoming two-year legislative session. Senate Republican Leader John Thune celebrated the outcome in remarks from Capitol Hill, declaring that the electorate had delivered an unmistakable mandate for economic deregulation, domestic energy production, and rigorous fiscal oversight over federal spending.\n\nMeanwhile, the fight for the 435-seat House of Representatives has evolved into an excruciatingly tight war of attrition that election administrators caution could take days or even weeks to officially certify. Under California's statutory counting regulations—upheld just hours before the election by an emergency Supreme Court ruling—county election offices have up to seven days to receive ballots postmarked by Election Day, followed by a mandatory thirty-day canvassing period. In California's 13th, 22nd, 27th, and 45th congressional districts, the margin between Republican and Democratic candidates remains razor-thin, separated in several instances by fewer than eight hundred ballots out of more than two hundred thousand cast.\n\nHouse Democratic Leader Hakeem Jeffries urged patience from campaign headquarters in New York, pointing out that Democrats had successfully flipped key suburban districts in New York, Pennsylvania, and Virginia, creating an exceptionally viable mathematical pathway to reclaiming the speaker's gavel if late-breaking mail ballots in the West mirror the Democratic-leaning trajectory of previous midterm cycles. National voter turnout reached historic proportions, exceeding 115 million ballots cast nationwide. International allies and financial markets are closely scrutinizing the remaining counts, recognizing that whether Washington faces unified Republican control or a bitterly divided Congress will determine the trajectory of American trade tariffs, geopolitical defense funding for NATO and the Indo-Pacific, and upcoming statutory negotiations surrounding the expiration of the 2017 Tax Cuts and Jobs Act.",
+    "category": "Politics",
+    "edition": [
+        "US & Americas",
+        "Global"
+    ],
+    "author": {
+        "name": "Newyorkerherald Staff",
+        "role": "Capitol Hill & National Politics Bureau",
+        "avatar": "/images/authors/sarah_mitchell.jpg"
+    },
+    "publishedAt": "1h ago",
+    "readTime": "8 min read",
+    "imageUrl": "/images/news/2026-midterm-election-results-republicans-secure-senate-majority-as-battle-for-house-control-comes-down-to-razor-thin-west-coast-recounts.webp",
+    "imageCaption": "The United States Capitol in Washington, D.C., where Republicans clinched a Senate majority while the House balance remains locked in late-stage Western recounts.",
+    "imageCredit": "Getty Images / Win McNamee",
+    "commentCount": 94,
+    "bullets": [
+        "Republicans clinch Senate majority by flipping seats in Montana, West Virginia, and Ohio, securing at least 52 seats.",
+        "Control of the House of Representatives remains undecided, with key battleground seats in California, Arizona, and Oregon separated by razor-thin margins.",
+        "National voter turnout surpasses 115 million as late-counted mail ballots undergo rigorous statutory canvassing and signature verification."
+    ],
+    "tags": [
+        "Politics",
+        "2026 Midterms",
+        "Election Results",
+        "Senate Majority",
+        "House of Representatives",
+        "Congress"
+    ]
+},
     {
       id: 'supreme-court-declines-emergency-bid-to-block-california-mail-in-ballots-on-midterm-election-eve',
       title: 'Supreme Court Declines Emergency Bid to Block California Mail-in Ballots on Midterm Election Eve',
@@ -332,7 +368,7 @@ export const TRENDING_RANKED_ARTICLES: Article[] = [
 export const INVESTIGATIVE_FEATURE: Article = {
   id: 'the-ai-power-crunch-how-surging-data-center-demand-and-grid-congestion-are-testing-america-s-energy-capacity',
   title: 'The AI Power Crunch: How Surging Data Center Gigawatts and Grid Congestion Are Colliding with America’s Energy Capacity',
-  kicker: 'SPECIAL INVESTIGATIVE DOSSIER • GRID SOVEREIGNTY',
+  kicker: 'SPECIAL INVESTIGATIVE REPORT • GRID SOVEREIGNTY',
   summary: 'An exclusive multi-state investigation examines how the exponential expansion of artificial intelligence compute clusters is straining regional electric utilities, triggering fierce battles for dedicated nuclear reactors and exposing vulnerabilities in the U.S. power transmission backbone.',
   body: `ASHBURN, Va. & PHOENIX, Ariz. — Across the rolling hills of northern Virginia's "Data Center Alley" and the sun-bleached desert valleys of central Arizona, an unprecedented industrial land rush is colliding head-on with the physical boundaries of the American power grid. As multinational technology hyperscalers accelerate construction of gigawatt-scale artificial intelligence clusters, electrical utilities and regional transmission operators (RTOs) are confronting load growth trajectories not seen since the post-war electrification era of the twentieth century.
 
@@ -367,6 +403,42 @@ As the Federal Energy Regulatory Commission (FERC) convenes national stakeholder
 
 export const CATEGORY_ARTICLES: Record<string, Article[]> = {
   'Investigation': [
+    {
+    "id": "the-billion-dollar-disinformation-engine-how-unregulated-pac-algorithms-and-dark-money-supercharged-swing-state-voter-disenfranchisement",
+    "title": "The Billion-Dollar Disinformation Engine: How Unregulated PAC Algorithms and Dark Money Supercharged Swing State Voter Disenfranchisement",
+    "kicker": "ENTERPRISE INVESTIGATION • DEMOCRACY WATCH",
+    "summary": "A four-month Newyorkerherald investigation into campaign filings, digital ad telemetry, and offshore shell companies reveals how shadowy political action committees poured over $1.2 billion into micro-targeted voter suppression schemes during the 2026 election cycle, utilizing generative synthetic media to confuse precinct locations and absentee deadlines.",
+    "body": "PHOENIX, DETROIT & WASHINGTON — In the predawn hours of Election Day in Maricopa County, Arizona, thousands of registered independent and infrequent voters received urgent automated text messages purporting to originate from county election offices. The messages, complete with official county seals and authentic-looking digital letterheads, warned recipients that their local polling precincts had been abruptly relocated due to emergency water main ruptures, directing them to decommissioned community annexes miles away. Similar deceptive campaigns struck minority precincts in Detroit and suburban Milwaukee, delivering fabricated robo-calls featuring synthetically cloned voices of local election clerks falsely claiming that mail-in ballots dropped off on Tuesday would incur statutory processing penalties.\n\nA four-month investigation by the Newyorkerherald Investigative Reporting Unit reveals that these coordinated disruptions were not haphazard pranks, but rather the execution of a multi-million-dollar algorithmic voter suppression apparatus funded by unregulated dark-money political action committees. By analyzing over forty thousand digital campaign filings, tracing real-time programmatic ad telemetry across independent ad exchanges, and reviewing leaked internal strategy documents from offshore consulting firms, reporters uncovered a network of twenty-six interconnected 501(c)(4) entities that funneled an unprecedented one point two billion dollars into non-disclosed voter demobilization programs during the 2026 midterm cycle.\n\nUnlike conventional campaign advertisements that promote specific candidates or policy platforms, this dark-money network operated under an explicit strategy of voter exhaustion and procedural confusion. The groups utilized sophisticated behavioral data brokers to compile granular psychological profiles of undecided swing-state voters, identifying individuals with high civic ambivalence. These target cohorts were then inundated with automated synthetic video clips, deceptive SMS notifications, and micro-targeted social media memes engineered to erode trust in election mechanics and induce cynicism.\n\nFederal Election Commission (FEC) records demonstrate that current federal campaign finance disclosure regulations contain glaring jurisdictional loopholes regarding digital synthetic communications. Because the dark-money groups did not explicitly use statutory express advocacy phrases like \"vote for\" or \"vote against,\" their funding sources remain entirely shielded from mandatory donor disclosure reports. State attorneys general in Michigan, Arizona, and Pennsylvania confirmed they have launched joint criminal fraud investigations into the shell entities, while cybersecurity watchdogs call for emergency federal legislation mandating cryptographically verified provenance on all civic election communications.",
+    "category": "Investigation",
+    "edition": [
+        "US & Americas"
+    ],
+    "author": {
+        "name": "Newyorkerherald Staff",
+        "role": "Investigative Reporting & Enterprise Unit",
+        "avatar": "/images/authors/sarah_mitchell.jpg"
+    },
+    "publishedAt": "6h ago",
+    "readTime": "9 min read",
+    "imageUrl": "/images/news/the-billion-dollar-disinformation-engine-how-unregulated-pac-algorithms-and-dark-money-supercharged-swing-state-voter-disenfranchisement.webp",
+    "imageCaption": "Computer servers and data visualization screens tracking digital advertising telemetry and network disinformation nodes.",
+    "imageCredit": "Newyorkerherald Investigative Desk",
+    "isInvestigative": true,
+    "commentCount": 88,
+    "bullets": [
+        "Four-month investigation reveals $1.2 billion in dark money funneled into automated voter suppression and procedural confusion schemes.",
+        "Deceptive SMS networks and synthetic audio calls targeted swing-state independent voters in Arizona, Michigan, and Wisconsin on Election Day.",
+        "State attorneys general initiate multi-state criminal inquiries as FEC disclosure loopholes face intense scrutiny."
+    ],
+    "tags": [
+        "Investigation",
+        "Elections",
+        "Dark Money",
+        "Disinformation",
+        "Voting Rights",
+        "Cybersecurity"
+    ]
+},
     {
       id: 'investigation-uncovers-how-falling-rural-vaccination-rates-sparked-new-york-first-lethal-measles-case-in-three-decades',
       title: 'Investigation Uncovers How Falling Rural Vaccination Rates Sparked New York First Lethal Measles Case in Three Decades',
@@ -443,6 +515,41 @@ In Albany, Governor Kathy Hochul convened an emergency public health cabinet mee
     }
   ],
     'US': [
+    {
+    "id": "historic-ballot-measures-triumph-seven-states-pass-landmark-constitutional-amendments-on-healthcare-access-clean-water-and-workers-rights",
+    "title": "Historic Ballot Measures Triumph: Seven States Pass Landmark Constitutional Amendments on Healthcare Access, Clean Water, and Workers' Rights",
+    "kicker": "DIRECT DEMOCRACY • STATE ELECTION DISPATCH",
+    "summary": "Voters across seven battleground and coastal states approved historic constitutional ballot initiatives on Tuesday, enacting constitutional guarantees for reproductive healthcare, emergency medical network funding, clean water infrastructure bonds, and mandatory paid medical leave.",
+    "body": "SACRAMENTO & LANSING — While the partisan tug-of-war for federal congressional dominance captivated national television broadcasts on Election Day, an equally transformative revolution took place at the state level through citizen-initiated direct democracy. Across seven diverse states spanning the Pacific Coast, the industrial Midwest, and the Desert Southwest, voters delivered resounding, bipartisan victories for major constitutional ballot initiatives, enshrining legal protections for healthcare access, funding emergency medical safety nets, approving billions for clean water infrastructure, and establishing mandatory paid family leave.\n\nIn California, voters decisively approved Proposition 40—the landmark Healthcare Resilience and Emergency Trauma Act—by an impressive 58 to 42 percent margin. The constitutional amendment establishes a targeted one-percent state surcharge on individual annual taxable income exceeding five million dollars, creating an insulated, dedicated trust fund projected to inject four point eight billion dollars annually directly into strained trauma centers, rural emergency departments, and non-profit hospital intensive care units. Despite fierce opposition campaigns funded by high-net-worth real estate and venture capital consortiums, widespread public concern over hospital emergency room wait times and rural medical clinic closures propelled the measure to victory across both urban coastal counties and traditionally conservative Central Valley districts.\n\nMeanwhile, in Michigan and Ohio, voters approved comprehensive constitutional measures expanding guaranteed paid medical leave and reproductive autonomy. Michigan's Proposal 3 established a constitutional requirement ensuring that all full-time and part-time workers earn up to fifty-six hours of annual paid sick leave, while creating a state-administered reinsurance pool to subsidize compliance expenses for small businesses with fewer than twenty-five employees. The measure passed with sixty-two percent approval, drawing overwhelming support from working-class suburban voters who simultaneously split their ballots across party lines in contested congressional races.\n\nIn Arizona and Colorado, landmark conservation measures secured sweeping voter endorsements. Colorado voters approved Proposition 132, authorizing a three-billion-dollar green bond facility dedicated exclusively to rehabilitating aging municipal drinking water pipelines, restoring high-altitude watershed reservoirs, and protecting Colorado River basin tributaries from municipal depletion. In Arizona, voters soundly rejected a state legislative attempt to curtail citizen initiative access, demonstrating an enduring public commitment to preserving ballot initiative mechanisms against administrative restrictions.\n\nPolitical scientists and direct democracy scholars from the University of California Berkeley emphasized that Tuesday's ballot initiative outcomes reveal a profound philosophical divergence between top-line party tribalism and underlying issue consensus. Even in states where conservative candidates swept statewide offices, ballot measures safeguarding public health funding, clean water access, and workplace protections outperformed party nominees by ten to fifteen percentage points. As state legislatures prepare to convene for their 2027 legislative sessions, the successful passage of these constitutional mandates establishes binding statutory requirements that cannot be weakened or vetoed by state executives, cementing a permanent shift in state social policy.",
+    "category": "US",
+    "edition": [
+        "US & Americas"
+    ],
+    "author": {
+        "name": "Newyorkerherald Staff",
+        "role": "National State Affairs & Policy Bureau",
+        "avatar": "/images/authors/sarah_mitchell.jpg"
+    },
+    "publishedAt": "2h ago",
+    "readTime": "7 min read",
+    "imageUrl": "/images/news/historic-ballot-measures-triumph-seven-states-pass-landmark-constitutional-amendments-on-healthcare-access-clean-water-and-workers-rights.webp",
+    "imageCaption": "Voters cast paper ballots in Sacramento, California, as seven states passed sweeping constitutional amendments.",
+    "imageCredit": "Associated Press / Rich Pedroncelli",
+    "commentCount": 48,
+    "bullets": [
+        "California voters approve Proposition 40, establishing a 1% billionaire surcharge to direct $4.8B annually to strained emergency trauma networks.",
+        "Michigan and Ohio enshrine landmark constitutional protections for paid sick leave and reproductive healthcare access.",
+        "Direct democracy measures outperform partisan party candidates, illustrating strong cross-ideological support for public health and water infrastructure."
+    ],
+    "tags": [
+        "US",
+        "Ballot Measures",
+        "Direct Democracy",
+        "Proposition 40",
+        "Healthcare",
+        "Infrastructure"
+    ]
+},
     {
       id: 'california-voters-decide-proposition-40-billionaire-wealth-tax-to-fund-strained-emergency-healthcare-networks',
       title: 'California Voters Decide Proposition 40 Billionaire Wealth Tax to Fund Strained Emergency Healthcare Networks',
@@ -545,6 +652,42 @@ As the clocks reset, congressional leaders confirmed that bipartisan committee s
     }
   ],
   'Politics': [
+    {
+    "id": "2026-midterm-election-results-republicans-secure-senate-majority-as-battle-for-house-control-comes-down-to-razor-thin-west-coast-recounts",
+    "title": "2026 Midterm Election Results: Republicans Secure Senate Majority as Battle for House Control Comes Down to Razor-Thin West Coast Recounts",
+    "kicker": "2026 MIDTERM DECISION • CONGRESSIONAL BALANCE OF POWER",
+    "summary": "Republicans have flipped pivotal Senate seats in Montana, West Virginia, and Ohio to capture an outright majority in the upper chamber, while control of the House of Representatives hinges on tens of thousands of late-counted mail ballots across competitive districts in California, Arizona, and Oregon.",
+    "body": "WASHINGTON — After a tense, historic election night that stretched into Wednesday evening and Thursday morning across multiple time zones, the political contours of the 120th United States Congress have begun to crystallize with profound ramifications for American governance. Decision desks and nonpartisan election analysts officially projected that the Republican Party has captured a decisive majority in the United States Senate, successfully flipping battleground seats in Montana, West Virginia, and Ohio while defending vulnerable incumbents in Texas and Florida. However, the battle for control of the House of Representatives remains locked in an extraordinarily tight deadlock, with ultimate leadership of the lower chamber hanging on tens of thousands of uncounted mail-in and provisional ballots across California's Central Valley, Orange County, Arizona, and the Pacific Northwest.\n\nThe capture of the Senate majority marks a consequential strategic triumph for Senate Republican campaign leadership, who systematically targeted rural turnout, energy independence, and consumer economic anxieties surrounding stubborn borrowing costs and persistent food inflation. In Montana, Republican challenger Tim Sheehy defeated three-term Democratic incumbent Jon Tester following an arduous, high-spending campaign characterized by record-breaking television and digital advertising expenditures. In West Virginia, outgoing Governor Jim Justice secured the Senate seat vacated by retiring independent Joe Manchin by an overwhelming double-digit margin, while in Ohio, Republican challenger Bernie Moreno ousted longtime Democratic Senator Sherrod Brown in a fierce industrial battleground contest that saw unprecedented union split-ticket voting.\n\nWith at least 52 seats secured in the upper chamber, Senate Republicans will command the legislative schedule, control committee chairmanships, and wield unilateral authority over executive branch appointments, federal judicial vacancies, and potential Supreme Court confirmations for the upcoming two-year legislative session. Senate Republican Leader John Thune celebrated the outcome in remarks from Capitol Hill, declaring that the electorate had delivered an unmistakable mandate for economic deregulation, domestic energy production, and rigorous fiscal oversight over federal spending.\n\nMeanwhile, the fight for the 435-seat House of Representatives has evolved into an excruciatingly tight war of attrition that election administrators caution could take days or even weeks to officially certify. Under California's statutory counting regulations—upheld just hours before the election by an emergency Supreme Court ruling—county election offices have up to seven days to receive ballots postmarked by Election Day, followed by a mandatory thirty-day canvassing period. In California's 13th, 22nd, 27th, and 45th congressional districts, the margin between Republican and Democratic candidates remains razor-thin, separated in several instances by fewer than eight hundred ballots out of more than two hundred thousand cast.\n\nHouse Democratic Leader Hakeem Jeffries urged patience from campaign headquarters in New York, pointing out that Democrats had successfully flipped key suburban districts in New York, Pennsylvania, and Virginia, creating an exceptionally viable mathematical pathway to reclaiming the speaker's gavel if late-breaking mail ballots in the West mirror the Democratic-leaning trajectory of previous midterm cycles. National voter turnout reached historic proportions, exceeding 115 million ballots cast nationwide. International allies and financial markets are closely scrutinizing the remaining counts, recognizing that whether Washington faces unified Republican control or a bitterly divided Congress will determine the trajectory of American trade tariffs, geopolitical defense funding for NATO and the Indo-Pacific, and upcoming statutory negotiations surrounding the expiration of the 2017 Tax Cuts and Jobs Act.",
+    "category": "Politics",
+    "edition": [
+        "US & Americas",
+        "Global"
+    ],
+    "author": {
+        "name": "Newyorkerherald Staff",
+        "role": "Capitol Hill & National Politics Bureau",
+        "avatar": "/images/authors/sarah_mitchell.jpg"
+    },
+    "publishedAt": "1h ago",
+    "readTime": "8 min read",
+    "imageUrl": "/images/news/2026-midterm-election-results-republicans-secure-senate-majority-as-battle-for-house-control-comes-down-to-razor-thin-west-coast-recounts.webp",
+    "imageCaption": "The United States Capitol in Washington, D.C., where Republicans clinched a Senate majority while the House balance remains locked in late-stage Western recounts.",
+    "imageCredit": "Getty Images / Win McNamee",
+    "commentCount": 94,
+    "bullets": [
+        "Republicans clinch Senate majority by flipping seats in Montana, West Virginia, and Ohio, securing at least 52 seats.",
+        "Control of the House of Representatives remains undecided, with key battleground seats in California, Arizona, and Oregon separated by razor-thin margins.",
+        "National voter turnout surpasses 115 million as late-counted mail ballots undergo rigorous statutory canvassing and signature verification."
+    ],
+    "tags": [
+        "Politics",
+        "2026 Midterms",
+        "Election Results",
+        "Senate Majority",
+        "House of Representatives",
+        "Congress"
+    ]
+},
     {
       id: 'supreme-court-declines-emergency-bid-to-block-california-mail-in-ballots-on-midterm-election-eve',
       title: 'Supreme Court Declines Emergency Bid to Block California Mail-in Ballots on Midterm Election Eve',
@@ -754,6 +897,42 @@ In Washington, national security officials convened in the White House Situation
 
   'Business & Economy': [
     {
+    "id": "wall-street-rallies-to-new-record-highs-as-sp-500-surges-following-midterm-clarity-and-robust-employment-data",
+    "title": "Wall Street Rallies to New Record Highs as S&P 500 Surges Following Midterm Clarity and Robust Employment Data",
+    "kicker": "FINANCIAL MARKETS • POST-ELECTION SURGE",
+    "summary": "Major U.S. stock indices surged sharply on Wednesday and Thursday as investors cheered the resolution of election uncertainty and a divided government outlook that minimizes abrupt regulatory shifts, while Treasury yields stabilized ahead of the Federal Reserve’s upcoming policy announcement.",
+    "body": "NEW YORK — Global financial markets experienced a euphoric, broad-based relief rally across the trading sessions of Wednesday and Thursday, catapulting the benchmark S&P 500 and the tech-heavy Nasdaq Composite to fresh all-time record highs. Institutional portfolio managers, algorithmic hedge funds, and retail investors poured billions into domestic equities following the resolution of the 2026 midterm election, welcoming an emerging balance of power in Washington that historical financial data demonstrates is the most market-friendly configuration for corporate capital allocation.\n\nThe Dow Jones Industrial Average surged more than 850 points, or 2.1 percent, during Wednesday's opening stampede, while the S&P 500 climbed 2.4 percent to eclipse the 6,050 threshold for the first time in history. The Nasdaq led all major indices with a blistering 2.9 percent advance, propelled by colossal gains across the semiconductor, enterprise software, and artificial intelligence megacaps. Shares of Nvidia, Apple, Microsoft, Amazon, and Alphabet each advanced between 3.5 and 5.2 percent, erasing weeks of pre-election hedging volatility as institutional desks unwound protective put option positions.\n\nWall Street strategists noted that while election rhetoric often emphasizes apocalyptic outcomes, equity markets historically thrive under divided government or narrow congressional majorities. With Republicans securing the Senate and the House poised for a razor-thin margin in either direction, legislative gridlock effectively eliminates the probability of aggressive federal tax hikes, sweeping unilateral antitrust restructuring, or disruptive sector-specific statutory overhauls. Simultaneously, the certainty of an ongoing debate over the extension of core provisions of the 2017 Tax Cuts and Jobs Act provides multinational corporations with an extended runway for capital expenditure planning.\n\nThe post-election surge was further fortified by fresh macroeconomic data released Thursday morning by the Bureau of Labor Statistics. Nonfarm payrolls for the prior month expanded by a resilient 178,000 positions, matching consensus Wall Street projections while the national unemployment rate held steady at 4.1 percent. Average hourly earnings increased at a moderate 3.6 percent annualized clip, confirming that wage pressures continue to cool in a manner consistent with the Federal Reserve's two-percent long-run inflation target without tipping the broader labor market into contractionary distress.\n\nOn bond trading desks, benchmark 10-year U.S. Treasury yields retreated six basis points to 4.22 percent, easing financing costs for commercial real estate refinancings and corporate bond syndications. Chief equity strategists at Goldman Sachs and Morgan Stanley released updated research notes raising their year-end S&P 500 price targets, citing robust corporate earnings growth, accelerating capital deployment into high-efficiency data center infrastructure, and favorable seasonal tailwinds heading into the holiday shopping season.",
+    "category": "Business",
+    "edition": [
+        "US & Americas",
+        "Global"
+    ],
+    "author": {
+        "name": "Newyorkerherald Staff",
+        "role": "Wall Street & Global Markets Bureau",
+        "avatar": "/images/authors/sarah_mitchell.jpg"
+    },
+    "publishedAt": "3h ago",
+    "readTime": "6 min read",
+    "imageUrl": "/images/news/wall-street-rallies-to-new-record-highs-as-sp-500-surges-following-midterm-clarity-and-robust-employment-data.webp",
+    "imageCaption": "Traders celebrate on the floor of the New York Stock Exchange as indices climb to record highs following election results.",
+    "imageCredit": "New York Stock Exchange / Courtney Crow",
+    "commentCount": 31,
+    "bullets": [
+        "S&P 500 eclipses 6,050 to set all-time record as Dow Jones jumps over 850 points post-election.",
+        "Tech giants rally sharply as institutional desks unwind pre-election hedges amidst divided government outlook.",
+        "Nonfarm payrolls expand by 178,000 as unemployment holds steady at 4.1%, providing ideal macroeconomic backdrop."
+    ],
+    "tags": [
+        "Business",
+        "Wall Street",
+        "Stock Market",
+        "S&P 500",
+        "Economy",
+        "Federal Reserve"
+    ]
+},
+    {
       id: 'crude-oil-surges-above-89-dollars-as-us-strikes-on-iranian-drone-bases-in-strait-of-hormuz-shake-global-energy-markets',
       title: 'Crude Oil Surges Above 89 Dollars as US Strikes on Iranian Drone Bases in Strait of Hormuz Shake Global Energy Markets',
       kicker: 'GLOBAL COMMODITIES • ENERGY SECURITY',
@@ -932,6 +1111,42 @@ Sports finance experts note that the move mirrors a broader institutional trend 
   ],
 
   'Tech': [
+    {
+    "id": "openai-and-anthropic-unveil-joint-safety-standards-for-autonomous-ai-agents-as-federal-regulators-weigh-oversight-mandates",
+    "title": "OpenAI and Anthropic Unveil Joint Safety Standards for Autonomous AI Agents as Federal Regulators Weigh Oversight Mandates",
+    "kicker": "ARTIFICIAL INTELLIGENCE • INDUSTRY CONSORTIUM",
+    "summary": "Leading frontier artificial intelligence laboratories OpenAI and Anthropic have announced a landmark collaborative safety framework governing autonomous agentic software, introducing rigorous sandboxing protocols, automated circuit breakers, and mutual red-teaming standards before multi-step autonomous AI is deployed across enterprise networks.",
+    "body": "SAN FRANCISCO & WASHINGTON — In an unprecedented display of industry collaboration between two fierce frontier competitors, OpenAI and Anthropic unveiled on Wednesday the \"Frontier Autonomous Systems Safety Concordat\"—a rigorous, shared technical framework designed to establish enforceable safety benchmarks and architectural guardrails for next-generation autonomous artificial intelligence agents. The voluntary accord arrives at a pivotal inflection point, as commercial enterprises increasingly deploy autonomous software agents capable of executing multi-step tasks across corporate databases, cloud server architectures, and financial transaction networks without continuous human supervision.\n\nThe concordat, developed over eight months of closed-door technical consultations in conjunction with research fellows from the U.S. Artificial Intelligence Safety Institute at the National Institute of Standards and Technology (NIST), addresses the unique failure modes inherent to agentic AI systems. Unlike static conversational chatbots, autonomous agents possess tool-use capabilities, allowing them to browse the open web, execute shell terminal commands, manipulate software code repositories, and interface with third-party APIs. Under the new protocol, any commercial model endowed with autonomous action capabilities must undergo mandatory sandboxing evaluations, automated state verification, and cryptographic permission validation before interacting with external infrastructure.\n\nA cornerstone of the joint framework is the establishment of \"Deterministic Circuit Breakers\"—hard-coded algorithmic thresholds that automatically suspend an agent's execution if it deviates beyond pre-approved parameter boundaries, attempts recursive self-modification, or seeks to bypass access control credentials. Furthermore, both organizations pledged to conduct reciprocal third-party red-teaming audits, granting security researchers from competing labs access to frontier model checkpoints to test for emergent cyber-offense vulnerabilities, financial manipulation scenarios, and systemic infrastructure exploits prior to commercial release.\n\nThe announcement was met with praise from Capitol Hill lawmakers and federal regulators, who have struggled to craft statutory oversight that keeps pace with the blinding velocity of machine learning research. Senate Commerce Committee leaders indicated that elements of the concordat will be incorporated into proposed federal legislation establishing standardized auditing standards for high-capability frontier models. Computer science researchers at MIT and Stanford characterized the agreement as a vital milestone akin to aviation safety pacts, establishing standard operating baselines that protect consumer privacy and critical infrastructure while preserving America's lead in artificial intelligence innovation.",
+    "category": "Tech",
+    "edition": [
+        "US & Americas",
+        "Global"
+    ],
+    "author": {
+        "name": "Newyorkerherald Staff",
+        "role": "Frontier AI & Technology Bureau",
+        "avatar": "/images/authors/sarah_mitchell.jpg"
+    },
+    "publishedAt": "4h ago",
+    "readTime": "7 min read",
+    "imageUrl": "/images/news/openai-and-anthropic-unveil-joint-safety-standards-for-autonomous-ai-agents-as-federal-regulators-weigh-oversight-mandates.webp",
+    "imageCaption": "Enterprise cloud servers and neural network architecture monitoring terminals in San Francisco, California.",
+    "imageCredit": "Getty Images / Justin Sullivan",
+    "commentCount": 52,
+    "bullets": [
+        "OpenAI and Anthropic launch joint safety framework for autonomous agentic software capable of multi-step tool execution.",
+        "Mandates deterministic circuit breakers, automated sandboxing, and reciprocal red-teaming audits before commercial deployment.",
+        "National AI Safety Institute commends accord as template for emerging federal compliance standards."
+    ],
+    "tags": [
+        "Tech",
+        "Artificial Intelligence",
+        "OpenAI",
+        "Anthropic",
+        "AI Safety",
+        "Autonomous Agents"
+    ]
+},
     {
       id: 'doj-expands-antitrust-probe-into-nvidia-over-13-billion-dollar-hugging-face-acquisition-and-ai-developer-lock-in',
       title: 'DOJ Expands Antitrust Probe into Nvidia Over 13 Billion Dollar Hugging Face Acquisition and AI Developer Lock-In',
@@ -1112,6 +1327,42 @@ Aerospace financial analysts estimate that SpaceX's commercial launch and satell
 
   'Entertainment': [
     {
+    "id": "grammy-nominations-2027-reveal-historic-shakeup-as-global-sounds-and-independent-releases-lead-major-field-categories",
+    "title": "Grammy Nominations 2027 Reveal Historic Shakeup as Global Sounds and Independent Releases Lead Major Field Categories",
+    "kicker": "AWARDS SEASON • RECORDING ACADEMY",
+    "summary": "The Recording Academy unveiled its official nominations for the upcoming Grammy Awards on Wednesday, celebrating an unprecedented international diversity across Album of the Year, Record of the Year, and Song of the Year, with visionary genre-defying projects dominating the marquee ballots.",
+    "body": "LOS ANGELES — The Recording Academy announced its official slate of nominations for the 69th Annual Grammy Awards on Wednesday morning, delivering an electrifying and historic ballot that reflects the seismic global evolution of contemporary popular music. In a dramatic departure from decades of major-label pop monoculture, this year's marquee categories—Album of the Year, Record of the Year, Song of the Year, and Best New Artist—were dominated by boundary-pushing independent releases, cross-continental global collaborations, and genre-defying conceptual projects that bypassed traditional broadcast radio in favor of organic viral streaming movements.\n\nLeading all artists with a staggering nine nominations was visionary hip-hop and jazz innovator Kendrick Lamar, whose critically lauded visual album examining generational healing, community reinvestment, and improvisational American jazz traditions earned nominations across all four General Field categories. Closely following with eight nominations each were pop titan Taylor Swift, who made history as the most-nominated songwriter in Academy history, and British electronic auteur Charli XCX, whose era-defining dance record completed a stunning transition from underground club phenomenon to mainstream cultural touchstone.\n\nA historic hallmark of the 2027 nominations is the unprecedented presence of international genres in the top categories. African, Latin American, and East Asian artists secured landmark placements in Album of the Year, with Nigerian Afrofusion superstar Burna Boy and Puerto Rican trailblazer Bad Bunny earning headline nominations for studio albums recorded entirely in non-English tongues. Academy CEO Harvey Mason Jr. addressed the voting body's expanded demographic makeup during the Los Angeles press conference, emphasizing that the addition of more than three thousand diverse music creators to the voting rolls over the past three years has broadened the institution's artistic aperture.\n\nThe announcement also highlighted the strict enforcement of new Academy guidelines prohibiting purely generative artificial intelligence from receiving creative nominations. While artists utilizing AI as an assistive editing tool were permitted to submit work, the Academy disqualified over forty submissions that lacked primary human authorship in vocal performance or melodic composition. With the stage set for an explosive televised ceremony at Crypto.com Arena in February, music critics and cultural commentators hailed the nominations as a definitive affirmation of human artistic expression and global sonic ingenuity in the digital streaming era.",
+    "category": "Entertainment",
+    "edition": [
+        "US & Americas",
+        "Global"
+    ],
+    "author": {
+        "name": "Newyorkerherald Staff",
+        "role": "Culture, Arts & Entertainment Desk",
+        "avatar": "/images/authors/sarah_mitchell.jpg"
+    },
+    "publishedAt": "5h ago",
+    "readTime": "6 min read",
+    "imageUrl": "/images/news/grammy-nominations-2027-reveal-historic-shakeup-as-global-sounds-and-independent-releases-lead-major-field-categories.webp",
+    "imageCaption": "The iconic golden Grammy Award statuette on display at the Grammy Museum in downtown Los Angeles.",
+    "imageCredit": "Associated Press / Chris Pizzello",
+    "commentCount": 29,
+    "bullets": [
+        "Kendrick Lamar leads all artists with 9 nominations, joined by Taylor Swift and Charli XCX with 8 each.",
+        "Record-breaking representation for non-English and global music albums in the prestigious Album of the Year category.",
+        "Strict new Recording Academy guidelines disqualify purely generative AI submissions, emphasizing human authorship."
+    ],
+    "tags": [
+        "Entertainment",
+        "Grammy Awards",
+        "Music",
+        "Kendrick Lamar",
+        "Culture",
+        "Recording Academy"
+    ]
+},
+    {
       id: 'christopher-nolan-epic-the-odyssey-surpasses-1-17-billion-dollars-to-break-universal-all-time-international-box-office-record',
       title: 'Christopher Nolan Epic The Odyssey Surpasses 1.17 Billion Dollars to Break Universal All-Time International Box Office Record',
       kicker: 'BOX OFFICE RECORD • HOLLYWOOD',
@@ -1230,6 +1481,41 @@ Furthermore, cloud streaming platforms and mobile distribution networks have low
   ],
 
   'Sports': [
+    {
+    "id": "los-angeles-dodgers-crowned-2026-world-series-champions-in-thrilling-extra-inning-game-7-classic-against-new-york-yankees",
+    "title": "Los Angeles Dodgers Crowned 2026 World Series Champions in Thrilling Extra-Inning Game 7 Classic Against New York Yankees",
+    "kicker": "FALL CLASSIC • MLB WORLD SERIES FINALE",
+    "summary": "In one of the most dramatic conclusions in Major League Baseball history, the Los Angeles Dodgers secured the 2026 World Series title with an extra-inning 6-5 triumph over the New York Yankees in Game 7 at Yankee Stadium, sealed by an iconic 11th-inning defensive stop and clutch hitting.",
+    "body": "NEW YORK — In an unforgettable Fall Classic spectacle that baseball historians will celebrate for generations, the Los Angeles Dodgers captured the 2026 Major League Baseball World Series championship Wednesday night, outlasting the New York Yankees 6-5 in a gripping, eleven-inning Game 7 thriller under the lights at Yankee Stadium. The victory marks the Dodgers' ninth World Series title in franchise history and cements their status as one of modern baseball's greatest dynasties following a grueling seven-game duel between the sport's two most storied bi-coastal powerhouses.\n\nThe decisive contest was a masterclass in tactical bullpen management, defensive heroics, and stomach-churning momentum swings. Trailing 5-4 in the top of the ninth inning against the Yankees' flame-throwing closer, Dodgers designated hitter Shohei Ohtani ignited a dramatic rally with a blistering 114-mile-per-hour leadoff double down the right-field line. Two batters later, first baseman Freddie Freeman delivered a clutch sacrifice fly to deep center field, driving in the tying run to send the Yankee Stadium crowd into stunned silence and forcing extra innings.\n\nIn the top of the eleventh, Dodgers catcher Will Smith broke the deadlock by lacing a two-out, run-scoring single into shallow left field, plating Mookie Betts from second base. Handed a precarious one-run cushion in the bottom of the eleventh, manager Dave Roberts summoned Japanese rookie phenom Yoshinobu Yamamoto on two days' rest. Yamamoto induced a pair of strikeouts before shortstop Miguel Rojas preserved the championship with a sensational backhanded stop and running throw from deep in the hole, triggering an ecstatic dogpile on the pitcher's mound as visiting dugout players streamed onto the diamond.\n\nFreeman, who belted four home runs across the seven-game series including two walk-off blasts, was unanimously voted the Willie Mays World Series Most Valuable Player. Back in Southern California, tens of thousands of fans flooded downtown Los Angeles and Dodger Stadium parking plazas in joyous midnight celebrations, setting off car horns and unfurling championship banners. Los Angeles civic authorities announced that the official championship victory parade will navigate through downtown Los Angeles on Friday morning, culminating in a massive rally at Grand Park.",
+    "category": "Sports",
+    "edition": [
+        "US & Americas"
+    ],
+    "author": {
+        "name": "Newyorkerherald Staff",
+        "role": "National Sports & Athletics Bureau",
+        "avatar": "/images/authors/sarah_mitchell.jpg"
+    },
+    "publishedAt": "5h ago",
+    "readTime": "6 min read",
+    "imageUrl": "/images/news/los-angeles-dodgers-crowned-2026-world-series-champions-in-thrilling-extra-inning-game-7-classic-against-new-york-yankees.webp",
+    "imageCaption": "Dodgers players celebrate on the mound at Yankee Stadium after securing the final out of Game 7 in extra innings.",
+    "imageCredit": "Getty Images / Elsa",
+    "commentCount": 65,
+    "bullets": [
+        "Dodgers defeat Yankees 6-5 in 11 thrilling innings to win Game 7 of the 2026 World Series at Yankee Stadium.",
+        "Freddie Freeman named World Series MVP after hitting four pivotal homers throughout the seven-game classic.",
+        "Championship victory parade scheduled for Friday morning in downtown Los Angeles."
+    ],
+    "tags": [
+        "Sports",
+        "World Series",
+        "MLB",
+        "Los Angeles Dodgers",
+        "New York Yankees",
+        "Baseball"
+    ]
+},
     {
       id: 'lamar-jackson-placed-on-injured-reserve-with-thumb-surgery-in-crushing-blow-to-baltimore-ravens-afc-title-hopes',
       title: 'Lamar Jackson Placed on Injured Reserve with Thumb Surgery in Crushing Blow to Baltimore Ravens AFC Title Hopes',
@@ -1372,6 +1658,42 @@ On the stadium infrastructure front, club executives evaluated demonstrations of
   ],
 
   'Science': [
+    {
+    "id": "nasa-james-webb-telescope-confirms-atmospheric-water-vapor-and-carbon-compounds-on-earth-sized-habitable-zone-exoplanet",
+    "title": "NASA James Webb Telescope Confirms Atmospheric Water Vapor and Carbon Compounds on Earth-Sized Habitable-Zone Exoplanet",
+    "kicker": "ASTROPHYSICS • DEEP SPACE BREAKTHROUGH",
+    "summary": "International astrophysics teams utilizing NASA’s James Webb Space Telescope have detected unambiguous spectroscopic signatures of water vapor, carbon dioxide, and methane in the atmosphere of an Earth-sized rocky exoplanet orbiting within its host star’s habitable zone, marking a revolutionary milestone in astrobiology.",
+    "body": "BALTIMORE & GREENBELT, Md. — An international consortium of astrophysicists and planetary scientists announced a transformative astronomical discovery Thursday morning, revealing that NASA's James Webb Space Telescope (JWST) has detected definitive spectroscopic signatures of water vapor, carbon dioxide, and methane in the atmosphere of an Earth-sized rocky exoplanet orbiting within the habitable zone of a nearby red dwarf star. The peer-reviewed findings, published simultaneously in Nature Astronomy, represent the most compelling atmospheric characterization of a potentially habitable terrestrial world ever documented outside our solar system.\n\nThe planet, designated LHS 1140 b and located approximately forty-eight light-years from Earth in the constellation Cetus, transits a calm, low-activity red dwarf star once every thirty-eight days. Because the star does not exhibit the destructive, high-energy coronal mass ejections typical of more volatile M-dwarf stars, researchers have long hypothesized that the planet might retain a stable atmosphere. Utilizing Webb's high-precision Near-Infrared Spectrograph (NIRSpec) during six consecutive transit alignments over the past eighteen months, scientists captured subtle dips in stellar light as it filtered through the exoplanet's gaseous envelope.\n\nThe resulting transmission spectrum revealed pronounced molecular absorption bands corresponding to water vapor and carbon-bearing compounds, with data confidence exceeding five standard deviations—the scientific gold standard for a confirmed discovery. Climate modeling teams at NASA Goddard Space Flight Center and the Max Planck Institute for Astronomy determined that the atmospheric composition and density are consistent with a moderate greenhouse effect, capable of maintaining surface liquid water oceans beneath a nitrogen-rich sky.\n\nAstrobiologists caution that while the presence of carbon dioxide and water vapor indicates an active volatile cycle and potential habitability, it does not constitute conclusive evidence of extraterrestrial biological life. Nevertheless, the discovery marks the triumphant realization of JWST's core scientific design mandate: transforming the search for habitable worlds from theoretical planetary modeling into empirical chemical observation. NASA headquarters confirmed that additional Webb deep-stare observation cycles have been prioritized to analyze seasonal atmospheric variations and search for secondary biosignature trace gases.",
+    "category": "Science",
+    "edition": [
+        "US & Americas",
+        "Global"
+    ],
+    "author": {
+        "name": "Newyorkerherald Staff",
+        "role": "Space Exploration & Astrophysics Desk",
+        "avatar": "/images/authors/sarah_mitchell.jpg"
+    },
+    "publishedAt": "6h ago",
+    "readTime": "7 min read",
+    "imageUrl": "/images/news/nasa-james-webb-telescope-confirms-atmospheric-water-vapor-and-carbon-compounds-on-earth-sized-habitable-zone-exoplanet.webp",
+    "imageCaption": "Artist rendering of an Earth-sized rocky exoplanet with atmospheric water vapor and clouds in the habitable zone.",
+    "imageCredit": "NASA / ESA / CSA / Joseph Olmsted (STScI)",
+    "commentCount": 44,
+    "bullets": [
+        "James Webb Space Telescope detects water vapor, carbon dioxide, and methane on Earth-sized exoplanet LHS 1140 b.",
+        "Planet orbits within the temperate habitable zone of a calm red dwarf star 48 light-years away.",
+        "Peer-reviewed findings in Nature Astronomy confirm the world possesses a stable, non-hydrogen-dominated atmosphere."
+    ],
+    "tags": [
+        "Science",
+        "NASA",
+        "James Webb Telescope",
+        "Exoplanets",
+        "Space",
+        "Astronomy"
+    ]
+},
     {
       id: 'nasa-voyager-1-reaches-historic-one-light-day-distance-from-earth-as-historic-spacecraft-enters-final-interstellar-phase',
       title: 'NASA Voyager 1 Reaches Historic One Light-Day Distance from Earth as Historic Spacecraft Enters Final Interstellar Phase',
@@ -1522,6 +1844,42 @@ Domestic automotive manufacturers have committed multi-billion-dollar off-take a
   ],
 
   'Opinion': [
+    {
+    "id": "the-mandate-of-the-divided-nation-why-americas-split-midterm-vote-is-a-demand-for-pragmatic-compromise-over-partisan-brinkmanship",
+    "title": "The Mandate of the Divided Nation: Why America's Split Midterm Vote Is a Demand for Pragmatic Compromise Over Partisan Brinkmanship",
+    "kicker": "EDITORIAL ESSAY • THE NATION SPEAKS",
+    "summary": "The results of the 2026 midterms demonstrate that the American electorate has once again rejected ideological absolutism in favor of divided government, delivering an unambiguous demand for congressional discipline, fiscal pragmatism, and bipartisan institutional governance over partisan theater.",
+    "body": "WASHINGTON — In the immediate aftermath of any national election, party strategists and cable news commentators rush to claim an ideological triumph, cherry-picking isolated precinct victories to proclaim that the American public has definitively embraced their proprietary brand of partisan orthodoxy. Yet as the certified tallies of the 2026 midterm elections settle into the historical ledger, an entirely different and far more mature portrait of the American electorate emerges. What the voters delivered on Tuesday was not a coronation of either political extremes, but rather a deliberate, sophisticated, and emphatic imposition of institutional checks and balances.\n\nBy granting Republicans an outright majority in the Senate while keeping the House of Representatives on a knife's edge and simultaneously passing progressive state ballot measures on healthcare and workers' rights, millions of American citizens engaged in thoughtful ticket-splitting. In living rooms across the Rust Belt and kitchen tables throughout the Sun Belt, voters rejected the performative grievance and apocalyptic rhetoric that have poisoned national discourse for a decade. They voted for fiscal prudence and economic stability without endorsing cultural retrenchment, and they voted for civil rights protections without embracing unchecked federal expansion.\n\nThis institutional dividedness is not an accident of geography; it is the constitutional genius of the American republic asserting itself against partisan excess. When government is divided, the machinery of legislative governance cannot function on narrow party-line reconciliation bills or unilateral executive fiats. It demands negotiation, compromise, and mutual concession. The incoming 120th Congress will face immediate, unavoidable statutory deadlines: the expiration of the 2017 tax provisions, the reauthorization of the farm bill, and essential national defense allocations. Neither party possesses the votes to impose its will without cross-aisle cooperation.\n\nFor leaders in both parties, the message from the ballot box could not be clearer. Americans are fatigued by continuous constitutional crises, government shutdown threats, and manufactured culture wars while kitchen-table expenses, housing affordability, and infrastructure maintenance languish. The true mandate of the 2026 midterms is a mandate for grown-up governance: an imperative for principled compromise that puts national stability above primary-election pandering. If Washington's elected representatives listen to the wisdom of the electorate, this divided government may yet prove to be the most productive and stabilizing chapter in our modern civic life.",
+    "category": "Opinion",
+    "edition": [
+        "US & Americas",
+        "Global"
+    ],
+    "author": {
+        "name": "Newyorkerherald Staff",
+        "role": "Editorial Board & Opinion Desk",
+        "avatar": "/images/authors/sarah_mitchell.jpg"
+    },
+    "publishedAt": "4h ago",
+    "readTime": "8 min read",
+    "imageUrl": "/images/news/the-mandate-of-the-divided-nation-why-americas-split-midterm-vote-is-a-demand-for-pragmatic-compromise-over-partisan-brinkmanship.webp",
+    "imageCaption": "The sunset over the National Mall and the Lincoln Memorial in Washington, D.C.",
+    "imageCredit": "Getty Images / Win McNamee",
+    "commentCount": 56,
+    "bullets": [
+        "The 2026 midterm results reflect a deliberate electorate choice for checks and balances and divided government.",
+        "Split-ticket voting across battleground states demonstrates widespread public fatigue with performative partisan extremism.",
+        "Incoming 120th Congress must embrace cross-aisle compromise on national debt, tax deadlines, and economic stability."
+    ],
+    "tags": [
+        "Opinion",
+        "Editorial",
+        "2026 Midterms",
+        "Governance",
+        "Congress",
+        "Democracy"
+    ]
+},
     {
       id: 'the-2026-midterm-choice-why-america-divided-government-experiment-faces-its-most-dangerous-stress-test',
       title: 'The 2026 Midterm Choice: Why America Divided Government Experiment Faces Its Most Dangerous Stress Test',
@@ -2038,40 +2396,45 @@ export function getHomepageDepartmentArticles(dept: string): Article[] {
   const mapping: Record<string, string[]> = {
     us: [
       'the-vanity-of-alina-habba-mildon',
+      'historic-ballot-measures-triumph-seven-states-pass-landmark-constitutional-amendments-on-healthcare-access-clean-water-and-workers-rights',
       'fatal-florida-private-jet-crash-palm-beach-ntsb-faa-emergency-investigation',
-      'senator-chris-murphy-hospitalized-after-stroke-bipartisan-well-wishes',
-      'end-of-daylight-saving-time-2026-clocks-fall-back-sunshine-protection-act-stalled'
+      'senator-chris-murphy-hospitalized-after-stroke-bipartisan-well-wishes'
     ],
     politics: [
+      '2026-midterm-election-results-republicans-secure-senate-majority-as-battle-for-house-control-comes-down-to-razor-thin-west-coast-recounts',
+      'supreme-court-declines-emergency-bid-to-block-california-mail-in-ballots-on-midterm-election-eve',
       'supreme-court-rejects-emergency-challenge-over-20-000-california-ballots-as-judge-bars-federal-election-interference',
-      'supreme-court-weighs-federal-regulatory-scope-over-state-infrastructure-in-landmark-preemption-case',
-      'bipartisan-congressional-coalition-finalizes-critical-minerals-strategic-stockpile-legislation',
-      'political-analysts-map-competing-scenarios-for-2026-midterms-as-economic-sentiment-evolves'
+      'bipartisan-congressional-coalition-finalizes-critical-minerals-strategic-stockpile-legislation'
     ],
     business: [
+      'wall-street-rallies-to-new-record-highs-as-sp-500-surges-following-midterm-clarity-and-robust-employment-data',
       'oracle-prices-historic-20-billion-debt-and-equity-offering-to-finance-massive-ai-cloud-data-center-expansion',
       'credit-card-swipe-fees-retail-coalition-urges-congress-to-pass-competition-act',
-      'msg-sports-advances-corporate-separation-of-new-york-rangers-to-unlock-pure-play-nhl-franchise-value',
-      'university-engineering-co-op-students-earn-record-99-5m-as-tech-employers-compete-for-applied-talent'
+      'crude-oil-surges-above-89-dollars-as-us-strikes-on-iranian-drone-bases-in-strait-of-hormuz-shake-global-energy-markets'
     ],
     tech: [
-      'us-forces-conduct-retaliatory-strikes-near-qeshm-island-amid-tense-qatari-mediated-iran-negotiations',
+      'openai-and-anthropic-unveil-joint-safety-standards-for-autonomous-ai-agents-as-federal-regulators-weigh-oversight-mandates',
+      'doj-expands-antitrust-probe-into-nvidia-over-13-billion-dollar-hugging-face-acquisition-and-ai-developer-lock-in',
       'nvidia-ceo-jensen-huang-scrutiny-trump-response-ai-semiconductor-sovereignty',
-      'menomonie-wisconsin-ai-data-center-local-protest-backlash-energy-water',
-      'lawmakers-scrutinize-autonomous-ai-cybersecurity-agents-following-unauthorized-model-exploits'
+      'menomonie-wisconsin-ai-data-center-local-protest-backlash-energy-water'
     ],
     entertainment: [
+      'grammy-nominations-2027-reveal-historic-shakeup-as-global-sounds-and-independent-releases-lead-major-field-categories',
+      'christopher-nolan-epic-the-odyssey-surpasses-1-17-billion-dollars-to-break-universal-all-time-international-box-office-record',
       'subscription-fatigue-hits-streaming-giants-as-pay-tv-satisfaction-rebounds-in-latest-consumer-index',
       'paramount-skydance-merger-completes-formal-integration-uniting-studio-blockbusters-with-gaming-franchises'
     ],
     sports: [
+      'los-angeles-dodgers-crowned-2026-world-series-champions-in-thrilling-extra-inning-game-7-classic-against-new-york-yankees',
+      'lamar-jackson-placed-on-injured-reserve-with-thumb-surgery-in-crushing-blow-to-baltimore-ravens-afc-title-hopes',
       'twenty-year-old-kimi-antonelli-becomes-youngest-formula-1-world-champion-in-historic-mexico-city-grand-prix',
       'nfl-week-9-commanders-crush-eagles-rams-chargers-derby-luka-45-points'
     ],
     science: [
+      'nasa-james-webb-telescope-confirms-atmospheric-water-vapor-and-carbon-compounds-on-earth-sized-habitable-zone-exoplanet',
+      'nasa-voyager-1-reaches-historic-one-light-day-distance-from-earth-as-historic-spacecraft-enters-final-interstellar-phase',
       'catastrophic-flash-floods-force-emergency-evacuations-across-southwestern-colorado-as-atmospheric-river-slams-rockies',
-      'usgs-supervolcano-research-reveals-yellowstone-eruptions-occur-in-complex-multi-pulse-sequences',
-      'advanced-solid-state-battery-pilot-facilities-break-ground-across-midwest-clean-tech-corridors'
+      'usgs-supervolcano-research-reveals-yellowstone-eruptions-occur-in-complex-multi-pulse-sequences'
     ]
   };
 
