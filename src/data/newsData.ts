@@ -3,35 +3,35 @@ import { Article, OpinionColumn, FactCheckItem, PhotoStory, VideoItem, PodcastEp
 export const BREAKING_NEWS_ITEMS = [
   {
     id: 'brk-1',
-    kicker: 'HOUSE BALANCE OF POWER',
-    headline: 'House Majority in Standoff as Late Mail Ballots Counted in West',
+    kicker: 'CALIFORNIA JUSTICE',
+    headline: 'Newsom Commutes Death Sentences for All 548 Inmates in State',
     time: '2m ago',
-    url: '/politics/house-control-in-balance-as-late-mail-ballots-counted-in-west'
+    url: '/us/newsom-commutes-death-sentences-for-all-548-california-inmates'
   },
   {
     id: 'brk-2',
-    kicker: 'CENTRAL BANK ACTION',
-    headline: 'Fed Cuts Interest Rates by 25 Basis Points as Powell Speaks',
-    time: '12m ago',
-    url: '/business/fed-cuts-interest-rates-by-25-basis-points-as-powell-speaks'
+    kicker: 'FEDERAL INJUNCTION',
+    headline: 'Judge Chutkan Blocks Trump 250-Foot Triumphal Arch in D.C.',
+    time: '14m ago',
+    url: '/politics/judge-chutkan-blocks-trump-250-foot-triumphal-arch-in-dc'
   },
   {
     id: 'brk-3',
-    kicker: 'CLEAN ENERGY MILESTONE',
-    headline: 'MIT Fusion Reactor Achieves Historic Net Energy Plasma Gain',
-    time: '24m ago',
-    url: '/science/mit-fusion-reactor-achieves-historic-net-energy-plasma-gain'
+    kicker: 'WALL STREET DROP',
+    headline: 'Wall Street Plunges as Nasdaq Enters Correction Over AI Capex',
+    time: '28m ago',
+    url: '/business/wall-street-plunges-as-nasdaq-enters-correction-over-ai-capex'
   }
 ];
 
 export const TRENDING_TAGS = [
-  '#HouseMajority2026',
-  '#FedRateCut',
-  '#ColoradoRiverPact',
-  '#NvidiaTSMCArizona',
-  '#Avatar3Trailer',
-  '#SPARCFusion',
-  '#RavensThursdayWin'
+  '#CaliforniaDeathRow',
+  '#JudgeChutkan',
+  '#WallStreetSelloff',
+  '#OpenAILinux',
+  '#WordOfTheYear',
+  '#Mogging',
+  '#LAMayorRaman'
 ];
 
 export const LEAD_ARTICLE: Article = {
@@ -75,11 +75,11 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
 
 export const SECONDARY_LEAD_STORIES: Article[] = [
     {
-    "id": "house-control-in-balance-as-late-mail-ballots-counted-in-west",
-    "title": "House Control in Balance as Late Mail Ballots Counted in West",
-    "kicker": "CONGRESSIONAL DEADLOCK • 2026 MIDTERM TALLY",
-    "summary": "The battle for the 435-seat House of Representatives entered its fourth day of meticulous tabulation on Friday, with the majority teetering on fewer than 4,500 uncounted mail-in ballots across nine hyper-competitive districts in California, Arizona, and Oregon.",
-    "body": "WASHINGTON & SACRAMENTO — Three days after the conclusion of polling across the nation, control of the United States House of Representatives remains locked in an agonizingly narrow standoff that election statisticians caution may not be definitively certified until late next week. With Republicans having secured an outright 52-seat majority in the Senate and captured key gubernatorial mansions, the balance of power across Washington now hinges entirely on nine uncalled congressional districts scattered across the agricultural valleys of Central California, the suburbs of Orange County, and the desert precincts of Maricopa and Pima counties in Arizona.\n\nIn California's 13th and 22nd congressional districts, election workers in Fresno, Kern, and Stanislaus counties are processing hundreds of trays of vote-by-mail envelopes under around-the-clock observation from bipartisan legal monitors and campaign audit representatives. Under California statutory guidelines, election administrators conduct thorough signature verification against DMV and voter registration records, providing voters whose signatures exhibit technical variances an eight-day statutory window to submit signature cure affidavits. As of Friday morning, the cumulative vote margin across both Central Valley districts stood at fewer than seven hundred votes, with tens of thousands of late-postmarked mail-in ballots yet to be unpacked from secure regional sorting centers.\n\nSimultaneously, in Arizona's 1st and 6th districts, Maricopa County recorder teams began the laborious process of processing late-arriving early ballots dropped off at polling places on Election Day. Election officials in Phoenix confirmed that tabulation machines are operating at maximum capacity following rigorous logic-and-accuracy tests. In Washington, both national party committees have deployed rapid-response legal squads and volunteer canvassing brigades to assist voters in curing challenged ballots, recognizing that each individual vote could determine which party commands the speaker's gavel, manages committee subpoena authority, and controls federal spending bills for the next two years.\n\nHouse Democratic Leader Hakeem Jeffries and Speaker Mike Johnson both held closed-door strategy briefings with their incoming freshman cohorts on Friday morning. While House Republicans currently hold a microscopic paper lead of 216 projected seats to Democrats' 212 in called races, the mathematical combinations remaining on the board mean that either party could theoretically cross the 218-seat threshold as final Western tabulations are reported over the coming weekend. Constitutional scholars noted that regardless of which party emerges victorious, the incoming 120th Congress will operate under the narrowest House majority in over a century, virtually guaranteeing high-stakes legislative bargaining and institutional moderation.",
+    "id": "judge-chutkan-blocks-trump-250-foot-triumphal-arch-in-dc",
+    "title": "Judge Chutkan Blocks Trump 250-Foot Triumphal Arch in D.C.",
+    "kicker": "FEDERAL INJUNCTION • MONUMENT DISPUTE",
+    "summary": "U.S. District Judge Tanya Chutkan issued an emergency injunction on Friday temporarily halting preliminary construction work on President Donald Trump’s planned 250-foot triumphal arch in Washington, D.C., ruling that administrative approvals bypassed mandatory federal environmental and historic preservation statutes.",
+    "body": "WASHINGTON — In a consequential judicial intervention that has set off a fresh confrontation between the White House and the federal bench, U.S. District Judge Tanya S. Chutkan granted an emergency preliminary injunction Friday morning halting all ongoing architectural and excavation work on President Donald Trump's proposed 250-foot triumphal monument arch near the National Mall. The ruling delivers an immediate procedural victory to a broad coalition of urban preservation societies, historic landmark trusts, and regional environmental groups who contended that federal agencies expedited approvals without conducting statutory impact reviews required by federal law.\n\nThe controversial civic project, announced by the White House earlier this autumn as the centerpiece of a signature legacy modernization initiative for the federal district, envisions a colossal Neoclassical triumphal arch dwarfing the 169-foot Arc de Triomphe in Paris. Planned for construction on federal parkland along the Potomac River corridor near Constitution Avenue, the monument has drawn fierce opposition from local civic planning boards, architectural historians, and district residents, who argued the structure would irreversibly obstruct visual sightlines between the Lincoln Memorial and Arlington National Cemetery.\n\nIn her sharply worded 38-page memorandum opinion, Judge Chutkan determined that the Department of the Interior, the National Park Service, and the Commission of Fine Arts failed to satisfy baseline procedural mandates under the National Environmental Policy Act (NEPA) and Section 106 of the National Historic Preservation Act. The court noted that administrative permits were authorized through emergency categorical exclusions typically reserved for urgent infrastructure repairs, effectively circumventing mandatory public notice periods, community comment sessions, and independent structural impact assessments on regional groundwater tables.\n\n\"The executive branch possesses substantial discretion in managing public properties, but that discretion remains bounded by the statutory constraints enacted by the Congress of the United States,\" Judge Chutkan wrote. \"Federal agencies cannot short-circuit decades of established environmental and historic preservation jurisprudence merely because a proposed civic project enjoys high-level executive enthusiasm.\"\n\nWhite House press officials condemned the injunction within hours, characterizing the decision as judicial overreach and asserting that federal land management statutes provide clear constitutional authority for executive aesthetic enhancements. The Department of Justice immediately noticed an expedited interlocutory appeal to the U.S. Court of Appeals for the District of Columbia Circuit, requesting an emergency stay of the injunction to allow preparatory soil engineering and boundary fencing to proceed ahead of the winter freeze.",
     "category": "Politics",
     "edition": [
         "US & Americas",
@@ -87,27 +87,27 @@ export const SECONDARY_LEAD_STORIES: Article[] = [
     ],
     "author": {
         "name": "Newyorkerherald Staff",
-        "role": "Capitol Hill & National Politics Bureau",
+        "role": "Federal Courts & National Legal Affairs Desk",
         "avatar": "/images/authors/sarah_mitchell.jpg"
     },
-    "publishedAt": "2h ago",
+    "publishedAt": "1h ago",
     "readTime": "7 min read",
-    "imageUrl": "/images/news/house-control-in-balance-as-late-mail-ballots-counted-in-west.webp",
-    "imageCaption": "Election workers in California examine and tabulate mail-in ballot envelopes under bipartisan observation.",
-    "imageCredit": "Associated Press / Rich Pedroncelli",
-    "commentCount": 82,
+    "imageUrl": "/images/news/judge-chutkan-blocks-trump-250-foot-triumphal-arch-in-dc.webp",
+    "imageCaption": "The United States District Court for the District of Columbia in Washington, where Judge Tanya Chutkan issued the injunction.",
+    "imageCredit": "Associated Press / J. Scott Applewhite",
+    "commentCount": 96,
     "bullets": [
-        "House majority hinges on fewer than 4,500 uncounted ballots across nine key districts in California, Arizona, and Oregon.",
-        "California signature verification and cure windows extend counting schedules into next week.",
-        "Incoming majority will govern with the narrowest House margin in modern American history."
+        "U.S. District Judge Tanya Chutkan halts preliminary construction on planned 250-foot triumphal arch in Washington.",
+        "Ruling finds federal agencies bypassed mandatory NEPA environmental reviews and historic preservation rules.",
+        "Department of Justice files expedited emergency appeal to the D.C. Circuit seeking to overturn the injunction."
     ],
     "tags": [
         "Politics",
-        "House of Representatives",
-        "2026 Midterms",
-        "California",
-        "Arizona",
-        "Congress"
+        "Donald Trump",
+        "Tanya Chutkan",
+        "Courts",
+        "Washington DC",
+        "Monuments"
     ]
 },
     {
@@ -440,39 +440,39 @@ As the Federal Energy Regulatory Commission (FERC) convenes national stakeholder
 export const CATEGORY_ARTICLES: Record<string, Article[]> = {
   'Investigation': [
     {
-    "id": "investigation-crypto-shell-network-evaded-foreign-lobbying-laws",
-    "title": "Investigation: Crypto Shell Network Evaded Foreign Lobbying Laws",
-    "kicker": "CONGRESSIONAL SCANDAL • FARA ENFORCEMENT",
-    "summary": "A six-month joint Newyorkerherald investigation reveals how an intricate nexus of offshore cryptocurrency mixers and domestic 501(c)(4) entities funneled $84 million in illicit foreign capital into congressional campaigns while circumventing federal registration statutes.",
-    "body": "WASHINGTON & MIAMI — In an explosive enterprise report that has triggered an immediate Department of Justice criminal inquiry, an exhaustive six-month investigation by the Newyorkerherald Investigative Reporting Unit reveals that a sophisticated network of offshore cryptocurrency shell companies funneled more than $84 million in dark money into American political campaigns during the 2026 election cycle. The illicit funding mechanism, engineered through privacy mixers in the Caribbean and decentralized autonomous organizations (DAOs) registered in Switzerland, was systematically utilized by foreign industrial conglomerates to circumvent the Foreign Agents Registration Act (FARA) and federal prohibitions against foreign national contributions in U.S. elections.\n\nBy cross-referencing on-chain blockchain telemetry, subpoenaed banking wire records, and thousands of encrypted corporate communications leaked by whistleblowers, investigators traced the capital flight from overseas state-backed mining consortiums through secondary stablecoin wallets into three seemingly innocuous domestic non-profit social welfare organizations headquartered in Delaware and Wyoming. Once in domestic accounts, the funds were dispersed across five major super PACs, which deployed the capital to fund aggressive digital smear campaigns against lawmakers who championed stricter semiconductor export restrictions and maritime mining sanctions.\n\nInternal strategy memos obtained by reporters outline a calculated playbook: political consultants coached foreign principals on utilizing algorithmic micro-donations beneath the Federal Election Commission's (FEC) statutory reporting thresholds, layering digital transfers across thousands of synthetic identities created with stolen biometric credentials. The non-profits also hired prominent former congressional staff members and K Street lobbyists to secure private legislative hearings, falsely certifying on federal disclosure filings that their activities were financed exclusively by domestic commercial trade groups.\n\nIn response to the publication of the investigation's findings on Friday morning, the Department of Justice's National Security Division confirmed that federal grand jury subpoenas have been issued to six political consulting firms and three digital asset custodians. Lawmakers from both parties on the Senate Judiciary Committee announced emergency oversight hearings for next month, calling for statutory reforms to close digital asset campaign finance loopholes and grant the FEC real-time subpoena authority over decentralized finance transactions.",
+    "id": "investigation-trump-oval-office-landmark-move-sparks-inquiries",
+    "title": "Investigation: Trump Oval Office Landmark Move Sparks Inquiries",
+    "kicker": "ETHICS INQUIRY • WHITE HOUSE HERITAGE",
+    "summary": "A Newyorkerherald investigation into President Donald Trump’s unprecedented executive proclamation designating the Oval Office and Cabinet Room as a national monument reveals severe legal vulnerabilities, conflicts with historic preservation laws, and imminent congressional inquiries.",
+    "body": "WASHINGTON — When President Donald J. Trump sat behind the historic Resolute Desk wearing a red \"VETO\" baseball cap on Thursday afternoon to sign an executive proclamation designating the Oval Office and the West Wing Cabinet Room as an official national monument, White House aides framed the ceremony as a patriotic tribute to presidential architectural heritage. Yet an exhaustive investigation by the Newyorkerherald Investigative Reporting Unit reveals that the unprecedented proclamation has ignited an intense behind-the-scenes legal and ethical crisis across federal land management agencies, triggering immediate scrutiny from congressional oversight committees and government ethics watchdogs.\n\nAn examination of internal memoranda from the Department of the Interior and the National Park Service indicates that career attorneys warned senior administration officials that utilizing the Antiquities Act of 1906 to declare operational working offices of the executive mansion as a national monument breaches more than a century of statutory precedent. Under federal law, the Antiquities Act empowers the president to protect federal lands and objects of historic or scientific interest, historically applied to natural wonders like the Grand Canyon or prehistoric archaeological ruins across public domain lands.\n\nLegal scholars and constitutional historians interviewed by Newyorkerherald point out that designating the West Wing workspace as a national monument introduces severe administrative contradictions. Under federal preservation guidelines governing national monuments, any physical modification, electronic security enhancement, or architectural alterations to protected structures must undergo exhaustive federal advisory reviews, potentially constraining future administrations from redecorating or modernizing secure communications facilities within the Oval Office.\n\nCongressional leaders from the incoming House Committee on Oversight and Government Reform confirmed on Friday that they have formally requested all internal correspondence, legal memos, and communications between the Executive Office of the President and the National Park Service concerning the designation. Ethics watchdogs emphasized that federal statutes explicitly assign jurisdiction over White House furnishings and architectural maintenance to the Committee for the Preservation of the White House and the White House Historical Association, setting up an inevitable legal showdown over executive unilateralism.",
     "category": "Investigation",
     "edition": [
         "US & Americas"
     ],
     "author": {
         "name": "Newyorkerherald Staff",
-        "role": "Enterprise & Financial Crimes Investigative Unit",
+        "role": "White House & Ethics Investigative Bureau",
         "avatar": "/images/authors/sarah_mitchell.jpg"
     },
-    "publishedAt": "6h ago",
-    "readTime": "9 min read",
-    "imageUrl": "/images/news/investigation-crypto-shell-network-evaded-foreign-lobbying-laws.webp",
-    "imageCaption": "Federal court and Department of Justice buildings in Washington, D.C., where grand jury subpoenas were issued.",
-    "imageCredit": "Newyorkerherald Investigative Bureau",
+    "publishedAt": "5h ago",
+    "readTime": "8 min read",
+    "imageUrl": "/images/news/investigation-trump-oval-office-landmark-move-sparks-inquiries.webp",
+    "imageCaption": "The exterior of the West Wing and the Oval Office at the White House in Washington, D.C.",
+    "imageCredit": "Newyorkerherald Investigative Desk",
     "isInvestigative": true,
-    "commentCount": 112,
+    "commentCount": 92,
     "bullets": [
-        "Six-month investigation uncovers $84 million foreign dark-money pipeline routed through crypto mixers into 2026 midterms.",
-        "Offshore conglomerates bypassed FARA requirements to influence semiconductor and mining trade legislation.",
-        "DOJ National Security Division issues grand jury subpoenas as Senate Judiciary Committee schedules emergency hearings."
+        "Investigation reveals internal Interior Department warnings against using 1906 Antiquities Act on the Oval Office.",
+        "Monument designation creates severe legal conflicts over future security upgrades and presidential redecorations.",
+        "House Oversight leaders launch inquiry into legal counsel memos and executive communications."
     ],
     "tags": [
         "Investigation",
-        "Cryptocurrency",
-        "Campaign Finance",
-        "FARA",
-        "DOJ",
-        "Corruption",
+        "Donald Trump",
+        "Oval Office",
+        "White House",
+        "Antiquities Act",
+        "Ethics",
         "Congress"
     ]
 },
@@ -589,39 +589,38 @@ In Albany, Governor Kathy Hochul convened an emergency public health cabinet mee
   ],
     'US': [
     {
-    "id": "seven-states-reach-landmark-historic-colorado-river-water-pact",
-    "title": "Seven States Reach Landmark Historic Colorado River Water Pact",
-    "kicker": "RESOURCE SECURITY • WESTERN WATER ACCORD",
-    "summary": "Water negotiators from seven western basin states finalized a binding consensus agreement on Friday governing post-2026 Colorado River allocations, mandating permanent volumetric reductions of 3.8 million acre-feet annually to stabilize reservoirs Lake Mead and Lake Powell.",
-    "body": "DENVER & PHOENIX — Following two years of combative closed-door negotiations and mounting federal pressure from the Department of the Interior, water resource commissioners representing all seven Colorado River basin states formally announced on Friday morning that they have reached a historic, multi-decade consensus accord to protect the shrinking waterway from systemic hydrological collapse. The agreement, forged between the Upper Basin states of Colorado, New Mexico, Utah, and Wyoming and the Lower Basin states of Arizona, California, and Nevada, establishes legally binding post-2026 operating guidelines that will dictate water deliveries to forty million residents and four million acres of commercial farmland through 2046.\n\nUnder the framework of the new accord, the basin states will collectively absorb mandatory permanent volumetric reductions totaling 3.8 million acre-feet of annual water withdrawals—an unprecedented sixteen percent curtailment across municipal, agricultural, and industrial allocations. The Lower Basin agreed to shoulder the initial 1.5 million acre-feet of reductions through aggressive agricultural fallowing programs, municipal turf-replacement rebates, and advanced irrigation canal lining infrastructure, funded in part by remaining allocations from federal climate resilience grants. In exchange, the Upper Basin agreed to tie their operational reservoir releases from Lake Powell directly to actual seasonal snowpack runoff measurements in the Rocky Mountains rather than outdated statutory release targets established in the 1922 Colorado River Compact.\n\nHydrologists from the U.S. Bureau of Reclamation praised the breakthrough as a vital lifeline for the American Southwest, noting that two decades of climate-induced aridification and prolonged structural deficits had repeatedly threatened to push Lake Mead and Lake Powell toward \"dead pool\" elevations, which would have crippled hydroelectric power generation at Hoover Dam and Glen Canyon Dam. The consensus pact averts unilateral mandatory curtailment mandates that federal officials had threatened to impose under federal public trust doctrines if the states had failed to reach agreement prior to the December statutory deadline.\n\nAgricultural irrigation districts in California's Imperial Valley and central Arizona, which consume the lion's share of Colorado River flows to produce the nation's winter vegetable harvest, confirmed they will implement computerized soil-moisture sensor networks and drip-irrigation retrofits to maintain crop yields while reducing water consumption. Environmental advocacy coalitions also celebrated the agreement for setting aside two hundred thousand acre-feet of dedicated environmental surge flows designed to revive native cottonwood riparian habitats and indigenous fish sanctuaries along the parched Colorado River delta corridor.",
+    "id": "newsom-commutes-death-sentences-for-all-548-california-inmates",
+    "title": "Newsom Commutes Death Sentences for All 548 California Inmates",
+    "kicker": "HISTORIC CLEMENCY • CAPITAL PUNISHMENT",
+    "summary": "California Governor Gavin Newsom announced the largest mass clemency action in modern American history on Friday, commuting the death sentences of all 548 condemned inmates on the nation’s largest death row to life imprisonment without the possibility of parole.",
+    "body": "SACRAMENTO & SAN QUENTIN, Calif. — In an unprecedented and sweeping exercise of executive clemency that will fundamentally reshape the American capital justice system, California Governor Gavin Newsom formally announced Friday that he has commuted the death sentences of all 548 individuals currently on the state's death row. The historic decree, enacted through hundreds of individually signed executive orders, permanently vacates the capital sentences of every condemned prisoner in California, converting their status to life imprisonment without the possibility of parole and effectively dismantling the single largest death row population in the Western Hemisphere.\n\nSpeaking before reporters and civil rights advocates at the state Capitol in Sacramento, Newsom described capital punishment as an inherently flawed, racially biased, and exorbitantly costly institutional failure that provides neither deterrence nor true closure for victims' families. The decision fulfills Newsom's career-long moral crusade against the death penalty, building upon his 2019 executive moratorium on executions and the subsequent physical decommissioning and dismantling of the lethal injection execution chamber at San Quentin Rehabilitation Center.\n\n\"The intentional taking of human life by the state is irrevocably incompatible with our foundational democratic values,\" Newsom declared during the emotional morning announcement. \"For decades, capital punishment in California has functioned not as an instrument of swift justice, but as an arbitrary, multi-billion-dollar legal charade disproportionately inflicted upon indigent defendants, people of color, and those suffering from severe cognitive impairment. Today, California closes this dark chapter permanently.\"\n\nThe mass commutation was met with immediate, impassioned praise from civil rights organizations, legal defense funds, and international human rights monitors. The American Civil Liberties Union and the Equal Justice Initiative commended the governor for moral courage, emphasizing that California's action marks a watershed moment that will accelerate national momentum toward the full abolition of capital punishment. State corrections officials confirmed that over the next six months, the 527 men and 21 women affected by the clemency order will be phased out of segregated death-row cellblocks and integrated into general maximum-security prison housing, where they will be required to participate in mandatory prison labor to pay restitution to victims' crime survivors.\n\nHowever, the sweeping move ignited fierce political blowback from conservative state lawmakers, county district attorneys, and victim advocacy groups. The California District Attorneys Association issued a joint denunciation, calling the mass commutation an egregious overreach of executive authority that betrays the families of homicide victims and flouts voter-approved ballot initiatives that repeatedly upheld capital punishment in 2012 and 2016. Republican legislative leaders announced plans to file an immediate constitutional challenge in state court, arguing that categorical mass clemency violates statutory procedural review requirements under the California Constitution.",
     "category": "US",
     "edition": [
         "US & Americas"
     ],
     "author": {
         "name": "Newyorkerherald Staff",
-        "role": "Western Natural Resources & Environment Bureau",
+        "role": "California & National Justice Bureau",
         "avatar": "/images/authors/sarah_mitchell.jpg"
     },
-    "publishedAt": "3h ago",
-    "readTime": "7 min read",
-    "imageUrl": "/images/news/seven-states-reach-landmark-historic-colorado-river-water-pact.webp",
-    "imageCaption": "The Colorado River basin and Hoover Dam reservoir facilities at Lake Mead following new water allocation pact.",
+    "publishedAt": "2h ago",
+    "readTime": "8 min read",
+    "imageUrl": "/images/news/newsom-commutes-death-sentences-for-all-548-california-inmates.webp",
+    "imageCaption": "California Governor Gavin Newsom speaks in Sacramento announcing mass clemency for death row inmates.",
     "imageCredit": "Getty Images / Justin Sullivan",
-    "commentCount": 45,
+    "commentCount": 142,
     "bullets": [
-        "Seven western states sign binding consensus accord mandating 3.8 million acre-feet in annual water reductions through 2046.",
-        "Prevents Lake Mead and Lake Powell from breaching catastrophic dead-pool reservoir thresholds.",
-        "Averts federal intervention as agricultural and municipal stakeholders adopt permanent water efficiency standards."
+        "Governor Gavin Newsom commutes all 548 death sentences to life without parole in largest U.S. clemency action.",
+        "Permanently dismantles the largest death row population in the United States at San Quentin.",
+        "District attorneys and victim rights groups announce immediate legal challenge to executive clemency orders."
     ],
     "tags": [
         "US",
-        "Colorado River",
-        "Water Security",
-        "Environment",
         "California",
-        "Arizona",
-        "Lake Mead"
+        "Gavin Newsom",
+        "Death Penalty",
+        "San Quentin",
+        "Criminal Justice"
     ]
 },
     {
@@ -762,11 +761,11 @@ As the clocks reset, congressional leaders confirmed that bipartisan committee s
   ],
   'Politics': [
     {
-    "id": "house-control-in-balance-as-late-mail-ballots-counted-in-west",
-    "title": "House Control in Balance as Late Mail Ballots Counted in West",
-    "kicker": "CONGRESSIONAL DEADLOCK • 2026 MIDTERM TALLY",
-    "summary": "The battle for the 435-seat House of Representatives entered its fourth day of meticulous tabulation on Friday, with the majority teetering on fewer than 4,500 uncounted mail-in ballots across nine hyper-competitive districts in California, Arizona, and Oregon.",
-    "body": "WASHINGTON & SACRAMENTO — Three days after the conclusion of polling across the nation, control of the United States House of Representatives remains locked in an agonizingly narrow standoff that election statisticians caution may not be definitively certified until late next week. With Republicans having secured an outright 52-seat majority in the Senate and captured key gubernatorial mansions, the balance of power across Washington now hinges entirely on nine uncalled congressional districts scattered across the agricultural valleys of Central California, the suburbs of Orange County, and the desert precincts of Maricopa and Pima counties in Arizona.\n\nIn California's 13th and 22nd congressional districts, election workers in Fresno, Kern, and Stanislaus counties are processing hundreds of trays of vote-by-mail envelopes under around-the-clock observation from bipartisan legal monitors and campaign audit representatives. Under California statutory guidelines, election administrators conduct thorough signature verification against DMV and voter registration records, providing voters whose signatures exhibit technical variances an eight-day statutory window to submit signature cure affidavits. As of Friday morning, the cumulative vote margin across both Central Valley districts stood at fewer than seven hundred votes, with tens of thousands of late-postmarked mail-in ballots yet to be unpacked from secure regional sorting centers.\n\nSimultaneously, in Arizona's 1st and 6th districts, Maricopa County recorder teams began the laborious process of processing late-arriving early ballots dropped off at polling places on Election Day. Election officials in Phoenix confirmed that tabulation machines are operating at maximum capacity following rigorous logic-and-accuracy tests. In Washington, both national party committees have deployed rapid-response legal squads and volunteer canvassing brigades to assist voters in curing challenged ballots, recognizing that each individual vote could determine which party commands the speaker's gavel, manages committee subpoena authority, and controls federal spending bills for the next two years.\n\nHouse Democratic Leader Hakeem Jeffries and Speaker Mike Johnson both held closed-door strategy briefings with their incoming freshman cohorts on Friday morning. While House Republicans currently hold a microscopic paper lead of 216 projected seats to Democrats' 212 in called races, the mathematical combinations remaining on the board mean that either party could theoretically cross the 218-seat threshold as final Western tabulations are reported over the coming weekend. Constitutional scholars noted that regardless of which party emerges victorious, the incoming 120th Congress will operate under the narrowest House majority in over a century, virtually guaranteeing high-stakes legislative bargaining and institutional moderation.",
+    "id": "judge-chutkan-blocks-trump-250-foot-triumphal-arch-in-dc",
+    "title": "Judge Chutkan Blocks Trump 250-Foot Triumphal Arch in D.C.",
+    "kicker": "FEDERAL INJUNCTION • MONUMENT DISPUTE",
+    "summary": "U.S. District Judge Tanya Chutkan issued an emergency injunction on Friday temporarily halting preliminary construction work on President Donald Trump’s planned 250-foot triumphal arch in Washington, D.C., ruling that administrative approvals bypassed mandatory federal environmental and historic preservation statutes.",
+    "body": "WASHINGTON — In a consequential judicial intervention that has set off a fresh confrontation between the White House and the federal bench, U.S. District Judge Tanya S. Chutkan granted an emergency preliminary injunction Friday morning halting all ongoing architectural and excavation work on President Donald Trump's proposed 250-foot triumphal monument arch near the National Mall. The ruling delivers an immediate procedural victory to a broad coalition of urban preservation societies, historic landmark trusts, and regional environmental groups who contended that federal agencies expedited approvals without conducting statutory impact reviews required by federal law.\n\nThe controversial civic project, announced by the White House earlier this autumn as the centerpiece of a signature legacy modernization initiative for the federal district, envisions a colossal Neoclassical triumphal arch dwarfing the 169-foot Arc de Triomphe in Paris. Planned for construction on federal parkland along the Potomac River corridor near Constitution Avenue, the monument has drawn fierce opposition from local civic planning boards, architectural historians, and district residents, who argued the structure would irreversibly obstruct visual sightlines between the Lincoln Memorial and Arlington National Cemetery.\n\nIn her sharply worded 38-page memorandum opinion, Judge Chutkan determined that the Department of the Interior, the National Park Service, and the Commission of Fine Arts failed to satisfy baseline procedural mandates under the National Environmental Policy Act (NEPA) and Section 106 of the National Historic Preservation Act. The court noted that administrative permits were authorized through emergency categorical exclusions typically reserved for urgent infrastructure repairs, effectively circumventing mandatory public notice periods, community comment sessions, and independent structural impact assessments on regional groundwater tables.\n\n\"The executive branch possesses substantial discretion in managing public properties, but that discretion remains bounded by the statutory constraints enacted by the Congress of the United States,\" Judge Chutkan wrote. \"Federal agencies cannot short-circuit decades of established environmental and historic preservation jurisprudence merely because a proposed civic project enjoys high-level executive enthusiasm.\"\n\nWhite House press officials condemned the injunction within hours, characterizing the decision as judicial overreach and asserting that federal land management statutes provide clear constitutional authority for executive aesthetic enhancements. The Department of Justice immediately noticed an expedited interlocutory appeal to the U.S. Court of Appeals for the District of Columbia Circuit, requesting an emergency stay of the injunction to allow preparatory soil engineering and boundary fencing to proceed ahead of the winter freeze.",
     "category": "Politics",
     "edition": [
         "US & Americas",
@@ -774,27 +773,27 @@ As the clocks reset, congressional leaders confirmed that bipartisan committee s
     ],
     "author": {
         "name": "Newyorkerherald Staff",
-        "role": "Capitol Hill & National Politics Bureau",
+        "role": "Federal Courts & National Legal Affairs Desk",
         "avatar": "/images/authors/sarah_mitchell.jpg"
     },
-    "publishedAt": "2h ago",
+    "publishedAt": "1h ago",
     "readTime": "7 min read",
-    "imageUrl": "/images/news/house-control-in-balance-as-late-mail-ballots-counted-in-west.webp",
-    "imageCaption": "Election workers in California examine and tabulate mail-in ballot envelopes under bipartisan observation.",
-    "imageCredit": "Associated Press / Rich Pedroncelli",
-    "commentCount": 82,
+    "imageUrl": "/images/news/judge-chutkan-blocks-trump-250-foot-triumphal-arch-in-dc.webp",
+    "imageCaption": "The United States District Court for the District of Columbia in Washington, where Judge Tanya Chutkan issued the injunction.",
+    "imageCredit": "Associated Press / J. Scott Applewhite",
+    "commentCount": 96,
     "bullets": [
-        "House majority hinges on fewer than 4,500 uncounted ballots across nine key districts in California, Arizona, and Oregon.",
-        "California signature verification and cure windows extend counting schedules into next week.",
-        "Incoming majority will govern with the narrowest House margin in modern American history."
+        "U.S. District Judge Tanya Chutkan halts preliminary construction on planned 250-foot triumphal arch in Washington.",
+        "Ruling finds federal agencies bypassed mandatory NEPA environmental reviews and historic preservation rules.",
+        "Department of Justice files expedited emergency appeal to the D.C. Circuit seeking to overturn the injunction."
     ],
     "tags": [
         "Politics",
-        "House of Representatives",
-        "2026 Midterms",
-        "California",
-        "Arizona",
-        "Congress"
+        "Donald Trump",
+        "Tanya Chutkan",
+        "Courts",
+        "Washington DC",
+        "Monuments"
     ]
 },
     {
@@ -1042,11 +1041,11 @@ In Washington, national security officials convened in the White House Situation
 
   'Business & Economy': [
     {
-    "id": "fed-cuts-interest-rates-by-25-basis-points-as-powell-speaks",
-    "title": "Fed Cuts Interest Rates by 25 Basis Points as Powell Speaks",
-    "kicker": "CENTRAL BANK POLICY • MONETARY EASING",
-    "summary": "The Federal Reserve lowered its benchmark federal funds rate by 25 basis points to a target range of 4.25 to 4.50 percent on Friday, as Chair Jerome Powell signaled that central bankers will adopt a data-dependent, meeting-by-meeting approach amid steady economic expansion and disinflation.",
-    "body": "WASHINGTON — The Federal Open Market Committee (FOMC) voted unanimously on Friday to lower its target federal funds rate by a quarter percentage point, bringing borrowing costs down to a range of 4.25 to 4.50 percent in a calibrated move aimed at calibrating monetary policy with steadily moderating inflation and solid labor market fundamentals. The decision, handed down at the conclusion of the central bank's November policy gathering in Washington, marks the Fed's third consecutive rate reduction this year and underscores policymakers' confidence that consumer price inflation is steadily converging toward their long-run two-percent objective.\n\nIn his post-meeting press conference, Federal Reserve Chair Jerome Powell delivered an upbeat assessment of the broader domestic macroeconomy, noting that while headline gross domestic product growth has remained robust above 2.7 percent annualized, labor supply and demand dynamics have rebalanced into healthy equilibrium. Powell emphasized that the central bank is neither in a rush to slash borrowing rates aggressively nor inclined to pause easing prematurely, characterizing the committee's posture as neutral, data-dependent, and insulated from post-election political turbulence.\n\nAddressing financial market inquiries regarding the upcoming change in congressional leadership, Powell firmly reiterated the institutional independence of the central bank, stressing that monetary decisions will continue to be governed strictly by empirical economic indicators rather than electoral outcomes or fiscal speculation. Government bond markets responded favorably to Powell's measured remarks, with benchmark 2-year Treasury yields slipping four basis points to 4.16 percent, while national mortgage rate averages dipped to 6.35 percent, offering modest relief to prospective homebuyers entering the winter real estate season.\n\nCommercial banking institutions swiftly followed the Fed's move by lowering their prime lending rates from 7.75 to 7.50 percent, reducing borrowing expenses for small business commercial loans, credit card balances, and revolving corporate lines of credit. Senior economists at JPMorgan Chase and Barclays noted that Friday's rate reduction confirms the American economy is executing a historic \"soft landing\"—successfully quelling the worst inflation wave in four decades without triggering an economic recession or widespread job layoffs.",
+    "id": "wall-street-plunges-as-nasdaq-enters-correction-over-ai-capex",
+    "title": "Wall Street Plunges as Nasdaq Enters Correction Over AI Capex",
+    "kicker": "MARKET SLUMP • TECH INFRASTRUCTURE SELLOFF",
+    "summary": "U.S. equity markets suffered a severe, broad-based selloff on Friday, with the tech-heavy Nasdaq Composite tumbling 5.5 percent into official correction territory as investors recoiled from hyperscale AI capital expenditure reports and post-election policy uncertainties.",
+    "body": "NEW YORK — A wave of aggressive institutional selling slammed the New York Stock Exchange and the Nasdaq on Friday, wiping out hundreds of billions of dollars in equity value as financial markets confronted a toxic confluence of soaring artificial intelligence capital expenditures, shifting Washington regulatory expectations, and renewed macroeconomic caution. The Nasdaq Composite suffered its steepest single-session collapse of the year, plunging 5.5 percent to close down more than ten percent from its recent record high, formally entering official correction territory and triggering circuit-breaker pauses across several high-beta semiconductor equities.\n\nThe benchmark S&P 500 sank 4.1 percent in heavy trading volume, while the Dow Jones Industrial Average dropped over 1,200 points, or 2.8 percent. The market rout was spearheaded by catastrophic declines across the \"Magnificent Seven\" megacap technology titans. Shares of Nvidia, Microsoft, Amazon, Alphabet, and Meta plummeted between 6.2 and 9.4 percent after quarterly institutional filings and hyperscale infrastructure disclosures revealed that aggregate corporate spending on AI server clusters, nuclear microgrids, and data center hardware will surpass $280 billion next fiscal year—far outpacing near-term commercial software monetization timelines.\n\nWall Street trading floors grew increasingly anxious following reports from Capitol Hill indicating that the newly confirmed congressional leadership intends to prioritize aggressive legislative scrutiny of hyperscale energy consumption, commercial utility subsidization, and corporate AI monopoly power. Hedge fund risk desks scrambled to liquidate long-equity tech momentum trades, driving the Cboe Volatility Index (VIX)—commonly referred to as Wall Street's fear gauge—up thirty-five percent to its highest closing level since early August.\n\n\"Investors are undergoing a painful, long-overdue reality check regarding the timeline of artificial intelligence returns,\" said Victoria Fernandez, chief market strategist at Crossmark Global Investments. \"For eighteen months, the market gave tech hyperscalers a blank check to spend hundreds of billions on GPUs and power plants. Now, Wall Street is demanding hard revenue figures, and in the absence of immediate margin expansion, institutional capital is rapidly reallocating toward defensive healthcare, utilities, and short-term Treasuries.\"\n\nSafe-haven demand sent 10-year U.S. Treasury yields falling eight basis points to 4.14 percent, while gold futures climbed to $2,745 an ounce. Financial analysts warned that continued equity volatility could constrain venture capital liquidity and corporate initial public offering timelines heading into the final quarter of the year.",
     "category": "Business",
     "edition": [
         "US & Americas",
@@ -1054,27 +1053,28 @@ In Washington, national security officials convened in the White House Situation
     ],
     "author": {
         "name": "Newyorkerherald Staff",
-        "role": "Federal Reserve & Macroeconomics Desk",
+        "role": "Wall Street & Financial Markets Bureau",
         "avatar": "/images/authors/sarah_mitchell.jpg"
     },
-    "publishedAt": "4h ago",
-    "readTime": "6 min read",
-    "imageUrl": "/images/news/fed-cuts-interest-rates-by-25-basis-points-as-powell-speaks.webp",
-    "imageCaption": "Federal Reserve Chair Jerome Powell addresses reporters during his post-FOMC press conference in Washington.",
-    "imageCredit": "Associated Press / Susan Walsh",
-    "commentCount": 56,
+    "publishedAt": "3h ago",
+    "readTime": "7 min read",
+    "imageUrl": "/images/news/wall-street-plunges-as-nasdaq-enters-correction-over-ai-capex.webp",
+    "imageCaption": "A specialist monitors electronic trading terminals on the floor of the New York Stock Exchange amid heavy market declines.",
+    "imageCredit": "New York Stock Exchange / Courtney Crow",
+    "commentCount": 88,
     "bullets": [
-        "Federal Reserve lowers benchmark funds rate by 25 basis points to a target band of 4.25%–4.50%.",
-        "Chair Jerome Powell highlights cooling inflation and resilient employment while reaffirming Fed independence.",
-        "2-year Treasury yields fall to 4.16% as mortgage rates drift lower to 6.35%."
+        "Nasdaq Composite drops 5.5% into official market correction as tech megacaps suffer brutal selloff.",
+        "S&P 500 declines 4.1% and Dow drops 1,200 points as $280B AI capital expenditure projections rattle investors.",
+        "Cboe Volatility Index (VIX) surges 35% as safe-haven bond buying pushes Treasury yields down to 4.14%."
     ],
     "tags": [
         "Business",
-        "Federal Reserve",
-        "Interest Rates",
-        "Jerome Powell",
-        "Economy",
-        "Inflation"
+        "Wall Street",
+        "Stock Market",
+        "Nasdaq",
+        "S&P 500",
+        "AI Capex",
+        "Tech Stocks"
     ]
 },
     {
@@ -1293,11 +1293,11 @@ Sports finance experts note that the move mirrors a broader institutional trend 
 
   'Tech': [
     {
-    "id": "nvidia-and-tsmc-unveil-35b-2nm-ai-semiconductor-hub-in-arizona",
-    "title": "Nvidia and TSMC Unveil $35B 2nm AI Semiconductor Hub in Arizona",
-    "kicker": "SILICON SOVEREIGNTY • ADVANCED MANUFACTURING",
-    "summary": "Nvidia and Taiwan Semiconductor Manufacturing Co. formalized a landmark $35 billion manufacturing partnership on Friday to build a cutting-edge 2-nanometer wafer fabrication and advanced CoWoS packaging facility in Phoenix, securing American semiconductor leadership.",
-    "body": "PHOENIX & SANTA CLARA, Calif. — In a major boost to domestic technology manufacturing and economic national security, semiconductor powerhouse Nvidia and world-leading foundry TSMC announced on Friday a monumental $35 billion collaborative expansion of their Phoenix, Arizona manufacturing campus. The joint initiative will construct the first commercial 2-nanometer (N2) wafer fabrication plant on American soil, coupled with an ultra-advanced Chip-on-Wafer-on-Substrate (CoWoS) packaging annex engineered to manufacture next-generation artificial intelligence accelerators starting in late 2027.\n\nThe high-profile announcement, made alongside federal Commerce Department officials and Arizona Governor Katie Hobbs, addresses the single most acute vulnerability in global artificial intelligence supply chains: the physical concentration of advanced chip packaging facilities overseas. While domestic fabrication plants have steadily risen under federal CHIPS and Science Act subsidies, high-performance GPUs previously required international transport to Taiwan for the intricate 3D packaging and high-bandwidth memory (HBM) integration essential for enterprise AI training workloads.\n\nNvidia CEO Jensen Huang highlighted the strategic urgency of the initiative, explaining that the new Phoenix facility will enable complete, end-to-end onshore manufacturing for Nvidia's forthcoming \"Rubin\" and \"Vera\" chip architectures. The factory will utilize extreme ultraviolet (EUV) lithography systems supplied by ASML, powered by dedicated on-site solar microgrids and industrial water-recycling closed-loop cooling towers engineered to reclaim ninety-eight percent of industrial manufacturing water.\n\nTech analysts and defense officials hailed the accord as a historic inflection point in the geopolitical battle for semiconductor sovereignty. By establishing leading-edge 2nm lithography and advanced packaging within the continental United States, American hyperscalers, defense contractors, and national laboratories will gain guaranteed, uninterrupted access to frontier computing hardware, insulating the domestic technology sector from potential maritime supply chain disruptions in the Taiwan Strait. Construction on the 2.4-million-square-foot facility will commence in January, generating an estimated 6,000 high-tech engineering and construction jobs.",
+    "id": "openai-systems-detect-and-patch-948-linux-kernel-flaws-in-hours",
+    "title": "OpenAI Systems Detect and Patch 948 Linux Kernel Flaws in Hours",
+    "kicker": "CYBERSECURITY BREAKTHROUGH • AUTONOMOUS DEFENSE",
+    "summary": "OpenAI announced on Friday that its autonomous cybersecurity agentic pipeline successfully analyzed the entire Linux kernel codebase, discovering and generating verified cryptographic patches for 948 zero-day vulnerabilities in under four hours.",
+    "body": "SAN FRANCISCO — In an extraordinary technical achievement that signals a revolutionary epoch in software security and automated cyber defense, frontier laboratory OpenAI revealed Friday that its experimental autonomous code-analysis platform successfully audited the entire modern Linux kernel, discovering, verifying, and generating compilable security patches for 948 critical vulnerabilities within a four-hour automated run. The historic demonstration, conducted under controlled red-teaming observation in partnership with the Linux Foundation and national cybersecurity authorities, represents the largest single-day remediation of open-source vulnerabilities in computing history.\n\nThe automated system, dubbed \"Aegis-Kernel,\" utilizes multi-agent reinforcement learning combined with formal mathematical verification engines. Rather than merely flagging speculative syntax anomalies, the autonomous pipeline generates active sandbox proof-of-concept exploits, simulates hostile kernel memory corruption scenarios, and subsequently synthesizes mathematically sound source-code patches that eliminate the vulnerability while preserving binary backward compatibility and runtime execution performance.\n\nThe audited vulnerabilities encompassed decades-old edge cases within Linux memory management subroutines, networking stack packet-parsing drivers, and asynchronous file system controllers. According to technical documentation published by OpenAI and peer-reviewed by leading kernel maintainers, 214 of the resolved bugs were classified as high-severity remote code execution or local privilege escalation flaws that could have allowed malicious actors to achieve root-level compromise on enterprise servers, cloud clusters, and Android mobile devices worldwide.\n\nLinus Torvalds, the creator and principal coordinator of the Linux kernel, addressed the breakthrough in a dispatch to the Linux Kernel Mailing List, commending the tool while emphasizing the need for rigorous peer review. \"What human security researchers would have taken a decade of manual fuzzing and decompilation to isolate has been executed in an afternoon,\" Torvalds noted. \"Autonomous AI will not replace human maintainers, but any operating system developer not utilizing autonomous formal verification will soon find themselves defending obsolete, indefensible code.\"\n\nFederal cybersecurity officials from the Cybersecurity and Infrastructure Security Agency (CISA) praised the milestone as a decisive victory for defensive software engineering. Officials noted that as hostile foreign state actors increasingly utilize generative AI to weaponize zero-day vulnerabilities, the ability to deploy autonomous defensive agents to proactively harden foundational digital infrastructure is an urgent national security imperative.",
     "category": "Tech",
     "edition": [
         "US & Americas",
@@ -1305,28 +1305,27 @@ Sports finance experts note that the move mirrors a broader institutional trend 
     ],
     "author": {
         "name": "Newyorkerherald Staff",
-        "role": "Silicon Valley & Hardware Technology Desk",
+        "role": "Frontier AI & Cyber Systems Desk",
         "avatar": "/images/authors/sarah_mitchell.jpg"
     },
-    "publishedAt": "4h ago",
+    "publishedAt": "3h ago",
     "readTime": "7 min read",
-    "imageUrl": "/images/news/nvidia-and-tsmc-unveil-35b-2nm-ai-semiconductor-hub-in-arizona.webp",
-    "imageCaption": "Cleanroom technicians inspect silicon wafers inside an advanced semiconductor fabrication facility.",
-    "imageCredit": "Reuters / Ann Wang",
-    "commentCount": 67,
+    "imageUrl": "/images/news/openai-systems-detect-and-patch-948-linux-kernel-flaws-in-hours.webp",
+    "imageCaption": "A software engineer monitors automated kernel code compilation and security patch verification pipelines.",
+    "imageCredit": "Getty Images / Justin Sullivan",
+    "commentCount": 104,
     "bullets": [
-        "Nvidia and TSMC commit $35 billion to construct a 2nm AI semiconductor fabrication and packaging hub in Phoenix.",
-        "First facility on American soil capable of end-to-end domestic manufacturing of frontier AI accelerators.",
-        "Facility integrates advanced EUV lithography with closed-loop water reclamation infrastructure."
+        "OpenAI autonomous security system discovers and patches 948 Linux kernel vulnerabilities in under four hours.",
+        "Remediates 214 high-severity privilege escalation and memory corruption flaws across open-source infrastructure.",
+        "Linux Foundation and CISA commend automated formal verification as a transformative leap for global cyber defense."
     ],
     "tags": [
         "Tech",
-        "Semiconductors",
-        "Nvidia",
-        "TSMC",
+        "OpenAI",
+        "Linux",
+        "Cybersecurity",
         "Artificial Intelligence",
-        "Hardware",
-        "Chips Act"
+        "Software"
     ]
 },
     {
@@ -1545,11 +1544,11 @@ Aerospace financial analysts estimate that SpaceX's commercial launch and satell
 
   'Entertainment': [
     {
-    "id": "avatar-3-first-look-breaks-all-time-global-viewership-record",
-    "title": "Avatar 3 First Look Breaks All-Time Global Viewership Record",
-    "kicker": "HOLLYWOOD BOX OFFICE • THEATRICAL SPECTACLE",
-    "summary": "James Cameron and 20th Century Studios shattered digital entertainment benchmarks on Friday as the debut teaser trailer for Avatar: Fire and Ash amassed an unprecedented 418 million views across digital platforms in its first 24 hours, setting the stage for a historic holiday release.",
-    "body": "LOS ANGELES — Legendary filmmaker James Cameron and 20th Century Studios rewrote Hollywood box office marketing history on Friday as the premiere teaser trailer for \"Avatar: Fire and Ash\"—the third installment in the landmark science-fiction franchise—shattered the all-time 24-hour global viewership record across all social and streaming video platforms. The breathtaking two-minute showcase generated an astonishing 418 million cumulative views in its initial day of release, eclipsing the previous benchmark set by Marvel's \"Deadpool & Wolverine\" and reaffirming the unmatched theatrical draw of Cameron's Pandora universe.\n\nThe teaser offers audiences their first glimpse of Pandora's volcanic biome and introduces the \"Ash People\"—a nomadic, aggressive Na'vi clan inhabiting volcanic volcanic rifts whose fiery philosophy contrasts sharply with the oceanic Metkayina clan introduced in the 2022 blockbuster \"The Way of Water.\" Industry analysts noted that the trailer's stunning underwater and pyroclastic visual fidelity, achieved through Cameron's proprietary deep-learning motion-capture cameras and 4K stereoscopic projection techniques, ignited intense organic discourse across YouTube, TikTok, and international cinema forums.\n\nThe staggering audience engagement arrives as a massive vote of confidence for traditional theatrical exhibition chains. Both AMC Entertainment and Cinemark reported record-breaking traffic across their digital reservation apps on Friday morning as moviegoers pre-registered for special 70mm IMAX and Dolby Cinema preview tickets ahead of the film's scheduled December 2026 holiday theatrical rollout. The previous two Avatar films generated a combined $5.24 billion in worldwide theatrical box office revenue, remaining the number one and number three highest-grossing motion pictures of all time.\n\nStudio executives at parent company Walt Disney confirmed that the global marketing rollout will encompass immersive augmented-reality experiences in major city centers worldwide, international orchestra preview concerts, and specialized cinema technology upgrades across thousands of North American and European theater auditoriums to support high-frame-rate 3D presentation standards. Cameron, speaking from the production facility in Wellington, New Zealand, remarked that \"Fire and Ash\" will explore the darker emotional contours of family loyalty, cultural conflict, and ecological survival.",
+    "id": "collins-dictionary-names-mogging-as-2026-word-of-the-year",
+    "title": "Collins Dictionary Names 'Mogging' as 2026 Word of the Year",
+    "kicker": "LEXICAL PHENOMENON • DIGITAL CULTURE",
+    "summary": "Collins Dictionary announced on Friday that internet slang sensation \"mogging\"—the viral social media term describing the act of completely outshining or dominating others in physical appearance, status, or confidence—has been officially crowned the 2026 Word of the Year.",
+    "body": "LONDON & GLASGOW — In a cultural milestone that highlights the relentless velocity with which digital youth slang migrates from niche online gaming subcultures into mainstream global vernacular, Collins Dictionary officially declared Friday morning that \"mogging\" has been selected as its Word of the Year for 2026. The term, which originated within online aesthetic fitness and social comparison forums before exploding across TikTok, Instagram, and college campuses worldwide, experienced an astonishing 450 percent surge in tracked usage over the past twelve months.\n\nLexicographers at Collins define \"mogging\" as the act of being significantly more physically attractive, confident, fashionable, or commanding in presence than someone else, to such an extent that the other individual appears completely overshadowed in comparison. Derived from the internet acronym AMOG (\"Alpha Male of the Group\"), the word evolved into a versatile verb, noun, and adjective (\"mogger,\" \"mogged\") used both earnestly by wellness and fashion influencers and ironically by digital satirists chronicling workplace dynamics, celebrity red-carpet appearances, and geopolitical press conferences.\n\nAlex Beecroft, managing director of Collins Learning, explained that the selection reflects how hyper-visual social algorithms and short-form video formats have intensified digital culture's fascination with physical presentation, personal branding, and micro-status hierarchies. \"Language is a mirror of cultural obsession,\" Beecroft remarked during the announcement from Glasgow. \"'Mogging' encapsulates a hyper-connected, image-conscious generation navigating digital competition with a blend of hyper-earnest self-improvement and self-aware ironic detachment.\"\n\nThe selection ignited lively debates across cultural commentators, sociologists, and linguistic scholars on Friday. While critics argued that the proliferation of aesthetic dominance slang reflects unhealthy social media vanity and visual superficiality among teenagers, cultural theorists noted that the term has largely been embraced with humor and playful hyperbole. The 2026 Collins shortlist also highlighted other major linguistic trends of the year, including \"agentic\" (referring to autonomous AI software), \"brainrot\" (the cognitive exhaustion caused by relentless low-quality algorithmic content), and \"delulu\" (embracing unrealistic optimism as a psychological coping mechanism).",
     "category": "Entertainment",
     "edition": [
         "US & Americas",
@@ -1557,28 +1556,27 @@ Aerospace financial analysts estimate that SpaceX's commercial launch and satell
     ],
     "author": {
         "name": "Newyorkerherald Staff",
-        "role": "Film, Studio & Entertainment Industry Desk",
+        "role": "Culture, Linguistics & Digital Media Desk",
         "avatar": "/images/authors/sarah_mitchell.jpg"
     },
-    "publishedAt": "5h ago",
+    "publishedAt": "4h ago",
     "readTime": "6 min read",
-    "imageUrl": "/images/news/avatar-3-first-look-breaks-all-time-global-viewership-record.webp",
-    "imageCaption": "The red carpet marquee and cinema display for James Cameron's Avatar franchise in Hollywood.",
-    "imageCredit": "Getty Images / Emma McIntyre",
-    "commentCount": 41,
+    "imageUrl": "/images/news/collins-dictionary-names-mogging-as-2026-word-of-the-year.webp",
+    "imageCaption": "The Collins English Dictionary reference archive and digital lexicography headquarters in Glasgow.",
+    "imageCredit": "Associated Press / Matt Dunham",
+    "commentCount": 63,
     "bullets": [
-        "Avatar: Fire and Ash teaser trailer amasses 418 million views in 24 hours, breaking the all-time global record.",
-        "Showcases Pandora's volcanic Ash People clan and pioneering stereoscopic motion-capture technologies.",
-        "Exhibition chains report historic early pre-registration traffic ahead of December 2026 global theatrical release."
+        "Collins Dictionary selects \"mogging\" as official 2026 Word of the Year following a 450% surge in global usage.",
+        "Term defines dominating or outshining others in appearance, confidence, or social media status.",
+        "Shortlist features \"agentic\", \"brainrot\", and \"delulu\", highlighting the profound cultural influence of digital media."
     ],
     "tags": [
         "Entertainment",
-        "Avatar 3",
-        "James Cameron",
-        "Hollywood",
-        "Box Office",
-        "Movies",
-        "Disney"
+        "Collins Dictionary",
+        "Word of the Year",
+        "Mogging",
+        "Digital Culture",
+        "Language"
     ]
 },
     {
@@ -1737,38 +1735,40 @@ Furthermore, cloud streaming platforms and mobile distribution networks have low
 
   'Sports': [
     {
-    "id": "nfl-thursday-night-shock-ravens-edge-bengals-on-final-play",
-    "title": "NFL Thursday Night Shock: Ravens Edge Bengals on Final Play",
-    "kicker": "GRIDIRON DRAMA • AFC NORTH SHOWDOWN",
-    "summary": "In an instant prime-time classic that shook the AFC playoff picture, backup quarterback Josh Johnson engineered an 84-yard final-minute drive to lift the Baltimore Ravens to a stunning 35-34 victory over the Cincinnati Bengals on Thursday Night Football.",
-    "body": "BALTIMORE — In one of the most exhilarating and improbable prime-time finishes in recent NFL history, the Baltimore Ravens overcame the absence of injured superstar Lamar Jackson to stun their AFC North rivals, the Cincinnati Bengals, 35-34 on Thursday night before a frenzied capacity crowd at M&T Bank Stadium. The breathless victory, sealed on an untimed, walk-off two-point conversion with zero seconds showing on the stadium clock, upended division standings and showcased the gritty resilience of a Ravens squad fighting to keep their Super Bowl ambitions alive.\n\nStarting in place of Jackson, who underwent thumb surgery earlier in the week, 38-year-old veteran backup Josh Johnson delivered the performance of his career. Facing a 34-28 deficit with just one minute and eighteen seconds remaining and no timeouts, Johnson calmly directed an 84-yard hurry-up drive, slicing through Cincinnati's prevent defense with pinpoint intermediate passes. With five seconds left from the Bengals' five-yard line, Johnson scrambled to his right, evaded a charging edge rusher, and floated a miraculous touchdown strike into the back of the end zone to wide receiver Zay Flowers.\n\nRather than kicking the extra point to force overtime, head coach John Harbaugh boldly signaled for the offense to stay on the field for the game-winning two-point conversion. Lining up in a heavy formation, Derrick Henry took a direct snap, absorbed a thunderous collision at the one-yard line from Bengals linebacker Logan Wilson, and powered his legs across the goal line by mere inches to ignite chaotic sideline celebrations.\n\nBengals quarterback Joe Burrow turned in a masterful performance in defeat, completing 34 of 46 passes for 428 yards and four touchdowns, including a pair of sensational deep scores to Ja'Marr Chase. However, Cincinnati's defense was unable to hold off Baltimore's relentless ground attack in the closing moments, dropping the Bengals to 4-6 on the season. The dramatic triumph elevates the Ravens to 7-3, keeping them in prime contention for the AFC's top seed and proving that Baltimore's veteran depth can weather adversity while Jackson rehabilitates.",
+    "id": "brazilian-football-match-sets-world-record-with-53-red-cards",
+    "title": "Brazilian Football Match Sets World Record with 53 Red Cards",
+    "kicker": "DISCIPLINARY CHAOS • GLOBAL SPORTS RECORD",
+    "summary": "A regional cup match in southern Brazil entered the record books on Friday after the match referee issued an astonishing 53 red cards following a mass on-pitch brawl that involved players, substitutes, technical staff, and stadium security personnel.",
+    "body": "CURITIBA, Brazil — In what international sports historians and disciplinary committees are confirming as the most chaotic and penalized athletic fixture in the history of organized association football, a regional championship match in southern Brazil on Thursday evening resulted in the referee issuing an unprecedented 53 red cards. The astonishing disciplinary spectacle, which occurred during a heated semifinal clash between regional rivals Esporte Clube Operário and Cascavel Futebol Clube in Paraná state, completely shattered the previous global record of 36 red cards set during a lower-division Argentine match in 2011.\n\nThe match, contested under intense humidity before ten thousand partisan supporters, erupted into violent pandemonium in the eighty-eighth minute of regulation following an aggressive tackle near the corner flag. What began as a standard pushing match between opposing wingers rapidly metastasized into an all-out brawl as both team benches, assistant coaches, fitness trainers, and stadium security stewards flooded the pitch. Broadcast television cameras captured wild scuffles along the touchline, with physical altercations spilling into the player access tunnels and corner flag areas.\n\nMatch referee Leonardo dos Santos, finding himself completely unable to restore order despite assistance from local riot military police armed with protective shields, blew the whistle to abandon the fixture and retreated to the official dressing room under security escort. Inside the referee's sanctuary, dos Santos spent nearly two hours meticulously reviewing high-definition broadcast video feeds and pitch-side security cameras alongside match delegators.\n\nUnder strict Brazilian Football Confederation (CBF) statutory disciplinary guidelines, the official match report formally registered direct red cards for all twenty-two starting players from both clubs, twenty-four designated substitutes, five technical staff members, and both head coaches. The regional sporting tribunal announced Friday morning that both clubs have been provisionally suspended from all sanctioned competitions pending an emergency integrity tribunal hearing on Monday, where both organizations face severe monetary fines, stadium closure bans, and potential multi-year competitive disqualifications.",
     "category": "Sports",
     "edition": [
-        "US & Americas"
+        "US & Americas",
+        "Global"
     ],
     "author": {
         "name": "Newyorkerherald Staff",
-        "role": "NFL & National Sports Desk",
+        "role": "International Athletics & Sports Governance Desk",
         "avatar": "/images/authors/sarah_mitchell.jpg"
     },
-    "publishedAt": "5h ago",
+    "publishedAt": "4h ago",
     "readTime": "6 min read",
-    "imageUrl": "/images/news/nfl-thursday-night-shock-ravens-edge-bengals-on-final-play.webp",
-    "imageCaption": "Ravens players celebrate on the field after executing a game-winning two-point conversion against the Bengals.",
-    "imageCredit": "Associated Press / Nick Wass",
-    "commentCount": 79,
+    "imageUrl": "/images/news/brazilian-football-match-sets-world-record-with-53-red-cards.webp",
+    "imageCaption": "Riot police and match stewards intervene on the pitch during an intense South American football confrontation.",
+    "imageCredit": "Reuters / Rodolfo Buhrer",
+    "commentCount": 71,
     "bullets": [
-        "Ravens defeat Bengals 35-34 on walk-off two-point conversion as time expires on Thursday Night Football.",
-        "Veteran backup Josh Johnson guides 84-yard final-minute drive to fill in for injured Lamar Jackson.",
-        "Derrick Henry powers in game-winning two-point run to vault Baltimore to 7-3 atop the AFC North."
+        "Paraná regional cup semifinal sets all-time world record as referee issues 53 red cards following pitch brawl.",
+        "Shatters previous global record of 36 red cards set in an Argentine lower-tier match in 2011.",
+        "Both clubs provisionally suspended by Brazilian sporting tribunal pending emergency integrity inquiry."
     ],
     "tags": [
         "Sports",
-        "NFL",
-        "Baltimore Ravens",
-        "Cincinnati Bengals",
         "Football",
-        "AFC North"
+        "Soccer",
+        "Brazil",
+        "World Record",
+        "Red Cards",
+        "Athletics"
     ]
 },
     {
@@ -1949,11 +1949,11 @@ On the stadium infrastructure front, club executives evaluated demonstrations of
 
   'Science': [
     {
-    "id": "mit-fusion-reactor-achieves-historic-net-energy-plasma-gain",
-    "title": "MIT Fusion Reactor Achieves Historic Net Energy Plasma Gain",
-    "kicker": "CLEAN POWER MILESTONE • APPLIED NUCLEAR PHYSICS",
-    "summary": "Physicists at MIT and Commonwealth Fusion Systems announced on Friday that the SPARC magnetic confinement tokamak has achieved a sustained energy gain factor Q of 2.1, generating more than double the thermal energy injected into the core fusion plasma.",
-    "body": "CAMBRIDGE & DEVENS, Mass. — In what energy physicists are hailing as a monumental turning point in humanity's quest for limitless, zero-carbon baseload energy, researchers at the Massachusetts Institute of Technology's Plasma Science and Fusion Center and Commonwealth Fusion Systems (CFS) officially confirmed on Friday morning that their compact magnetic tokamak, SPARC, has demonstrated sustained net energy gain from a deuterium-tritium nuclear fusion plasma. The peer-reviewed findings, presented at an emergency symposium of the American Physical Society, revealed that the reactor achieved an energy multiplication factor (Q) of 2.14, generating 107 megawatts of thermal fusion power from 50 megawatts of input heating.\n\nUnlike government-funded laser inertial confinement experiments that achieve net energy in microsecond bursts, SPARC relies on high-temperature superconducting (HTS) magnets manufactured from rare-earth barium copper oxide (REBCO) tape. These revolutionary electromagnets generate a staggering 20-tesla magnetic field—more than four hundred thousand times stronger than Earth's magnetic field—allowing researchers to confine a burning plasma exceeding 120 million degrees Celsius within a vacuum vessel one-fortieth the volume of traditional international fusion reactors like ITER in France.\n\nThe sustained net energy milestone, maintained for an unprecedented ninety seconds during consecutive test runs on Thursday evening, provides definitive physical validation that compact, commercially viable magnetic fusion power plants can be built at industrial scale. CFS executives announced that engineering blueprints for ARC—the commercial utility-scale successor plant designed to supply 400 megawatts of clean electricity directly to the New England electrical grid—have been accelerated for groundbreaking in 2028.\n\nFederal energy officials and global climate leaders celebrated the announcement, emphasizing that fusion energy produces zero greenhouse gas emissions, leaves no long-lived radioactive waste, and utilizes abundant isotopes derived from seawater. Wall Street infrastructure investment syndicates poured over two billion dollars in venture and institutional capital into commercial fusion suppliers on Friday, recognizing that practical fusion power offers the only viable long-term solution to meet the skyrocketing electricity consumption of AI hyperscale data centers and continental industrial electrification.",
+    "id": "nasa-astronauts-complete-milestone-space-station-solar-walk",
+    "title": "NASA Astronauts Complete Milestone Space Station Solar Walk",
+    "kicker": "ORBITAL INFRASTRUCTURE • NASA ISS MISSION",
+    "summary": "NASA astronaut Anil Menon and Canadian Space Agency astronaut Joshua Kutryk completed a grueling six-hour spacewalk outside the International Space Station on Friday, successfully deploying the final roll-out solar array to boost the orbital laboratory’s electrical capacity.",
+    "body": "HOUSTON & CAPE CANAVERAL, Fla. — Floating 260 miles above the Pacific Ocean in the freezing vacuum of low Earth orbit, NASA astronaut Anil Menon and Canadian Space Agency astronaut Joshua Kutryk successfully completed a six-hour, twenty-two-minute extravehicular activity (EVA) outside the International Space Station on Friday. The milestone mission successfully unfurled and secured the station's final International Space Station Roll-Out Solar Array (IROSA), completing a multi-year, multi-billion-dollar orbital power upgrade project designed to keep the aging laboratory fully operational through the end of the decade.\n\nThe high-stakes spacewalk began at 8:12 a.m. Eastern Time as Menon and Kutryk switched their Extravehicular Mobility Unit spacesuits to internal battery power before exiting the Quest airlock into the blackness of space. Anchored to the orbital outpost's primary starboard truss via specialized foot restraints and guided by the robotic Canadarm2 operated from inside the station, the astronaut duo meticulously unbolted the 750-pound cylindrical solar canister from its temporary payload attachment fixture.\n\nWorking with microgravity torque wrenches and high-tensile structural tethers, Menon and Kutryk maneuvered the advanced solar array across the exterior truss, aligning the mechanical mounting hinges with microscopic precision. Once electrical connectors were mated with the station's primary 160-volt direct-current power channel, flight controllers at NASA Johnson Space Center in Houston signaled the command to release the mechanical launch restraints. Within minutes, the sixty-foot-long flexible solar blanket unfurled seamlessly into space, catching direct solar rays as the station passed over the sunlit hemisphere.\n\nNASA flight directors confirmed that the activation of the final IROSA increases the space station's total electrical generation capacity by thirty percent, restoring peak power levels to 215 kilowatts. The enhanced electrical capacity is urgently required to support power-hungry commercial microgravity research payloads, deep-space biological life-support testbeds, and advanced quantum communication experiments slated for deployment ahead of NASA's planned transition toward commercial low Earth orbit space stations in 2030.",
     "category": "Science",
     "edition": [
         "US & Americas",
@@ -1961,28 +1961,27 @@ On the stadium infrastructure front, club executives evaluated demonstrations of
     ],
     "author": {
         "name": "Newyorkerherald Staff",
-        "role": "Nuclear Physics & Energy Science Desk",
+        "role": "Space Exploration & Orbital Science Bureau",
         "avatar": "/images/authors/sarah_mitchell.jpg"
     },
-    "publishedAt": "6h ago",
+    "publishedAt": "5h ago",
     "readTime": "7 min read",
-    "imageUrl": "/images/news/mit-fusion-reactor-achieves-historic-net-energy-plasma-gain.webp",
-    "imageCaption": "The glowing vacuum chamber and superconducting magnet coils of a magnetic confinement fusion tokamak.",
-    "imageCredit": "Commonwealth Fusion Systems / MIT",
-    "commentCount": 93,
+    "imageUrl": "/images/news/nasa-astronauts-complete-milestone-space-station-solar-walk.webp",
+    "imageCaption": "A NASA astronaut works on the exterior truss of the International Space Station during a spacewalk.",
+    "imageCredit": "NASA / Johnson Space Center",
+    "commentCount": 54,
     "bullets": [
-        "SPARC compact tokamak achieves historic Q=2.14 net energy gain, generating 107MW of thermal fusion energy.",
-        "Revolutionary 20-tesla high-temperature superconducting magnets confine burning plasma at 120 million °C.",
-        "Accelerates commercial ARC fusion power plant construction to supply clean electricity to the grid by 2030."
+        "Astronauts Anil Menon and Joshua Kutryk complete 6-hour, 22-minute spacewalk outside the ISS.",
+        "Successfully install and deploy final IROSA roll-out solar array, boosting orbital electrical power by 30%.",
+        "Completes multi-year power modernization program ensuring continuous laboratory research through 2030."
     ],
     "tags": [
         "Science",
-        "Nuclear Fusion",
-        "Clean Energy",
-        "Physics",
-        "MIT",
-        "Technology",
-        "Climate"
+        "NASA",
+        "ISS",
+        "Space Exploration",
+        "Spacewalk",
+        "Astronomy"
     ]
 },
     {
@@ -2172,11 +2171,11 @@ Domestic automotive manufacturers have committed multi-billion-dollar off-take a
 
   'Opinion': [
     {
-    "id": "the-suburban-realignment-why-independent-voters-rule-america",
-    "title": "The Suburban Realignment: Why Independent Voters Rule America",
-    "kicker": "POLITICAL ANALYSIS • THE NEW ELECTORATE",
-    "summary": "The outcome of the 2026 midterms confirms that America’s traditional party machines have been fundamentally eclipsed by a discerning, highly educated suburban independent electorate that ruthlessly punishes ideological excess and demands practical competence.",
-    "body": "WASHINGTON — For decades, political operatives in Washington have operated under a foundational dogma: elections are won by activating the passionate ideological base of the two major parties, relying on partisan tribalism and negative polarization to drag reluctant voters across the finish line. Yet when future historians look back at the voting returns of the 2026 midterm elections, they will recognize this cycle as the definitive obituary for that obsolete strategy. Across the critical suburban battlegrounds of Atlanta, Philadelphia, Phoenix, and Detroit, the defining story of American politics is the total dominance of the independent ticket-splitter.\n\nIn precinct after precinct on Tuesday, millions of pragmatic, suburban voters systematically deconstructed party loyalties. They voted for fiscal prudence and border enforcement by supporting Republican Senate candidates, while simultaneously electing pragmatic Democratic House members and approving progressive state constitutional ballot initiatives on reproductive healthcare, clean water bonds, and emergency hospital funding. These voters did not split their ballots out of confusion or apathy; they did so with surgical intentionality, purposefully constructing a divided government designed to prevent either party from imposing its most radical legislative impulses.\n\nThis emerging suburban majority is defined not by party loyalty, but by a profound exhaustion with performative grievance politics and institutional instability. They are homeowners with children in public schools, small business operators grappling with sticky inflation, and technology professionals navigating an evolving artificial intelligence economy. They care about kitchen-table stability, mortgage rates, reliable public transit, and civil rights. They have zero patience for manufactured culture wars or apocalyptic rhetoric that paralyzes congressional governance while basic federal infrastructure languishes.\n\nFor both national party apparatuses, the message from the 2026 midterms is existential. The party that continues to pander to its loud primary extremes will find itself permanently locked out of governing majorities. The future of American political power belongs to whoever speaks directly to the pragmatic center: the suburban independent voters who hold the balance of power and will not hesitate to fire anyone who puts partisan theater above national interest.",
+    "id": "the-la-mayoral-upset-why-urban-voters-rejected-karen-bass",
+    "title": "The L.A. Mayoral Upset: Why Urban Voters Rejected Karen Bass",
+    "kicker": "MUNICIPAL VERDICT • THE URBAN CRUNCH",
+    "summary": "The stunning defeat of incumbent Los Angeles Mayor Karen Bass by progressive challenger Nithya Raman marks a seismic political earthquake, delivering a warning to establishment municipal leaders across America on homelessness, housing affordability, and governance.",
+    "body": "LOS ANGELES — For decades, the conventional wisdom of big-city municipal politics in America held that establishment incumbents blessed with universal name recognition, deep institutional backing from public-sector labor unions, and multi-million-dollar campaign war chests were virtually unassailable. Yet on Tuesday, the voters of the nation's second-largest metropolis shattered that orthodoxy in dramatic fashion. By electing city councilwoman and urban planner Nithya Raman as the first South Asian mayor in Los Angeles history, Angelenos sent a shockwave through the Democratic political establishment that extends far beyond the borders of Southern California.\n\nThe defeat of Karen Bass—a revered veteran politician who rose through the state Assembly and the halls of Congress before capturing the mayoralty in 2022—was not merely a localized personnel change; it was a devastating indictment of municipal incrementalism. Despite spending billions of dollars in taxpayer funds on temporary emergency shelter initiatives, the homelessness crisis on L.A.'s streets remained an omnipresent, heartbreaking human tragedy. For working-class and middle-class residents in the San Fernando Valley, East L.A., and South Los Angeles, soaring rents, failing municipal transit infrastructure, and entrenched City Hall scandals eroded whatever goodwill remained toward the political status quo.\n\nRaman's victory was forged through an insurgent, hyper-disciplined coalition of young renters, immigrant tenant associations, environmental justice activists, and frustrated middle-class homeowners who demanded systemic structural reform over managerial platitudes. By campaigning relentlessly on social housing construction, streamlining municipal permitting, expanding permanent supportive housing, and eliminating bureaucratic waste within city departments, Raman proved that urban voters are no longer satisfied with cosmetic public-relations gestures.\n\nFor big-city mayors from New York and Chicago to San Francisco and Seattle, the verdict from Los Angeles is unmistakable. The era of managerial excuses is over. Voters are exhausted by astronomical property taxes paired with decaying public services and visible street homelessness. The leaders who survive the coming political cycle will be those who demonstrate the political courage to challenge entrenched bureaucratic inertia and deliver tangible, measurable improvements in basic urban quality of life.",
     "category": "Opinion",
     "edition": [
         "US & Americas",
@@ -2184,27 +2183,28 @@ Domestic automotive manufacturers have committed multi-billion-dollar off-take a
     ],
     "author": {
         "name": "Newyorkerherald Staff",
-        "role": "Editorial Board & Opinion Desk",
+        "role": "Editorial Board & Urban Affairs Desk",
         "avatar": "/images/authors/sarah_mitchell.jpg"
     },
     "publishedAt": "4h ago",
     "readTime": "8 min read",
-    "imageUrl": "/images/news/the-suburban-realignment-why-independent-voters-rule-america.webp",
-    "imageCaption": "A residential neighborhood in suburban Pennsylvania during the autumn election season.",
-    "imageCredit": "Getty Images / Spencer Platt",
-    "commentCount": 68,
+    "imageUrl": "/images/news/the-la-mayoral-upset-why-urban-voters-rejected-karen-bass.webp",
+    "imageCaption": "The downtown Los Angeles skyline and City Hall tower at twilight.",
+    "imageCredit": "Getty Images / Mario Tama",
+    "commentCount": 84,
     "bullets": [
-        "2026 midterm results confirm the complete electoral dominance of ticket-splitting suburban independent voters.",
-        "Electorate rejected extreme ideological wings in favor of deliberate institutional checks and balances.",
-        "Both national parties face an existential imperative to govern from the pragmatic center on economic stability."
+        "Nithya Raman unseats incumbent Karen Bass to become the first South Asian mayor in Los Angeles history.",
+        "Voters reject municipal incrementalism amid persistent street homelessness and skyrocketing rent burdens.",
+        "L.A. upset signals growing nationwide urban voter revolt against establishment municipal machines."
     ],
     "tags": [
         "Opinion",
         "Editorial",
-        "Suburbs",
-        "Independent Voters",
-        "2026 Midterms",
-        "Governance"
+        "Los Angeles",
+        "Karen Bass",
+        "Nithya Raman",
+        "Urban Politics",
+        "Elections"
     ]
 },
     {
@@ -2759,42 +2759,42 @@ export function getHomepageDepartmentArticles(dept: string): Article[] {
   const mapping: Record<string, string[]> = {
     us: [
       'the-vanity-of-alina-habba-mildon',
-      'seven-states-reach-landmark-historic-colorado-river-water-pact',
+      'newsom-commutes-death-sentences-for-all-548-california-inmates',
       'seven-states-pass-major-constitutional-ballot-amendments',
       'california-votes-on-prop-40-wealth-tax-for-emergency-care'
     ],
     politics: [
-      'house-control-in-balance-as-late-mail-ballots-counted-in-west',
+      'judge-chutkan-blocks-trump-250-foot-triumphal-arch-in-dc',
       '2026-midterms-gop-takes-senate-as-house-battle-nears-recounts',
       'supreme-court-rejects-emergency-bid-on-california-mail-ballots',
       'bipartisan-congressional-coalition-finalizes-critical-minerals-strategic-stockpile-legislation'
     ],
     business: [
-      'fed-cuts-interest-rates-by-25-basis-points-as-powell-speaks',
+      'wall-street-plunges-as-nasdaq-enters-correction-over-ai-capex',
       'sp-500-hits-record-high-on-midterm-clarity-and-steady-jobs-data',
       'crude-oil-surges-above-89-as-us-strikes-iranian-drone-bases',
       'oracle-prices-historic-20-billion-debt-and-equity-offering-to-finance-massive-ai-cloud-data-center-expansion'
     ],
     tech: [
-      'nvidia-and-tsmc-unveil-35b-2nm-ai-semiconductor-hub-in-arizona',
+      'openai-systems-detect-and-patch-948-linux-kernel-flaws-in-hours',
       'openai-and-anthropic-launch-joint-safety-accord-for-ai-agents',
       'doj-expands-nvidia-antitrust-probe-over-hugging-face-buyout',
       'nvidia-ceo-jensen-huang-scrutiny-trump-response-ai-semiconductor-sovereignty'
     ],
     entertainment: [
-      'avatar-3-first-look-breaks-all-time-global-viewership-record',
+      'collins-dictionary-names-mogging-as-2026-word-of-the-year',
       'grammy-nominations-2027-global-and-indie-artists-dominate',
       'christopher-nolans-the-odyssey-hits-record-1-17-billion',
       'paramount-skydance-merger-completes-formal-integration-uniting-studio-blockbusters-with-gaming-franchises'
     ],
     sports: [
-      'nfl-thursday-night-shock-ravens-edge-bengals-on-final-play',
+      'brazilian-football-match-sets-world-record-with-53-red-cards',
       'dodgers-win-2026-world-series-in-extra-inning-game-7-thriller',
       'lamar-jackson-out-on-injured-reserve-following-thumb-surgery',
       'twenty-year-old-kimi-antonelli-becomes-youngest-formula-1-world-champion-in-historic-mexico-city-grand-prix'
     ],
     science: [
-      'mit-fusion-reactor-achieves-historic-net-energy-plasma-gain',
+      'nasa-astronauts-complete-milestone-space-station-solar-walk',
       'webb-telescope-finds-water-vapor-on-habitable-zone-exoplanet',
       'nasa-voyager-1-reaches-record-one-light-day-distance-from-earth',
       'usgs-supervolcano-research-reveals-yellowstone-eruptions-occur-in-complex-multi-pulse-sequences'
