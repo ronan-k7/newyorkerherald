@@ -3,35 +3,35 @@ import { Article, OpinionColumn, FactCheckItem, PhotoStory, VideoItem, PodcastEp
 export const BREAKING_NEWS_ITEMS = [
   {
     id: 'brk-1',
-    kicker: '2026 MIDTERMS RESULT',
-    headline: 'Republicans Win Senate as Battle for House Heads to Recounts',
+    kicker: 'HOUSE BALANCE OF POWER',
+    headline: 'House Majority in Standoff as Late Mail Ballots Counted in West',
     time: '2m ago',
-    url: '/politics/2026-midterms-gop-takes-senate-as-house-battle-nears-recounts'
+    url: '/politics/house-control-in-balance-as-late-mail-ballots-counted-in-west'
   },
   {
     id: 'brk-2',
-    kicker: 'WALL STREET RECORD',
-    headline: 'S&P 500 Hits Record High on Midterm Clarity and Steady Jobs',
-    time: '14m ago',
-    url: '/business/sp-500-hits-record-high-on-midterm-clarity-and-steady-jobs-data'
+    kicker: 'CENTRAL BANK ACTION',
+    headline: 'Fed Cuts Interest Rates by 25 Basis Points as Powell Speaks',
+    time: '12m ago',
+    url: '/business/fed-cuts-interest-rates-by-25-basis-points-as-powell-speaks'
   },
   {
     id: 'brk-3',
-    kicker: 'DEEP SPACE DISCOVERY',
-    headline: 'Webb Space Telescope Finds Water on Habitable-Zone Exoplanet',
-    time: '28m ago',
-    url: '/science/webb-telescope-finds-water-vapor-on-habitable-zone-exoplanet'
+    kicker: 'CLEAN ENERGY MILESTONE',
+    headline: 'MIT Fusion Reactor Achieves Historic Net Energy Plasma Gain',
+    time: '24m ago',
+    url: '/science/mit-fusion-reactor-achieves-historic-net-energy-plasma-gain'
   }
 ];
 
 export const TRENDING_TAGS = [
-  '#MidtermResults2026',
-  '#SenateMajority',
-  '#WorldSeriesGame7',
-  '#GrammyNominations2027',
-  '#JWSTExoplanet',
-  '#WallStreetRally',
-  '#Proposition40'
+  '#HouseMajority2026',
+  '#FedRateCut',
+  '#ColoradoRiverPact',
+  '#NvidiaTSMCArizona',
+  '#Avatar3Trailer',
+  '#SPARCFusion',
+  '#RavensThursdayWin'
 ];
 
 export const LEAD_ARTICLE: Article = {
@@ -74,6 +74,42 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
 };
 
 export const SECONDARY_LEAD_STORIES: Article[] = [
+    {
+    "id": "house-control-in-balance-as-late-mail-ballots-counted-in-west",
+    "title": "House Control in Balance as Late Mail Ballots Counted in West",
+    "kicker": "CONGRESSIONAL DEADLOCK • 2026 MIDTERM TALLY",
+    "summary": "The battle for the 435-seat House of Representatives entered its fourth day of meticulous tabulation on Friday, with the majority teetering on fewer than 4,500 uncounted mail-in ballots across nine hyper-competitive districts in California, Arizona, and Oregon.",
+    "body": "WASHINGTON & SACRAMENTO — Three days after the conclusion of polling across the nation, control of the United States House of Representatives remains locked in an agonizingly narrow standoff that election statisticians caution may not be definitively certified until late next week. With Republicans having secured an outright 52-seat majority in the Senate and captured key gubernatorial mansions, the balance of power across Washington now hinges entirely on nine uncalled congressional districts scattered across the agricultural valleys of Central California, the suburbs of Orange County, and the desert precincts of Maricopa and Pima counties in Arizona.\n\nIn California's 13th and 22nd congressional districts, election workers in Fresno, Kern, and Stanislaus counties are processing hundreds of trays of vote-by-mail envelopes under around-the-clock observation from bipartisan legal monitors and campaign audit representatives. Under California statutory guidelines, election administrators conduct thorough signature verification against DMV and voter registration records, providing voters whose signatures exhibit technical variances an eight-day statutory window to submit signature cure affidavits. As of Friday morning, the cumulative vote margin across both Central Valley districts stood at fewer than seven hundred votes, with tens of thousands of late-postmarked mail-in ballots yet to be unpacked from secure regional sorting centers.\n\nSimultaneously, in Arizona's 1st and 6th districts, Maricopa County recorder teams began the laborious process of processing late-arriving early ballots dropped off at polling places on Election Day. Election officials in Phoenix confirmed that tabulation machines are operating at maximum capacity following rigorous logic-and-accuracy tests. In Washington, both national party committees have deployed rapid-response legal squads and volunteer canvassing brigades to assist voters in curing challenged ballots, recognizing that each individual vote could determine which party commands the speaker's gavel, manages committee subpoena authority, and controls federal spending bills for the next two years.\n\nHouse Democratic Leader Hakeem Jeffries and Speaker Mike Johnson both held closed-door strategy briefings with their incoming freshman cohorts on Friday morning. While House Republicans currently hold a microscopic paper lead of 216 projected seats to Democrats' 212 in called races, the mathematical combinations remaining on the board mean that either party could theoretically cross the 218-seat threshold as final Western tabulations are reported over the coming weekend. Constitutional scholars noted that regardless of which party emerges victorious, the incoming 120th Congress will operate under the narrowest House majority in over a century, virtually guaranteeing high-stakes legislative bargaining and institutional moderation.",
+    "category": "Politics",
+    "edition": [
+        "US & Americas",
+        "Global"
+    ],
+    "author": {
+        "name": "Newyorkerherald Staff",
+        "role": "Capitol Hill & National Politics Bureau",
+        "avatar": "/images/authors/sarah_mitchell.jpg"
+    },
+    "publishedAt": "2h ago",
+    "readTime": "7 min read",
+    "imageUrl": "/images/news/house-control-in-balance-as-late-mail-ballots-counted-in-west.webp",
+    "imageCaption": "Election workers in California examine and tabulate mail-in ballot envelopes under bipartisan observation.",
+    "imageCredit": "Associated Press / Rich Pedroncelli",
+    "commentCount": 82,
+    "bullets": [
+        "House majority hinges on fewer than 4,500 uncounted ballots across nine key districts in California, Arizona, and Oregon.",
+        "California signature verification and cure windows extend counting schedules into next week.",
+        "Incoming majority will govern with the narrowest House margin in modern American history."
+    ],
+    "tags": [
+        "Politics",
+        "House of Representatives",
+        "2026 Midterms",
+        "California",
+        "Arizona",
+        "Congress"
+    ]
+},
     {
     "id": '2026-midterms-gop-takes-senate-as-house-battle-nears-recounts',
     "title": "2026 Midterms: GOP Takes Senate as House Battle Nears Recounts",
@@ -404,6 +440,43 @@ As the Federal Energy Regulatory Commission (FERC) convenes national stakeholder
 export const CATEGORY_ARTICLES: Record<string, Article[]> = {
   'Investigation': [
     {
+    "id": "investigation-crypto-shell-network-evaded-foreign-lobbying-laws",
+    "title": "Investigation: Crypto Shell Network Evaded Foreign Lobbying Laws",
+    "kicker": "CONGRESSIONAL SCANDAL • FARA ENFORCEMENT",
+    "summary": "A six-month joint Newyorkerherald investigation reveals how an intricate nexus of offshore cryptocurrency mixers and domestic 501(c)(4) entities funneled $84 million in illicit foreign capital into congressional campaigns while circumventing federal registration statutes.",
+    "body": "WASHINGTON & MIAMI — In an explosive enterprise report that has triggered an immediate Department of Justice criminal inquiry, an exhaustive six-month investigation by the Newyorkerherald Investigative Reporting Unit reveals that a sophisticated network of offshore cryptocurrency shell companies funneled more than $84 million in dark money into American political campaigns during the 2026 election cycle. The illicit funding mechanism, engineered through privacy mixers in the Caribbean and decentralized autonomous organizations (DAOs) registered in Switzerland, was systematically utilized by foreign industrial conglomerates to circumvent the Foreign Agents Registration Act (FARA) and federal prohibitions against foreign national contributions in U.S. elections.\n\nBy cross-referencing on-chain blockchain telemetry, subpoenaed banking wire records, and thousands of encrypted corporate communications leaked by whistleblowers, investigators traced the capital flight from overseas state-backed mining consortiums through secondary stablecoin wallets into three seemingly innocuous domestic non-profit social welfare organizations headquartered in Delaware and Wyoming. Once in domestic accounts, the funds were dispersed across five major super PACs, which deployed the capital to fund aggressive digital smear campaigns against lawmakers who championed stricter semiconductor export restrictions and maritime mining sanctions.\n\nInternal strategy memos obtained by reporters outline a calculated playbook: political consultants coached foreign principals on utilizing algorithmic micro-donations beneath the Federal Election Commission's (FEC) statutory reporting thresholds, layering digital transfers across thousands of synthetic identities created with stolen biometric credentials. The non-profits also hired prominent former congressional staff members and K Street lobbyists to secure private legislative hearings, falsely certifying on federal disclosure filings that their activities were financed exclusively by domestic commercial trade groups.\n\nIn response to the publication of the investigation's findings on Friday morning, the Department of Justice's National Security Division confirmed that federal grand jury subpoenas have been issued to six political consulting firms and three digital asset custodians. Lawmakers from both parties on the Senate Judiciary Committee announced emergency oversight hearings for next month, calling for statutory reforms to close digital asset campaign finance loopholes and grant the FEC real-time subpoena authority over decentralized finance transactions.",
+    "category": "Investigation",
+    "edition": [
+        "US & Americas"
+    ],
+    "author": {
+        "name": "Newyorkerherald Staff",
+        "role": "Enterprise & Financial Crimes Investigative Unit",
+        "avatar": "/images/authors/sarah_mitchell.jpg"
+    },
+    "publishedAt": "6h ago",
+    "readTime": "9 min read",
+    "imageUrl": "/images/news/investigation-crypto-shell-network-evaded-foreign-lobbying-laws.webp",
+    "imageCaption": "Federal court and Department of Justice buildings in Washington, D.C., where grand jury subpoenas were issued.",
+    "imageCredit": "Newyorkerherald Investigative Bureau",
+    "isInvestigative": true,
+    "commentCount": 112,
+    "bullets": [
+        "Six-month investigation uncovers $84 million foreign dark-money pipeline routed through crypto mixers into 2026 midterms.",
+        "Offshore conglomerates bypassed FARA requirements to influence semiconductor and mining trade legislation.",
+        "DOJ National Security Division issues grand jury subpoenas as Senate Judiciary Committee schedules emergency hearings."
+    ],
+    "tags": [
+        "Investigation",
+        "Cryptocurrency",
+        "Campaign Finance",
+        "FARA",
+        "DOJ",
+        "Corruption",
+        "Congress"
+    ]
+},
+    {
     "id": 'dark-money-ai-pacs-fuel-massive-midterm-voter-confusion',
     "title": "Dark Money AI PACs Fuel Massive Midterm Voter Confusion",
     "kicker": "ENTERPRISE INVESTIGATION • DEMOCRACY WATCH",
@@ -515,6 +588,42 @@ In Albany, Governor Kathy Hochul convened an emergency public health cabinet mee
     }
   ],
     'US': [
+    {
+    "id": "seven-states-reach-landmark-historic-colorado-river-water-pact",
+    "title": "Seven States Reach Landmark Historic Colorado River Water Pact",
+    "kicker": "RESOURCE SECURITY • WESTERN WATER ACCORD",
+    "summary": "Water negotiators from seven western basin states finalized a binding consensus agreement on Friday governing post-2026 Colorado River allocations, mandating permanent volumetric reductions of 3.8 million acre-feet annually to stabilize reservoirs Lake Mead and Lake Powell.",
+    "body": "DENVER & PHOENIX — Following two years of combative closed-door negotiations and mounting federal pressure from the Department of the Interior, water resource commissioners representing all seven Colorado River basin states formally announced on Friday morning that they have reached a historic, multi-decade consensus accord to protect the shrinking waterway from systemic hydrological collapse. The agreement, forged between the Upper Basin states of Colorado, New Mexico, Utah, and Wyoming and the Lower Basin states of Arizona, California, and Nevada, establishes legally binding post-2026 operating guidelines that will dictate water deliveries to forty million residents and four million acres of commercial farmland through 2046.\n\nUnder the framework of the new accord, the basin states will collectively absorb mandatory permanent volumetric reductions totaling 3.8 million acre-feet of annual water withdrawals—an unprecedented sixteen percent curtailment across municipal, agricultural, and industrial allocations. The Lower Basin agreed to shoulder the initial 1.5 million acre-feet of reductions through aggressive agricultural fallowing programs, municipal turf-replacement rebates, and advanced irrigation canal lining infrastructure, funded in part by remaining allocations from federal climate resilience grants. In exchange, the Upper Basin agreed to tie their operational reservoir releases from Lake Powell directly to actual seasonal snowpack runoff measurements in the Rocky Mountains rather than outdated statutory release targets established in the 1922 Colorado River Compact.\n\nHydrologists from the U.S. Bureau of Reclamation praised the breakthrough as a vital lifeline for the American Southwest, noting that two decades of climate-induced aridification and prolonged structural deficits had repeatedly threatened to push Lake Mead and Lake Powell toward \"dead pool\" elevations, which would have crippled hydroelectric power generation at Hoover Dam and Glen Canyon Dam. The consensus pact averts unilateral mandatory curtailment mandates that federal officials had threatened to impose under federal public trust doctrines if the states had failed to reach agreement prior to the December statutory deadline.\n\nAgricultural irrigation districts in California's Imperial Valley and central Arizona, which consume the lion's share of Colorado River flows to produce the nation's winter vegetable harvest, confirmed they will implement computerized soil-moisture sensor networks and drip-irrigation retrofits to maintain crop yields while reducing water consumption. Environmental advocacy coalitions also celebrated the agreement for setting aside two hundred thousand acre-feet of dedicated environmental surge flows designed to revive native cottonwood riparian habitats and indigenous fish sanctuaries along the parched Colorado River delta corridor.",
+    "category": "US",
+    "edition": [
+        "US & Americas"
+    ],
+    "author": {
+        "name": "Newyorkerherald Staff",
+        "role": "Western Natural Resources & Environment Bureau",
+        "avatar": "/images/authors/sarah_mitchell.jpg"
+    },
+    "publishedAt": "3h ago",
+    "readTime": "7 min read",
+    "imageUrl": "/images/news/seven-states-reach-landmark-historic-colorado-river-water-pact.webp",
+    "imageCaption": "The Colorado River basin and Hoover Dam reservoir facilities at Lake Mead following new water allocation pact.",
+    "imageCredit": "Getty Images / Justin Sullivan",
+    "commentCount": 45,
+    "bullets": [
+        "Seven western states sign binding consensus accord mandating 3.8 million acre-feet in annual water reductions through 2046.",
+        "Prevents Lake Mead and Lake Powell from breaching catastrophic dead-pool reservoir thresholds.",
+        "Averts federal intervention as agricultural and municipal stakeholders adopt permanent water efficiency standards."
+    ],
+    "tags": [
+        "US",
+        "Colorado River",
+        "Water Security",
+        "Environment",
+        "California",
+        "Arizona",
+        "Lake Mead"
+    ]
+},
     {
     "id": 'seven-states-pass-major-constitutional-ballot-amendments',
     "title": "Seven States Pass Major Constitutional Ballot Amendments",
@@ -652,6 +761,42 @@ As the clocks reset, congressional leaders confirmed that bipartisan committee s
     }
   ],
   'Politics': [
+    {
+    "id": "house-control-in-balance-as-late-mail-ballots-counted-in-west",
+    "title": "House Control in Balance as Late Mail Ballots Counted in West",
+    "kicker": "CONGRESSIONAL DEADLOCK • 2026 MIDTERM TALLY",
+    "summary": "The battle for the 435-seat House of Representatives entered its fourth day of meticulous tabulation on Friday, with the majority teetering on fewer than 4,500 uncounted mail-in ballots across nine hyper-competitive districts in California, Arizona, and Oregon.",
+    "body": "WASHINGTON & SACRAMENTO — Three days after the conclusion of polling across the nation, control of the United States House of Representatives remains locked in an agonizingly narrow standoff that election statisticians caution may not be definitively certified until late next week. With Republicans having secured an outright 52-seat majority in the Senate and captured key gubernatorial mansions, the balance of power across Washington now hinges entirely on nine uncalled congressional districts scattered across the agricultural valleys of Central California, the suburbs of Orange County, and the desert precincts of Maricopa and Pima counties in Arizona.\n\nIn California's 13th and 22nd congressional districts, election workers in Fresno, Kern, and Stanislaus counties are processing hundreds of trays of vote-by-mail envelopes under around-the-clock observation from bipartisan legal monitors and campaign audit representatives. Under California statutory guidelines, election administrators conduct thorough signature verification against DMV and voter registration records, providing voters whose signatures exhibit technical variances an eight-day statutory window to submit signature cure affidavits. As of Friday morning, the cumulative vote margin across both Central Valley districts stood at fewer than seven hundred votes, with tens of thousands of late-postmarked mail-in ballots yet to be unpacked from secure regional sorting centers.\n\nSimultaneously, in Arizona's 1st and 6th districts, Maricopa County recorder teams began the laborious process of processing late-arriving early ballots dropped off at polling places on Election Day. Election officials in Phoenix confirmed that tabulation machines are operating at maximum capacity following rigorous logic-and-accuracy tests. In Washington, both national party committees have deployed rapid-response legal squads and volunteer canvassing brigades to assist voters in curing challenged ballots, recognizing that each individual vote could determine which party commands the speaker's gavel, manages committee subpoena authority, and controls federal spending bills for the next two years.\n\nHouse Democratic Leader Hakeem Jeffries and Speaker Mike Johnson both held closed-door strategy briefings with their incoming freshman cohorts on Friday morning. While House Republicans currently hold a microscopic paper lead of 216 projected seats to Democrats' 212 in called races, the mathematical combinations remaining on the board mean that either party could theoretically cross the 218-seat threshold as final Western tabulations are reported over the coming weekend. Constitutional scholars noted that regardless of which party emerges victorious, the incoming 120th Congress will operate under the narrowest House majority in over a century, virtually guaranteeing high-stakes legislative bargaining and institutional moderation.",
+    "category": "Politics",
+    "edition": [
+        "US & Americas",
+        "Global"
+    ],
+    "author": {
+        "name": "Newyorkerherald Staff",
+        "role": "Capitol Hill & National Politics Bureau",
+        "avatar": "/images/authors/sarah_mitchell.jpg"
+    },
+    "publishedAt": "2h ago",
+    "readTime": "7 min read",
+    "imageUrl": "/images/news/house-control-in-balance-as-late-mail-ballots-counted-in-west.webp",
+    "imageCaption": "Election workers in California examine and tabulate mail-in ballot envelopes under bipartisan observation.",
+    "imageCredit": "Associated Press / Rich Pedroncelli",
+    "commentCount": 82,
+    "bullets": [
+        "House majority hinges on fewer than 4,500 uncounted ballots across nine key districts in California, Arizona, and Oregon.",
+        "California signature verification and cure windows extend counting schedules into next week.",
+        "Incoming majority will govern with the narrowest House margin in modern American history."
+    ],
+    "tags": [
+        "Politics",
+        "House of Representatives",
+        "2026 Midterms",
+        "California",
+        "Arizona",
+        "Congress"
+    ]
+},
     {
     "id": '2026-midterms-gop-takes-senate-as-house-battle-nears-recounts',
     "title": "2026 Midterms: GOP Takes Senate as House Battle Nears Recounts",
@@ -897,6 +1042,42 @@ In Washington, national security officials convened in the White House Situation
 
   'Business & Economy': [
     {
+    "id": "fed-cuts-interest-rates-by-25-basis-points-as-powell-speaks",
+    "title": "Fed Cuts Interest Rates by 25 Basis Points as Powell Speaks",
+    "kicker": "CENTRAL BANK POLICY • MONETARY EASING",
+    "summary": "The Federal Reserve lowered its benchmark federal funds rate by 25 basis points to a target range of 4.25 to 4.50 percent on Friday, as Chair Jerome Powell signaled that central bankers will adopt a data-dependent, meeting-by-meeting approach amid steady economic expansion and disinflation.",
+    "body": "WASHINGTON — The Federal Open Market Committee (FOMC) voted unanimously on Friday to lower its target federal funds rate by a quarter percentage point, bringing borrowing costs down to a range of 4.25 to 4.50 percent in a calibrated move aimed at calibrating monetary policy with steadily moderating inflation and solid labor market fundamentals. The decision, handed down at the conclusion of the central bank's November policy gathering in Washington, marks the Fed's third consecutive rate reduction this year and underscores policymakers' confidence that consumer price inflation is steadily converging toward their long-run two-percent objective.\n\nIn his post-meeting press conference, Federal Reserve Chair Jerome Powell delivered an upbeat assessment of the broader domestic macroeconomy, noting that while headline gross domestic product growth has remained robust above 2.7 percent annualized, labor supply and demand dynamics have rebalanced into healthy equilibrium. Powell emphasized that the central bank is neither in a rush to slash borrowing rates aggressively nor inclined to pause easing prematurely, characterizing the committee's posture as neutral, data-dependent, and insulated from post-election political turbulence.\n\nAddressing financial market inquiries regarding the upcoming change in congressional leadership, Powell firmly reiterated the institutional independence of the central bank, stressing that monetary decisions will continue to be governed strictly by empirical economic indicators rather than electoral outcomes or fiscal speculation. Government bond markets responded favorably to Powell's measured remarks, with benchmark 2-year Treasury yields slipping four basis points to 4.16 percent, while national mortgage rate averages dipped to 6.35 percent, offering modest relief to prospective homebuyers entering the winter real estate season.\n\nCommercial banking institutions swiftly followed the Fed's move by lowering their prime lending rates from 7.75 to 7.50 percent, reducing borrowing expenses for small business commercial loans, credit card balances, and revolving corporate lines of credit. Senior economists at JPMorgan Chase and Barclays noted that Friday's rate reduction confirms the American economy is executing a historic \"soft landing\"—successfully quelling the worst inflation wave in four decades without triggering an economic recession or widespread job layoffs.",
+    "category": "Business",
+    "edition": [
+        "US & Americas",
+        "Global"
+    ],
+    "author": {
+        "name": "Newyorkerherald Staff",
+        "role": "Federal Reserve & Macroeconomics Desk",
+        "avatar": "/images/authors/sarah_mitchell.jpg"
+    },
+    "publishedAt": "4h ago",
+    "readTime": "6 min read",
+    "imageUrl": "/images/news/fed-cuts-interest-rates-by-25-basis-points-as-powell-speaks.webp",
+    "imageCaption": "Federal Reserve Chair Jerome Powell addresses reporters during his post-FOMC press conference in Washington.",
+    "imageCredit": "Associated Press / Susan Walsh",
+    "commentCount": 56,
+    "bullets": [
+        "Federal Reserve lowers benchmark funds rate by 25 basis points to a target band of 4.25%–4.50%.",
+        "Chair Jerome Powell highlights cooling inflation and resilient employment while reaffirming Fed independence.",
+        "2-year Treasury yields fall to 4.16% as mortgage rates drift lower to 6.35%."
+    ],
+    "tags": [
+        "Business",
+        "Federal Reserve",
+        "Interest Rates",
+        "Jerome Powell",
+        "Economy",
+        "Inflation"
+    ]
+},
+    {
     "id": 'sp-500-hits-record-high-on-midterm-clarity-and-steady-jobs-data',
     "title": "S&P 500 Hits Record High on Midterm Clarity and Steady Jobs Data",
     "kicker": "FINANCIAL MARKETS • POST-ELECTION SURGE",
@@ -1111,6 +1292,43 @@ Sports finance experts note that the move mirrors a broader institutional trend 
   ],
 
   'Tech': [
+    {
+    "id": "nvidia-and-tsmc-unveil-35b-2nm-ai-semiconductor-hub-in-arizona",
+    "title": "Nvidia and TSMC Unveil $35B 2nm AI Semiconductor Hub in Arizona",
+    "kicker": "SILICON SOVEREIGNTY • ADVANCED MANUFACTURING",
+    "summary": "Nvidia and Taiwan Semiconductor Manufacturing Co. formalized a landmark $35 billion manufacturing partnership on Friday to build a cutting-edge 2-nanometer wafer fabrication and advanced CoWoS packaging facility in Phoenix, securing American semiconductor leadership.",
+    "body": "PHOENIX & SANTA CLARA, Calif. — In a major boost to domestic technology manufacturing and economic national security, semiconductor powerhouse Nvidia and world-leading foundry TSMC announced on Friday a monumental $35 billion collaborative expansion of their Phoenix, Arizona manufacturing campus. The joint initiative will construct the first commercial 2-nanometer (N2) wafer fabrication plant on American soil, coupled with an ultra-advanced Chip-on-Wafer-on-Substrate (CoWoS) packaging annex engineered to manufacture next-generation artificial intelligence accelerators starting in late 2027.\n\nThe high-profile announcement, made alongside federal Commerce Department officials and Arizona Governor Katie Hobbs, addresses the single most acute vulnerability in global artificial intelligence supply chains: the physical concentration of advanced chip packaging facilities overseas. While domestic fabrication plants have steadily risen under federal CHIPS and Science Act subsidies, high-performance GPUs previously required international transport to Taiwan for the intricate 3D packaging and high-bandwidth memory (HBM) integration essential for enterprise AI training workloads.\n\nNvidia CEO Jensen Huang highlighted the strategic urgency of the initiative, explaining that the new Phoenix facility will enable complete, end-to-end onshore manufacturing for Nvidia's forthcoming \"Rubin\" and \"Vera\" chip architectures. The factory will utilize extreme ultraviolet (EUV) lithography systems supplied by ASML, powered by dedicated on-site solar microgrids and industrial water-recycling closed-loop cooling towers engineered to reclaim ninety-eight percent of industrial manufacturing water.\n\nTech analysts and defense officials hailed the accord as a historic inflection point in the geopolitical battle for semiconductor sovereignty. By establishing leading-edge 2nm lithography and advanced packaging within the continental United States, American hyperscalers, defense contractors, and national laboratories will gain guaranteed, uninterrupted access to frontier computing hardware, insulating the domestic technology sector from potential maritime supply chain disruptions in the Taiwan Strait. Construction on the 2.4-million-square-foot facility will commence in January, generating an estimated 6,000 high-tech engineering and construction jobs.",
+    "category": "Tech",
+    "edition": [
+        "US & Americas",
+        "Global"
+    ],
+    "author": {
+        "name": "Newyorkerherald Staff",
+        "role": "Silicon Valley & Hardware Technology Desk",
+        "avatar": "/images/authors/sarah_mitchell.jpg"
+    },
+    "publishedAt": "4h ago",
+    "readTime": "7 min read",
+    "imageUrl": "/images/news/nvidia-and-tsmc-unveil-35b-2nm-ai-semiconductor-hub-in-arizona.webp",
+    "imageCaption": "Cleanroom technicians inspect silicon wafers inside an advanced semiconductor fabrication facility.",
+    "imageCredit": "Reuters / Ann Wang",
+    "commentCount": 67,
+    "bullets": [
+        "Nvidia and TSMC commit $35 billion to construct a 2nm AI semiconductor fabrication and packaging hub in Phoenix.",
+        "First facility on American soil capable of end-to-end domestic manufacturing of frontier AI accelerators.",
+        "Facility integrates advanced EUV lithography with closed-loop water reclamation infrastructure."
+    ],
+    "tags": [
+        "Tech",
+        "Semiconductors",
+        "Nvidia",
+        "TSMC",
+        "Artificial Intelligence",
+        "Hardware",
+        "Chips Act"
+    ]
+},
     {
     "id": 'openai-and-anthropic-launch-joint-safety-accord-for-ai-agents',
     "title": "OpenAI and Anthropic Launch Joint Safety Accord for AI Agents",
@@ -1327,6 +1545,43 @@ Aerospace financial analysts estimate that SpaceX's commercial launch and satell
 
   'Entertainment': [
     {
+    "id": "avatar-3-first-look-breaks-all-time-global-viewership-record",
+    "title": "Avatar 3 First Look Breaks All-Time Global Viewership Record",
+    "kicker": "HOLLYWOOD BOX OFFICE • THEATRICAL SPECTACLE",
+    "summary": "James Cameron and 20th Century Studios shattered digital entertainment benchmarks on Friday as the debut teaser trailer for Avatar: Fire and Ash amassed an unprecedented 418 million views across digital platforms in its first 24 hours, setting the stage for a historic holiday release.",
+    "body": "LOS ANGELES — Legendary filmmaker James Cameron and 20th Century Studios rewrote Hollywood box office marketing history on Friday as the premiere teaser trailer for \"Avatar: Fire and Ash\"—the third installment in the landmark science-fiction franchise—shattered the all-time 24-hour global viewership record across all social and streaming video platforms. The breathtaking two-minute showcase generated an astonishing 418 million cumulative views in its initial day of release, eclipsing the previous benchmark set by Marvel's \"Deadpool & Wolverine\" and reaffirming the unmatched theatrical draw of Cameron's Pandora universe.\n\nThe teaser offers audiences their first glimpse of Pandora's volcanic biome and introduces the \"Ash People\"—a nomadic, aggressive Na'vi clan inhabiting volcanic volcanic rifts whose fiery philosophy contrasts sharply with the oceanic Metkayina clan introduced in the 2022 blockbuster \"The Way of Water.\" Industry analysts noted that the trailer's stunning underwater and pyroclastic visual fidelity, achieved through Cameron's proprietary deep-learning motion-capture cameras and 4K stereoscopic projection techniques, ignited intense organic discourse across YouTube, TikTok, and international cinema forums.\n\nThe staggering audience engagement arrives as a massive vote of confidence for traditional theatrical exhibition chains. Both AMC Entertainment and Cinemark reported record-breaking traffic across their digital reservation apps on Friday morning as moviegoers pre-registered for special 70mm IMAX and Dolby Cinema preview tickets ahead of the film's scheduled December 2026 holiday theatrical rollout. The previous two Avatar films generated a combined $5.24 billion in worldwide theatrical box office revenue, remaining the number one and number three highest-grossing motion pictures of all time.\n\nStudio executives at parent company Walt Disney confirmed that the global marketing rollout will encompass immersive augmented-reality experiences in major city centers worldwide, international orchestra preview concerts, and specialized cinema technology upgrades across thousands of North American and European theater auditoriums to support high-frame-rate 3D presentation standards. Cameron, speaking from the production facility in Wellington, New Zealand, remarked that \"Fire and Ash\" will explore the darker emotional contours of family loyalty, cultural conflict, and ecological survival.",
+    "category": "Entertainment",
+    "edition": [
+        "US & Americas",
+        "Global"
+    ],
+    "author": {
+        "name": "Newyorkerherald Staff",
+        "role": "Film, Studio & Entertainment Industry Desk",
+        "avatar": "/images/authors/sarah_mitchell.jpg"
+    },
+    "publishedAt": "5h ago",
+    "readTime": "6 min read",
+    "imageUrl": "/images/news/avatar-3-first-look-breaks-all-time-global-viewership-record.webp",
+    "imageCaption": "The red carpet marquee and cinema display for James Cameron's Avatar franchise in Hollywood.",
+    "imageCredit": "Getty Images / Emma McIntyre",
+    "commentCount": 41,
+    "bullets": [
+        "Avatar: Fire and Ash teaser trailer amasses 418 million views in 24 hours, breaking the all-time global record.",
+        "Showcases Pandora's volcanic Ash People clan and pioneering stereoscopic motion-capture technologies.",
+        "Exhibition chains report historic early pre-registration traffic ahead of December 2026 global theatrical release."
+    ],
+    "tags": [
+        "Entertainment",
+        "Avatar 3",
+        "James Cameron",
+        "Hollywood",
+        "Box Office",
+        "Movies",
+        "Disney"
+    ]
+},
+    {
     "id": 'grammy-nominations-2027-global-and-indie-artists-dominate',
     "title": "Grammy Nominations 2027: Global and Indie Artists Dominate",
     "kicker": "AWARDS SEASON • RECORDING ACADEMY",
@@ -1481,6 +1736,41 @@ Furthermore, cloud streaming platforms and mobile distribution networks have low
   ],
 
   'Sports': [
+    {
+    "id": "nfl-thursday-night-shock-ravens-edge-bengals-on-final-play",
+    "title": "NFL Thursday Night Shock: Ravens Edge Bengals on Final Play",
+    "kicker": "GRIDIRON DRAMA • AFC NORTH SHOWDOWN",
+    "summary": "In an instant prime-time classic that shook the AFC playoff picture, backup quarterback Josh Johnson engineered an 84-yard final-minute drive to lift the Baltimore Ravens to a stunning 35-34 victory over the Cincinnati Bengals on Thursday Night Football.",
+    "body": "BALTIMORE — In one of the most exhilarating and improbable prime-time finishes in recent NFL history, the Baltimore Ravens overcame the absence of injured superstar Lamar Jackson to stun their AFC North rivals, the Cincinnati Bengals, 35-34 on Thursday night before a frenzied capacity crowd at M&T Bank Stadium. The breathless victory, sealed on an untimed, walk-off two-point conversion with zero seconds showing on the stadium clock, upended division standings and showcased the gritty resilience of a Ravens squad fighting to keep their Super Bowl ambitions alive.\n\nStarting in place of Jackson, who underwent thumb surgery earlier in the week, 38-year-old veteran backup Josh Johnson delivered the performance of his career. Facing a 34-28 deficit with just one minute and eighteen seconds remaining and no timeouts, Johnson calmly directed an 84-yard hurry-up drive, slicing through Cincinnati's prevent defense with pinpoint intermediate passes. With five seconds left from the Bengals' five-yard line, Johnson scrambled to his right, evaded a charging edge rusher, and floated a miraculous touchdown strike into the back of the end zone to wide receiver Zay Flowers.\n\nRather than kicking the extra point to force overtime, head coach John Harbaugh boldly signaled for the offense to stay on the field for the game-winning two-point conversion. Lining up in a heavy formation, Derrick Henry took a direct snap, absorbed a thunderous collision at the one-yard line from Bengals linebacker Logan Wilson, and powered his legs across the goal line by mere inches to ignite chaotic sideline celebrations.\n\nBengals quarterback Joe Burrow turned in a masterful performance in defeat, completing 34 of 46 passes for 428 yards and four touchdowns, including a pair of sensational deep scores to Ja'Marr Chase. However, Cincinnati's defense was unable to hold off Baltimore's relentless ground attack in the closing moments, dropping the Bengals to 4-6 on the season. The dramatic triumph elevates the Ravens to 7-3, keeping them in prime contention for the AFC's top seed and proving that Baltimore's veteran depth can weather adversity while Jackson rehabilitates.",
+    "category": "Sports",
+    "edition": [
+        "US & Americas"
+    ],
+    "author": {
+        "name": "Newyorkerherald Staff",
+        "role": "NFL & National Sports Desk",
+        "avatar": "/images/authors/sarah_mitchell.jpg"
+    },
+    "publishedAt": "5h ago",
+    "readTime": "6 min read",
+    "imageUrl": "/images/news/nfl-thursday-night-shock-ravens-edge-bengals-on-final-play.webp",
+    "imageCaption": "Ravens players celebrate on the field after executing a game-winning two-point conversion against the Bengals.",
+    "imageCredit": "Associated Press / Nick Wass",
+    "commentCount": 79,
+    "bullets": [
+        "Ravens defeat Bengals 35-34 on walk-off two-point conversion as time expires on Thursday Night Football.",
+        "Veteran backup Josh Johnson guides 84-yard final-minute drive to fill in for injured Lamar Jackson.",
+        "Derrick Henry powers in game-winning two-point run to vault Baltimore to 7-3 atop the AFC North."
+    ],
+    "tags": [
+        "Sports",
+        "NFL",
+        "Baltimore Ravens",
+        "Cincinnati Bengals",
+        "Football",
+        "AFC North"
+    ]
+},
     {
     "id": 'dodgers-win-2026-world-series-in-extra-inning-game-7-thriller',
     "title": "Dodgers Win 2026 World Series in Extra-Inning Game 7 Thriller",
@@ -1658,6 +1948,43 @@ On the stadium infrastructure front, club executives evaluated demonstrations of
   ],
 
   'Science': [
+    {
+    "id": "mit-fusion-reactor-achieves-historic-net-energy-plasma-gain",
+    "title": "MIT Fusion Reactor Achieves Historic Net Energy Plasma Gain",
+    "kicker": "CLEAN POWER MILESTONE • APPLIED NUCLEAR PHYSICS",
+    "summary": "Physicists at MIT and Commonwealth Fusion Systems announced on Friday that the SPARC magnetic confinement tokamak has achieved a sustained energy gain factor Q of 2.1, generating more than double the thermal energy injected into the core fusion plasma.",
+    "body": "CAMBRIDGE & DEVENS, Mass. — In what energy physicists are hailing as a monumental turning point in humanity's quest for limitless, zero-carbon baseload energy, researchers at the Massachusetts Institute of Technology's Plasma Science and Fusion Center and Commonwealth Fusion Systems (CFS) officially confirmed on Friday morning that their compact magnetic tokamak, SPARC, has demonstrated sustained net energy gain from a deuterium-tritium nuclear fusion plasma. The peer-reviewed findings, presented at an emergency symposium of the American Physical Society, revealed that the reactor achieved an energy multiplication factor (Q) of 2.14, generating 107 megawatts of thermal fusion power from 50 megawatts of input heating.\n\nUnlike government-funded laser inertial confinement experiments that achieve net energy in microsecond bursts, SPARC relies on high-temperature superconducting (HTS) magnets manufactured from rare-earth barium copper oxide (REBCO) tape. These revolutionary electromagnets generate a staggering 20-tesla magnetic field—more than four hundred thousand times stronger than Earth's magnetic field—allowing researchers to confine a burning plasma exceeding 120 million degrees Celsius within a vacuum vessel one-fortieth the volume of traditional international fusion reactors like ITER in France.\n\nThe sustained net energy milestone, maintained for an unprecedented ninety seconds during consecutive test runs on Thursday evening, provides definitive physical validation that compact, commercially viable magnetic fusion power plants can be built at industrial scale. CFS executives announced that engineering blueprints for ARC—the commercial utility-scale successor plant designed to supply 400 megawatts of clean electricity directly to the New England electrical grid—have been accelerated for groundbreaking in 2028.\n\nFederal energy officials and global climate leaders celebrated the announcement, emphasizing that fusion energy produces zero greenhouse gas emissions, leaves no long-lived radioactive waste, and utilizes abundant isotopes derived from seawater. Wall Street infrastructure investment syndicates poured over two billion dollars in venture and institutional capital into commercial fusion suppliers on Friday, recognizing that practical fusion power offers the only viable long-term solution to meet the skyrocketing electricity consumption of AI hyperscale data centers and continental industrial electrification.",
+    "category": "Science",
+    "edition": [
+        "US & Americas",
+        "Global"
+    ],
+    "author": {
+        "name": "Newyorkerherald Staff",
+        "role": "Nuclear Physics & Energy Science Desk",
+        "avatar": "/images/authors/sarah_mitchell.jpg"
+    },
+    "publishedAt": "6h ago",
+    "readTime": "7 min read",
+    "imageUrl": "/images/news/mit-fusion-reactor-achieves-historic-net-energy-plasma-gain.webp",
+    "imageCaption": "The glowing vacuum chamber and superconducting magnet coils of a magnetic confinement fusion tokamak.",
+    "imageCredit": "Commonwealth Fusion Systems / MIT",
+    "commentCount": 93,
+    "bullets": [
+        "SPARC compact tokamak achieves historic Q=2.14 net energy gain, generating 107MW of thermal fusion energy.",
+        "Revolutionary 20-tesla high-temperature superconducting magnets confine burning plasma at 120 million °C.",
+        "Accelerates commercial ARC fusion power plant construction to supply clean electricity to the grid by 2030."
+    ],
+    "tags": [
+        "Science",
+        "Nuclear Fusion",
+        "Clean Energy",
+        "Physics",
+        "MIT",
+        "Technology",
+        "Climate"
+    ]
+},
     {
     "id": 'webb-telescope-finds-water-vapor-on-habitable-zone-exoplanet',
     "title": "Webb Telescope Finds Water Vapor on Habitable-Zone Exoplanet",
@@ -1844,6 +2171,42 @@ Domestic automotive manufacturers have committed multi-billion-dollar off-take a
   ],
 
   'Opinion': [
+    {
+    "id": "the-suburban-realignment-why-independent-voters-rule-america",
+    "title": "The Suburban Realignment: Why Independent Voters Rule America",
+    "kicker": "POLITICAL ANALYSIS • THE NEW ELECTORATE",
+    "summary": "The outcome of the 2026 midterms confirms that America’s traditional party machines have been fundamentally eclipsed by a discerning, highly educated suburban independent electorate that ruthlessly punishes ideological excess and demands practical competence.",
+    "body": "WASHINGTON — For decades, political operatives in Washington have operated under a foundational dogma: elections are won by activating the passionate ideological base of the two major parties, relying on partisan tribalism and negative polarization to drag reluctant voters across the finish line. Yet when future historians look back at the voting returns of the 2026 midterm elections, they will recognize this cycle as the definitive obituary for that obsolete strategy. Across the critical suburban battlegrounds of Atlanta, Philadelphia, Phoenix, and Detroit, the defining story of American politics is the total dominance of the independent ticket-splitter.\n\nIn precinct after precinct on Tuesday, millions of pragmatic, suburban voters systematically deconstructed party loyalties. They voted for fiscal prudence and border enforcement by supporting Republican Senate candidates, while simultaneously electing pragmatic Democratic House members and approving progressive state constitutional ballot initiatives on reproductive healthcare, clean water bonds, and emergency hospital funding. These voters did not split their ballots out of confusion or apathy; they did so with surgical intentionality, purposefully constructing a divided government designed to prevent either party from imposing its most radical legislative impulses.\n\nThis emerging suburban majority is defined not by party loyalty, but by a profound exhaustion with performative grievance politics and institutional instability. They are homeowners with children in public schools, small business operators grappling with sticky inflation, and technology professionals navigating an evolving artificial intelligence economy. They care about kitchen-table stability, mortgage rates, reliable public transit, and civil rights. They have zero patience for manufactured culture wars or apocalyptic rhetoric that paralyzes congressional governance while basic federal infrastructure languishes.\n\nFor both national party apparatuses, the message from the 2026 midterms is existential. The party that continues to pander to its loud primary extremes will find itself permanently locked out of governing majorities. The future of American political power belongs to whoever speaks directly to the pragmatic center: the suburban independent voters who hold the balance of power and will not hesitate to fire anyone who puts partisan theater above national interest.",
+    "category": "Opinion",
+    "edition": [
+        "US & Americas",
+        "Global"
+    ],
+    "author": {
+        "name": "Newyorkerherald Staff",
+        "role": "Editorial Board & Opinion Desk",
+        "avatar": "/images/authors/sarah_mitchell.jpg"
+    },
+    "publishedAt": "4h ago",
+    "readTime": "8 min read",
+    "imageUrl": "/images/news/the-suburban-realignment-why-independent-voters-rule-america.webp",
+    "imageCaption": "A residential neighborhood in suburban Pennsylvania during the autumn election season.",
+    "imageCredit": "Getty Images / Spencer Platt",
+    "commentCount": 68,
+    "bullets": [
+        "2026 midterm results confirm the complete electoral dominance of ticket-splitting suburban independent voters.",
+        "Electorate rejected extreme ideological wings in favor of deliberate institutional checks and balances.",
+        "Both national parties face an existential imperative to govern from the pragmatic center on economic stability."
+    ],
+    "tags": [
+        "Opinion",
+        "Editorial",
+        "Suburbs",
+        "Independent Voters",
+        "2026 Midterms",
+        "Governance"
+    ]
+},
     {
     "id": 'divided-nation-why-americas-midterm-vote-demands-compromise',
     "title": "Divided Nation: Why America's Midterm Vote Demands Compromise",
@@ -2396,44 +2759,44 @@ export function getHomepageDepartmentArticles(dept: string): Article[] {
   const mapping: Record<string, string[]> = {
     us: [
       'the-vanity-of-alina-habba-mildon',
+      'seven-states-reach-landmark-historic-colorado-river-water-pact',
       'seven-states-pass-major-constitutional-ballot-amendments',
-      'fatal-florida-private-jet-crash-palm-beach-ntsb-faa-emergency-investigation',
-      'senator-chris-murphy-hospitalized-after-stroke-bipartisan-well-wishes'
+      'california-votes-on-prop-40-wealth-tax-for-emergency-care'
     ],
     politics: [
+      'house-control-in-balance-as-late-mail-ballots-counted-in-west',
       '2026-midterms-gop-takes-senate-as-house-battle-nears-recounts',
       'supreme-court-rejects-emergency-bid-on-california-mail-ballots',
-      'supreme-court-rejects-emergency-challenge-over-20-000-california-ballots-as-judge-bars-federal-election-interference',
       'bipartisan-congressional-coalition-finalizes-critical-minerals-strategic-stockpile-legislation'
     ],
     business: [
+      'fed-cuts-interest-rates-by-25-basis-points-as-powell-speaks',
       'sp-500-hits-record-high-on-midterm-clarity-and-steady-jobs-data',
-      'oracle-prices-historic-20-billion-debt-and-equity-offering-to-finance-massive-ai-cloud-data-center-expansion',
-      'credit-card-swipe-fees-retail-coalition-urges-congress-to-pass-competition-act',
-      'crude-oil-surges-above-89-as-us-strikes-iranian-drone-bases'
+      'crude-oil-surges-above-89-as-us-strikes-iranian-drone-bases',
+      'oracle-prices-historic-20-billion-debt-and-equity-offering-to-finance-massive-ai-cloud-data-center-expansion'
     ],
     tech: [
+      'nvidia-and-tsmc-unveil-35b-2nm-ai-semiconductor-hub-in-arizona',
       'openai-and-anthropic-launch-joint-safety-accord-for-ai-agents',
       'doj-expands-nvidia-antitrust-probe-over-hugging-face-buyout',
-      'nvidia-ceo-jensen-huang-scrutiny-trump-response-ai-semiconductor-sovereignty',
-      'menomonie-wisconsin-ai-data-center-local-protest-backlash-energy-water'
+      'nvidia-ceo-jensen-huang-scrutiny-trump-response-ai-semiconductor-sovereignty'
     ],
     entertainment: [
+      'avatar-3-first-look-breaks-all-time-global-viewership-record',
       'grammy-nominations-2027-global-and-indie-artists-dominate',
       'christopher-nolans-the-odyssey-hits-record-1-17-billion',
-      'subscription-fatigue-hits-streaming-giants-as-pay-tv-satisfaction-rebounds-in-latest-consumer-index',
       'paramount-skydance-merger-completes-formal-integration-uniting-studio-blockbusters-with-gaming-franchises'
     ],
     sports: [
+      'nfl-thursday-night-shock-ravens-edge-bengals-on-final-play',
       'dodgers-win-2026-world-series-in-extra-inning-game-7-thriller',
       'lamar-jackson-out-on-injured-reserve-following-thumb-surgery',
-      'twenty-year-old-kimi-antonelli-becomes-youngest-formula-1-world-champion-in-historic-mexico-city-grand-prix',
-      'nfl-week-9-commanders-crush-eagles-rams-chargers-derby-luka-45-points'
+      'twenty-year-old-kimi-antonelli-becomes-youngest-formula-1-world-champion-in-historic-mexico-city-grand-prix'
     ],
     science: [
+      'mit-fusion-reactor-achieves-historic-net-energy-plasma-gain',
       'webb-telescope-finds-water-vapor-on-habitable-zone-exoplanet',
       'nasa-voyager-1-reaches-record-one-light-day-distance-from-earth',
-      'catastrophic-flash-floods-force-emergency-evacuations-across-southwestern-colorado-as-atmospheric-river-slams-rockies',
       'usgs-supervolcano-research-reveals-yellowstone-eruptions-occur-in-complex-multi-pulse-sequences'
     ]
   };
