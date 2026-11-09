@@ -3,35 +3,35 @@ import { Article, OpinionColumn, FactCheckItem, PhotoStory, VideoItem, PodcastEp
 export const BREAKING_NEWS_ITEMS = [
   {
     id: 'brk-1',
-    kicker: 'CALIFORNIA JUSTICE',
-    headline: 'Newsom Commutes Death Sentences for All 548 Inmates in State',
+    kicker: 'PRESIDENTIAL PIVOT',
+    headline: 'Trump Admits Deportation Policy Was Too Tough on 60 Minutes',
     time: '2m ago',
-    url: '/us/newsom-commutes-death-sentences-for-all-548-california-inmates'
+    url: '/politics/trump-admits-deportation-policy-was-too-tough-on-60-minutes'
   },
   {
     id: 'brk-2',
-    kicker: 'FEDERAL INJUNCTION',
-    headline: 'Judge Chutkan Blocks Trump 250-Foot Triumphal Arch in D.C.',
+    kicker: 'GLOBAL EQUITIES',
+    headline: 'Global Markets Rebound After 2.5 Trillion Tech Sell-Off',
     time: '14m ago',
-    url: '/politics/judge-chutkan-blocks-trump-250-foot-triumphal-arch-in-dc'
+    url: '/business/global-markets-rebound-after-25-trillion-tech-sell-off'
   },
   {
     id: 'brk-3',
-    kicker: 'WALL STREET DROP',
-    headline: 'Wall Street Plunges as Nasdaq Enters Correction Over AI Capex',
+    kicker: 'RECORD FINANCING',
+    headline: 'OpenAI Secures 11 Billion Funding at 1.25 Trillion Valuation',
     time: '28m ago',
-    url: '/business/wall-street-plunges-as-nasdaq-enters-correction-over-ai-capex'
+    url: '/tech/openai-secures-11-billion-funding-at-125-trillion-valuation'
   }
 ];
 
 export const TRENDING_TAGS = [
-  '#CaliforniaDeathRow',
-  '#JudgeChutkan',
-  '#WallStreetSelloff',
-  '#OpenAILinux',
-  '#WordOfTheYear',
-  '#Mogging',
-  '#LAMayorRaman'
+  '#Trump60Minutes',
+  '#NvidiaProbe',
+  '#GodzillaMinusZero',
+  '#NotreDameUpset',
+  '#OpenAIFunding',
+  '#ESCAPADEMars',
+  '#SchoolClosures2026'
 ];
 
 export const LEAD_ARTICLE: Article = {
@@ -75,11 +75,11 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
 
 export const SECONDARY_LEAD_STORIES: Article[] = [
     {
-    "id": "judge-chutkan-blocks-trump-250-foot-triumphal-arch-in-dc",
-    "title": "Judge Chutkan Blocks Trump 250-Foot Triumphal Arch in D.C.",
-    "kicker": "FEDERAL INJUNCTION • MONUMENT DISPUTE",
-    "summary": "U.S. District Judge Tanya Chutkan issued an emergency injunction on Friday temporarily halting preliminary construction work on President Donald Trump’s planned 250-foot triumphal arch in Washington, D.C., ruling that administrative approvals bypassed mandatory federal environmental and historic preservation statutes.",
-    "body": "WASHINGTON — In a consequential judicial intervention that has set off a fresh confrontation between the White House and the federal bench, U.S. District Judge Tanya S. Chutkan granted an emergency preliminary injunction Friday morning halting all ongoing architectural and excavation work on President Donald Trump's proposed 250-foot triumphal monument arch near the National Mall. The ruling delivers an immediate procedural victory to a broad coalition of urban preservation societies, historic landmark trusts, and regional environmental groups who contended that federal agencies expedited approvals without conducting statutory impact reviews required by federal law.\n\nThe controversial civic project, announced by the White House earlier this autumn as the centerpiece of a signature legacy modernization initiative for the federal district, envisions a colossal Neoclassical triumphal arch dwarfing the 169-foot Arc de Triomphe in Paris. Planned for construction on federal parkland along the Potomac River corridor near Constitution Avenue, the monument has drawn fierce opposition from local civic planning boards, architectural historians, and district residents, who argued the structure would irreversibly obstruct visual sightlines between the Lincoln Memorial and Arlington National Cemetery.\n\nIn her sharply worded 38-page memorandum opinion, Judge Chutkan determined that the Department of the Interior, the National Park Service, and the Commission of Fine Arts failed to satisfy baseline procedural mandates under the National Environmental Policy Act (NEPA) and Section 106 of the National Historic Preservation Act. The court noted that administrative permits were authorized through emergency categorical exclusions typically reserved for urgent infrastructure repairs, effectively circumventing mandatory public notice periods, community comment sessions, and independent structural impact assessments on regional groundwater tables.\n\n\"The executive branch possesses substantial discretion in managing public properties, but that discretion remains bounded by the statutory constraints enacted by the Congress of the United States,\" Judge Chutkan wrote. \"Federal agencies cannot short-circuit decades of established environmental and historic preservation jurisprudence merely because a proposed civic project enjoys high-level executive enthusiasm.\"\n\nWhite House press officials condemned the injunction within hours, characterizing the decision as judicial overreach and asserting that federal land management statutes provide clear constitutional authority for executive aesthetic enhancements. The Department of Justice immediately noticed an expedited interlocutory appeal to the U.S. Court of Appeals for the District of Columbia Circuit, requesting an emergency stay of the injunction to allow preparatory soil engineering and boundary fencing to proceed ahead of the winter freeze.",
+    "id": "trump-admits-deportation-policy-was-too-tough-on-60-minutes",
+    "title": "Trump Admits Deportation Policy Was Too Tough on 60 Minutes",
+    "kicker": "PRESIDENTIAL INTERVIEW • IMMIGRATION PIVOT",
+    "summary": "In a dramatic CBS News \"60 Minutes\" interview on Sunday following Republican midterm losses, President Donald Trump conceded that his administration’s mass deportation operations were \"too tough\" and signaled unexpected willingness to negotiate an immigration compromise with newly elected congressional Democrats.",
+    "body": "WASHINGTON — In a striking rhetorical recalibration broadcast nationwide on Sunday evening, President Donald Donald Trump conceded during an interview on CBS News' \"60 Minutes\" that his administration's aggressive enforcement policies and mass deportation operations may have gone too far, alienating swing voters and contributing significantly to the Republican Party's sweeping congressional defeats in last Tuesday's midterm elections. The extraordinary prime-time admission marks the first major public acknowledgment by the White House that the hardline immigration playbook championed by senior administration aides has generated severe political liability across key suburban districts and independent voting blocs.\n\nSpeaking with CBS correspondent Scott Pelley from the Oval Office, the president struck an uncharacteristically reflective tone when pressed on exit polling data that showed overwhelming voter dissatisfaction with workplace immigration raids and high-profile detention enforcement actions. \"Looking back at the past eighteen months, some of the procedures we instituted—maybe they were too tough, maybe people perceived them as overly harsh,\" Trump remarked during the sixty-minute broadcast. \"The American public wants order and secure borders, absolutely, but they also want fairness and compassion. We saw that message very clearly at the ballot box on Tuesday, and we have to be smart enough to listen to what the voters are saying.\"\n\nThe president's remarks reverberated instantly across Capitol Hill, where incoming Democratic majorities in both the Senate and the House of Representatives are already formulating legislative frameworks for comprehensive immigration reform and legal status adjustments for long-term undocumented residents. When asked directly whether he would be open to signing a bipartisan compromise that pairs border security funding with legal protections and work authorizations for undocumented immigrants without criminal records, Trump broke sharply with his traditional hardline stance, signaling an openness to direct negotiations with Democratic congressional leaders.\n\n\"If the Democrats want to come to the White House and put together a real deal—one that secures the ports of entry while giving good, hardworking people who have lived here peacefully for decades a clear and legal status—I am ready to sit down and make that deal,\" Trump said. \"We cannot continue in a state of perpetual national division. We have to fix this system once and for all.\"\n\nThe public pivot has ignited immediate and fierce debate within conservative political circles and immigration policy institutes. Several staunch immigration hardliners in the House Freedom Caucus issued sharp statements Sunday night urging the president not to abandon the core enforcement mandates that defined his second administration, warning that any legislative concession to Democrats would fracture the conservative coalition. Conversely, moderate Republican lawmakers from competitive swing districts in New York, California, and Texas welcomed the president's openness to compromise, arguing that pragmatic immigration reform is vital if the party hopes to rebuild its standing with moderate suburban families ahead of the 2028 presidential campaign.",
     "category": "Politics",
     "edition": [
         "US & Americas",
@@ -87,27 +87,27 @@ export const SECONDARY_LEAD_STORIES: Article[] = [
     ],
     "author": {
         "name": "Newyorkerherald Staff",
-        "role": "Federal Courts & National Legal Affairs Desk",
+        "role": "White House & Congressional Bureau",
         "avatar": "/images/authors/sarah_mitchell.jpg"
     },
-    "publishedAt": "1h ago",
+    "publishedAt": "2h ago",
     "readTime": "7 min read",
-    "imageUrl": "/images/news/judge-chutkan-blocks-trump-250-foot-triumphal-arch-in-dc.webp",
-    "imageCaption": "The United States District Court for the District of Columbia in Washington, where Judge Tanya Chutkan issued the injunction.",
-    "imageCredit": "Associated Press / J. Scott Applewhite",
-    "commentCount": 96,
+    "imageUrl": "/images/news/trump-admits-deportation-policy-was-too-tough-on-60-minutes.webp",
+    "imageCaption": "President Donald Trump speaks during an interview on CBS News 60 Minutes at the White House.",
+    "imageCredit": "Associated Press / Alex Brandon",
+    "commentCount": 168,
     "bullets": [
-        "U.S. District Judge Tanya Chutkan halts preliminary construction on planned 250-foot triumphal arch in Washington.",
-        "Ruling finds federal agencies bypassed mandatory NEPA environmental reviews and historic preservation rules.",
-        "Department of Justice files expedited emergency appeal to the D.C. Circuit seeking to overturn the injunction."
+        "President Trump tells 60 Minutes that enforcement operations and mass deportations were \"too tough.\"",
+        "Signals unexpected willingness to negotiate bipartisan immigration protections with Democratic leaders.",
+        "Remarks spark immediate tension between conservative hardliners and moderate swing-district lawmakers."
     ],
     "tags": [
         "Politics",
         "Donald Trump",
-        "Tanya Chutkan",
-        "Courts",
-        "Washington DC",
-        "Monuments"
+        "60 Minutes",
+        "Immigration",
+        "Congress",
+        "White House"
     ]
 },
     {
@@ -440,40 +440,39 @@ As the Federal Energy Regulatory Commission (FERC) convenes national stakeholder
 export const CATEGORY_ARTICLES: Record<string, Article[]> = {
   'Investigation': [
     {
-    "id": "investigation-trump-oval-office-landmark-move-sparks-inquiries",
-    "title": "Investigation: Trump Oval Office Landmark Move Sparks Inquiries",
-    "kicker": "ETHICS INQUIRY • WHITE HOUSE HERITAGE",
-    "summary": "A Newyorkerherald investigation into President Donald Trump’s unprecedented executive proclamation designating the Oval Office and Cabinet Room as a national monument reveals severe legal vulnerabilities, conflicts with historic preservation laws, and imminent congressional inquiries.",
-    "body": "WASHINGTON — When President Donald J. Trump sat behind the historic Resolute Desk wearing a red \"VETO\" baseball cap on Thursday afternoon to sign an executive proclamation designating the Oval Office and the West Wing Cabinet Room as an official national monument, White House aides framed the ceremony as a patriotic tribute to presidential architectural heritage. Yet an exhaustive investigation by the Newyorkerherald Investigative Reporting Unit reveals that the unprecedented proclamation has ignited an intense behind-the-scenes legal and ethical crisis across federal land management agencies, triggering immediate scrutiny from congressional oversight committees and government ethics watchdogs.\n\nAn examination of internal memoranda from the Department of the Interior and the National Park Service indicates that career attorneys warned senior administration officials that utilizing the Antiquities Act of 1906 to declare operational working offices of the executive mansion as a national monument breaches more than a century of statutory precedent. Under federal law, the Antiquities Act empowers the president to protect federal lands and objects of historic or scientific interest, historically applied to natural wonders like the Grand Canyon or prehistoric archaeological ruins across public domain lands.\n\nLegal scholars and constitutional historians interviewed by Newyorkerherald point out that designating the West Wing workspace as a national monument introduces severe administrative contradictions. Under federal preservation guidelines governing national monuments, any physical modification, electronic security enhancement, or architectural alterations to protected structures must undergo exhaustive federal advisory reviews, potentially constraining future administrations from redecorating or modernizing secure communications facilities within the Oval Office.\n\nCongressional leaders from the incoming House Committee on Oversight and Government Reform confirmed on Friday that they have formally requested all internal correspondence, legal memos, and communications between the Executive Office of the President and the National Park Service concerning the designation. Ethics watchdogs emphasized that federal statutes explicitly assign jurisdiction over White House furnishings and architectural maintenance to the Committee for the Preservation of the White House and the White House Historical Association, setting up an inevitable legal showdown over executive unilateralism.",
+    "id": "nvidia-board-probes-ceo-jensen-huang-over-foreign-intel-ties",
+    "title": "Nvidia Board Probes CEO Jensen Huang Over Foreign Intel Ties",
+    "kicker": "CORPORATE GOVERNANCE • SPECIAL COUNSEL INQUIRY",
+    "summary": "Nvidia’s board of directors has retained independent legal counsel to investigate whether Chief Executive Jensen Huang was compromised in a foreign intelligence operation following revelations concerning his undisclosed personal ties to a scrutinized Asian technology executive.",
+    "body": "SANTA CLARA, Calif. & WASHINGTON — The board of directors of Nvidia Corporation, the world's preeminent designer of artificial intelligence semiconductors, has officially retained independent special counsel to conduct an exhaustive corporate governance and security inquiry into Chief Executive Officer Jensen Huang. The high-profile investigation, announced in late-breaking disclosures over the weekend, seeks to definitively determine whether Huang was targeted or unknowingly compromised in a sophisticated foreign intelligence operation connected to the unauthorized diversion of advanced semiconductor architectures.\n\nThe board's intervention follows explosive investigative reporting by international financial media outlets detailing an undisclosed personal and romantic relationship between Huang and a former senior executive of Megaspeed, a Singapore-based computing distributor that has been under intense surveillance by the United States Department of Commerce and federal intelligence agencies over allegations of facilitating illicit semiconductor transfers to state-backed entities in Beijing. In a deeply personal statement released to employees and shareholders on Sunday, Huang acknowledged having engaged in an unfaithful personal relationship, taking full personal accountability for the personal lapse while fiercely maintaining that no proprietary corporate technology, confidential chip blueprints, or national security secrets were ever discussed or compromised.\n\nDespite Huang's personal assurances, the revelation has sent shockwaves through the highest corridors of Silicon Valley, Wall Street, and national defense agencies in Washington. Nvidia's cutting-edge graphics processing units (GPUs) and tensor core processors form the foundational computational bedrock for America's leading defense supercomputers, national laboratory simulations, and commercial frontier artificial intelligence models. Federal export regulations strictly classify advanced accelerator chips as strategic national security assets subject to rigorous export bans.\n\nThe special committee established by Nvidia's independent directors has tasked a leading national security law firm and former federal cybersecurity prosecutors with conducting comprehensive forensic audits of executive email communications, mobile devices, private calendar logs, and travel itineraries spanning the past three years. The committee emphasized that preliminary assessments have revealed no empirical evidence of intellectual property leaks or unauthorized database intrusions, but stressed that the investigation must proceed with uncompromising thoroughness to reassure corporate partners, institutional shareholders, and federal oversight bodies.\n\n\"Maintaining complete integrity in our leadership governance and protecting our technological sovereignty are non-negotiable institutional obligations,\" Nvidia's lead independent director said in an official statement. \"The board is taking every appropriate measure to ensure that this independent inquiry is exhaustive, rigorous, and transparent, while maintaining uninterrupted operational focus on delivering our technology roadmaps to customers worldwide.\"",
     "category": "Investigation",
     "edition": [
-        "US & Americas"
+        "US & Americas",
+        "Global"
     ],
     "author": {
         "name": "Newyorkerherald Staff",
-        "role": "White House & Ethics Investigative Bureau",
+        "role": "National Security & Corporate Intelligence Unit",
         "avatar": "/images/authors/sarah_mitchell.jpg"
     },
-    "publishedAt": "5h ago",
+    "publishedAt": "7h ago",
     "readTime": "8 min read",
-    "imageUrl": "/images/news/investigation-trump-oval-office-landmark-move-sparks-inquiries.webp",
-    "imageCaption": "The exterior of the West Wing and the Oval Office at the White House in Washington, D.C.",
-    "imageCredit": "Newyorkerherald Investigative Desk",
-    "isInvestigative": true,
-    "commentCount": 92,
+    "imageUrl": "/images/news/nvidia-board-probes-ceo-jensen-huang-over-foreign-intel-ties.webp",
+    "imageCaption": "Nvidia headquarters in Santa Clara, California, where the board has launched an independent inquiry.",
+    "imageCredit": "Associated Press / Jeff Chiu",
+    "commentCount": 242,
     "bullets": [
-        "Investigation reveals internal Interior Department warnings against using 1906 Antiquities Act on the Oval Office.",
-        "Monument designation creates severe legal conflicts over future security upgrades and presidential redecorations.",
-        "House Oversight leaders launch inquiry into legal counsel memos and executive communications."
+        "Nvidia board hires independent special counsel to investigate CEO Jensen Huang regarding foreign intel exposure.",
+        "Inquiry follows revelations of personal relationship with executive linked to scrutinized tech distributor.",
+        "Forensic investigation examines communication records while preliminary audits show no intellectual property theft."
     ],
     "tags": [
         "Investigation",
-        "Donald Trump",
-        "Oval Office",
-        "White House",
-        "Antiquities Act",
-        "Ethics",
-        "Congress"
+        "Nvidia",
+        "Jensen Huang",
+        "National Security",
+        "Artificial Intelligence",
+        "Corporate Governance"
     ]
 },
     {
@@ -589,38 +588,38 @@ In Albany, Governor Kathy Hochul convened an emergency public health cabinet mee
   ],
     'US': [
     {
-    "id": "newsom-commutes-death-sentences-for-all-548-california-inmates",
-    "title": "Newsom Commutes Death Sentences for All 548 California Inmates",
-    "kicker": "HISTORIC CLEMENCY • CAPITAL PUNISHMENT",
-    "summary": "California Governor Gavin Newsom announced the largest mass clemency action in modern American history on Friday, commuting the death sentences of all 548 condemned inmates on the nation’s largest death row to life imprisonment without the possibility of parole.",
-    "body": "SACRAMENTO & SAN QUENTIN, Calif. — In an unprecedented and sweeping exercise of executive clemency that will fundamentally reshape the American capital justice system, California Governor Gavin Newsom formally announced Friday that he has commuted the death sentences of all 548 individuals currently on the state's death row. The historic decree, enacted through hundreds of individually signed executive orders, permanently vacates the capital sentences of every condemned prisoner in California, converting their status to life imprisonment without the possibility of parole and effectively dismantling the single largest death row population in the Western Hemisphere.\n\nSpeaking before reporters and civil rights advocates at the state Capitol in Sacramento, Newsom described capital punishment as an inherently flawed, racially biased, and exorbitantly costly institutional failure that provides neither deterrence nor true closure for victims' families. The decision fulfills Newsom's career-long moral crusade against the death penalty, building upon his 2019 executive moratorium on executions and the subsequent physical decommissioning and dismantling of the lethal injection execution chamber at San Quentin Rehabilitation Center.\n\n\"The intentional taking of human life by the state is irrevocably incompatible with our foundational democratic values,\" Newsom declared during the emotional morning announcement. \"For decades, capital punishment in California has functioned not as an instrument of swift justice, but as an arbitrary, multi-billion-dollar legal charade disproportionately inflicted upon indigent defendants, people of color, and those suffering from severe cognitive impairment. Today, California closes this dark chapter permanently.\"\n\nThe mass commutation was met with immediate, impassioned praise from civil rights organizations, legal defense funds, and international human rights monitors. The American Civil Liberties Union and the Equal Justice Initiative commended the governor for moral courage, emphasizing that California's action marks a watershed moment that will accelerate national momentum toward the full abolition of capital punishment. State corrections officials confirmed that over the next six months, the 527 men and 21 women affected by the clemency order will be phased out of segregated death-row cellblocks and integrated into general maximum-security prison housing, where they will be required to participate in mandatory prison labor to pay restitution to victims' crime survivors.\n\nHowever, the sweeping move ignited fierce political blowback from conservative state lawmakers, county district attorneys, and victim advocacy groups. The California District Attorneys Association issued a joint denunciation, calling the mass commutation an egregious overreach of executive authority that betrays the families of homicide victims and flouts voter-approved ballot initiatives that repeatedly upheld capital punishment in 2012 and 2016. Republican legislative leaders announced plans to file an immediate constitutional challenge in state court, arguing that categorical mass clemency violates statutory procedural review requirements under the California Constitution.",
+    "id": "us-school-closures-accelerate-as-budget-and-enrollment-drop",
+    "title": "US School Closures Accelerate as Budget and Enrollment Drop",
+    "kicker": "NATIONAL EDUCATION CRISIS • ENROLLMENT CLIFF",
+    "summary": "More than 1,150 public schools closed nationwide over the past academic year as cash-strapped school districts grapple with declining birth rates, plunging student enrollment, and the sudden expiration of federal pandemic relief subsidies.",
+    "body": "CHICAGO & SACRAMENTO — Across urban neighborhoods, suburban corridors, and rural heartlands, an accelerating wave of public school closures is profoundly transforming the landscape of American primary and secondary education. Comprehensive new data released by state education departments and compiled by educational policy researchers reveals that more than 1,150 public schools shuttered their doors permanently during the last academic year alone, with hundreds of additional campuses slated for consolidation or imminent closure before the start of the 2027 school term.\n\nThe unprecedented wave of campus shutdowns is being driven by a powerful confluence of structural demographic contractions and severe fiscal cliffs. Demographers point to the persistent decline in national birth rates that began following the Great Recession, which has now produced a sharp drop in elementary and middle school cohorts across major metropolitan areas. Compounding these demographic shifts is the total exhaustion of the $190 billion in federal Elementary and Secondary School Emergency Relief (ESSER) funds, which school boards had utilized over the past four years to maintain staffing levels, subsidize tutoring initiatives, and keep under-enrolled facilities operational.\n\nFrom Philadelphia and Boston to Milwaukee, Denver, and Oakland, local school boards have been forced into agonizing public hearings where weeping parents and frustrated educators plead to save historic neighborhood institutions. In many mid-sized cities, district enrollment has contracted by twenty to thirty-five percent over the past decade as families have migrated to lower-cost Sunbelt states or enrolled children in public charter systems, private academies, and homeschooling networks. With per-pupil state funding formulas tied directly to average daily attendance, underpopulated campuses have become financially unsustainable to maintain.\n\n\"We are witnessing an unprecedented structural contraction that will reshape American public education for the next generation,\" said Dr. Elena Rodriguez, senior fellow at the National Institute for Public Education Policy. \"Districts can no longer postpone difficult consolidations. Running school buildings that are operating at thirty or forty percent of their architectural capacity drains critical funding away from classroom instruction, specialized special education services, and advanced academic coursework.\"\n\nThe ripple effects of widespread school closures extend far beyond budgetary balance sheets. Sociologists and urban planners warn that closing neighborhood schools disproportionately impacts working-class communities of color, eliminating vital community hubs that provide after-school childcare, nutrition assistance, and neighborhood social cohesion. Displaced students often face significantly longer bus commutes across town, while abandoned school properties risk becoming blighted municipal eyesores if cities fail to quickly repurpose the physical facilities into affordable housing, community healthcare clinics, or vocational training centers.",
     "category": "US",
     "edition": [
         "US & Americas"
     ],
     "author": {
         "name": "Newyorkerherald Staff",
-        "role": "California & National Justice Bureau",
+        "role": "National Education & Urban Affairs Desk",
         "avatar": "/images/authors/sarah_mitchell.jpg"
     },
-    "publishedAt": "2h ago",
+    "publishedAt": "3h ago",
     "readTime": "8 min read",
-    "imageUrl": "/images/news/newsom-commutes-death-sentences-for-all-548-california-inmates.webp",
-    "imageCaption": "California Governor Gavin Newsom speaks in Sacramento announcing mass clemency for death row inmates.",
-    "imageCredit": "Getty Images / Justin Sullivan",
-    "commentCount": 142,
+    "imageUrl": "/images/news/us-school-closures-accelerate-as-budget-and-enrollment-drop.webp",
+    "imageCaption": "A public elementary school building in the Midwest prepares for final consolidation hearings.",
+    "imageCredit": "Getty Images / Scott Olson",
+    "commentCount": 114,
     "bullets": [
-        "Governor Gavin Newsom commutes all 548 death sentences to life without parole in largest U.S. clemency action.",
-        "Permanently dismantles the largest death row population in the United States at San Quentin.",
-        "District attorneys and victim rights groups announce immediate legal challenge to executive clemency orders."
+        "Over 1,150 public schools closed across the United States during the previous academic school year.",
+        "Plunging national birth rates and the total expiration of federal ESSER pandemic grants drive deficits.",
+        "Parents and community leaders express alarm over lost neighborhood hubs and extended daily student bus commutes."
     ],
     "tags": [
         "US",
-        "California",
-        "Gavin Newsom",
-        "Death Penalty",
-        "San Quentin",
-        "Criminal Justice"
+        "Education",
+        "School Closures",
+        "Demographics",
+        "Public Schools",
+        "Economy"
     ]
 },
     {
@@ -761,11 +760,11 @@ As the clocks reset, congressional leaders confirmed that bipartisan committee s
   ],
   'Politics': [
     {
-    "id": "judge-chutkan-blocks-trump-250-foot-triumphal-arch-in-dc",
-    "title": "Judge Chutkan Blocks Trump 250-Foot Triumphal Arch in D.C.",
-    "kicker": "FEDERAL INJUNCTION • MONUMENT DISPUTE",
-    "summary": "U.S. District Judge Tanya Chutkan issued an emergency injunction on Friday temporarily halting preliminary construction work on President Donald Trump’s planned 250-foot triumphal arch in Washington, D.C., ruling that administrative approvals bypassed mandatory federal environmental and historic preservation statutes.",
-    "body": "WASHINGTON — In a consequential judicial intervention that has set off a fresh confrontation between the White House and the federal bench, U.S. District Judge Tanya S. Chutkan granted an emergency preliminary injunction Friday morning halting all ongoing architectural and excavation work on President Donald Trump's proposed 250-foot triumphal monument arch near the National Mall. The ruling delivers an immediate procedural victory to a broad coalition of urban preservation societies, historic landmark trusts, and regional environmental groups who contended that federal agencies expedited approvals without conducting statutory impact reviews required by federal law.\n\nThe controversial civic project, announced by the White House earlier this autumn as the centerpiece of a signature legacy modernization initiative for the federal district, envisions a colossal Neoclassical triumphal arch dwarfing the 169-foot Arc de Triomphe in Paris. Planned for construction on federal parkland along the Potomac River corridor near Constitution Avenue, the monument has drawn fierce opposition from local civic planning boards, architectural historians, and district residents, who argued the structure would irreversibly obstruct visual sightlines between the Lincoln Memorial and Arlington National Cemetery.\n\nIn her sharply worded 38-page memorandum opinion, Judge Chutkan determined that the Department of the Interior, the National Park Service, and the Commission of Fine Arts failed to satisfy baseline procedural mandates under the National Environmental Policy Act (NEPA) and Section 106 of the National Historic Preservation Act. The court noted that administrative permits were authorized through emergency categorical exclusions typically reserved for urgent infrastructure repairs, effectively circumventing mandatory public notice periods, community comment sessions, and independent structural impact assessments on regional groundwater tables.\n\n\"The executive branch possesses substantial discretion in managing public properties, but that discretion remains bounded by the statutory constraints enacted by the Congress of the United States,\" Judge Chutkan wrote. \"Federal agencies cannot short-circuit decades of established environmental and historic preservation jurisprudence merely because a proposed civic project enjoys high-level executive enthusiasm.\"\n\nWhite House press officials condemned the injunction within hours, characterizing the decision as judicial overreach and asserting that federal land management statutes provide clear constitutional authority for executive aesthetic enhancements. The Department of Justice immediately noticed an expedited interlocutory appeal to the U.S. Court of Appeals for the District of Columbia Circuit, requesting an emergency stay of the injunction to allow preparatory soil engineering and boundary fencing to proceed ahead of the winter freeze.",
+    "id": "trump-admits-deportation-policy-was-too-tough-on-60-minutes",
+    "title": "Trump Admits Deportation Policy Was Too Tough on 60 Minutes",
+    "kicker": "PRESIDENTIAL INTERVIEW • IMMIGRATION PIVOT",
+    "summary": "In a dramatic CBS News \"60 Minutes\" interview on Sunday following Republican midterm losses, President Donald Trump conceded that his administration’s mass deportation operations were \"too tough\" and signaled unexpected willingness to negotiate an immigration compromise with newly elected congressional Democrats.",
+    "body": "WASHINGTON — In a striking rhetorical recalibration broadcast nationwide on Sunday evening, President Donald Donald Trump conceded during an interview on CBS News' \"60 Minutes\" that his administration's aggressive enforcement policies and mass deportation operations may have gone too far, alienating swing voters and contributing significantly to the Republican Party's sweeping congressional defeats in last Tuesday's midterm elections. The extraordinary prime-time admission marks the first major public acknowledgment by the White House that the hardline immigration playbook championed by senior administration aides has generated severe political liability across key suburban districts and independent voting blocs.\n\nSpeaking with CBS correspondent Scott Pelley from the Oval Office, the president struck an uncharacteristically reflective tone when pressed on exit polling data that showed overwhelming voter dissatisfaction with workplace immigration raids and high-profile detention enforcement actions. \"Looking back at the past eighteen months, some of the procedures we instituted—maybe they were too tough, maybe people perceived them as overly harsh,\" Trump remarked during the sixty-minute broadcast. \"The American public wants order and secure borders, absolutely, but they also want fairness and compassion. We saw that message very clearly at the ballot box on Tuesday, and we have to be smart enough to listen to what the voters are saying.\"\n\nThe president's remarks reverberated instantly across Capitol Hill, where incoming Democratic majorities in both the Senate and the House of Representatives are already formulating legislative frameworks for comprehensive immigration reform and legal status adjustments for long-term undocumented residents. When asked directly whether he would be open to signing a bipartisan compromise that pairs border security funding with legal protections and work authorizations for undocumented immigrants without criminal records, Trump broke sharply with his traditional hardline stance, signaling an openness to direct negotiations with Democratic congressional leaders.\n\n\"If the Democrats want to come to the White House and put together a real deal—one that secures the ports of entry while giving good, hardworking people who have lived here peacefully for decades a clear and legal status—I am ready to sit down and make that deal,\" Trump said. \"We cannot continue in a state of perpetual national division. We have to fix this system once and for all.\"\n\nThe public pivot has ignited immediate and fierce debate within conservative political circles and immigration policy institutes. Several staunch immigration hardliners in the House Freedom Caucus issued sharp statements Sunday night urging the president not to abandon the core enforcement mandates that defined his second administration, warning that any legislative concession to Democrats would fracture the conservative coalition. Conversely, moderate Republican lawmakers from competitive swing districts in New York, California, and Texas welcomed the president's openness to compromise, arguing that pragmatic immigration reform is vital if the party hopes to rebuild its standing with moderate suburban families ahead of the 2028 presidential campaign.",
     "category": "Politics",
     "edition": [
         "US & Americas",
@@ -773,27 +772,27 @@ As the clocks reset, congressional leaders confirmed that bipartisan committee s
     ],
     "author": {
         "name": "Newyorkerherald Staff",
-        "role": "Federal Courts & National Legal Affairs Desk",
+        "role": "White House & Congressional Bureau",
         "avatar": "/images/authors/sarah_mitchell.jpg"
     },
-    "publishedAt": "1h ago",
+    "publishedAt": "2h ago",
     "readTime": "7 min read",
-    "imageUrl": "/images/news/judge-chutkan-blocks-trump-250-foot-triumphal-arch-in-dc.webp",
-    "imageCaption": "The United States District Court for the District of Columbia in Washington, where Judge Tanya Chutkan issued the injunction.",
-    "imageCredit": "Associated Press / J. Scott Applewhite",
-    "commentCount": 96,
+    "imageUrl": "/images/news/trump-admits-deportation-policy-was-too-tough-on-60-minutes.webp",
+    "imageCaption": "President Donald Trump speaks during an interview on CBS News 60 Minutes at the White House.",
+    "imageCredit": "Associated Press / Alex Brandon",
+    "commentCount": 168,
     "bullets": [
-        "U.S. District Judge Tanya Chutkan halts preliminary construction on planned 250-foot triumphal arch in Washington.",
-        "Ruling finds federal agencies bypassed mandatory NEPA environmental reviews and historic preservation rules.",
-        "Department of Justice files expedited emergency appeal to the D.C. Circuit seeking to overturn the injunction."
+        "President Trump tells 60 Minutes that enforcement operations and mass deportations were \"too tough.\"",
+        "Signals unexpected willingness to negotiate bipartisan immigration protections with Democratic leaders.",
+        "Remarks spark immediate tension between conservative hardliners and moderate swing-district lawmakers."
     ],
     "tags": [
         "Politics",
         "Donald Trump",
-        "Tanya Chutkan",
-        "Courts",
-        "Washington DC",
-        "Monuments"
+        "60 Minutes",
+        "Immigration",
+        "Congress",
+        "White House"
     ]
 },
     {
@@ -1041,11 +1040,11 @@ In Washington, national security officials convened in the White House Situation
 
   'Business & Economy': [
     {
-    "id": "wall-street-plunges-as-nasdaq-enters-correction-over-ai-capex",
-    "title": "Wall Street Plunges as Nasdaq Enters Correction Over AI Capex",
-    "kicker": "MARKET SLUMP • TECH INFRASTRUCTURE SELLOFF",
-    "summary": "U.S. equity markets suffered a severe, broad-based selloff on Friday, with the tech-heavy Nasdaq Composite tumbling 5.5 percent into official correction territory as investors recoiled from hyperscale AI capital expenditure reports and post-election policy uncertainties.",
-    "body": "NEW YORK — A wave of aggressive institutional selling slammed the New York Stock Exchange and the Nasdaq on Friday, wiping out hundreds of billions of dollars in equity value as financial markets confronted a toxic confluence of soaring artificial intelligence capital expenditures, shifting Washington regulatory expectations, and renewed macroeconomic caution. The Nasdaq Composite suffered its steepest single-session collapse of the year, plunging 5.5 percent to close down more than ten percent from its recent record high, formally entering official correction territory and triggering circuit-breaker pauses across several high-beta semiconductor equities.\n\nThe benchmark S&P 500 sank 4.1 percent in heavy trading volume, while the Dow Jones Industrial Average dropped over 1,200 points, or 2.8 percent. The market rout was spearheaded by catastrophic declines across the \"Magnificent Seven\" megacap technology titans. Shares of Nvidia, Microsoft, Amazon, Alphabet, and Meta plummeted between 6.2 and 9.4 percent after quarterly institutional filings and hyperscale infrastructure disclosures revealed that aggregate corporate spending on AI server clusters, nuclear microgrids, and data center hardware will surpass $280 billion next fiscal year—far outpacing near-term commercial software monetization timelines.\n\nWall Street trading floors grew increasingly anxious following reports from Capitol Hill indicating that the newly confirmed congressional leadership intends to prioritize aggressive legislative scrutiny of hyperscale energy consumption, commercial utility subsidization, and corporate AI monopoly power. Hedge fund risk desks scrambled to liquidate long-equity tech momentum trades, driving the Cboe Volatility Index (VIX)—commonly referred to as Wall Street's fear gauge—up thirty-five percent to its highest closing level since early August.\n\n\"Investors are undergoing a painful, long-overdue reality check regarding the timeline of artificial intelligence returns,\" said Victoria Fernandez, chief market strategist at Crossmark Global Investments. \"For eighteen months, the market gave tech hyperscalers a blank check to spend hundreds of billions on GPUs and power plants. Now, Wall Street is demanding hard revenue figures, and in the absence of immediate margin expansion, institutional capital is rapidly reallocating toward defensive healthcare, utilities, and short-term Treasuries.\"\n\nSafe-haven demand sent 10-year U.S. Treasury yields falling eight basis points to 4.14 percent, while gold futures climbed to $2,745 an ounce. Financial analysts warned that continued equity volatility could constrain venture capital liquidity and corporate initial public offering timelines heading into the final quarter of the year.",
+    "id": "global-markets-rebound-after-25-trillion-tech-sell-off",
+    "title": "Global Markets Rebound After 2.5 Trillion Tech Sell-Off",
+    "kicker": "FINANCIAL RECOVERY • WALL STREET STABILIZATION",
+    "summary": "Global stock exchanges staged a resilient rebound on Monday morning, clawing back losses after a historic $2.5 trillion tech-led wipeout sparked by midterm election turbulence and regulatory anxiety surrounding artificial intelligence infrastructure.",
+    "body": "NEW YORK, LONDON & TOKYO — International financial markets exhibited substantial resilience on Monday morning, staging a broad-based recovery that stabilized equities following one of the most volatile trading weeks of the year. Benchmark indices across Asia, Europe, and Wall Street futures pushed firmly into positive territory, erasing a meaningful portion of the staggering $2.5 trillion market capitalization wiped out during last week's brutal tech-sector sell-off that had rattled institutional investors and pension portfolios worldwide.\n\nThe previous week's market rout was precipitated by a sharp intersection of macro-political shifts and tech-sector turbulence. The Democratic Party's capture of both chambers of Congress during Tuesday's midterm elections sparked immediate Wall Street anxiety over the prospect of heightened regulatory scrutiny, antitrust enforcement, and potential legislative caps on commercial artificial intelligence computing subsidies. Compounding those political concerns were high-profile corporate governance developments surrounding major semiconductor titans and a growing chorus of Wall Street analysts warning that mega-cap technology firms were overspending on data center construction ahead of clear near-term software monetization.\n\nHowever, sentiment pivoted decisively as Asian markets opened Monday's global session. Tokyo's Nikkei 225 jumped 1.8 percent, while Taiwan's Taiex and South Korea's Kospi each gained over two percent, led by vigorous dip-buying in advanced manufacturing, banking, and clean energy counters. In early European trading, the FTSE 100 in London, Frankfurt's DAX, and the CAC 40 in Paris posted solid gains, bolstered by stronger-than-expected corporate earnings guidance and a modest easing in international crude oil prices, which settled back toward ninety-five dollars per barrel after days of heightened Middle East maritime tensions.\n\nOn Wall Street, S&P 500 and Nasdaq-100 futures pointed to a robust opening bell, with institutional fund managers stepping in to accumulate heavily discounted blue-chip technology and industrial shares. Economists noted that underlying macroeconomic fundamentals in the United States remain exceptionally sturdy, pointing to robust domestic employment data, resilient consumer spending figures, and easing wholesale producer inflation prints that suggest the Federal Reserve retains ample policy runway to navigate upcoming interest rate decisions.\n\n\"The intense volatility we experienced late last week was a necessary valuation decompression rather than the beginning of a prolonged bear market,\" said Marcus Vance, chief global equity strategist at Vanguard Horizon Capital. \"Investors had priced technology multiples to near-perfection. Now that the initial political shock of the midterm elections has been absorbed and corporate leadership questions are being openly addressed, market participants are recognizing that corporate balance sheets and balance sheet liquidity remain in remarkably strong health.\"",
     "category": "Business",
     "edition": [
         "US & Americas",
@@ -1053,28 +1052,27 @@ In Washington, national security officials convened in the White House Situation
     ],
     "author": {
         "name": "Newyorkerherald Staff",
-        "role": "Wall Street & Financial Markets Bureau",
+        "role": "Global Markets & Financial Systems Bureau",
         "avatar": "/images/authors/sarah_mitchell.jpg"
     },
-    "publishedAt": "3h ago",
+    "publishedAt": "4h ago",
     "readTime": "7 min read",
-    "imageUrl": "/images/news/wall-street-plunges-as-nasdaq-enters-correction-over-ai-capex.webp",
-    "imageCaption": "A specialist monitors electronic trading terminals on the floor of the New York Stock Exchange amid heavy market declines.",
-    "imageCredit": "New York Stock Exchange / Courtney Crow",
+    "imageUrl": "/images/news/global-markets-rebound-after-25-trillion-tech-sell-off.webp",
+    "imageCaption": "Traders work on the floor of the New York Stock Exchange as global equity markets rebound.",
+    "imageCredit": "Associated Press / Richard Drew",
     "commentCount": 88,
     "bullets": [
-        "Nasdaq Composite drops 5.5% into official market correction as tech megacaps suffer brutal selloff.",
-        "S&P 500 declines 4.1% and Dow drops 1,200 points as $280B AI capital expenditure projections rattle investors.",
-        "Cboe Volatility Index (VIX) surges 35% as safe-haven bond buying pushes Treasury yields down to 4.14%."
+        "Global stock indices advance Monday, recovering from last week’s historic $2.5 trillion tech equity sell-off.",
+        "Asian benchmarks Nikkei and Taiex surge over 1.8% as institutional buyers step in to purchase discounted tech shares.",
+        "Solid U.S. labor market indicators and steady consumer demand help calm broader economic recession fears."
     ],
     "tags": [
         "Business",
         "Wall Street",
         "Stock Market",
-        "Nasdaq",
-        "S&P 500",
-        "AI Capex",
-        "Tech Stocks"
+        "Economy",
+        "Global Markets",
+        "Nasdaq"
     ]
 },
     {
@@ -1293,11 +1291,11 @@ Sports finance experts note that the move mirrors a broader institutional trend 
 
   'Tech': [
     {
-    "id": "openai-systems-detect-and-patch-948-linux-kernel-flaws-in-hours",
-    "title": "OpenAI Systems Detect and Patch 948 Linux Kernel Flaws in Hours",
-    "kicker": "CYBERSECURITY BREAKTHROUGH • AUTONOMOUS DEFENSE",
-    "summary": "OpenAI announced on Friday that its autonomous cybersecurity agentic pipeline successfully analyzed the entire Linux kernel codebase, discovering and generating verified cryptographic patches for 948 zero-day vulnerabilities in under four hours.",
-    "body": "SAN FRANCISCO — In an extraordinary technical achievement that signals a revolutionary epoch in software security and automated cyber defense, frontier laboratory OpenAI revealed Friday that its experimental autonomous code-analysis platform successfully audited the entire modern Linux kernel, discovering, verifying, and generating compilable security patches for 948 critical vulnerabilities within a four-hour automated run. The historic demonstration, conducted under controlled red-teaming observation in partnership with the Linux Foundation and national cybersecurity authorities, represents the largest single-day remediation of open-source vulnerabilities in computing history.\n\nThe automated system, dubbed \"Aegis-Kernel,\" utilizes multi-agent reinforcement learning combined with formal mathematical verification engines. Rather than merely flagging speculative syntax anomalies, the autonomous pipeline generates active sandbox proof-of-concept exploits, simulates hostile kernel memory corruption scenarios, and subsequently synthesizes mathematically sound source-code patches that eliminate the vulnerability while preserving binary backward compatibility and runtime execution performance.\n\nThe audited vulnerabilities encompassed decades-old edge cases within Linux memory management subroutines, networking stack packet-parsing drivers, and asynchronous file system controllers. According to technical documentation published by OpenAI and peer-reviewed by leading kernel maintainers, 214 of the resolved bugs were classified as high-severity remote code execution or local privilege escalation flaws that could have allowed malicious actors to achieve root-level compromise on enterprise servers, cloud clusters, and Android mobile devices worldwide.\n\nLinus Torvalds, the creator and principal coordinator of the Linux kernel, addressed the breakthrough in a dispatch to the Linux Kernel Mailing List, commending the tool while emphasizing the need for rigorous peer review. \"What human security researchers would have taken a decade of manual fuzzing and decompilation to isolate has been executed in an afternoon,\" Torvalds noted. \"Autonomous AI will not replace human maintainers, but any operating system developer not utilizing autonomous formal verification will soon find themselves defending obsolete, indefensible code.\"\n\nFederal cybersecurity officials from the Cybersecurity and Infrastructure Security Agency (CISA) praised the milestone as a decisive victory for defensive software engineering. Officials noted that as hostile foreign state actors increasingly utilize generative AI to weaponize zero-day vulnerabilities, the ability to deploy autonomous defensive agents to proactively harden foundational digital infrastructure is an urgent national security imperative.",
+    "id": "openai-secures-11-billion-funding-at-125-trillion-valuation",
+    "title": "OpenAI Secures 11 Billion Funding at 1.25 Trillion Valuation",
+    "kicker": "VENTURE CAPITAL RECORD • ARTIFICIAL INTELLIGENCE",
+    "summary": "OpenAI closed an unprecedented $11 billion late-stage financing round over the weekend, pushing its enterprise valuation to $1.25 trillion as rival Anthropic accelerates final preparations for an anticipated multibillion-dollar public offering.",
+    "body": "SAN FRANCISCO — In an epochal financing milestone that shatters all existing private venture capital records, artificial intelligence pioneer OpenAI announced over the weekend that it has finalized a colossal $11 billion late-stage funding round. The mega-round values the San Francisco-based creator of ChatGPT at a staggering $1.25 trillion, formally cementing its standing as the most valuable private technology enterprise in corporate history and providing an enormous war chest to accelerate the development of next-generation autonomous reasoning models and nationwide hyperscale compute clusters.\n\nThe monumental funding syndicate was anchored by a blue-chip consortium of sovereign wealth funds, major institutional asset managers, and long-standing strategic partners, including substantial follow-on capital from Microsoft, SoftBank Vision Fund, and prominent Silicon Valley venture entities. Financial terms disclosed by people familiar with the transaction indicate that the capital injection will be dedicated directly to securing advanced semiconductor procurement agreements, expanding high-density nuclear-backed data centers across North America, and funding ongoing research into multimodal frontier artificial general intelligence architectures.\n\nThe closing of the funding round arrives at a critical strategic juncture for the artificial intelligence industry. Major foundation model developers are locked in a fiercely competitive race to expand compute capacity while navigating shifting regulatory dynamics in Washington following last week's midterm elections. OpenAI's primary rival, Anthropic, is concurrently finalizing regulatory filings for its own landmark initial public offering slated for late November, which investment bankers estimate could value the Claude developer between $1.2 trillion and $1.3 trillion.\n\nIndustry analysts emphasize that the sheer magnitude of OpenAI's new capitalization reflects the unprecedented capital expenditure requirements demanded by contemporary frontier AI development. Training next-generation models that incorporate complex multi-step reasoning, real-time autonomous agent workflows, and verified mathematical proof generation requires hundreds of thousands of interconnected tensor processing units, consuming gigawatts of electrical capacity and costing billions of dollars per individual training cluster run.\n\n\"We have reached a phase of technological scale where computational capacity is directly correlated with civilizational productivity,\" OpenAI leadership said in a joint statement accompanying the financing announcement. \"This capital commitment empowers us to build the resilient, secure, and democratic computational infrastructure necessary to bring the transformative benefits of safe artificial general intelligence to developers, enterprises, and everyday individuals worldwide.\"",
     "category": "Tech",
     "edition": [
         "US & Americas",
@@ -1305,27 +1303,27 @@ Sports finance experts note that the move mirrors a broader institutional trend 
     ],
     "author": {
         "name": "Newyorkerherald Staff",
-        "role": "Frontier AI & Cyber Systems Desk",
+        "role": "Artificial Intelligence & Silicon Valley Bureau",
         "avatar": "/images/authors/sarah_mitchell.jpg"
     },
-    "publishedAt": "3h ago",
-    "readTime": "7 min read",
-    "imageUrl": "/images/news/openai-systems-detect-and-patch-948-linux-kernel-flaws-in-hours.webp",
-    "imageCaption": "A software engineer monitors automated kernel code compilation and security patch verification pipelines.",
+    "publishedAt": "5h ago",
+    "readTime": "8 min read",
+    "imageUrl": "/images/news/openai-secures-11-billion-funding-at-125-trillion-valuation.webp",
+    "imageCaption": "The OpenAI headquarters campus in the Mission District of San Francisco.",
     "imageCredit": "Getty Images / Justin Sullivan",
-    "commentCount": 104,
+    "commentCount": 204,
     "bullets": [
-        "OpenAI autonomous security system discovers and patches 948 Linux kernel vulnerabilities in under four hours.",
-        "Remediates 214 high-severity privilege escalation and memory corruption flaws across open-source infrastructure.",
-        "Linux Foundation and CISA commend automated formal verification as a transformative leap for global cyber defense."
+        "OpenAI secures record $11 billion investment round, boosting total enterprise valuation to $1.25 trillion.",
+        "Capital will finance gigawatt-scale data center infrastructure, advanced chips, and frontier reasoning models.",
+        "Announcement comes as rival Anthropic finalizes filings for its anticipated November initial public offering."
     ],
     "tags": [
         "Tech",
         "OpenAI",
-        "Linux",
-        "Cybersecurity",
         "Artificial Intelligence",
-        "Software"
+        "Venture Capital",
+        "ChatGPT",
+        "Silicon Valley"
     ]
 },
     {
@@ -1544,11 +1542,11 @@ Aerospace financial analysts estimate that SpaceX's commercial launch and satell
 
   'Entertainment': [
     {
-    "id": "collins-dictionary-names-mogging-as-2026-word-of-the-year",
-    "title": "Collins Dictionary Names 'Mogging' as 2026 Word of the Year",
-    "kicker": "LEXICAL PHENOMENON • DIGITAL CULTURE",
-    "summary": "Collins Dictionary announced on Friday that internet slang sensation \"mogging\"—the viral social media term describing the act of completely outshining or dominating others in physical appearance, status, or confidence—has been officially crowned the 2026 Word of the Year.",
-    "body": "LONDON & GLASGOW — In a cultural milestone that highlights the relentless velocity with which digital youth slang migrates from niche online gaming subcultures into mainstream global vernacular, Collins Dictionary officially declared Friday morning that \"mogging\" has been selected as its Word of the Year for 2026. The term, which originated within online aesthetic fitness and social comparison forums before exploding across TikTok, Instagram, and college campuses worldwide, experienced an astonishing 450 percent surge in tracked usage over the past twelve months.\n\nLexicographers at Collins define \"mogging\" as the act of being significantly more physically attractive, confident, fashionable, or commanding in presence than someone else, to such an extent that the other individual appears completely overshadowed in comparison. Derived from the internet acronym AMOG (\"Alpha Male of the Group\"), the word evolved into a versatile verb, noun, and adjective (\"mogger,\" \"mogged\") used both earnestly by wellness and fashion influencers and ironically by digital satirists chronicling workplace dynamics, celebrity red-carpet appearances, and geopolitical press conferences.\n\nAlex Beecroft, managing director of Collins Learning, explained that the selection reflects how hyper-visual social algorithms and short-form video formats have intensified digital culture's fascination with physical presentation, personal branding, and micro-status hierarchies. \"Language is a mirror of cultural obsession,\" Beecroft remarked during the announcement from Glasgow. \"'Mogging' encapsulates a hyper-connected, image-conscious generation navigating digital competition with a blend of hyper-earnest self-improvement and self-aware ironic detachment.\"\n\nThe selection ignited lively debates across cultural commentators, sociologists, and linguistic scholars on Friday. While critics argued that the proliferation of aesthetic dominance slang reflects unhealthy social media vanity and visual superficiality among teenagers, cultural theorists noted that the term has largely been embraced with humor and playful hyperbole. The 2026 Collins shortlist also highlighted other major linguistic trends of the year, including \"agentic\" (referring to autonomous AI software), \"brainrot\" (the cognitive exhaustion caused by relentless low-quality algorithmic content), and \"delulu\" (embracing unrealistic optimism as a psychological coping mechanism).",
+    "id": "godzilla-minus-zero-smashes-us-box-office-with-record-debut",
+    "title": "Godzilla Minus Zero Smashes US Box Office with Record Debut",
+    "kicker": "BOX OFFICE PHENOMENON • RECORD-BREAKING DEBUT",
+    "summary": "Takashi Yamazaki's \"Godzilla Minus Zero\" shattered North American box office records over the weekend, grossing $31.6 million to achieve the highest-grossing opening weekend ever for a live-action foreign-language film in United States history.",
+    "body": "LOS ANGELES & TOKYO — In a breathtaking triumph for international cinema and a watershed moment for theatrical exhibition, Toho Studios' \"Godzilla Minus Zero\" stomped into North American theaters over the weekend and completely recalibrated box office expectations. Directed by Academy Award-winning filmmaker Takashi Yamazaki, the visually breathtaking monster epic hauled a staggering $31.6 million across 3,250 domestic screens, obliterating all prior box office records to capture the single highest-grossing opening weekend ever recorded for a live-action, foreign-language film in United States and Canadian box office history.\n\nThe film's extraordinary commercial performance delivered a clean sweep of the domestic box office crown, comfortably outperforming major Hollywood studio tentpoles. Warner Bros. and Paramount's family animated release \"The Cat in the Hat\" secured second place with a respectable $20.5 million, but it was Yamazaki's Japanese-language spectacle—which pits the iconic titular titan against the multi-headed extraterrestrial menace King Ghidorah amidst the ruins of post-war Tokyo—that commanded packed multiplexes and generated massive lines around metropolitan IMAX auditoriums from coast to coast.\n\nIndustry tracking services noted that \"Godzilla Minus Zero\" enjoyed an unprecedented cross-demographic resonance. CinemaScore exit polling revealed a glowing \"A+\" audience rating, with ticket sales driven equally by long-time genre purists, mainstream pop-culture enthusiasts, and younger moviegoers who turned the film's spectacular practical visual effects sequences into viral social media sensations. Premium large format auditoriums, including IMAX, Dolby Cinema, and 4DX screens, accounted for forty-four percent of total domestic receipts, with dozens of flagship locations in New York, Los Angeles, Toronto, and Chicago reporting sell-outs throughout Saturday and Sunday.\n\nGlobally, the film's premiere weekend generated an estimated $63 million in cumulative receipts, establishing a massive international footprint ahead of upcoming theatrical expansions across Latin America, Europe, and Australia next week. Hollywood studio executives and cinematic analysts celebrated the achievement as clear empirical proof that discerning theatrical audiences are hungry for distinctive, auteur-driven filmmaking that prioritizes character-driven emotional stakes alongside cutting-edge cinematic spectacle.\n\n\"Takashi Yamazaki has pulled off something genuinely historic,\" said senior box office analyst Paul Dergarabedian. \"For a live-action Japanese-language motion picture with English subtitles to open at more than thirty-one million dollars in North America is completely unprecedented. It confirms that when cinematic storytelling is exceptional and emotionally resonant, language is no barrier whatsoever for moviegoers who want to experience the magic of cinema on the biggest possible screen.\"",
     "category": "Entertainment",
     "edition": [
         "US & Americas",
@@ -1556,27 +1554,27 @@ Aerospace financial analysts estimate that SpaceX's commercial launch and satell
     ],
     "author": {
         "name": "Newyorkerherald Staff",
-        "role": "Culture, Linguistics & Digital Media Desk",
+        "role": "Film Industry & Hollywood Culture Desk",
         "avatar": "/images/authors/sarah_mitchell.jpg"
     },
-    "publishedAt": "4h ago",
-    "readTime": "6 min read",
-    "imageUrl": "/images/news/collins-dictionary-names-mogging-as-2026-word-of-the-year.webp",
-    "imageCaption": "The Collins English Dictionary reference archive and digital lexicography headquarters in Glasgow.",
-    "imageCredit": "Associated Press / Matt Dunham",
-    "commentCount": 63,
+    "publishedAt": "5h ago",
+    "readTime": "7 min read",
+    "imageUrl": "/images/news/godzilla-minus-zero-smashes-us-box-office-with-record-debut.webp",
+    "imageCaption": "Audiences line up outside a major IMAX theater in Los Angeles for the premiere of Godzilla Minus Zero.",
+    "imageCredit": "Associated Press / Chris Pizzello",
+    "commentCount": 92,
     "bullets": [
-        "Collins Dictionary selects \"mogging\" as official 2026 Word of the Year following a 450% surge in global usage.",
-        "Term defines dominating or outshining others in appearance, confidence, or social media status.",
-        "Shortlist features \"agentic\", \"brainrot\", and \"delulu\", highlighting the profound cultural influence of digital media."
+        "Godzilla Minus Zero debuts at $31.6 million, setting all-time record for live-action foreign films in North America.",
+        "Toho Studios epic earns coveted \"A+\" CinemaScore as premium IMAX and large-format screens drive sell-out crowds.",
+        "Global box office surpasses $63 million in opening weekend as worldwide theatrical rollout expands."
     ],
     "tags": [
         "Entertainment",
-        "Collins Dictionary",
-        "Word of the Year",
-        "Mogging",
-        "Digital Culture",
-        "Language"
+        "Box Office",
+        "Godzilla",
+        "Movies",
+        "Hollywood",
+        "Toho"
     ]
 },
     {
@@ -1735,40 +1733,38 @@ Furthermore, cloud streaming platforms and mobile distribution networks have low
 
   'Sports': [
     {
-    "id": "brazilian-football-match-sets-world-record-with-53-red-cards",
-    "title": "Brazilian Football Match Sets World Record with 53 Red Cards",
-    "kicker": "DISCIPLINARY CHAOS • GLOBAL SPORTS RECORD",
-    "summary": "A regional cup match in southern Brazil entered the record books on Friday after the match referee issued an astonishing 53 red cards following a mass on-pitch brawl that involved players, substitutes, technical staff, and stadium security personnel.",
-    "body": "CURITIBA, Brazil — In what international sports historians and disciplinary committees are confirming as the most chaotic and penalized athletic fixture in the history of organized association football, a regional championship match in southern Brazil on Thursday evening resulted in the referee issuing an unprecedented 53 red cards. The astonishing disciplinary spectacle, which occurred during a heated semifinal clash between regional rivals Esporte Clube Operário and Cascavel Futebol Clube in Paraná state, completely shattered the previous global record of 36 red cards set during a lower-division Argentine match in 2011.\n\nThe match, contested under intense humidity before ten thousand partisan supporters, erupted into violent pandemonium in the eighty-eighth minute of regulation following an aggressive tackle near the corner flag. What began as a standard pushing match between opposing wingers rapidly metastasized into an all-out brawl as both team benches, assistant coaches, fitness trainers, and stadium security stewards flooded the pitch. Broadcast television cameras captured wild scuffles along the touchline, with physical altercations spilling into the player access tunnels and corner flag areas.\n\nMatch referee Leonardo dos Santos, finding himself completely unable to restore order despite assistance from local riot military police armed with protective shields, blew the whistle to abandon the fixture and retreated to the official dressing room under security escort. Inside the referee's sanctuary, dos Santos spent nearly two hours meticulously reviewing high-definition broadcast video feeds and pitch-side security cameras alongside match delegators.\n\nUnder strict Brazilian Football Confederation (CBF) statutory disciplinary guidelines, the official match report formally registered direct red cards for all twenty-two starting players from both clubs, twenty-four designated substitutes, five technical staff members, and both head coaches. The regional sporting tribunal announced Friday morning that both clubs have been provisionally suspended from all sanctioned competitions pending an emergency integrity tribunal hearing on Monday, where both organizations face severe monetary fines, stadium closure bans, and potential multi-year competitive disqualifications.",
+    "id": "notre-dame-stuns-number-one-miami-in-college-football-upset",
+    "title": "Notre Dame Stuns Number One Miami in College Football Upset",
+    "kicker": "COLLEGE FOOTBALL SHOCKER • TOP 25 REALIGNMENT",
+    "summary": "The No. 11 Notre Dame Fighting Irish derailed top-ranked Miami’s undefeated season with a stunning 31-24 victory on Saturday, throwing the College Football Playoff picture into chaos heading into the final stretch of the regular season.",
+    "body": "SOUTH BEND, Ind. — Under gray November skies and amidst an electric, deafening roar from a capacity crowd of over seventy-seven thousand at Notre Dame Stadium, the No. 11 Notre Dame Fighting Irish delivered the defining shocker of the college football season on Saturday afternoon. In a physical, down-to-the-wire masterclass of defensive grit and clutch fourth-quarter execution, Notre Dame derailed the undefeated national championship campaign of the No. 1 Miami Hurricanes, pulling off a thrilling 31-24 upset that instantly scrambles the national Top 25 rankings and throws the twelve-team College Football Playoff bracket into absolute turmoil.\n\nThe high-stakes clash lived up to every ounce of its storied historical rivalry. Miami entered South Bend boasting the nation's most prolific scoring offense, averaging over forty-four points per contest behind their Heisman Trophy frontrunner quarterback. But the Fighting Irish defensive coordinator devised an aggressive defensive game plan, deploying disguised secondary coverages and relentless edge pressure that sacked Miami's signal-caller five times, forced two costly red-zone turnovers, and held the Hurricanes to just fifty-eight net rushing yards on twenty-two carries.\n\nAfter trailing 17-14 at halftime, Notre Dame seized momentum late in the third quarter behind a bruising 68-yard touchdown drive punctuated by a highlight-reel leap over the goal line by their sophomore tailback. With the score tied at 24-24 and fewer than three minutes remaining in regulation, Notre Dame's quarterback orchestrated an eight-play, 75-yard drive, culminating in a laser-accurate 28-yard corner touchdown pass with just forty-one seconds showing on the clock to seal the historic triumph.\n\nWhen Miami's desperate final Hail Mary pass was batted down at the goal line as time expired, thousands of jubilant student fans stormed the field, creating a sea of green and gold beneath the watchful gaze of the iconic \"Touchdown Jesus\" mural. The loss not only ends Miami's bid for an undefeated regular season but also fundamentally alters the power dynamic atop the national championship conversation, opening the door for powerhouse programs like Georgia, Texas, and Alabama to stake claim to the coveted number-one overall seed.\n\n\"Our young men prepared all week with unbelievable focus, and they believed in each other when nobody outside this locker room gave us a chance,\" Notre Dame head coach Marcus Freeman said during his emotional post-game press conference. \"We knew we had to control the line of scrimmage and play with relentless discipline for sixty full minutes. This victory belongs to our university, our alumni, and our players who poured their hearts into every single snap.\"",
     "category": "Sports",
     "edition": [
-        "US & Americas",
-        "Global"
+        "US & Americas"
     ],
     "author": {
         "name": "Newyorkerherald Staff",
-        "role": "International Athletics & Sports Governance Desk",
+        "role": "College Athletics & National Sports Bureau",
         "avatar": "/images/authors/sarah_mitchell.jpg"
     },
-    "publishedAt": "4h ago",
-    "readTime": "6 min read",
-    "imageUrl": "/images/news/brazilian-football-match-sets-world-record-with-53-red-cards.webp",
-    "imageCaption": "Riot police and match stewards intervene on the pitch during an intense South American football confrontation.",
-    "imageCredit": "Reuters / Rodolfo Buhrer",
-    "commentCount": 71,
+    "publishedAt": "6h ago",
+    "readTime": "7 min read",
+    "imageUrl": "/images/news/notre-dame-stuns-number-one-miami-in-college-football-upset.webp",
+    "imageCaption": "Notre Dame players celebrate their upset victory over No. 1 Miami at Notre Dame Stadium.",
+    "imageCredit": "Associated Press / Michael Conroy",
+    "commentCount": 156,
     "bullets": [
-        "Paraná regional cup semifinal sets all-time world record as referee issues 53 red cards following pitch brawl.",
-        "Shatters previous global record of 36 red cards set in an Argentine lower-tier match in 2011.",
-        "Both clubs provisionally suspended by Brazilian sporting tribunal pending emergency integrity inquiry."
+        "No. 11 Notre Dame upsets undefeated No. 1 Miami 31-24 in thrilling South Bend finish.",
+        "Irish defense records five sacks and two crucial turnovers, shutting down Miami’s top-ranked offense.",
+        "Upset fundamentally reshuffles Top 25 rankings and alters 12-team College Football Playoff seeding."
     ],
     "tags": [
         "Sports",
-        "Football",
-        "Soccer",
-        "Brazil",
-        "World Record",
-        "Red Cards",
-        "Athletics"
+        "College Football",
+        "Notre Dame",
+        "Miami Hurricanes",
+        "NCAA",
+        "Football"
     ]
 },
     {
@@ -1949,11 +1945,11 @@ On the stadium infrastructure front, club executives evaluated demonstrations of
 
   'Science': [
     {
-    "id": "nasa-astronauts-complete-milestone-space-station-solar-walk",
-    "title": "NASA Astronauts Complete Milestone Space Station Solar Walk",
-    "kicker": "ORBITAL INFRASTRUCTURE • NASA ISS MISSION",
-    "summary": "NASA astronaut Anil Menon and Canadian Space Agency astronaut Joshua Kutryk completed a grueling six-hour spacewalk outside the International Space Station on Friday, successfully deploying the final roll-out solar array to boost the orbital laboratory’s electrical capacity.",
-    "body": "HOUSTON & CAPE CANAVERAL, Fla. — Floating 260 miles above the Pacific Ocean in the freezing vacuum of low Earth orbit, NASA astronaut Anil Menon and Canadian Space Agency astronaut Joshua Kutryk successfully completed a six-hour, twenty-two-minute extravehicular activity (EVA) outside the International Space Station on Friday. The milestone mission successfully unfurled and secured the station's final International Space Station Roll-Out Solar Array (IROSA), completing a multi-year, multi-billion-dollar orbital power upgrade project designed to keep the aging laboratory fully operational through the end of the decade.\n\nThe high-stakes spacewalk began at 8:12 a.m. Eastern Time as Menon and Kutryk switched their Extravehicular Mobility Unit spacesuits to internal battery power before exiting the Quest airlock into the blackness of space. Anchored to the orbital outpost's primary starboard truss via specialized foot restraints and guided by the robotic Canadarm2 operated from inside the station, the astronaut duo meticulously unbolted the 750-pound cylindrical solar canister from its temporary payload attachment fixture.\n\nWorking with microgravity torque wrenches and high-tensile structural tethers, Menon and Kutryk maneuvered the advanced solar array across the exterior truss, aligning the mechanical mounting hinges with microscopic precision. Once electrical connectors were mated with the station's primary 160-volt direct-current power channel, flight controllers at NASA Johnson Space Center in Houston signaled the command to release the mechanical launch restraints. Within minutes, the sixty-foot-long flexible solar blanket unfurled seamlessly into space, catching direct solar rays as the station passed over the sunlit hemisphere.\n\nNASA flight directors confirmed that the activation of the final IROSA increases the space station's total electrical generation capacity by thirty percent, restoring peak power levels to 215 kilowatts. The enhanced electrical capacity is urgently required to support power-hungry commercial microgravity research payloads, deep-space biological life-support testbeds, and advanced quantum communication experiments slated for deployment ahead of NASA's planned transition toward commercial low Earth orbit space stations in 2030.",
+    "id": "nasa-twin-escapade-spacecraft-complete-mars-slingshot-burns",
+    "title": "NASA Twin ESCAPADE Spacecraft Complete Mars Slingshot Burns",
+    "kicker": "DEEP SPACE NAVIGATION • MARS EXPLORATION",
+    "summary": "NASA's twin ESCAPADE probes executed critical back-to-back powered Earth flybys over the weekend, utilizing planetary gravitational assist burns to slingshot onto their interplanetary trajectories toward the Red Planet.",
+    "body": "CAPE CANAVERAL & PASADENA, Calif. — Deep-space mission controllers at NASA and the University of California, Berkeley's Space Sciences Laboratory achieved a historic dual navigational milestone over the weekend as both twin spacecraft of the ESCAPADE (Escape and Plasma Acceleration and Dynamics Explorers) mission successfully executed complex, powered Earth flybys. The consecutive orbital slingshot maneuvers have officially hurled the two interplanetary robotic explorers onto their final multi-month transit trajectory toward Mars, where they will conduct pioneering multi-point measurements of the Martian magnetosphere and upper atmospheric erosion.\n\nThe high-stakes navigational sequence unfolded in two synchronized operational phases across the weekend. The first spacecraft, affectionately dubbed \"Blue,\" completed its closest planetary approach at 5:00 a.m. EST on Saturday, November 7, skimming within several thousand kilometers of Earth's upper exosphere before executing an intensive nine-minute orbital engine burn. The second probe, designated \"Gold,\" carried out an identical gravity-assist flyby and propulsion burn early Monday morning, November 9, at approximately 6:00 a.m. EST. Real-time telemetry beamed back through NASA's Deep Space Network in Goldstone, California, confirmed that both propulsion packages performed flawlessly, imparting the precise delta-V velocity required to escape Earth's gravitational well.\n\nESCAPADE represents a pioneering vanguard for NASA's innovative Small Innovative Missions for Planetary Exploration (SIMPLEX) program. By demonstrating that dual, high-capability scientific spacecraft can be engineered, integrated, and launched at a fraction of traditional planetary mission price tags, the mission marks a transformative paradigm shift toward cost-effective, decentralized solar system exploration. Each identical probe is equipped with a sophisticated suite of miniature magnetometers, electrostatic analyzers, and Langmuir probes designed to measure solar wind interactions with the Martian upper atmosphere.\n\nUpon their anticipated orbital insertion around Mars in late 2027, \"Blue\" and \"Gold\" will operate in synchronized, non-identical elliptical orbits, providing planetary scientists with the world's first simultaneous, stereoscopic three-dimensional observations of how space weather strips away Martian atmospheric volatiles. Understanding this continuous process of atmospheric stripping is crucial for unlocking the ancient climatic history of Mars—specifically how a once warm, wet, and potentially habitable world transformed over billions of years into the frozen, arid desert planet observed today.\n\n\"Executing back-to-back powered planetary flybys within forty-eight hours is a masterclass in orbital mechanics and flight dynamics,\" said Dr. Shannon Murphy, ESCAPADE project manager. \"Both spacecraft have signaled nominal system health, all onboard science instruments are calibrated, and our navigational trajectory toward the Red Planet is locked in with razor-sharp precision. We are on our way to Mars.\"",
     "category": "Science",
     "edition": [
         "US & Americas",
@@ -1961,26 +1957,26 @@ On the stadium infrastructure front, club executives evaluated demonstrations of
     ],
     "author": {
         "name": "Newyorkerherald Staff",
-        "role": "Space Exploration & Orbital Science Bureau",
+        "role": "Aerospace & Deep Space Science Bureau",
         "avatar": "/images/authors/sarah_mitchell.jpg"
     },
-    "publishedAt": "5h ago",
+    "publishedAt": "6h ago",
     "readTime": "7 min read",
-    "imageUrl": "/images/news/nasa-astronauts-complete-milestone-space-station-solar-walk.webp",
-    "imageCaption": "A NASA astronaut works on the exterior truss of the International Space Station during a spacewalk.",
-    "imageCredit": "NASA / Johnson Space Center",
-    "commentCount": 54,
+    "imageUrl": "/images/news/nasa-twin-escapade-spacecraft-complete-mars-slingshot-burns.webp",
+    "imageCaption": "Artist illustration of NASA twin ESCAPADE spacecraft executing orbital maneuvers toward Mars.",
+    "imageCredit": "NASA / UC Berkeley Space Sciences Laboratory",
+    "commentCount": 79,
     "bullets": [
-        "Astronauts Anil Menon and Joshua Kutryk complete 6-hour, 22-minute spacewalk outside the ISS.",
-        "Successfully install and deploy final IROSA roll-out solar array, boosting orbital electrical power by 30%.",
-        "Completes multi-year power modernization program ensuring continuous laboratory research through 2030."
+        "Twin ESCAPADE robotic probes complete consecutive powered Earth gravity flybys over the weekend.",
+        "Propulsion burns impart precise velocity required to enter interplanetary transfer orbits toward Mars.",
+        "Mission will deliver first simultaneous 3D stereoscopic measurements of Martian atmospheric erosion."
     ],
     "tags": [
         "Science",
         "NASA",
-        "ISS",
+        "Mars",
         "Space Exploration",
-        "Spacewalk",
+        "ESCAPADE",
         "Astronomy"
     ]
 },
@@ -2171,40 +2167,38 @@ Domestic automotive manufacturers have committed multi-billion-dollar off-take a
 
   'Opinion': [
     {
-    "id": "the-la-mayoral-upset-why-urban-voters-rejected-karen-bass",
-    "title": "The L.A. Mayoral Upset: Why Urban Voters Rejected Karen Bass",
-    "kicker": "MUNICIPAL VERDICT • THE URBAN CRUNCH",
-    "summary": "The stunning defeat of incumbent Los Angeles Mayor Karen Bass by progressive challenger Nithya Raman marks a seismic political earthquake, delivering a warning to establishment municipal leaders across America on homelessness, housing affordability, and governance.",
-    "body": "LOS ANGELES — For decades, the conventional wisdom of big-city municipal politics in America held that establishment incumbents blessed with universal name recognition, deep institutional backing from public-sector labor unions, and multi-million-dollar campaign war chests were virtually unassailable. Yet on Tuesday, the voters of the nation's second-largest metropolis shattered that orthodoxy in dramatic fashion. By electing city councilwoman and urban planner Nithya Raman as the first South Asian mayor in Los Angeles history, Angelenos sent a shockwave through the Democratic political establishment that extends far beyond the borders of Southern California.\n\nThe defeat of Karen Bass—a revered veteran politician who rose through the state Assembly and the halls of Congress before capturing the mayoralty in 2022—was not merely a localized personnel change; it was a devastating indictment of municipal incrementalism. Despite spending billions of dollars in taxpayer funds on temporary emergency shelter initiatives, the homelessness crisis on L.A.'s streets remained an omnipresent, heartbreaking human tragedy. For working-class and middle-class residents in the San Fernando Valley, East L.A., and South Los Angeles, soaring rents, failing municipal transit infrastructure, and entrenched City Hall scandals eroded whatever goodwill remained toward the political status quo.\n\nRaman's victory was forged through an insurgent, hyper-disciplined coalition of young renters, immigrant tenant associations, environmental justice activists, and frustrated middle-class homeowners who demanded systemic structural reform over managerial platitudes. By campaigning relentlessly on social housing construction, streamlining municipal permitting, expanding permanent supportive housing, and eliminating bureaucratic waste within city departments, Raman proved that urban voters are no longer satisfied with cosmetic public-relations gestures.\n\nFor big-city mayors from New York and Chicago to San Francisco and Seattle, the verdict from Los Angeles is unmistakable. The era of managerial excuses is over. Voters are exhausted by astronomical property taxes paired with decaying public services and visible street homelessness. The leaders who survive the coming political cycle will be those who demonstrate the political courage to challenge entrenched bureaucratic inertia and deliver tangible, measurable improvements in basic urban quality of life.",
+    "id": "why-voters-chose-pocketbooks-over-culture-wars-in-2026",
+    "title": "Why Voters Chose Pocketbooks Over Culture Wars in 2026",
+    "kicker": "POLITICAL ANALYSIS • MIDTERM POST-MORTEM",
+    "summary": "An analysis of the 2026 midterm results demonstrates that the American electorate rejected culture war grievances and punitive policies in favor of kitchen-table economic survival, resetting the national political consensus.",
+    "body": "WASHINGTON — As political strategists, pollsters, and party leaders sift through the voluminous precinct data generated by last Tuesday's midterm elections, the central takeaway defining this historic political moment has emerged with unmistakable clarity: the American electorate delivered a decisive, nationwide repudiation of grievance-driven culture wars in favor of fundamental, kitchen-table economic survival. The Democratic Party's capture of both chambers of Congress and pivotal governor's mansions was not merely an ordinary mid-term swing; it was a structural referendum by working-class families and suburban independents who demanded tangible relief from persistent grocery price inflation, exorbitant utility bills, and punitive social policies.\n\nFor the past two years, Washington's political discourse has been dominated by maximalist rhetoric, aggressive immigration raids, and relentless ideological battles over public education curricula. Yet when voters stepped into polling booths across swing states from Pennsylvania and Michigan to Arizona and Georgia, their primary anxieties were rooted firmly in their monthly bank balances. Extensive exit polling conducted by nonpartisan research organizations revealed that seventy-two percent of voters cited the rising cost of everyday essentials—egg cartons, gallon jugs of milk, auto insurance premiums, and rent checks—as the single most critical factor determining their vote.\n\nIn race after race, candidates who centered their campaigns around practical populist economic platforms—capping prescription drug out-of-pocket costs, cracking down on corporate algorithmic price-fixing in rental housing, and investing in localized technical apprenticeship programs—triumphed decisively over opponents who relied exclusively on provocative partisan wedge issues. The electoral outcome demonstrated that working-class Americans, regardless of their cultural background or geographical location, possess remarkably little patience for ideological theatrics when their paychecks fail to keep pace with living expenses.\n\nThe lessons for both major political parties moving forward toward the 2028 presidential campaign are both profound and unforgiving. For Republicans, the midterm blowout represents an undeniable signal that the hardline social agenda championed by ideological activists has exhausted the patience of moderate suburban suburbanites and independent swing voters. The president's recent prime-time admission on \"60 Minutes\" that mass deportation tactics were \"too tough\" reflects an overdue realization that punitive governance carries catastrophic political consequences when divorced from economic pragmatism.\n\nFor Democrats, however, the newly won congressional majorities represent an immense responsibility rather than a blank political check. Voters did not embrace the party out of ideological fervor, but out of desperation for competence, stability, and tangible financial breathing room. If the incoming 120th Congress retreats into procedural paralysis or succumbs to internal ideological factionalism, the very same frustrated electorate will not hesitate to demand accountability at the ballot box two years from now. The mandate of 2026 is clear: solve the pocketbook crisis, or prepare to be swept aside.",
     "category": "Opinion",
     "edition": [
-        "US & Americas",
-        "Global"
+        "US & Americas"
     ],
     "author": {
         "name": "Newyorkerherald Staff",
-        "role": "Editorial Board & Urban Affairs Desk",
+        "role": "National Editorial Board & Political Commentary",
         "avatar": "/images/authors/sarah_mitchell.jpg"
     },
-    "publishedAt": "4h ago",
+    "publishedAt": "8h ago",
     "readTime": "8 min read",
-    "imageUrl": "/images/news/the-la-mayoral-upset-why-urban-voters-rejected-karen-bass.webp",
-    "imageCaption": "The downtown Los Angeles skyline and City Hall tower at twilight.",
-    "imageCredit": "Getty Images / Mario Tama",
-    "commentCount": 84,
+    "imageUrl": "/images/news/why-voters-chose-pocketbooks-over-culture-wars-in-2026.webp",
+    "imageCaption": "Voters cast their ballots at a polling station during the 2026 midterm elections.",
+    "imageCredit": "Associated Press / Ross D. Franklin",
+    "commentCount": 185,
     "bullets": [
-        "Nithya Raman unseats incumbent Karen Bass to become the first South Asian mayor in Los Angeles history.",
-        "Voters reject municipal incrementalism amid persistent street homelessness and skyrocketing rent burdens.",
-        "L.A. upset signals growing nationwide urban voter revolt against establishment municipal machines."
+        "2026 midterm results confirm voters prioritized household inflation and living costs over culture wars.",
+        "Seventy-two percent of exit poll respondents identified everyday essentials and rent prices as top voting factor.",
+        "Incoming congressional majorities face urgent voter expectations to deliver tangible economic relief."
     ],
     "tags": [
         "Opinion",
-        "Editorial",
-        "Los Angeles",
-        "Karen Bass",
-        "Nithya Raman",
-        "Urban Politics",
-        "Elections"
+        "2026 Midterms",
+        "Economy",
+        "Inflation",
+        "Elections",
+        "Politics"
     ]
 },
     {
@@ -2759,42 +2753,42 @@ export function getHomepageDepartmentArticles(dept: string): Article[] {
   const mapping: Record<string, string[]> = {
     us: [
       'the-vanity-of-alina-habba-mildon',
-      'newsom-commutes-death-sentences-for-all-548-california-inmates',
+      'us-school-closures-accelerate-as-budget-and-enrollment-drop',
       'seven-states-pass-major-constitutional-ballot-amendments',
       'california-votes-on-prop-40-wealth-tax-for-emergency-care'
     ],
     politics: [
-      'judge-chutkan-blocks-trump-250-foot-triumphal-arch-in-dc',
+      'trump-admits-deportation-policy-was-too-tough-on-60-minutes',
       '2026-midterms-gop-takes-senate-as-house-battle-nears-recounts',
       'supreme-court-rejects-emergency-bid-on-california-mail-ballots',
       'bipartisan-congressional-coalition-finalizes-critical-minerals-strategic-stockpile-legislation'
     ],
     business: [
-      'wall-street-plunges-as-nasdaq-enters-correction-over-ai-capex',
+      'global-markets-rebound-after-25-trillion-tech-sell-off',
       'sp-500-hits-record-high-on-midterm-clarity-and-steady-jobs-data',
       'crude-oil-surges-above-89-as-us-strikes-iranian-drone-bases',
       'oracle-prices-historic-20-billion-debt-and-equity-offering-to-finance-massive-ai-cloud-data-center-expansion'
     ],
     tech: [
-      'openai-systems-detect-and-patch-948-linux-kernel-flaws-in-hours',
+      'openai-secures-11-billion-funding-at-125-trillion-valuation',
       'openai-and-anthropic-launch-joint-safety-accord-for-ai-agents',
       'doj-expands-nvidia-antitrust-probe-over-hugging-face-buyout',
       'nvidia-ceo-jensen-huang-scrutiny-trump-response-ai-semiconductor-sovereignty'
     ],
     entertainment: [
-      'collins-dictionary-names-mogging-as-2026-word-of-the-year',
+      'godzilla-minus-zero-smashes-us-box-office-with-record-debut',
       'grammy-nominations-2027-global-and-indie-artists-dominate',
       'christopher-nolans-the-odyssey-hits-record-1-17-billion',
       'paramount-skydance-merger-completes-formal-integration-uniting-studio-blockbusters-with-gaming-franchises'
     ],
     sports: [
-      'brazilian-football-match-sets-world-record-with-53-red-cards',
+      'notre-dame-stuns-number-one-miami-in-college-football-upset',
       'dodgers-win-2026-world-series-in-extra-inning-game-7-thriller',
       'lamar-jackson-out-on-injured-reserve-following-thumb-surgery',
       'twenty-year-old-kimi-antonelli-becomes-youngest-formula-1-world-champion-in-historic-mexico-city-grand-prix'
     ],
     science: [
-      'nasa-astronauts-complete-milestone-space-station-solar-walk',
+      'nasa-twin-escapade-spacecraft-complete-mars-slingshot-burns',
       'webb-telescope-finds-water-vapor-on-habitable-zone-exoplanet',
       'nasa-voyager-1-reaches-record-one-light-day-distance-from-earth',
       'usgs-supervolcano-research-reveals-yellowstone-eruptions-occur-in-complex-multi-pulse-sequences'
