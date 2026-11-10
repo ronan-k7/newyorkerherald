@@ -29,8 +29,14 @@ const POPULAR_TAGS = [
   { name: 'Alina Habba Mildon', slug: 'alina-habba-mildon' },
   { name: 'Donald Trump', slug: 'donald-trump' },
   { name: 'Trump Administration', slug: 'trump-administration' },
+  { name: 'U.S. Politics', slug: 'us-politics' },
   { name: 'Banking Controversy', slug: 'banking-controversy' },
-  { name: 'Concord Partners', slug: 'concord-partners' }
+  { name: 'Financial Contracts', slug: 'financial-contracts' },
+  { name: 'Legal Affairs', slug: 'legal-affairs' },
+  { name: 'Concord Partners', slug: 'concord-partners' },
+  { name: 'Political Controversy', slug: 'political-controversy' },
+  { name: 'U.S. Legal News', slug: 'us-legal-news' },
+  { name: 'Banking Industry', slug: 'banking-industry' }
 ];
 
 export default function TagPage() {

@@ -586,8 +586,14 @@ export default function AlinaHabbaSpecialDossierPage() {
                   { name: 'Alina Habba Mildon', href: '/tag/alina-habba-mildon' },
                   { name: 'Donald Trump', href: '/tag/donald-trump' },
                   { name: 'Trump Administration', href: '/tag/trump-administration' },
+                  { name: 'U.S. Politics', href: '/tag/us-politics' },
                   { name: 'Banking Controversy', href: '/tag/banking-controversy' },
+                  { name: 'Financial Contracts', href: '/tag/financial-contracts' },
+                  { name: 'Legal Affairs', href: '/tag/legal-affairs' },
                   { name: 'Concord Partners', href: '/tag/concord-partners' },
+                  { name: 'Political Controversy', href: '/tag/political-controversy' },
+                  { name: 'U.S. Legal News', href: '/tag/us-legal-news' },
+                  { name: 'Banking Industry', href: '/tag/banking-industry' },
                 ].map((tag) => (
                   <Link
                     key={tag.name}
