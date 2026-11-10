@@ -3,35 +3,35 @@ import { Article, OpinionColumn, FactCheckItem, PhotoStory, VideoItem, PodcastEp
 export const BREAKING_NEWS_ITEMS = [
   {
     id: 'brk-1',
-    kicker: 'PRESIDENTIAL PIVOT',
-    headline: 'Trump Admits Deportation Policy Was Too Tough on 60 Minutes',
+    kicker: 'WALL STREET RECORD',
+    headline: 'Dow Surges 1,104 Points as Wall Street Stages Monster Rally',
     time: '2m ago',
-    url: '/politics/trump-admits-deportation-policy-was-too-tough-on-60-minutes'
+    url: '/business/dow-surges-1104-points-as-wall-street-stages-monster-rally'
   },
   {
     id: 'brk-2',
-    kicker: 'GLOBAL EQUITIES',
-    headline: 'Global Markets Rebound After 2.5 Trillion Tech Sell-Off',
+    kicker: 'CONGRESSIONAL REBELLION',
+    headline: 'Massie Files Resolution to Impeach Defense Chief Pete Hegseth',
     time: '14m ago',
-    url: '/business/global-markets-rebound-after-25-trillion-tech-sell-off'
+    url: '/politics/massie-files-resolution-to-impeach-defense-chief-pete-hegseth'
   },
   {
     id: 'brk-3',
-    kicker: 'RECORD FINANCING',
-    headline: 'OpenAI Secures 11 Billion Funding at 1.25 Trillion Valuation',
+    kicker: 'PRESIDENTIAL MEMOIR',
+    headline: 'Biden Memoir Excerpts Deliver Blistering Indictment of Trump',
     time: '28m ago',
-    url: '/tech/openai-secures-11-billion-funding-at-125-trillion-valuation'
+    url: '/us/biden-memoir-excerpts-deliver-blistering-indictment-of-trump'
   }
 ];
 
 export const TRENDING_TAGS = [
-  '#Trump60Minutes',
-  '#NvidiaProbe',
-  '#GodzillaMinusZero',
-  '#NotreDameUpset',
-  '#OpenAIFunding',
-  '#ESCAPADEMars',
-  '#SchoolClosures2026'
+  '#DowSurge',
+  '#HegsethImpeachment',
+  '#BidenMemoir',
+  '#CHAPEA378',
+  '#BillsVikings',
+  '#EbenezerFilm',
+  '#DigitalFairness'
 ];
 
 export const LEAD_ARTICLE: Article = {
@@ -75,11 +75,11 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
 
 export const SECONDARY_LEAD_STORIES: Article[] = [
     {
-    "id": "trump-admits-deportation-policy-was-too-tough-on-60-minutes",
-    "title": "Trump Admits Deportation Policy Was Too Tough on 60 Minutes",
-    "kicker": "PRESIDENTIAL INTERVIEW • IMMIGRATION PIVOT",
-    "summary": "In a dramatic CBS News \"60 Minutes\" interview on Sunday following Republican midterm losses, President Donald Trump conceded that his administration’s mass deportation operations were \"too tough\" and signaled unexpected willingness to negotiate an immigration compromise with newly elected congressional Democrats.",
-    "body": "WASHINGTON — In a striking rhetorical recalibration broadcast nationwide on Sunday evening, President Donald Donald Trump conceded during an interview on CBS News' \"60 Minutes\" that his administration's aggressive enforcement policies and mass deportation operations may have gone too far, alienating swing voters and contributing significantly to the Republican Party's sweeping congressional defeats in last Tuesday's midterm elections. The extraordinary prime-time admission marks the first major public acknowledgment by the White House that the hardline immigration playbook championed by senior administration aides has generated severe political liability across key suburban districts and independent voting blocs.\n\nSpeaking with CBS correspondent Scott Pelley from the Oval Office, the president struck an uncharacteristically reflective tone when pressed on exit polling data that showed overwhelming voter dissatisfaction with workplace immigration raids and high-profile detention enforcement actions. \"Looking back at the past eighteen months, some of the procedures we instituted—maybe they were too tough, maybe people perceived them as overly harsh,\" Trump remarked during the sixty-minute broadcast. \"The American public wants order and secure borders, absolutely, but they also want fairness and compassion. We saw that message very clearly at the ballot box on Tuesday, and we have to be smart enough to listen to what the voters are saying.\"\n\nThe president's remarks reverberated instantly across Capitol Hill, where incoming Democratic majorities in both the Senate and the House of Representatives are already formulating legislative frameworks for comprehensive immigration reform and legal status adjustments for long-term undocumented residents. When asked directly whether he would be open to signing a bipartisan compromise that pairs border security funding with legal protections and work authorizations for undocumented immigrants without criminal records, Trump broke sharply with his traditional hardline stance, signaling an openness to direct negotiations with Democratic congressional leaders.\n\n\"If the Democrats want to come to the White House and put together a real deal—one that secures the ports of entry while giving good, hardworking people who have lived here peacefully for decades a clear and legal status—I am ready to sit down and make that deal,\" Trump said. \"We cannot continue in a state of perpetual national division. We have to fix this system once and for all.\"\n\nThe public pivot has ignited immediate and fierce debate within conservative political circles and immigration policy institutes. Several staunch immigration hardliners in the House Freedom Caucus issued sharp statements Sunday night urging the president not to abandon the core enforcement mandates that defined his second administration, warning that any legislative concession to Democrats would fracture the conservative coalition. Conversely, moderate Republican lawmakers from competitive swing districts in New York, California, and Texas welcomed the president's openness to compromise, arguing that pragmatic immigration reform is vital if the party hopes to rebuild its standing with moderate suburban families ahead of the 2028 presidential campaign.",
+    "id": "massie-files-resolution-to-impeach-defense-chief-pete-hegseth",
+    "title": "Massie Files Resolution to Impeach Defense Chief Pete Hegseth",
+    "kicker": "CONGRESSIONAL REBELLION • WAR POWERS CLASH",
+    "summary": "Outgoing Republican Representative Thomas Massie introduced a formal privileged resolution on the House floor Tuesday to impeach Secretary of Defense Pete Hegseth, alleging unauthorized military airstrikes against Iranian facilities without congressional authorization.",
+    "body": "WASHINGTON — In a dramatic procedural rebellion that has laid bare simmering ideological rifts within the Republican Party following last week's midterm elections, Representative Thomas Massie of Kentucky introduced a formal privileged resolution Tuesday morning seeking to impeach Secretary of Defense Pete Hegseth. The measure, filed directly from the well of the House of Representatives, accuses the Pentagon chief of committing high crimes and misdemeanors by executing preemptive military strikes and maintaining naval quarantine operations in the Persian Gulf and Strait of Hormuz without securing prior statutory authorization from the Congress of the United States.\n\nMassie, a prominent libertarian-leaning conservative who has long championed strict adherence to the War Powers Resolution of 1973 and Article I constitutional war prerogatives, delivered an impassioned floor speech outlining three formal articles of impeachment. He contended that recent kinetic strikes carried out by U.S. Central Command against maritime radar installations on Qeshm Island and drone manufacturing logistics hubs in southern Iran constituted unprovoked acts of war that bypassed mandatory constitutional checks, placing American armed forces in active hostilities without legislative approval.\n\n\"Our foundational charter is unequivocal: the executive branch does not possess unilateral authority to drag the American republic into an undeclared foreign conflict,\" Massie declared before a hushed House chamber. \"Regardless of which political party occupies the executive mansion, the power to declare war and authorize offensive kinetic operations resides solely with the elected representatives of the American people. When cabinet officials disregard statutory limits and execute unauthorized acts of war, Congress has a constitutional duty to hold them accountable through the remedy of impeachment.\"\n\nThe surprise impeachment push drew an immediate and forceful repudiation from the White House, top Pentagon officials, and House Republican leadership. Speaking to reporters traveling aboard Air Force One, President Donald Trump vigorously defended his defense secretary, characterizing Massie's privileged resolution as frivolous \"political theatre\" orchestrated by a disgruntled faction of lawmakers. Secretary of State Marco Rubio and White House press aides asserted that all recent defensive interdictions in the Persian Gulf were strictly lawful exercises of the commander-in-chief's inherent Article II authority to protect American commercial shipping, deter hostile Iranian drone threats, and secure international maritime corridors.\n\nHouse Democratic leadership, preparing to assume majority control of the chamber in January, reacted cautiously to the procedural firestorm. While incoming Democratic committee chairs expressed shared concern over the administration's expansive interpretations of statutory war authorizations, several senior caucus members indicated they would evaluate the formal text before deciding whether to support a procedural motion to table Massie's resolution or allow open committee hearings on executive war powers.",
     "category": "Politics",
     "edition": [
         "US & Americas",
@@ -87,27 +87,27 @@ export const SECONDARY_LEAD_STORIES: Article[] = [
     ],
     "author": {
         "name": "Newyorkerherald Staff",
-        "role": "White House & Congressional Bureau",
+        "role": "Capitol Hill & National Security Bureau",
         "avatar": "/images/authors/sarah_mitchell.jpg"
     },
-    "publishedAt": "2h ago",
+    "publishedAt": "1h ago",
     "readTime": "7 min read",
-    "imageUrl": "/images/news/trump-admits-deportation-policy-was-too-tough-on-60-minutes.webp",
-    "imageCaption": "President Donald Trump speaks during an interview on CBS News 60 Minutes at the White House.",
-    "imageCredit": "Associated Press / Alex Brandon",
-    "commentCount": 168,
+    "imageUrl": "/images/news/massie-files-resolution-to-impeach-defense-chief-pete-hegseth.webp",
+    "imageCaption": "Secretary of Defense Pete Hegseth speaks during a Pentagon briefing on Gulf maritime security.",
+    "imageCredit": "Associated Press / Carolyn Kaster",
+    "commentCount": 148,
     "bullets": [
-        "President Trump tells 60 Minutes that enforcement operations and mass deportations were \"too tough.\"",
-        "Signals unexpected willingness to negotiate bipartisan immigration protections with Democratic leaders.",
-        "Remarks spark immediate tension between conservative hardliners and moderate swing-district lawmakers."
+        "Rep. Thomas Massie files privileged resolution in the House to impeach Defense Secretary Pete Hegseth.",
+        "Resolution alleges unauthorized airstrikes on Iranian sites violated the War Powers Resolution of 1973.",
+        "President Trump and Secretary Rubio defend Hegseth, dismissing the measure as unauthorized political theatre."
     ],
     "tags": [
         "Politics",
-        "Donald Trump",
-        "60 Minutes",
-        "Immigration",
+        "Pete Hegseth",
+        "Thomas Massie",
+        "Pentagon",
         "Congress",
-        "White House"
+        "Impeachment"
     ]
 },
     {
@@ -440,11 +440,11 @@ As the Federal Energy Regulatory Commission (FERC) convenes national stakeholder
 export const CATEGORY_ARTICLES: Record<string, Article[]> = {
   'Investigation': [
     {
-    "id": "nvidia-board-probes-ceo-jensen-huang-over-foreign-intel-ties",
-    "title": "Nvidia Board Probes CEO Jensen Huang Over Foreign Intel Ties",
-    "kicker": "CORPORATE GOVERNANCE • SPECIAL COUNSEL INQUIRY",
-    "summary": "Nvidia’s board of directors has retained independent legal counsel to investigate whether Chief Executive Jensen Huang was compromised in a foreign intelligence operation following revelations concerning his undisclosed personal ties to a scrutinized Asian technology executive.",
-    "body": "SANTA CLARA, Calif. & WASHINGTON — The board of directors of Nvidia Corporation, the world's preeminent designer of artificial intelligence semiconductors, has officially retained independent special counsel to conduct an exhaustive corporate governance and security inquiry into Chief Executive Officer Jensen Huang. The high-profile investigation, announced in late-breaking disclosures over the weekend, seeks to definitively determine whether Huang was targeted or unknowingly compromised in a sophisticated foreign intelligence operation connected to the unauthorized diversion of advanced semiconductor architectures.\n\nThe board's intervention follows explosive investigative reporting by international financial media outlets detailing an undisclosed personal and romantic relationship between Huang and a former senior executive of Megaspeed, a Singapore-based computing distributor that has been under intense surveillance by the United States Department of Commerce and federal intelligence agencies over allegations of facilitating illicit semiconductor transfers to state-backed entities in Beijing. In a deeply personal statement released to employees and shareholders on Sunday, Huang acknowledged having engaged in an unfaithful personal relationship, taking full personal accountability for the personal lapse while fiercely maintaining that no proprietary corporate technology, confidential chip blueprints, or national security secrets were ever discussed or compromised.\n\nDespite Huang's personal assurances, the revelation has sent shockwaves through the highest corridors of Silicon Valley, Wall Street, and national defense agencies in Washington. Nvidia's cutting-edge graphics processing units (GPUs) and tensor core processors form the foundational computational bedrock for America's leading defense supercomputers, national laboratory simulations, and commercial frontier artificial intelligence models. Federal export regulations strictly classify advanced accelerator chips as strategic national security assets subject to rigorous export bans.\n\nThe special committee established by Nvidia's independent directors has tasked a leading national security law firm and former federal cybersecurity prosecutors with conducting comprehensive forensic audits of executive email communications, mobile devices, private calendar logs, and travel itineraries spanning the past three years. The committee emphasized that preliminary assessments have revealed no empirical evidence of intellectual property leaks or unauthorized database intrusions, but stressed that the investigation must proceed with uncompromising thoroughness to reassure corporate partners, institutional shareholders, and federal oversight bodies.\n\n\"Maintaining complete integrity in our leadership governance and protecting our technological sovereignty are non-negotiable institutional obligations,\" Nvidia's lead independent director said in an official statement. \"The board is taking every appropriate measure to ensure that this independent inquiry is exhaustive, rigorous, and transparent, while maintaining uninterrupted operational focus on delivering our technology roadmaps to customers worldwide.\"",
+    "id": "investigation-trump-directs-doj-to-probe-incoming-democrats",
+    "title": "Investigation: Trump Directs DOJ to Probe Incoming Democrats",
+    "kicker": "JUSTICE DEPARTMENT CRISIS • RETALIATION PROBE",
+    "summary": "A Newyorkerherald investigative report reveals that President Donald Trump has formally directed the Department of Justice to open criminal inquiries into incoming Democratic congressional committee leaders, accusing them of \"extortion\" over planned oversight subpoenas.",
+    "body": "WASHINGTON — In an extraordinary institutional escalation that has plunged the Department of Justice into acute internal turmoil, President Donald Trump has issued formal executive directives commanding federal prosecutors to initiate criminal investigations into prominent Democratic lawmakers set to assume committee gavels in the incoming 120th Congress. An exhaustive investigation by the Newyorkerherald National Security and Legal Affairs Unit reveals that the White House directives, transmitted to Attorney General Todd Blanche over the weekend following the Republican Party's midterm defeats, demand inquiries into whether Democratic oversight pledges constitute unlawful extortion and criminal intimidation of executive branch personnel.\n\nAccording to confidential administrative memoranda and internal communications confirmed by four senior Justice Department officials who spoke on the condition of strict anonymity, the president demanded that the Public Integrity Section and federal grand juries investigate public statements made by incoming House Oversight Committee Chair Jamie Raskin and incoming Senate Judiciary Committee leaders. The White House asserted that Democratic vows to issue aggressive subpoenas regarding corporate governance matters, immigration enforcement protocols, and foreign military actions amounted to a coordinated conspiracy to unlawfully coerce administration officials and weaponize legislative authority.\n\nThe unprecedented presidential directive has ignited fierce resistance among career civil servants and nonpartisan prosecutors across the Department of Justice. Several veteran supervisors in the criminal division warned senior leadership that initiating grand jury proceedings against sitting members of Congress based on standard legislative oversight pledges directly violates the Speech or Debate Clause of the United States Constitution, which provides absolute constitutional immunity to lawmakers performing legislative functions. The acute friction prompted the abrupt resignation on Monday of Harmeet Dhillon, head of the Justice Department's Civil Rights Division, who stepped down amid escalating disputes over executive prosecutorial interference.\n\nConstitutional scholars, legal ethics organizations, and former attorneys general from both political parties voiced grave alarm over the developments, characterizing the directive as an authoritarian abuse of law enforcement authority designed to preemptively neutralize lawful congressional oversight. Legal experts noted that the United States Supreme Court has repeatedly upheld the broad subpoena authority of congressional committees to investigate executive branch operations and evaluate the enforcement of federal statutes.\n\n\"The bedrock foundation of our constitutional republic relies on the principle that the Department of Justice cannot be transformed into an instrument of personal political retribution,\" said former Deputy Attorney General Donald Ayer. \"For a sitting president to direct federal prosecutors to criminally target incoming legislative leaders for preparing to exercise their constitutional oversight duties is an existential assault on the separation of powers. It threatens the very core of our democratic system of checks and balances.\"",
     "category": "Investigation",
     "edition": [
         "US & Americas",
@@ -452,27 +452,27 @@ export const CATEGORY_ARTICLES: Record<string, Article[]> = {
     ],
     "author": {
         "name": "Newyorkerherald Staff",
-        "role": "National Security & Corporate Intelligence Unit",
+        "role": "National Security & Justice Department Reporting Unit",
         "avatar": "/images/authors/sarah_mitchell.jpg"
     },
-    "publishedAt": "7h ago",
+    "publishedAt": "6h ago",
     "readTime": "8 min read",
-    "imageUrl": "/images/news/nvidia-board-probes-ceo-jensen-huang-over-foreign-intel-ties.webp",
-    "imageCaption": "Nvidia headquarters in Santa Clara, California, where the board has launched an independent inquiry.",
-    "imageCredit": "Associated Press / Jeff Chiu",
-    "commentCount": 242,
+    "imageUrl": "/images/news/investigation-trump-directs-doj-to-probe-incoming-democrats.webp",
+    "imageCaption": "The Department of Justice headquarters in Washington, D.C., amidst growing internal friction.",
+    "imageCredit": "Associated Press / Patrick Semansky",
+    "commentCount": 287,
     "bullets": [
-        "Nvidia board hires independent special counsel to investigate CEO Jensen Huang regarding foreign intel exposure.",
-        "Inquiry follows revelations of personal relationship with executive linked to scrutinized tech distributor.",
-        "Forensic investigation examines communication records while preliminary audits show no intellectual property theft."
+        "President Trump directs Attorney General Todd Blanche to launch criminal probes into incoming Democratic committee chairs.",
+        "White House claims Democratic oversight and subpoena pledges constitute unlawful \"extortion\" of federal officials.",
+        "Directive prompts intense pushback from career DOJ prosecutors and triggers abrupt resignation of Harmeet Dhillon."
     ],
     "tags": [
         "Investigation",
-        "Nvidia",
-        "Jensen Huang",
-        "National Security",
-        "Artificial Intelligence",
-        "Corporate Governance"
+        "DOJ",
+        "Donald Trump",
+        "Congress",
+        "Attorney General",
+        "Todd Blanche"
     ]
 },
     {
@@ -588,38 +588,38 @@ In Albany, Governor Kathy Hochul convened an emergency public health cabinet mee
   ],
     'US': [
     {
-    "id": "us-school-closures-accelerate-as-budget-and-enrollment-drop",
-    "title": "US School Closures Accelerate as Budget and Enrollment Drop",
-    "kicker": "NATIONAL EDUCATION CRISIS • ENROLLMENT CLIFF",
-    "summary": "More than 1,150 public schools closed nationwide over the past academic year as cash-strapped school districts grapple with declining birth rates, plunging student enrollment, and the sudden expiration of federal pandemic relief subsidies.",
-    "body": "CHICAGO & SACRAMENTO — Across urban neighborhoods, suburban corridors, and rural heartlands, an accelerating wave of public school closures is profoundly transforming the landscape of American primary and secondary education. Comprehensive new data released by state education departments and compiled by educational policy researchers reveals that more than 1,150 public schools shuttered their doors permanently during the last academic year alone, with hundreds of additional campuses slated for consolidation or imminent closure before the start of the 2027 school term.\n\nThe unprecedented wave of campus shutdowns is being driven by a powerful confluence of structural demographic contractions and severe fiscal cliffs. Demographers point to the persistent decline in national birth rates that began following the Great Recession, which has now produced a sharp drop in elementary and middle school cohorts across major metropolitan areas. Compounding these demographic shifts is the total exhaustion of the $190 billion in federal Elementary and Secondary School Emergency Relief (ESSER) funds, which school boards had utilized over the past four years to maintain staffing levels, subsidize tutoring initiatives, and keep under-enrolled facilities operational.\n\nFrom Philadelphia and Boston to Milwaukee, Denver, and Oakland, local school boards have been forced into agonizing public hearings where weeping parents and frustrated educators plead to save historic neighborhood institutions. In many mid-sized cities, district enrollment has contracted by twenty to thirty-five percent over the past decade as families have migrated to lower-cost Sunbelt states or enrolled children in public charter systems, private academies, and homeschooling networks. With per-pupil state funding formulas tied directly to average daily attendance, underpopulated campuses have become financially unsustainable to maintain.\n\n\"We are witnessing an unprecedented structural contraction that will reshape American public education for the next generation,\" said Dr. Elena Rodriguez, senior fellow at the National Institute for Public Education Policy. \"Districts can no longer postpone difficult consolidations. Running school buildings that are operating at thirty or forty percent of their architectural capacity drains critical funding away from classroom instruction, specialized special education services, and advanced academic coursework.\"\n\nThe ripple effects of widespread school closures extend far beyond budgetary balance sheets. Sociologists and urban planners warn that closing neighborhood schools disproportionately impacts working-class communities of color, eliminating vital community hubs that provide after-school childcare, nutrition assistance, and neighborhood social cohesion. Displaced students often face significantly longer bus commutes across town, while abandoned school properties risk becoming blighted municipal eyesores if cities fail to quickly repurpose the physical facilities into affordable housing, community healthcare clinics, or vocational training centers.",
+    "id": "biden-memoir-excerpts-deliver-blistering-indictment-of-trump",
+    "title": "Biden Memoir Excerpts Deliver Blistering Indictment of Trump",
+    "kicker": "PRESIDENTIAL MEMOIR • HISTORICAL RECORD",
+    "summary": "In exclusive early excerpts from his upcoming White House memoir \"Promise Me, America,\" former President Joe Biden delivers a fierce historical indictment of Donald Trump, writing that his conduct regarding January 6 and pardons of rioters should \"follow him to his grave.\"",
+    "body": "WILMINGTON, Del. & WASHINGTON — In a deeply personal, unfiltered, and historically resonant assessment of his presidency and its tumultuous aftermath, former President Joe Biden delivers a searing moral indictment of his successor Donald Trump in his forthcoming White House memoir, \"Promise Me, America.\" Published in advance excerpts released Tuesday morning by The Atlantic ahead of the book's worldwide release, Biden reflects with unprecedented candor on the existential fragility of American democratic norms, the bitter politics of presidential succession, and the enduring institutional trauma inflicted by the assault on the United States Capitol.\n\nWriting with raw introspection from his home in Rehoboth Beach, Delaware, the 46th president reserves his sharpest condemnation for Trump's post-election conduct and his subsequent executive actions granting unconditional pardons to individuals convicted of assaulting federal law enforcement officers during the January 6, 2021 insurrection. Biden describes the mass clemency decrees as a catastrophic abdication of constitutional duty that severed centuries of established legal precedent regarding the rule of law.\n\n\"History will not judge Donald Trump merely as a deeply polarizing or norm-breaking political figure; history will record that he deliberately attempted to tear down the foundational pillars of the American constitutional republic to satisfy the insatiable demands of his own vanity,\" Biden writes in a gripping chapter detailing the transfer of executive power. \"To look upon the men and women who beat Capitol Police officers with flagpoles, who smashed through legislative doors to interrupt the peaceful transfer of power, and to crown them as 'patriots' and 'hostages' is an unforgivable moral stain that should follow him to his grave.\"\n\nThe memoir excerpts also offer rare, behind-the-scenes glimpses into the intense personal deliberations surrounding Biden's decision to withdraw from the 2024 presidential campaign following his debate performance in Atlanta. Biden candidly recounts the agonizing conversations he held with First Lady Jill Biden, his children, and trusted legislative confidants before concluding that stepping aside was the only honorable course to prevent the democratic coalition from fracturing beyond repair.\n\nReaction to the excerpts was immediate and deeply polarized across the political spectrum. Historians and constitutional scholars praised Biden's prose as an indispensable primary source that provides vital moral clarity on one of the most perilous epochs in modern American governance. Spokespersons for the Trump campaign and the Republican National Committee fired back swiftly, dismissing the memoir as a bitter revisionist grievance from an administration that was thoroughly repudiated by voters in last week's midterm elections.",
     "category": "US",
     "edition": [
         "US & Americas"
     ],
     "author": {
         "name": "Newyorkerherald Staff",
-        "role": "National Education & Urban Affairs Desk",
+        "role": "National Affairs & Historical Documentation Desk",
         "avatar": "/images/authors/sarah_mitchell.jpg"
     },
-    "publishedAt": "3h ago",
+    "publishedAt": "2h ago",
     "readTime": "8 min read",
-    "imageUrl": "/images/news/us-school-closures-accelerate-as-budget-and-enrollment-drop.webp",
-    "imageCaption": "A public elementary school building in the Midwest prepares for final consolidation hearings.",
-    "imageCredit": "Getty Images / Scott Olson",
-    "commentCount": 114,
+    "imageUrl": "/images/news/biden-memoir-excerpts-deliver-blistering-indictment-of-trump.webp",
+    "imageCaption": "Former President Joe Biden speaks during a public event as excerpts of his memoir are published.",
+    "imageCredit": "Associated Press / Susan Walsh",
+    "commentCount": 195,
     "bullets": [
-        "Over 1,150 public schools closed across the United States during the previous academic school year.",
-        "Plunging national birth rates and the total expiration of federal ESSER pandemic grants drive deficits.",
-        "Parents and community leaders express alarm over lost neighborhood hubs and extended daily student bus commutes."
+        "Joe Biden delivers blistering rebuke of Donald Trump in early excerpts of White House memoir Promise Me, America.",
+        "Calls Trump’s pardons of January 6 rioters an unforgivable moral stain that should \"follow him to his grave.\"",
+        "Provides unprecedented candid reflections on his decision to step aside from the 2024 presidential campaign."
     ],
     "tags": [
         "US",
-        "Education",
-        "School Closures",
-        "Demographics",
-        "Public Schools",
-        "Economy"
+        "Joe Biden",
+        "Donald Trump",
+        "Memoir",
+        "January 6",
+        "American History"
     ]
 },
     {
@@ -760,11 +760,11 @@ As the clocks reset, congressional leaders confirmed that bipartisan committee s
   ],
   'Politics': [
     {
-    "id": "trump-admits-deportation-policy-was-too-tough-on-60-minutes",
-    "title": "Trump Admits Deportation Policy Was Too Tough on 60 Minutes",
-    "kicker": "PRESIDENTIAL INTERVIEW • IMMIGRATION PIVOT",
-    "summary": "In a dramatic CBS News \"60 Minutes\" interview on Sunday following Republican midterm losses, President Donald Trump conceded that his administration’s mass deportation operations were \"too tough\" and signaled unexpected willingness to negotiate an immigration compromise with newly elected congressional Democrats.",
-    "body": "WASHINGTON — In a striking rhetorical recalibration broadcast nationwide on Sunday evening, President Donald Donald Trump conceded during an interview on CBS News' \"60 Minutes\" that his administration's aggressive enforcement policies and mass deportation operations may have gone too far, alienating swing voters and contributing significantly to the Republican Party's sweeping congressional defeats in last Tuesday's midterm elections. The extraordinary prime-time admission marks the first major public acknowledgment by the White House that the hardline immigration playbook championed by senior administration aides has generated severe political liability across key suburban districts and independent voting blocs.\n\nSpeaking with CBS correspondent Scott Pelley from the Oval Office, the president struck an uncharacteristically reflective tone when pressed on exit polling data that showed overwhelming voter dissatisfaction with workplace immigration raids and high-profile detention enforcement actions. \"Looking back at the past eighteen months, some of the procedures we instituted—maybe they were too tough, maybe people perceived them as overly harsh,\" Trump remarked during the sixty-minute broadcast. \"The American public wants order and secure borders, absolutely, but they also want fairness and compassion. We saw that message very clearly at the ballot box on Tuesday, and we have to be smart enough to listen to what the voters are saying.\"\n\nThe president's remarks reverberated instantly across Capitol Hill, where incoming Democratic majorities in both the Senate and the House of Representatives are already formulating legislative frameworks for comprehensive immigration reform and legal status adjustments for long-term undocumented residents. When asked directly whether he would be open to signing a bipartisan compromise that pairs border security funding with legal protections and work authorizations for undocumented immigrants without criminal records, Trump broke sharply with his traditional hardline stance, signaling an openness to direct negotiations with Democratic congressional leaders.\n\n\"If the Democrats want to come to the White House and put together a real deal—one that secures the ports of entry while giving good, hardworking people who have lived here peacefully for decades a clear and legal status—I am ready to sit down and make that deal,\" Trump said. \"We cannot continue in a state of perpetual national division. We have to fix this system once and for all.\"\n\nThe public pivot has ignited immediate and fierce debate within conservative political circles and immigration policy institutes. Several staunch immigration hardliners in the House Freedom Caucus issued sharp statements Sunday night urging the president not to abandon the core enforcement mandates that defined his second administration, warning that any legislative concession to Democrats would fracture the conservative coalition. Conversely, moderate Republican lawmakers from competitive swing districts in New York, California, and Texas welcomed the president's openness to compromise, arguing that pragmatic immigration reform is vital if the party hopes to rebuild its standing with moderate suburban families ahead of the 2028 presidential campaign.",
+    "id": "massie-files-resolution-to-impeach-defense-chief-pete-hegseth",
+    "title": "Massie Files Resolution to Impeach Defense Chief Pete Hegseth",
+    "kicker": "CONGRESSIONAL REBELLION • WAR POWERS CLASH",
+    "summary": "Outgoing Republican Representative Thomas Massie introduced a formal privileged resolution on the House floor Tuesday to impeach Secretary of Defense Pete Hegseth, alleging unauthorized military airstrikes against Iranian facilities without congressional authorization.",
+    "body": "WASHINGTON — In a dramatic procedural rebellion that has laid bare simmering ideological rifts within the Republican Party following last week's midterm elections, Representative Thomas Massie of Kentucky introduced a formal privileged resolution Tuesday morning seeking to impeach Secretary of Defense Pete Hegseth. The measure, filed directly from the well of the House of Representatives, accuses the Pentagon chief of committing high crimes and misdemeanors by executing preemptive military strikes and maintaining naval quarantine operations in the Persian Gulf and Strait of Hormuz without securing prior statutory authorization from the Congress of the United States.\n\nMassie, a prominent libertarian-leaning conservative who has long championed strict adherence to the War Powers Resolution of 1973 and Article I constitutional war prerogatives, delivered an impassioned floor speech outlining three formal articles of impeachment. He contended that recent kinetic strikes carried out by U.S. Central Command against maritime radar installations on Qeshm Island and drone manufacturing logistics hubs in southern Iran constituted unprovoked acts of war that bypassed mandatory constitutional checks, placing American armed forces in active hostilities without legislative approval.\n\n\"Our foundational charter is unequivocal: the executive branch does not possess unilateral authority to drag the American republic into an undeclared foreign conflict,\" Massie declared before a hushed House chamber. \"Regardless of which political party occupies the executive mansion, the power to declare war and authorize offensive kinetic operations resides solely with the elected representatives of the American people. When cabinet officials disregard statutory limits and execute unauthorized acts of war, Congress has a constitutional duty to hold them accountable through the remedy of impeachment.\"\n\nThe surprise impeachment push drew an immediate and forceful repudiation from the White House, top Pentagon officials, and House Republican leadership. Speaking to reporters traveling aboard Air Force One, President Donald Trump vigorously defended his defense secretary, characterizing Massie's privileged resolution as frivolous \"political theatre\" orchestrated by a disgruntled faction of lawmakers. Secretary of State Marco Rubio and White House press aides asserted that all recent defensive interdictions in the Persian Gulf were strictly lawful exercises of the commander-in-chief's inherent Article II authority to protect American commercial shipping, deter hostile Iranian drone threats, and secure international maritime corridors.\n\nHouse Democratic leadership, preparing to assume majority control of the chamber in January, reacted cautiously to the procedural firestorm. While incoming Democratic committee chairs expressed shared concern over the administration's expansive interpretations of statutory war authorizations, several senior caucus members indicated they would evaluate the formal text before deciding whether to support a procedural motion to table Massie's resolution or allow open committee hearings on executive war powers.",
     "category": "Politics",
     "edition": [
         "US & Americas",
@@ -772,27 +772,27 @@ As the clocks reset, congressional leaders confirmed that bipartisan committee s
     ],
     "author": {
         "name": "Newyorkerherald Staff",
-        "role": "White House & Congressional Bureau",
+        "role": "Capitol Hill & National Security Bureau",
         "avatar": "/images/authors/sarah_mitchell.jpg"
     },
-    "publishedAt": "2h ago",
+    "publishedAt": "1h ago",
     "readTime": "7 min read",
-    "imageUrl": "/images/news/trump-admits-deportation-policy-was-too-tough-on-60-minutes.webp",
-    "imageCaption": "President Donald Trump speaks during an interview on CBS News 60 Minutes at the White House.",
-    "imageCredit": "Associated Press / Alex Brandon",
-    "commentCount": 168,
+    "imageUrl": "/images/news/massie-files-resolution-to-impeach-defense-chief-pete-hegseth.webp",
+    "imageCaption": "Secretary of Defense Pete Hegseth speaks during a Pentagon briefing on Gulf maritime security.",
+    "imageCredit": "Associated Press / Carolyn Kaster",
+    "commentCount": 148,
     "bullets": [
-        "President Trump tells 60 Minutes that enforcement operations and mass deportations were \"too tough.\"",
-        "Signals unexpected willingness to negotiate bipartisan immigration protections with Democratic leaders.",
-        "Remarks spark immediate tension between conservative hardliners and moderate swing-district lawmakers."
+        "Rep. Thomas Massie files privileged resolution in the House to impeach Defense Secretary Pete Hegseth.",
+        "Resolution alleges unauthorized airstrikes on Iranian sites violated the War Powers Resolution of 1973.",
+        "President Trump and Secretary Rubio defend Hegseth, dismissing the measure as unauthorized political theatre."
     ],
     "tags": [
         "Politics",
-        "Donald Trump",
-        "60 Minutes",
-        "Immigration",
+        "Pete Hegseth",
+        "Thomas Massie",
+        "Pentagon",
         "Congress",
-        "White House"
+        "Impeachment"
     ]
 },
     {
@@ -1040,11 +1040,11 @@ In Washington, national security officials convened in the White House Situation
 
   'Business & Economy': [
     {
-    "id": "global-markets-rebound-after-25-trillion-tech-sell-off",
-    "title": "Global Markets Rebound After 2.5 Trillion Tech Sell-Off",
-    "kicker": "FINANCIAL RECOVERY • WALL STREET STABILIZATION",
-    "summary": "Global stock exchanges staged a resilient rebound on Monday morning, clawing back losses after a historic $2.5 trillion tech-led wipeout sparked by midterm election turbulence and regulatory anxiety surrounding artificial intelligence infrastructure.",
-    "body": "NEW YORK, LONDON & TOKYO — International financial markets exhibited substantial resilience on Monday morning, staging a broad-based recovery that stabilized equities following one of the most volatile trading weeks of the year. Benchmark indices across Asia, Europe, and Wall Street futures pushed firmly into positive territory, erasing a meaningful portion of the staggering $2.5 trillion market capitalization wiped out during last week's brutal tech-sector sell-off that had rattled institutional investors and pension portfolios worldwide.\n\nThe previous week's market rout was precipitated by a sharp intersection of macro-political shifts and tech-sector turbulence. The Democratic Party's capture of both chambers of Congress during Tuesday's midterm elections sparked immediate Wall Street anxiety over the prospect of heightened regulatory scrutiny, antitrust enforcement, and potential legislative caps on commercial artificial intelligence computing subsidies. Compounding those political concerns were high-profile corporate governance developments surrounding major semiconductor titans and a growing chorus of Wall Street analysts warning that mega-cap technology firms were overspending on data center construction ahead of clear near-term software monetization.\n\nHowever, sentiment pivoted decisively as Asian markets opened Monday's global session. Tokyo's Nikkei 225 jumped 1.8 percent, while Taiwan's Taiex and South Korea's Kospi each gained over two percent, led by vigorous dip-buying in advanced manufacturing, banking, and clean energy counters. In early European trading, the FTSE 100 in London, Frankfurt's DAX, and the CAC 40 in Paris posted solid gains, bolstered by stronger-than-expected corporate earnings guidance and a modest easing in international crude oil prices, which settled back toward ninety-five dollars per barrel after days of heightened Middle East maritime tensions.\n\nOn Wall Street, S&P 500 and Nasdaq-100 futures pointed to a robust opening bell, with institutional fund managers stepping in to accumulate heavily discounted blue-chip technology and industrial shares. Economists noted that underlying macroeconomic fundamentals in the United States remain exceptionally sturdy, pointing to robust domestic employment data, resilient consumer spending figures, and easing wholesale producer inflation prints that suggest the Federal Reserve retains ample policy runway to navigate upcoming interest rate decisions.\n\n\"The intense volatility we experienced late last week was a necessary valuation decompression rather than the beginning of a prolonged bear market,\" said Marcus Vance, chief global equity strategist at Vanguard Horizon Capital. \"Investors had priced technology multiples to near-perfection. Now that the initial political shock of the midterm elections has been absorbed and corporate leadership questions are being openly addressed, market participants are recognizing that corporate balance sheets and balance sheet liquidity remain in remarkably strong health.\"",
+    "id": "dow-surges-1104-points-as-wall-street-stages-monster-rally",
+    "title": "Dow Surges 1,104 Points as Wall Street Stages Monster Rally",
+    "kicker": "WALL STREET RECORD • MARKET REBOUND",
+    "summary": "The Dow Jones Industrial Average skyrocketed 1,104 points on Monday in its strongest session of the year, spearheading a massive broad-based Wall Street rally as plunging crude oil prices and cooling inflation fears re-energized equity investors.",
+    "body": "NEW YORK — In an explosive display of institutional buying power that shattered weeks of market pessimism, the Dow Jones Industrial Average staged a historic monster rally on Monday, leaping more than 1,100 points in its single most dominant trading performance of the year. The ferocious broad-based advance roared across the New York Stock Exchange and Nasdaq, lifting the benchmark S&P 500 index by 2.35 percent to notch its best single-day percentage gain since April, while completely erasing the severe losses that had dragged equities into correction territory late last week.\n\nThe dramatic turnaround was catalyzed by a powerful confluence of macroeconomic tailwinds and geopolitical stabilization. Energy markets experienced a sharp sell-off, with Brent and West Texas Intermediate crude futures tumbling over four percent toward ninety-three dollars per barrel as international shipping operators reported uninterrupted commercial convoy movements through the Strait of Hormuz. The sudden collapse in energy costs delivered immediate psychological relief to Wall Street desk traders who had feared that spiking petroleum prices would reignite stubborn consumer inflation prints ahead of Wednesday's critical October Consumer Price Index release.\n\nIndustrial heavyweights, transport logistics networks, and regional banking institutions spearheaded the Dow's extraordinary 1,104.02-point surge, with blue-chip components Caterpillar, Boeing, Goldman Sachs, and JPMorgan Chase each posting gains exceeding three percent. Simultaneously, the technology-heavy Nasdaq Composite soared 673.71 points, or 2.74 percent, to close at 25,253.14, powered by aggressive institutional dip-buying in semiconductor fabrication leaders, enterprise software developers, and cloud infrastructure providers.\n\nMarket strategists emphasized that Monday's powerful short-covering rally demonstrated the underlying structural resilience of the American corporate sector. Despite intense political realignments stemming from the midterm elections and ongoing corporate governance reviews at high-profile chipmakers, institutional balance sheets remain awash in cash reserves, corporate earnings guidance continues to outperform conservative consensus forecasts, and domestic labor markets remain remarkably steady.\n\n\"What we witnessed on trading desks today was an emphatic declaration that macroeconomic panic had completely decoupled from economic reality,\" said Allison Montgomery, chief market strategist at Citadel Equity Partners. \"The abrupt decline in oil prices removed a massive cloud of stagflation anxiety that had paralyzed asset allocators. With consumer balance sheets healthy and corporate capital expenditures expanding at double-digit rates, smart money stepped in to seize extraordinary bargains across the equity spectrum.\"",
     "category": "Business",
     "edition": [
         "US & Americas",
@@ -1052,27 +1052,27 @@ In Washington, national security officials convened in the White House Situation
     ],
     "author": {
         "name": "Newyorkerherald Staff",
-        "role": "Global Markets & Financial Systems Bureau",
+        "role": "Wall Street & Financial Markets Bureau",
         "avatar": "/images/authors/sarah_mitchell.jpg"
     },
-    "publishedAt": "4h ago",
+    "publishedAt": "3h ago",
     "readTime": "7 min read",
-    "imageUrl": "/images/news/global-markets-rebound-after-25-trillion-tech-sell-off.webp",
-    "imageCaption": "Traders work on the floor of the New York Stock Exchange as global equity markets rebound.",
-    "imageCredit": "Associated Press / Richard Drew",
-    "commentCount": 88,
+    "imageUrl": "/images/news/dow-surges-1104-points-as-wall-street-stages-monster-rally.webp",
+    "imageCaption": "The trading floor of the New York Stock Exchange during Monday historic 1,104-point Dow surge.",
+    "imageCredit": "Getty Images / Spencer Platt",
+    "commentCount": 112,
     "bullets": [
-        "Global stock indices advance Monday, recovering from last week’s historic $2.5 trillion tech equity sell-off.",
-        "Asian benchmarks Nikkei and Taiex surge over 1.8% as institutional buyers step in to purchase discounted tech shares.",
-        "Solid U.S. labor market indicators and steady consumer demand help calm broader economic recession fears."
+        "Dow Jones Industrial Average surges 1,104.02 points (+2.15%) to close at 52,389.75 in explosive trading session.",
+        "S&P 500 posts best single-day percentage gain (+2.35%) since April as Nasdaq Composite rallies 2.74%.",
+        "Plunging crude oil prices toward $93 a barrel and easing consumer inflation fears trigger massive institutional buying."
     ],
     "tags": [
         "Business",
         "Wall Street",
-        "Stock Market",
+        "Dow Jones",
+        "Stocks",
         "Economy",
-        "Global Markets",
-        "Nasdaq"
+        "SP500"
     ]
 },
     {
@@ -1291,11 +1291,11 @@ Sports finance experts note that the move mirrors a broader institutional trend 
 
   'Tech': [
     {
-    "id": "openai-secures-11-billion-funding-at-125-trillion-valuation",
-    "title": "OpenAI Secures 11 Billion Funding at 1.25 Trillion Valuation",
-    "kicker": "VENTURE CAPITAL RECORD • ARTIFICIAL INTELLIGENCE",
-    "summary": "OpenAI closed an unprecedented $11 billion late-stage financing round over the weekend, pushing its enterprise valuation to $1.25 trillion as rival Anthropic accelerates final preparations for an anticipated multibillion-dollar public offering.",
-    "body": "SAN FRANCISCO — In an epochal financing milestone that shatters all existing private venture capital records, artificial intelligence pioneer OpenAI announced over the weekend that it has finalized a colossal $11 billion late-stage funding round. The mega-round values the San Francisco-based creator of ChatGPT at a staggering $1.25 trillion, formally cementing its standing as the most valuable private technology enterprise in corporate history and providing an enormous war chest to accelerate the development of next-generation autonomous reasoning models and nationwide hyperscale compute clusters.\n\nThe monumental funding syndicate was anchored by a blue-chip consortium of sovereign wealth funds, major institutional asset managers, and long-standing strategic partners, including substantial follow-on capital from Microsoft, SoftBank Vision Fund, and prominent Silicon Valley venture entities. Financial terms disclosed by people familiar with the transaction indicate that the capital injection will be dedicated directly to securing advanced semiconductor procurement agreements, expanding high-density nuclear-backed data centers across North America, and funding ongoing research into multimodal frontier artificial general intelligence architectures.\n\nThe closing of the funding round arrives at a critical strategic juncture for the artificial intelligence industry. Major foundation model developers are locked in a fiercely competitive race to expand compute capacity while navigating shifting regulatory dynamics in Washington following last week's midterm elections. OpenAI's primary rival, Anthropic, is concurrently finalizing regulatory filings for its own landmark initial public offering slated for late November, which investment bankers estimate could value the Claude developer between $1.2 trillion and $1.3 trillion.\n\nIndustry analysts emphasize that the sheer magnitude of OpenAI's new capitalization reflects the unprecedented capital expenditure requirements demanded by contemporary frontier AI development. Training next-generation models that incorporate complex multi-step reasoning, real-time autonomous agent workflows, and verified mathematical proof generation requires hundreds of thousands of interconnected tensor processing units, consuming gigawatts of electrical capacity and costing billions of dollars per individual training cluster run.\n\n\"We have reached a phase of technological scale where computational capacity is directly correlated with civilizational productivity,\" OpenAI leadership said in a joint statement accompanying the financing announcement. \"This capital commitment empowers us to build the resilient, secure, and democratic computational infrastructure necessary to bring the transformative benefits of safe artificial general intelligence to developers, enterprises, and everyday individuals worldwide.\"",
+    "id": "eu-drafts-digital-fairness-act-to-ban-deceptive-web-design",
+    "title": "EU Drafts Digital Fairness Act to Ban Deceptive Web Design",
+    "kicker": "TECH REGULATION • DIGITAL RIGHTS ACCORD",
+    "summary": "European Union regulators have drafted comprehensive legislation known as the Digital Fairness Act, establishing strict global prohibitions against manipulative \"dark patterns,\" addictive interface mechanics, and algorithmic micro-targeting of young consumers.",
+    "body": "BRUSSELS — In an aggressive regulatory offensive that threatens to fundamentally overturn commercial monetization models across Silicon Valley, the European Commission has finalized draft text for the landmark Digital Fairness Act. Leaked copies of the confidential draft statute obtained by international news agencies on Tuesday reveal an uncompromising legislative framework engineered to permanently outlaw deceptive user interface tricks known as \"dark patterns,\" predatory subscription traps, and algorithmic behavioral profiling targeting children and young consumers across social media and e-commerce platforms.\n\nSpearheaded by European Justice Commissioner Michael McGrath and scheduled for formal presentation to the European Parliament later this month, the sweeping legislation represents the European Union's most ambitious digital consumer protection statute since the enactment of the General Data Protection Regulation (GDPR) and the Digital Services Act. Under the proposed statute, technology companies operating in the twenty-seven-nation bloc would face statutory financial penalties of up to six percent of their global annual turnover for deploying manipulative interface architectures designed to coerce users into financial transactions or involuntary data disclosures.\n\nThe draft legislation takes direct aim at ubiquitous psychological design tactics that have become standard operating procedure for major technology giants. Specific provisions mandate the complete elimination of countdown timers on digital storefronts that manufacture false scarcity, prohibit convoluted multi-step cancellation pathways commonly termed \"roach motels,\" and strictly ban infinite-scroll feeds and autoplay mechanics that behavioral scientists have linked to compulsive screen consumption and adolescent mental health crises.\n\nFurthermore, the Digital Fairness Act establishes pioneering transparency mandates governing algorithmic pricing engines. E-commerce platforms and ride-hailing networks would be legally barred from utilizing private consumer behavioral profiles, location history, or device battery telemetry to calculate dynamic price increases for individualized users, mandating that all consumers be presented with identical baseline pricing tiers for commercial goods and essential transportation services.\n\nThe impending legislative rollout has triggered frantic lobbying mobilization among American technology conglomerates and international digital advertising trade groups. Industry representatives warned that overly rigid statutory bans on personalization could degrade consumer convenience and impair customized digital recommendations. However, consumer rights advocates and privacy watchdogs across Europe and the United States hailed the draft as a long-overdue charter of fundamental digital rights that will force software developers worldwide to prioritize human autonomy over addictive engagement metrics.",
     "category": "Tech",
     "edition": [
         "US & Americas",
@@ -1303,27 +1303,27 @@ Sports finance experts note that the move mirrors a broader institutional trend 
     ],
     "author": {
         "name": "Newyorkerherald Staff",
-        "role": "Artificial Intelligence & Silicon Valley Bureau",
+        "role": "Global Technology Regulation & Cyber Law Desk",
         "avatar": "/images/authors/sarah_mitchell.jpg"
     },
-    "publishedAt": "5h ago",
+    "publishedAt": "4h ago",
     "readTime": "8 min read",
-    "imageUrl": "/images/news/openai-secures-11-billion-funding-at-125-trillion-valuation.webp",
-    "imageCaption": "The OpenAI headquarters campus in the Mission District of San Francisco.",
-    "imageCredit": "Getty Images / Justin Sullivan",
-    "commentCount": 204,
+    "imageUrl": "/images/news/eu-drafts-digital-fairness-act-to-ban-deceptive-web-design.webp",
+    "imageCaption": "The European Commission headquarters in Brussels, where the Digital Fairness Act was drafted.",
+    "imageCredit": "Associated Press / Virginia Mayo",
+    "commentCount": 167,
     "bullets": [
-        "OpenAI secures record $11 billion investment round, boosting total enterprise valuation to $1.25 trillion.",
-        "Capital will finance gigawatt-scale data center infrastructure, advanced chips, and frontier reasoning models.",
-        "Announcement comes as rival Anthropic finalizes filings for its anticipated November initial public offering."
+        "European Commission drafts Digital Fairness Act to ban manipulative dark patterns and subscription traps.",
+        "Proposes fines up to 6% of global turnover for companies utilizing algorithmic profiling on young users.",
+        "Prohibits dynamic individualized surge pricing based on personal consumer behavioral telemetry."
     ],
     "tags": [
         "Tech",
-        "OpenAI",
-        "Artificial Intelligence",
-        "Venture Capital",
-        "ChatGPT",
-        "Silicon Valley"
+        "European Union",
+        "Dark Patterns",
+        "Regulation",
+        "Big Tech",
+        "Privacy"
     ]
 },
     {
@@ -1542,11 +1542,11 @@ Aerospace financial analysts estimate that SpaceX's commercial launch and satell
 
   'Entertainment': [
     {
-    "id": "godzilla-minus-zero-smashes-us-box-office-with-record-debut",
-    "title": "Godzilla Minus Zero Smashes US Box Office with Record Debut",
-    "kicker": "BOX OFFICE PHENOMENON • RECORD-BREAKING DEBUT",
-    "summary": "Takashi Yamazaki's \"Godzilla Minus Zero\" shattered North American box office records over the weekend, grossing $31.6 million to achieve the highest-grossing opening weekend ever for a live-action foreign-language film in United States history.",
-    "body": "LOS ANGELES & TOKYO — In a breathtaking triumph for international cinema and a watershed moment for theatrical exhibition, Toho Studios' \"Godzilla Minus Zero\" stomped into North American theaters over the weekend and completely recalibrated box office expectations. Directed by Academy Award-winning filmmaker Takashi Yamazaki, the visually breathtaking monster epic hauled a staggering $31.6 million across 3,250 domestic screens, obliterating all prior box office records to capture the single highest-grossing opening weekend ever recorded for a live-action, foreign-language film in United States and Canadian box office history.\n\nThe film's extraordinary commercial performance delivered a clean sweep of the domestic box office crown, comfortably outperforming major Hollywood studio tentpoles. Warner Bros. and Paramount's family animated release \"The Cat in the Hat\" secured second place with a respectable $20.5 million, but it was Yamazaki's Japanese-language spectacle—which pits the iconic titular titan against the multi-headed extraterrestrial menace King Ghidorah amidst the ruins of post-war Tokyo—that commanded packed multiplexes and generated massive lines around metropolitan IMAX auditoriums from coast to coast.\n\nIndustry tracking services noted that \"Godzilla Minus Zero\" enjoyed an unprecedented cross-demographic resonance. CinemaScore exit polling revealed a glowing \"A+\" audience rating, with ticket sales driven equally by long-time genre purists, mainstream pop-culture enthusiasts, and younger moviegoers who turned the film's spectacular practical visual effects sequences into viral social media sensations. Premium large format auditoriums, including IMAX, Dolby Cinema, and 4DX screens, accounted for forty-four percent of total domestic receipts, with dozens of flagship locations in New York, Los Angeles, Toronto, and Chicago reporting sell-outs throughout Saturday and Sunday.\n\nGlobally, the film's premiere weekend generated an estimated $63 million in cumulative receipts, establishing a massive international footprint ahead of upcoming theatrical expansions across Latin America, Europe, and Australia next week. Hollywood studio executives and cinematic analysts celebrated the achievement as clear empirical proof that discerning theatrical audiences are hungry for distinctive, auteur-driven filmmaking that prioritizes character-driven emotional stakes alongside cutting-edge cinematic spectacle.\n\n\"Takashi Yamazaki has pulled off something genuinely historic,\" said senior box office analyst Paul Dergarabedian. \"For a live-action Japanese-language motion picture with English subtitles to open at more than thirty-one million dollars in North America is completely unprecedented. It confirms that when cinematic storytelling is exceptional and emotionally resonant, language is no barrier whatsoever for moviegoers who want to experience the magic of cinema on the biggest possible screen.\"",
+    "id": "johnny-depp-readies-hollywood-return-in-paramount-ebenezer",
+    "title": "Johnny Depp Readies Hollywood Return in Paramount 'Ebenezer'",
+    "kicker": "HOLLYWOOD COMEBACK • THEATRICAL SHOWCASE",
+    "summary": "Johnny Depp is poised for a high-profile theatrical return as Paramount Pictures prepares to release \"Ebenezer,\" a lavish, dark gothic adaptation of Charles Dickens' classic tale that serves as a defining litmus test for the star’s mainstream box office rehabilitation.",
+    "body": "LOS ANGELES & LONDON — In one of the most intensely scrutinized cinematic rollouts in modern Hollywood history, Johnny Depp is preparing to reclaim his status as a mainstream studio leading man this Friday as Paramount Pictures releases \"Ebenezer\" into more than 3,400 North American theaters. The lavish, eighty-million-dollar dark fantasy adaptation of Charles Dickens' immortal 1843 novella \"A Christmas Carol\" represents Depp's first major studio-backed theatrical headlining vehicle in nearly seven years, providing an undeniable acid test for whether the controversial three-time Oscar nominee can transcend years of sensationalized legal battles and re-establish himself as a top-tier global box office draw.\n\nDirected by visionary filmmaker Guillermo del Toro in collaboration with master gothic production designers, \"Ebenezer\" departs radically from sentimental holiday adaptations, re-imagining the iconic miser Ebenezer Scrooge as a tormented Victorian financier haunted by grotesque, supernatural manifestations of industrial exploitation and personal grief. Early industry tracking services project an opening weekend haul between $28 million and $35 million, fueled by glowing advanced festival reviews in London and Tokyo that singled out Depp's transformative, physically demanding performance as a tour de force of emotional vulnerability and dramatic restraint.\n\nThe production arrived on the theatrical calendar following years of unprecedented professional turbulence for the sixty-three-year-old actor. Following bitter, internationally televised defamation proceedings involving his former spouse Amber Heard and subsequent estrangement from major franchise properties like \"Pirates of the Caribbean\" and \"Fantastic Beasts,\" Depp had largely retreated into independent European arthouse cinema and international music tours. Paramount's decision to finance and globally distribute the ambitious del Toro production was viewed by studio insiders as a calculated, high-stakes gamble on the enduring affection of Depp's vast international fanbase.\n\nAdvance ticket sales across major domestic metropolitan chains indicate that audiences are overwhelmingly receptive to Depp's mainstream comeback. Flagship IMAX and Dolby Cinema auditoriums in New York, Los Angeles, and Chicago have reported near-capacity bookings for Thursday evening preview screenings, while the film's atmospheric trailer campaign has generated over eighty million viral impressions across social video platforms over the past ten days.\n\n\"Hollywood has always been an industry built fundamentally on reinvention and the redemptive power of singular creative talent,\" said veteran entertainment analyst Leonard Maltin. \"Audiences do not go to the cinema to adjudicate past tabloid controversies; they go to be moved, astonished, and transported by exceptional storytelling. If 'Ebenezer' delivers the critical acclaim and box office numbers that early indicators suggest, Johnny Depp's return to the pinnacle of mainstream Hollywood cinema will be complete.\"",
     "category": "Entertainment",
     "edition": [
         "US & Americas",
@@ -1554,27 +1554,27 @@ Aerospace financial analysts estimate that SpaceX's commercial launch and satell
     ],
     "author": {
         "name": "Newyorkerherald Staff",
-        "role": "Film Industry & Hollywood Culture Desk",
+        "role": "Film Culture & Hollywood Studio Industry Bureau",
         "avatar": "/images/authors/sarah_mitchell.jpg"
     },
     "publishedAt": "5h ago",
     "readTime": "7 min read",
-    "imageUrl": "/images/news/godzilla-minus-zero-smashes-us-box-office-with-record-debut.webp",
-    "imageCaption": "Audiences line up outside a major IMAX theater in Los Angeles for the premiere of Godzilla Minus Zero.",
-    "imageCredit": "Associated Press / Chris Pizzello",
-    "commentCount": 92,
+    "imageUrl": "/images/news/johnny-depp-readies-hollywood-return-in-paramount-ebenezer.webp",
+    "imageCaption": "Johnny Depp arrives at a promotional preview screening for Paramount Pictures Ebenezer.",
+    "imageCredit": "Getty Images / Stuart C. Wilson",
+    "commentCount": 231,
     "bullets": [
-        "Godzilla Minus Zero debuts at $31.6 million, setting all-time record for live-action foreign films in North America.",
-        "Toho Studios epic earns coveted \"A+\" CinemaScore as premium IMAX and large-format screens drive sell-out crowds.",
-        "Global box office surpasses $63 million in opening weekend as worldwide theatrical rollout expands."
+        "Johnny Depp stars in Paramount’s dark fantasy Dickens adaptation Ebenezer, opening in 3,400 theaters Friday.",
+        "Represents Depp’s first major Hollywood studio-backed leading role in nearly seven years.",
+        "Early box office tracking projects a $28M-$35M domestic opening as critical reviews praise del Toro direction."
     ],
     "tags": [
         "Entertainment",
-        "Box Office",
-        "Godzilla",
+        "Johnny Depp",
+        "Ebenezer",
+        "Paramount",
         "Movies",
-        "Hollywood",
-        "Toho"
+        "Hollywood"
     ]
 },
     {
@@ -1733,38 +1733,38 @@ Furthermore, cloud streaming platforms and mobile distribution networks have low
 
   'Sports': [
     {
-    "id": "notre-dame-stuns-number-one-miami-in-college-football-upset",
-    "title": "Notre Dame Stuns Number One Miami in College Football Upset",
-    "kicker": "COLLEGE FOOTBALL SHOCKER • TOP 25 REALIGNMENT",
-    "summary": "The No. 11 Notre Dame Fighting Irish derailed top-ranked Miami’s undefeated season with a stunning 31-24 victory on Saturday, throwing the College Football Playoff picture into chaos heading into the final stretch of the regular season.",
-    "body": "SOUTH BEND, Ind. — Under gray November skies and amidst an electric, deafening roar from a capacity crowd of over seventy-seven thousand at Notre Dame Stadium, the No. 11 Notre Dame Fighting Irish delivered the defining shocker of the college football season on Saturday afternoon. In a physical, down-to-the-wire masterclass of defensive grit and clutch fourth-quarter execution, Notre Dame derailed the undefeated national championship campaign of the No. 1 Miami Hurricanes, pulling off a thrilling 31-24 upset that instantly scrambles the national Top 25 rankings and throws the twelve-team College Football Playoff bracket into absolute turmoil.\n\nThe high-stakes clash lived up to every ounce of its storied historical rivalry. Miami entered South Bend boasting the nation's most prolific scoring offense, averaging over forty-four points per contest behind their Heisman Trophy frontrunner quarterback. But the Fighting Irish defensive coordinator devised an aggressive defensive game plan, deploying disguised secondary coverages and relentless edge pressure that sacked Miami's signal-caller five times, forced two costly red-zone turnovers, and held the Hurricanes to just fifty-eight net rushing yards on twenty-two carries.\n\nAfter trailing 17-14 at halftime, Notre Dame seized momentum late in the third quarter behind a bruising 68-yard touchdown drive punctuated by a highlight-reel leap over the goal line by their sophomore tailback. With the score tied at 24-24 and fewer than three minutes remaining in regulation, Notre Dame's quarterback orchestrated an eight-play, 75-yard drive, culminating in a laser-accurate 28-yard corner touchdown pass with just forty-one seconds showing on the clock to seal the historic triumph.\n\nWhen Miami's desperate final Hail Mary pass was batted down at the goal line as time expired, thousands of jubilant student fans stormed the field, creating a sea of green and gold beneath the watchful gaze of the iconic \"Touchdown Jesus\" mural. The loss not only ends Miami's bid for an undefeated regular season but also fundamentally alters the power dynamic atop the national championship conversation, opening the door for powerhouse programs like Georgia, Texas, and Alabama to stake claim to the coveted number-one overall seed.\n\n\"Our young men prepared all week with unbelievable focus, and they believed in each other when nobody outside this locker room gave us a chance,\" Notre Dame head coach Marcus Freeman said during his emotional post-game press conference. \"We knew we had to control the line of scrimmage and play with relentless discipline for sixty full minutes. This victory belongs to our university, our alumni, and our players who poured their hearts into every single snap.\"",
+    "id": "bills-stifle-vikings-23-6-in-dominant-monday-night-football",
+    "title": "Bills Stifle Vikings 23-6 in Dominant Monday Night Football",
+    "kicker": "MONDAY NIGHT SHOWDOWN • AFC EAST CONTROL",
+    "summary": "The Buffalo Bills delivered a defensive masterclass on Monday Night Football, throttling the Minnesota Vikings 23-6 behind a relentless pass rush and a calculated, turnover-free performance from superstar quarterback Josh Allen.",
+    "body": "MINNEAPOLIS — Under the blinding bright lights of U.S. Bank Stadium and before a stunned, silenced crowd of sixty-six thousand Minnesota faithful, the Buffalo Bills delivered an emphatic national statement on Monday Night Football. In an uncompromising display of defensive dominance and clinical offensive efficiency, the Bills smothered the high-flying Minnesota Vikings in a comprehensive 23-6 rout, seizing undisputed control of the AFC East and establishing themselves as legitimate frontrunners in the race for the AFC's coveted number-one playoff seed.\n\nThe tone for the prime-time showdown was established from the opening snap by Buffalo's swarming defensive front. Defensive coordinator Bobby Babich orchestrated a relentless pressure scheme that completely dismantled Minnesota's timing-based passing attack. The Bills harassed Minnesota's signal-caller on more than fifty percent of his dropbacks, racking up six sacks, forcing two lost fumbles, and holding the Vikings' offense to a miserable 184 total net yards—Minnesota's lowest single-game offensive output in over three seasons.\n\nOffensively, Buffalo played with calculated, turnover-free patience behind superstar quarterback Josh Allen. Rather than relying solely on high-risk deep shots, Allen methodically picked apart Minnesota's two-high safety coverages, completing 22 of 29 passes for 248 yards and two surgical touchdowns, while adding 42 gritty rushing yards to convert critical third downs. Allen's favorite target, tight end Dalton Kincaid, recorded eight catches for 94 yards, including a highlight-reel 19-yard diving touchdown reception in the back of the end zone late in the second quarter that gave Buffalo a commanding 17-3 halftime lead.\n\nThe Vikings' lone points came courtesy of two third-quarter field goals after Buffalo's special teams unit pinned Minnesota deep in their own territory. Every time the home team threatened to build momentum, Buffalo's defensive secondary slammed the door shut, highlighted by a game-sealing fourth-quarter interception along the sideline by veteran safety Taylor Rapp that sent thousands of frustrated purple-clad fans heading toward the exits with five minutes remaining in regulation.\n\n\"Our defense came into this building with an edge and an attitude tonight that set the standard for our entire football team,\" Bills head coach Sean McDermott said during his post-game press conference. \"We knew Minnesota possessed explosive playmakers on the perimeter, but our defensive line controlled the line of scrimmage, won their one-on-one battles, and dictated the tempo for sixty full minutes. That is playoff-caliber football.\"",
     "category": "Sports",
     "edition": [
         "US & Americas"
     ],
     "author": {
         "name": "Newyorkerherald Staff",
-        "role": "College Athletics & National Sports Bureau",
+        "role": "NFL & National Sports Bureau",
         "avatar": "/images/authors/sarah_mitchell.jpg"
     },
-    "publishedAt": "6h ago",
+    "publishedAt": "5h ago",
     "readTime": "7 min read",
-    "imageUrl": "/images/news/notre-dame-stuns-number-one-miami-in-college-football-upset.webp",
-    "imageCaption": "Notre Dame players celebrate their upset victory over No. 1 Miami at Notre Dame Stadium.",
-    "imageCredit": "Associated Press / Michael Conroy",
-    "commentCount": 156,
+    "imageUrl": "/images/news/bills-stifle-vikings-23-6-in-dominant-monday-night-football.webp",
+    "imageCaption": "Josh Allen celebrates a Buffalo Bills touchdown during Monday Night Football in Minneapolis.",
+    "imageCredit": "Associated Press / Bruce Kluckhohn",
+    "commentCount": 142,
     "bullets": [
-        "No. 11 Notre Dame upsets undefeated No. 1 Miami 31-24 in thrilling South Bend finish.",
-        "Irish defense records five sacks and two crucial turnovers, shutting down Miami’s top-ranked offense.",
-        "Upset fundamentally reshuffles Top 25 rankings and alters 12-team College Football Playoff seeding."
+        "Buffalo Bills throttle Minnesota Vikings 23-6 on Monday Night Football behind six-sack defensive masterclass.",
+        "Josh Allen completes 22 of 29 passes for 248 yards and two touchdowns in turnover-free road performance.",
+        "Victory elevates Buffalo atop the AFC East as defense limits Minnesota to just 184 total net yards."
     ],
     "tags": [
         "Sports",
-        "College Football",
-        "Notre Dame",
-        "Miami Hurricanes",
-        "NCAA",
-        "Football"
+        "NFL",
+        "Buffalo Bills",
+        "Minnesota Vikings",
+        "Josh Allen",
+        "Monday Night Football"
     ]
 },
     {
@@ -1945,11 +1945,11 @@ On the stadium infrastructure front, club executives evaluated demonstrations of
 
   'Science': [
     {
-    "id": "nasa-twin-escapade-spacecraft-complete-mars-slingshot-burns",
-    "title": "NASA Twin ESCAPADE Spacecraft Complete Mars Slingshot Burns",
-    "kicker": "DEEP SPACE NAVIGATION • MARS EXPLORATION",
-    "summary": "NASA's twin ESCAPADE probes executed critical back-to-back powered Earth flybys over the weekend, utilizing planetary gravitational assist burns to slingshot onto their interplanetary trajectories toward the Red Planet.",
-    "body": "CAPE CANAVERAL & PASADENA, Calif. — Deep-space mission controllers at NASA and the University of California, Berkeley's Space Sciences Laboratory achieved a historic dual navigational milestone over the weekend as both twin spacecraft of the ESCAPADE (Escape and Plasma Acceleration and Dynamics Explorers) mission successfully executed complex, powered Earth flybys. The consecutive orbital slingshot maneuvers have officially hurled the two interplanetary robotic explorers onto their final multi-month transit trajectory toward Mars, where they will conduct pioneering multi-point measurements of the Martian magnetosphere and upper atmospheric erosion.\n\nThe high-stakes navigational sequence unfolded in two synchronized operational phases across the weekend. The first spacecraft, affectionately dubbed \"Blue,\" completed its closest planetary approach at 5:00 a.m. EST on Saturday, November 7, skimming within several thousand kilometers of Earth's upper exosphere before executing an intensive nine-minute orbital engine burn. The second probe, designated \"Gold,\" carried out an identical gravity-assist flyby and propulsion burn early Monday morning, November 9, at approximately 6:00 a.m. EST. Real-time telemetry beamed back through NASA's Deep Space Network in Goldstone, California, confirmed that both propulsion packages performed flawlessly, imparting the precise delta-V velocity required to escape Earth's gravitational well.\n\nESCAPADE represents a pioneering vanguard for NASA's innovative Small Innovative Missions for Planetary Exploration (SIMPLEX) program. By demonstrating that dual, high-capability scientific spacecraft can be engineered, integrated, and launched at a fraction of traditional planetary mission price tags, the mission marks a transformative paradigm shift toward cost-effective, decentralized solar system exploration. Each identical probe is equipped with a sophisticated suite of miniature magnetometers, electrostatic analyzers, and Langmuir probes designed to measure solar wind interactions with the Martian upper atmosphere.\n\nUpon their anticipated orbital insertion around Mars in late 2027, \"Blue\" and \"Gold\" will operate in synchronized, non-identical elliptical orbits, providing planetary scientists with the world's first simultaneous, stereoscopic three-dimensional observations of how space weather strips away Martian atmospheric volatiles. Understanding this continuous process of atmospheric stripping is crucial for unlocking the ancient climatic history of Mars—specifically how a once warm, wet, and potentially habitable world transformed over billions of years into the frozen, arid desert planet observed today.\n\n\"Executing back-to-back powered planetary flybys within forty-eight hours is a masterclass in orbital mechanics and flight dynamics,\" said Dr. Shannon Murphy, ESCAPADE project manager. \"Both spacecraft have signaled nominal system health, all onboard science instruments are calibrated, and our navigational trajectory toward the Red Planet is locked in with razor-sharp precision. We are on our way to Mars.\"",
+    "id": "nasa-chapea-crew-completes-378-days-inside-mars-simulation",
+    "title": "NASA CHAPEA Crew Completes 378 Days Inside Mars Simulation",
+    "kicker": "HUMAN SPACEFLIGHT • MARS ANALOG MISSION",
+    "summary": "Four volunteer scientists officially emerged from NASA’s 3D-printed Mars habitat at Johnson Space Center on Tuesday, concluding an extraordinary 378-day isolation mission simulating long-duration human survival on the Red Planet.",
+    "body": "HOUSTON — Emerging into natural daylight for the first time in more than a year to enthusiastic cheers from mission controllers, family members, and NASA scientists, four volunteer researchers officially completed the second CHAPEA (Crew Health and Performance Exploration Analog) mission on Tuesday morning. The pioneering four-person crew spent an extraordinary 378 consecutive days sealed inside \"Mars Dune Alpha\"—a 1,700-square-foot, 3D-printed habitat located inside a cavernous hangar at the Johnson Space Center in Houston, Texas—generating invaluable empirical data that will directly safeguard future astronauts traveling to the Moon and Mars.\n\nThe multidisciplinary analog crew—composed of a mission commander, a medical officer, a mechanical engineer, and an environmental microbiologist—entered the sealed habitat in late autumn 2025. Over the course of twelve and a half months, the team lived under rigorous, hyper-realistic operational constraints designed to mirror the harsh realities of interplanetary living. All communications with mission control were subjected to a built-in twenty-two-minute speed-of-light time delay, while the crew was forced to manage strictly rationed water reserves, cultivate high-nutrient crops under specialized LED hydroponic systems, and execute regular maintenance on complex environmental life-support machinery.\n\nA centerpiece of the 378-day mission involved extensive simulated extravehicular activities, or \"Marswalks.\" Stepping through a specialized airlock into an adjacent 1,200-square-foot red-sand enclosure, crew members donned pressurized spacesuit replicas to conduct geological rock sampling, assemble robotic sensor arrays, and navigate emergency obstacle courses across challenging simulated Martian terrain. Physiological sensors continuously tracked crew biometric vitals, sleep architecture, bone density fluctuations, and cognitive performance under chronic environmental stress.\n\nBehavioral scientists emphasized that the psychological findings harvested from the mission represent some of the most critical telemetry in NASA's deep-space portfolio. Prolonged confinement in isolated, confined environments poses profound psychological risks, including sensory deprivation, circadian rhythm disruption, and interpersonal friction. By demonstrating exceptional psychological resilience, adaptive conflict resolution, and consistent operational efficiency, the CHAPEA-2 crew proved that human teams can maintain peak performance during multi-year deep-space transits.\n\n\"Stepping out of that airlock today is deeply emotional, but the real triumph belongs to the scientific mission we completed inside,\" said mission commander Dr. Jason Alvarez during the post-emergence welcoming ceremony. \"Every harvest we grew, every delayed transmission we worked through, and every simulated spacewalk we executed brings humanity one step closer to leaving permanent footprints on the rust-colored sands of Mars. The red planet is no longer just a distant dream; it is our next frontier.\"",
     "category": "Science",
     "edition": [
         "US & Americas",
@@ -1957,27 +1957,27 @@ On the stadium infrastructure front, club executives evaluated demonstrations of
     ],
     "author": {
         "name": "Newyorkerherald Staff",
-        "role": "Aerospace & Deep Space Science Bureau",
+        "role": "Aerospace & Human Deep-Space Exploration Desk",
         "avatar": "/images/authors/sarah_mitchell.jpg"
     },
     "publishedAt": "6h ago",
     "readTime": "7 min read",
-    "imageUrl": "/images/news/nasa-twin-escapade-spacecraft-complete-mars-slingshot-burns.webp",
-    "imageCaption": "Artist illustration of NASA twin ESCAPADE spacecraft executing orbital maneuvers toward Mars.",
-    "imageCredit": "NASA / UC Berkeley Space Sciences Laboratory",
-    "commentCount": 79,
+    "imageUrl": "/images/news/nasa-chapea-crew-completes-378-days-inside-mars-simulation.webp",
+    "imageCaption": "The four CHAPEA analog crew members celebrate as they step out of the simulated Mars habitat.",
+    "imageCredit": "NASA / Johnson Space Center / Josh Valcarcel",
+    "commentCount": 98,
     "bullets": [
-        "Twin ESCAPADE robotic probes complete consecutive powered Earth gravity flybys over the weekend.",
-        "Propulsion burns impart precise velocity required to enter interplanetary transfer orbits toward Mars.",
-        "Mission will deliver first simultaneous 3D stereoscopic measurements of Martian atmospheric erosion."
+        "Four volunteer researchers emerge from 3D-printed habitat after spending 378 days in simulated Mars mission.",
+        "Conducted simulated Marswalks, grew hydroponic crops, and endured 22-minute communications time delays.",
+        "Telemetry will guide environmental life-support systems and behavioral protocols for Artemis and Mars crews."
     ],
     "tags": [
         "Science",
         "NASA",
         "Mars",
+        "CHAPEA",
         "Space Exploration",
-        "ESCAPADE",
-        "Astronomy"
+        "Johnson Space Center"
     ]
 },
     {
@@ -2167,38 +2167,38 @@ Domestic automotive manufacturers have committed multi-billion-dollar off-take a
 
   'Opinion': [
     {
-    "id": "why-voters-chose-pocketbooks-over-culture-wars-in-2026",
-    "title": "Why Voters Chose Pocketbooks Over Culture Wars in 2026",
-    "kicker": "POLITICAL ANALYSIS • MIDTERM POST-MORTEM",
-    "summary": "An analysis of the 2026 midterm results demonstrates that the American electorate rejected culture war grievances and punitive policies in favor of kitchen-table economic survival, resetting the national political consensus.",
-    "body": "WASHINGTON — As political strategists, pollsters, and party leaders sift through the voluminous precinct data generated by last Tuesday's midterm elections, the central takeaway defining this historic political moment has emerged with unmistakable clarity: the American electorate delivered a decisive, nationwide repudiation of grievance-driven culture wars in favor of fundamental, kitchen-table economic survival. The Democratic Party's capture of both chambers of Congress and pivotal governor's mansions was not merely an ordinary mid-term swing; it was a structural referendum by working-class families and suburban independents who demanded tangible relief from persistent grocery price inflation, exorbitant utility bills, and punitive social policies.\n\nFor the past two years, Washington's political discourse has been dominated by maximalist rhetoric, aggressive immigration raids, and relentless ideological battles over public education curricula. Yet when voters stepped into polling booths across swing states from Pennsylvania and Michigan to Arizona and Georgia, their primary anxieties were rooted firmly in their monthly bank balances. Extensive exit polling conducted by nonpartisan research organizations revealed that seventy-two percent of voters cited the rising cost of everyday essentials—egg cartons, gallon jugs of milk, auto insurance premiums, and rent checks—as the single most critical factor determining their vote.\n\nIn race after race, candidates who centered their campaigns around practical populist economic platforms—capping prescription drug out-of-pocket costs, cracking down on corporate algorithmic price-fixing in rental housing, and investing in localized technical apprenticeship programs—triumphed decisively over opponents who relied exclusively on provocative partisan wedge issues. The electoral outcome demonstrated that working-class Americans, regardless of their cultural background or geographical location, possess remarkably little patience for ideological theatrics when their paychecks fail to keep pace with living expenses.\n\nThe lessons for both major political parties moving forward toward the 2028 presidential campaign are both profound and unforgiving. For Republicans, the midterm blowout represents an undeniable signal that the hardline social agenda championed by ideological activists has exhausted the patience of moderate suburban suburbanites and independent swing voters. The president's recent prime-time admission on \"60 Minutes\" that mass deportation tactics were \"too tough\" reflects an overdue realization that punitive governance carries catastrophic political consequences when divorced from economic pragmatism.\n\nFor Democrats, however, the newly won congressional majorities represent an immense responsibility rather than a blank political check. Voters did not embrace the party out of ideological fervor, but out of desperation for competence, stability, and tangible financial breathing room. If the incoming 120th Congress retreats into procedural paralysis or succumbs to internal ideological factionalism, the very same frustrated electorate will not hesitate to demand accountability at the ballot box two years from now. The mandate of 2026 is clear: solve the pocketbook crisis, or prepare to be swept aside.",
+    "id": "why-lame-duck-congress-must-pass-energy-permitting-reform",
+    "title": "Why Lame-Duck Congress Must Pass Energy Permitting Reform",
+    "kicker": "EDITORIAL BOARD • BIPARTISAN MANDATE",
+    "summary": "An editorial analysis examining why the incoming lame-duck session of Congress presents a rare, fleeting window of opportunity to enact historic bipartisan energy permitting reform to untangle America’s infrastructure gridlock.",
+    "body": "WASHINGTON — In the turbulent aftermath of last week's midterm elections, as Washington braces for two years of deeply divided government and fierce institutional gridlock, an unexpected window of legislative opportunity has opened that the outgoing 119th Congress cannot afford to squander. When lawmakers reconvene on Capitol Hill for their post-election lame-duck session next week, they hold within their grasp the single most consequential economic and infrastructure reform of the decade: the long-delayed, bipartisan Energy Permitting Reform Act. Passing this compromise measure before the new Congress is sworn in in January is not merely a pragmatic legislative accomplishment; it is an urgent national necessity.\n\nFor years, America's energy transition, manufacturing renaissance, and technological leadership have been strangled by an archaic labyrinth of bureaucratic delays, endless environmental litigations, and multi-year federal review bottlenecks. Building high-voltage electrical transmission lines to connect Western wind farms to metropolitan centers currently takes an average of ten to twelve years, while securing federal approvals for advanced nuclear reactors, geothermal pilot plants, and semiconductor fabrication facilities routinely requires hundreds of millions of dollars in compliance studies before a single shovel enters the earth. At a time when artificial intelligence data centers, domestic manufacturing corridors, and electric vehicle adoption are driving unprecedented surges in electrical demand, America's antiquated permitting regime has become our greatest self-inflicted economic liability.\n\nThe compromise framework hammered out by a resilient coalition of moderate lawmakers from both political parties offers a balanced, commonsense path forward. It establishes strict two-year statutory deadlines for federal environmental impact statements, streamlines judicial review windows to prevent frivolous litigation delays, and grants federal regulators expanded authority to designate national-interest transmission corridors. Crucially, the legislation delivers vital victories to both ends of the political spectrum: providing expedited approvals for clean energy renewables and grid modernizations while ensuring regulatory certainty for critical domestic mineral mining and interstate energy logistics.\n\nCritics on the ideological fringes have predictably voiced objections. Certain environmental purists argue that streamlining review timelines weakens vital community protections under the National Environmental Policy Act (NEPA), while conservative hardliners insist the package does not go far enough in deregulating fossil fuel exploration. Yet these purist objections ignore the harsh operational reality: you cannot build a clean energy economy, lower utility bills for struggling working-class families, or maintain technological dominance over global competitors if it takes over a decade to approve a single power line.\n\nThe voters who cast ballots last Tuesday delivered a clear, unvarnished message to Washington: stop the endless partisan theatrics and focus on lowering everyday living costs and delivering practical economic competence. The bipartisan permitting reform package directly fulfills that voter mandate. Lawmakers in both parties have an obligation to put institutional pride aside, resist ideological obstruction, and send this landmark legislation to the president's desk before the lame-duck gavel falls.",
     "category": "Opinion",
     "edition": [
         "US & Americas"
     ],
     "author": {
         "name": "Newyorkerherald Staff",
-        "role": "National Editorial Board & Political Commentary",
+        "role": "Editorial Board & National Economic Policy Commentary",
         "avatar": "/images/authors/sarah_mitchell.jpg"
     },
-    "publishedAt": "8h ago",
+    "publishedAt": "7h ago",
     "readTime": "8 min read",
-    "imageUrl": "/images/news/why-voters-chose-pocketbooks-over-culture-wars-in-2026.webp",
-    "imageCaption": "Voters cast their ballots at a polling station during the 2026 midterm elections.",
-    "imageCredit": "Associated Press / Ross D. Franklin",
-    "commentCount": 185,
+    "imageUrl": "/images/news/why-lame-duck-congress-must-pass-energy-permitting-reform.webp",
+    "imageCaption": "High-voltage electrical transmission towers stretch across the American landscape at sunset.",
+    "imageCredit": "Getty Images / David McNew",
+    "commentCount": 164,
     "bullets": [
-        "2026 midterm results confirm voters prioritized household inflation and living costs over culture wars.",
-        "Seventy-two percent of exit poll respondents identified everyday essentials and rent prices as top voting factor.",
-        "Incoming congressional majorities face urgent voter expectations to deliver tangible economic relief."
+        "Lame-duck congressional session offers unique window to pass bipartisan Energy Permitting Reform Act.",
+        "Bureaucratic permitting delays of 10-12 years currently paralyze clean energy grids, nuclear, and chip hubs.",
+        "Compromise statute sets 2-year statutory review caps while protecting vital environmental baselines."
     ],
     "tags": [
         "Opinion",
-        "2026 Midterms",
-        "Economy",
-        "Inflation",
-        "Elections",
-        "Politics"
+        "Permitting Reform",
+        "Energy",
+        "Congress",
+        "Infrastructure",
+        "Economy"
     ]
 },
     {
@@ -2753,42 +2753,42 @@ export function getHomepageDepartmentArticles(dept: string): Article[] {
   const mapping: Record<string, string[]> = {
     us: [
       'the-vanity-of-alina-habba-mildon',
-      'us-school-closures-accelerate-as-budget-and-enrollment-drop',
+      'biden-memoir-excerpts-deliver-blistering-indictment-of-trump',
       'seven-states-pass-major-constitutional-ballot-amendments',
       'california-votes-on-prop-40-wealth-tax-for-emergency-care'
     ],
     politics: [
-      'trump-admits-deportation-policy-was-too-tough-on-60-minutes',
+      'massie-files-resolution-to-impeach-defense-chief-pete-hegseth',
       '2026-midterms-gop-takes-senate-as-house-battle-nears-recounts',
       'supreme-court-rejects-emergency-bid-on-california-mail-ballots',
       'bipartisan-congressional-coalition-finalizes-critical-minerals-strategic-stockpile-legislation'
     ],
     business: [
-      'global-markets-rebound-after-25-trillion-tech-sell-off',
+      'dow-surges-1104-points-as-wall-street-stages-monster-rally',
       'sp-500-hits-record-high-on-midterm-clarity-and-steady-jobs-data',
       'crude-oil-surges-above-89-as-us-strikes-iranian-drone-bases',
       'oracle-prices-historic-20-billion-debt-and-equity-offering-to-finance-massive-ai-cloud-data-center-expansion'
     ],
     tech: [
-      'openai-secures-11-billion-funding-at-125-trillion-valuation',
+      'eu-drafts-digital-fairness-act-to-ban-deceptive-web-design',
       'openai-and-anthropic-launch-joint-safety-accord-for-ai-agents',
       'doj-expands-nvidia-antitrust-probe-over-hugging-face-buyout',
       'nvidia-ceo-jensen-huang-scrutiny-trump-response-ai-semiconductor-sovereignty'
     ],
     entertainment: [
-      'godzilla-minus-zero-smashes-us-box-office-with-record-debut',
+      'johnny-depp-readies-hollywood-return-in-paramount-ebenezer',
       'grammy-nominations-2027-global-and-indie-artists-dominate',
       'christopher-nolans-the-odyssey-hits-record-1-17-billion',
       'paramount-skydance-merger-completes-formal-integration-uniting-studio-blockbusters-with-gaming-franchises'
     ],
     sports: [
-      'notre-dame-stuns-number-one-miami-in-college-football-upset',
+      'bills-stifle-vikings-23-6-in-dominant-monday-night-football',
       'dodgers-win-2026-world-series-in-extra-inning-game-7-thriller',
       'lamar-jackson-out-on-injured-reserve-following-thumb-surgery',
       'twenty-year-old-kimi-antonelli-becomes-youngest-formula-1-world-champion-in-historic-mexico-city-grand-prix'
     ],
     science: [
-      'nasa-twin-escapade-spacecraft-complete-mars-slingshot-burns',
+      'nasa-chapea-crew-completes-378-days-inside-mars-simulation',
       'webb-telescope-finds-water-vapor-on-habitable-zone-exoplanet',
       'nasa-voyager-1-reaches-record-one-light-day-distance-from-earth',
       'usgs-supervolcano-research-reveals-yellowstone-eruptions-occur-in-complex-multi-pulse-sequences'
