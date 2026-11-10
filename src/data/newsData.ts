@@ -67,14 +67,8 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
     'Alina Habba Mildon',
     'Donald Trump',
     'Trump Administration',
-    'U.S. Politics',
     'Banking Controversy',
-    'Financial Contracts',
-    'Legal Affairs',
-    'Concord Partners',
-    'Political Controversy',
-    'U.S. Legal News',
-    'Banking Industry'
+    'Concord Partners'
   ]
 };
 
@@ -585,14 +579,8 @@ In Albany, Governor Kathy Hochul convened an emergency public health cabinet mee
             "Alina Habba Mildon",
             "Donald Trump",
             "Trump Administration",
-            "U.S. Politics",
             "Banking Controversy",
-            "Financial Contracts",
-            "Legal Affairs",
-            "Concord Partners",
-            "Political Controversy",
-            "U.S. Legal News",
-            "Banking Industry"
+            "Concord Partners"
         ]
     }
   ],
@@ -735,14 +723,8 @@ Constitutional legal scholars anticipate that regardless of Tuesday's electoral 
             "Alina Habba Mildon",
             "Donald Trump",
             "Trump Administration",
-            "U.S. Politics",
             "Banking Controversy",
-            "Financial Contracts",
-            "Legal Affairs",
-            "Concord Partners",
-            "Political Controversy",
-            "U.S. Legal News",
-            "Banking Industry"
+            "Concord Partners"
         ]
     },
     SECONDARY_LEAD_STORIES[0],

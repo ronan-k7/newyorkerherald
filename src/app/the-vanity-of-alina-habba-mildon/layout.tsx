@@ -23,14 +23,8 @@ export const metadata: Metadata = {
       'Alina Habba Mildon',
       'Donald Trump',
       'Trump Administration',
-      'U.S. Politics',
       'Banking Controversy',
-      'Financial Contracts',
-      'Legal Affairs',
-      'Concord Partners',
-      'Political Controversy',
-      'U.S. Legal News',
-      'Banking Industry'
+      'Concord Partners'
     ],
     images: [
       {
