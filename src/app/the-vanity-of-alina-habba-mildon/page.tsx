@@ -554,6 +554,81 @@ export default function AlinaHabbaSpecialDossierPage() {
               </p>
             </div>
 
+            {/* Tags Section */}
+            <div style={{
+              margin: '36px 0 24px 0',
+              paddingTop: '20px',
+              borderTop: '1px solid var(--border-hairline)',
+              display: 'flex',
+              alignItems: 'flex-start',
+              gap: '16px'
+            }}>
+              <span className="font-heading" style={{
+                fontSize: '0.88rem',
+                fontWeight: 900,
+                letterSpacing: '0.04em',
+                textTransform: 'uppercase',
+                color: 'var(--text-primary)',
+                paddingTop: '6px',
+                flexShrink: 0
+              }}>
+                TAGS
+              </span>
+              <div style={{
+                display: 'flex',
+                flexWrap: 'wrap',
+                gap: '8px 10px',
+                alignItems: 'center',
+                flex: 1
+              }}>
+                {[
+                  { name: 'Alina Habba', href: '/tag/alina-habba' },
+                  { name: 'Alina Habba Mildon', href: '/tag/alina-habba-mildon' },
+                  { name: 'Donald Trump', href: '/tag/donald-trump' },
+                  { name: 'Trump Administration', href: '/tag/trump-administration' },
+                  { name: 'U.S. Politics', href: '/tag/us-politics' },
+                  { name: 'Banking Controversy', href: '/tag/banking-controversy' },
+                  { name: 'Financial Contracts', href: '/tag/financial-contracts' },
+                  { name: 'Legal Affairs', href: '/tag/legal-affairs' },
+                  { name: 'Concord Partners', href: '/tag/concord-partners' },
+                  { name: 'Political Controversy', href: '/tag/political-controversy' },
+                  { name: 'U.S. Legal News', href: '/tag/us-legal-news' },
+                  { name: 'Banking Industry', href: '/tag/banking-industry' },
+                ].map((tag) => (
+                  <Link
+                    key={tag.name}
+                    href={tag.href}
+                    style={{
+                      display: 'inline-flex',
+                      alignItems: 'center',
+                      padding: '5px 14px',
+                      borderRadius: '9999px',
+                      border: '1px solid var(--border-hairline)',
+                      backgroundColor: 'var(--bg-surface)',
+                      color: 'var(--text-secondary)',
+                      fontSize: '0.8rem',
+                      fontWeight: 500,
+                      textDecoration: 'none',
+                      transition: 'all 0.15s ease',
+                      boxShadow: '0 1px 2px rgba(0,0,0,0.02)'
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.borderColor = 'var(--text-primary)';
+                      e.currentTarget.style.color = 'var(--text-primary)';
+                      e.currentTarget.style.backgroundColor = 'var(--bg-surface-elevated)';
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.borderColor = 'var(--border-hairline)';
+                      e.currentTarget.style.color = 'var(--text-secondary)';
+                      e.currentTarget.style.backgroundColor = 'var(--bg-surface)';
+                    }}
+                  >
+                    {tag.name}
+                  </Link>
+                ))}
+              </div>
+            </div>
+
 
 
           </article>

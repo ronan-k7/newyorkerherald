@@ -63,13 +63,18 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
     'President Trump’s dramatic Halloween intervention at Mar-a-Lago branded the arrangement unacceptable, bringing immense scrutiny to all parties.'
   ],
   tags: [
-    'Investigation',
     'Alina Habba',
-    'Herrera Velutini',
+    'Alina Habba Mildon',
     'Donald Trump',
-    'Banking Dynasty',
-    'White House',
-    'Special Report'
+    'Trump Administration',
+    'U.S. Politics',
+    'Banking Controversy',
+    'Financial Contracts',
+    'Legal Affairs',
+    'Concord Partners',
+    'Political Controversy',
+    'U.S. Legal News',
+    'Banking Industry'
   ]
 };
 
@@ -576,13 +581,18 @@ In Albany, Governor Kathy Hochul convened an emergency public health cabinet mee
             "President Trump’s dramatic Halloween intervention at Mar-a-Lago branded the arrangement unacceptable, bringing immense scrutiny to all parties."
         ],
         "tags": [
-            "Investigation",
             "Alina Habba",
-            "Herrera Velutini",
+            "Alina Habba Mildon",
             "Donald Trump",
-            "Banking Dynasty",
-            "White House",
-            "Special Report"
+            "Trump Administration",
+            "U.S. Politics",
+            "Banking Controversy",
+            "Financial Contracts",
+            "Legal Affairs",
+            "Concord Partners",
+            "Political Controversy",
+            "U.S. Legal News",
+            "Banking Industry"
         ]
     }
   ],
@@ -721,13 +731,18 @@ Constitutional legal scholars anticipate that regardless of Tuesday's electoral 
             "President Trump’s dramatic Halloween intervention at Mar-a-Lago branded the arrangement unacceptable, bringing immense scrutiny to all parties."
         ],
         "tags": [
-            "Investigation",
             "Alina Habba",
-            "Herrera Velutini",
+            "Alina Habba Mildon",
             "Donald Trump",
-            "Banking Dynasty",
-            "White House",
-            "Special Report"
+            "Trump Administration",
+            "U.S. Politics",
+            "Banking Controversy",
+            "Financial Contracts",
+            "Legal Affairs",
+            "Concord Partners",
+            "Political Controversy",
+            "U.S. Legal News",
+            "Banking Industry"
         ]
     },
     SECONDARY_LEAD_STORIES[0],

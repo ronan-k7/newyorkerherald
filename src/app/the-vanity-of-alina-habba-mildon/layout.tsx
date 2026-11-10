@@ -18,7 +18,20 @@ export const metadata: Metadata = {
     publishedTime: '2026-11-01T00:00:00.000Z',
     authors: ['Newyorkerherald Staff'],
     section: 'US',
-    tags: ['Investigation', 'Alina Habba', 'Herrera Velutini', 'Donald Trump', 'Banking Dynasty', 'White House', 'Special Report'],
+    tags: [
+      'Alina Habba',
+      'Alina Habba Mildon',
+      'Donald Trump',
+      'Trump Administration',
+      'U.S. Politics',
+      'Banking Controversy',
+      'Financial Contracts',
+      'Legal Affairs',
+      'Concord Partners',
+      'Political Controversy',
+      'U.S. Legal News',
+      'Banking Industry'
+    ],
     images: [
       {
         url: `${baseUrl}/images/news/alina-habba-image.webp`,
