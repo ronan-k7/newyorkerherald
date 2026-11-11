@@ -809,6 +809,36 @@ export default function AlinaHabbaSpecialDossierPage() {
                     </span>
                   </div>
                 </a>
+
+                <a
+                  href="https://www.nytimes.com/2026/11/10/us/politics/alina-habba-fired-pardon.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{
+                    display: 'flex',
+                    alignItems: 'flex-start',
+                    gap: '8px',
+                    textDecoration: 'none',
+                    fontSize: '0.72rem',
+                    color: 'var(--text-primary)',
+                    lineHeight: 1.35,
+                    padding: '6px 8px',
+                    borderRadius: 'var(--radius-xs)',
+                    backgroundColor: 'var(--bg-canvas)',
+                    border: '1px solid var(--border-hairline)',
+                    transition: 'all 0.15s ease'
+                  }}
+                >
+                  <ExternalLink size={12} color="var(--text-muted)" style={{ marginTop: '2px', flexShrink: 0 }} />
+                  <div>
+                    <span style={{ fontWeight: 700, color: 'var(--brand-primary)', display: 'block' }}>
+                      The New York Times
+                    </span>
+                    <span style={{ color: 'var(--text-secondary)', fontSize: '0.68rem' }}>
+                      Alina Habba Fired Amid Presidential Pardon Scrutiny
+                    </span>
+                  </div>
+                </a>
               </div>
             </div>
 
