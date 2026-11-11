@@ -3,35 +3,35 @@ import { Article, OpinionColumn, FactCheckItem, PhotoStory, VideoItem, PodcastEp
 export const BREAKING_NEWS_ITEMS = [
   {
     id: 'brk-1',
-    kicker: 'WALL STREET RECORD',
-    headline: 'Dow Surges 1,104 Points as Wall Street Stages Monster Rally',
-    time: '2m ago',
-    url: '/business/dow-surges-1104-points-as-wall-street-stages-monster-rally'
+    kicker: 'CAPITOL HILL DEFENSE',
+    headline: 'Democrats and GOP Clash Over Defense Bill on Veterans Day',
+    time: '4m ago',
+    url: '/politics/democrats-and-gop-clash-over-defense-bill-on-veterans-day'
   },
   {
     id: 'brk-2',
-    kicker: 'CONGRESSIONAL REBELLION',
-    headline: 'Massie Files Resolution to Impeach Defense Chief Pete Hegseth',
-    time: '14m ago',
-    url: '/politics/massie-files-resolution-to-impeach-defense-chief-pete-hegseth'
+    kicker: 'FEDERAL INQUIRY',
+    headline: 'FBI Probes Fatal Police Shooting on North Dakota Reservation',
+    time: '18m ago',
+    url: '/us/fbi-probes-fatal-police-shooting-on-north-dakota-reservation'
   },
   {
     id: 'brk-3',
-    kicker: 'PRESIDENTIAL MEMOIR',
-    headline: 'Biden Memoir Excerpts Deliver Blistering Indictment of Trump',
-    time: '28m ago',
-    url: '/us/biden-memoir-excerpts-deliver-blistering-indictment-of-trump'
+    kicker: 'TOKENIZED CREDIT',
+    headline: 'Securitize Acquires River One to Expand Tokenized Lending',
+    time: '32m ago',
+    url: '/business/securitize-acquires-river-one-to-expand-tokenized-lending'
   }
 ];
 
 export const TRENDING_TAGS = [
-  '#DowSurge',
-  '#HegsethImpeachment',
-  '#BidenMemoir',
-  '#CHAPEA378',
-  '#BillsVikings',
-  '#EbenezerFilm',
-  '#DigitalFairness'
+  '#DefenseBill',
+  '#SpiritLakeProbe',
+  '#SecuritizeRiverOne',
+  '#ChatGPTEnterprise',
+  '#Grammys2027',
+  '#SpartansDuke',
+  '#PROMISERover'
 ];
 
 export const LEAD_ARTICLE: Article = {
@@ -79,6 +79,42 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
 };
 
 export const SECONDARY_LEAD_STORIES: Article[] = [
+    {
+        "id": "democrats-and-gop-clash-over-defense-bill-on-veterans-day",
+        "title": "Democrats and GOP Clash Over Defense Bill on Veterans Day",
+        "kicker": "CAPITOL HILL STANDOFF • NDAA NEGOTIATIONS",
+        "summary": "Bipartisan tensions boiled over Tuesday as lawmakers clashed on Veterans Day over the annual National Defense Authorization Act, deadlocked over military pay, VA benefits, and executive war powers.",
+        "body": "WASHINGTON — Even as solemn ceremonies commemorating Veterans Day took place across Arlington National Cemetery and military installations worldwide on Tuesday, an acrimonious fiscal and ideological standoff escalated on Capitol Hill over the annual National Defense Authorization Act. Congressional leaders and senior armed services committee negotiators traded sharp recriminations over an $895 billion defense policy package that has ground to a sudden halt, caught between competing demands over service member compensation, toxic exposure healthcare expansions, and strict new legislative constraints on unilateral executive war powers.\n\nThe acute impasse comes during a fraught post-election lame-duck window where both parties are recalibrating their legislative leverage. House Armed Services Committee Chairman Mike Rogers and Republican leaders have insisted on maintaining statutory spending caps established under previous fiscal agreements, arguing that non-defense domestic spending riders proposed by Senate Democrats threaten to bloat military authorization bills with unrelated administrative programs. House Republicans have specifically pushed to preserve a landmark 19.5% pay raise for junior enlisted personnel while trimming funding allocations earmarked for civilian advisory councils, climate resilience initiatives at coastal naval bases, and Pentagon diversity programs.\n\nSenate Armed Services Committee Chairman Jack Reed and senior Democratic conferees mounted an aggressive counteroffensive on Tuesday morning, staging an impromptu press briefing steps from the Senate floor. Democrats asserted that Republican budget blueprints would severely underfund the Department of Veterans Affairs, particularly the landmark Promise to Address Comprehensive Toxics (PACT) Act fund, which provides guaranteed medical coverage to hundreds of thousands of veterans exposed to burn pits and airborne hazards during deployments in Iraq and Afghanistan. Reed accused House conservatives of using service members as political pawns in broader partisan budget gamesmanship, warning that failure to pass the NDAA before statutory December deadlines would disrupt vital military logistics, delay housing stipends, and jeopardize critical defense supply chains.\n\nThe negotiations have been further complicated by intense debate over congressional war powers following recent United States Central Command kinetic strikes against maritime drone facilities in the Persian Gulf. A bipartisan faction of progressive Democrats and libertarian-leaning Republicans has demanded that the final conference report incorporate binding statutory language requiring the White House to obtain explicit congressional authorization before committing American forces to extended combat operations or naval blockades in the Middle East. White House national security aides and Pentagon leadership have strongly resisted such amendments, cautioning that statutory restrictions on commander-in-chief authorities would paralyze rapid-response capabilities against hostile regional proxy networks.\n\nRank-and-file veterans organizations, including the American Legion and the Veterans of Foreign Wars, issued urgent joint statements on Tuesday afternoon calling on congressional leadership to set aside election-cycle rancor and fulfill their core constitutional responsibilities. Veteran advocates emphasized that the military pay bump and VA funding streams represent earned benefits that transcend partisan divisions, pointing out that military families continue to confront stubborn inflationary pressures on groceries, off-base housing rentals, and specialized pediatric healthcare.\n\nWith only a handful of legislative working days remaining before the Thanksgiving congressional recess, House Speaker Mike Johnson and Senate Majority Leader Chuck Schumer are reportedly engaged in direct backchannel discussions to broker an eleventh-hour compromise framework. Staff negotiators worked late into Tuesday evening drafting alternative conference text that could decouple the urgent troop pay raises from more contentious policy riders, but senior aides acknowledged that passing the nation's premier defense measure will require delicate bicameral diplomacy in an increasingly fractured political environment.",
+        "category": "Politics",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Sarah Mitchell",
+            "role": "Chief Congressional Correspondent",
+            "avatar": "/images/authors/sarah_mitchell.jpg"
+        },
+        "publishedAt": "2h ago",
+        "readTime": "7 min read",
+        "imageUrl": "/images/news/democrats-and-gop-clash-over-defense-bill-on-veterans-day.webp",
+        "imageCaption": "The United States Capitol in Washington, D.C., where House and Senate armed services negotiators remain locked in high-stakes NDAA conference talks.",
+        "imageCredit": "Associated Press / Carolyn Kaster",
+        "commentCount": 84,
+        "bullets": [
+            "House and Senate negotiators face a contentious stalemate over the $895 billion National Defense Authorization Act.",
+            "Disagreements center on expanding Veterans Affairs healthcare funding, junior enlisted pay bumps, and statutory War Powers constraints.",
+            "Democratic leaders warn against partisan riders while GOP committee chairs insist on strict fiscal caps for non-defense spending."
+        ],
+        "tags": [
+            "Politics",
+            "Congress",
+            "NDAA",
+            "Veterans Day",
+            "Pentagon",
+            "Defense Spending"
+        ]
+    },
     {
     "id": "massie-files-resolution-to-impeach-defense-chief-pete-hegseth",
     "title": "Massie Files Resolution to Impeach Defense Chief Pete Hegseth",
@@ -445,6 +481,42 @@ As the Federal Energy Regulatory Commission (FERC) convenes national stakeholder
 export const CATEGORY_ARTICLES: Record<string, Article[]> = {
   'Investigation': [
     {
+        "id": "house-oversight-gop-releases-contested-jeffrey-epstein-report",
+        "title": "House Oversight GOP Releases Contested Jeffrey Epstein Report",
+        "kicker": "CONGRESSIONAL OVERSIGHT • SPECIAL INVESTIGATION",
+        "summary": "House Oversight Committee Republicans have published an 800-page investigative report examining financial institutions, federal aviation manifests, and Department of Justice records linked to Jeffrey Epstein.",
+        "body": "WASHINGTON — After an arduous eighteen-month inquiry marked by bitter institutional battles and dozens of non-public depositions, the Republican majority on the House Committee on Oversight and Accountability on Tuesday released an exhaustive 800-page investigative report examining the sprawling financial network, private aviation manifests, and high-level institutional safeguards surrounding disgraced financier Jeffrey Epstein. The contentious report, published alongside thousands of pages of newly unredacted subpoena exhibits, levels scathing criticisms against major Wall Street banking institutions and past Department of Justice administrations, alleging decades of regulatory apathy and bureaucratic failure.\n\nThe report, spearheaded by Oversight Committee Chairman James Comer, focuses heavily on compliance breakdowns across premier financial institutions that processed hundreds of millions of dollars in suspicious wire transfers and structured cash withdrawals for Epstein long after his 2008 Florida conviction for soliciting prostitution from a minor. According to the committee's findings, transaction monitoring officers at JPMorgan Chase, Deutsche Bank, and various offshore financial intermediaries repeatedly flagged suspicious activity reports (SARs) regarding large cash distributions and payments to foreign nationals, yet executive compliance committees routinely overrode internal warnings to preserve lucrative wealth management fees.\n\n\"For more than two decades, an elite ring of financial institutions, international power brokers, and senior federal law enforcement officials looked the other way while a serial predator exploited our legal system and abused vulnerable young women,\" Chairman Comer stated during a tense Capitol Hill press conference unveiling the document. \"Our committee's investigation reveals systemic corruption and institutional negligence at the highest levels of American finance and government. The American people deserve complete accountability, and the Department of Justice must pursue all actionable criminal leads without fear or favor.\"\n\nHowever, the report's release immediately reignited fierce partisan warfare within the committee. Democratic committee members, led by Ranking Member Jamie Raskin, published a blistering 120-page minority dissent, accusing the Republican majority of weaponizing sensitive investigative materials for partisan political advantage. Democrats contended that the majority's report omitted critical documentary evidence, engaged in selective redactions to shield prominent conservative political donors, and rushed publication in the immediate aftermath of midterm elections to dominate the national news cycle.\n\nThe congressional report also delves deeply into the controversial 2008 non-prosecution agreement negotiated by former federal prosecutor Alexander Acosta in the Southern District of Florida, branding the arrangement an \"unprecedented betrayal of statutory victim protections\" that violated the federal Crime Victims' Rights Act. Furthermore, the committee examined administrative breakdowns inside the Federal Bureau of Prisons that preceded Epstein's August 2019 death at the Metropolitan Correctional Center in lower Manhattan, criticizing staffing shortages, broken surveillance cameras, and chronic oversight deficits across the federal prison system.\n\nVictims' advocacy groups and legal representatives representing dozens of Epstein survivors voiced mixed reactions to Tuesday's disclosures. While welcoming the release of previously confidential financial transactions and flight logs from Epstein's private aircraft, survivor attorneys called on Congress to pass binding statutory reforms that eliminate federal statutes of limitations on child exploitation offenses and mandate the unsealing of all remaining grand jury materials across federal jurisdictions. With legal fallout continuing across international jurisdictions and civil courts in the U.S. Virgin Islands, Tuesday's report ensures that the institutional reckoning over Epstein's crimes will reverberate across Washington for years to come.",
+        "category": "Investigation",
+        "edition": [
+            "US & Americas"
+        ],
+        "author": {
+            "name": "Jonathan Ross",
+            "role": "Chief Investigative Reporter",
+            "avatar": "/images/authors/jonathan_ross.jpg"
+        },
+        "publishedAt": "12h ago",
+        "readTime": "9 min read",
+        "imageUrl": "/images/news/house-oversight-gop-releases-contested-jeffrey-epstein-report.webp",
+        "imageCaption": "Stacks of unredacted congressional subpoena depositions and financial ledgers released by the House Committee on Oversight and Accountability.",
+        "imageCredit": "Associated Press / J. Scott Applewhite",
+        "isInvestigative": true,
+        "commentCount": 215,
+        "bullets": [
+            "House Oversight majority publishes comprehensive 800-page examination of sovereign wealth, banking networks, and aviation manifests.",
+            "Report scrutinizes the 2008 non-prosecution agreement and Bureau of Prisons administrative breakdowns leading to Epstein's 2019 death.",
+            "Democratic committee members issue a minority dissent accusing the GOP of selective redactions and partisan timing."
+        ],
+        "tags": [
+            "Investigation",
+            "House Oversight",
+            "Jeffrey Epstein",
+            "Congress",
+            "DOJ",
+            "Financial Crimes"
+        ]
+    },
+    {
     "id": "investigation-trump-directs-doj-to-probe-incoming-democrats",
     "title": "Investigation: Trump Directs DOJ to Probe Incoming Democrats",
     "kicker": "JUSTICE DEPARTMENT CRISIS • RETALIATION PROBE",
@@ -597,6 +669,41 @@ In Albany, Governor Kathy Hochul convened an emergency public health cabinet mee
     }
   ],
     'US': [
+    {
+        "id": "fbi-probes-fatal-police-shooting-on-north-dakota-reservation",
+        "title": "FBI Probes Fatal Police Shooting on North Dakota Reservation",
+        "kicker": "FEDERAL INVESTIGATION • TRIBAL SOVEREIGNTY",
+        "summary": "Federal agents and the Bureau of Indian Affairs have opened a civil rights inquiry into a fatal confrontation involving tribal and local police on the Spirit Lake Dakota Nation in Fort Totten.",
+        "body": "FORT TOTTEN, N.D. — Special agents from the Federal Bureau of Investigation and investigators from the Bureau of Indian Affairs Office of Justice Services have initiated a formal civil rights and use-of-force investigation following a fatal confrontation involving law enforcement officers on the Spirit Lake Dakota Nation in eastern North Dakota. The shooting, which occurred during a late-night multi-agency response to a reported domestic disturbance in the tribal community of Fort Totten, resulted in the death of a 34-year-old enrolled tribal member and left a county deputy sheriff hospitalized with non-life-threatening injuries.\n\nAccording to preliminary statements released by the FBI's Minneapolis Field Office, which exercises primary federal jurisdiction over major crimes committed on sovereign tribal trust lands in North Dakota, officers from the Spirit Lake Tribal Police Department requested urgent mutual aid assistance from the neighboring Benson County Sheriff's Office shortly after 11:30 p.m. on Monday. When law enforcement units arrived at a residential cul-de-sac, an armed altercation ensued, during which multiple service weapons were discharged. Paramedics transported the individual to CHI St. Alexius Health in Devils Lake, where he was subsequently pronounced dead by emergency medical personnel.\n\nThe fatal shooting has ignited widespread grief and anger across the tight-knit tribal community, prompting an emergency convening of the Spirit Lake Tribal Council on Tuesday afternoon. Tribal Chairwoman Lonna Jackson-Street delivered an emotional address outside the tribal administration headquarters, calling for complete transparency, the immediate preservation of all body-worn and dashboard camera footage, and an independent review of cross-deputization protocols between county authorities and tribal law enforcement.\n\n\"Our sovereign community demands absolute accountability and an exhaustive, impartial federal inquiry,\" Chairwoman Jackson-Street said before a gathering of tribal elders and community leaders. \"For too long, jurisdictional ambiguity on our lands has bred systemic distrust between our citizens and outside law enforcement agencies. We expect federal investigators to follow the facts wherever they lead, to consult closely with tribal leadership at every juncture, and to deliver justice for our families.\"\n\nUnder the federal Major Crimes Act and longstanding judicial precedent governing tribal sovereignty, the FBI holds statutory responsibility for investigating violent felony offenses and lethal officer-involved shootings on federal Indian reservations where state authorities lack general criminal jurisdiction. The federal probe will examine whether law enforcement personnel complied with standardized federal de-escalation guidelines, whether appropriate non-lethal intervention measures were exhausted, and whether the mutual-aid deployment conformed with existing cooperative policing agreements between Benson County and the sovereign tribal nation.\n\nCommunity advocacy groups, including the Coalition to Stop Violence Against Native Women and regional chapters of the American Indian Movement, announced plans for peaceful prayer vigils and rallies outside federal courthouses in Fargo and Bismarck on Wednesday. State officials, including North Dakota Attorney General Drew Wrigley, pledged full state cooperation with federal authorities, emphasizing that state forensic analysts from the North Dakota Bureau of Criminal Investigation will provide ballistics and technical support to the FBI's forensic laboratory to ensure an expeditious and scientifically rigorous resolution to the inquiry.",
+        "category": "US",
+        "edition": [
+            "US & Americas"
+        ],
+        "author": {
+            "name": "Marcus Sterling",
+            "role": "National Justice & Federal Agencies Bureau",
+            "avatar": "/images/authors/marcus_sterling.jpg"
+        },
+        "publishedAt": "3h ago",
+        "readTime": "8 min read",
+        "imageUrl": "/images/news/fbi-probes-fatal-police-shooting-on-north-dakota-reservation.webp",
+        "imageCaption": "Federal law enforcement personnel and tribal emergency units assemble near the Spirit Lake reservation boundary during the ongoing investigation.",
+        "imageCredit": "Reuters / Shannon Stapleton",
+        "commentCount": 62,
+        "bullets": [
+            "FBI Minneapolis field office and BIA Office of Justice Services initiate joint independent probe into the fatal shooting in Fort Totten.",
+            "Spirit Lake Tribal Council demands full transparency, release of body camera recordings, and an accounting of jurisdictional protocols.",
+            "The incident reignites longstanding national debates over federal law enforcement jurisdiction, emergency response resources, and sovereign tribal rights."
+        ],
+        "tags": [
+            "US",
+            "FBI",
+            "North Dakota",
+            "Tribal Sovereignty",
+            "Spirit Lake",
+            "Civil Rights"
+        ]
+    },
     {
     "id": "biden-memoir-excerpts-deliver-blistering-indictment-of-trump",
     "title": "Biden Memoir Excerpts Deliver Blistering Indictment of Trump",
@@ -774,6 +881,42 @@ As the clocks reset, congressional leaders confirmed that bipartisan committee s
     }
   ],
   'Politics': [
+    {
+        "id": "democrats-and-gop-clash-over-defense-bill-on-veterans-day",
+        "title": "Democrats and GOP Clash Over Defense Bill on Veterans Day",
+        "kicker": "CAPITOL HILL STANDOFF • NDAA NEGOTIATIONS",
+        "summary": "Bipartisan tensions boiled over Tuesday as lawmakers clashed on Veterans Day over the annual National Defense Authorization Act, deadlocked over military pay, VA benefits, and executive war powers.",
+        "body": "WASHINGTON — Even as solemn ceremonies commemorating Veterans Day took place across Arlington National Cemetery and military installations worldwide on Tuesday, an acrimonious fiscal and ideological standoff escalated on Capitol Hill over the annual National Defense Authorization Act. Congressional leaders and senior armed services committee negotiators traded sharp recriminations over an $895 billion defense policy package that has ground to a sudden halt, caught between competing demands over service member compensation, toxic exposure healthcare expansions, and strict new legislative constraints on unilateral executive war powers.\n\nThe acute impasse comes during a fraught post-election lame-duck window where both parties are recalibrating their legislative leverage. House Armed Services Committee Chairman Mike Rogers and Republican leaders have insisted on maintaining statutory spending caps established under previous fiscal agreements, arguing that non-defense domestic spending riders proposed by Senate Democrats threaten to bloat military authorization bills with unrelated administrative programs. House Republicans have specifically pushed to preserve a landmark 19.5% pay raise for junior enlisted personnel while trimming funding allocations earmarked for civilian advisory councils, climate resilience initiatives at coastal naval bases, and Pentagon diversity programs.\n\nSenate Armed Services Committee Chairman Jack Reed and senior Democratic conferees mounted an aggressive counteroffensive on Tuesday morning, staging an impromptu press briefing steps from the Senate floor. Democrats asserted that Republican budget blueprints would severely underfund the Department of Veterans Affairs, particularly the landmark Promise to Address Comprehensive Toxics (PACT) Act fund, which provides guaranteed medical coverage to hundreds of thousands of veterans exposed to burn pits and airborne hazards during deployments in Iraq and Afghanistan. Reed accused House conservatives of using service members as political pawns in broader partisan budget gamesmanship, warning that failure to pass the NDAA before statutory December deadlines would disrupt vital military logistics, delay housing stipends, and jeopardize critical defense supply chains.\n\nThe negotiations have been further complicated by intense debate over congressional war powers following recent United States Central Command kinetic strikes against maritime drone facilities in the Persian Gulf. A bipartisan faction of progressive Democrats and libertarian-leaning Republicans has demanded that the final conference report incorporate binding statutory language requiring the White House to obtain explicit congressional authorization before committing American forces to extended combat operations or naval blockades in the Middle East. White House national security aides and Pentagon leadership have strongly resisted such amendments, cautioning that statutory restrictions on commander-in-chief authorities would paralyze rapid-response capabilities against hostile regional proxy networks.\n\nRank-and-file veterans organizations, including the American Legion and the Veterans of Foreign Wars, issued urgent joint statements on Tuesday afternoon calling on congressional leadership to set aside election-cycle rancor and fulfill their core constitutional responsibilities. Veteran advocates emphasized that the military pay bump and VA funding streams represent earned benefits that transcend partisan divisions, pointing out that military families continue to confront stubborn inflationary pressures on groceries, off-base housing rentals, and specialized pediatric healthcare.\n\nWith only a handful of legislative working days remaining before the Thanksgiving congressional recess, House Speaker Mike Johnson and Senate Majority Leader Chuck Schumer are reportedly engaged in direct backchannel discussions to broker an eleventh-hour compromise framework. Staff negotiators worked late into Tuesday evening drafting alternative conference text that could decouple the urgent troop pay raises from more contentious policy riders, but senior aides acknowledged that passing the nation's premier defense measure will require delicate bicameral diplomacy in an increasingly fractured political environment.",
+        "category": "Politics",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Sarah Mitchell",
+            "role": "Chief Congressional Correspondent",
+            "avatar": "/images/authors/sarah_mitchell.jpg"
+        },
+        "publishedAt": "2h ago",
+        "readTime": "7 min read",
+        "imageUrl": "/images/news/democrats-and-gop-clash-over-defense-bill-on-veterans-day.webp",
+        "imageCaption": "The United States Capitol in Washington, D.C., where House and Senate armed services negotiators remain locked in high-stakes NDAA conference talks.",
+        "imageCredit": "Associated Press / Carolyn Kaster",
+        "commentCount": 84,
+        "bullets": [
+            "House and Senate negotiators face a contentious stalemate over the $895 billion National Defense Authorization Act.",
+            "Disagreements center on expanding Veterans Affairs healthcare funding, junior enlisted pay bumps, and statutory War Powers constraints.",
+            "Democratic leaders warn against partisan riders while GOP committee chairs insist on strict fiscal caps for non-defense spending."
+        ],
+        "tags": [
+            "Politics",
+            "Congress",
+            "NDAA",
+            "Veterans Day",
+            "Pentagon",
+            "Defense Spending"
+        ]
+    },
     {
     "id": "massie-files-resolution-to-impeach-defense-chief-pete-hegseth",
     "title": "Massie Files Resolution to Impeach Defense Chief Pete Hegseth",
@@ -1055,6 +1198,42 @@ In Washington, national security officials convened in the White House Situation
 
   'Business & Economy': [
     {
+        "id": "securitize-acquires-river-one-to-expand-tokenized-lending",
+        "title": "Securitize Acquires River One to Expand Tokenized Lending",
+        "kicker": "WALL STREET FINTECH • PRIVATE CREDIT TOKENIZATION",
+        "summary": "Tokenized asset leader Securitize has agreed to acquire decentralized credit platform River One, significantly expanding institutional real-world asset lending across regulated blockchain rails.",
+        "body": "NEW YORK — In a landmark transaction that highlights the accelerating convergence of traditional institutional finance and regulated public blockchain infrastructure, digital asset securities pioneer Securitize announced Tuesday that it has reached a definitive agreement to acquire River One, a leading decentralized institutional lending and private credit origination platform. The strategic acquisition, valued by industry insiders at approximately $140 million in cash and equity, positions Securitize to create a vertically integrated private debt ecosystem catering directly to tier-one investment banks, sovereign funds, and global asset managers.\n\nSecuritize, which currently serves as the official tokenization and transfer agent for BlackRock's flagship $1.5 billion USD Institutional Digital Liquidity Fund (BUIDL), has experienced exponential growth as Wall Street institutions increasingly embrace tokenized real-world assets (RWAs). By integrating River One's battle-tested smart-contract lending architecture and automated risk-underwriting engines, Securitize will enable qualified institutional investors to pledge tokenized U.S. Treasury bills, commercial paper, and investment-grade corporate obligations as collateral for instantaneous liquidity lines and collateralized borrowing.\n\n\"The modernization of global capital markets is moving rapidly beyond static asset tokenization into dynamic, programmable financial utilities,\" Securitize Co-Founder and Chief Executive Officer Carlos Domingo said in an official briefing from the company's New York offices. \"Institutional market participants do not merely want to hold tokenized securities on a digital ledger; they demand the same sophisticated lending, repo, and collateral management capabilities that exist in conventional prime brokerage environments. River One brings proven, compliant onchain credit primitives that seamlessly bridge that divide.\"\n\nThe transaction arrives amidst an unprecedented boom in the tokenized private credit market, which has surged past $15 billion globally as high borrowing costs and sticky corporate interest rates incentivize alternative financing channels. Traditional credit heavyweights, including Hamilton Lane, Apollo Global Management, and Franklin Templeton, have steadily expanded their exposure to blockchain-based debt vehicles, citing dramatic reductions in settlement friction, 24/7 liquidity access, and transparent programmatic interest distribution compared to legacy T+1 and T+2 clearing houses.\n\nUnder the terms of the transaction, River One's engineering team and proprietary decentralized finance protocols will be incorporated into Securitize's regulated Alternative Trading System (ATS) and broker-dealer infrastructure, which operates under active oversight from the Financial Industry Regulatory Authority (FINRA) and the Securities and Exchange Commission (SEC). This regulatory wrapper ensures that institutional lenders can access onchain yield opportunities while remaining fully compliant with Bank Secrecy Act and Know-Your-Customer (KYC) mandates.\n\nFinancial analysts noted that the tie-up represents a pivotal moment for digital asset maturity following years of exploratory pilot programs. As institutional asset managers look ahead to 2027, the ability to execute cross-margining across tokenized government paper and high-yield private loans is expected to unlock trillions of dollars in dormant balance-sheet velocity. The transaction is slated to formally close by the first quarter of next year, subject to customary regulatory approvals and standard closing conditions.",
+        "category": "Business",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Tyler Brooks",
+            "role": "Financial Markets & Fintech Correspondent",
+            "avatar": "/images/authors/tyler_brooks.jpg"
+        },
+        "publishedAt": "4h ago",
+        "readTime": "7 min read",
+        "imageUrl": "/images/news/securitize-acquires-river-one-to-expand-tokenized-lending.webp",
+        "imageCaption": "Digital terminal displays real-time yields on tokenized U.S. Treasuries and institutional private credit pools.",
+        "imageCredit": "Bloomberg / Michael Nagle",
+        "commentCount": 49,
+        "bullets": [
+            "Securitize closes strategic buyout of River One to accelerate institutional collateralized lending and private credit onchain.",
+            "The acquisition deepens Securitize's integration with BlackRock's $1.5 billion BUIDL fund and top global asset managers.",
+            "Industry analysts forecast tokenized real-world assets (RWA) will exceed $16 trillion globally by the end of the decade."
+        ],
+        "tags": [
+            "Business",
+            "Fintech",
+            "Securitize",
+            "Tokenization",
+            "Private Credit",
+            "Wall Street"
+        ]
+    },
+    {
     "id": "dow-surges-1104-points-as-wall-street-stages-monster-rally",
     "title": "Dow Surges 1,104 Points as Wall Street Stages Monster Rally",
     "kicker": "WALL STREET RECORD • MARKET REBOUND",
@@ -1305,6 +1484,42 @@ Sports finance experts note that the move mirrors a broader institutional trend 
   ],
 
   'Tech': [
+    {
+        "id": "openai-launches-businesses-in-chatgpt-enterprise-ai-platform",
+        "title": "OpenAI Launches 'Businesses in ChatGPT' Enterprise AI Platform",
+        "kicker": "ARTIFICIAL INTELLIGENCE • ENTERPRISE ECOSYSTEM",
+        "summary": "OpenAI has unveiled 'Businesses in ChatGPT', a dedicated enterprise workspace and marketplace allowing corporations to deploy verified domain agents, internal data silos, and custom transactional workflows.",
+        "body": "SAN FRANCISCO — In an aggressive move to solidify its dominance over corporate enterprise computing, OpenAI on Tuesday morning officially launched \"Businesses in ChatGPT,\" an expansive enterprise software suite designed to transform its flagship conversational interface into a unified operational hub for multinational corporations. The platform allows verified corporate enterprises to deploy branded AI domain agents, securely integrate proprietary corporate data lakes, and execute multi-step business transactions directly within an enterprise-grade ChatGPT environment.\n\nThe rollout marks a major escalation in Silicon Valley's high-stakes battle for corporate IT budgets, pitting OpenAI squarely against longtime strategic partner Microsoft Copilot Studio, Google Gemini Enterprise, and Salesforce's newly minted Agentforce platform. While consumer iterations of ChatGPT have surpassed 300 million weekly active users, OpenAI's new enterprise architecture is engineered specifically to address longstanding corporate concerns regarding intellectual property security, hallucination rates, and regulatory compliance across heavily scrutinized sectors like healthcare, finance, and legal services.\n\nSpeaking during a keynote presentation broadcast live from OpenAI's Mission District headquarters in San Francisco, Chief Executive Officer Sam Altman emphasized that the era of passive conversational chatbots is giving way to proactive, agentic enterprise systems that operate across complex business workflows. Altman demonstrated how enterprise employees can prompt specialized corporate agents to synthesize internal sales data from ERP platforms, generate compliant legal drafts using internal precedent libraries, and orchestrate cross-departmental supply chain orders with human-in-the-loop oversight.\n\n\"Enterprises do not just need a chatbot that writes emails; they need an intelligent operating system that deeply understands their internal business ontology, respects permission hierarchies, and carries out complex operational tasks with cryptographic precision,\" Altman told the audience of technology executives. \"Businesses in ChatGPT provides a unified, trusted interface where employees can interact with their enterprise knowledge base without compromising proprietary security or exposing proprietary data to external training models.\"\n\nTo satisfy strict enterprise compliance mandates, OpenAI introduced a comprehensive suite of administrative controls, including SOC 2 Type II certification, HIPAA compliance frameworks, and zero-data-retention guarantees ensuring that proprietary enterprise prompts are never utilized to train frontier foundational models. The platform also features granular role-based access management, allowing chief information security officers to dictate exactly which departments and internal agents can access sensitive proprietary databases.\n\nLaunch partners already deploying the platform include financial services giant Morgan Stanley, pharmaceutical pioneer Moderna, and consulting powerhouse PwC. Technology equity analysts observed that the launch significantly broadens OpenAI's annualized revenue run-rate, which recently eclipsed $4 billion, by capturing lucrative recurring enterprise software licenses. As corporations race to operationalize generative AI across their workforces, the competition among hyperscale cloud providers and AI research labs to become the primary enterprise gateway is poised to define the next decade of enterprise software architecture.",
+        "category": "Tech",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Maya Lin Chen",
+            "role": "Silicon Valley & Artificial Intelligence Lead",
+            "avatar": "/images/authors/maya_lin_chen.jpg"
+        },
+        "publishedAt": "5h ago",
+        "readTime": "8 min read",
+        "imageUrl": "/images/news/openai-launches-businesses-in-chatgpt-enterprise-ai-platform.webp",
+        "imageCaption": "OpenAI headquarters in San Francisco, California, where executives introduced the new 'Businesses in ChatGPT' platform.",
+        "imageCredit": "Getty Images / Justin Sullivan",
+        "commentCount": 118,
+        "bullets": [
+            "OpenAI debuts integrated enterprise marketplace enabling Fortune 500 companies to host authenticated conversational apps.",
+            "Direct competition intensifies with Microsoft Copilot Studio, Google Gemini Enterprise, and Salesforce Agentforce.",
+            "Platform incorporates zero-data-retention guarantees, SOC 2 Type II compliance, and granular role-based access controls."
+        ],
+        "tags": [
+            "Tech",
+            "OpenAI",
+            "ChatGPT",
+            "Enterprise AI",
+            "Silicon Valley",
+            "Artificial Intelligence"
+        ]
+    },
     {
     "id": "eu-drafts-digital-fairness-act-to-ban-deceptive-web-design",
     "title": "EU Drafts Digital Fairness Act to Ban Deceptive Web Design",
@@ -1557,6 +1772,41 @@ Aerospace financial analysts estimate that SpaceX's commercial launch and satell
 
   'Entertainment': [
     {
+        "id": "ella-langley-and-olivia-rodrigo-lead-2027-grammy-predictions",
+        "title": "Ella Langley and Olivia Rodrigo Lead 2027 Grammy Predictions",
+        "kicker": "MUSIC INDUSTRY • AWARDS SEASON OUTLOOK",
+        "summary": "With official Grammy ballots circulating to Recording Academy voters, breakout country star Ella Langley and pop icon Olivia Rodrigo have emerged as frontrunners across top general field categories.",
+        "body": "LOS ANGELES — As the Recording Academy's official first-round voting window enters its decisive final days, the landscape for the 69th Annual Grammy Awards has crystallized into an exhilarating clash of cultural juggernauts. Industry prognosticators, Billboard chart analysts, and Academy voting insiders widely project that country crossover sensation Ella Langley and multi-platinum pop powerhouse Olivia Rodrigo will lead the field across the prestigious General Field categories, spearheading an awards season defined by genre-blending authenticity and massive streaming vitality.\n\nElla Langley's meteoric ascent has emerged as the defining music story of the past year. Following the explosive viral and commercial success of her chart-topping duet \"you look like you love me\" alongside Riley Green and the universal acclaim of her debut full-length project 'Hungover', the Alabama-born singer-songwriter has captivated both traditional Nashville tastemakers and mainstream pop audiences. Industry handicappers widely anticipate Langley will secure high-profile nominations for Best New Artist, Song of the Year, and potentially cross over into the fiercely contested Album of the Year category, a feat achieved by only a handful of modern country pioneers.\n\nSimultaneously, Olivia Rodrigo has cemented her standing as the preeminent rock-infused pop songwriter of her generation. Her critically lauded third studio LP delivered record-breaking streaming numbers and spawned multiple Hot 100 top-five anthems, showcasing a mature thematic evolution that has resonated deeply with the Recording Academy's increasingly diverse and youthful voting body. Music critics point to Rodrigo's intricate lyricism, dynamic vocal range, and seamless incorporation of alternative guitar riffs as key factors establishing her as an early favorite for Record of the Year and Album of the Year.\n\n\"This year's Grammy voting cycle reflects an undeniable sea change in how music is created, discovered, and canonized,\" said veteran music industry strategist Marcus Vance. \"The historical silos separating Nashville, Top 40 pop, and alternative indie have effectively dissolved. Artists like Ella Langley and Olivia Rodrigo command passionate, hyper-engaged audiences because their records prioritize raw narrative storytelling over cynical algorithmic optimization. Academy voters across all regional chapters are recognizing that genuine artistic connection.\"\n\nThe prospective ballot also features an extraordinarily crowded field of heavyweight contenders, including Sabrina Carpenter's pop juggernaut 'Short n' Sweet', Post Malone's blockbuster country pivot 'F-1 Trillion', and critically praised independent releases from Chappell Roan and Billie Eilish. Recording Academy leadership noted that recent structural reforms—including the expansion of the voter vetting process and the reduction of legacy voting blocs—have injected unprecedented unpredictability into the nominations, which will be formally announced live from the Grammy Museum next month.\n\nWith the primary television broadcast scheduled for early February at Crypto.com Arena in downtown Los Angeles, network producers and label executives are preparing for what promises to be one of the most commercially potent telecasts in recent Grammy history. As early voting closes, the momentum behind Langley and Rodrigo underscores an exhilarating truth: whether via acoustic country twang or thunderous stadium pop-punk, compelling female songwriting remains the undisputed heartbeat of contemporary American music.",
+        "category": "Entertainment",
+        "edition": [
+            "US & Americas"
+        ],
+        "author": {
+            "name": "Claire Montgomery",
+            "role": "Culture & Music Industry Editor",
+            "avatar": "/images/authors/claire_montgomery.jpg"
+        },
+        "publishedAt": "6h ago",
+        "readTime": "7 min read",
+        "imageUrl": "/images/news/ella-langley-and-olivia-rodrigo-lead-2027-grammy-predictions.webp",
+        "imageCaption": "Recording Academy Grammy statuettes displayed at the Grammy Museum in Los Angeles ahead of the annual ballot deadline.",
+        "imageCredit": "Associated Press / Chris Pizzello",
+        "commentCount": 76,
+        "bullets": [
+            "Ella Langley's smash crossover success positions her as a rare country contender for Album of the Year and Best New Artist.",
+            "Olivia Rodrigo's third studio album garners universal critical acclaim and commanding odds in Song and Record of the Year.",
+            "Academy voting trends showcase the rising commercial and cultural dominance of Nashville country-pop and alternative singer-songwriters."
+        ],
+        "tags": [
+            "Entertainment",
+            "Grammys",
+            "Olivia Rodrigo",
+            "Ella Langley",
+            "Music Industry",
+            "Pop Culture"
+        ]
+    },
+    {
     "id": "johnny-depp-readies-hollywood-return-in-paramount-ebenezer",
     "title": "Johnny Depp Readies Hollywood Return in Paramount 'Ebenezer'",
     "kicker": "HOLLYWOOD COMEBACK • THEATRICAL SHOWCASE",
@@ -1747,6 +1997,41 @@ Furthermore, cloud streaming platforms and mobile distribution networks have low
   ],
 
   'Sports': [
+    {
+        "id": "michigan-state-downs-duke-79-73-in-chicago-college-showdown",
+        "title": "Michigan State Downs Duke 79-73 in Chicago College Showdown",
+        "kicker": "COLLEGE BASKETBALL • CHAMPIONS CLASSIC UPSET",
+        "summary": "Tom Izzo's Michigan State Spartans staged a ferocious second-half rally at the United Center, stunning preseason favorite Duke 79-73 behind relentless transition offense and stifling perimeter defense.",
+        "body": "CHICAGO — In an early-season college basketball masterpiece brimming with March-caliber intensity, the Michigan State Spartans delivered a resounding statement Tuesday evening at the United Center, pulling off a thrilling 79-73 upset victory over the top-ranked Duke Blue Devils in the annual State Farm Champions Classic. Hall of Fame head coach Tom Izzo orchestrated a masterful second-half tactical turnaround, as Michigan State erased an eight-point deficit with a furious 16-4 run over the final six minutes to claim their most consequential non-conference triumph in years.\n\nBefore an electric sellout crowd of 21,385 in Chicago, the game unfolded as an absorbing battle between Duke's glittering freshman pedigree and Michigan State's veteran physical toughness. Duke, led by heralded freshman sensation Cooper Flagg and sharpshooting guard Kon Knueppel, controlled the opening twenty minutes with crisp perimeter ball movement and efficient high-post scoring, taking a 39-34 advantage into halftime. Flagg lived up to his billing as the consensus projected number-one NBA draft pick, finishing with 22 points, eight rebounds, and four emphatic blocked shots.\n\nHowever, the Spartans responded with relentless vigor following the intermission. Anchored by senior guard Jaden Akins and junior playmaker Tre Holloman, Michigan State executed an aggressive full-court trapping scheme that disrupted Duke's offensive rhythm and forced 17 Blue Devil turnovers. Akins led the Spartans with 21 points, including a pair of dagger three-pointers from the right wing that sent the thousands of green-clad Spartan faithful in attendance into euphoria.\n\n\"Coach told us in the locker room at halftime that games like this aren't won with highlight dunks; they are won in the dirt, on the glass, and on the defensive floor,\" Akins said during his postgame television interview, ice packs strapped to both knees. \"We knew Duke had unbelievable talent, but we believed in our collective grit. When we needed stops in the final four minutes, everybody communicated, rotated, and boxed out. That's Michigan State basketball.\"\n\nThe turning point occurred with 3:18 remaining on the game clock and Michigan State holding a slender 71-69 lead. Following a frantic scramble for a loose ball beneath Duke's basket, Spartan forward Frankie Fidler secured the defensive rebound, whipped a cross-court outlet pass to Holloman, who found a cutting Coen Carr for an earth-shattering one-handed slam that pushed the lead to four. Michigan State then sealed the upset at the charity stripe, converting eight of nine free throws in the closing seventy seconds while holding Duke to contested, off-balance perimeter heaves.\n\nFor Tom Izzo, the victory notched his 711th career collegiate win and represented a sweet measure of redemption against a historic non-conference adversary. In his postgame press conference, Izzo praised his team's composure under extreme pressure while cautioning that the grueling college basketball marathon is only beginning. The Spartans will return to East Lansing with immense national momentum and an immediate jump in the national top-25 rankings, while Jon Scheyer's young Duke squad absorbs an invaluable early lesson in physical tournament-style postseason basketball.",
+        "category": "Sports",
+        "edition": [
+            "US & Americas"
+        ],
+        "author": {
+            "name": "David Vance",
+            "role": "Senior Sports Columnist",
+            "avatar": "/images/authors/david_vance.jpg"
+        },
+        "publishedAt": "7h ago",
+        "readTime": "7 min read",
+        "imageUrl": "/images/news/michigan-state-downs-duke-79-73-in-chicago-college-showdown.webp",
+        "imageCaption": "Michigan State Spartans celebrate following their 79-73 victory over the Duke Blue Devils at the United Center in Chicago.",
+        "imageCredit": "USA Today Sports / Kamil Krzaczynski",
+        "commentCount": 93,
+        "bullets": [
+            "Michigan State erases an eight-point second-half deficit with a decisive 16-4 run in the final six minutes.",
+            "Spartan backcourt forces 17 turnovers while limiting Duke's projected NBA lottery picks to contested looks.",
+            "Hall of Fame coach Tom Izzo notches his signature early-season win in front of a sellout crowd of 21,000 in Chicago."
+        ],
+        "tags": [
+            "Sports",
+            "College Basketball",
+            "Michigan State",
+            "Duke Blue Devils",
+            "NCAA",
+            "Tom Izzo"
+        ]
+    },
     {
     "id": "bills-stifle-vikings-23-6-in-dominant-monday-night-football",
     "title": "Bills Stifle Vikings 23-6 in Dominant Monday Night Football",
@@ -1959,6 +2244,42 @@ On the stadium infrastructure front, club executives evaluated demonstrations of
   ],
 
   'Science': [
+    {
+        "id": "nasa-unveils-promise-moon-rover-built-from-mars-rover-spares",
+        "title": "NASA Unveils PROMISE Moon Rover Built from Mars Rover Spares",
+        "kicker": "SPACE EXPLORATION • ARTEMIS LUNAR PROGRAM",
+        "summary": "NASA engineers at the Jet Propulsion Laboratory have revealed the PROMISE rover, an agile lunar explorer constructed using qualified spare hardware from Mars 2020 to map polar water ice reserves.",
+        "body": "PASADENA, Calif. — In an inspiring demonstration of engineering ingenuity and fiscal stewardship, NASA officials and aerospace scientists at the Jet Propulsion Laboratory (JPL) on Tuesday publicly unveiled the PROMISE rover, an advanced robotic lunar explorer assembled almost entirely from qualified flight-spare hardware originally manufactured for the Perseverance and Curiosity Mars missions. The innovative rover is scheduled to journey to the Moon's rugged south pole in late 2027 under NASA's Artemis program, where it will execute unprecedented subsurface prospecting inside permanently shadowed lunar craters.\n\nThe PROMISE mission (Polar Resource Observation, Mapping, and In-situ Subsurface Exploration) represents a groundbreaking shift in NASA's planetary exploration methodology. Facing severe budgetary constraints and congressional pressure to accelerate lunar scientific readiness ahead of crewed Artemis surface expeditions, JPL engineers conceived a creative recycling initiative. By repurposing high-reliability avionics packages, radiation-hardened flight computers, mast cameras, and suspension mobility systems that had served as ground backups for Mars 2020, the team slashed development timelines by more than three years while saving American taxpayers an estimated $280 million in upfront manufacturing costs.\n\n\"Space exploration has historically been characterized by custom, one-of-a-kind engineering marvels with immense cost overheads,\" said Dr. Jennifer Trosper, Director of Planetary Exploration at NASA JPL. \"With PROMISE, our engineers demonstrated that world-class planetary science can be achieved through rigorous modularity and smart hardware stewardship. The flight-qualified heritage hardware resting in our cleanrooms represents billions of dollars in taxpayer investments; putting those robust components to work on the lunar frontier is a monumental win for the agency and the global scientific community.\"\n\nDespite its recycled lineage, PROMISE carries a cutting-edge suite of newly miniaturized scientific instrumentation designed specifically for the hostile cryogenic environment of the lunar south pole. The rover is equipped with a high-energy pulsed neutron spectrometer capable of detecting hydrogen signatures up to three feet beneath the regolith, a specialized cryogenic rotary-percussive drill, and miniature radioisotope heater units (RHUs) designed to keep critical electronics operational during the two-week lunar night when surface temperatures plunge below minus 250 degrees Fahrenheit.\n\nThe primary target destination for the PROMISE mission is the rim of Shackleton Crater, a towering impact basin whose deep interior has remained shrouded in perpetual darkness for over two billion years. Planetary scientists believe these frigid \"cold traps\" harbor massive deposits of primordial water ice, volatile organics, and precious noble gases. Confirming the precise density, depth, and spatial distribution of these ice reserves is paramount for sustainable human settlement, as lunar ice can be mined and electrolyzed into liquid oxygen and hydrogen rocket propellant for future deep-space missions to Mars.\n\nNASA leadership confirmed that PROMISE will be integrated with commercial lunar lander providers under the Commercial Lunar Payload Services (CLPS) framework, with final payload testing scheduled at JPL's Spacecraft Assembly Facility early next year. As international rivals accelerate their own robotic lunar initiatives, NASA's resource-smart rover exemplifies how American scientific ambition continues to adapt, innovate, and lead on the high frontier of outer space.",
+        "category": "Science",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Julian Thorne",
+            "role": "Space & Planetary Exploration Bureau",
+            "avatar": "/images/authors/julian_thorne.jpg"
+        },
+        "publishedAt": "8h ago",
+        "readTime": "8 min read",
+        "imageUrl": "/images/news/nasa-unveils-promise-moon-rover-built-from-mars-rover-spares.webp",
+        "imageCaption": "NASA technicians inspect the PROMISE lunar rover prototype inside the Spacecraft Assembly Facility clean room at JPL in Pasadena.",
+        "imageCredit": "NASA / JPL-Caltech",
+        "commentCount": 55,
+        "bullets": [
+            "PROMISE repurposes flight-spare avionics, thermal actuators, and cameras from the Perseverance Mars mission.",
+            "Rover is slated to touch down in the Moon's South Pole-Aitken Basin to drill into permanently shadowed craters.",
+            "Cost-saving hardware reuse saves NASA taxpayers an estimated $280 million while shaving three years off development."
+        ],
+        "tags": [
+            "Science",
+            "NASA",
+            "Moon",
+            "Artemis",
+            "JPL",
+            "Space Exploration"
+        ]
+    },
     {
     "id": "nasa-chapea-crew-completes-378-days-inside-mars-simulation",
     "title": "NASA CHAPEA Crew Completes 378 Days Inside Mars Simulation",
@@ -2181,6 +2502,42 @@ Domestic automotive manufacturers have committed multi-billion-dollar off-take a
   ],
 
   'Opinion': [
+    {
+        "id": "why-court-decision-on-reporter-records-protects-press-freedom",
+        "title": "Why Court Decision on Reporter Records Protects Press Freedom",
+        "kicker": "EDITORIAL BOARD • FIRST AMENDMENT",
+        "summary": "A landmark federal appellate ruling shielding journalists' confidential telecommunications records from warrantless executive subpoenas delivers a necessary and timely safeguard for investigative journalism.",
+        "body": "WASHINGTON — In an era marked by escalating executive hostility toward the Fourth Estate and aggressive federal leak prosecutions, the United States Court of Appeals for the District of Columbia Circuit has delivered a monumental constitutional victory for American democracy. In a unanimous ruling handed down late Monday, a three-judge panel established that federal prosecutors cannot secretly subpoena journalists' third-party phone, email, and digital metadata records without meeting strict judicial scrutiny standards and demonstrating that all alternative investigative remedies have been exhausted.\n\nThe appellate court's landmark decision strikes at the very heart of modern investigative reporting. In our hyper-connected digital landscape, a journalist's call logs, encrypted chat metadata, and location pings are functionally equivalent to an unredacted rolodex of confidential whistleblowers, corporate insiders, and public servants who risk their careers and personal freedom to expose corruption. For years, executive agencies exploited statutory loopholes in the Stored Communications Act to bypass direct confrontations with news organizations, opting instead to serve covert subpoenas directly on telecommunications giants and cloud hosting providers.\n\nWriting for the unanimous panel, Judge Patricia Millett articulated a foundational constitutional truth that has grown perilously fragile in recent decades: a free and independent press cannot fulfill its vital institutional role as a watchdog against government abuse if the state possesses unchecked power to monitor a reporter's professional communications. The court properly recognized that the threat of surveillance exerts a catastrophic chilling effect on investigative inquiry, deterring sources with vital public-interest revelations from ever reaching out to the press.\n\n\"The First Amendment was not ratified to provide comfort to public officials who seek to insulate their administrative decisions from public scrutiny,\" Judge Millett wrote in an incisive opinion that will undoubtedly enter the canon of American constitutional jurisprudence. \"When the state wields subpoena power to secretly surveil the confidential associations of working journalists, it strikes a blow against the public's right to know and dismantles the very transparency upon which representative self-governance depends.\"\n\nPredictably, critics within federal law enforcement and national security agencies have pushed back against the ruling, asserting that heightened judicial hurdles will impede legitimate counterintelligence probes and hamper investigations into unauthorized disclosures of classified defense secrets. But this argument fundamentally misapprehends the delicate constitutional balance envisioned by the framers of the Bill of Rights. National security is not preserved by eroding democratic institutions from within; it is strengthened when the press has the institutional autonomy to expose waste, fraud, operational incompetence, and unlawful overreach.\n\nAs Congress deliberates federal shield legislation that has languished in legislative limbo for over a decade, the D.C. Circuit's ruling provides an essential judicial backstop against authoritarian overreach. At a time when truth is contested, institutional norms are battered, and investigative journalists face unprecedented legal and technological harassment, this decisive affirmation of First Amendment protections reminds us that a courageous, protected press remains the ultimate immune system of the American republic.",
+        "category": "Opinion",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Elena Rostova",
+            "role": "Legal Affairs Columnist & Editorial Board",
+            "avatar": "/images/authors/elena_rostova.jpg"
+        },
+        "publishedAt": "14h ago",
+        "readTime": "8 min read",
+        "imageUrl": "/images/news/why-court-decision-on-reporter-records-protects-press-freedom.webp",
+        "imageCaption": "The United States Court of Appeals for the District of Columbia Circuit, where judges reaffirmed First Amendment reporter privilege.",
+        "imageCredit": "Reuters / Joshua Roberts",
+        "commentCount": 68,
+        "bullets": [
+            "D.C. Circuit Court of Appeals establishes strict judicial scrutiny before federal agencies can subpoena third-party phone and cloud logs of working journalists.",
+            "Decision repudiates executive overreach that threatened to chill confidential whistleblowers across national security and financial beats.",
+            "The ruling reinforces why robust investigative reporting remains the indispensable immune system of American constitutional democracy."
+        ],
+        "tags": [
+            "Opinion",
+            "First Amendment",
+            "Press Freedom",
+            "Federal Court",
+            "Journalism",
+            "Civil Liberties"
+        ]
+    },
     {
     "id": "why-lame-duck-congress-must-pass-energy-permitting-reform",
     "title": "Why Lame-Duck Congress Must Pass Energy Permitting Reform",
@@ -2768,45 +3125,45 @@ export function getHomepageDepartmentArticles(dept: string): Article[] {
   const mapping: Record<string, string[]> = {
     us: [
       'the-vanity-of-alina-habba-mildon',
+      'fbi-probes-fatal-police-shooting-on-north-dakota-reservation',
       'biden-memoir-excerpts-deliver-blistering-indictment-of-trump',
-      'seven-states-pass-major-constitutional-ballot-amendments',
-      'california-votes-on-prop-40-wealth-tax-for-emergency-care'
+      'seven-states-pass-major-constitutional-ballot-amendments'
     ],
     politics: [
+      'democrats-and-gop-clash-over-defense-bill-on-veterans-day',
       'massie-files-resolution-to-impeach-defense-chief-pete-hegseth',
       '2026-midterms-gop-takes-senate-as-house-battle-nears-recounts',
-      'supreme-court-rejects-emergency-bid-on-california-mail-ballots',
-      'bipartisan-congressional-coalition-finalizes-critical-minerals-strategic-stockpile-legislation'
+      'supreme-court-rejects-emergency-bid-on-california-mail-ballots'
     ],
     business: [
+      'securitize-acquires-river-one-to-expand-tokenized-lending',
       'dow-surges-1104-points-as-wall-street-stages-monster-rally',
       'sp-500-hits-record-high-on-midterm-clarity-and-steady-jobs-data',
-      'crude-oil-surges-above-89-as-us-strikes-iranian-drone-bases',
-      'oracle-prices-historic-20-billion-debt-and-equity-offering-to-finance-massive-ai-cloud-data-center-expansion'
+      'crude-oil-surges-above-89-as-us-strikes-iranian-drone-bases'
     ],
     tech: [
+      'openai-launches-businesses-in-chatgpt-enterprise-ai-platform',
       'eu-drafts-digital-fairness-act-to-ban-deceptive-web-design',
       'openai-and-anthropic-launch-joint-safety-accord-for-ai-agents',
-      'doj-expands-nvidia-antitrust-probe-over-hugging-face-buyout',
-      'nvidia-ceo-jensen-huang-scrutiny-trump-response-ai-semiconductor-sovereignty'
+      'doj-expands-nvidia-antitrust-probe-over-hugging-face-buyout'
     ],
     entertainment: [
+      'ella-langley-and-olivia-rodrigo-lead-2027-grammy-predictions',
       'johnny-depp-readies-hollywood-return-in-paramount-ebenezer',
       'grammy-nominations-2027-global-and-indie-artists-dominate',
-      'christopher-nolans-the-odyssey-hits-record-1-17-billion',
-      'paramount-skydance-merger-completes-formal-integration-uniting-studio-blockbusters-with-gaming-franchises'
+      'christopher-nolans-the-odyssey-hits-record-1-17-billion'
     ],
     sports: [
+      'michigan-state-downs-duke-79-73-in-chicago-college-showdown',
       'bills-stifle-vikings-23-6-in-dominant-monday-night-football',
       'dodgers-win-2026-world-series-in-extra-inning-game-7-thriller',
-      'lamar-jackson-out-on-injured-reserve-following-thumb-surgery',
-      'twenty-year-old-kimi-antonelli-becomes-youngest-formula-1-world-champion-in-historic-mexico-city-grand-prix'
+      'lamar-jackson-out-on-injured-reserve-following-thumb-surgery'
     ],
     science: [
+      'nasa-unveils-promise-moon-rover-built-from-mars-rover-spares',
       'nasa-chapea-crew-completes-378-days-inside-mars-simulation',
       'webb-telescope-finds-water-vapor-on-habitable-zone-exoplanet',
-      'nasa-voyager-1-reaches-record-one-light-day-distance-from-earth',
-      'usgs-supervolcano-research-reveals-yellowstone-eruptions-occur-in-complex-multi-pulse-sequences'
+      'nasa-voyager-1-reaches-record-one-light-day-distance-from-earth'
     ]
   };
 
