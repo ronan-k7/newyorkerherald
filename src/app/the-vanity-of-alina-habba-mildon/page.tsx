@@ -720,6 +720,75 @@ export default function AlinaHabbaSpecialDossierPage() {
               </div>
             </div>
 
+            {/* The New York Times Coverage Document Box */}
+            <div style={{
+              backgroundColor: 'var(--bg-surface-elevated)',
+              border: '1px solid var(--border-hairline)',
+              borderRadius: 'var(--radius-sm)',
+              padding: '12px',
+              boxShadow: '0 4px 14px rgba(0,0,0,0.03)'
+            }}>
+              <div style={{
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'space-between',
+                marginBottom: '8px',
+                borderBottom: '1px solid var(--border-hairline)',
+                paddingBottom: '6px'
+              }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                  <ExternalLink size={13} color="var(--brand-primary)" />
+                  <span className="font-heading" style={{
+                    fontSize: '0.78rem',
+                    fontWeight: 900,
+                    textTransform: 'uppercase',
+                    letterSpacing: '0.05em',
+                    color: 'var(--text-primary)'
+                  }}>
+                    The New York Times
+                  </span>
+                </div>
+                <span className="aura-pill" style={{ fontSize: '0.62rem', padding: '1px 6px' }}>
+                  Nov 10, 2026
+                </span>
+              </div>
+
+              <a
+                href="https://www.nytimes.com/2026/11/10/us/politics/alina-habba-fired-pardon.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  display: 'block',
+                  textDecoration: 'none',
+                  borderRadius: 'var(--radius-xs)',
+                  overflow: 'hidden',
+                  border: '1px solid var(--border-hairline)',
+                  backgroundColor: '#ffffff'
+                }}
+                title="View original reporting in The New York Times"
+              >
+                <img
+                  src="/images/news/alina-habba-nyt-report.webp"
+                  alt="The New York Times: Alina Habba Mildon Loses $50 Million Contract That Enraged Trump"
+                  style={{
+                    width: '100%',
+                    height: 'auto',
+                    display: 'block'
+                  }}
+                />
+              </a>
+
+              <p style={{
+                fontSize: '0.72rem',
+                color: 'var(--text-muted)',
+                lineHeight: 1.4,
+                margin: '8px 0 0 0',
+                textAlign: 'center'
+              }}>
+                The New York Times report by Tyler Pager: <em>&ldquo;Alina Habba Mildon Loses $50 Million Contract That Enraged Trump&rdquo;</em>
+              </p>
+            </div>
+
             {/* Primary Source References Box */}
             <div style={{
               backgroundColor: 'var(--bg-surface-elevated)',
