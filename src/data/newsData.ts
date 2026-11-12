@@ -3,35 +3,35 @@ import { Article, OpinionColumn, FactCheckItem, PhotoStory, VideoItem, PodcastEp
 export const BREAKING_NEWS_ITEMS = [
   {
     id: 'brk-1',
-    kicker: 'CAPITOL HILL DEFENSE',
-    headline: 'Democrats and GOP Clash Over Defense Bill on Veterans Day',
+    kicker: 'CABINET SECURITY',
+    headline: 'Treasury Chief Scott Bessent Moved to Military Base Over Threats',
     time: '4m ago',
-    url: '/politics/democrats-and-gop-clash-over-defense-bill-on-veterans-day'
+    url: '/politics/treasury-chief-scott-bessent-moved-to-military-base-over-threats'
   },
   {
     id: 'brk-2',
-    kicker: 'FEDERAL INQUIRY',
-    headline: 'FBI Probes Fatal Police Shooting on North Dakota Reservation',
+    kicker: 'DISASTER IN NY',
+    headline: 'Deadly Brooklyn Building Collapse Sparks Massive Rescue Operation',
     time: '18m ago',
-    url: '/us/fbi-probes-fatal-police-shooting-on-north-dakota-reservation'
+    url: '/us/deadly-brooklyn-building-collapse-sparks-massive-rescue-operation'
   },
   {
     id: 'brk-3',
-    kicker: 'TOKENIZED CREDIT',
-    headline: 'Securitize Acquires River One to Expand Tokenized Lending',
+    kicker: 'AI MEGA IPO',
+    headline: 'Anthropic Kicks Off Landmark IPO Roadshow for $1.4T Valuation',
     time: '32m ago',
-    url: '/business/securitize-acquires-river-one-to-expand-tokenized-lending'
+    url: '/business/anthropic-kicks-off-landmark-ipo-roadshow-for-1-4t-valuation'
   }
 ];
 
 export const TRENDING_TAGS = [
-  '#DefenseBill',
-  '#SpiritLakeProbe',
-  '#SecuritizeRiverOne',
-  '#ChatGPTEnterprise',
-  '#Grammys2027',
-  '#SpartansDuke',
-  '#PROMISERover'
+  '#ScottBessent',
+  '#BrooklynCollapse',
+  '#AnthropicIPO',
+  '#DeepMindSignal',
+  '#DuaLipaCoachella',
+  '#USMNTU17',
+  '#M87BlackHole'
 ];
 
 export const LEAD_ARTICLE: Article = {
@@ -79,6 +79,42 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
 };
 
 export const SECONDARY_LEAD_STORIES: Article[] = [
+    {
+        "id": "treasury-chief-scott-bessent-moved-to-military-base-over-threats",
+        "title": "Treasury Chief Scott Bessent Moved to Military Base Over Threats",
+        "kicker": "CABINET SECURITY • THREAT PROTOCOL",
+        "summary": "United States Treasury Secretary Scott Bessent has been relocated from his private residence to a secure military installation following credible intelligence warnings regarding Iranian retaliation threats.",
+        "body": "WASHINGTON — In an extraordinary national security intervention underscoring escalating geopolitical hostilities in the Middle East, United States Treasury Secretary Scott Bessent was relocated late Wednesday from his private residence in metropolitan Washington to a heavily fortified military installation. High-level administration officials and federal law enforcement personnel confirmed Thursday morning that the sudden relocation was mandated by the United States Secret Service and the Department of Defense after American intelligence agencies intercepted credible, actionable intelligence detailing Iranian-directed surveillance and assassination conspiracies targeting the economic architect of the administration's aggressive maximum-pressure sanctions apparatus.\n\nBessent, a veteran Wall Street macro investor who assumed the helm of the Treasury Department earlier this year, becomes the third senior cabinet-level official to be evacuated from conventional residential living into military-administered housing. Secretary of State Marco Rubio and White House Deputy Chief of Staff Stephen Miller were previously transferred to secure quarters at Joint Base Anacostia-Bolling and surrounding military commands following intercepted communications from operatives affiliated with the Islamic Revolutionary Guard Corps (IRGC) and foreign criminal syndicates operating on sovereign American territory.\n\nAccording to senior national security aides speaking on condition of anonymity to discuss sensitive protective intelligence, the threats against Bessent intensified dramatically following last week's sweeping executive actions, in which the Treasury Department's Office of Foreign Assets Control (OFAC) designated an extensive network of twenty-four international front companies, offshore shipping conglomerates, and secondary banking intermediaries that processed illicit Iranian petroleum sales through maritime hubs in the Persian Gulf and Southeast Asia. The sanctions effectively froze an estimated $12 billion in foreign liquidity lines, dealing a severe financial blow to Tehran's regional proxy funding networks.\n\n\"The United States government maintains zero tolerance for foreign state attempts to intimidate, harass, or endanger cabinet officials carrying out lawful constitutional responsibilities,\" White House National Security Council spokesman John Kirby said during a special press briefing Thursday. \"Protective postures for senior leadership are continuously evaluated by our counterterrorism agencies based on real-time threat intelligence. While we do not comment on specific tactical security details, the American public should rest assured that every necessary military and federal resource is mobilized to ensure the absolute safety and continuity of executive government operations.\"\n\nThe unprecedented sight of senior civilian cabinet chiefs operating from guarded military bastions has ignited intense debate across Capitol Hill. Democratic leaders on the Senate Foreign Relations and Armed Services Committees expressed grave concern over the safety of American public servants while demanding comprehensive closed-door intelligence briefings regarding the scope of foreign intelligence penetration within the continental United States. Meanwhile, leading Republican lawmakers called for retaliatory measures, urging the administration to expand naval interdictions and cyber-deterrence strikes against IRGC operational infrastructure.\n\nFederal counterintelligence investigators noted that the elevated threat environment follows the recent unsealing of federal indictments in the Southern District of New York charging foreign operatives with orchestrating assassination plots against American soil targets. As Secret Service tactical units and military police establish expanded perimeter checkpoints around Bessent's operational headquarters, the Treasury chief continues to direct federal debt auctions, international currency stabilization talks, and bilateral trade enforcement from secure military communications facilities, demonstrating that Washington's economic policy apparatus remains fully engaged despite severe external threats.",
+        "category": "Politics",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Sarah Mitchell",
+            "role": "Chief Congressional & National Security Correspondent",
+            "avatar": "/images/authors/sarah_mitchell.jpg"
+        },
+        "publishedAt": "2h ago",
+        "readTime": "8 min read",
+        "imageUrl": "/images/news/treasury-chief-scott-bessent-moved-to-military-base-over-threats.webp",
+        "imageCaption": "The United States Treasury Department building in Washington, D.C., where security protocols have been drastically elevated.",
+        "imageCredit": "Associated Press / J. Scott Applewhite",
+        "commentCount": 142,
+        "bullets": [
+            "Treasury Secretary Scott Bessent moved to military installation following credible IRGC-linked intelligence threats.",
+            "Bessent joins Secretary of State Marco Rubio and Stephen Miller under fortified military protective housing.",
+            "Threat follows massive OFAC sanctions freezing $12B in Iranian maritime oil shipping and financial networks."
+        ],
+        "tags": [
+            "Politics",
+            "Scott Bessent",
+            "Treasury Department",
+            "National Security",
+            "Iran",
+            "Secret Service"
+        ]
+    },
     {
         "id": "democrats-and-gop-clash-over-defense-bill-on-veterans-day",
         "title": "Democrats and GOP Clash Over Defense Bill on Veterans Day",
@@ -481,6 +517,42 @@ As the Federal Energy Regulatory Commission (FERC) convenes national stakeholder
 export const CATEGORY_ARTICLES: Record<string, Article[]> = {
   'Investigation': [
     {
+        "id": "doj-prosecutor-overseeing-trump-foes-probe-abruptly-resigns",
+        "title": "DOJ Prosecutor Overseeing Trump Foes Probe Abruptly Resigns",
+        "kicker": "JUSTICE DEPARTMENT TURMOIL • SPECIAL PROBE",
+        "summary": "The federal prosecutor leading the Justice Department's controversial investigation into political adversaries of Donald Trump has abruptly resigned under intense pressure following midterm election fallout.",
+        "body": "MIAMI & WASHINGTON — In a dramatic escalation of the institutional crisis engulfing the United States Department of Justice in the wake of midterm election results, Jason Reding Quiñones, the United States Attorney for the Southern District of Florida who was handpicked to oversee a sprawling federal inquiry into political adversaries of President Donald Trump, abruptly resigned his post late Wednesday evening. The sudden departure of the chief prosecutor directing what internal department officials colloquially termed the \"grand conspiracy\" inquiry delivers a paralyzing blow to the administration's contentious efforts to prosecute former intelligence and national security officials from the Obama and Biden administrations.\n\nQuiñones' resignation comes amidst severe internal revolt, mounting ethical complaints, and a cascade of high-level departures across the Justice Department over the past seventy-two hours. As reported earlier this week, the head of the National Security Division, John Eisenberg, and the assistant attorney general for civil rights, Harmeet Dhillon, both submitted sudden resignations following bitter disputes with White House counsels over the weaponization of federal law enforcement machinery against political rivals and incoming Democratic committee chairs.\n\nAccording to internal Justice Department memoranda and interviews with six senior career prosecutors speaking on the condition of strict anonymity, Quiñones faced intense, sustained pressure from White House legal intermediaries to return grand jury indictments against high-profile political figures prior to the January seating of the incoming 120th Congress. However, career prosecutors in the Miami and Washington offices reportedly warned supervisory leadership that the evidentiary materials compiled over eighteen months of investigative grand jury sessions failed to meet minimum federal standards for statutory criminal charges, cautioning that pursuing indictments based on declassified intelligence disputes would trigger swift judicial dismissals and professional sanctions.\n\nThe acute friction reached a breaking point Wednesday afternoon during a contentious video conference between Quiñones, Attorney General Todd Blanche, and senior White House counsels. Sources familiar with the exchange confirmed that Quiñones refused to authorize draft indictments targeting former FBI and CIA officials, citing statutory Speech or Debate Clause immunities and Department of Justice guidelines prohibiting politically motivated prosecutions. Hours later, Quiñones submitted a terse two-paragraph resignation letter to the White House, vacating his office effective immediately.\n\nDemocratic lawmakers preparing to assume committee gavels in the House and Senate reacted with fury to the revelations, characterizing the forced resignation as unmistakable evidence of unlawful executive interference in the administration of justice. Incoming House Judiciary Committee ranking members pledged to issue sweeping subpoenas for all internal communications between White House personnel and Quiñones' prosecution team, warning that attempting to coerce federal prosecutors into fabricating criminal cases against political opponents constitutes an impeachable abuse of executive power.\n\nLegal ethics watchdogs and former federal judges underscored that the implosion of the Miami inquiry marks a pivotal institutional stress test for the American legal system. As career federal prosecutors across multiple jurisdictions resist improper political directives, the abrupt departure of Quiñones signals that the constitutional firewall shielding the Department of Justice from partisan retribution continues to hold, even under the most relentless executive pressure in modern political history.",
+        "category": "Investigation",
+        "edition": [
+            "US & Americas"
+        ],
+        "author": {
+            "name": "Jonathan Ross",
+            "role": "Chief Investigative Reporter",
+            "avatar": "/images/authors/jonathan_ross.jpg"
+        },
+        "publishedAt": "9h ago",
+        "readTime": "9 min read",
+        "imageUrl": "/images/news/doj-prosecutor-overseeing-trump-foes-probe-abruptly-resigns.webp",
+        "imageCaption": "The Robert F. Kennedy Department of Justice building in Washington amidst widening federal prosecutor resignations.",
+        "imageCredit": "Associated Press / Patrick Semansky",
+        "isInvestigative": true,
+        "commentCount": 248,
+        "bullets": [
+            "U.S. Attorney Jason Reding Quiñones abruptly resigns after refusing White House pressure to indict political foes.",
+            "Follows high-profile exits of National Security head John Eisenberg and Civil Rights chief Harmeet Dhillon.",
+            "Incoming Democratic committee leadership vows emergency subpoenas into executive prosecutorial coercion."
+        ],
+        "tags": [
+            "Investigation",
+            "DOJ",
+            "Justice Department",
+            "Todd Blanche",
+            "Donald Trump",
+            "Congress"
+        ]
+    },
+    {
         "id": "house-oversight-gop-releases-contested-jeffrey-epstein-report",
         "title": "House Oversight GOP Releases Contested Jeffrey Epstein Report",
         "kicker": "CONGRESSIONAL OVERSIGHT • SPECIAL INVESTIGATION",
@@ -669,6 +741,41 @@ In Albany, Governor Kathy Hochul convened an emergency public health cabinet mee
     }
   ],
     'US': [
+    {
+        "id": "deadly-brooklyn-building-collapse-sparks-massive-rescue-operation",
+        "title": "Deadly Brooklyn Building Collapse Sparks Massive Rescue Operation",
+        "kicker": "DISASTER IN NEW YORK • SEARCH & RESCUE",
+        "summary": "A three-story residential and commercial building collapsed into an adjacent deep-foundation construction excavation in Brooklyn, leaving at least two people dead and triggering a perilous overnight search.",
+        "body": "NEW YORK — A catastrophic structural failure turned a quiet Flatbush neighborhood in Brooklyn into a scene of devastation and frantic emergency mobilization Wednesday evening, after a three-story mixed-use brick building collapsed entirely into an adjacent construction excavation pit. The sudden collapse, which occurred shortly before 6:30 p.m. at the busy intersection of Rogers Avenue and Clarendon Road, claimed the lives of at least two residents, hospitalized nine others with severe blunt-force trauma, and triggered an intense, around-the-clock urban search-and-rescue mission by hundreds of firefighters, heavy rescue specialists, and emergency personnel.\n\nWitnesses described a deafening rumble followed by a massive plume of white concrete dust that engulfed the avenue as the century-old masonry structure sheared along its foundation line, violently pancaking its residential upper floors into the twenty-foot-deep subterranean trench where contractors had been excavating foundation pilings for a planned seven-story commercial development. Emergency dispatchers received dozens of 911 calls from screaming pedestrians and neighboring shop owners who frantically attempted to claw through pulverized rubble before specialized FDNY first-responders arrived on the scene.\n\nMore than two hundred Fire Department of New York firefighters, urban search-and-rescue canine units, and specialized structural collapse teams worked through freezing overnight temperatures, utilizing acoustic listening sensors, thermal imaging drones, and fiber-optic search cameras to locate potential survivors trapped in voids beneath tons of shattered timber, steel beams, and masonry debris. FDNY First Deputy Commissioner Joseph Pfeifer confirmed during a tense early-morning press conference that rescue crews had successfully extricated five pinned individuals alive from the lower debris pocket, while forensic medical examiners formally confirmed two fatalities at the disaster site.\n\n\"This is an extraordinarily complex, treacherous, and unstable collapse environment,\" Commissioner Pfeifer told reporters as searchlights illuminated the smoking excavation site. \"The integrity of the adjacent multi-story residential buildings on either flank has been severely compromised by soil shifting and hydrostatic pressure along the foundation wall. Our rescue members are operating under immense personal peril, hand-digging through shifting brick piles to ensure that every human life is accounted for before heavy mechanical cranes can safely clear the perimeter.\"\n\nInspectors from the New York City Department of Buildings (DOB) and investigators from the Kings County District Attorney's Office immediately launched a joint criminal and administrative inquiry into the construction site's excavation permits and engineering practices. Preliminary city building records indicate that inspectors had issued three safety violations and a partial stop-work order to the general contracting firm over the preceding four months, citing inadequate underpinning, improper earth retention along adjoining properties, and vibration damage reported by residential tenants in the now-collapsed structure.\n\nNew York City Mayor Eric Adams visited the Flatbush command center at sunrise on Thursday, pledging exhaustive city investigations and emergency housing assistance for dozens of displaced families who were evacuated from neighboring brownstones as a mandatory safety precaution. Community organizers, local clergy, and elected council members have opened an emergency intake shelter at a nearby public school, providing hot meals, grief counseling, and clothing drives as heavy rescue operations continue to comb through the rubble in search of any remaining missing individuals.",
+        "category": "US",
+        "edition": [
+            "US & Americas"
+        ],
+        "author": {
+            "name": "Marcus Sterling",
+            "role": "National Justice & Urban Affairs Bureau",
+            "avatar": "/images/authors/marcus_sterling.jpg"
+        },
+        "publishedAt": "3h ago",
+        "readTime": "8 min read",
+        "imageUrl": "/images/news/deadly-brooklyn-building-collapse-sparks-massive-rescue-operation.webp",
+        "imageCaption": "FDNY urban search-and-rescue personnel and heavy excavation machinery work through the night in Brooklyn.",
+        "imageCredit": "Reuters / Shannon Stapleton",
+        "commentCount": 98,
+        "bullets": [
+            "Three-story brick building collapses into 20-foot-deep construction excavation pit in Flatbush, Brooklyn.",
+            "At least two confirmed dead and nine hospitalized as FDNY deploys thermal drones and canine rescue teams.",
+            "City Department of Buildings launches criminal inquiry following prior stop-work orders and underpinning violations."
+        ],
+        "tags": [
+            "US",
+            "Brooklyn",
+            "New York City",
+            "FDNY",
+            "Building Collapse",
+            "Urban Disaster"
+        ]
+    },
     {
         "id": "fbi-probes-fatal-police-shooting-on-north-dakota-reservation",
         "title": "FBI Probes Fatal Police Shooting on North Dakota Reservation",
@@ -881,6 +988,42 @@ As the clocks reset, congressional leaders confirmed that bipartisan committee s
     }
   ],
   'Politics': [
+    {
+        "id": "treasury-chief-scott-bessent-moved-to-military-base-over-threats",
+        "title": "Treasury Chief Scott Bessent Moved to Military Base Over Threats",
+        "kicker": "CABINET SECURITY • THREAT PROTOCOL",
+        "summary": "United States Treasury Secretary Scott Bessent has been relocated from his private residence to a secure military installation following credible intelligence warnings regarding Iranian retaliation threats.",
+        "body": "WASHINGTON — In an extraordinary national security intervention underscoring escalating geopolitical hostilities in the Middle East, United States Treasury Secretary Scott Bessent was relocated late Wednesday from his private residence in metropolitan Washington to a heavily fortified military installation. High-level administration officials and federal law enforcement personnel confirmed Thursday morning that the sudden relocation was mandated by the United States Secret Service and the Department of Defense after American intelligence agencies intercepted credible, actionable intelligence detailing Iranian-directed surveillance and assassination conspiracies targeting the economic architect of the administration's aggressive maximum-pressure sanctions apparatus.\n\nBessent, a veteran Wall Street macro investor who assumed the helm of the Treasury Department earlier this year, becomes the third senior cabinet-level official to be evacuated from conventional residential living into military-administered housing. Secretary of State Marco Rubio and White House Deputy Chief of Staff Stephen Miller were previously transferred to secure quarters at Joint Base Anacostia-Bolling and surrounding military commands following intercepted communications from operatives affiliated with the Islamic Revolutionary Guard Corps (IRGC) and foreign criminal syndicates operating on sovereign American territory.\n\nAccording to senior national security aides speaking on condition of anonymity to discuss sensitive protective intelligence, the threats against Bessent intensified dramatically following last week's sweeping executive actions, in which the Treasury Department's Office of Foreign Assets Control (OFAC) designated an extensive network of twenty-four international front companies, offshore shipping conglomerates, and secondary banking intermediaries that processed illicit Iranian petroleum sales through maritime hubs in the Persian Gulf and Southeast Asia. The sanctions effectively froze an estimated $12 billion in foreign liquidity lines, dealing a severe financial blow to Tehran's regional proxy funding networks.\n\n\"The United States government maintains zero tolerance for foreign state attempts to intimidate, harass, or endanger cabinet officials carrying out lawful constitutional responsibilities,\" White House National Security Council spokesman John Kirby said during a special press briefing Thursday. \"Protective postures for senior leadership are continuously evaluated by our counterterrorism agencies based on real-time threat intelligence. While we do not comment on specific tactical security details, the American public should rest assured that every necessary military and federal resource is mobilized to ensure the absolute safety and continuity of executive government operations.\"\n\nThe unprecedented sight of senior civilian cabinet chiefs operating from guarded military bastions has ignited intense debate across Capitol Hill. Democratic leaders on the Senate Foreign Relations and Armed Services Committees expressed grave concern over the safety of American public servants while demanding comprehensive closed-door intelligence briefings regarding the scope of foreign intelligence penetration within the continental United States. Meanwhile, leading Republican lawmakers called for retaliatory measures, urging the administration to expand naval interdictions and cyber-deterrence strikes against IRGC operational infrastructure.\n\nFederal counterintelligence investigators noted that the elevated threat environment follows the recent unsealing of federal indictments in the Southern District of New York charging foreign operatives with orchestrating assassination plots against American soil targets. As Secret Service tactical units and military police establish expanded perimeter checkpoints around Bessent's operational headquarters, the Treasury chief continues to direct federal debt auctions, international currency stabilization talks, and bilateral trade enforcement from secure military communications facilities, demonstrating that Washington's economic policy apparatus remains fully engaged despite severe external threats.",
+        "category": "Politics",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Sarah Mitchell",
+            "role": "Chief Congressional & National Security Correspondent",
+            "avatar": "/images/authors/sarah_mitchell.jpg"
+        },
+        "publishedAt": "2h ago",
+        "readTime": "8 min read",
+        "imageUrl": "/images/news/treasury-chief-scott-bessent-moved-to-military-base-over-threats.webp",
+        "imageCaption": "The United States Treasury Department building in Washington, D.C., where security protocols have been drastically elevated.",
+        "imageCredit": "Associated Press / J. Scott Applewhite",
+        "commentCount": 142,
+        "bullets": [
+            "Treasury Secretary Scott Bessent moved to military installation following credible IRGC-linked intelligence threats.",
+            "Bessent joins Secretary of State Marco Rubio and Stephen Miller under fortified military protective housing.",
+            "Threat follows massive OFAC sanctions freezing $12B in Iranian maritime oil shipping and financial networks."
+        ],
+        "tags": [
+            "Politics",
+            "Scott Bessent",
+            "Treasury Department",
+            "National Security",
+            "Iran",
+            "Secret Service"
+        ]
+    },
     {
         "id": "democrats-and-gop-clash-over-defense-bill-on-veterans-day",
         "title": "Democrats and GOP Clash Over Defense Bill on Veterans Day",
@@ -1198,6 +1341,42 @@ In Washington, national security officials convened in the White House Situation
 
   'Business & Economy': [
     {
+        "id": "anthropic-kicks-off-landmark-ipo-roadshow-for-1-4t-valuation",
+        "title": "Anthropic Kicks Off Landmark IPO Roadshow for $1.4T Valuation",
+        "kicker": "WALL STREET & SILICON VALLEY • MEGA IPO",
+        "summary": "Artificial intelligence pioneer Anthropic has officially commenced its global investor roadshow, seeking an unprecedented $64.4 billion capital raise at a headline valuation targeting $1.4 trillion.",
+        "body": "NEW YORK & SAN FRANCISCO — In what promises to be the largest and most consequential public equity offering in corporate financial history, artificial intelligence pioneer Anthropic on Thursday officially inaugurated its global investor roadshow. The San Francisco-based frontier research lab, creators of the widely adopted Claude AI model family, filed amended registration statements with the Securities and Exchange Commission (SEC) detailing plans to raise up to $64.4 billion in gross proceeds, anchoring an extraordinary valuation benchmark that could reach $1.4 trillion when trading commences on the Nasdaq Global Select Market under the ticker symbol \"ANT.\"\n\nThe ambitious roadshow, managed by lead underwriting syndicates from Goldman Sachs, Morgan Stanley, and JPMorgan Chase, arrived amidst intense global scrutiny over the long-term capital intensity and commercial monetization of generative AI foundational models. According to institutional offering prospectuses distributed to sovereign wealth funds, pension managers, and private equity syndicates in New York and London, Anthropic generated $8.2 billion in annualized recurring enterprise revenue during the third quarter of 2026, representing a staggering 340% year-over-year expansion fueled by rapid enterprise adoption of its newly debuted Fable 5.2 and Mythos 5.2 reasoning architectures.\n\nSpeaking before an overflowing auditorium of institutional fund managers at the Pierre Hotel in Manhattan, Anthropic Co-Founder and Chief Executive Officer Dario Amodei presented a detailed strategic roadmap emphasizing the company's distinct competitive positioning. Amodei highlighted Anthropic's Constitutional AI safety framework, its deep enterprise software partnerships with Amazon Web Services and Google Cloud, and the accelerating enterprise deployment of autonomous agentic tools—including Claude Sheets, Claude Meetings, and collaborative whiteboard modules that integrate directly into corporate ERP and communications platforms.\n\n\"The trajectory of artificial intelligence is fundamentally transitioning from speculative exploratory consumer chat to the foundational operational backbone of global corporate productivity,\" Amodei told prospective investors. \"Enterprises do not merely seek generic language synthesis; they require deterministic reasoning, rigorous cybersecurity compliance, and provable safety alignments. This historic capital raise provides Anthropic with the balance-sheet fortress required to fund generational compute clusters, pioneer next-generation frontier research, and power global industry transformation.\"\n\nThe offering is structured with exceptional breadth, incorporating a $26 billion strategic private placement alongside dedicated retail investor allocation windows in the United States and Australia, where retail subscriptions opened Thursday morning at an indicative price band between $70 and $78 per share. Financial analysts noted that the IPO arrives as corporate leadership confronts mounting scrutiny over total AI cost structures; a landmark industry study published Thursday by Capgemini Research indicated that 53% of enterprise technology executives are aggressively re-evaluating deployment expenditures, prioritizing multi-model architectures that deliver measurable workflow returns.\n\nWall Street trading desks anticipate unprecedented liquidity velocity when Anthropic formally prices its listing later this month. If market pricing meets the upper boundary of the filing range, Anthropic will immediately rival Apple, Microsoft, and Nvidia among the world's most valuable publicly traded corporations, marking a defining milestone for Silicon Valley's artificial intelligence revolution and reshaping the landscape of global capital markets for decades to come.",
+        "category": "Business",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Tyler Brooks",
+            "role": "Wall Street & Financial Markets Bureau",
+            "avatar": "/images/authors/tyler_brooks.jpg"
+        },
+        "publishedAt": "4h ago",
+        "readTime": "8 min read",
+        "imageUrl": "/images/news/anthropic-kicks-off-landmark-ipo-roadshow-for-1-4t-valuation.webp",
+        "imageCaption": "Trading floor displays at the Nasdaq MarketSite in Times Square tracking institutional roadshow demand for Anthropic.",
+        "imageCredit": "Bloomberg / Michael Nagle",
+        "commentCount": 167,
+        "bullets": [
+            "Anthropic launches global investor roadshow targeting up to $64.4B raise and historic $1.4T market valuation.",
+            "Company reports $8.2B in annualized enterprise run-rate revenue following Fable 5.2 and Mythos 5.2 rollouts.",
+            "Lead underwriters Goldman Sachs, Morgan Stanley, and JPMorgan prepare for late-November Nasdaq listing under ANT."
+        ],
+        "tags": [
+            "Business",
+            "Anthropic",
+            "IPO",
+            "Artificial Intelligence",
+            "Wall Street",
+            "Nasdaq"
+        ]
+    },
+    {
         "id": "securitize-acquires-river-one-to-expand-tokenized-lending",
         "title": "Securitize Acquires River One to Expand Tokenized Lending",
         "kicker": "WALL STREET FINTECH • PRIVATE CREDIT TOKENIZATION",
@@ -1484,6 +1663,42 @@ Sports finance experts note that the move mirrors a broader institutional trend 
   ],
 
   'Tech': [
+    {
+        "id": "deepmind-alphaproof-code-verifies-signal-encryption-protocol",
+        "title": "DeepMind AlphaProof Code Verifies Signal Encryption Protocol",
+        "kicker": "CYBERSECURITY & AI • FORMAL VERIFICATION",
+        "summary": "Google DeepMind has demonstrated a historic mathematical milestone, utilizing its AlphaProof Code system to automatically verify the cryptographic security proofs of the Signal Protocol in weeks.",
+        "body": "LONDON & MOUNTAIN VIEW, Calif. — In a scientific and cybersecurity breakthrough that solves one of computer science's most formidable challenges, artificial intelligence research lab Google DeepMind announced Thursday that its specialized mathematical reasoning engine, AlphaProof Code, has successfully completed the first end-to-end formal mathematical verification of the Signal Protocol. The monumental achievement mathematically guarantees that the core cryptographic architecture safeguarding billions of private communications across WhatsApp, Signal, and modern secure messaging platforms contains zero logic vulnerabilities, backdoors, or cryptographic bypass vectors.\n\nFormal verification—the process of constructing exhaustive, mathematically airtight proofs that software code precisely executes its design specifications under every conceivable state—has long been regarded as the holy grail of software engineering. Historically, verifying complex cryptographic primitives like the Double Ratchet Algorithm, Extended Triple Diffie-Hellman (X3DH), and post-quantum key encapsulation protocols required multi-year efforts by teams of specialized logicians writing millions of manual lines in specialized proof assistants such as Lean, Coq, and Isabelle.\n\nDeepMind's AlphaProof Code system, which combines frontier neural transformer architectures with the Lean interactive theorem prover and reinforcement learning search mechanics, accomplished the comprehensive mathematical proof in less than three weeks of automated inference. The AI system systematically modeled every state transition, asynchronous key exchange, and ephemeral ratchet rotation, generating a cryptographically verifiable Lean 4 proof artifact that was independently compiled and validated by leading theoretical cryptographers from MIT, Stanford, and the Signal Foundation.\n\n\"For decades, the global cybersecurity ecosystem has operated under the perpetual anxiety of hidden logic flaws lurking in mission-critical cryptographic software,\" said Dr. Pushmeet Kohli, Vice President of AI for Science at Google DeepMind. \"Human code audits and empirical fuzzing can demonstrate the presence of bugs, but they can never prove their absolute absence. By demonstrating that AlphaProof Code can autonomously generate machine-checked formal mathematical proofs for real-world cryptographic standards, we have entered an era where software reliability can be mathematically guaranteed before deployment.\"\n\nIndependent security researchers and privacy advocates hailed the announcement as a watershed moment for consumer digital sovereignty. Cryptographic software forms the foundational bedrock of global commerce, defense communications, and democratic expression, yet legacy implementations have historically fallen victim to catastrophic buffer flaws, timing side-channels, and specification ambiguities. Meredith Whittaker, President of the Signal Foundation, welcomed the findings, noting that automated formal verification empowers developers to harden open-source privacy protocols against state-sponsored adversaries and quantum computing decryption risks.\n\nDeepMind confirmed that the complete Lean 4 proof library for the Signal Protocol has been released into the public domain under an open-source license, allowing software engineers worldwide to audit, inspect, and integrate the mathematical guarantees into secure applications. Looking ahead, computer scientists project that autonomous formal verification systems will rapidly expand into aerospace avionics, autonomous vehicle controllers, and smart contract financial ledgers, fundamentally transforming software reliability across global digital infrastructure.",
+        "category": "Tech",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Maya Lin Chen",
+            "role": "Silicon Valley & Cybersecurity Bureau",
+            "avatar": "/images/authors/maya_lin_chen.jpg"
+        },
+        "publishedAt": "5h ago",
+        "readTime": "8 min read",
+        "imageUrl": "/images/news/deepmind-alphaproof-code-verifies-signal-encryption-protocol.webp",
+        "imageCaption": "Automated formal mathematical verification logic trees displayed on terminal screens inside DeepMind laboratories.",
+        "imageCredit": "Google DeepMind Research",
+        "commentCount": 124,
+        "bullets": [
+            "DeepMind's AlphaProof Code constructs exhaustive formal mathematical proof verifying the Signal Protocol in Lean 4.",
+            "Proves zero logic vulnerabilities in Double Ratchet Algorithm and Extended Triple Diffie-Hellman key exchanges.",
+            "Complete open-source proof library released to public domain for global cryptographic verification."
+        ],
+        "tags": [
+            "Tech",
+            "Google DeepMind",
+            "Signal Protocol",
+            "Cybersecurity",
+            "Artificial Intelligence",
+            "Cryptography"
+        ]
+    },
     {
         "id": "openai-launches-businesses-in-chatgpt-enterprise-ai-platform",
         "title": "OpenAI Launches 'Businesses in ChatGPT' Enterprise AI Platform",
@@ -1772,6 +1987,41 @@ Aerospace financial analysts estimate that SpaceX's commercial launch and satell
 
   'Entertainment': [
     {
+        "id": "dua-lipa-named-historic-first-british-female-coachella-headliner",
+        "title": "Dua Lipa Named Historic First British Female Coachella Headliner",
+        "kicker": "MUSIC FESTIVALS • COACHELLA 2027",
+        "summary": "Global pop superstar Dua Lipa will make history in April 2027 as the first British female solo artist to headline the Coachella Valley Music and Arts Festival in Indio, California.",
+        "body": "INDIO, Calif. — In a historic milestone for global pop music, concert promoter Goldenvoice and the Coachella Valley Music and Arts Festival officially unveiled the headline roster for their 2027 spring festival on Thursday, confirming that three-time Grammy Award winner Dua Lipa will top the main stage bill in the Southern California desert. The announcement cements the 31-year-old superstar's status in modern music history, making her the first British female solo artist ever to headline the venerable festival since its founding in 1999.\n\nDua Lipa's historic booking follows an extraordinary year of commercial and critical dominance propelled by her global 'Radical Optimism' stadium tour, which shattered attendance benchmarks across Europe, North America, and Latin America. Blending infectious disco-pop arrangements, intricate choreography, and powerhouse live vocals, the London-born icon has emerged as one of the few contemporary recording artists capable of uniting stadium crowds, underground electronic dance purists, and streaming listeners across global markets.\n\nCoachella organizers revealed that Dua Lipa will headline Saturday night during both consecutive festival weekends—scheduled for April 16-18 and April 23-25, 2027, at the Empire Polo Club in Indio. Joining her on the headline tier are multi-genre titans Kendrick Lamar, who will anchor the opening Friday evenings with a newly conceived theatrical stage production, and electronic supergroup Swedish House Mafia, who are slated to close out Sunday night festivities alongside a roster of surprise global collaborators.\n\n\"Dua Lipa embodies the dynamic, boundary-pushing artistic excellence that Coachella has celebrated for nearly three decades,\" Goldenvoice Chief Executive Officer Paul Tollett said in an official statement accompanying the lineup reveal. \"Her visionary approach to dance-pop, her relentless stagecraft, and her ability to curate an exhilarating live spectacle make this booking a defining moment for the festival. We are extraordinarily proud to welcome her as the first British female solo headliner to the Empire Polo Club stage.\"\n\nIndustry analysts noted that the 2027 lineup reflects a decisive strategic recalibration by major festival promoters in the post-streaming era. Following two years of broader festival cancellations and consumer ticket price sensitivity across the United States, Goldenvoice concentrated its headline investment on universally recognizable stadium headliners with proven global ticket velocity, while expanding mid-tier bookings across international pop, Latin trap, K-pop, and underground British electronic producers.\n\nMusic fans and ticket brokers mobilized immediately Thursday morning following the announcement, with festival passes for Weekend One selling out in less than forty-five minutes during the presale window. As preparations accelerate for April's desert spectacle, Dua Lipa's historic headlining milestone reinforces her undeniable position at the absolute summit of contemporary popular entertainment, carrying the mantle of British pop music onto America's most prestigious festival stage.",
+        "category": "Entertainment",
+        "edition": [
+            "US & Americas"
+        ],
+        "author": {
+            "name": "Claire Montgomery",
+            "role": "Culture & Entertainment Bureau",
+            "avatar": "/images/authors/claire_montgomery.jpg"
+        },
+        "publishedAt": "6h ago",
+        "readTime": "7 min read",
+        "imageUrl": "/images/news/dua-lipa-named-historic-first-british-female-coachella-headliner.webp",
+        "imageCaption": "The Coachella main stage under twilight in Indio, California, where Dua Lipa will headline in April 2027.",
+        "imageCredit": "Getty Images / Frazer Harrison",
+        "commentCount": 89,
+        "bullets": [
+            "Dua Lipa confirmed as first British female solo artist to headline Coachella across its 28-year history.",
+            "Superstar will headline Saturday nights alongside fellow 2027 headliners Kendrick Lamar and Swedish House Mafia.",
+            "Weekend One festival passes sell out in under 45 minutes as stadium pop dominates festival economics."
+        ],
+        "tags": [
+            "Entertainment",
+            "Dua Lipa",
+            "Coachella",
+            "Music Festivals",
+            "Pop Music",
+            "Goldenvoice"
+        ]
+    },
+    {
         "id": "ella-langley-and-olivia-rodrigo-lead-2027-grammy-predictions",
         "title": "Ella Langley and Olivia Rodrigo Lead 2027 Grammy Predictions",
         "kicker": "MUSIC INDUSTRY • AWARDS SEASON OUTLOOK",
@@ -1997,6 +2247,41 @@ Furthermore, cloud streaming platforms and mobile distribution networks have low
   ],
 
   'Sports': [
+    {
+        "id": "us-withdraws-from-u-17-world-cup-in-qatar-over-security-concerns",
+        "title": "US Withdraws from U-17 World Cup in Qatar Over Security Concerns",
+        "kicker": "INTERNATIONAL SOCCER • NATIONAL SECURITY",
+        "summary": "United States Soccer has formally withdrawn the U.S. Men's Under-17 National Team from the FIFA U-17 World Cup in Qatar, citing Middle East security escalations and federal travel advisories.",
+        "body": "CHICAGO — In an unprecedented decision that highlights the escalating intersection of international athletics and volatile geopolitical conflicts, the United States Soccer Federation (USSF) announced Thursday that it has formally withdrawn the United States Men's Under-17 National Team from the upcoming FIFA Under-17 World Cup in Qatar. The tournament, which was scheduled to kick off in Doha on November 19 featuring twenty-four national youth teams from around the globe, has been cast into turmoil as American soccer officials prioritized player safety amid widening regional military skirmishes and heightened terror alerts across the Persian Gulf.\n\nThe decision was finalized following high-level security consultations between US Soccer leadership, the United States Department of State, and regional diplomatic attachés in Doha. The State Department recently elevated its regional consular guidance to a Level 3 \"Reconsider Travel\" advisory across several Gulf nations, specifically warning of increased risks of maritime drone disruptions, ballistic missile interceptions, and retaliatory proxy strikes following United States Central Command kinetic actions against regional military installations in the Strait of Hormuz.\n\nIn an official statement released from US Soccer headquarters in Chicago, Chief Executive Officer JT Batson and Sporting Director Matt Crocker expressed profound sorrow for the youth players who earned World Cup qualification through grueling continental qualifiers, while affirming that the federation could not compromise on duty-of-care obligations for teenage student-athletes.\n\n\"The decision to withdraw our Under-17 Men's National Team from the FIFA World Cup is one of the most agonizing decisions this federation has ever had to execute,\" the US Soccer statement read. \"Our young men, their families, and our coaching staff dedicated years of relentless discipline to earn the right to represent the American flag on the global stage. However, following exhaustive security briefings and direct guidance from United States diplomatic and intelligence agencies regarding the volatile regional threat matrix, we determined that we could not ensure an acceptable safety standard for minor student-athletes in the host region at this time.\"\n\nWorld soccer's governing body, FIFA, acknowledged the American withdrawal with deep regret during an emergency meeting of its competitions committee in Zurich, confirming that international tournament organizers are scrambling to identify an emergency replacement nation from the CONCACAF region on less than eight days' notice. Several European federations, including England and France, confirmed they are conducting their own security assessments with regional embassies, though neither has announced plans to boycott the youth tournament.\n\nThe withdrawal delivers an emotional heartbreak to one of the most promising American youth cohorts in history, featuring elite academy prospects from Major League Soccer clubs and top European developmental programs who were heavily scouted by global sporting directors ahead of the 2028 Los Angeles Olympics. Despite the bitter disappointment, American soccer alumni, coaches, and sports legal experts across the nation widely supported the federation's prudent stance, recognizing that in an era of heightened global volatility, safeguarding young athletes must supersede all athletic ambitions.",
+        "category": "Sports",
+        "edition": [
+            "US & Americas"
+        ],
+        "author": {
+            "name": "David Vance",
+            "role": "Senior Sports Columnist",
+            "avatar": "/images/authors/david_vance.jpg"
+        },
+        "publishedAt": "7h ago",
+        "readTime": "7 min read",
+        "imageUrl": "/images/news/us-withdraws-from-u-17-world-cup-in-qatar-over-security-concerns.webp",
+        "imageCaption": "The United States Men's Under-17 National Team in formation ahead of a recent international training match.",
+        "imageCredit": "USA Today Sports / Brad Penner",
+        "commentCount": 76,
+        "bullets": [
+            "US Soccer formally withdraws Men's U-17 squad from FIFA World Cup in Qatar on safety grounds.",
+            "Follows State Department Level 3 Travel Advisory and recent Persian Gulf military drone skirmishes.",
+            "FIFA holds emergency Zurich summit to identify emergency CONCACAF replacement ahead of Nov 19 kickoff."
+        ],
+        "tags": [
+            "Sports",
+            "Soccer",
+            "USMNT",
+            "FIFA",
+            "Qatar",
+            "World Cup"
+        ]
+    },
     {
         "id": "michigan-state-downs-duke-79-73-in-chicago-college-showdown",
         "title": "Michigan State Downs Duke 79-73 in Chicago College Showdown",
@@ -2244,6 +2529,42 @@ On the stadium infrastructure front, club executives evaluated demonstrations of
   ],
 
   'Science': [
+    {
+        "id": "nature-study-confirms-accuracy-of-historic-m87-black-hole-image",
+        "title": "Nature Study Confirms Accuracy of Historic M87 Black Hole Image",
+        "kicker": "ASTROPHYSICS • DEEP SPACE DISCOVERY",
+        "summary": "An independent study published in Nature utilizing breakthrough Bayesian data-processing algorithms has officially validated the groundbreaking 2019 Event Horizon Telescope image of the M87 black hole.",
+        "body": "CAMBRIDGE, Mass. — Seven years after humanity first gazed upon the incandescent shadow of a supermassive black hole, an independent international consortium of astrophysicists and computational theorists has put to rest all lingering scientific skepticism. In a landmark peer-reviewed study published Thursday in the journal *Nature*, researchers utilizing revolutionary Bayesian algorithmic reconstruction techniques and blind synthetic benchmarking confirmed with unprecedented mathematical certainty the accuracy and physical fidelity of the historic 2019 Event Horizon Telescope (EHT) image of the supermassive black hole at the center of the Messier 87 (M87) galaxy.\n\nWhen the global EHT collaboration unveiled the iconic golden crescent of light encircling a pitch-black abyss fifty-five million light-years away in April 2019, it sparked worldwide astonishment alongside intense academic debate. Because the Event Horizon Telescope combined radio dishes spanning from Antarctica to Hawaii to create an Earth-sized virtual aperture—producing sparse, incomplete interferometric data—some theoretical physicists questioned whether the prominent ring shape was an artifact of algorithmic bias or calibration choices in the original imaging pipelines.\n\nTo resolve the controversy definitively, an independent team led by astrophysicists from Harvard University, the Max Planck Institute for Radio Astronomy, and CSIRO Australia developed an entirely independent algorithmic architecture called Bayesian Ring Inference and Calibration (BRIC). Working completely isolated from original EHT analysis pipelines, the team fed raw radio telescope recordings through millions of stochastic simulations, testing hundreds of competing morphological models including chaotic plasma blobs, uniform disks, and warped gravitational jets.\n\nThe results, published after eighteen months of rigorous supercomputing verification, delivered resounding mathematical vindication for the original discovery. The independent algorithm confirmed that the asymmetric bright ring of radiation—measuring forty-two microarcseconds in diameter—is the only geometric configuration mathematically compatible with the raw observational data at a confidence level exceeding five sigma. Furthermore, the new analysis revealed previously obscured subtle features in the relativistic accretion disk, demonstrating that superheated plasma is plunging into the singularity at approximately 15% the speed of light.\n\n\"Science thrives on rigorous skepticism and independent verification,\" said Dr. Katherine Bouman, Assistant Professor of Computing and Mathematical Sciences and a co-investigator on the project. \"When dealing with extreme gravitational environments that push the boundaries of general relativity, humanity cannot simply accept a visual depiction on faith. This independent study demonstrates that what the world saw in 2019 was not a computational mirage; it was the authentic, glowing event horizon of a black hole six and a half billion times more massive than our Sun.\"\n\nThe study's groundbreaking computational methodologies are already being deployed across next-generation radio observatories, including the upcoming Next Generation Event Horizon Telescope (ngEHT) and space-based submillimeter interferometers. As physicists prepare to release real-time dynamical movies of black hole accretion flows over the coming years, Thursday's Nature confirmation stands as a triumphant testament to scientific rigor, validating humanity's deepest visual journey into the cosmic unknown.",
+        "category": "Science",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Julian Thorne",
+            "role": "Astrophysics & Space Exploration Bureau",
+            "avatar": "/images/authors/julian_thorne.jpg"
+        },
+        "publishedAt": "8h ago",
+        "readTime": "8 min read",
+        "imageUrl": "/images/news/nature-study-confirms-accuracy-of-historic-m87-black-hole-image.webp",
+        "imageCaption": "The glowing ring of superheated plasma encircling the M87 supermassive black hole validated by independent Nature study.",
+        "imageCredit": "Event Horizon Telescope Collaboration / Nature",
+        "commentCount": 93,
+        "bullets": [
+            "Independent study in Nature validates physical fidelity of historic 2019 M87 supermassive black hole image.",
+            "Novel Bayesian supercomputing algorithm disproves skepticism regarding interferometric imaging artifacts.",
+            "Confirms 42-microarcsecond photon ring diameter and relativistic plasma inflows at 5-sigma confidence."
+        ],
+        "tags": [
+            "Science",
+            "Black Hole",
+            "M87",
+            "Nature",
+            "Astrophysics",
+            "Event Horizon Telescope"
+        ]
+    },
     {
         "id": "nasa-unveils-promise-moon-rover-built-from-mars-rover-spares",
         "title": "NASA Unveils PROMISE Moon Rover Built from Mars Rover Spares",
@@ -2502,6 +2823,42 @@ Domestic automotive manufacturers have committed multi-billion-dollar off-take a
   ],
 
   'Opinion': [
+    {
+        "id": "why-moving-cabinet-chiefs-to-military-bases-sets-a-bad-precedent",
+        "title": "Why Moving Cabinet Chiefs to Military Bases Sets a Bad Precedent",
+        "kicker": "EDITORIAL BOARD • CONSTITUTIONAL ORDER",
+        "summary": "Relocating civilian cabinet secretaries to guarded military installations amid foreign threats may seem like prudent security, but it risks blurring the vital constitutional line between civilian governance and the armed forces.",
+        "body": "WASHINGTON — The news that United States Treasury Secretary Scott Bessent has been evacuated from his private residence to a secure military installation—joining Secretary of State Marco Rubio and senior White House aides behind barbed wire and armed military checkpoints—should send a chill down the spine of every American who cherishes constitutional democracy. While the physical safety of public servants confronting legitimate foreign assassination conspiracies is non-negotiable, the institutional normalization of civilian governance operating from military garrisons sets a profoundly dangerous and corrosive precedent for the American republic.\n\nFor nearly two and a half centuries, the United States has stood as a beacon of democratic resilience precisely because its civilian leaders operate openly among the citizens they represent. The principle of civilian supremacy over the military, enshrined by the framers in the Constitution and fiercely defended through world wars and domestic crises, relies not merely on statutory legal doctrines, but on the visible, daily reality of civilian governance remaining distinct, accessible, and accountable. When the officials responsible for managing national taxation, foreign diplomacy, and executive policy retreat into military fortresses, the symbolic and operational architecture of the republic begins to resemble an embattled garrison state.\n\nThe immediate justification offered by the administration is, of course, protective necessity. In an era where hostile foreign regimes and proxy networks utilize digital surveillance, transnational criminal cartels, and loitering munitions to reach onto American soil, the threat matrix confronting public servants is undeniably severe. Federal law enforcement agencies have an absolute obligation to deploy maximum protective resources, including around-the-clock Secret Service details, armored transport, and counter-surveillance operations. But these security measures must be executed through civilian federal law enforcement—not by transforming active-duty military bases into permanent administrative enclaves for political appointees.\n\nThe operational hazards of this militarized retreat are far from theoretical. Operating behind military perimeter security insulates political leaders from public scrutiny, legislative oversight, and the essential friction of democratic accountability. Press access becomes severely restricted by military security classifications; whistleblowers within civil departments are deterred by base entry checkpoints; and the institutional culture of civilian departments risks becoming subordinated to military operational hierarchies. Furthermore, it projects an image of profound systemic weakness to foreign adversaries, signaling that the world's preeminent superpower cannot safeguard its highest officials without resorting to domestic military sequestration.\n\nHistory offers stark warnings regarding what happens when civilian governance becomes physically and culturally entwined with the armed forces. Republics do not typically succumb to sudden, dramatic military coups; they erode incrementally when civilian institutions abdicate their independence, normalize military intervention in domestic affairs, and prioritize bunkerized security over open democratic engagement. \n\nCongress must not remain a silent bystander to this accelerating militarization. The House and Senate Armed Services and Judiciary Committees must demand immediate, transparent oversight into the statutory authorizations, funding streams, and duration of these military housing arrangements. Protecting the lives of our nation's leaders is essential; but protecting the constitutional soul of the American republic from creeping militarism is an obligation that transcends any individual public servant.",
+        "category": "Opinion",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Elena Rostova",
+            "role": "Editorial Board & Constitutional Affairs",
+            "avatar": "/images/authors/elena_rostova.jpg"
+        },
+        "publishedAt": "10h ago",
+        "readTime": "8 min read",
+        "imageUrl": "/images/news/why-moving-cabinet-chiefs-to-military-bases-sets-a-bad-precedent.webp",
+        "imageCaption": "Security barriers and sentry checkpoints at an armed forces installation in the capital region.",
+        "imageCredit": "Getty Images / Win McNamee",
+        "commentCount": 112,
+        "bullets": [
+            "Relocating civilian cabinet heads to military bases blurs the vital constitutional line between civilian and military power.",
+            "Insulating civilian leaders behind military checkpoints undermines public access, press transparency, and democratic norms.",
+            "Congress must assert rigorous oversight to prevent the normalization of a bunkerized garrison state."
+        ],
+        "tags": [
+            "Opinion",
+            "Editorial Board",
+            "Constitution",
+            "Civilian Control",
+            "Scott Bessent",
+            "Military"
+        ]
+    },
     {
         "id": "why-court-decision-on-reporter-records-protects-press-freedom",
         "title": "Why Court Decision on Reporter Records Protects Press Freedom",
@@ -3125,45 +3482,45 @@ export function getHomepageDepartmentArticles(dept: string): Article[] {
   const mapping: Record<string, string[]> = {
     us: [
       'the-vanity-of-alina-habba-mildon',
+      'deadly-brooklyn-building-collapse-sparks-massive-rescue-operation',
       'fbi-probes-fatal-police-shooting-on-north-dakota-reservation',
-      'biden-memoir-excerpts-deliver-blistering-indictment-of-trump',
-      'seven-states-pass-major-constitutional-ballot-amendments'
+      'biden-memoir-excerpts-deliver-blistering-indictment-of-trump'
     ],
     politics: [
+      'treasury-chief-scott-bessent-moved-to-military-base-over-threats',
       'democrats-and-gop-clash-over-defense-bill-on-veterans-day',
       'massie-files-resolution-to-impeach-defense-chief-pete-hegseth',
-      '2026-midterms-gop-takes-senate-as-house-battle-nears-recounts',
-      'supreme-court-rejects-emergency-bid-on-california-mail-ballots'
+      '2026-midterms-gop-takes-senate-as-house-battle-nears-recounts'
     ],
     business: [
+      'anthropic-kicks-off-landmark-ipo-roadshow-for-1-4t-valuation',
       'securitize-acquires-river-one-to-expand-tokenized-lending',
       'dow-surges-1104-points-as-wall-street-stages-monster-rally',
-      'sp-500-hits-record-high-on-midterm-clarity-and-steady-jobs-data',
-      'crude-oil-surges-above-89-as-us-strikes-iranian-drone-bases'
+      'sp-500-hits-record-high-on-midterm-clarity-and-steady-jobs-data'
     ],
     tech: [
+      'deepmind-alphaproof-code-verifies-signal-encryption-protocol',
       'openai-launches-businesses-in-chatgpt-enterprise-ai-platform',
       'eu-drafts-digital-fairness-act-to-ban-deceptive-web-design',
-      'openai-and-anthropic-launch-joint-safety-accord-for-ai-agents',
-      'doj-expands-nvidia-antitrust-probe-over-hugging-face-buyout'
+      'openai-and-anthropic-launch-joint-safety-accord-for-ai-agents'
     ],
     entertainment: [
+      'dua-lipa-named-historic-first-british-female-coachella-headliner',
       'ella-langley-and-olivia-rodrigo-lead-2027-grammy-predictions',
       'johnny-depp-readies-hollywood-return-in-paramount-ebenezer',
-      'grammy-nominations-2027-global-and-indie-artists-dominate',
-      'christopher-nolans-the-odyssey-hits-record-1-17-billion'
+      'grammy-nominations-2027-global-and-indie-artists-dominate'
     ],
     sports: [
+      'us-withdraws-from-u-17-world-cup-in-qatar-over-security-concerns',
       'michigan-state-downs-duke-79-73-in-chicago-college-showdown',
       'bills-stifle-vikings-23-6-in-dominant-monday-night-football',
-      'dodgers-win-2026-world-series-in-extra-inning-game-7-thriller',
-      'lamar-jackson-out-on-injured-reserve-following-thumb-surgery'
+      'dodgers-win-2026-world-series-in-extra-inning-game-7-thriller'
     ],
     science: [
+      'nature-study-confirms-accuracy-of-historic-m87-black-hole-image',
       'nasa-unveils-promise-moon-rover-built-from-mars-rover-spares',
       'nasa-chapea-crew-completes-378-days-inside-mars-simulation',
-      'webb-telescope-finds-water-vapor-on-habitable-zone-exoplanet',
-      'nasa-voyager-1-reaches-record-one-light-day-distance-from-earth'
+      'webb-telescope-finds-water-vapor-on-habitable-zone-exoplanet'
     ]
   };
 
