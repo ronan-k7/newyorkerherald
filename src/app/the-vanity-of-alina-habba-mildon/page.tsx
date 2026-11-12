@@ -207,7 +207,7 @@ export default function AlinaHabbaSpecialDossierPage() {
               style={{
                 width: '100%',
                 height: 'auto',
-                maxHeight: '580px',
+                maxHeight: '680px',
                 objectFit: 'cover',
                 objectPosition: 'center 15%',
                 display: 'block',

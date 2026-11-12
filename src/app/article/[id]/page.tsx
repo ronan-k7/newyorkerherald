@@ -158,12 +158,12 @@ export default function ArticleDetailPage() {
 
             {/* Large Featured Image */}
             <div style={{ width: '100%', marginBottom: '20px' }}>
-              <div className="aura-img-wrap" style={{ height: 'clamp(200px, 35vw, 380px)', width: '100%', marginBottom: '6px' }}>
-                <img src={article.imageUrl} alt={article.title} className="aura-card-img" />
+              <div className="aura-img-wrap" style={{ height: 'clamp(280px, 52vw, 560px)', width: '100%', marginBottom: '6px' }}>
+                <img src={article.imageUrl} alt={article.title} className="aura-card-img" style={{ objectPosition: 'center 20%' }} />
               </div>
               <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.68rem', color: 'var(--text-muted)' }}>
-                <span>Newyorkerherald Photojournalism Syndicate / AP Wire</span>
-                <span>Archival Transmission • Verified Dispatch</span>
+                <span>{article.imageCaption || 'Newyorkerherald Photojournalism Syndicate / AP Wire'}</span>
+                <span>{article.imageCredit || 'Archival Transmission • Verified Dispatch'}</span>
               </div>
             </div>
 
