@@ -3,35 +3,35 @@ import { Article, OpinionColumn, FactCheckItem, PhotoStory, VideoItem, PodcastEp
 export const BREAKING_NEWS_ITEMS = [
   {
     id: 'brk-1',
-    kicker: 'CABINET SECURITY',
-    headline: 'Treasury Chief Scott Bessent Moved to Military Base Over Threats',
+    kicker: 'WHITE HOUSE PIVOT',
+    headline: 'Trump Drops Iran Deal Talks and Pivots Vance to Urban Crime',
     time: '4m ago',
-    url: '/politics/treasury-chief-scott-bessent-moved-to-military-base-over-threats'
+    url: '/politics/trump-drops-iran-deal-talks-and-pivots-vance-to-urban-crime'
   },
   {
     id: 'brk-2',
-    kicker: 'DISASTER IN NY',
-    headline: 'Deadly Brooklyn Building Collapse Sparks Massive Rescue Operation',
+    kicker: 'CAPITAL CRISIS',
+    headline: 'Deadly Logan Circle Shooting in Washington Leaves Two Dead',
     time: '18m ago',
-    url: '/us/deadly-brooklyn-building-collapse-sparks-massive-rescue-operation'
+    url: '/us/deadly-logan-circle-shooting-in-washington-leaves-two-dead'
   },
   {
     id: 'brk-3',
-    kicker: 'AI MEGA IPO',
-    headline: 'Anthropic Kicks Off Landmark IPO Roadshow for $1.4T Valuation',
+    kicker: 'TECH EARTHQUAKE',
+    headline: 'Jensen Huang Abruptly Steps Down as CEO of Nvidia in Shock Exit',
     time: '32m ago',
-    url: '/business/anthropic-kicks-off-landmark-ipo-roadshow-for-1-4t-valuation'
+    url: '/tech/jensen-huang-abruptly-steps-down-as-ceo-of-nvidia-in-shock-exit'
   }
 ];
 
 export const TRENDING_TAGS = [
-  '#ScottBessent',
-  '#BrooklynCollapse',
-  '#AnthropicIPO',
-  '#DeepMindSignal',
-  '#DuaLipaCoachella',
-  '#USMNTU17',
-  '#M87BlackHole'
+  '#JensenHuangExit',
+  '#TrumpIranPivot',
+  '#LoganCircle',
+  '#TreasuryYields',
+  '#Cade52Points',
+  '#ESCAPADEMars',
+  '#Gootloader'
 ];
 
 export const LEAD_ARTICLE: Article = {
@@ -79,6 +79,42 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
 };
 
 export const SECONDARY_LEAD_STORIES: Article[] = [
+    {
+        "id": "trump-drops-iran-deal-talks-and-pivots-vance-to-urban-crime",
+        "title": "Trump Drops Iran Deal Talks and Pivots Vance to Urban Crime",
+        "kicker": "WHITE HOUSE DIPLOMACY • DOMESTIC REALIGNMENT",
+        "summary": "President Donald Trump has abruptly terminated diplomatic negotiations with Iran, claiming strategic deterrence has succeeded, while redirecting Vice President JD Vance to spearhead a federal crackdown on crime in Democratic cities.",
+        "body": "WASHINGTON — In a sweeping dual-track foreign policy and domestic governance pivot announced Thursday afternoon from the Oval Office, President Donald Trump declared that the United States is officially terminating all indirect diplomatic talks aimed at securing a formal security accord with the government of Iran. Proclaiming that recent kinetic strikes against Iranian military facilities and sweeping maritime sanctions had effectively achieved American deterrence objectives, Trump dismissed the necessity of formal bilateral treaties, stating bluntly before reporters, \"We don't need a deal with Iran anymore; they understand the consequences of their actions, and our goals have been completely accomplished.\"\n\nThe surprise diplomatic rupture carries immediate domestic political ramifications. With international negotiations formally paused, Trump announced that he has reassigned Vice President JD Vance—who had spent recent months coordinating regional diplomatic and deterrence posture across Gulf capitals—to pivot his executive focus entirely toward domestic law enforcement initiatives. Under the new executive directive, Vance has been tasked with chairing a newly convened White House Task Force on Urban Crime and Administrative Integrity, designed to scrutinize governance and deploy federal resources into major Democratic-led municipal centers including Chicago, Philadelphia, Detroit, and Los Angeles.\n\n\"The greatest threats confronting everyday American families are not merely thousands of miles away across foreign seas, but inside our own decayed, crime-ridden metropolitan centers,\" Trump said during the briefing, flanked by Attorney General Todd Blanche and senior domestic policy aides. \"We have established peace through unmatched strength abroad; now Vice President Vance is going to bring that same uncompromising strength into our cities. We are going to root out municipal corruption, enforce federal laws on our streets, and hold local officials strictly accountable to the American taxpayer.\"\n\nThe abrupt strategic shift drew fierce criticism from congressional Democrats and national security scholars, who warned that abandoning formal diplomatic guardrails risks triggering uncontrolled military escalation in the Persian Gulf. Ranking members on the House Foreign Affairs and Senate Armed Services Committees accused the administration of walking away from essential verification mechanisms at the exact moment international watchdogs report heightened regional volatility. Democrats also denounced Vance's municipal assignment as a blatant political maneuver aimed at weaponizing federal agencies against political rivals in the aftermath of Republican midterm defeats.\n\n\"Walking away from strategic diplomacy without verifiable protocols is a dangerous abdication of international leadership that places American service members and commercial shipping in severe jeopardy,\" Senate Foreign Relations Committee members said in a joint statement. \"Furthermore, using the vice presidency as a partisan battering ram to intimidate municipal mayors and undermine local self-governance is an authoritarian overreach that flagrantly violates the constitutional principles of federalism.\"\n\nMeanwhile, allies in Riyadh, Abu Dhabi, and Jerusalem were reportedly caught off-guard by the announcement, scrambling to evaluate whether the cessation of formal talks signals an impending expansion of unilateral American maritime blockades or tactical airstrikes against regional proxy networks. As Vice President Vance prepares to convene his initial task force hearings at the Eisenhower Executive Office Building on Friday, Washington stands poised for a fierce constitutional confrontation over the boundaries of federal law enforcement authority in urban America.",
+        "category": "Politics",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Sarah Mitchell",
+            "role": "Chief Congressional & National Security Correspondent",
+            "avatar": "/images/authors/sarah_mitchell.jpg"
+        },
+        "publishedAt": "2h ago",
+        "readTime": "8 min read",
+        "imageUrl": "/images/news/trump-drops-iran-deal-talks-and-pivots-vance-to-urban-crime.webp",
+        "imageCaption": "The Oval Office in the White House, where President Trump announced the foreign policy shift.",
+        "imageCredit": "Associated Press / Carolyn Kaster",
+        "commentCount": 154,
+        "bullets": [
+            "President Trump officially terminates indirect diplomatic talks with Iran, asserting US deterrence is secured.",
+            "Vice President JD Vance reassigned from Middle East talks to lead federal task force on urban crime in blue cities.",
+            "Congressional Democrats denounce the domestic deployment as an assault on constitutional federalism."
+        ],
+        "tags": [
+            "Politics",
+            "Donald Trump",
+            "JD Vance",
+            "Iran",
+            "Foreign Policy",
+            "White House"
+        ]
+    },
     {
         "id": "treasury-chief-scott-bessent-moved-to-military-base-over-threats",
         "title": "Treasury Chief Scott Bessent Moved to Military Base Over Threats",
@@ -517,6 +553,42 @@ As the Federal Energy Regulatory Commission (FERC) convenes national stakeholder
 export const CATEGORY_ARTICLES: Record<string, Article[]> = {
   'Investigation': [
     {
+        "id": "doj-and-global-allies-dismantle-notorious-gootloader-cyber-ring",
+        "title": "DOJ and Global Allies Dismantle Notorious Gootloader Cyber Ring",
+        "kicker": "GLOBAL CYBER CRIME TAKEDOWN • FEDERAL PROBE",
+        "summary": "The Department of Justice, alongside international law enforcement partners in Germany, the UK, and Europol, has successfully dismantled the sprawling Gootloader malware and corporate extortion infrastructure.",
+        "body": "WASHINGTON & THE HAGUE — In one of the most sophisticated and far-reaching international cybercrime disruptions in federal law enforcement history, the United States Department of Justice, in coordination with the FBI and police authorities across Germany, the United Kingdom, and the Netherlands, announced Thursday the complete takedown of the notorious \"Gootloader\" malware syndicate. The multinational operation seized command-and-control server infrastructure, frozen illicit cryptocurrency wallets, and dismantled a criminal distribution network responsible for extorting hundreds of millions of dollars from American healthcare systems, educational institutions, and critical infrastructure corporations.\n\nGootloader, a sophisticated malware-as-a-service (MaaS) platform that operated for more than seven years under various aliases, functioned as the premier initial-access broker for elite Russian-speaking ransomware syndicates, including LockBit, BlackCat, and Hive. The criminal enterprise utilized an advanced technique known as search engine optimization (SEO) poisoning, compromising legitimate WordPress websites and manipulating search engine algorithms so that unsuspecting corporate professionals searching for standard business contracts, legal templates, and administrative forms were redirected to malicious landing pages that silently downloaded secondary stealth payloads.\n\nAccording to unsealed federal indictments in the District of Columbia and the Southern District of Texas, the Gootloader infrastructure infected over two hundred thousand corporate and government endpoints across forty countries. Once embedded inside an enterprise network, the operators harvested administrative credentials, mapped internal data directories, and sold active network persistence to high-level ransomware affiliates who subsequently encrypted sensitive data repositories and demanded millions in ransom payments under threat of public disclosure.\n\n\"Today's coordinated global takedown delivers a devastating blow to a cybercriminal syndicate that operated under the delusion of digital impunity,\" Deputy Attorney General Lisa Monaco stated during a joint press briefing at the Department of Justice headquarters. \"Gootloader was the digital gateway that enabled destructive ransomware attacks against American hospitals, emergency service networks, and municipal utilities. By seizing their servers, sinking their illicit domains, and dismantling their operational code, we have neutralized a primary highway of global ransomware extortion.\"\n\nThe takedown operation, codenamed \"Operation Broken Anchor,\" executed synchronized law enforcement raids across twelve countries early Thursday morning. Federal agents and European cyber investigators seized fifty-six command-and-control servers in Frankfurt, London, and Zurich, while international domain registries seized control of more than four hundred malicious redirection domains, routing web traffic to law enforcement splash pages displaying international seizure notices.\n\nCybersecurity analysts and corporate defense specialists celebrated the takedown as a critical structural victory in the ongoing war against organized digital extortion. While federal prosecutors emphasized that ongoing grand jury investigations are actively pursuing the fugitive ringleaders operating from safe-haven jurisdictions, the destruction of Gootloader's technical infrastructure eliminates a primary conduit of corporate breach activity, significantly elevating cybersecurity resilience for thousands of American businesses.",
+        "category": "Investigation",
+        "edition": [
+            "US & Americas"
+        ],
+        "author": {
+            "name": "Jonathan Ross",
+            "role": "Chief Investigative Reporter",
+            "avatar": "/images/authors/jonathan_ross.jpg"
+        },
+        "publishedAt": "9h ago",
+        "readTime": "9 min read",
+        "imageUrl": "/images/news/doj-and-global-allies-dismantle-notorious-gootloader-cyber-ring.webp",
+        "imageCaption": "FBI Cyber Division tactical command center monitoring server seizures and network infrastructure shutdowns.",
+        "imageCredit": "Associated Press / Patrick Semansky",
+        "isInvestigative": true,
+        "commentCount": 168,
+        "bullets": [
+            "DOJ, FBI, and Europol seize 56 servers and 400+ domains dismantling Gootloader malware syndicate.",
+            "Criminal network used SEO poisoning on business contract sites to breach over 200,000 corporate endpoints.",
+            "Syndicate served as primary initial-access broker for high-profile global ransomware cartels."
+        ],
+        "tags": [
+            "Investigation",
+            "Cybersecurity",
+            "DOJ",
+            "FBI",
+            "Ransomware",
+            "Malware"
+        ]
+    },
+    {
         "id": "doj-prosecutor-overseeing-trump-foes-probe-abruptly-resigns",
         "title": "DOJ Prosecutor Overseeing Trump Foes Probe Abruptly Resigns",
         "kicker": "JUSTICE DEPARTMENT TURMOIL • SPECIAL PROBE",
@@ -741,6 +813,41 @@ In Albany, Governor Kathy Hochul convened an emergency public health cabinet mee
     }
   ],
     'US': [
+    {
+        "id": "deadly-logan-circle-shooting-in-washington-leaves-two-dead",
+        "title": "Deadly Logan Circle Shooting in Washington Leaves Two Dead",
+        "kicker": "CAPITAL CRISIS • ACTIVE SHOOTER INVESTIGATION",
+        "summary": "A deadly confrontation involving an armed physician in Washington, D.C.'s Logan Circle neighborhood left two people dead, several injured, and prompted an emergency shelter-in-place order as gas lines were compromised.",
+        "body": "WASHINGTON — Heavily armed federal tactical units, emergency bomb squads, and Metropolitan Police Department officers swarmed the historic Logan Circle neighborhood of Washington, D.C., Thursday morning following a deadly active shooter rampage inside a multi-story residential apartment complex. The violent incident, which resulted in the deaths of at least two individuals—including the suspected gunman—left three others hospitalized with gunshot wounds and triggered emergency building evacuations after natural gas utility lines were intentionally breached during the standoff.\n\nAccording to preliminary statements delivered by Metropolitan Police Department Chief Pamela Smith, 911 dispatchers received frantic emergency distress calls shortly after 8:15 a.m. reporting continuous automatic and semi-automatic gunfire erupting from a second-floor apartment along the 1400 block of Rhode Island Avenue NW. When tactical patrol units breached the residential vestibule, they encountered heavy gunfire and a strong odor of combustible natural gas, prompting immediate perimeter lockdowns and a shelter-in-place advisory across surrounding commercial corridors and nearby primary schools.\n\nLaw enforcement personnel identified the deceased gunman as a 48-year-old licensed local physician who had previously practiced at regional medical centers in Maryland and the District. Tactical entry teams discovered the suspect dead inside the apartment from an apparent self-inflicted gunshot wound, surrounded by an extensive tactical arsenal that included a 12-gauge shotgun, a high-caliber semi-automatic rifle, multiple loaded handguns, and hundreds of rounds of high-capacity ammunition. A 32-year-old building maintenance supervisor was discovered fatally shot in the hallway outside the residence.\n\n\"Our first-responding officers displayed extraordinary bravery, entering a live-fire environment with active gas leaks to evacuate frightened residents from neighboring apartment units,\" Chief Smith told reporters during a solemn afternoon briefing at police headquarters. \"Had tactical teams not rapidly suppressed the situation and coordinated with Washington Gas to shut off the primary intake valve, the combination of discharging firearms and pooling combustible vapor could have triggered a catastrophic structural explosion in the heart of our city.\"\n\nFederal agents from the Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF) and the Federal Bureau of Investigation's Washington Field Office arrived on the scene to assist municipal detectives in tracing the provenance of the firearms and examining the suspect's digital communications, medical licensing records, and recent civil litigation filings. Investigators are scrutinizing whether the confrontation stemmed from an impending eviction dispute or an acute psychological crisis, noting that neighbors had lodged multiple noise complaints and safety concerns with property management over the preceding fortnight.\n\nDistrict of Columbia Mayor Muriel Bowser visited the scene Thursday afternoon, praising first-responders while calling for renewed national attention to mental health intervention frameworks and gun safety legislation in the capital. The American Red Cross and the D.C. Department of Human Services have established an emergency family assistance annex at a neighboring community recreation center to support dozens of displaced tenants whose residences remain closed off pending hazardous materials sweeps and structural engineering assessments.",
+        "category": "US",
+        "edition": [
+            "US & Americas"
+        ],
+        "author": {
+            "name": "Marcus Sterling",
+            "role": "National Justice & Urban Affairs Bureau",
+            "avatar": "/images/authors/marcus_sterling.jpg"
+        },
+        "publishedAt": "3h ago",
+        "readTime": "8 min read",
+        "imageUrl": "/images/news/deadly-logan-circle-shooting-in-washington-leaves-two-dead.webp",
+        "imageCaption": "Metropolitan Police Department vehicles and federal tactical units seal off Rhode Island Avenue in Logan Circle.",
+        "imageCredit": "Reuters / Shannon Stapleton",
+        "commentCount": 88,
+        "bullets": [
+            "Two dead and three hospitalized following armed rampage and gas line breach in Logan Circle, Washington, D.C.",
+            "Gunman identified as local physician recovered dead alongside multiple firearms, rifles, and ammunition caches.",
+            "ATF and FBI join municipal homicide detectives to trace firearm origins and investigate motive."
+        ],
+        "tags": [
+            "US",
+            "Washington DC",
+            "Logan Circle",
+            "Police",
+            "Active Shooter",
+            "ATF"
+        ]
+    },
     {
         "id": "deadly-brooklyn-building-collapse-sparks-massive-rescue-operation",
         "title": "Deadly Brooklyn Building Collapse Sparks Massive Rescue Operation",
@@ -988,6 +1095,42 @@ As the clocks reset, congressional leaders confirmed that bipartisan committee s
     }
   ],
   'Politics': [
+    {
+        "id": "trump-drops-iran-deal-talks-and-pivots-vance-to-urban-crime",
+        "title": "Trump Drops Iran Deal Talks and Pivots Vance to Urban Crime",
+        "kicker": "WHITE HOUSE DIPLOMACY • DOMESTIC REALIGNMENT",
+        "summary": "President Donald Trump has abruptly terminated diplomatic negotiations with Iran, claiming strategic deterrence has succeeded, while redirecting Vice President JD Vance to spearhead a federal crackdown on crime in Democratic cities.",
+        "body": "WASHINGTON — In a sweeping dual-track foreign policy and domestic governance pivot announced Thursday afternoon from the Oval Office, President Donald Trump declared that the United States is officially terminating all indirect diplomatic talks aimed at securing a formal security accord with the government of Iran. Proclaiming that recent kinetic strikes against Iranian military facilities and sweeping maritime sanctions had effectively achieved American deterrence objectives, Trump dismissed the necessity of formal bilateral treaties, stating bluntly before reporters, \"We don't need a deal with Iran anymore; they understand the consequences of their actions, and our goals have been completely accomplished.\"\n\nThe surprise diplomatic rupture carries immediate domestic political ramifications. With international negotiations formally paused, Trump announced that he has reassigned Vice President JD Vance—who had spent recent months coordinating regional diplomatic and deterrence posture across Gulf capitals—to pivot his executive focus entirely toward domestic law enforcement initiatives. Under the new executive directive, Vance has been tasked with chairing a newly convened White House Task Force on Urban Crime and Administrative Integrity, designed to scrutinize governance and deploy federal resources into major Democratic-led municipal centers including Chicago, Philadelphia, Detroit, and Los Angeles.\n\n\"The greatest threats confronting everyday American families are not merely thousands of miles away across foreign seas, but inside our own decayed, crime-ridden metropolitan centers,\" Trump said during the briefing, flanked by Attorney General Todd Blanche and senior domestic policy aides. \"We have established peace through unmatched strength abroad; now Vice President Vance is going to bring that same uncompromising strength into our cities. We are going to root out municipal corruption, enforce federal laws on our streets, and hold local officials strictly accountable to the American taxpayer.\"\n\nThe abrupt strategic shift drew fierce criticism from congressional Democrats and national security scholars, who warned that abandoning formal diplomatic guardrails risks triggering uncontrolled military escalation in the Persian Gulf. Ranking members on the House Foreign Affairs and Senate Armed Services Committees accused the administration of walking away from essential verification mechanisms at the exact moment international watchdogs report heightened regional volatility. Democrats also denounced Vance's municipal assignment as a blatant political maneuver aimed at weaponizing federal agencies against political rivals in the aftermath of Republican midterm defeats.\n\n\"Walking away from strategic diplomacy without verifiable protocols is a dangerous abdication of international leadership that places American service members and commercial shipping in severe jeopardy,\" Senate Foreign Relations Committee members said in a joint statement. \"Furthermore, using the vice presidency as a partisan battering ram to intimidate municipal mayors and undermine local self-governance is an authoritarian overreach that flagrantly violates the constitutional principles of federalism.\"\n\nMeanwhile, allies in Riyadh, Abu Dhabi, and Jerusalem were reportedly caught off-guard by the announcement, scrambling to evaluate whether the cessation of formal talks signals an impending expansion of unilateral American maritime blockades or tactical airstrikes against regional proxy networks. As Vice President Vance prepares to convene his initial task force hearings at the Eisenhower Executive Office Building on Friday, Washington stands poised for a fierce constitutional confrontation over the boundaries of federal law enforcement authority in urban America.",
+        "category": "Politics",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Sarah Mitchell",
+            "role": "Chief Congressional & National Security Correspondent",
+            "avatar": "/images/authors/sarah_mitchell.jpg"
+        },
+        "publishedAt": "2h ago",
+        "readTime": "8 min read",
+        "imageUrl": "/images/news/trump-drops-iran-deal-talks-and-pivots-vance-to-urban-crime.webp",
+        "imageCaption": "The Oval Office in the White House, where President Trump announced the foreign policy shift.",
+        "imageCredit": "Associated Press / Carolyn Kaster",
+        "commentCount": 154,
+        "bullets": [
+            "President Trump officially terminates indirect diplomatic talks with Iran, asserting US deterrence is secured.",
+            "Vice President JD Vance reassigned from Middle East talks to lead federal task force on urban crime in blue cities.",
+            "Congressional Democrats denounce the domestic deployment as an assault on constitutional federalism."
+        ],
+        "tags": [
+            "Politics",
+            "Donald Trump",
+            "JD Vance",
+            "Iran",
+            "Foreign Policy",
+            "White House"
+        ]
+    },
     {
         "id": "treasury-chief-scott-bessent-moved-to-military-base-over-threats",
         "title": "Treasury Chief Scott Bessent Moved to Military Base Over Threats",
@@ -1341,6 +1484,42 @@ In Washington, national security officials convened in the White House Situation
 
   'Business & Economy': [
     {
+        "id": "surging-treasury-yields-rattle-global-markets-and-pound-gold",
+        "title": "Surging Treasury Yields Rattle Global Markets and Pound Gold",
+        "kicker": "WALL STREET & FIXED INCOME • MACRO VOLATILITY",
+        "summary": "A dramatic spike in benchmark U.S. Treasury yields to multi-month highs has triggered sharp selling across global equities, sent the euro tumbling, and driven gold down to its lowest levels of the autumn.",
+        "body": "NEW YORK — A ferocious repricing across global sovereign debt markets sent tremors through Wall Street and international financial exchanges on Thursday, as benchmark United States Treasury yields surged to their highest levels in five months. The violent bond sell-off, sparked by a toxic combination of hotter-than-anticipated consumer inflation data, hawkish public commentary from Federal Reserve governors, and an unexpected wave of corporate debt issuance, sparked broad-based equity declines, propelled the U.S. dollar to fresh annual highs, and battered traditional safe-haven assets including bullion gold.\n\nThe yield on the benchmark 10-year U.S. Treasury note—the bedrock anchor for global borrowing costs and commercial loan pricing—jumped fourteen basis points in volatile trading to settle near 4.62%, while the policy-sensitive 2-year note climbed toward 4.74%. The sudden upward spike in sovereign borrowing yields reverberated instantly across foreign exchange desks, sending the European common currency plunging toward multi-month lows against the greenback and pushing the Japanese yen back toward the psychologically critical 160-per-dollar threshold, raising fears of emergency intervention by the Bank of Japan.\n\nCommodities markets bore the immediate brunt of the fixed-income volatility. Spot gold prices suffered their sharpest single-day retreat in three months, falling 2.4% to break through critical technical support levels and trade near $2,580 per ounce. Because bullion does not yield interest, surging yields on risk-free government paper and a robust dollar significantly diminish the relative appeal of holding non-yielding precious metals for institutional portfolio managers.\n\n\"Fixed income markets are delivering an unmistakable reality check to equity investors who had prematurely priced in aggressive monetary easing cycles,\" said Gregory Peters, Co-Chief Investment Officer of PGIM Fixed Income. \"Between persistent wage growth in services, stubborn shelter inflation, and an avalanche of sovereign debt issuance required to fund federal deficits, bond investors are demanding significantly higher term premiums. The era of low benchmark yields is firmly in the rearview mirror, and global asset allocators are recalibrating every valuation model accordingly.\"\n\nThe bond rout spilled over into technology and growth equities on the New York Stock Exchange and Nasdaq, where the tech-heavy Nasdaq Composite dropped 1.8% as elevated discount rates compressed enterprise valuation multiples. Highly leveraged corporate sectors, including commercial real estate investment trusts (REITs), clean energy utilities, and mid-market private equity sponsors, experienced acute selling pressure as traders recognized that elevated borrowing expenses will persist well into the upcoming fiscal year.\n\nFederal Reserve officials offered little comfort to anxious traders on Thursday. In public addresses delivered in Frankfurt and Chicago, Federal Reserve Governor Christopher Waller and Vice Chair for Supervision Michelle Bowman reaffirmed the central bank's unwavering commitment to price stability, cautioning that policymakers will not hesitate to maintain restrictive rates or even consider supplementary rate hikes if economic momentum and service-sector price pressures refuse to cool. With critical consumer sentiment and producer price indices scheduled for release on Friday, trading floors are bracing for continued macro turbulence across global capital markets.",
+        "category": "Business",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Tyler Brooks",
+            "role": "Wall Street & Financial Markets Bureau",
+            "avatar": "/images/authors/tyler_brooks.jpg"
+        },
+        "publishedAt": "4h ago",
+        "readTime": "8 min read",
+        "imageUrl": "/images/news/surging-treasury-yields-rattle-global-markets-and-pound-gold.webp",
+        "imageCaption": "Trading displays at the New York Stock Exchange reflect fixed-income volatility and sliding commodity prices.",
+        "imageCredit": "Bloomberg / Michael Nagle",
+        "commentCount": 112,
+        "bullets": [
+            "Benchmark 10-year Treasury yield spikes 14 basis points to 4.62% following sticky inflation data.",
+            "Gold plunges 2.4% while the euro and yen face heavy pressure against a surging US dollar.",
+            "Hawkish remarks from Fed governors Waller and Bowman extinguish near-term rate cut expectations."
+        ],
+        "tags": [
+            "Business",
+            "Treasury Yields",
+            "Wall Street",
+            "Federal Reserve",
+            "Gold",
+            "Inflation"
+        ]
+    },
+    {
         "id": "anthropic-kicks-off-landmark-ipo-roadshow-for-1-4t-valuation",
         "title": "Anthropic Kicks Off Landmark IPO Roadshow for $1.4T Valuation",
         "kicker": "WALL STREET & SILICON VALLEY • MEGA IPO",
@@ -1663,6 +1842,42 @@ Sports finance experts note that the move mirrors a broader institutional trend 
   ],
 
   'Tech': [
+    {
+        "id": "jensen-huang-abruptly-steps-down-as-ceo-of-nvidia-in-shock-exit",
+        "title": "Jensen Huang Abruptly Steps Down as CEO of Nvidia in Shock Exit",
+        "kicker": "SILICON VALLEY EARTHQUAKE • AI LEADERSHIP",
+        "summary": "In an unprecedented development that has sent shockwaves through the global semiconductor industry, Nvidia co-founder Jensen Huang has stepped down as CEO following an internal investigation, with CFO Colette Kress named interim chief.",
+        "body": "SANTA CLARA, Calif. — In an earth-shattering development that has stunned Silicon Valley and sent shockwaves through global technology markets, Nvidia co-founder and long-serving Chief Executive Officer Jensen Huang has stepped down from his position effective immediately. The abrupt departure of the 63-year-old visionary executive—who transformed a niche graphics chip venture into the world's most valuable semiconductor titan and the undisputed architectural foundation of the global artificial intelligence boom—was officially confirmed by Nvidia's Board of Directors in a statement released late Wednesday evening.\n\nAccording to filings submitted to the Securities and Exchange Commission (SEC), Huang's sudden resignation followed an exhaustive internal compliance review overseen by an independent special committee of the board, assisted by outside legal counsel from Wachtell, Lipton, Rosen & Katz. The investigation, which commenced earlier this autumn, centered on questions regarding personal executive conduct, compliance disclosures, and sensitive technology transfer protocols relating to foreign distributor networks that had drawn regulatory scrutiny from federal export control agencies.\n\nNvidia's board announced that Chief Financial Officer Colette Kress, a revered veteran technology finance executive who has directed Nvidia's balance sheet through its historic multi-trillion-dollar ascent over the past decade, has been appointed interim Chief Executive Officer while an executive search committee conducts a global search for a permanent successor. Lead Independent Director Mark Perry praised Huang's historic contributions while affirming the board's commitment to impeccable corporate governance standards.\n\n\"Jensen Huang is an extraordinary, once-in-a-generation technologist whose visionary foresight created the modern accelerated computing paradigm and powered the global artificial intelligence revolution,\" Perry said in an official statement. \"However, the board is firmly committed to maintaining the highest standards of corporate compliance, executive integrity, and fiduciary accountability. With Colette Kress stepping into the leadership role alongside our world-class engineering bench, Nvidia remains fully equipped to execute on our technological roadmap and deliver next-generation AI infrastructure to our global partners.\"\n\nThe news triggered immediate turbulence across global capital markets, with Nvidia shares sliding 6.8% in after-hours trading, wiping out tens of billions of dollars in market capitalization and prompting sympathy declines across major foundry partners including Taiwan Semiconductor Manufacturing Company (TSMC), ASML, and major cloud hyperscalers. Huang, whose trademark black leather jacket and charismatic keynote addresses made him the public icon of the modern computing era, stated in a brief farewell letter to employees that stepping down was in the best long-term interest of the enterprise he helped build from a Denny's diner booth in 1993.\n\nIndustry analysts cautioned that Huang's exit arrives at a critical juncture for Nvidia, as the company prepares to ramp volume production of its next-generation Blackwell and Rubin computing architectures amidst aggressive competition from custom silicon initiatives at Google, Amazon, and Microsoft. As interim CEO Colette Kress prepares to host an emergency investor conference call Thursday morning, the semiconductor industry is confronting an unfamiliar reality: navigating the greatest technological transition of the century without its most iconic founding father at the helm.",
+        "category": "Tech",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Maya Lin Chen",
+            "role": "Silicon Valley & Artificial Intelligence Lead",
+            "avatar": "/images/authors/maya_lin_chen.jpg"
+        },
+        "publishedAt": "5h ago",
+        "readTime": "9 min read",
+        "imageUrl": "/images/news/jensen-huang-abruptly-steps-down-as-ceo-of-nvidia-in-shock-exit.webp",
+        "imageCaption": "Nvidia headquarters in Santa Clara, California, where Jensen Huang abruptly resigned as CEO.",
+        "imageCredit": "Getty Images / Justin Sullivan",
+        "commentCount": 230,
+        "bullets": [
+            "Jensen Huang abruptly resigns as Nvidia CEO following internal board compliance investigation.",
+            "Longtime Chief Financial Officer Colette Kress appointed interim CEO to lead the semiconductor giant.",
+            "Shares tumble 6.8% in after-hours trading as Silicon Valley absorbs seismic AI leadership shakeup."
+        ],
+        "tags": [
+            "Tech",
+            "Nvidia",
+            "Jensen Huang",
+            "Artificial Intelligence",
+            "Silicon Valley",
+            "Semiconductors"
+        ]
+    },
     {
         "id": "deepmind-alphaproof-code-verifies-signal-encryption-protocol",
         "title": "DeepMind AlphaProof Code Verifies Signal Encryption Protocol",
@@ -1987,6 +2202,41 @@ Aerospace financial analysts estimate that SpaceX's commercial launch and satell
 
   'Entertainment': [
     {
+        "id": "hollywood-takes-an-anti-tech-turn-with-dystopian-wave-of-films",
+        "title": "Hollywood Takes an Anti-Tech Turn With Dystopian Wave of Films",
+        "kicker": "CULTURE & CINEMA • INDUSTRY TRENDS",
+        "summary": "In a dramatic cultural pivot, major Hollywood studios and indie distributors are greenlighting a wave of critical, dystopian films and prestige series targeting Silicon Valley moguls and unchecked AI algorithms.",
+        "body": "LOS ANGELES — For over two decades, American cinema celebrated Silicon Valley through a lens of glossy techno-optimism, dramatizing dorm-room geniuses, garage epiphanies, and heroic venture capitalists who promised to connect the world and democratize knowledge. But as Hollywood gears up for the 2026-2027 awards season, an unmistakable cultural sea change has taken hold of the entertainment capital: the tech titan is no longer the visionary protagonist, but modern cinema's most ubiquitous and menacing antagonist.\n\nFrom high-budget studio tentpoles to prestige indie releases unveiled at Telluride and Venice, a new wave of films and limited series has arrived with an unapologetically critical, activist, and dystopian posture toward Big Tech. Production slates across Warner Bros., Paramount-Skydance, and A24 feature scripts centered on predatory algorithmic manipulation, autonomous biometric surveillance, billionaire space escapism, and the existential displacement of human creative laborers by generative artificial intelligence.\n\nThe sharp thematic reversal follows years of profound industrial friction between Hollywood creative guilds and Silicon Valley platforms. The historic writers and actors strikes of recent years—which centered heavily on existential protections against generative AI cloning, script scraping, and digital likeness appropriation—fundamentally transformed how writers, directors, and performers perceive the tech ecosystem. Rather than celebrating corporate disruption, Hollywood's creative community is utilizing its storytelling machinery to interrogate the human cost of unbridled technological expansion.\n\n\"There has been a profound, permanent disillusionment with the Silicon Valley gospel,\" said veteran film scholar and cultural critic Dr. Alistair Thorne. \"Audiences and filmmakers alike have lived through the fallout of social media polarization, algorithmic addiction, and now the threat of cultural homogenization via machine learning. The contemporary tech executive is no longer viewed as a quirky rebel challenging corporate dinosaurs; they are seen as unaccountable digital monopolists prioritizing compute capacity and share buybacks over human dignity. Cinema is simply reflecting that collective societal anxiety.\"\n\nLeading the cultural vanguard is a slate of upcoming releases that subvert traditional tech narratives. Upcoming psychological thriller 'The Prompt', directed by Oscar-winning auteur Sarah Polley, chronicles an ethical researcher's descent into corporate madness inside a fictional frontier AI lab, while satirical dramedy 'Unicorn Island' skewers venture capital sycophancy and sovereign tech hubs. Studio executives note that test audiences have responded enthusiastically to these narratives, signaling that public appetite for critical tech examinations is at an all-time high.\n\nAs streaming networks and theatrical distributors prepare their holiday marketing campaigns, Hollywood's anti-tech renaissance serves as a vital cultural mirror for an anxious nation. By transforming the complex ethics of artificial intelligence, surveillance capitalism, and monopolistic power into compelling visual art, filmmakers are ensuring that the conversation surrounding technology's future is not decided solely by engineers and boardroom shareholders, but by the society whose culture they seek to redefine.",
+        "category": "Entertainment",
+        "edition": [
+            "US & Americas"
+        ],
+        "author": {
+            "name": "Claire Montgomery",
+            "role": "Culture & Entertainment Bureau",
+            "avatar": "/images/authors/claire_montgomery.jpg"
+        },
+        "publishedAt": "6h ago",
+        "readTime": "7 min read",
+        "imageUrl": "/images/news/hollywood-takes-an-anti-tech-turn-with-dystopian-wave-of-films.webp",
+        "imageCaption": "The iconic Hollywood sign overlooking Los Angeles amidst a cultural and cinematic shift against Big Tech.",
+        "imageCredit": "Associated Press / Chris Pizzello",
+        "commentCount": 74,
+        "bullets": [
+            "Major Hollywood studios pivot toward critical, dystopian films examining the perils of Big Tech and AI.",
+            "Shift follows historic guild labor strikes that galvanized creative community against algorithmic displacement.",
+            "Audiences embrace anti-tech narratives as cinematic appetite for Silicon Valley hero biopics collapses."
+        ],
+        "tags": [
+            "Entertainment",
+            "Hollywood",
+            "Cinema",
+            "Silicon Valley",
+            "Artificial Intelligence",
+            "Culture"
+        ]
+    },
+    {
         "id": "dua-lipa-named-historic-first-british-female-coachella-headliner",
         "title": "Dua Lipa Named Historic First British Female Coachella Headliner",
         "kicker": "MUSIC FESTIVALS • COACHELLA 2027",
@@ -2247,6 +2497,41 @@ Furthermore, cloud streaming platforms and mobile distribution networks have low
   ],
 
   'Sports': [
+    {
+        "id": "cade-cunningham-explodes-for-52-points-as-pistons-edge-wizards",
+        "title": "Cade Cunningham Explodes for 52 Points as Pistons Edge Wizards",
+        "kicker": "NBA SHOWDOWN • HISTORIC PERFORMANCE",
+        "summary": "Detroit Pistons franchise guard Cade Cunningham delivered a breathtaking 52-point, 11-assist masterclass Thursday evening, carrying Detroit to a thrilling 144-140 double-overtime victory over the Wizards.",
+        "body": "DETROIT — In an unforgettable display of offensive wizardry and clutch shotmaking that will reverberate across the Association for the remainder of the season, Detroit Pistons franchise cornerstone Cade Cunningham delivered the defining performance of his professional career Thursday night. Before an ecstatic, deafening sellout crowd of 20,332 at Little Caesars Arena, the 25-year-old All-Star point guard erupted for a career-high 52 points, 11 assists, and five rebounds, propelling the ascendant Pistons to a thrilling 144-140 double-overtime victory over the Washington Wizards.\n\nCunningham's virtuoso evening cemented Detroit's remarkable 8-3 start to the 2026-27 NBA campaign, validating the patient rebuilding vision executed by the Pistons front office and second-year head coach J.B. Bickerstaff. Playing a grueling 47 minutes against an aggressive Washington defensive unit that deployed multiple double-teams, Cunningham converted 19 of his 31 field-goal attempts, drilled six three-pointers from beyond the arc, and knocked down eight clutch free throws in the extra sessions without committing a single turnover down the stretch.\n\nThe game unfolded as an electrifying offensive slugfest from the opening tip, featuring 24 lead changes and twelve ties. The Wizards, spearheaded by dynamic scoring guard Jordan Poole's 38 points and rookie sensation Alex Sarr's 24 points and four blocked shots, appeared poised to steal the road victory when Poole sank a contested step-back triple with 8.4 seconds remaining in regulation to take a 122-120 lead. However, Cunningham calmly took the inbounds pass, navigated past two perimeter defenders, and converted a floating baseline jumper over the outstretched arms of Sarr as the fourth-quarter horn sounded, sending the arena into pandemonium.\n\nIn the second overtime period, with both rosters visibly exhausted, Cunningham took complete command of the floor. With the contest deadlocked at 138-138 and less than ninety seconds remaining, Cunningham executed a dazzling crossover dribble to shake his primary defender, stepped back behind the arc, and swished a cold-blooded 28-foot three-pointer. On the ensuing defensive possession, he intercepted an errant cross-court pass from Poole, outletted the ball to teammate Jaden Ivey for a breakaway transition layup, and sealed the four-point triumph with a pair of composed free throws.\n\n\"Cade proved tonight why he belongs in the conversation with the absolute premier basketball players on this planet,\" Coach Bickerstaff said during an emotional postgame press conference, his suit drenched from a celebratory locker room water shower. \"Games like this reveal a player's heart. When our team faced adversity, when legs were heavy and shots were contested, Cade looked every man in the eye and said, 'Get on my back.' That is what true franchise leadership looks like.\"\n\nCunningham's historic statistical line made him only the third player in Detroit Pistons franchise history—joining Hall of Famers Isiah Thomas and Jerry Stackhouse—to record at least 50 points and 10 assists in a single contest. Sitting at his locker with ice bags strapped to both ankles, Cunningham deflected personal accolades, emphasizing that the victory symbolized a cultural renaissance for a proud basketball city that endured years of rebuilding struggle. With national media spotlights intensifying, Cunningham and his surging young squad have officially put the Eastern Conference on notice.",
+        "category": "Sports",
+        "edition": [
+            "US & Americas"
+        ],
+        "author": {
+            "name": "David Vance",
+            "role": "Senior Sports Columnist",
+            "avatar": "/images/authors/david_vance.jpg"
+        },
+        "publishedAt": "7h ago",
+        "readTime": "7 min read",
+        "imageUrl": "/images/news/cade-cunningham-explodes-for-52-points-as-pistons-edge-wizards.webp",
+        "imageCaption": "Detroit Pistons guard Cade Cunningham celebrates following his historic 52-point double-overtime victory.",
+        "imageCredit": "USA Today Sports / Lon Horwedel",
+        "commentCount": 96,
+        "bullets": [
+            "Cade Cunningham scores career-high 52 points alongside 11 assists in thrilling double-OT win.",
+            "Pistons improve to 8-3 record, matching franchise's best early-season start in over a decade.",
+            "Cunningham joins Isiah Thomas and Jerry Stackhouse in elite Detroit 50-point, 10-assist club."
+        ],
+        "tags": [
+            "Sports",
+            "NBA",
+            "Detroit Pistons",
+            "Cade Cunningham",
+            "Basketball",
+            "Washington Wizards"
+        ]
+    },
     {
         "id": "us-withdraws-from-u-17-world-cup-in-qatar-over-security-concerns",
         "title": "US Withdraws from U-17 World Cup in Qatar Over Security Concerns",
@@ -2529,6 +2814,42 @@ On the stadium infrastructure front, club executives evaluated demonstrations of
   ],
 
   'Science': [
+    {
+        "id": "nasa-escapade-twin-probes-slingshot-past-earth-en-route-to-mars",
+        "title": "NASA ESCAPADE Twin Probes Slingshot Past Earth En Route to Mars",
+        "kicker": "DEEP SPACE EXPLORATION • MARS MISSION",
+        "summary": "NASA's twin ESCAPADE spacecraft have successfully completed high-velocity powered flybys of Earth, utilizing planetary gravity and engine burns to slingshot toward Mars for a September 2027 arrival.",
+        "body": "PASADENA, Calif. — In a flawless demonstration of orbital mechanics and interplanetary navigation, flight controllers at the Jet Propulsion Laboratory (JPL) and the University of California, Berkeley confirmed Thursday that NASA's twin ESCAPADE spacecraft have successfully executed a rare, high-speed powered double Earth flyby. The coordinated maneuvers, which utilized Earth's gravitational field combined with precision hydrazine thruster burns, successfully slingshot both robotic probes onto their final interplanetary transfer trajectory toward Mars, where they are scheduled to enter orbit in September 2027.\n\nThe ESCAPADE mission (Escape and Plasma Acceleration and Dynamics Explorers) represents an ambitious new frontier in NASA's planetary science portfolio. Built under the agency's innovative Small Innovative Missions for Planetary Exploration (SIMPLEx) program, the identical twin spacecraft—named \"Blue\" and \"Gold\" after UC Berkeley's athletic colors—were developed at a fraction of traditional planetary mission costs, utilizing commercially derived satellite buses manufactured by Rocket Lab and cutting-edge miniaturized plasma spectrometers.\n\nDuring their close approach Wednesday night and early Thursday morning, the twin spacecraft skimmed within 1,200 miles of Earth's upper atmosphere over the southern Pacific Ocean, traveling at a staggering relative velocity exceeding 24,000 miles per hour. Mission navigators used the flyby geometry not merely to gain kinetic velocity, but to split the twin probes onto slightly offset ballistic trajectories that will allow them to arrive at Mars in tandem, establishing synchronized multi-point measurements of the Martian magnetosphere.\n\n\"Executing a dual powered planetary flyby with two independent spacecraft separated by mere hours is an extraordinary feat of celestial navigation,\" said Dr. Robert Lillis, ESCAPADE Principal Investigator at UC Berkeley's Space Sciences Laboratory. \"Earth provided the massive gravitational boost our probes needed to break free of cis-lunar space and aim directly for Mars. Both spacecraft checked in with our Deep Space Network antennas right on schedule, reporting nominal telemetry, fully charged solar arrays, and precision trajectory alignments.\"\n\nOnce they achieve Martian orbit in late summer 2027, the twin ESCAPADE orbiters will tackle one of planetary science's greatest mysteries: how the Red Planet transformed from a warm, water-rich world with a dense atmosphere four billion years ago into the arid, frozen desert observed today. Operating simultaneously from different orbital altitudes, the probes will map how high-energy solar wind streams interact with Mars' patchy crustal magnetic fields, measuring the real-time rate at which atmospheric oxygen and hydrogen are stripped away into interplanetary space.\n\nNASA leadership emphasized that the success of the ESCAPADE flyby validates the agency's strategy of pairing commercial aerospace ingenuity with high-value scientific exploration. By demonstrating that low-cost smallsats can execute complex deep-space trajectory maneuvers and withstand the harsh radiation environment beyond Earth orbit, the ESCAPADE mission paves the way for an armada of affordable scientific probes destined for the Moon, Mars, and the outer solar system.",
+        "category": "Science",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Julian Thorne",
+            "role": "Astrophysics & Space Exploration Bureau",
+            "avatar": "/images/authors/julian_thorne.jpg"
+        },
+        "publishedAt": "8h ago",
+        "readTime": "8 min read",
+        "imageUrl": "/images/news/nasa-escapade-twin-probes-slingshot-past-earth-en-route-to-mars.webp",
+        "imageCaption": "Artist concept of NASA's twin ESCAPADE spacecraft slingshotting past Earth en route to Mars.",
+        "imageCredit": "NASA / JPL-Caltech / UC Berkeley",
+        "commentCount": 81,
+        "bullets": [
+            "Twin ESCAPADE probes \"Blue\" and \"Gold\" complete high-speed powered Earth flybys at 24,000 mph.",
+            "Novel dual-spacecraft slingshot maneuver aligns trajectory for September 2027 Mars orbital insertion.",
+            "Mission will pioneer low-cost dual-point orbital measurements of Martian atmospheric erosion."
+        ],
+        "tags": [
+            "Science",
+            "NASA",
+            "Mars",
+            "ESCAPADE",
+            "JPL",
+            "Space Exploration"
+        ]
+    },
     {
         "id": "nature-study-confirms-accuracy-of-historic-m87-black-hole-image",
         "title": "Nature Study Confirms Accuracy of Historic M87 Black Hole Image",
@@ -2823,6 +3144,42 @@ Domestic automotive manufacturers have committed multi-billion-dollar off-take a
   ],
 
   'Opinion': [
+    {
+        "id": "why-sending-jd-vance-to-police-blue-cities-endangers-federalism",
+        "title": "Why Sending JD Vance to Police Blue Cities Endangers Federalism",
+        "kicker": "EDITORIAL BOARD • CONSTITUTIONAL CHECKS",
+        "summary": "The White House directive dispatching Vice President JD Vance to oversee law enforcement in Democratic-led cities weaponizes federal executive authority and threatens the bedrock constitutional principle of local governance.",
+        "body": "WASHINGTON — The announcement that President Donald Trump has officially terminated diplomatic negotiations with Iran to reassign Vice President JD Vance to direct a federal crackdown on municipal crime in Democratic-led cities is more than an abrupt policy detour; it represents a dangerous and unconstitutional assault on the architecture of American federalism. By deploying the office of the vice presidency as a political overseer tasked with intervening in local municipal governance, the administration is eroding the vital boundary separating federal authority from sovereign state and municipal policing powers.\n\nThe Tenth Amendment of the United States Constitution is neither ambiguous nor optional. In reserving to the states and the people all powers not explicitly delegated to the national government, the framers deliberately withheld general police powers from the federal executive. The management of municipal police forces, local prosecutorial discretion, and urban public safety administration have resided with locally elected mayors, city councils, and district attorneys for nearly two and a half centuries. This decentralized structure was intentionally designed to prevent an authoritarian national executive from transforming federal law enforcement into an instrument of domestic political coercion.\n\nYet the administration's new directive makes no secret of its partisan animus. In explicitly singling out major metropolitan centers governed by Democratic mayors—such as Chicago, Philadelphia, and Los Angeles—for aggressive federal task force intervention while ignoring violent crime spikes in rural, conservative jurisdictions, the White House is using the federal justice apparatus not as an impartial guardian of public order, but as a partisan cudgel designed to punish political opponents and establish executive dominion over urban populations.\n\nThe operational consequences of this politicized policing crusade are profoundly destabilizing. Effective crime reduction relies fundamentally on deep, hard-won trust between neighborhood residents and local community police officers. When federal task forces descend on municipal precincts with antagonistic political rhetoric and heavy-handed executive mandates, that fragile community trust is instantly shattered. Local law enforcement leaders are placed in an untenable constitutional bind, caught between their statutory oaths to municipal charters and aggressive executive pressure from Washington.\n\nFurthermore, diverting senior national leadership away from critical geopolitical flashpoints in the Middle East to engage in domestic political grandstanding represents a reckless abdication of global responsibility. Confronting sophisticated state-sponsored cyber warfare, maritime supply disruptions, and regional conflicts demands the undivided strategic focus of the executive branch. Treating serious domestic crime challenges as fodder for campaign-style rallies and retaliatory task forces diminishes the dignity of the vice presidency and trivializes the genuine safety needs of urban citizens.\n\nThe American republic is fortified by the vibrant diversity and self-determination of its local communities. When a president claims unilateral authority to override municipal sovereignty and dispatch political lieutenants to police ideological rivals, the foundational balance of our constitutional order is imperiled. Congress, the federal judiciary, and municipal leaders nationwide must stand firm against this executive overreach, reaffirming that public safety is achieved through democratic cooperation and local accountability—not through executive intimidation.",
+        "category": "Opinion",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Elena Rostova",
+            "role": "Editorial Board & Constitutional Affairs",
+            "avatar": "/images/authors/elena_rostova.jpg"
+        },
+        "publishedAt": "10h ago",
+        "readTime": "8 min read",
+        "imageUrl": "/images/news/why-sending-jd-vance-to-police-blue-cities-endangers-federalism.webp",
+        "imageCaption": "The United States Capitol and federal corridors in Washington, where constitutional debates over federalism rage.",
+        "imageCredit": "Getty Images / Win McNamee",
+        "commentCount": 135,
+        "bullets": [
+            "Dispatching the vice president to police Democratic cities flagrantly violates Tenth Amendment federalism.",
+            "Selective federal intervention in blue municipalities politicizes law enforcement and erodes community trust.",
+            "Congress and federal courts must check executive attempts to usurp local policing and municipal sovereignty."
+        ],
+        "tags": [
+            "Opinion",
+            "Editorial Board",
+            "Federalism",
+            "JD Vance",
+            "Constitution",
+            "Civil Liberties"
+        ]
+    },
     {
         "id": "why-moving-cabinet-chiefs-to-military-bases-sets-a-bad-precedent",
         "title": "Why Moving Cabinet Chiefs to Military Bases Sets a Bad Precedent",
@@ -3482,45 +3839,45 @@ export function getHomepageDepartmentArticles(dept: string): Article[] {
   const mapping: Record<string, string[]> = {
     us: [
       'the-vanity-of-alina-habba-mildon',
+      'deadly-logan-circle-shooting-in-washington-leaves-two-dead',
       'deadly-brooklyn-building-collapse-sparks-massive-rescue-operation',
-      'fbi-probes-fatal-police-shooting-on-north-dakota-reservation',
-      'biden-memoir-excerpts-deliver-blistering-indictment-of-trump'
+      'fbi-probes-fatal-police-shooting-on-north-dakota-reservation'
     ],
     politics: [
+      'trump-drops-iran-deal-talks-and-pivots-vance-to-urban-crime',
       'treasury-chief-scott-bessent-moved-to-military-base-over-threats',
       'democrats-and-gop-clash-over-defense-bill-on-veterans-day',
-      'massie-files-resolution-to-impeach-defense-chief-pete-hegseth',
-      '2026-midterms-gop-takes-senate-as-house-battle-nears-recounts'
+      'massie-files-resolution-to-impeach-defense-chief-pete-hegseth'
     ],
     business: [
+      'surging-treasury-yields-rattle-global-markets-and-pound-gold',
       'anthropic-kicks-off-landmark-ipo-roadshow-for-1-4t-valuation',
       'securitize-acquires-river-one-to-expand-tokenized-lending',
-      'dow-surges-1104-points-as-wall-street-stages-monster-rally',
-      'sp-500-hits-record-high-on-midterm-clarity-and-steady-jobs-data'
+      'dow-surges-1104-points-as-wall-street-stages-monster-rally'
     ],
     tech: [
+      'jensen-huang-abruptly-steps-down-as-ceo-of-nvidia-in-shock-exit',
       'deepmind-alphaproof-code-verifies-signal-encryption-protocol',
       'openai-launches-businesses-in-chatgpt-enterprise-ai-platform',
-      'eu-drafts-digital-fairness-act-to-ban-deceptive-web-design',
-      'openai-and-anthropic-launch-joint-safety-accord-for-ai-agents'
+      'eu-drafts-digital-fairness-act-to-ban-deceptive-web-design'
     ],
     entertainment: [
+      'hollywood-takes-an-anti-tech-turn-with-dystopian-wave-of-films',
       'dua-lipa-named-historic-first-british-female-coachella-headliner',
       'ella-langley-and-olivia-rodrigo-lead-2027-grammy-predictions',
-      'johnny-depp-readies-hollywood-return-in-paramount-ebenezer',
-      'grammy-nominations-2027-global-and-indie-artists-dominate'
+      'johnny-depp-readies-hollywood-return-in-paramount-ebenezer'
     ],
     sports: [
+      'cade-cunningham-explodes-for-52-points-as-pistons-edge-wizards',
       'us-withdraws-from-u-17-world-cup-in-qatar-over-security-concerns',
       'michigan-state-downs-duke-79-73-in-chicago-college-showdown',
-      'bills-stifle-vikings-23-6-in-dominant-monday-night-football',
-      'dodgers-win-2026-world-series-in-extra-inning-game-7-thriller'
+      'bills-stifle-vikings-23-6-in-dominant-monday-night-football'
     ],
     science: [
+      'nasa-escapade-twin-probes-slingshot-past-earth-en-route-to-mars',
       'nature-study-confirms-accuracy-of-historic-m87-black-hole-image',
       'nasa-unveils-promise-moon-rover-built-from-mars-rover-spares',
-      'nasa-chapea-crew-completes-378-days-inside-mars-simulation',
-      'webb-telescope-finds-water-vapor-on-habitable-zone-exoplanet'
+      'nasa-chapea-crew-completes-378-days-inside-mars-simulation'
     ]
   };
 
