@@ -4445,50 +4445,43 @@ export function getHomepageDepartmentArticles(dept: string): Article[] {
       'the-vanity-of-alina-habba-mildon',
       'faa-system-outage-sparks-chaos-for-over-1-million-air-travelers',
       'deadly-logan-circle-shooting-in-washington-leaves-two-dead',
-      'deadly-brooklyn-building-collapse-sparks-massive-rescue-operation',
-      'fbi-probes-fatal-police-shooting-on-north-dakota-reservation'
+      'deadly-brooklyn-building-collapse-sparks-massive-rescue-operation'
     ],
     politics: [
       'trump-pauses-iran-strikes-following-talks-with-mideast-allies',
       'trump-drops-iran-deal-talks-and-pivots-vance-to-urban-crime',
       'treasury-chief-scott-bessent-moved-to-military-base-over-threats',
-      'democrats-and-gop-clash-over-defense-bill-on-veterans-day',
-      'massie-files-resolution-to-impeach-defense-chief-pete-hegseth'
+      'democrats-and-gop-clash-over-defense-bill-on-veterans-day'
     ],
     business: [
       'microsoft-restores-cloud-systems-after-crippling-global-outage',
       'surging-treasury-yields-rattle-global-markets-and-pound-gold',
       'anthropic-kicks-off-landmark-ipo-roadshow-for-1-4t-valuation',
-      'securitize-acquires-river-one-to-expand-tokenized-lending',
-      'dow-surges-1104-points-as-wall-street-stages-monster-rally'
+      'securitize-acquires-river-one-to-expand-tokenized-lending'
     ],
     tech: [
       'jensen-huang-nvidia-return-petition-tops-160000-signatures',
       'jensen-huang-abruptly-steps-down-as-ceo-of-nvidia-in-shock-exit',
       'deepmind-alphaproof-code-verifies-signal-encryption-protocol',
-      'openai-launches-businesses-in-chatgpt-enterprise-ai-platform',
-      'eu-drafts-digital-fairness-act-to-ban-deceptive-web-design'
+      'openai-launches-businesses-in-chatgpt-enterprise-ai-platform'
     ],
     entertainment: [
       'johnny-depp-tops-box-office-as-ebenezer-scores-42m-global-debut',
       'hollywood-takes-an-anti-tech-turn-with-dystopian-wave-of-films',
       'dua-lipa-named-historic-first-british-female-coachella-headliner',
-      'ella-langley-and-olivia-rodrigo-lead-2027-grammy-predictions',
-      'johnny-depp-readies-hollywood-return-in-paramount-ebenezer'
+      'ella-langley-and-olivia-rodrigo-lead-2027-grammy-predictions'
     ],
     sports: [
       'luka-doncic-scores-43-points-to-power-lakers-over-phoenix-suns',
       'cade-cunningham-explodes-for-52-points-as-pistons-edge-wizards',
       'us-withdraws-from-u-17-world-cup-in-qatar-over-security-concerns',
-      'michigan-state-downs-duke-79-73-in-chicago-college-showdown',
-      'bills-stifle-vikings-23-6-in-dominant-monday-night-football'
+      'michigan-state-downs-duke-79-73-in-chicago-college-showdown'
     ],
     science: [
       'spacex-catches-starship-with-mechazilla-chopsticks-in-flight-15',
       'nasa-escapade-twin-probes-slingshot-past-earth-en-route-to-mars',
       'nature-study-confirms-accuracy-of-historic-m87-black-hole-image',
-      'nasa-unveils-promise-moon-rover-built-from-mars-rover-spares',
-      'nasa-chapea-crew-completes-378-days-inside-mars-simulation'
+      'nasa-unveils-promise-moon-rover-built-from-mars-rover-spares'
     ]
   };
 
