@@ -3,35 +3,35 @@ import { Article, OpinionColumn, FactCheckItem, PhotoStory, VideoItem, PodcastEp
 export const BREAKING_NEWS_ITEMS = [
   {
     id: 'brk-1',
-    kicker: 'WHITE HOUSE PIVOT',
-    headline: 'Trump Drops Iran Deal Talks and Pivots Vance to Urban Crime',
-    time: '4m ago',
-    url: '/politics/trump-drops-iran-deal-talks-and-pivots-vance-to-urban-crime'
+    kicker: 'WHITE HOUSE DIPLOMACY',
+    headline: 'Trump Pauses Iran Strikes Following Talks With Mideast Allies',
+    time: '2m ago',
+    url: '/politics/trump-pauses-iran-strikes-following-talks-with-mideast-allies'
   },
   {
     id: 'brk-2',
-    kicker: 'CAPITAL CRISIS',
-    headline: 'Deadly Logan Circle Shooting in Washington Leaves Two Dead',
-    time: '18m ago',
-    url: '/us/deadly-logan-circle-shooting-in-washington-leaves-two-dead'
+    kicker: 'AIRSPACE CRISIS',
+    headline: 'FAA System Outage Sparks Chaos for Over 1 Million Air Travelers',
+    time: '15m ago',
+    url: '/us/faa-system-outage-sparks-chaos-for-over-1-million-air-travelers'
   },
   {
     id: 'brk-3',
-    kicker: 'TECH EARTHQUAKE',
-    headline: 'Jensen Huang Abruptly Steps Down as CEO of Nvidia in Shock Exit',
-    time: '32m ago',
-    url: '/tech/jensen-huang-abruptly-steps-down-as-ceo-of-nvidia-in-shock-exit'
+    kicker: 'SILICON VALLEY',
+    headline: 'Jensen Huang Nvidia Return Petition Tops 160,000 Signatures',
+    time: '28m ago',
+    url: '/tech/jensen-huang-nvidia-return-petition-tops-160000-signatures'
   }
 ];
 
 export const TRENDING_TAGS = [
-  '#JensenHuangExit',
-  '#TrumpIranPivot',
-  '#LoganCircle',
-  '#TreasuryYields',
-  '#Cade52Points',
-  '#ESCAPADEMars',
-  '#Gootloader'
+  '#FAAGroundStop',
+  '#JensenHuang',
+  '#TrumpIran',
+  '#SpaceXStarship',
+  '#OperationTorNado',
+  '#Luka43Points',
+  '#EbenezerDepp'
 ];
 
 export const LEAD_ARTICLE: Article = {
@@ -79,6 +79,304 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
 };
 
 export const SECONDARY_LEAD_STORIES: Article[] = [
+  {
+    id: "trump-pauses-iran-strikes-following-talks-with-mideast-allies",
+    title: "Trump Pauses Iran Strikes Following Talks With Mideast Allies",
+    kicker: "WHITE HOUSE DIPLOMACY • MIDDLE EAST POSTURE",
+    summary: "President Donald Trump has indicated to senior defense advisers that the U.S. will pause plans for direct strikes against Iranian targets following urgent appeals from Gulf allies seeking to prevent broader regional war.",
+    body: "WASHINGTON — President Donald Trump has signaled to senior national security advisers and Pentagon leadership that the United States will temporarily pause direct kinetic military strikes against Iranian infrastructure, following an intensive weekend of high-level diplomatic appeals from key Middle Eastern partners including Saudi Arabia, the United Arab Emirates, and Qatar. Officials familiar with internal deliberations confirmed that Gulf leaders urged the White House to avoid triggering an uncontrollable regional confrontation that could shutter commercial navigation throughout the Strait of Hormuz and destabilize global energy markets.\n\nThe diplomatic pause comes immediately on the heels of an Iranian drone assault targeting an advanced American air defense radar installation situated at a naval staging facility in Bahrain early Sunday morning. While Bahraini defense forces and U.S. Central Command intercepted the bulk of incoming unmanned aerial vehicles with zero American casualties reported, the provocative engagement initially spurred intense discussions within the Situation Room regarding retaliatory strikes against Iranian missile staging sites and command nodes in southern Iran.\n\nHowever, during extended telephone conferences conducted late Sunday evening between the Oval Office and regional counterparts, Gulf leaders presented compelling arguments that immediate American airstrikes would inevitably prompt asymmetric Iranian counterattacks against energy refining facilities and desalination plants across the Persian Gulf. Leaders in Riyadh and Abu Dhabi emphasized that while strategic deterrence must remain firm, opening a wider military theater would undermine months of economic stabilization efforts and create profound inflationary pressures across the international economy.\n\n\"Our posture remains one of unmatched strength, but our actions will be deliberate, calculated, and coordinated with those who stand alongside us in the region,\" a senior administration official told reporters on condition of anonymity. \"The president has made it abundantly clear to Tehran that any further escalatory maneuvers will meet with overwhelming force. For now, diplomatic channels and maritime interdiction operations will take precedence as we assess Iranian military repositioning.\"\n\nCongressional reactions reflected deep partisan divisions over the administration's strategic posture. Republican defense hawks cautioned that pausing retaliatory strikes could be interpreted by Tehran and regional proxy factions as hesitation, calling for sustained pressure on Iranian command hierarchies. Conversely, Democratic leaders on the Senate Foreign Relations Committee welcomed the consultative approach with Gulf allies, urging the White House to formalize verifiable de-escalation protocols and submit any potential authorization of military force to Congress for debate.\n\nAs U.S. naval strike groups led by the USS Abraham Lincoln maintain elevated alert status across the Arabian Sea, diplomatic envoys in Muscat and Geneva are quietly exploring whether indirect dialogue can be revived to de-escalate maritime tensions. For the White House, the decision to stay military action illustrates the complex balancing act between domestic political pledges to avoid prolonged overseas entanglements and the imperative to defend vital American national security interests abroad.",
+    category: "Politics",
+    edition: ["US & Americas", "Global"],
+    author: {
+      name: "Sarah Mitchell",
+      role: "Chief Congressional & National Security Correspondent",
+      avatar: "/images/authors/sarah_mitchell.jpg"
+    },
+    publishedAt: "2h ago",
+    readTime: "7 min read",
+    imageUrl: "/images/news/trump-pauses-iran-strikes-following-talks-with-mideast-allies.webp",
+    imageCaption: "President Trump confers with senior national security officials and diplomatic envoys inside the Oval Office.",
+    imageCredit: "Reuters / Leah Millis",
+    isInvestigative: false,
+    commentCount: 312,
+    bullets: [
+      "President Trump temporarily halts direct retaliatory strikes against Iranian installations after Gulf partner appeals.",
+      "Decision follows Sunday drone attack on Bahrain naval radar base intercepted with zero U.S. casualties.",
+      "Gulf leaders warn direct escalation threatens oil shipping lanes and regional economic stability."
+],
+    tags: [
+      "Politics",
+      "Donald Trump",
+      "Middle East",
+      "Iran",
+      "National Security"
+]
+  },
+  {
+    id: "faa-system-outage-sparks-chaos-for-over-1-million-air-travelers",
+    title: "FAA System Outage Sparks Chaos for Over 1 Million Air Travelers",
+    kicker: "NATIONAL TRANSIT CRISIS • AVIATION EMERGENCY",
+    summary: "A nationwide ground stop triggered by an antiquated air traffic control failure during a fiber optic upgrade caused cascading cancellations and delays for more than one million passengers across major U.S. hubs.",
+    body: "WASHINGTON & ATLANTA — A catastrophic technical malfunction in the Federal Aviation Administration’s antiquated air traffic management infrastructure forced a rare nationwide ground stop over the weekend, stranding more than one million passengers and triggering unprecedented gridlock across every major American air hub that continued to disrupt commercial flight operations into Monday morning. The crisis erupted when a private infrastructure contractor attempting to migrate legacy copper communications wiring to high-speed fiber-optic lines inadvertently overwhelmed secondary data switches, triggering a domino-style system crash at key regional en route centers.\n\nBy Saturday afternoon, the cascading system failure had paralyzed ground operations from Hartsfield-Jackson Atlanta International and Chicago O'Hare to Dallas/Fort Worth, Denver, and New York’s John F. Kennedy International Airport. Airlines reported over 4,200 canceled flights and more than 16,000 severe delays nationwide as dispatchers and federal air traffic controllers were forced to manually verify flight plans and separation distances using contingency protocols designed decades ago. Terminal concourses transformed into makeshift dormitories as stranded passengers queued for hours seeking hotel vouchers, rebookings, and luggage recovery.\n\nTransportation Secretary Sean Duffy convened an emergency command briefing alongside FAA Administrator Michael Whitaker, acknowledging the severe severity of the outage while facing sharp questioning from aviation safety experts and consumer advocacy groups. Duffy stated that while backup networks eventually restored primary telemetry and allowed the nationwide ground stop to be lifted late Friday, the legacy architecture of the National Airspace System proved incapable of absorbing simultaneous digital disruptions during routine hardware modernization.\n\n\"What unfolded across our national airspace this weekend is completely unacceptable to the American traveling public,\" Secretary Duffy told reporters outside Department of Transportation headquarters. \"We are operating with air traffic control systems that rely on software and physical routing switches installed during the late twentieth century. When modern fiber upgrades collide with legacy infrastructure, the margin for error is razor-thin. We have initiated a comprehensive federal audit of all ongoing modernization contracts to guarantee this failure never repeats.\"\n\nAirline executives expressed intense frustration over the financial and reputational fallout. Delta Air Lines, United Airlines, and American Airlines estimated collective operational losses exceeding $350 million in passenger accommodations, crew reassignment logistics, and repositioning flights. Union leaders representing the National Air Traffic Controllers Association (NATCA) warned that persistent staffing shortages compounded the chaos, noting that controllers worked grueling overtime shifts under extreme stress to manage airspace safety without real-time computerized tracking tools.\n\nOn Capitol Hill, the House Transportation and Infrastructure Committee and the Senate Commerce Committee announced joint oversight hearings scheduled for later this week, demanding sworn testimony from FAA leadership and contractor executives. As carriers worked furiously Monday to reposition displaced aircraft and flight crews, consumer watchdogs renewed demands for mandatory passenger compensation legislation modeled on European Union standards, ensuring that federal authorities and commercial carriers bear the true cost of systemic infrastructural failures.",
+    category: "US",
+    edition: ["US & Americas", "Global"],
+    author: {
+      name: "Marcus Sterling",
+      role: "National Justice & Urban Affairs Bureau",
+      avatar: "/images/authors/marcus_sterling.jpg"
+    },
+    publishedAt: "3h ago",
+    readTime: "8 min read",
+    imageUrl: "/images/news/faa-system-outage-sparks-chaos-for-over-1-million-air-travelers.webp",
+    imageCaption: "Crowds of stranded passengers navigate concourses and departure boards during nationwide flight ground stops.",
+    imageCredit: "Associated Press / Gene J. Puskar",
+    isInvestigative: false,
+    commentCount: 428,
+    bullets: [
+      "FAA issues unprecedented nationwide ground stop as air traffic communications fail during fiber optic switchover.",
+      "Over 4,200 flights canceled and 16,000 delayed, affecting more than one million passengers nationwide.",
+      "Transportation Secretary Sean Duffy orders comprehensive federal audit into decades-old legacy airspace equipment."
+],
+    tags: [
+      "US",
+      "FAA",
+      "Aviation",
+      "Travel Disruption",
+      "Transportation"
+]
+  },
+  {
+    id: "microsoft-restores-cloud-systems-after-crippling-global-outage",
+    title: "Microsoft Restores Cloud Systems After Crippling Global Outage",
+    kicker: "ENTERPRISE INFRASTRUCTURE • WALL STREET REACTION",
+    summary: "Microsoft concluded complete recovery operations following a multi-day worldwide disruption of Teams, Outlook, and Copilot that sparked renewed Wall Street scrutiny over corporate dependence on single-vendor cloud stacks.",
+    body: "REDMOND, Wash. & NEW YORK — Microsoft Corporation confirmed late Sunday that all enterprise services across its global commercial ecosystem have returned to normal operating status following an unprecedented multi-day cloud outage that disrupted operations for tens of thousands of corporate clients, financial institutions, and government agencies worldwide. The cascading failure, which began late Thursday and persisted through Saturday, incapacitated core workplace applications including Microsoft 365, Teams, Outlook, and the enterprise-tier Copilot generative artificial intelligence suite, generating over 200,000 distinct incident filings.\n\nIn a detailed preliminary post-incident report published by Microsoft’s Azure reliability engineering team, executive vice president of cloud and enterprise Scott Guthrie attributed the breakdown to an internal configuration mismatch within Azure’s global front-door routing layer. An automated maintenance script intended to optimize latency across North American data clusters inadvertently corrupted routing tables across central European and Asian gateway nodes, creating a self-reinforcing traffic loop that choked authentication gateways and locked enterprise users out of vital communication channels.\n\nThe multi-day interruption sent shockwaves through Wall Street and international financial markets, sparking renewed debate among institutional investors regarding the profound systemic vulnerabilities inherent in widespread corporate consolidation onto hyperscale cloud providers. Shares of Microsoft dipped 2.8 percent during Friday trading as portfolio managers evaluated potential customer SLA penalties and competitive defections toward rival platforms Amazon Web Services (AWS) and Google Cloud Platform (GCP).\n\n\"This was not merely an IT inconvenience; it was a profound demonstration of concentration risk in the modern digital economy,\" said Henrik Lindqvist, chief market strategist at Manhattan Capital Partners. \"When an entire continent's enterprise workforce cannot send internal emails, authenticate payroll batches, or access customer databases for 48 hours, the aggregate economic drag runs into billions of dollars. Risk officers across Fortune 500 boardrooms are now re-evaluating their single-vendor enterprise architectures.\"\n\nFinancial regulators, including the U.S. Securities and Exchange Commission (SEC) and the European Central Bank, confirmed they have opened informal inquiries into how major clearinghouses and asset management firms handled contingency operations during the outage. While Microsoft emphasized that zero customer data was compromised and no malicious cyber activity was detected, corporate technology officers are already demanding enhanced contractual uptime guarantees and substantial fee credits.\n\nAs Microsoft executives prepare for upcoming investor briefings, chief executive Satya Nadella issued a personal message to enterprise customers, pledging substantial capital investments into redundant network isolation zones and autonomous failover architecture. The episode serves as a sobering reminder that as enterprise reliance on artificial intelligence and cloud-connected productivity tools accelerates, the digital foundations underpinning global commerce require unprecedented levels of engineering resilience.",
+    category: "Business",
+    edition: ["US & Americas", "Global"],
+    author: {
+      name: "Henrik Lindqvist",
+      role: "Chief Economics & Financial Markets Editor",
+      avatar: "/images/authors/henrik_lindqvist.jpg"
+    },
+    publishedAt: "4h ago",
+    readTime: "7 min read",
+    imageUrl: "/images/news/microsoft-restores-cloud-systems-after-crippling-global-outage.webp",
+    imageCaption: "Microsoft corporate campus in Redmond, Washington, where cloud engineering teams worked around the clock.",
+    imageCredit: "Bloomberg / David Ryder",
+    isInvestigative: false,
+    commentCount: 184,
+    bullets: [
+      "Microsoft 365, Teams, and Copilot cloud services fully restored after multi-day global enterprise disruption.",
+      "Outage generated over 200,000 incident tickets and paralyzed multinational corporate communication networks.",
+      "Wall Street analysts highlight systemic concentration risks in enterprise reliance on single hyperscaler stacks."
+],
+    tags: [
+      "Business",
+      "Microsoft",
+      "Cloud Computing",
+      "Enterprise Tech",
+      "Wall Street"
+]
+  },
+  {
+    id: "jensen-huang-nvidia-return-petition-tops-160000-signatures",
+    title: "Jensen Huang Nvidia Return Petition Tops 160,000 Signatures",
+    kicker: "SILICON VALLEY REACTION • CORPORATE SHOCKWAVE",
+    summary: "An extraordinary public campaign demanding Jensen Huang's reinstatement as Nvidia CEO surged past 160,000 signatures with endorsements from Elon Musk and industry leaders as board investigations continue.",
+    body: "SANTA CLARA, Calif. — In an unprecedented display of industry solidarity and grassroots corporate mobilization, an online public campaign demanding the immediate return of Jensen Huang as chief executive officer of Nvidia Corporation surged past 160,000 verified signatures on Monday morning. The movement, initially launched by senior software engineers and semiconductor industry veterans following Huang’s abrupt resignation last week, has rapidly evolved into a defining referendum on corporate governance, founder autonomy, and the future trajectory of the global artificial intelligence boom.\n\nHigh-profile technology executives, venture capital titans, and prominent AI researchers have publicly endorsed the campaign, arguing that Huang’s visionary leadership and hands-on technical stewardship are indispensable to Nvidia’s dominant market capitalization and the broader silicon supply chain. Tesla and xAI chief executive Elon Musk amplified the petition over the weekend on social media platform X, writing, \"Jensen built Nvidia from a Denny’s booth into the foundational engine of modern artificial intelligence. Removing his steady hand during the most critical compute expansion in human history makes zero strategic sense.\"\n\nThe public outcry comes as Nvidia’s board of directors and independent special counsel continue to conduct an internal inquiry into undisclosed compliance and executive governance procedures that reportedly precipitated Huang's unexpected exit. While the board appointed interim leadership and assured institutional shareholders of operational stability, market analysts note that Huang’s iconic leather-jacket persona and legendary work ethic were deeply intertwined with Nvidia’s corporate identity and competitive edge against emerging challengers.\n\n\"Jensen is not simply a corporate executive; he is the architect of the CUDA software moat and the hardware pipeline that powered every major frontier AI model in existence,\" said Elena Rostova, senior technology analyst at Silicon Valley Insights. \"The overwhelming response to this petition from employees, clients, and rival tech leaders demonstrates a deep anxiety across the tech sector. There is genuine concern that bureaucratic governance could stifle the rapid engineering cadence that made Nvidia untouchable.\"\n\nWithin Nvidia’s Santa Clara headquarters, employee morale has reportedly faced severe strain. Internal communication channels have been flooded with tributes and expressions of loyalty toward Huang, with dozens of senior research fellows and engineering directors reportedly signing an open internal letter urging the board to negotiate a restorative agreement that would allow Huang to retain executive oversight of product architecture and long-term research computing.\n\nMeanwhile, the United States and nine allied nations signed the landmark San Francisco Declaration on AI infrastructure over the weekend, emphasizing the critical national security imperative of stable, resilient semiconductor leadership. With international governments and sovereign wealth funds heavily invested in next-generation GPU deployments, the pressure mounting on Nvidia's board to address the petition and provide absolute transparency has reached a fever pitch.",
+    category: "Tech",
+    edition: ["US & Americas", "Global"],
+    author: {
+      name: "Elena Rostova",
+      role: "Silicon Valley & Artificial Intelligence Bureau",
+      avatar: "/images/authors/elena_rostova.jpg"
+    },
+    publishedAt: "5h ago",
+    readTime: "8 min read",
+    imageUrl: "/images/news/jensen-huang-nvidia-return-petition-tops-160000-signatures.webp",
+    imageCaption: "Jensen Huang delivering an AI keynote prior to his sudden departure, surrounded by enterprise compute hardware.",
+    imageCredit: "Reuters / Carlos Barria",
+    isInvestigative: false,
+    commentCount: 542,
+    bullets: [
+      "Online petition demanding Jensen Huang's reinstatement passes 160,000 verified tech industry signatures.",
+      "High-profile backing from Elon Musk, leading AI researchers, and prominent Silicon Valley venture capitalists.",
+      "Nvidia internal morale faces strain as employees rally around the co-founder's technological legacy."
+],
+    tags: [
+      "Tech",
+      "Nvidia",
+      "Jensen Huang",
+      "Artificial Intelligence",
+      "Semiconductors"
+]
+  },
+  {
+    id: "johnny-depp-tops-box-office-as-ebenezer-scores-42m-global-debut",
+    title: "Johnny Depp Tops Box Office as Ebenezer Scores $42M Global Debut",
+    kicker: "BOX OFFICE TRIUMPH • HOLLYWOOD COMEBACK",
+    summary: "Paramount's dark gothic reimagining of A Christmas Carol scored $42 million worldwide in its opening weekend, giving Johnny Depp his first major Hollywood studio box office win in eight years.",
+    body: "LOS ANGELES — Marking one of the most remarkable and closely scrutinized commercial comebacks in contemporary Hollywood history, Johnny Depp propelled Paramount Pictures’ dark gothic adaptation Ebenezer to the No. 1 spot at the North American box office over the weekend, capturing $19.0 million domestically and achieving an impressive $42.0 million global debut. The milestone performance represents Depp’s first major studio feature release in eight years, firmly restoring his status as a bankable theatrical draw capable of mobilizing passionate worldwide audiences.\n\nDirected with atmospheric dread and visual grandeur by acclaimed horror auteur Ti West, Ebenezer re-envisions Charles Dickens’ timeless novella A Christmas Carol through a haunting, psychological lens. Depp stars as the bitter, tormented Ebenezer Scrooge, joined by an illustrious ensemble cast that includes Sir Ian McKellen as Marley’s Ghost, Mia Goth, and Barry Keoghan. Produced on a disciplined $38 million production budget, the film exceeded conservative industry tracking by more than thirty percent, powered by sellout evening screenings in major urban markets across the United States, the United Kingdom, and Australia.\n\nAudience reception proved exceptionally enthusiastic despite sharply divided reactions from mainstream film critics. While early reviews hovered at a modest 52 percent on Rotten Tomatoes—with some purists balking at West’s visceral, gothic departures from traditional holiday sentimentality—moviegoers awarded the film a coveted \"A-\" CinemaScore and a glowing 90 percent verified audience rating. Post-screening polling conducted by PostTrak revealed that over 56 percent of ticket buyers explicitly cited Johnny Depp's return as their primary motivation for attending the opening weekend.\n\n\"Johnny Depp delivers a tour de force performance that strips away two centuries of theatrical caricature to reveal the raw, wounded humanity beneath Scrooge’s cruelty,\" noted Chloe Kensington, senior culture critic at Newyorkerherald. \"Collaborating with Ti West was an inspired creative gamble. By blending classic Victorian literature with psychological horror realism, the production delivers an electrifying cinematic spectacle that feels utterly vital in an era of generic studio franchises.\"\n\nIn securing the domestic weekend crown, Ebenezer comfortably outpaced high-profile competition, relegating Warner Bros. Animation’s family tentpole The Cat in the Hat ($11.4 million in its second frame) to second place and holding off Toho’s resilient Godzilla Minus Zero ($8.3 million). Across overseas territories, international distributors reported robust ticket sales in Germany, France, and Japan, signaling substantial theatrical legs heading into the lucrative Thanksgiving and year-end holiday corridor.\n\nThe triumphant launch is already generating substantial momentum for Paramount's upcoming theatrical slate and reigniting discussions across major talent agencies regarding future studio collaborations with Depp. As awards-season voters begin compiling preliminary ballots, industry insiders anticipate that Depp’s arresting physical transformation and emotional intensity could position Ebenezer as a potent dark-horse contender across both popular and technical Academy categories.",
+    category: "Entertainment",
+    edition: ["US & Americas", "Global"],
+    author: {
+      name: "Chloe Kensington",
+      role: "Culture & Entertainment Bureau",
+      avatar: "/images/authors/chloe_kensington.jpg"
+    },
+    publishedAt: "6h ago",
+    readTime: "6 min read",
+    imageUrl: "/images/news/johnny-depp-tops-box-office-as-ebenezer-scores-42m-global-debut.webp",
+    imageCaption: "Johnny Depp in character as Ebenezer Scrooge in Paramount's gothic holiday adaptation directed by Ti West.",
+    imageCredit: "Paramount Pictures / Courtesy Everett Collection",
+    isInvestigative: false,
+    commentCount: 279,
+    bullets: [
+      "Johnny Depp's Ebenezer opens at No. 1 with $19.0 million domestic and $42.0 million global box office debut.",
+      "Paramount's gothic Dickens adaptation directed by Ti West marks Depp's first major studio lead in eight years.",
+      "Audiences award film an A- CinemaScore and 90% positive audience rating on Rotten Tomatoes."
+],
+    tags: [
+      "Entertainment",
+      "Johnny Depp",
+      "Box Office",
+      "Movies",
+      "Paramount Pictures"
+]
+  },
+  {
+    id: "luka-doncic-scores-43-points-to-power-lakers-over-phoenix-suns",
+    title: "Luka Doncic Scores 43 Points to Power Lakers Over Phoenix Suns",
+    kicker: "NBA SUNDAY SHOWCASE • BASKETBALL LEADERSHIP",
+    summary: "Luka Dončić delivered a vintage 43-point masterclass to propel the Los Angeles Lakers past the Phoenix Suns 131-123, extending their red-hot winning streak to eight straight games.",
+    body: "PHOENIX — In a spellbinding showcase of offensive wizardry and clutch shotmaking, Luka Dončić delivered a masterful 43-point scoring barrage Sunday night to guide the Los Angeles Lakers to a thrilling 131-123 road victory over Kevin Durant and the Phoenix Suns at Footprint Center. The electric performance represented Dončić’s sixth 40-point outing of the young NBA campaign and propelled the surging Lakers to their eighth consecutive victory, cementing their commanding lead atop the competitive Western Conference standings.\n\nOperating with surgical precision against Phoenix’s switching defensive schemes, Dončić torched the nets on 15-of-24 shooting from the field, including 6-of-11 from beyond the three-point arc, while orchestrating the Lakers' high-tempo transition offense with 11 assists and seven rebounds. When Phoenix mounted a furious 14-2 fourth-quarter rally spearheaded by Devin Booker and Bradley Beal to trim a double-digit deficit down to two points with under three minutes remaining, Dončić silenced the hostile sellout crowd by drilling back-to-back step-back three-pointers over outstretched defenders.\n\nThe dynamic pairing between Dončić and veteran superstar Anthony Davis proved nearly unstoppable in the pick-and-roll. Davis contributed 24 points, 14 rebounds, and four blocks, anchoring the interior defense and converting high-percentage lobs delivered by Dončić. The Lakers’ bench added vital contributions, with Austin Reaves chipping in 18 points and five assists to maintain scoring momentum during Dončić’s brief second-quarter rest intervals.\n\n\"Luka simply sees the floor two steps ahead of everyone else,\" Lakers head coach JJ Redick told reporters during his postgame press conference. \"When a defense chooses to trap him forty feet from the basket, he makes the pinpoint skip pass that leads to wide-open corner threes. When they play him straight up, he has the footwork, the patience, and the strength to get to his spots. What we saw tonight was an all-time great player commanding the game at his absolute peak.\"\n\nFor the Suns, the loss snapped a three-game home winning streak despite heroic efforts from Kevin Durant, who registered 34 points on efficient 12-of-19 shooting, and Booker, who finished with 29 points and nine assists. Phoenix head coach Mike Budenholzer lamented defensive breakdowns in perimeter transition, acknowledging that allowing the Lakers to shoot over 54 percent from the floor placed an unsustainable scoring burden on his star wings down the stretch.\n\nWith the Lakers improving to an impressive 11-2 on the season, national basketball analysts are increasingly viewing Los Angeles as the team to beat in the championship hunt. As the team travels onward to Dallas for a highly anticipated emotional showdown against Dončić's former squad on Tuesday night, the Slovenian superstar has established himself as the runaway frontrunner in early MVP voting conversations.",
+    category: "Sports",
+    edition: ["US & Americas", "Global"],
+    author: {
+      name: "Darius Vance",
+      role: "Senior Sports Correspondent",
+      avatar: "/images/authors/darius_vance.jpg"
+    },
+    publishedAt: "7h ago",
+    readTime: "6 min read",
+    imageUrl: "/images/news/luka-doncic-scores-43-points-to-power-lakers-over-phoenix-suns.webp",
+    imageCaption: "Luka Dončić celebrates a decisive fourth-quarter step-back three-pointer against the Phoenix Suns.",
+    imageCredit: "USA TODAY Sports / Mark J. Rebilas",
+    isInvestigative: false,
+    commentCount: 389,
+    bullets: [
+      "Luka Dončić erupts for 43 points, 11 assists, and 7 rebounds in 131-123 Lakers victory over Phoenix.",
+      "Los Angeles stretches season-high winning streak to eight straight games to pace Western Conference.",
+      "Anthony Davis adds 24 points and 14 rebounds as Lakers withstand late fourth-quarter Suns surge."
+],
+    tags: [
+      "Sports",
+      "NBA",
+      "Luka Doncic",
+      "Los Angeles Lakers",
+      "Phoenix Suns"
+]
+  },
+  {
+    id: "spacex-catches-starship-with-mechazilla-chopsticks-in-flight-15",
+    title: "SpaceX Catches Starship With Mechazilla Chopsticks in Flight 15",
+    kicker: "AEROSPACE MILESTONE • STARSHIP TEST 15",
+    summary: "SpaceX achieved a landmark breakthrough in rocket reusability during Starship Flight 15, successfully catching the returning upper-stage spacecraft using the mechanical chopstick arms of Mechazilla in Texas.",
+    body: "STARBASE, Texas — In what aerospace historians and engineers are already hailing as one of the most stunning technological triumphs in human spaceflight history, SpaceX successfully captured the returning Starship upper-stage spacecraft using the colossal mechanical \"chopstick\" arms of the Mechazilla launch tower during Flight 15 on Saturday afternoon. The breathtaking feat, executed over the coastal marshes of Boca Chica, Texas, represents the realization of fully and rapidly reusable rocket architecture, fundamentally altering the economics of space exploration and accelerating NASA's Artemis lunar timeline.\n\nFlight 15 lifted off at 4:30 p.m. local time propelled by the thunderous roar of 33 Raptor engines on the Super Heavy booster, which generated an astronomical 16.7 million pounds of thrust. After executing a flawless hot-staging separation three minutes into the ascent, the Super Heavy booster guided itself back through the atmosphere, reigniting its central engines and gently nestling into the launch tower’s lower landing apparatus for the second consecutive mission.\n\nHowever, the primary focus of global attention was the orbital upper stage. Following a suborbital trajectory that tested advanced thermal protection tiles and simulated hypersonic payload deployment, the 165-foot-tall stainless-steel spacecraft re-entered Earth's atmosphere over the Indian Ocean before steering toward Texas. Executing an intricate flip maneuver and reigniting three Raptor vacuum engines, the spacecraft hovered inches above the launch mount before the massive steel pincers closed smoothly around its forward lifting pins, suspending the multi-ton vehicle mid-air to deafening cheers from mission control.\n\n\"This is the moment commercial rocketry officially transitioned from the era of expendable hardware to true airline-style orbital operations,\" said Dr. Aris Thorne, senior aerospace analyst at Newyorkerherald. \"Catching the Super Heavy booster was extraordinary; catching the second stage upper spacecraft proves that the entire vehicle stack can land, undergo rapid inspection, refuel, and fly again within hours. This changes the calculus for lunar landings, deep-space orbital propellant depots, and human Mars exploration forever.\"\n\nNASA Administrator Bill Nelson congratulated the SpaceX team on the breakthrough, noting that a fully reusable Starship Human Landing System (HLS) is the foundational cornerstone of the Artemis III and IV missions slated to return American astronauts to the lunar South Pole. With full reuse demonstrated, SpaceX estimates that launch costs per kilogram to low Earth orbit will drop below $100 within the next two years, vastly outpacing traditional aerospace launch vehicles.\n\nBack at Starbase, engineering crews are already inspecting the thermal shield tiles and structural integrity of the recovered Flight 15 upper stage in preparation for Flight 16, scheduled for next month. As SpaceX pushes toward full orbital refueling demonstrations in early 2027, the success of Flight 15 stands as a towering testament to iterative engineering and commercial innovation pushing the boundaries of what is possible in the modern space age.",
+    category: "Science",
+    edition: ["US & Americas", "Global"],
+    author: {
+      name: "Dr. Aris Thorne",
+      role: "Aerospace & Planetary Exploration Desk",
+      avatar: "/images/authors/aris_thorne.jpg"
+    },
+    publishedAt: "8h ago",
+    readTime: "8 min read",
+    imageUrl: "/images/news/spacex-catches-starship-with-mechazilla-chopsticks-in-flight-15.webp",
+    imageCaption: "The Mechazilla launch tower chopstick arms secure the returning Starship upper stage in Boca Chica, Texas.",
+    imageCredit: "SpaceX via AP",
+    isInvestigative: false,
+    commentCount: 615,
+    bullets: [
+      "SpaceX executes first-ever mechanical catch of the returning Starship upper stage at Starbase, Texas.",
+      "Flight 15 demonstrates full two-stage rocket reusability, paving the way for Artemis III lunar landing flights.",
+      "NASA leadership and global space agencies praise the historic engineering breakthrough."
+],
+    tags: [
+      "Science",
+      "SpaceX",
+      "Starship",
+      "NASA",
+      "Space Exploration"
+]
+  },
+  {
+    id: "doj-and-europol-dismantle-dark-web-drug-ring-in-operation-tornado",
+    title: "DOJ and Europol Dismantle Dark Web Drug Ring in Operation TorNado",
+    kicker: "TRANSNATIONAL ENFORCEMENT • GLOBAL CYBER SWEEP",
+    summary: "In a massive synchronized global crackdown codenamed Operation TorNado, the Department of Justice, DEA, and Europol executed over 350 arrests and seized $234 million in illicit assets targeting dark web fentanyl cartels.",
+    body: "WASHINGTON & THE HAGUE — In one of the most comprehensive and coordinated transnational law enforcement actions ever conducted against digital narcotics trafficking, the United States Department of Justice, the Drug Enforcement Administration (DEA), and Europol announced Monday the devastating dismantlement of an international dark web drug cartel in a global sweep codenamed Operation TorNado. The sprawling multi-agency offensive resulted in the coordinated arrest of over 350 high-level cyber traffickers across nine nations and the seizure of more than $234 million in illicit cryptocurrency, fiat assets, assault weapons, and industrial-grade pill press machinery.\n\nUnsealed federal indictments in Manhattan, Chicago, and Los Angeles reveal that the syndicate operated a multi-vendor marketplace hidden behind the Tor network, processing millions of encrypted transactions for lethal fentanyl, carfentanil, methamphetamine, and counterfeit pharmaceuticals disguised as common prescription medications like Adderall and Oxycodone. The operators utilized sophisticated crypto-mixing algorithms, peer-to-peer escrow accounts, and commercial logistics networks to smuggle hundreds of kilograms of chemical narcotics into American neighborhoods and European urban centers.\n\nThe breakthrough investigative breakthrough occurred when federal cyber analysts with the FBI’s High-Tech Crime Section and the DEA’s Special Operations Division successfully infiltrated the syndicate’s private administrative channels and identified physical server nodes hosted across data centers in Germany, Switzerland, and the Netherlands. Working in tight concert with Dutch National Police and German Federal Criminal Police (BKA), investigators mirrored encrypted transactional databases, linking pseudonymous vendor identities to bank accounts, shipping lockers, and physical packaging warehouses across the United States.\n\n\"Operation TorNado sends an unmistakable message to every criminal syndicate attempting to hide behind the anonymity of the dark web: there is no digital corner beyond the reach of international law enforcement,\" Attorney General Todd Blanche stated during a joint press briefing at DOJ headquarters. \"By seizing their command infrastructure, confiscating hundreds of millions in dirty assets, and intercepting metric tons of lethal synthetic opioids before they could hit our streets, we have dealt a crippling blow to the architects of modern overdose devastation.\"\n\nIn addition to the monetary forfeitures, tactical entry teams executed simultaneous search warrants on seventy clandestine processing facilities across twenty-two states, seizing over 180 kilograms of raw fentanyl powder, 1.2 million counterfeit pressed pills, thirty-eight industrial pill presses, and ninety-four illegal firearms, including tactical rifles equipped with silencers. European authorities simultaneously apprehended sixty-two regional distribution organizers operating across France, the United Kingdom, and Spain.\n\nCommunity leaders, public health officials, and victim advocacy coalitions praised the operation as a monumental achievement in combating the synthetic opioid epidemic that claims tens of thousands of American lives annually. Federal prosecutors confirmed that extradition proceedings are already underway for overseas ringleaders, while financial intelligence units continue to trace and freeze auxiliary crypto wallets linked to global money-laundering cartels.",
+    category: "Investigation",
+    edition: ["US & Americas", "Global"],
+    author: {
+      name: "Jonathan Ross",
+      role: "Chief Investigative Reporter",
+      avatar: "/images/authors/jonathan_ross.jpg"
+    },
+    publishedAt: "9h ago",
+    readTime: "9 min read",
+    imageUrl: "/images/news/doj-and-europol-dismantle-dark-web-drug-ring-in-operation-tornado.webp",
+    imageCaption: "Federal and international law enforcement display seized dark web servers, cryptocurrency assets, and illicit weapons.",
+    imageCredit: "Department of Justice / AP",
+    isInvestigative: true,
+    commentCount: 218,
+    bullets: [
+      "Operation TorNado yields 350+ arrests and $234 million in cryptocurrency, firearms, and cash seizures.",
+      "International coalition shuts down dark web narcotics marketplace supplying fentanyl across 40 countries.",
+      "Seventy clandestine manufacturing sites dismantled across 22 U.S. states and European hubs."
+],
+    tags: [
+      "Investigation",
+      "DOJ",
+      "Europol",
+      "Cybercrime",
+      "Fentanyl Cartels"
+]
+  },
+  {
+    id: "why-the-faa-system-collapse-exposes-decades-of-federal-neglect",
+    title: "Why the FAA System Collapse Exposes Decades of Federal Neglect",
+    kicker: "INFRASTRUCTURE ANALYSIS • EDITORIAL PERSPECTIVE",
+    summary: "The catastrophic nationwide ground stop that paralyzed air travel for over a million Americans is not a fluke contractor accident—it is the inevitable outcome of decades of bipartisan underinvestment in mission-critical public tech.",
+    body: "When over one million air travelers found themselves stranded inside chaotic airport terminals over the weekend—curled up on carpeted floors, desperately refreshing smartphone apps, and watching flight display monitors flicker into endless columns of cancellations—official Washington responded with its standard repertoire of excuses. Federal officials blamed an unfortunate contractor mistake during a routine fiber-optic cable installation. Airlines pointed fingers at the government. Bureaucrats promised swift investigations and comprehensive audits. But let us be painfully honest with ourselves: what occurred across American airspace this weekend was not an isolated technological hiccup; it was the inevitable, predictable collapse of a national aviation infrastructure that has been systematically starved of modern investment for more than thirty years.\n\nThe Federal Aviation Administration’s National Airspace System is a staggering monument to deferred maintenance. Millions of commercial and cargo flights every year are directed through regional control centers that still depend on mainframe computing switches, aging copper communication loops, and software code compiled during the final decades of the Cold War. In a nation that boasts the most sophisticated technology giants on earth—designing quantum processors, reusable rockets, and cutting-edge artificial intelligence—our national air safety relies on digital duct tape and the heroic, exhausting vigilance of understaffed air traffic controllers working mandatory six-day workweeks.\n\nThe blame for this structural disgrace lies squarely at the feet of successive presidential administrations and dysfunctional sessions of Congress. For decades, federal lawmakers have treated FAA reauthorization bills as political footballs, holding multi-billion-dollar modernization capital hostage to petty partisan disputes, parochial airport earmarks, and ideological debates over air traffic privatization. While European and Asian aviation authorities systematically transitioned to modern satellite-based digital navigation and modular cloud architectures, Washington repeatedly trimmed modernization budgets, forcing federal program managers to paste modern fiber optics onto ancient analog copper frameworks.\n\nWhen modern digital networks collide with legacy computing architecture, the failure is rarely polite. It is catastrophic, instantaneous, and systemic. A single electrical surge or routing table error cascades through secondary switches that lack automated failover protocols, blindfolding dispatchers and paralyzing the economic arteries of the world's largest economy. The airlines, for their part, are hardly innocent victims; they have happily reaped tens of billions in passenger fees and record revenues while failing to modernize their own internal crew scheduling engines, ensuring that when the federal system stumbles, commercial networks collapse completely into paralysis.\n\nIf the United States wishes to maintain its status as the world’s preeminent economic and technological powerhouse, Congress must abandon the illusion that national infrastructure can be maintained on the cheap through band-aids and emergency appropriations. What is required is a comprehensive, multi-year National Airspace Reconstruction Act: a guaranteed, non-discretionary federal capital commitment that completely rebuilds American air traffic architecture from the foundation up, deploys state-of-the-art redundant cloud infrastructure, and aggressively recruits and trains thousands of new air traffic controllers.\n\nAnything less is an insult to the traveling public and an unacceptable gamble with public safety. The millions of Americans whose family gatherings, business deals, and vacations were ruined this weekend deserve more than press conferences and bureaucratic finger-pointing. They deserve a 21st-century aviation system worthy of the nation it connects. Until Washington treats critical public infrastructure with the seriousness it commands, we are simply waiting for the next switch to fail.",
+    category: "Opinion",
+    edition: ["US & Americas", "Global"],
+    author: {
+      name: "Eleanor Vance",
+      role: "Senior Opinion Columnist",
+      avatar: "/images/authors/eleanor_vance.jpg"
+    },
+    publishedAt: "10h ago",
+    readTime: "7 min read",
+    imageUrl: "/images/news/why-the-faa-system-collapse-exposes-decades-of-federal-neglect.webp",
+    imageCaption: "A crowded departures board showing nationwide delays reflecting chronic federal infrastructure underfunding.",
+    imageCredit: "Getty Images / Spencer Platt",
+    isInvestigative: false,
+    commentCount: 356,
+    bullets: [
+      "Nationwide FAA ground stop was a systemic failure waiting to happen after thirty years of deferred modernization.",
+      "Congress and successive administrations have repeatedly treated critical aviation tech funding as a political football.",
+      "A comprehensive National Airspace Reconstruction Act is urgent to replace Cold War computing switches."
+],
+    tags: [
+      "Opinion",
+      "FAA",
+      "Infrastructure",
+      "Aviation Policy",
+      "Federal Government"
+]
+  },
+
     {
         "id": "trump-drops-iran-deal-talks-and-pivots-vance-to-urban-crime",
         "title": "Trump Drops Iran Deal Talks and Pivots Vance to Urban Crime",
@@ -552,6 +850,40 @@ As the Federal Energy Regulatory Commission (FERC) convenes national stakeholder
 
 export const CATEGORY_ARTICLES: Record<string, Article[]> = {
   'Investigation': [
+  {
+    id: "doj-and-europol-dismantle-dark-web-drug-ring-in-operation-tornado",
+    title: "DOJ and Europol Dismantle Dark Web Drug Ring in Operation TorNado",
+    kicker: "TRANSNATIONAL ENFORCEMENT • GLOBAL CYBER SWEEP",
+    summary: "In a massive synchronized global crackdown codenamed Operation TorNado, the Department of Justice, DEA, and Europol executed over 350 arrests and seized $234 million in illicit assets targeting dark web fentanyl cartels.",
+    body: "WASHINGTON & THE HAGUE — In one of the most comprehensive and coordinated transnational law enforcement actions ever conducted against digital narcotics trafficking, the United States Department of Justice, the Drug Enforcement Administration (DEA), and Europol announced Monday the devastating dismantlement of an international dark web drug cartel in a global sweep codenamed Operation TorNado. The sprawling multi-agency offensive resulted in the coordinated arrest of over 350 high-level cyber traffickers across nine nations and the seizure of more than $234 million in illicit cryptocurrency, fiat assets, assault weapons, and industrial-grade pill press machinery.\n\nUnsealed federal indictments in Manhattan, Chicago, and Los Angeles reveal that the syndicate operated a multi-vendor marketplace hidden behind the Tor network, processing millions of encrypted transactions for lethal fentanyl, carfentanil, methamphetamine, and counterfeit pharmaceuticals disguised as common prescription medications like Adderall and Oxycodone. The operators utilized sophisticated crypto-mixing algorithms, peer-to-peer escrow accounts, and commercial logistics networks to smuggle hundreds of kilograms of chemical narcotics into American neighborhoods and European urban centers.\n\nThe breakthrough investigative breakthrough occurred when federal cyber analysts with the FBI’s High-Tech Crime Section and the DEA’s Special Operations Division successfully infiltrated the syndicate’s private administrative channels and identified physical server nodes hosted across data centers in Germany, Switzerland, and the Netherlands. Working in tight concert with Dutch National Police and German Federal Criminal Police (BKA), investigators mirrored encrypted transactional databases, linking pseudonymous vendor identities to bank accounts, shipping lockers, and physical packaging warehouses across the United States.\n\n\"Operation TorNado sends an unmistakable message to every criminal syndicate attempting to hide behind the anonymity of the dark web: there is no digital corner beyond the reach of international law enforcement,\" Attorney General Todd Blanche stated during a joint press briefing at DOJ headquarters. \"By seizing their command infrastructure, confiscating hundreds of millions in dirty assets, and intercepting metric tons of lethal synthetic opioids before they could hit our streets, we have dealt a crippling blow to the architects of modern overdose devastation.\"\n\nIn addition to the monetary forfeitures, tactical entry teams executed simultaneous search warrants on seventy clandestine processing facilities across twenty-two states, seizing over 180 kilograms of raw fentanyl powder, 1.2 million counterfeit pressed pills, thirty-eight industrial pill presses, and ninety-four illegal firearms, including tactical rifles equipped with silencers. European authorities simultaneously apprehended sixty-two regional distribution organizers operating across France, the United Kingdom, and Spain.\n\nCommunity leaders, public health officials, and victim advocacy coalitions praised the operation as a monumental achievement in combating the synthetic opioid epidemic that claims tens of thousands of American lives annually. Federal prosecutors confirmed that extradition proceedings are already underway for overseas ringleaders, while financial intelligence units continue to trace and freeze auxiliary crypto wallets linked to global money-laundering cartels.",
+    category: "Investigation",
+    edition: ["US & Americas", "Global"],
+    author: {
+      name: "Jonathan Ross",
+      role: "Chief Investigative Reporter",
+      avatar: "/images/authors/jonathan_ross.jpg"
+    },
+    publishedAt: "9h ago",
+    readTime: "9 min read",
+    imageUrl: "/images/news/doj-and-europol-dismantle-dark-web-drug-ring-in-operation-tornado.webp",
+    imageCaption: "Federal and international law enforcement display seized dark web servers, cryptocurrency assets, and illicit weapons.",
+    imageCredit: "Department of Justice / AP",
+    isInvestigative: true,
+    commentCount: 218,
+    bullets: [
+      "Operation TorNado yields 350+ arrests and $234 million in cryptocurrency, firearms, and cash seizures.",
+      "International coalition shuts down dark web narcotics marketplace supplying fentanyl across 40 countries.",
+      "Seventy clandestine manufacturing sites dismantled across 22 U.S. states and European hubs."
+],
+    tags: [
+      "Investigation",
+      "DOJ",
+      "Europol",
+      "Cybercrime",
+      "Fentanyl Cartels"
+]
+  },
+
     {
         "id": "doj-and-global-allies-dismantle-notorious-gootloader-cyber-ring",
         "title": "DOJ and Global Allies Dismantle Notorious Gootloader Cyber Ring",
@@ -813,6 +1145,40 @@ In Albany, Governor Kathy Hochul convened an emergency public health cabinet mee
     }
   ],
     'US': [
+  {
+    id: "faa-system-outage-sparks-chaos-for-over-1-million-air-travelers",
+    title: "FAA System Outage Sparks Chaos for Over 1 Million Air Travelers",
+    kicker: "NATIONAL TRANSIT CRISIS • AVIATION EMERGENCY",
+    summary: "A nationwide ground stop triggered by an antiquated air traffic control failure during a fiber optic upgrade caused cascading cancellations and delays for more than one million passengers across major U.S. hubs.",
+    body: "WASHINGTON & ATLANTA — A catastrophic technical malfunction in the Federal Aviation Administration’s antiquated air traffic management infrastructure forced a rare nationwide ground stop over the weekend, stranding more than one million passengers and triggering unprecedented gridlock across every major American air hub that continued to disrupt commercial flight operations into Monday morning. The crisis erupted when a private infrastructure contractor attempting to migrate legacy copper communications wiring to high-speed fiber-optic lines inadvertently overwhelmed secondary data switches, triggering a domino-style system crash at key regional en route centers.\n\nBy Saturday afternoon, the cascading system failure had paralyzed ground operations from Hartsfield-Jackson Atlanta International and Chicago O'Hare to Dallas/Fort Worth, Denver, and New York’s John F. Kennedy International Airport. Airlines reported over 4,200 canceled flights and more than 16,000 severe delays nationwide as dispatchers and federal air traffic controllers were forced to manually verify flight plans and separation distances using contingency protocols designed decades ago. Terminal concourses transformed into makeshift dormitories as stranded passengers queued for hours seeking hotel vouchers, rebookings, and luggage recovery.\n\nTransportation Secretary Sean Duffy convened an emergency command briefing alongside FAA Administrator Michael Whitaker, acknowledging the severe severity of the outage while facing sharp questioning from aviation safety experts and consumer advocacy groups. Duffy stated that while backup networks eventually restored primary telemetry and allowed the nationwide ground stop to be lifted late Friday, the legacy architecture of the National Airspace System proved incapable of absorbing simultaneous digital disruptions during routine hardware modernization.\n\n\"What unfolded across our national airspace this weekend is completely unacceptable to the American traveling public,\" Secretary Duffy told reporters outside Department of Transportation headquarters. \"We are operating with air traffic control systems that rely on software and physical routing switches installed during the late twentieth century. When modern fiber upgrades collide with legacy infrastructure, the margin for error is razor-thin. We have initiated a comprehensive federal audit of all ongoing modernization contracts to guarantee this failure never repeats.\"\n\nAirline executives expressed intense frustration over the financial and reputational fallout. Delta Air Lines, United Airlines, and American Airlines estimated collective operational losses exceeding $350 million in passenger accommodations, crew reassignment logistics, and repositioning flights. Union leaders representing the National Air Traffic Controllers Association (NATCA) warned that persistent staffing shortages compounded the chaos, noting that controllers worked grueling overtime shifts under extreme stress to manage airspace safety without real-time computerized tracking tools.\n\nOn Capitol Hill, the House Transportation and Infrastructure Committee and the Senate Commerce Committee announced joint oversight hearings scheduled for later this week, demanding sworn testimony from FAA leadership and contractor executives. As carriers worked furiously Monday to reposition displaced aircraft and flight crews, consumer watchdogs renewed demands for mandatory passenger compensation legislation modeled on European Union standards, ensuring that federal authorities and commercial carriers bear the true cost of systemic infrastructural failures.",
+    category: "US",
+    edition: ["US & Americas", "Global"],
+    author: {
+      name: "Marcus Sterling",
+      role: "National Justice & Urban Affairs Bureau",
+      avatar: "/images/authors/marcus_sterling.jpg"
+    },
+    publishedAt: "3h ago",
+    readTime: "8 min read",
+    imageUrl: "/images/news/faa-system-outage-sparks-chaos-for-over-1-million-air-travelers.webp",
+    imageCaption: "Crowds of stranded passengers navigate concourses and departure boards during nationwide flight ground stops.",
+    imageCredit: "Associated Press / Gene J. Puskar",
+    isInvestigative: false,
+    commentCount: 428,
+    bullets: [
+      "FAA issues unprecedented nationwide ground stop as air traffic communications fail during fiber optic switchover.",
+      "Over 4,200 flights canceled and 16,000 delayed, affecting more than one million passengers nationwide.",
+      "Transportation Secretary Sean Duffy orders comprehensive federal audit into decades-old legacy airspace equipment."
+],
+    tags: [
+      "US",
+      "FAA",
+      "Aviation",
+      "Travel Disruption",
+      "Transportation"
+]
+  },
+
     {
         "id": "deadly-logan-circle-shooting-in-washington-leaves-two-dead",
         "title": "Deadly Logan Circle Shooting in Washington Leaves Two Dead",
@@ -1095,6 +1461,40 @@ As the clocks reset, congressional leaders confirmed that bipartisan committee s
     }
   ],
   'Politics': [
+  {
+    id: "trump-pauses-iran-strikes-following-talks-with-mideast-allies",
+    title: "Trump Pauses Iran Strikes Following Talks With Mideast Allies",
+    kicker: "WHITE HOUSE DIPLOMACY • MIDDLE EAST POSTURE",
+    summary: "President Donald Trump has indicated to senior defense advisers that the U.S. will pause plans for direct strikes against Iranian targets following urgent appeals from Gulf allies seeking to prevent broader regional war.",
+    body: "WASHINGTON — President Donald Trump has signaled to senior national security advisers and Pentagon leadership that the United States will temporarily pause direct kinetic military strikes against Iranian infrastructure, following an intensive weekend of high-level diplomatic appeals from key Middle Eastern partners including Saudi Arabia, the United Arab Emirates, and Qatar. Officials familiar with internal deliberations confirmed that Gulf leaders urged the White House to avoid triggering an uncontrollable regional confrontation that could shutter commercial navigation throughout the Strait of Hormuz and destabilize global energy markets.\n\nThe diplomatic pause comes immediately on the heels of an Iranian drone assault targeting an advanced American air defense radar installation situated at a naval staging facility in Bahrain early Sunday morning. While Bahraini defense forces and U.S. Central Command intercepted the bulk of incoming unmanned aerial vehicles with zero American casualties reported, the provocative engagement initially spurred intense discussions within the Situation Room regarding retaliatory strikes against Iranian missile staging sites and command nodes in southern Iran.\n\nHowever, during extended telephone conferences conducted late Sunday evening between the Oval Office and regional counterparts, Gulf leaders presented compelling arguments that immediate American airstrikes would inevitably prompt asymmetric Iranian counterattacks against energy refining facilities and desalination plants across the Persian Gulf. Leaders in Riyadh and Abu Dhabi emphasized that while strategic deterrence must remain firm, opening a wider military theater would undermine months of economic stabilization efforts and create profound inflationary pressures across the international economy.\n\n\"Our posture remains one of unmatched strength, but our actions will be deliberate, calculated, and coordinated with those who stand alongside us in the region,\" a senior administration official told reporters on condition of anonymity. \"The president has made it abundantly clear to Tehran that any further escalatory maneuvers will meet with overwhelming force. For now, diplomatic channels and maritime interdiction operations will take precedence as we assess Iranian military repositioning.\"\n\nCongressional reactions reflected deep partisan divisions over the administration's strategic posture. Republican defense hawks cautioned that pausing retaliatory strikes could be interpreted by Tehran and regional proxy factions as hesitation, calling for sustained pressure on Iranian command hierarchies. Conversely, Democratic leaders on the Senate Foreign Relations Committee welcomed the consultative approach with Gulf allies, urging the White House to formalize verifiable de-escalation protocols and submit any potential authorization of military force to Congress for debate.\n\nAs U.S. naval strike groups led by the USS Abraham Lincoln maintain elevated alert status across the Arabian Sea, diplomatic envoys in Muscat and Geneva are quietly exploring whether indirect dialogue can be revived to de-escalate maritime tensions. For the White House, the decision to stay military action illustrates the complex balancing act between domestic political pledges to avoid prolonged overseas entanglements and the imperative to defend vital American national security interests abroad.",
+    category: "Politics",
+    edition: ["US & Americas", "Global"],
+    author: {
+      name: "Sarah Mitchell",
+      role: "Chief Congressional & National Security Correspondent",
+      avatar: "/images/authors/sarah_mitchell.jpg"
+    },
+    publishedAt: "2h ago",
+    readTime: "7 min read",
+    imageUrl: "/images/news/trump-pauses-iran-strikes-following-talks-with-mideast-allies.webp",
+    imageCaption: "President Trump confers with senior national security officials and diplomatic envoys inside the Oval Office.",
+    imageCredit: "Reuters / Leah Millis",
+    isInvestigative: false,
+    commentCount: 312,
+    bullets: [
+      "President Trump temporarily halts direct retaliatory strikes against Iranian installations after Gulf partner appeals.",
+      "Decision follows Sunday drone attack on Bahrain naval radar base intercepted with zero U.S. casualties.",
+      "Gulf leaders warn direct escalation threatens oil shipping lanes and regional economic stability."
+],
+    tags: [
+      "Politics",
+      "Donald Trump",
+      "Middle East",
+      "Iran",
+      "National Security"
+]
+  },
+
     {
         "id": "trump-drops-iran-deal-talks-and-pivots-vance-to-urban-crime",
         "title": "Trump Drops Iran Deal Talks and Pivots Vance to Urban Crime",
@@ -1483,6 +1883,40 @@ In Washington, national security officials convened in the White House Situation
   ],
 
   'Business & Economy': [
+  {
+    id: "microsoft-restores-cloud-systems-after-crippling-global-outage",
+    title: "Microsoft Restores Cloud Systems After Crippling Global Outage",
+    kicker: "ENTERPRISE INFRASTRUCTURE • WALL STREET REACTION",
+    summary: "Microsoft concluded complete recovery operations following a multi-day worldwide disruption of Teams, Outlook, and Copilot that sparked renewed Wall Street scrutiny over corporate dependence on single-vendor cloud stacks.",
+    body: "REDMOND, Wash. & NEW YORK — Microsoft Corporation confirmed late Sunday that all enterprise services across its global commercial ecosystem have returned to normal operating status following an unprecedented multi-day cloud outage that disrupted operations for tens of thousands of corporate clients, financial institutions, and government agencies worldwide. The cascading failure, which began late Thursday and persisted through Saturday, incapacitated core workplace applications including Microsoft 365, Teams, Outlook, and the enterprise-tier Copilot generative artificial intelligence suite, generating over 200,000 distinct incident filings.\n\nIn a detailed preliminary post-incident report published by Microsoft’s Azure reliability engineering team, executive vice president of cloud and enterprise Scott Guthrie attributed the breakdown to an internal configuration mismatch within Azure’s global front-door routing layer. An automated maintenance script intended to optimize latency across North American data clusters inadvertently corrupted routing tables across central European and Asian gateway nodes, creating a self-reinforcing traffic loop that choked authentication gateways and locked enterprise users out of vital communication channels.\n\nThe multi-day interruption sent shockwaves through Wall Street and international financial markets, sparking renewed debate among institutional investors regarding the profound systemic vulnerabilities inherent in widespread corporate consolidation onto hyperscale cloud providers. Shares of Microsoft dipped 2.8 percent during Friday trading as portfolio managers evaluated potential customer SLA penalties and competitive defections toward rival platforms Amazon Web Services (AWS) and Google Cloud Platform (GCP).\n\n\"This was not merely an IT inconvenience; it was a profound demonstration of concentration risk in the modern digital economy,\" said Henrik Lindqvist, chief market strategist at Manhattan Capital Partners. \"When an entire continent's enterprise workforce cannot send internal emails, authenticate payroll batches, or access customer databases for 48 hours, the aggregate economic drag runs into billions of dollars. Risk officers across Fortune 500 boardrooms are now re-evaluating their single-vendor enterprise architectures.\"\n\nFinancial regulators, including the U.S. Securities and Exchange Commission (SEC) and the European Central Bank, confirmed they have opened informal inquiries into how major clearinghouses and asset management firms handled contingency operations during the outage. While Microsoft emphasized that zero customer data was compromised and no malicious cyber activity was detected, corporate technology officers are already demanding enhanced contractual uptime guarantees and substantial fee credits.\n\nAs Microsoft executives prepare for upcoming investor briefings, chief executive Satya Nadella issued a personal message to enterprise customers, pledging substantial capital investments into redundant network isolation zones and autonomous failover architecture. The episode serves as a sobering reminder that as enterprise reliance on artificial intelligence and cloud-connected productivity tools accelerates, the digital foundations underpinning global commerce require unprecedented levels of engineering resilience.",
+    category: "Business",
+    edition: ["US & Americas", "Global"],
+    author: {
+      name: "Henrik Lindqvist",
+      role: "Chief Economics & Financial Markets Editor",
+      avatar: "/images/authors/henrik_lindqvist.jpg"
+    },
+    publishedAt: "4h ago",
+    readTime: "7 min read",
+    imageUrl: "/images/news/microsoft-restores-cloud-systems-after-crippling-global-outage.webp",
+    imageCaption: "Microsoft corporate campus in Redmond, Washington, where cloud engineering teams worked around the clock.",
+    imageCredit: "Bloomberg / David Ryder",
+    isInvestigative: false,
+    commentCount: 184,
+    bullets: [
+      "Microsoft 365, Teams, and Copilot cloud services fully restored after multi-day global enterprise disruption.",
+      "Outage generated over 200,000 incident tickets and paralyzed multinational corporate communication networks.",
+      "Wall Street analysts highlight systemic concentration risks in enterprise reliance on single hyperscaler stacks."
+],
+    tags: [
+      "Business",
+      "Microsoft",
+      "Cloud Computing",
+      "Enterprise Tech",
+      "Wall Street"
+]
+  },
+
     {
         "id": "surging-treasury-yields-rattle-global-markets-and-pound-gold",
         "title": "Surging Treasury Yields Rattle Global Markets and Pound Gold",
@@ -1842,6 +2276,40 @@ Sports finance experts note that the move mirrors a broader institutional trend 
   ],
 
   'Tech': [
+  {
+    id: "jensen-huang-nvidia-return-petition-tops-160000-signatures",
+    title: "Jensen Huang Nvidia Return Petition Tops 160,000 Signatures",
+    kicker: "SILICON VALLEY REACTION • CORPORATE SHOCKWAVE",
+    summary: "An extraordinary public campaign demanding Jensen Huang's reinstatement as Nvidia CEO surged past 160,000 signatures with endorsements from Elon Musk and industry leaders as board investigations continue.",
+    body: "SANTA CLARA, Calif. — In an unprecedented display of industry solidarity and grassroots corporate mobilization, an online public campaign demanding the immediate return of Jensen Huang as chief executive officer of Nvidia Corporation surged past 160,000 verified signatures on Monday morning. The movement, initially launched by senior software engineers and semiconductor industry veterans following Huang’s abrupt resignation last week, has rapidly evolved into a defining referendum on corporate governance, founder autonomy, and the future trajectory of the global artificial intelligence boom.\n\nHigh-profile technology executives, venture capital titans, and prominent AI researchers have publicly endorsed the campaign, arguing that Huang’s visionary leadership and hands-on technical stewardship are indispensable to Nvidia’s dominant market capitalization and the broader silicon supply chain. Tesla and xAI chief executive Elon Musk amplified the petition over the weekend on social media platform X, writing, \"Jensen built Nvidia from a Denny’s booth into the foundational engine of modern artificial intelligence. Removing his steady hand during the most critical compute expansion in human history makes zero strategic sense.\"\n\nThe public outcry comes as Nvidia’s board of directors and independent special counsel continue to conduct an internal inquiry into undisclosed compliance and executive governance procedures that reportedly precipitated Huang's unexpected exit. While the board appointed interim leadership and assured institutional shareholders of operational stability, market analysts note that Huang’s iconic leather-jacket persona and legendary work ethic were deeply intertwined with Nvidia’s corporate identity and competitive edge against emerging challengers.\n\n\"Jensen is not simply a corporate executive; he is the architect of the CUDA software moat and the hardware pipeline that powered every major frontier AI model in existence,\" said Elena Rostova, senior technology analyst at Silicon Valley Insights. \"The overwhelming response to this petition from employees, clients, and rival tech leaders demonstrates a deep anxiety across the tech sector. There is genuine concern that bureaucratic governance could stifle the rapid engineering cadence that made Nvidia untouchable.\"\n\nWithin Nvidia’s Santa Clara headquarters, employee morale has reportedly faced severe strain. Internal communication channels have been flooded with tributes and expressions of loyalty toward Huang, with dozens of senior research fellows and engineering directors reportedly signing an open internal letter urging the board to negotiate a restorative agreement that would allow Huang to retain executive oversight of product architecture and long-term research computing.\n\nMeanwhile, the United States and nine allied nations signed the landmark San Francisco Declaration on AI infrastructure over the weekend, emphasizing the critical national security imperative of stable, resilient semiconductor leadership. With international governments and sovereign wealth funds heavily invested in next-generation GPU deployments, the pressure mounting on Nvidia's board to address the petition and provide absolute transparency has reached a fever pitch.",
+    category: "Tech",
+    edition: ["US & Americas", "Global"],
+    author: {
+      name: "Elena Rostova",
+      role: "Silicon Valley & Artificial Intelligence Bureau",
+      avatar: "/images/authors/elena_rostova.jpg"
+    },
+    publishedAt: "5h ago",
+    readTime: "8 min read",
+    imageUrl: "/images/news/jensen-huang-nvidia-return-petition-tops-160000-signatures.webp",
+    imageCaption: "Jensen Huang delivering an AI keynote prior to his sudden departure, surrounded by enterprise compute hardware.",
+    imageCredit: "Reuters / Carlos Barria",
+    isInvestigative: false,
+    commentCount: 542,
+    bullets: [
+      "Online petition demanding Jensen Huang's reinstatement passes 160,000 verified tech industry signatures.",
+      "High-profile backing from Elon Musk, leading AI researchers, and prominent Silicon Valley venture capitalists.",
+      "Nvidia internal morale faces strain as employees rally around the co-founder's technological legacy."
+],
+    tags: [
+      "Tech",
+      "Nvidia",
+      "Jensen Huang",
+      "Artificial Intelligence",
+      "Semiconductors"
+]
+  },
+
     {
         "id": "jensen-huang-abruptly-steps-down-as-ceo-of-nvidia-in-shock-exit",
         "title": "Jensen Huang Abruptly Steps Down as CEO of Nvidia in Shock Exit",
@@ -2201,6 +2669,40 @@ Aerospace financial analysts estimate that SpaceX's commercial launch and satell
   ],
 
   'Entertainment': [
+  {
+    id: "johnny-depp-tops-box-office-as-ebenezer-scores-42m-global-debut",
+    title: "Johnny Depp Tops Box Office as Ebenezer Scores $42M Global Debut",
+    kicker: "BOX OFFICE TRIUMPH • HOLLYWOOD COMEBACK",
+    summary: "Paramount's dark gothic reimagining of A Christmas Carol scored $42 million worldwide in its opening weekend, giving Johnny Depp his first major Hollywood studio box office win in eight years.",
+    body: "LOS ANGELES — Marking one of the most remarkable and closely scrutinized commercial comebacks in contemporary Hollywood history, Johnny Depp propelled Paramount Pictures’ dark gothic adaptation Ebenezer to the No. 1 spot at the North American box office over the weekend, capturing $19.0 million domestically and achieving an impressive $42.0 million global debut. The milestone performance represents Depp’s first major studio feature release in eight years, firmly restoring his status as a bankable theatrical draw capable of mobilizing passionate worldwide audiences.\n\nDirected with atmospheric dread and visual grandeur by acclaimed horror auteur Ti West, Ebenezer re-envisions Charles Dickens’ timeless novella A Christmas Carol through a haunting, psychological lens. Depp stars as the bitter, tormented Ebenezer Scrooge, joined by an illustrious ensemble cast that includes Sir Ian McKellen as Marley’s Ghost, Mia Goth, and Barry Keoghan. Produced on a disciplined $38 million production budget, the film exceeded conservative industry tracking by more than thirty percent, powered by sellout evening screenings in major urban markets across the United States, the United Kingdom, and Australia.\n\nAudience reception proved exceptionally enthusiastic despite sharply divided reactions from mainstream film critics. While early reviews hovered at a modest 52 percent on Rotten Tomatoes—with some purists balking at West’s visceral, gothic departures from traditional holiday sentimentality—moviegoers awarded the film a coveted \"A-\" CinemaScore and a glowing 90 percent verified audience rating. Post-screening polling conducted by PostTrak revealed that over 56 percent of ticket buyers explicitly cited Johnny Depp's return as their primary motivation for attending the opening weekend.\n\n\"Johnny Depp delivers a tour de force performance that strips away two centuries of theatrical caricature to reveal the raw, wounded humanity beneath Scrooge’s cruelty,\" noted Chloe Kensington, senior culture critic at Newyorkerherald. \"Collaborating with Ti West was an inspired creative gamble. By blending classic Victorian literature with psychological horror realism, the production delivers an electrifying cinematic spectacle that feels utterly vital in an era of generic studio franchises.\"\n\nIn securing the domestic weekend crown, Ebenezer comfortably outpaced high-profile competition, relegating Warner Bros. Animation’s family tentpole The Cat in the Hat ($11.4 million in its second frame) to second place and holding off Toho’s resilient Godzilla Minus Zero ($8.3 million). Across overseas territories, international distributors reported robust ticket sales in Germany, France, and Japan, signaling substantial theatrical legs heading into the lucrative Thanksgiving and year-end holiday corridor.\n\nThe triumphant launch is already generating substantial momentum for Paramount's upcoming theatrical slate and reigniting discussions across major talent agencies regarding future studio collaborations with Depp. As awards-season voters begin compiling preliminary ballots, industry insiders anticipate that Depp’s arresting physical transformation and emotional intensity could position Ebenezer as a potent dark-horse contender across both popular and technical Academy categories.",
+    category: "Entertainment",
+    edition: ["US & Americas", "Global"],
+    author: {
+      name: "Chloe Kensington",
+      role: "Culture & Entertainment Bureau",
+      avatar: "/images/authors/chloe_kensington.jpg"
+    },
+    publishedAt: "6h ago",
+    readTime: "6 min read",
+    imageUrl: "/images/news/johnny-depp-tops-box-office-as-ebenezer-scores-42m-global-debut.webp",
+    imageCaption: "Johnny Depp in character as Ebenezer Scrooge in Paramount's gothic holiday adaptation directed by Ti West.",
+    imageCredit: "Paramount Pictures / Courtesy Everett Collection",
+    isInvestigative: false,
+    commentCount: 279,
+    bullets: [
+      "Johnny Depp's Ebenezer opens at No. 1 with $19.0 million domestic and $42.0 million global box office debut.",
+      "Paramount's gothic Dickens adaptation directed by Ti West marks Depp's first major studio lead in eight years.",
+      "Audiences award film an A- CinemaScore and 90% positive audience rating on Rotten Tomatoes."
+],
+    tags: [
+      "Entertainment",
+      "Johnny Depp",
+      "Box Office",
+      "Movies",
+      "Paramount Pictures"
+]
+  },
+
     {
         "id": "hollywood-takes-an-anti-tech-turn-with-dystopian-wave-of-films",
         "title": "Hollywood Takes an Anti-Tech Turn With Dystopian Wave of Films",
@@ -2497,6 +2999,40 @@ Furthermore, cloud streaming platforms and mobile distribution networks have low
   ],
 
   'Sports': [
+  {
+    id: "luka-doncic-scores-43-points-to-power-lakers-over-phoenix-suns",
+    title: "Luka Doncic Scores 43 Points to Power Lakers Over Phoenix Suns",
+    kicker: "NBA SUNDAY SHOWCASE • BASKETBALL LEADERSHIP",
+    summary: "Luka Dončić delivered a vintage 43-point masterclass to propel the Los Angeles Lakers past the Phoenix Suns 131-123, extending their red-hot winning streak to eight straight games.",
+    body: "PHOENIX — In a spellbinding showcase of offensive wizardry and clutch shotmaking, Luka Dončić delivered a masterful 43-point scoring barrage Sunday night to guide the Los Angeles Lakers to a thrilling 131-123 road victory over Kevin Durant and the Phoenix Suns at Footprint Center. The electric performance represented Dončić’s sixth 40-point outing of the young NBA campaign and propelled the surging Lakers to their eighth consecutive victory, cementing their commanding lead atop the competitive Western Conference standings.\n\nOperating with surgical precision against Phoenix’s switching defensive schemes, Dončić torched the nets on 15-of-24 shooting from the field, including 6-of-11 from beyond the three-point arc, while orchestrating the Lakers' high-tempo transition offense with 11 assists and seven rebounds. When Phoenix mounted a furious 14-2 fourth-quarter rally spearheaded by Devin Booker and Bradley Beal to trim a double-digit deficit down to two points with under three minutes remaining, Dončić silenced the hostile sellout crowd by drilling back-to-back step-back three-pointers over outstretched defenders.\n\nThe dynamic pairing between Dončić and veteran superstar Anthony Davis proved nearly unstoppable in the pick-and-roll. Davis contributed 24 points, 14 rebounds, and four blocks, anchoring the interior defense and converting high-percentage lobs delivered by Dončić. The Lakers’ bench added vital contributions, with Austin Reaves chipping in 18 points and five assists to maintain scoring momentum during Dončić’s brief second-quarter rest intervals.\n\n\"Luka simply sees the floor two steps ahead of everyone else,\" Lakers head coach JJ Redick told reporters during his postgame press conference. \"When a defense chooses to trap him forty feet from the basket, he makes the pinpoint skip pass that leads to wide-open corner threes. When they play him straight up, he has the footwork, the patience, and the strength to get to his spots. What we saw tonight was an all-time great player commanding the game at his absolute peak.\"\n\nFor the Suns, the loss snapped a three-game home winning streak despite heroic efforts from Kevin Durant, who registered 34 points on efficient 12-of-19 shooting, and Booker, who finished with 29 points and nine assists. Phoenix head coach Mike Budenholzer lamented defensive breakdowns in perimeter transition, acknowledging that allowing the Lakers to shoot over 54 percent from the floor placed an unsustainable scoring burden on his star wings down the stretch.\n\nWith the Lakers improving to an impressive 11-2 on the season, national basketball analysts are increasingly viewing Los Angeles as the team to beat in the championship hunt. As the team travels onward to Dallas for a highly anticipated emotional showdown against Dončić's former squad on Tuesday night, the Slovenian superstar has established himself as the runaway frontrunner in early MVP voting conversations.",
+    category: "Sports",
+    edition: ["US & Americas", "Global"],
+    author: {
+      name: "Darius Vance",
+      role: "Senior Sports Correspondent",
+      avatar: "/images/authors/darius_vance.jpg"
+    },
+    publishedAt: "7h ago",
+    readTime: "6 min read",
+    imageUrl: "/images/news/luka-doncic-scores-43-points-to-power-lakers-over-phoenix-suns.webp",
+    imageCaption: "Luka Dončić celebrates a decisive fourth-quarter step-back three-pointer against the Phoenix Suns.",
+    imageCredit: "USA TODAY Sports / Mark J. Rebilas",
+    isInvestigative: false,
+    commentCount: 389,
+    bullets: [
+      "Luka Dončić erupts for 43 points, 11 assists, and 7 rebounds in 131-123 Lakers victory over Phoenix.",
+      "Los Angeles stretches season-high winning streak to eight straight games to pace Western Conference.",
+      "Anthony Davis adds 24 points and 14 rebounds as Lakers withstand late fourth-quarter Suns surge."
+],
+    tags: [
+      "Sports",
+      "NBA",
+      "Luka Doncic",
+      "Los Angeles Lakers",
+      "Phoenix Suns"
+]
+  },
+
     {
         "id": "cade-cunningham-explodes-for-52-points-as-pistons-edge-wizards",
         "title": "Cade Cunningham Explodes for 52 Points as Pistons Edge Wizards",
@@ -2814,6 +3350,40 @@ On the stadium infrastructure front, club executives evaluated demonstrations of
   ],
 
   'Science': [
+  {
+    id: "spacex-catches-starship-with-mechazilla-chopsticks-in-flight-15",
+    title: "SpaceX Catches Starship With Mechazilla Chopsticks in Flight 15",
+    kicker: "AEROSPACE MILESTONE • STARSHIP TEST 15",
+    summary: "SpaceX achieved a landmark breakthrough in rocket reusability during Starship Flight 15, successfully catching the returning upper-stage spacecraft using the mechanical chopstick arms of Mechazilla in Texas.",
+    body: "STARBASE, Texas — In what aerospace historians and engineers are already hailing as one of the most stunning technological triumphs in human spaceflight history, SpaceX successfully captured the returning Starship upper-stage spacecraft using the colossal mechanical \"chopstick\" arms of the Mechazilla launch tower during Flight 15 on Saturday afternoon. The breathtaking feat, executed over the coastal marshes of Boca Chica, Texas, represents the realization of fully and rapidly reusable rocket architecture, fundamentally altering the economics of space exploration and accelerating NASA's Artemis lunar timeline.\n\nFlight 15 lifted off at 4:30 p.m. local time propelled by the thunderous roar of 33 Raptor engines on the Super Heavy booster, which generated an astronomical 16.7 million pounds of thrust. After executing a flawless hot-staging separation three minutes into the ascent, the Super Heavy booster guided itself back through the atmosphere, reigniting its central engines and gently nestling into the launch tower’s lower landing apparatus for the second consecutive mission.\n\nHowever, the primary focus of global attention was the orbital upper stage. Following a suborbital trajectory that tested advanced thermal protection tiles and simulated hypersonic payload deployment, the 165-foot-tall stainless-steel spacecraft re-entered Earth's atmosphere over the Indian Ocean before steering toward Texas. Executing an intricate flip maneuver and reigniting three Raptor vacuum engines, the spacecraft hovered inches above the launch mount before the massive steel pincers closed smoothly around its forward lifting pins, suspending the multi-ton vehicle mid-air to deafening cheers from mission control.\n\n\"This is the moment commercial rocketry officially transitioned from the era of expendable hardware to true airline-style orbital operations,\" said Dr. Aris Thorne, senior aerospace analyst at Newyorkerherald. \"Catching the Super Heavy booster was extraordinary; catching the second stage upper spacecraft proves that the entire vehicle stack can land, undergo rapid inspection, refuel, and fly again within hours. This changes the calculus for lunar landings, deep-space orbital propellant depots, and human Mars exploration forever.\"\n\nNASA Administrator Bill Nelson congratulated the SpaceX team on the breakthrough, noting that a fully reusable Starship Human Landing System (HLS) is the foundational cornerstone of the Artemis III and IV missions slated to return American astronauts to the lunar South Pole. With full reuse demonstrated, SpaceX estimates that launch costs per kilogram to low Earth orbit will drop below $100 within the next two years, vastly outpacing traditional aerospace launch vehicles.\n\nBack at Starbase, engineering crews are already inspecting the thermal shield tiles and structural integrity of the recovered Flight 15 upper stage in preparation for Flight 16, scheduled for next month. As SpaceX pushes toward full orbital refueling demonstrations in early 2027, the success of Flight 15 stands as a towering testament to iterative engineering and commercial innovation pushing the boundaries of what is possible in the modern space age.",
+    category: "Science",
+    edition: ["US & Americas", "Global"],
+    author: {
+      name: "Dr. Aris Thorne",
+      role: "Aerospace & Planetary Exploration Desk",
+      avatar: "/images/authors/aris_thorne.jpg"
+    },
+    publishedAt: "8h ago",
+    readTime: "8 min read",
+    imageUrl: "/images/news/spacex-catches-starship-with-mechazilla-chopsticks-in-flight-15.webp",
+    imageCaption: "The Mechazilla launch tower chopstick arms secure the returning Starship upper stage in Boca Chica, Texas.",
+    imageCredit: "SpaceX via AP",
+    isInvestigative: false,
+    commentCount: 615,
+    bullets: [
+      "SpaceX executes first-ever mechanical catch of the returning Starship upper stage at Starbase, Texas.",
+      "Flight 15 demonstrates full two-stage rocket reusability, paving the way for Artemis III lunar landing flights.",
+      "NASA leadership and global space agencies praise the historic engineering breakthrough."
+],
+    tags: [
+      "Science",
+      "SpaceX",
+      "Starship",
+      "NASA",
+      "Space Exploration"
+]
+  },
+
     {
         "id": "nasa-escapade-twin-probes-slingshot-past-earth-en-route-to-mars",
         "title": "NASA ESCAPADE Twin Probes Slingshot Past Earth En Route to Mars",
@@ -3144,6 +3714,40 @@ Domestic automotive manufacturers have committed multi-billion-dollar off-take a
   ],
 
   'Opinion': [
+  {
+    id: "why-the-faa-system-collapse-exposes-decades-of-federal-neglect",
+    title: "Why the FAA System Collapse Exposes Decades of Federal Neglect",
+    kicker: "INFRASTRUCTURE ANALYSIS • EDITORIAL PERSPECTIVE",
+    summary: "The catastrophic nationwide ground stop that paralyzed air travel for over a million Americans is not a fluke contractor accident—it is the inevitable outcome of decades of bipartisan underinvestment in mission-critical public tech.",
+    body: "When over one million air travelers found themselves stranded inside chaotic airport terminals over the weekend—curled up on carpeted floors, desperately refreshing smartphone apps, and watching flight display monitors flicker into endless columns of cancellations—official Washington responded with its standard repertoire of excuses. Federal officials blamed an unfortunate contractor mistake during a routine fiber-optic cable installation. Airlines pointed fingers at the government. Bureaucrats promised swift investigations and comprehensive audits. But let us be painfully honest with ourselves: what occurred across American airspace this weekend was not an isolated technological hiccup; it was the inevitable, predictable collapse of a national aviation infrastructure that has been systematically starved of modern investment for more than thirty years.\n\nThe Federal Aviation Administration’s National Airspace System is a staggering monument to deferred maintenance. Millions of commercial and cargo flights every year are directed through regional control centers that still depend on mainframe computing switches, aging copper communication loops, and software code compiled during the final decades of the Cold War. In a nation that boasts the most sophisticated technology giants on earth—designing quantum processors, reusable rockets, and cutting-edge artificial intelligence—our national air safety relies on digital duct tape and the heroic, exhausting vigilance of understaffed air traffic controllers working mandatory six-day workweeks.\n\nThe blame for this structural disgrace lies squarely at the feet of successive presidential administrations and dysfunctional sessions of Congress. For decades, federal lawmakers have treated FAA reauthorization bills as political footballs, holding multi-billion-dollar modernization capital hostage to petty partisan disputes, parochial airport earmarks, and ideological debates over air traffic privatization. While European and Asian aviation authorities systematically transitioned to modern satellite-based digital navigation and modular cloud architectures, Washington repeatedly trimmed modernization budgets, forcing federal program managers to paste modern fiber optics onto ancient analog copper frameworks.\n\nWhen modern digital networks collide with legacy computing architecture, the failure is rarely polite. It is catastrophic, instantaneous, and systemic. A single electrical surge or routing table error cascades through secondary switches that lack automated failover protocols, blindfolding dispatchers and paralyzing the economic arteries of the world's largest economy. The airlines, for their part, are hardly innocent victims; they have happily reaped tens of billions in passenger fees and record revenues while failing to modernize their own internal crew scheduling engines, ensuring that when the federal system stumbles, commercial networks collapse completely into paralysis.\n\nIf the United States wishes to maintain its status as the world’s preeminent economic and technological powerhouse, Congress must abandon the illusion that national infrastructure can be maintained on the cheap through band-aids and emergency appropriations. What is required is a comprehensive, multi-year National Airspace Reconstruction Act: a guaranteed, non-discretionary federal capital commitment that completely rebuilds American air traffic architecture from the foundation up, deploys state-of-the-art redundant cloud infrastructure, and aggressively recruits and trains thousands of new air traffic controllers.\n\nAnything less is an insult to the traveling public and an unacceptable gamble with public safety. The millions of Americans whose family gatherings, business deals, and vacations were ruined this weekend deserve more than press conferences and bureaucratic finger-pointing. They deserve a 21st-century aviation system worthy of the nation it connects. Until Washington treats critical public infrastructure with the seriousness it commands, we are simply waiting for the next switch to fail.",
+    category: "Opinion",
+    edition: ["US & Americas", "Global"],
+    author: {
+      name: "Eleanor Vance",
+      role: "Senior Opinion Columnist",
+      avatar: "/images/authors/eleanor_vance.jpg"
+    },
+    publishedAt: "10h ago",
+    readTime: "7 min read",
+    imageUrl: "/images/news/why-the-faa-system-collapse-exposes-decades-of-federal-neglect.webp",
+    imageCaption: "A crowded departures board showing nationwide delays reflecting chronic federal infrastructure underfunding.",
+    imageCredit: "Getty Images / Spencer Platt",
+    isInvestigative: false,
+    commentCount: 356,
+    bullets: [
+      "Nationwide FAA ground stop was a systemic failure waiting to happen after thirty years of deferred modernization.",
+      "Congress and successive administrations have repeatedly treated critical aviation tech funding as a political football.",
+      "A comprehensive National Airspace Reconstruction Act is urgent to replace Cold War computing switches."
+],
+    tags: [
+      "Opinion",
+      "FAA",
+      "Infrastructure",
+      "Aviation Policy",
+      "Federal Government"
+]
+  },
+
     {
         "id": "why-sending-jd-vance-to-police-blue-cities-endangers-federalism",
         "title": "Why Sending JD Vance to Police Blue Cities Endangers Federalism",
@@ -3839,41 +4443,48 @@ export function getHomepageDepartmentArticles(dept: string): Article[] {
   const mapping: Record<string, string[]> = {
     us: [
       'the-vanity-of-alina-habba-mildon',
+      'faa-system-outage-sparks-chaos-for-over-1-million-air-travelers',
       'deadly-logan-circle-shooting-in-washington-leaves-two-dead',
       'deadly-brooklyn-building-collapse-sparks-massive-rescue-operation',
       'fbi-probes-fatal-police-shooting-on-north-dakota-reservation'
     ],
     politics: [
+      'trump-pauses-iran-strikes-following-talks-with-mideast-allies',
       'trump-drops-iran-deal-talks-and-pivots-vance-to-urban-crime',
       'treasury-chief-scott-bessent-moved-to-military-base-over-threats',
       'democrats-and-gop-clash-over-defense-bill-on-veterans-day',
       'massie-files-resolution-to-impeach-defense-chief-pete-hegseth'
     ],
     business: [
+      'microsoft-restores-cloud-systems-after-crippling-global-outage',
       'surging-treasury-yields-rattle-global-markets-and-pound-gold',
       'anthropic-kicks-off-landmark-ipo-roadshow-for-1-4t-valuation',
       'securitize-acquires-river-one-to-expand-tokenized-lending',
       'dow-surges-1104-points-as-wall-street-stages-monster-rally'
     ],
     tech: [
+      'jensen-huang-nvidia-return-petition-tops-160000-signatures',
       'jensen-huang-abruptly-steps-down-as-ceo-of-nvidia-in-shock-exit',
       'deepmind-alphaproof-code-verifies-signal-encryption-protocol',
       'openai-launches-businesses-in-chatgpt-enterprise-ai-platform',
       'eu-drafts-digital-fairness-act-to-ban-deceptive-web-design'
     ],
     entertainment: [
+      'johnny-depp-tops-box-office-as-ebenezer-scores-42m-global-debut',
       'hollywood-takes-an-anti-tech-turn-with-dystopian-wave-of-films',
       'dua-lipa-named-historic-first-british-female-coachella-headliner',
       'ella-langley-and-olivia-rodrigo-lead-2027-grammy-predictions',
       'johnny-depp-readies-hollywood-return-in-paramount-ebenezer'
     ],
     sports: [
+      'luka-doncic-scores-43-points-to-power-lakers-over-phoenix-suns',
       'cade-cunningham-explodes-for-52-points-as-pistons-edge-wizards',
       'us-withdraws-from-u-17-world-cup-in-qatar-over-security-concerns',
       'michigan-state-downs-duke-79-73-in-chicago-college-showdown',
       'bills-stifle-vikings-23-6-in-dominant-monday-night-football'
     ],
     science: [
+      'spacex-catches-starship-with-mechazilla-chopsticks-in-flight-15',
       'nasa-escapade-twin-probes-slingshot-past-earth-en-route-to-mars',
       'nature-study-confirms-accuracy-of-historic-m87-black-hole-image',
       'nasa-unveils-promise-moon-rover-built-from-mars-rover-spares',
