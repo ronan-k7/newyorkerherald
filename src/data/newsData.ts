@@ -3,35 +3,35 @@ import { Article, OpinionColumn, FactCheckItem, PhotoStory, VideoItem, PodcastEp
 export const BREAKING_NEWS_ITEMS = [
   {
     id: 'brk-1',
-    kicker: 'WHITE HOUSE DIPLOMACY',
-    headline: 'Trump Pauses Iran Strikes Following Talks With Mideast Allies',
+    kicker: 'EXECUTIVE POWER',
+    headline: 'White House Orders Agencies to Curb Congressional Testimony',
     time: '2m ago',
-    url: '/politics/trump-pauses-iran-strikes-following-talks-with-mideast-allies'
+    url: '/politics/white-house-orders-agencies-to-curb-congressional-testimony'
   },
   {
     id: 'brk-2',
-    kicker: 'AIRSPACE CRISIS',
-    headline: 'FAA System Outage Sparks Chaos for Over 1 Million Air Travelers',
+    kicker: 'EMERGENCY ALERTS',
+    headline: 'FEMA Holds Nationwide Alert Test Amid Viral Blackout Falsehoods',
     time: '15m ago',
-    url: '/us/faa-system-outage-sparks-chaos-for-over-1-million-air-travelers'
+    url: '/us/fema-holds-nationwide-alert-test-amid-viral-blackout-falsehoods'
   },
   {
     id: 'brk-3',
-    kicker: 'SILICON VALLEY',
-    headline: 'Jensen Huang Nvidia Return Petition Tops 160,000 Signatures',
+    kicker: 'GAMING TSUNAMI',
+    headline: 'GTA VI Countdown Upends Gaming Slates as Budgets Eclipse $1B',
     time: '28m ago',
-    url: '/tech/jensen-huang-nvidia-return-petition-tops-160000-signatures'
+    url: '/tech/gta-vi-countdown-upends-gaming-slates-as-budgets-eclipse-1b'
   }
 ];
 
 export const TRENDING_TAGS = [
-  '#FAAGroundStop',
-  '#JensenHuang',
-  '#TrumpIran',
-  '#SpaceXStarship',
-  '#OperationTorNado',
-  '#Luka43Points',
-  '#EbenezerDepp'
+  '#Voyager1LightDay',
+  '#RobertPattinson007',
+  '#WhiteHouseMemo',
+  '#GTAVI1Billion',
+  '#FEMATest',
+  '#ChargersRavens',
+  '#BankOutages'
 ];
 
 export const LEAD_ARTICLE: Article = {
@@ -79,6 +79,304 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
 };
 
 export const SECONDARY_LEAD_STORIES: Article[] = [
+  {
+    id: "white-house-orders-agencies-to-curb-congressional-testimony",
+    title: "White House Orders Agencies to Curb Congressional Testimony",
+    kicker: "EXECUTIVE POWER • CAPITOL HILL CLASH",
+    summary: "White House Counsel Will Scharf issued a directive requiring federal agency heads to obtain executive sign-off before testifying before congressional committees, escalating tensions with lawmakers.",
+    body: "WASHINGTON — In a bold assertion of executive authority that sets the stage for an explosive constitutional showdown, White House Counsel Will Scharf issued a sweeping directive Monday ordering all federal agency leadership and cabinet personnel to obtain formal clearance from White House legal and legislative affairs teams before agreeing to testify before any congressional oversight committee. The directive, circulated across executive branch departments just days after the 2026 midterm elections reshaped Capitol Hill, establishes a centralized vetting protocol designed to restrict unauthorized staff appearances and manage official testimony across all federal regulatory bodies.\n\nAccording to internal administrative memoranda reviewed by congressional oversight aides, the directive instructs cabinet secretaries, agency directors, and senior civil servants to treat unsolicited committee invitations with heightened legal scrutiny. The administration justified the centralized gatekeeping policy as an essential safeguard against what it characterized as coordinated partisan harassment and unauthorized fishing expeditions directed at executive branch officials following contentious midterm campaigns. Under the newly established protocol, any subpoena, informal interview request, or public hearing invitation must be submitted directly to the White House Counsel's office for formal constitutional review prior to any responsive coordination with legislative staff.\n\n\"The executive branch maintains an inherent constitutional responsibility to protect the deliberative integrity of federal operations from politically motivated, baseless inquiries,\" Scharf wrote in the memorandum. \"No department head or career official shall coordinate public appearances, submit unreviewed documentation, or commit agency personnel to legislative hearings without prior institutional authorization and guidance from the Executive Office of the President.\"\n\nThe directive elicited immediate fury from congressional leaders in both political parties, who denounced the mandate as an unconstitutional assault on Article I legislative oversight. Incoming committee chairs preparing for the 120th Congress warned that any systematic obstruction of witness testimony or document production would be met with aggressive compulsory process, including contempt citations, expedited federal court enforcement, and retaliatory budgetary riders on executive discretionary spending.\n\n\"Congressional oversight is not a polite executive privilege that the White House may grant or withhold at its convenience; it is the constitutional cornerstone of American democratic accountability,\" said a joint statement released by senior members of the House Committee on Oversight and Government Reform and the Senate Judiciary Committee. \"Attempting to impose an executive gag order across tens of thousands of federal public servants is a brazen attempt to shield administrative conduct from taxpayer scrutiny. Congress will utilize every constitutional tool at its disposal to guarantee that federal officials answer to the American people.\"\n\nLegal scholars and constitutional historians noted that while previous administrations of both parties have periodically asserted executive privilege over specific high-level national security or Oval Office deliberations, an omnibus pre-clearance requirement covering all routine regulatory testimony represents a dramatic escalation in institutional friction. With federal budget deadlines looming and multiple high-stakes confirmations pending in the Senate, the directive guarantees that the final weeks of the lame-duck session will be defined by fierce legal battles over executive immunity, separation of powers, and the limits of presidential authority.",
+    category: "Politics",
+    edition: ["US & Americas", "Global"],
+    author: {
+      name: "Sarah Mitchell",
+      role: "Chief Congressional & National Security Correspondent",
+      avatar: "/images/authors/sarah_mitchell.jpg"
+    },
+    publishedAt: "2h ago",
+    readTime: "7 min read",
+    imageUrl: "/images/news/white-house-orders-agencies-to-curb-congressional-testimony.webp",
+    imageCaption: "White House Counsel offices inside the West Wing, where the new federal testimony directive was issued.",
+    imageCredit: "Reuters / Kevin Lamarque",
+    isInvestigative: false,
+    commentCount: 348,
+    bullets: [
+      "White House Counsel memo orders all federal agencies to seek clearance before appearing before Congress.",
+      "Directive frames oversight hearings as politically motivated in the wake of midterm election results.",
+      "Incoming committee chairs accuse administration of unprecedented executive overreach and subpoena evasion."
+],
+    tags: [
+      "Politics",
+      "White House",
+      "Congress",
+      "Capitol Hill",
+      "Executive Branch"
+]
+  },
+  {
+    id: "fema-holds-nationwide-alert-test-amid-viral-blackout-falsehoods",
+    title: "FEMA Holds Nationwide Alert Test Amid Viral Blackout Falsehoods",
+    kicker: "EMERGENCY PROTOCOLS • DOMESTIC RESILIENCE",
+    summary: "FEMA and the FCC completed a scheduled nationwide Emergency Alert System test, debunking rampant viral social media conspiracy theories falsely predicting catastrophic power and communications blackouts.",
+    body: "WASHINGTON — Millions of mobile phones, television screens, and radio receivers across the United States sounded in synchronized harmony Tuesday afternoon as the Federal Emergency Management Agency (FEMA) and the Federal Communications Commission (FCC) successfully executed their scheduled national test of the Integrated Public Alert and Warning System (IPAWS). The routine biennial exercise, designed to verify technical operational readiness in the event of extreme natural disasters or national security emergencies, proceeded without technical incident, despite having been preceded by an unprecedented deluge of viral social media falsehoods falsely predicting an engineered nationwide power and telecommunications blackout.\n\nThe scheduled broadcast, which transmitted across commercial cellular towers, satellite radios, and broadcast networks at 2:20 p.m. Eastern Time, delivered a standardized bilingual message advising citizens that no public emergency action was required. Behind the scenes, federal engineers at FEMA's National Radio System command center in Bluemont, Virginia, monitored signal transmission telemetry across all fifty states and U.S. territories, tracking delivery latencies and verifying automated failover connections between primary terrestrial broadcasters and secondary emergency repeaters.\n\nIn the days preceding the exercise, federal authorities and state emergency response directors were forced to mount an intensive public education campaign to counteract coordinated online misinformation. Across platforms like TikTok, X, and YouTube, viral conspiracy narratives had amassed tens of millions of views by alleging that the routine broadcast test would serve as a trigger mechanism for a prolonged ninety-day electrical grid shutdown, emergency bank freezes, or martial law declarations. Emergency dispatch centers in several major metropolitan areas reported answering thousands of bewildered phone calls from anxious citizens inquiring about emergency water stockpiles and bank account access.\n\n\"The Emergency Alert System is a vital life-safety tool designed to preserve American lives during hurricanes, tornadoes, toxic hazardous materials spills, and catastrophic defense emergencies,\" said FEMA Administrator Deanne Criswell during a briefing at the agency's National Response Coordination Center. \"The widespread dissemination of baseless rumors regarding prolonged electrical blackouts and financial disruptions is not merely irresponsible; it directly undermines public trust in the mission-critical communications networks citizens rely upon during real life-or-death crises.\"\n\nDigital forensics analysts with the Department of Homeland Security's Cybersecurity and Infrastructure Security Agency (CISA) confirmed that much of the viral hysteria was artificially amplified by foreign-aligned bot networks and opportunistic survivalist commerce influencers seeking to sell freeze-dried food rations and unauthorized radio kits. Investigators noted that bad actors exploited common anxieties surrounding recent infrastructure glitches and geopolitical volatility to manufacture viral engagement and panic.\n\nTelecommunications carriers reported that Tuesday's transmission achieved an estimated 96 percent delivery rate within sixty seconds of initiation, marking the most efficient IPAWS broadcast in federal program history. As federal evaluators compile final network latency metrics for an upcoming report to Congress, emergency preparedness experts urged technology platforms to strengthen automated warning labels on public safety content to safeguard critical disaster telemetry from malicious disinformation.",
+    category: "US",
+    edition: ["US & Americas", "Global"],
+    author: {
+      name: "Marcus Sterling",
+      role: "National Justice & Urban Affairs Bureau",
+      avatar: "/images/authors/marcus_sterling.jpg"
+    },
+    publishedAt: "3h ago",
+    readTime: "8 min read",
+    imageUrl: "/images/news/fema-holds-nationwide-alert-test-amid-viral-blackout-falsehoods.webp",
+    imageCaption: "A smartphone screen displaying the official FEMA and FCC Emergency Alert System test transmission.",
+    imageCredit: "Associated Press / Michael Dwyer",
+    isInvestigative: false,
+    commentCount: 294,
+    bullets: [
+      "FEMA and FCC successfully transmit routine nationwide Emergency Alert System broadcast across radio, TV, and cellular networks.",
+      "Federal authorities move aggressively to counter viral misinformation claiming test signals an impending 90-day power blackout.",
+      "Cybersecurity and homeland security monitors trace rumor campaigns to bot farms and online panic grifters."
+],
+    tags: [
+      "US",
+      "FEMA",
+      "FCC",
+      "Emergency Alerts",
+      "Public Safety"
+]
+  },
+  {
+    id: "major-us-banks-hit-by-widespread-online-outages-and-delays",
+    title: "Major US Banks Hit by Widespread Online Outages and Delays",
+    kicker: "FINANCIAL INFRASTRUCTURE • DIGITAL BANKING",
+    summary: "Thousands of commercial customers across JPMorgan Chase, Wells Fargo, and Bank of America experienced widespread online banking outages and delayed transaction clearances caused by automated software glitches.",
+    body: "NEW YORK & CHARLOTTE, N.C. — Millions of retail banking customers and corporate treasury desks across the United States were plunged into administrative gridlock Tuesday as simultaneous software outages swept through the consumer portals and transaction processing backbones of several of the nation's largest financial institutions, including JPMorgan Chase, Wells Fargo, and Bank of America. The cascading digital disruptions, which began during early morning automated batch clearances, left cardholders unable to verify account balances, execute direct deposits, or authorize commercial payroll transfers throughout much of the trading day.\n\nOutage monitoring repositories and consumer help desks registered a staggering spike in service complaints starting shortly after 6:30 a.m. Eastern Time. Customers attempting to access web portals and smartphone applications encountered cryptic server timeout notices, authentication failures, and zeroed-out balance ledgers. Small business owners expressed acute panic on social media as automated vendor payments and scheduled employee disbursements failed to clear federal automated clearinghouse (ACH) rails, prompting merchant warnings and localized payment declines at retail checkouts nationwide.\n\nFinancial executives moved quickly to reassure investors and depositors that the disruptions were not the result of a hostile nation-state cyberattack or ransomware breach. In a formal statement issued by JPMorgan Chase headquarters in Manhattan, the bank attributed the incident to an internal core-banking software update that corrupted secondary indexing tables, resulting in severe processing latency across high-volume digital banking clusters. Wells Fargo and Bank of America similarly confirmed that backend system maintenance schedules had collided with early-morning interbank clearing cycles, triggering redundant safety throttles that temporarily disabled customer-facing applications.\n\n\"We sincerely apologize to our clients for the severe disruption experienced across our digital platforms today,\" a senior executive spokesperson for JPMorgan Chase said during a media conference call. \"Our engineering teams isolated the configuration conflict, and core clearing systems have resumed normal operation. At no point was customer funds or personal identifiable information compromised, and all pending transactions are currently processing in prioritized sequence.\"\n\nDespite the official reassurances, the multi-bank outage drew immediate scrutiny from federal financial regulators and financial stability watchdogs. The Consumer Financial Protection Bureau (CFPB) and the Federal Reserve Bank of New York announced joint inquiries into whether major commercial depositories maintain sufficient operational redundancy to prevent routine software deployments from paralyzing national liquidity flows. Market analysts noted that corporate treasury departments are increasingly questioning whether ongoing banking consolidation has concentrated too much mission-critical transaction volume onto shared third-party software architecture.\n\nOn Capitol Hill, members of the House Financial Services Committee sent formal letters to the chief executive officers of the affected lenders, demanding sworn explanations regarding disaster recovery protocols and demanding full fee waivers for any consumers penalized by missed overdraft payments or delayed mortgage settlements. As normal digital banking connectivity stabilized by late afternoon, the episode underscored the mounting operational vulnerabilities confronting an increasingly cashless American economy reliant on aging financial software infrastructure.",
+    category: "Business",
+    edition: ["US & Americas", "Global"],
+    author: {
+      name: "Henrik Lindqvist",
+      role: "Chief Economics & Financial Markets Editor",
+      avatar: "/images/authors/henrik_lindqvist.jpg"
+    },
+    publishedAt: "4h ago",
+    readTime: "7 min read",
+    imageUrl: "/images/news/major-us-banks-hit-by-widespread-online-outages-and-delays.webp",
+    imageCaption: "Financial district street monitors displaying digital banking alert notices outside Manhattan bank headquarters.",
+    imageCredit: "Bloomberg / Michael Nagle",
+    isInvestigative: false,
+    commentCount: 215,
+    bullets: [
+      "Thousands of consumer and business banking customers report authentication lockouts and transaction delays.",
+      "JPMorgan Chase, Wells Fargo, and Bank of America attribute disruptions to non-cyber backend batch processing faults.",
+      "Federal regulators and congressional committees request comprehensive operational resilience documentation."
+],
+    tags: [
+      "Business",
+      "Banking",
+      "JPMorgan Chase",
+      "Wells Fargo",
+      "Wall Street"
+]
+  },
+  {
+    id: "gta-vi-countdown-upends-gaming-slates-as-budgets-eclipse-1b",
+    title: "GTA VI Countdown Upends Gaming Slates as Budgets Eclipse $1B",
+    kicker: "GAMING INDUSTRY • COMMERCIAL TSUNAMI",
+    summary: "The impending release of Rockstar Games' Grand Theft Auto VI is reshaping global entertainment schedules as rival publishers clear release calendars for the first confirmed billion-dollar video game production.",
+    body: "LOS ANGELES & EDINBURGH — The global interactive entertainment industry is experiencing an unprecedented commercial realignment as video game publishers, streaming services, and Hollywood film studios systematically clear their release calendars in anticipation of Rockstar Games' forthcoming cultural juggernaut, *Grand Theft Auto VI*. With combined development, proprietary engine engineering, and international marketing expenditures officially projected by financial analysts to eclipse the historic $1 billion threshold, the title represents the most expensive entertainment production in human history, poised to exert a gravitational pull over consumer spending across the worldwide digital economy.\n\nIndustry tracking data and publisher earnings calls indicate that major competing software houses—including Electronic Arts, Ubisoft, Sony Interactive Entertainment, and Microsoft Gaming—have actively rescheduled their tentpole multi-platform releases, pushing major role-playing and competitive shooter franchises into early 2027 to avoid direct commercial collision. Even theatrical motion picture distributors have taken defensive measures, steering holiday blockbuster releases away from the projected retail debut window to protect opening box office attendance from an expected domestic home entertainment lockdown.\n\nFinancial analysts at Morgan Stanley and Goldman Sachs project that *Grand Theft Auto VI* will shatter every existing entertainment sales benchmark, forecasting over $1.5 billion in gross receipts within its initial forty-eight hours on retail and digital storefronts. Driven by astronomical preorder volumes across PlayStation 5 and Xbox Series X consoles, the title's simulated modern-day setting of Leonida—anchored by the sun-drenched neon metropolis of Vice City—promises to showcase revolutionary advancements in procedural artificial intelligence, dense architectural photorealism, and real-time physics simulations developed across a decade of secretive global production.\n\n\"What we are witnessing is not simply a standard video game release; it is a seismic macroeconomic event across the cultural landscape,\" said Elena Rostova, senior technology and media analyst at Silicon Valley Insights. \"When an entertainment property possesses the cultural cachet to drive hardware sales cycles, monopolize global streaming bandwidth, and dictate retail release calendars six months in advance, it operates on a scale that eclipses standard corporate competition. Rockstar has effectively forced the entire entertainment industry to adapt to its schedule.\"\n\nThe massive economic stakes have also intensified scrutiny surrounding Rockstar's development pipeline and corporate labor practices. Parent company Take-Two Interactive has invested hundreds of millions into proprietary animation engines, server farm expansions for its persistent online companion ecosystem, and anti-leak cybersecurity protocols to safeguard source code following high-profile data breaches in prior years. Wall Street investors view the release as the foundational growth driver for Take-Two’s balance sheet, projecting that recurring player engagement within the title's multiplayer infrastructure will generate billions in high-margin microtransactions for over a decade.\n\nAs promotional countdown clocks and viral teaser breakdowns dominate social media channels worldwide, retail electronics chains and semiconductor manufacturers are bracing for record-breaking consumer demand. The unprecedented anticipation surrounding *Grand Theft Auto VI* confirms that interactive entertainment has firmly surpassed traditional cinema as the dominant commercial and artistic medium of 21st-century popular culture.",
+    category: "Tech",
+    edition: ["US & Americas", "Global"],
+    author: {
+      name: "Elena Rostova",
+      role: "Silicon Valley & Artificial Intelligence Bureau",
+      avatar: "/images/authors/elena_rostova.jpg"
+    },
+    publishedAt: "5h ago",
+    readTime: "8 min read",
+    imageUrl: "/images/news/gta-vi-countdown-upends-gaming-slates-as-budgets-eclipse-1b.webp",
+    imageCaption: "Promotional billboard displays for upcoming next-generation gaming hardware and high-budget software titles.",
+    imageCredit: "Reuters / Mike Blake",
+    isInvestigative: false,
+    commentCount: 462,
+    bullets: [
+      "Grand Theft Auto VI development and promotional investment officially confirmed to surpass $1 billion milestone.",
+      "Rival video game publishers and Hollywood studios systematically adjust release windows to avoid commercial collision.",
+      "Wall Street analysts project over $1.5 billion in retail sales within initial 48 hours of global market launch."
+],
+    tags: [
+      "Tech",
+      "Gaming",
+      "Rockstar Games",
+      "GTA VI",
+      "Entertainment Tech"
+]
+  },
+  {
+    id: "robert-pattinson-cast-as-james-bond-in-denis-villeneuve-reboot",
+    title: "Robert Pattinson Cast as James Bond in Denis Villeneuve Reboot",
+    kicker: "HOLLYWOOD BOMBSHELL • 007 REINVENTION",
+    summary: "Amazon MGM Studios confirmed British actor Robert Pattinson will assume the iconic mantle of James Bond in a definitive franchise reboot directed by Denis Villeneuve and penned by Steven Knight.",
+    body: "LOS ANGELES & LONDON — Ending years of intense global speculation and feverish fan debate that followed Daniel Craig's emotional farewell in *No Time to Die*, Amazon MGM Studios and Eon Productions announced Tuesday that acclaimed British actor Robert Pattinson has officially closed negotiations to portray Ian Fleming's legendary secret agent James Bond. The momentous casting decision anchors a complete, high-stakes cinematic reinvention of the venerable sixty-four-year-old espionage franchise, which will be directed by visionary filmmaker Denis Villeneuve from an original screenplay authored by Steven Knight.\n\nThe selection of Pattinson, 40, represents a brilliant and daring creative coup for producers Barbara Broccoli and Michael G. Wilson, who spent over three years vetting prospective candidates across the British theatrical and international film circuits. Renowned for his magnetic screen presence, exceptional physical dedication, and celebrated transitions between demanding auteur dramas like *The Lighthouse* and sprawling blockbuster spectacle in *The Batman*, Pattinson brings a rare blend of aristocratic charm, brooding psychological intensity, and razor-sharp intellect to the storied mantle of Agent 007.\n\nAccording to senior studio sources familiar with development negotiations, Villeneuve—who recently completed his monumental *Dune* cinematic saga—committed to helm the project after securing creative assurances that the reboot would steer away from disposable digital spectacle in favor of visceral, tactile practical action and authentic geopolitical espionage. Steven Knight's screenplay reportedly strips the narrative back to the raw, morally ambiguous Cold War roots of Fleming's earliest novels, framing Bond as an elite naval intelligence officer navigating high-stakes clandestine operations amid fractured international alliances.\n\n\"James Bond is the ultimate mythic avatar of modern cinema, a character defined by sophistication, lethal competence, and profound inner complexity,\" said Chloe Kensington, chief film and culture critic at Newyorkerherald. \"Pairing Robert Pattinson's chameleonic acting range with Denis Villeneuve's peerless visual craftsmanship elevates Bond 26 from a routine studio continuation into an unmissable cinematic event. It promises to redefine the espionage thriller for a brand new generation of worldwide filmgoers.\"\n\nThe announcement sent shockwaves through the international entertainment industry, drawing enthusiastic congratulations from former franchise luminaries and contemporary Hollywood peers. Produced on an ambitious $250 million production budget, principal photography is scheduled to commence at Pinewood Studios outside London in late 2027, with extensive location filming slated across dramatic wilderness terrains in Morocco, the Swiss Alps, and the Mediterranean.\n\nFor Amazon MGM Studios, which acquired creative stewardship of the franchise following its $8.5 billion corporate acquisition of MGM, successfully launching a critically celebrated and commercially triumphant Bond era is the crowning priority of its theatrical slate. As pre-production design teams begin scouting historic European sets, the world stands poised to witness a transformative new chapter in the enduring saga of cinema's greatest secret agent.",
+    category: "Entertainment",
+    edition: ["US & Americas", "Global"],
+    author: {
+      name: "Chloe Kensington",
+      role: "Culture & Entertainment Bureau",
+      avatar: "/images/authors/chloe_kensington.jpg"
+    },
+    publishedAt: "6h ago",
+    readTime: "6 min read",
+    imageUrl: "/images/news/robert-pattinson-cast-as-james-bond-in-denis-villeneuve-reboot.webp",
+    imageCaption: "Robert Pattinson attending a film gala, newly announced as the world's most famous secret agent in Bond 26.",
+    imageCredit: "Getty Images / Frazer Harrison",
+    isInvestigative: false,
+    commentCount: 512,
+    bullets: [
+      "Robert Pattinson officially selected as the seventh cinematic James Bond in landmark Amazon MGM Studios production.",
+      "Visionary filmmaker Denis Villeneuve signs on to direct from a gritty Cold War screenplay drafted by Steven Knight.",
+      "Production slated to commence in late 2027 across London, Morocco, and Switzerland with a $250 million budget."
+],
+    tags: [
+      "Entertainment",
+      "James Bond",
+      "Robert Pattinson",
+      "Denis Villeneuve",
+      "Movies"
+]
+  },
+  {
+    id: "chargers-edge-ravens-23-20-in-thrilling-monday-night-duel",
+    title: "Chargers Edge Ravens 23-20 in Thrilling Monday Night Duel",
+    kicker: "NFL SHOWDOWN • MONDAY NIGHT FOOTBALL",
+    summary: "Justin Herbert orchestrated a clutch game-winning fourth-quarter drive as the Los Angeles Chargers held off Lamar Jackson and the Baltimore Ravens in a 23-20 defensive battle in Maryland.",
+    body: "BALTIMORE — In an electrifying, physical defensive heavyweight duel that came down to the final possession, the Los Angeles Chargers secured a signature road victory Monday night, outlasting two-time MVP Lamar Jackson and the Baltimore Ravens 23-20 before a raucous sellout crowd at M&T Bank Stadium. Spearheaded by the poised, ice-cold decision-making of quarterback Justin Herbert and a suffocating front seven orchestrated by head coach Jim Harbaugh, the Chargers proved their physical mettle on national television, cementing their credentials as a bona fide AFC championship contender.\n\nHerbert delivered a masterclass in pocket poise under relentless blitz pressure, completing 23 of 34 passes for 285 yards and two touchdowns without committing a turnover. When the Ravens surged ahead 20-16 midway through the fourth quarter on a vintage 38-yard highlight-reel scramble by Jackson, Herbert calmly took the field with 5:42 remaining, converting three consecutive third downs on bullet completions to rookie wideout Ladd McConkey before hitting tight end Will Dissly on a back-shoulder nine-yard touchdown strike with 1:18 left on the game clock.\n\nThe dramatic finish was sealed by the Chargers' tenacious defense. Needing only a field goal to force overtime, Baltimore advanced past midfield behind Jackson's quick checkdowns. However, on fourth-and-3 from the Los Angeles 38-yard line, All-Pro edge rusher Joey Bosa and linebacker Daiyan Henley collapsed the pocket, forcing Jackson to throw an off-balance incompletion into heavy coverage as time expired, igniting jubilant celebrations along the visitor sideline.\n\n\"Our team has relentless fight, discipline, and blue-collar grit,\" an emotional Jim Harbaugh told reporters during his postgame press conference. \"Coming into Baltimore in mid-November and going toe-to-toe with one of the most explosive offenses in football is the ultimate test of character. Justin Herbert was magnificent when everything was on the line, and our defense made the championship stop when we needed it most.\"\n\nFor the Ravens, the bitter home defeat dropped Baltimore to 7-4, exposing lingering vulnerabilities in pass protection and red-zone execution. Despite Jackson's dynamic individual heroics—finishing with 242 passing yards, 74 rushing yards, and two total touchdowns—the Ravens were stymied on three separate goal-to-go opportunities, forced to settle for short field goals by Justin Tucker after failing to generate push against the Chargers' stout defensive interior.\n\nThe victory improves the Chargers to an impressive 8-3 record, vaulting them into a tie atop the fiercely contested AFC West standings. As Los Angeles heads back to the West Coast to prepare for a critical Thanksgiving weekend matchup, Herbert's clutch fourth-quarter performance in primetime has elevated the star passer into the center of national MVP voting conversations.",
+    category: "Sports",
+    edition: ["US & Americas", "Global"],
+    author: {
+      name: "Darius Vance",
+      role: "Senior Sports Correspondent",
+      avatar: "/images/authors/darius_vance.jpg"
+    },
+    publishedAt: "7h ago",
+    readTime: "6 min read",
+    imageUrl: "/images/news/chargers-edge-ravens-23-20-in-thrilling-monday-night-duel.webp",
+    imageCaption: "Justin Herbert calls signals at the line of scrimmage during the fourth quarter against the Baltimore Ravens.",
+    imageCredit: "AP Photo / Nick Wass",
+    isInvestigative: false,
+    commentCount: 381,
+    bullets: [
+      "Justin Herbert delivers 285 passing yards and two touchdowns, leading Chargers to hard-fought 23-20 victory.",
+      "Los Angeles defense sacks Lamar Jackson four times and stops Ravens on critical fourth-down goal-line stand.",
+      "Victory propels Jim Harbaugh's Chargers into prime AFC playoff contention heading into late-season slate."
+],
+    tags: [
+      "Sports",
+      "NFL",
+      "Chargers",
+      "Ravens",
+      "Justin Herbert"
+]
+  },
+  {
+    id: "voyager-1-reaches-one-light-day-from-earth-in-historic-milestone",
+    title: "Voyager 1 Reaches One Light-Day From Earth in Historic Milestone",
+    kicker: "DEEP SPACE FRONTIER • NASA ASTRONOMY",
+    summary: "NASA's legendary Voyager 1 spacecraft crossed the historic milestone of one light-day from Earth—over 16 billion miles away in interstellar space—as stargazers worldwide joined in a global Morse salute.",
+    body: "PASADENA, Calif. — In a poetic and monumental milestone that marks the absolute frontier of human technological exploration, NASA's legendary Voyager 1 robotic probe crossed the threshold of exactly one light-day of distance from planet Earth on Tuesday. Positioned more than 16 billion miles (25.9 billion kilometers) away in the cold, unyielding silence of interstellar space, the plucky 1,800-pound spacecraft has ventured so far from its cradle of origin that a radio signal traveling at the speed of light—186,282 miles per second—now requires a full twenty-four hours to bridge the cosmic expanse between Earth and the probe's high-gain antenna.\n\nLaunched from Cape Canaveral, Florida, in September 1977 during the Carter administration, Voyager 1 was originally designed for a modest five-year mission to conduct close flybys of Jupiter and Saturn. Yet nearly five decades later, powered by the steadily decaying heat of its plutonium-fueled radioisotope thermoelectric generators (RTGs), the venerable explorer continues to defy engineering expectations, transmitting invaluable measurements of the interstellar magnetic medium, cosmic ray density, and interstellar plasma waves back to the towering parabolic dishes of NASA's Deep Space Network in Goldstone, Madrid, and Canberra.\n\nTo commemorate the unprecedented occasion, NASA and the Jet Propulsion Laboratory (JPL) hosted a synchronized worldwide public event on Tuesday evening entitled \"Shine Bright for Voyager's Light-Day.\" As darkness fell across successive time zones, amateur astronomers, schoolchildren, and space enthusiasts gathered on rooftops, observatory grounds, and beaches worldwide, utilizing flashlights and smartphone screens to flash the letters \"V-G-R\" in Morse code toward the northern sky in a symbolic, golden wave of light saluting humanity's farthest ambassador.\n\n\"Reaching one light-day of distance is not simply an astronomical triumph of aerospace telemetry; it is a profound testament to the timeless spirit of human curiosity,\" said Dr. Aris Thorne, senior aerospace analyst at Newyorkerherald. \"A robotic emissary conceived with slide rules and magnetic tape drives has journeyed beyond the gravitational dominion of our Sun, carrying our voices, our music, and our hopes on the Golden Record into the eternal ocean of the Milky Way. Voyager 1 reminds us of what humanity can achieve when we dare to look beyond the horizon.\"\n\nAt mission control in Pasadena, an extraordinary cadre of veteran engineers—some of whom have dedicated their entire professional careers to the Voyager project—continue to nurse the spacecraft's dwindling electrical margins with surgical precision. Over recent months, flight controllers successfully resolved complex digital telemetry glitches by rerouting data commands through backup memory banks, ensuring that the probe's magnetometer and cosmic ray instruments can operate continuously through its fiftieth anniversary in 2027.\n\nWhile physicists estimate that Voyager 1's atomic power source will finally fall silent by the end of the decade, the silent, inert spacecraft will continue to drift through the cosmos for millions of years. In roughly 40,000 years, it will pass within 1.6 light-years of the red dwarf star Gliese 445 in the constellation Camelopardalis, carrying the indelible fingerprint of human civilization across the stars.",
+    category: "Science",
+    edition: ["US & Americas", "Global"],
+    author: {
+      name: "Dr. Aris Thorne",
+      role: "Aerospace & Planetary Exploration Desk",
+      avatar: "/images/authors/aris_thorne.jpg"
+    },
+    publishedAt: "8h ago",
+    readTime: "8 min read",
+    imageUrl: "/images/news/voyager-1-reaches-one-light-day-from-earth-in-historic-milestone.webp",
+    imageCaption: "Artist concept of the Voyager 1 robotic probe traversing the plasma boundaries of interstellar space.",
+    imageCredit: "NASA / JPL-Caltech",
+    isInvestigative: false,
+    commentCount: 634,
+    bullets: [
+      "Voyager 1 officially achieves distance of one light-day (16 billion miles / 25.9 billion km) from Earth.",
+      "Radio communications now require exactly 24 hours traveling at the speed of light to reach the robotic explorer.",
+      "NASA JPL hosts worldwide 'Shine Bright' Morse code light salute celebrating humanity's farthest journey."
+],
+    tags: [
+      "Science",
+      "NASA",
+      "Voyager 1",
+      "Deep Space",
+      "Astronomy"
+]
+  },
+  {
+    id: "doj-extradites-kazakh-national-over-major-us-hospital-ransomware",
+    title: "DOJ Extradites Kazakh National Over Major US Hospital Ransomware",
+    kicker: "CYBERCRIME CRACKDOWN • FEDERAL EXTRADITION",
+    summary: "Federal prosecutors unsealed indictments against Roman Khlynovskiy following his extradition from Italy, charging the cyber operative with coordinating devastating ransomware attacks against American hospitals.",
+    body: "KNOXVILLE, Tenn. & WASHINGTON — In a major international legal triumph against organized digital extortion cartels that target critical health infrastructure, the United States Department of Justice announced Tuesday that 43-year-old Kazakh national Roman Khlynovskiy has made his initial appearance in federal court in Knoxville, Tennessee, following his successful extradition from Italy. Khlynovskiy, identified by federal cyber investigators as a high-level operational leader within the notorious \"8-Digits Team\" ransomware syndicate, faces a twelve-count indictment charging him with computer fraud, wire fraud conspiracy, and international extortion in connection with catastrophic cyber intrusions that paralyzed American hospital networks.\n\nAccording to unsealed federal court filings in the Eastern District of Tennessee, Khlynovskiy and his conspirators systematically targeted regional healthcare conglomerates, trauma centers, and municipal educational networks beginning in early 2023. Operating through encrypted virtual private networks and dark web command nodes, the syndicate deployed weaponized custom ransomware variants that silently infiltrated hospital domain controllers, encrypted critical patient medical histories, disabled emergency room diagnostic telemetry, and locked clinical physicians out of electronic prescription portals. The enterprise then demanded tens of millions of dollars in untraceable cryptocurrency payments under explicit threats to auction sensitive patient records on public leak forums.\n\nThe devastating real-world human impact of the syndicate's operations was laid bare in court affidavits. In one egregious breach detailed by federal prosecutors, an infected multi-hospital health system in east Tennessee was forced to divert critical ambulance trauma cases to facilities over eighty miles away for three consecutive weeks, cancel hundreds of scheduled oncology infusions, and revert to manual paper records while the syndicate demanded an $18 million Bitcoin ransom to unlock encrypted radiation therapy machinery.\n\n\"Cybercriminals who target emergency healthcare networks operate with a callous, depraved indifference to human life,\" said Assistant Attorney General Kenneth A. Polite Jr. of the Justice Department's Criminal Division. \"When malicious actors compromise hospital servers, they are not merely stealing corporate data; they are actively endangering vulnerable patients on operating tables. The successful extradition of Roman Khlynovskiy demonstrates that foreign borders, encrypted aliases, and ocean divides offer zero sanctuary from the reach of American justice.\"\n\nThe international takedown was the culmination of an intensive two-year joint investigation coordinated by the FBI's Knoxville Field Office, the Department of Homeland Security's National Cyber Forensics and Training Alliance (NCFTA), and Italian state police (Polizia Postale). Italian tactical units apprehended Khlynovskiy at a luxury villa near Lake Como earlier this summer on an Interpol Red Notice, surviving extensive legal extradition challenges before Italian appellate courts.\n\nIf convicted on all counts, Khlynovskiy faces a statutory maximum penalty of thirty years in federal prison and mandatory restitution orders expected to exceed $75 million. Federal cyber prosecutors confirmed that forensic analysts are currently decrypting seized digital storage media recovered from Khlynovskiy's residence, using recovered cryptographic keys to assist affected healthcare providers in restoring historical diagnostic archives without paying criminal ransoms.",
+    category: "Investigation",
+    edition: ["US & Americas", "Global"],
+    author: {
+      name: "Jonathan Ross",
+      role: "Chief Investigative Reporter",
+      avatar: "/images/authors/jonathan_ross.jpg"
+    },
+    publishedAt: "9h ago",
+    readTime: "9 min read",
+    imageUrl: "/images/news/doj-extradites-kazakh-national-over-major-us-hospital-ransomware.webp",
+    imageCaption: "Federal law enforcement cyber task force monitoring international digital evidence and extradition proceedings.",
+    imageCredit: "Department of Justice / AP",
+    isInvestigative: true,
+    commentCount: 189,
+    bullets: [
+      "Kazakh national Roman Khlynovskiy extradited from Rome to face federal cyber extortion charges in Tennessee.",
+      "Indictment alleges syndicate executed destructive ransomware deployments locking hospital systems across multiple states.",
+      "Operation seized encrypted servers, Bitcoin ransom wallets, and private messaging channels across Europe."
+],
+    tags: [
+      "Investigation",
+      "DOJ",
+      "FBI",
+      "Cybercrime",
+      "Ransomware"
+]
+  },
+  {
+    id: "why-muzzling-congressional-testimony-threatens-basic-governance",
+    title: "Why Muzzling Congressional Testimony Threatens Basic Governance",
+    kicker: "CONSTITUTIONAL INTEGRITY • EDITORIAL PERSPECTIVE",
+    summary: "The White House directive ordering federal agency officials to obtain pre-approval before testifying before Congress is a dangerous assault on Article I oversight that undermines basic democratic accountability.",
+    body: "In the delicate constitutional architecture designed by the Framers in 1787, no principle was more fundamental than the insistence that power must never be permitted to operate in the dark. Article I of the United States Constitution did not create Congress merely as an assembly to rubber-stamp budgets and pass aspirational statutes; it vested lawmakers with the solemn, non-negotiable duty to conduct rigorous oversight—to question cabinet chiefs under oath, inspect federal regulatory agencies, and hold the immense apparatus of the modern administrative state strictly accountable to the citizens who pay for it.\n\nIt is against this bedrock constitutional heritage that the White House's latest executive memorandum must be judged. By issuing an omnibus directive requiring every federal department head and agency official to obtain prior institutional permission from the West Wing before testifying before congressional committees, the administration is not engaging in standard legal defense. It is erecting an authoritarian filter across the executive branch: an administrative muzzle designed to insulate executive conduct from legislative scrutiny, obstruct legitimate inquiries, and degrade the constitutional prerogatives of a co-equal branch of government.\n\nThe administration’s stated rationale—that this centralized gatekeeping is necessary to prevent \"politically motivated, baseless investigations\" in the aftermath of midterm elections—is as cynical as it is legally hollow. Every president in American history has found congressional oversight uncomfortable, inconvenient, and politically frustrating. When Harry Truman investigated defense contractor profiteering, when Sam Ervin investigated Watergate, when congressional panels probed the Challenger disaster, the Iran-Contra affair, or the 2008 financial crash, the executive branch was inevitably subjected to fierce, uncomfortable grilling. That discomfort is not a flaw in the American system; it is the entire point.\n\nWhen an administration asserts the power to decide which public servants may speak to lawmakers, the consequences reverberate far beyond Capitol Hill hearing rooms. It chills conscientious whistleblowers who witness environmental negligence, aviation safety lapses, or fiscal waste. It blindfolds appropriators responsible for allocating trillions in taxpayer funds. And most dangerously, it establishes a toxic precedent: the proposition that federal agencies funded by public treasure owe their primary allegiance to the political occupants of the Oval Office rather than the laws of the United States.\n\nLawmakers in both political parties must recognize this directive for what it truly is: a direct institutional provocation that threatens the balance of constitutional governance. If the incoming Congress capitulates to this executive embargo, it will have surrendered the essential tool that makes representative democracy meaningful. Democratic and Republican committee chairs must stand shoulder-to-shoulder, enforce witness subpoenas through compulsory court process, withhold discretionary executive appropriations from non-compliant departments, and defend the institutional dignity of Article I.\n\nThe American people did not vote for a monarch surrounded by unanswerable bureaucrats. They voted for a constitutional republic governed by checks, balances, and public transparency. Until the White House rescinds this misguided gag order, Congress has an absolute obligation to fight for the truth—subpoena by subpoena, hearing by hearing.",
+    category: "Opinion",
+    edition: ["US & Americas", "Global"],
+    author: {
+      name: "Eleanor Vance",
+      role: "Senior Opinion Columnist",
+      avatar: "/images/authors/eleanor_vance.jpg"
+    },
+    publishedAt: "10h ago",
+    readTime: "7 min read",
+    imageUrl: "/images/news/why-muzzling-congressional-testimony-threatens-basic-governance.webp",
+    imageCaption: "The United States Capitol dome silhouetted at dusk during high-stakes legislative sessions in Washington.",
+    imageCredit: "Getty Images / Win McNamee",
+    isInvestigative: false,
+    commentCount: 427,
+    bullets: [
+      "White House directive restricting agency testimony violates fundamental constitutional separation of powers.",
+      "Congressional oversight is essential to uncover regulatory waste, ensure public safety, and hold power accountable.",
+      "Lawmakers must unite across partisan lines to enforce subpoenas and defend Article I prerogatives."
+],
+    tags: [
+      "Opinion",
+      "Congress",
+      "Constitution",
+      "Oversight",
+      "Separation of Powers"
+]
+  },
+
   {
     id: "trump-pauses-iran-strikes-following-talks-with-mideast-allies",
     title: "Trump Pauses Iran Strikes Following Talks With Mideast Allies",
@@ -851,6 +1149,40 @@ As the Federal Energy Regulatory Commission (FERC) convenes national stakeholder
 export const CATEGORY_ARTICLES: Record<string, Article[]> = {
   'Investigation': [
   {
+    id: "doj-extradites-kazakh-national-over-major-us-hospital-ransomware",
+    title: "DOJ Extradites Kazakh National Over Major US Hospital Ransomware",
+    kicker: "CYBERCRIME CRACKDOWN • FEDERAL EXTRADITION",
+    summary: "Federal prosecutors unsealed indictments against Roman Khlynovskiy following his extradition from Italy, charging the cyber operative with coordinating devastating ransomware attacks against American hospitals.",
+    body: "KNOXVILLE, Tenn. & WASHINGTON — In a major international legal triumph against organized digital extortion cartels that target critical health infrastructure, the United States Department of Justice announced Tuesday that 43-year-old Kazakh national Roman Khlynovskiy has made his initial appearance in federal court in Knoxville, Tennessee, following his successful extradition from Italy. Khlynovskiy, identified by federal cyber investigators as a high-level operational leader within the notorious \"8-Digits Team\" ransomware syndicate, faces a twelve-count indictment charging him with computer fraud, wire fraud conspiracy, and international extortion in connection with catastrophic cyber intrusions that paralyzed American hospital networks.\n\nAccording to unsealed federal court filings in the Eastern District of Tennessee, Khlynovskiy and his conspirators systematically targeted regional healthcare conglomerates, trauma centers, and municipal educational networks beginning in early 2023. Operating through encrypted virtual private networks and dark web command nodes, the syndicate deployed weaponized custom ransomware variants that silently infiltrated hospital domain controllers, encrypted critical patient medical histories, disabled emergency room diagnostic telemetry, and locked clinical physicians out of electronic prescription portals. The enterprise then demanded tens of millions of dollars in untraceable cryptocurrency payments under explicit threats to auction sensitive patient records on public leak forums.\n\nThe devastating real-world human impact of the syndicate's operations was laid bare in court affidavits. In one egregious breach detailed by federal prosecutors, an infected multi-hospital health system in east Tennessee was forced to divert critical ambulance trauma cases to facilities over eighty miles away for three consecutive weeks, cancel hundreds of scheduled oncology infusions, and revert to manual paper records while the syndicate demanded an $18 million Bitcoin ransom to unlock encrypted radiation therapy machinery.\n\n\"Cybercriminals who target emergency healthcare networks operate with a callous, depraved indifference to human life,\" said Assistant Attorney General Kenneth A. Polite Jr. of the Justice Department's Criminal Division. \"When malicious actors compromise hospital servers, they are not merely stealing corporate data; they are actively endangering vulnerable patients on operating tables. The successful extradition of Roman Khlynovskiy demonstrates that foreign borders, encrypted aliases, and ocean divides offer zero sanctuary from the reach of American justice.\"\n\nThe international takedown was the culmination of an intensive two-year joint investigation coordinated by the FBI's Knoxville Field Office, the Department of Homeland Security's National Cyber Forensics and Training Alliance (NCFTA), and Italian state police (Polizia Postale). Italian tactical units apprehended Khlynovskiy at a luxury villa near Lake Como earlier this summer on an Interpol Red Notice, surviving extensive legal extradition challenges before Italian appellate courts.\n\nIf convicted on all counts, Khlynovskiy faces a statutory maximum penalty of thirty years in federal prison and mandatory restitution orders expected to exceed $75 million. Federal cyber prosecutors confirmed that forensic analysts are currently decrypting seized digital storage media recovered from Khlynovskiy's residence, using recovered cryptographic keys to assist affected healthcare providers in restoring historical diagnostic archives without paying criminal ransoms.",
+    category: "Investigation",
+    edition: ["US & Americas", "Global"],
+    author: {
+      name: "Jonathan Ross",
+      role: "Chief Investigative Reporter",
+      avatar: "/images/authors/jonathan_ross.jpg"
+    },
+    publishedAt: "9h ago",
+    readTime: "9 min read",
+    imageUrl: "/images/news/doj-extradites-kazakh-national-over-major-us-hospital-ransomware.webp",
+    imageCaption: "Federal law enforcement cyber task force monitoring international digital evidence and extradition proceedings.",
+    imageCredit: "Department of Justice / AP",
+    isInvestigative: true,
+    commentCount: 189,
+    bullets: [
+      "Kazakh national Roman Khlynovskiy extradited from Rome to face federal cyber extortion charges in Tennessee.",
+      "Indictment alleges syndicate executed destructive ransomware deployments locking hospital systems across multiple states.",
+      "Operation seized encrypted servers, Bitcoin ransom wallets, and private messaging channels across Europe."
+],
+    tags: [
+      "Investigation",
+      "DOJ",
+      "FBI",
+      "Cybercrime",
+      "Ransomware"
+]
+  },
+
+  {
     id: "doj-and-europol-dismantle-dark-web-drug-ring-in-operation-tornado",
     title: "DOJ and Europol Dismantle Dark Web Drug Ring in Operation TorNado",
     kicker: "TRANSNATIONAL ENFORCEMENT • GLOBAL CYBER SWEEP",
@@ -1145,6 +1477,40 @@ In Albany, Governor Kathy Hochul convened an emergency public health cabinet mee
     }
   ],
     'US': [
+  {
+    id: "fema-holds-nationwide-alert-test-amid-viral-blackout-falsehoods",
+    title: "FEMA Holds Nationwide Alert Test Amid Viral Blackout Falsehoods",
+    kicker: "EMERGENCY PROTOCOLS • DOMESTIC RESILIENCE",
+    summary: "FEMA and the FCC completed a scheduled nationwide Emergency Alert System test, debunking rampant viral social media conspiracy theories falsely predicting catastrophic power and communications blackouts.",
+    body: "WASHINGTON — Millions of mobile phones, television screens, and radio receivers across the United States sounded in synchronized harmony Tuesday afternoon as the Federal Emergency Management Agency (FEMA) and the Federal Communications Commission (FCC) successfully executed their scheduled national test of the Integrated Public Alert and Warning System (IPAWS). The routine biennial exercise, designed to verify technical operational readiness in the event of extreme natural disasters or national security emergencies, proceeded without technical incident, despite having been preceded by an unprecedented deluge of viral social media falsehoods falsely predicting an engineered nationwide power and telecommunications blackout.\n\nThe scheduled broadcast, which transmitted across commercial cellular towers, satellite radios, and broadcast networks at 2:20 p.m. Eastern Time, delivered a standardized bilingual message advising citizens that no public emergency action was required. Behind the scenes, federal engineers at FEMA's National Radio System command center in Bluemont, Virginia, monitored signal transmission telemetry across all fifty states and U.S. territories, tracking delivery latencies and verifying automated failover connections between primary terrestrial broadcasters and secondary emergency repeaters.\n\nIn the days preceding the exercise, federal authorities and state emergency response directors were forced to mount an intensive public education campaign to counteract coordinated online misinformation. Across platforms like TikTok, X, and YouTube, viral conspiracy narratives had amassed tens of millions of views by alleging that the routine broadcast test would serve as a trigger mechanism for a prolonged ninety-day electrical grid shutdown, emergency bank freezes, or martial law declarations. Emergency dispatch centers in several major metropolitan areas reported answering thousands of bewildered phone calls from anxious citizens inquiring about emergency water stockpiles and bank account access.\n\n\"The Emergency Alert System is a vital life-safety tool designed to preserve American lives during hurricanes, tornadoes, toxic hazardous materials spills, and catastrophic defense emergencies,\" said FEMA Administrator Deanne Criswell during a briefing at the agency's National Response Coordination Center. \"The widespread dissemination of baseless rumors regarding prolonged electrical blackouts and financial disruptions is not merely irresponsible; it directly undermines public trust in the mission-critical communications networks citizens rely upon during real life-or-death crises.\"\n\nDigital forensics analysts with the Department of Homeland Security's Cybersecurity and Infrastructure Security Agency (CISA) confirmed that much of the viral hysteria was artificially amplified by foreign-aligned bot networks and opportunistic survivalist commerce influencers seeking to sell freeze-dried food rations and unauthorized radio kits. Investigators noted that bad actors exploited common anxieties surrounding recent infrastructure glitches and geopolitical volatility to manufacture viral engagement and panic.\n\nTelecommunications carriers reported that Tuesday's transmission achieved an estimated 96 percent delivery rate within sixty seconds of initiation, marking the most efficient IPAWS broadcast in federal program history. As federal evaluators compile final network latency metrics for an upcoming report to Congress, emergency preparedness experts urged technology platforms to strengthen automated warning labels on public safety content to safeguard critical disaster telemetry from malicious disinformation.",
+    category: "US",
+    edition: ["US & Americas", "Global"],
+    author: {
+      name: "Marcus Sterling",
+      role: "National Justice & Urban Affairs Bureau",
+      avatar: "/images/authors/marcus_sterling.jpg"
+    },
+    publishedAt: "3h ago",
+    readTime: "8 min read",
+    imageUrl: "/images/news/fema-holds-nationwide-alert-test-amid-viral-blackout-falsehoods.webp",
+    imageCaption: "A smartphone screen displaying the official FEMA and FCC Emergency Alert System test transmission.",
+    imageCredit: "Associated Press / Michael Dwyer",
+    isInvestigative: false,
+    commentCount: 294,
+    bullets: [
+      "FEMA and FCC successfully transmit routine nationwide Emergency Alert System broadcast across radio, TV, and cellular networks.",
+      "Federal authorities move aggressively to counter viral misinformation claiming test signals an impending 90-day power blackout.",
+      "Cybersecurity and homeland security monitors trace rumor campaigns to bot farms and online panic grifters."
+],
+    tags: [
+      "US",
+      "FEMA",
+      "FCC",
+      "Emergency Alerts",
+      "Public Safety"
+]
+  },
+
   {
     id: "faa-system-outage-sparks-chaos-for-over-1-million-air-travelers",
     title: "FAA System Outage Sparks Chaos for Over 1 Million Air Travelers",
@@ -1461,6 +1827,40 @@ As the clocks reset, congressional leaders confirmed that bipartisan committee s
     }
   ],
   'Politics': [
+  {
+    id: "white-house-orders-agencies-to-curb-congressional-testimony",
+    title: "White House Orders Agencies to Curb Congressional Testimony",
+    kicker: "EXECUTIVE POWER • CAPITOL HILL CLASH",
+    summary: "White House Counsel Will Scharf issued a directive requiring federal agency heads to obtain executive sign-off before testifying before congressional committees, escalating tensions with lawmakers.",
+    body: "WASHINGTON — In a bold assertion of executive authority that sets the stage for an explosive constitutional showdown, White House Counsel Will Scharf issued a sweeping directive Monday ordering all federal agency leadership and cabinet personnel to obtain formal clearance from White House legal and legislative affairs teams before agreeing to testify before any congressional oversight committee. The directive, circulated across executive branch departments just days after the 2026 midterm elections reshaped Capitol Hill, establishes a centralized vetting protocol designed to restrict unauthorized staff appearances and manage official testimony across all federal regulatory bodies.\n\nAccording to internal administrative memoranda reviewed by congressional oversight aides, the directive instructs cabinet secretaries, agency directors, and senior civil servants to treat unsolicited committee invitations with heightened legal scrutiny. The administration justified the centralized gatekeeping policy as an essential safeguard against what it characterized as coordinated partisan harassment and unauthorized fishing expeditions directed at executive branch officials following contentious midterm campaigns. Under the newly established protocol, any subpoena, informal interview request, or public hearing invitation must be submitted directly to the White House Counsel's office for formal constitutional review prior to any responsive coordination with legislative staff.\n\n\"The executive branch maintains an inherent constitutional responsibility to protect the deliberative integrity of federal operations from politically motivated, baseless inquiries,\" Scharf wrote in the memorandum. \"No department head or career official shall coordinate public appearances, submit unreviewed documentation, or commit agency personnel to legislative hearings without prior institutional authorization and guidance from the Executive Office of the President.\"\n\nThe directive elicited immediate fury from congressional leaders in both political parties, who denounced the mandate as an unconstitutional assault on Article I legislative oversight. Incoming committee chairs preparing for the 120th Congress warned that any systematic obstruction of witness testimony or document production would be met with aggressive compulsory process, including contempt citations, expedited federal court enforcement, and retaliatory budgetary riders on executive discretionary spending.\n\n\"Congressional oversight is not a polite executive privilege that the White House may grant or withhold at its convenience; it is the constitutional cornerstone of American democratic accountability,\" said a joint statement released by senior members of the House Committee on Oversight and Government Reform and the Senate Judiciary Committee. \"Attempting to impose an executive gag order across tens of thousands of federal public servants is a brazen attempt to shield administrative conduct from taxpayer scrutiny. Congress will utilize every constitutional tool at its disposal to guarantee that federal officials answer to the American people.\"\n\nLegal scholars and constitutional historians noted that while previous administrations of both parties have periodically asserted executive privilege over specific high-level national security or Oval Office deliberations, an omnibus pre-clearance requirement covering all routine regulatory testimony represents a dramatic escalation in institutional friction. With federal budget deadlines looming and multiple high-stakes confirmations pending in the Senate, the directive guarantees that the final weeks of the lame-duck session will be defined by fierce legal battles over executive immunity, separation of powers, and the limits of presidential authority.",
+    category: "Politics",
+    edition: ["US & Americas", "Global"],
+    author: {
+      name: "Sarah Mitchell",
+      role: "Chief Congressional & National Security Correspondent",
+      avatar: "/images/authors/sarah_mitchell.jpg"
+    },
+    publishedAt: "2h ago",
+    readTime: "7 min read",
+    imageUrl: "/images/news/white-house-orders-agencies-to-curb-congressional-testimony.webp",
+    imageCaption: "White House Counsel offices inside the West Wing, where the new federal testimony directive was issued.",
+    imageCredit: "Reuters / Kevin Lamarque",
+    isInvestigative: false,
+    commentCount: 348,
+    bullets: [
+      "White House Counsel memo orders all federal agencies to seek clearance before appearing before Congress.",
+      "Directive frames oversight hearings as politically motivated in the wake of midterm election results.",
+      "Incoming committee chairs accuse administration of unprecedented executive overreach and subpoena evasion."
+],
+    tags: [
+      "Politics",
+      "White House",
+      "Congress",
+      "Capitol Hill",
+      "Executive Branch"
+]
+  },
+
   {
     id: "trump-pauses-iran-strikes-following-talks-with-mideast-allies",
     title: "Trump Pauses Iran Strikes Following Talks With Mideast Allies",
@@ -1884,6 +2284,40 @@ In Washington, national security officials convened in the White House Situation
 
   'Business & Economy': [
   {
+    id: "major-us-banks-hit-by-widespread-online-outages-and-delays",
+    title: "Major US Banks Hit by Widespread Online Outages and Delays",
+    kicker: "FINANCIAL INFRASTRUCTURE • DIGITAL BANKING",
+    summary: "Thousands of commercial customers across JPMorgan Chase, Wells Fargo, and Bank of America experienced widespread online banking outages and delayed transaction clearances caused by automated software glitches.",
+    body: "NEW YORK & CHARLOTTE, N.C. — Millions of retail banking customers and corporate treasury desks across the United States were plunged into administrative gridlock Tuesday as simultaneous software outages swept through the consumer portals and transaction processing backbones of several of the nation's largest financial institutions, including JPMorgan Chase, Wells Fargo, and Bank of America. The cascading digital disruptions, which began during early morning automated batch clearances, left cardholders unable to verify account balances, execute direct deposits, or authorize commercial payroll transfers throughout much of the trading day.\n\nOutage monitoring repositories and consumer help desks registered a staggering spike in service complaints starting shortly after 6:30 a.m. Eastern Time. Customers attempting to access web portals and smartphone applications encountered cryptic server timeout notices, authentication failures, and zeroed-out balance ledgers. Small business owners expressed acute panic on social media as automated vendor payments and scheduled employee disbursements failed to clear federal automated clearinghouse (ACH) rails, prompting merchant warnings and localized payment declines at retail checkouts nationwide.\n\nFinancial executives moved quickly to reassure investors and depositors that the disruptions were not the result of a hostile nation-state cyberattack or ransomware breach. In a formal statement issued by JPMorgan Chase headquarters in Manhattan, the bank attributed the incident to an internal core-banking software update that corrupted secondary indexing tables, resulting in severe processing latency across high-volume digital banking clusters. Wells Fargo and Bank of America similarly confirmed that backend system maintenance schedules had collided with early-morning interbank clearing cycles, triggering redundant safety throttles that temporarily disabled customer-facing applications.\n\n\"We sincerely apologize to our clients for the severe disruption experienced across our digital platforms today,\" a senior executive spokesperson for JPMorgan Chase said during a media conference call. \"Our engineering teams isolated the configuration conflict, and core clearing systems have resumed normal operation. At no point was customer funds or personal identifiable information compromised, and all pending transactions are currently processing in prioritized sequence.\"\n\nDespite the official reassurances, the multi-bank outage drew immediate scrutiny from federal financial regulators and financial stability watchdogs. The Consumer Financial Protection Bureau (CFPB) and the Federal Reserve Bank of New York announced joint inquiries into whether major commercial depositories maintain sufficient operational redundancy to prevent routine software deployments from paralyzing national liquidity flows. Market analysts noted that corporate treasury departments are increasingly questioning whether ongoing banking consolidation has concentrated too much mission-critical transaction volume onto shared third-party software architecture.\n\nOn Capitol Hill, members of the House Financial Services Committee sent formal letters to the chief executive officers of the affected lenders, demanding sworn explanations regarding disaster recovery protocols and demanding full fee waivers for any consumers penalized by missed overdraft payments or delayed mortgage settlements. As normal digital banking connectivity stabilized by late afternoon, the episode underscored the mounting operational vulnerabilities confronting an increasingly cashless American economy reliant on aging financial software infrastructure.",
+    category: "Business",
+    edition: ["US & Americas", "Global"],
+    author: {
+      name: "Henrik Lindqvist",
+      role: "Chief Economics & Financial Markets Editor",
+      avatar: "/images/authors/henrik_lindqvist.jpg"
+    },
+    publishedAt: "4h ago",
+    readTime: "7 min read",
+    imageUrl: "/images/news/major-us-banks-hit-by-widespread-online-outages-and-delays.webp",
+    imageCaption: "Financial district street monitors displaying digital banking alert notices outside Manhattan bank headquarters.",
+    imageCredit: "Bloomberg / Michael Nagle",
+    isInvestigative: false,
+    commentCount: 215,
+    bullets: [
+      "Thousands of consumer and business banking customers report authentication lockouts and transaction delays.",
+      "JPMorgan Chase, Wells Fargo, and Bank of America attribute disruptions to non-cyber backend batch processing faults.",
+      "Federal regulators and congressional committees request comprehensive operational resilience documentation."
+],
+    tags: [
+      "Business",
+      "Banking",
+      "JPMorgan Chase",
+      "Wells Fargo",
+      "Wall Street"
+]
+  },
+
+  {
     id: "microsoft-restores-cloud-systems-after-crippling-global-outage",
     title: "Microsoft Restores Cloud Systems After Crippling Global Outage",
     kicker: "ENTERPRISE INFRASTRUCTURE • WALL STREET REACTION",
@@ -2276,6 +2710,40 @@ Sports finance experts note that the move mirrors a broader institutional trend 
   ],
 
   'Tech': [
+  {
+    id: "gta-vi-countdown-upends-gaming-slates-as-budgets-eclipse-1b",
+    title: "GTA VI Countdown Upends Gaming Slates as Budgets Eclipse $1B",
+    kicker: "GAMING INDUSTRY • COMMERCIAL TSUNAMI",
+    summary: "The impending release of Rockstar Games' Grand Theft Auto VI is reshaping global entertainment schedules as rival publishers clear release calendars for the first confirmed billion-dollar video game production.",
+    body: "LOS ANGELES & EDINBURGH — The global interactive entertainment industry is experiencing an unprecedented commercial realignment as video game publishers, streaming services, and Hollywood film studios systematically clear their release calendars in anticipation of Rockstar Games' forthcoming cultural juggernaut, *Grand Theft Auto VI*. With combined development, proprietary engine engineering, and international marketing expenditures officially projected by financial analysts to eclipse the historic $1 billion threshold, the title represents the most expensive entertainment production in human history, poised to exert a gravitational pull over consumer spending across the worldwide digital economy.\n\nIndustry tracking data and publisher earnings calls indicate that major competing software houses—including Electronic Arts, Ubisoft, Sony Interactive Entertainment, and Microsoft Gaming—have actively rescheduled their tentpole multi-platform releases, pushing major role-playing and competitive shooter franchises into early 2027 to avoid direct commercial collision. Even theatrical motion picture distributors have taken defensive measures, steering holiday blockbuster releases away from the projected retail debut window to protect opening box office attendance from an expected domestic home entertainment lockdown.\n\nFinancial analysts at Morgan Stanley and Goldman Sachs project that *Grand Theft Auto VI* will shatter every existing entertainment sales benchmark, forecasting over $1.5 billion in gross receipts within its initial forty-eight hours on retail and digital storefronts. Driven by astronomical preorder volumes across PlayStation 5 and Xbox Series X consoles, the title's simulated modern-day setting of Leonida—anchored by the sun-drenched neon metropolis of Vice City—promises to showcase revolutionary advancements in procedural artificial intelligence, dense architectural photorealism, and real-time physics simulations developed across a decade of secretive global production.\n\n\"What we are witnessing is not simply a standard video game release; it is a seismic macroeconomic event across the cultural landscape,\" said Elena Rostova, senior technology and media analyst at Silicon Valley Insights. \"When an entertainment property possesses the cultural cachet to drive hardware sales cycles, monopolize global streaming bandwidth, and dictate retail release calendars six months in advance, it operates on a scale that eclipses standard corporate competition. Rockstar has effectively forced the entire entertainment industry to adapt to its schedule.\"\n\nThe massive economic stakes have also intensified scrutiny surrounding Rockstar's development pipeline and corporate labor practices. Parent company Take-Two Interactive has invested hundreds of millions into proprietary animation engines, server farm expansions for its persistent online companion ecosystem, and anti-leak cybersecurity protocols to safeguard source code following high-profile data breaches in prior years. Wall Street investors view the release as the foundational growth driver for Take-Two’s balance sheet, projecting that recurring player engagement within the title's multiplayer infrastructure will generate billions in high-margin microtransactions for over a decade.\n\nAs promotional countdown clocks and viral teaser breakdowns dominate social media channels worldwide, retail electronics chains and semiconductor manufacturers are bracing for record-breaking consumer demand. The unprecedented anticipation surrounding *Grand Theft Auto VI* confirms that interactive entertainment has firmly surpassed traditional cinema as the dominant commercial and artistic medium of 21st-century popular culture.",
+    category: "Tech",
+    edition: ["US & Americas", "Global"],
+    author: {
+      name: "Elena Rostova",
+      role: "Silicon Valley & Artificial Intelligence Bureau",
+      avatar: "/images/authors/elena_rostova.jpg"
+    },
+    publishedAt: "5h ago",
+    readTime: "8 min read",
+    imageUrl: "/images/news/gta-vi-countdown-upends-gaming-slates-as-budgets-eclipse-1b.webp",
+    imageCaption: "Promotional billboard displays for upcoming next-generation gaming hardware and high-budget software titles.",
+    imageCredit: "Reuters / Mike Blake",
+    isInvestigative: false,
+    commentCount: 462,
+    bullets: [
+      "Grand Theft Auto VI development and promotional investment officially confirmed to surpass $1 billion milestone.",
+      "Rival video game publishers and Hollywood studios systematically adjust release windows to avoid commercial collision.",
+      "Wall Street analysts project over $1.5 billion in retail sales within initial 48 hours of global market launch."
+],
+    tags: [
+      "Tech",
+      "Gaming",
+      "Rockstar Games",
+      "GTA VI",
+      "Entertainment Tech"
+]
+  },
+
   {
     id: "jensen-huang-nvidia-return-petition-tops-160000-signatures",
     title: "Jensen Huang Nvidia Return Petition Tops 160,000 Signatures",
@@ -2670,6 +3138,40 @@ Aerospace financial analysts estimate that SpaceX's commercial launch and satell
 
   'Entertainment': [
   {
+    id: "robert-pattinson-cast-as-james-bond-in-denis-villeneuve-reboot",
+    title: "Robert Pattinson Cast as James Bond in Denis Villeneuve Reboot",
+    kicker: "HOLLYWOOD BOMBSHELL • 007 REINVENTION",
+    summary: "Amazon MGM Studios confirmed British actor Robert Pattinson will assume the iconic mantle of James Bond in a definitive franchise reboot directed by Denis Villeneuve and penned by Steven Knight.",
+    body: "LOS ANGELES & LONDON — Ending years of intense global speculation and feverish fan debate that followed Daniel Craig's emotional farewell in *No Time to Die*, Amazon MGM Studios and Eon Productions announced Tuesday that acclaimed British actor Robert Pattinson has officially closed negotiations to portray Ian Fleming's legendary secret agent James Bond. The momentous casting decision anchors a complete, high-stakes cinematic reinvention of the venerable sixty-four-year-old espionage franchise, which will be directed by visionary filmmaker Denis Villeneuve from an original screenplay authored by Steven Knight.\n\nThe selection of Pattinson, 40, represents a brilliant and daring creative coup for producers Barbara Broccoli and Michael G. Wilson, who spent over three years vetting prospective candidates across the British theatrical and international film circuits. Renowned for his magnetic screen presence, exceptional physical dedication, and celebrated transitions between demanding auteur dramas like *The Lighthouse* and sprawling blockbuster spectacle in *The Batman*, Pattinson brings a rare blend of aristocratic charm, brooding psychological intensity, and razor-sharp intellect to the storied mantle of Agent 007.\n\nAccording to senior studio sources familiar with development negotiations, Villeneuve—who recently completed his monumental *Dune* cinematic saga—committed to helm the project after securing creative assurances that the reboot would steer away from disposable digital spectacle in favor of visceral, tactile practical action and authentic geopolitical espionage. Steven Knight's screenplay reportedly strips the narrative back to the raw, morally ambiguous Cold War roots of Fleming's earliest novels, framing Bond as an elite naval intelligence officer navigating high-stakes clandestine operations amid fractured international alliances.\n\n\"James Bond is the ultimate mythic avatar of modern cinema, a character defined by sophistication, lethal competence, and profound inner complexity,\" said Chloe Kensington, chief film and culture critic at Newyorkerherald. \"Pairing Robert Pattinson's chameleonic acting range with Denis Villeneuve's peerless visual craftsmanship elevates Bond 26 from a routine studio continuation into an unmissable cinematic event. It promises to redefine the espionage thriller for a brand new generation of worldwide filmgoers.\"\n\nThe announcement sent shockwaves through the international entertainment industry, drawing enthusiastic congratulations from former franchise luminaries and contemporary Hollywood peers. Produced on an ambitious $250 million production budget, principal photography is scheduled to commence at Pinewood Studios outside London in late 2027, with extensive location filming slated across dramatic wilderness terrains in Morocco, the Swiss Alps, and the Mediterranean.\n\nFor Amazon MGM Studios, which acquired creative stewardship of the franchise following its $8.5 billion corporate acquisition of MGM, successfully launching a critically celebrated and commercially triumphant Bond era is the crowning priority of its theatrical slate. As pre-production design teams begin scouting historic European sets, the world stands poised to witness a transformative new chapter in the enduring saga of cinema's greatest secret agent.",
+    category: "Entertainment",
+    edition: ["US & Americas", "Global"],
+    author: {
+      name: "Chloe Kensington",
+      role: "Culture & Entertainment Bureau",
+      avatar: "/images/authors/chloe_kensington.jpg"
+    },
+    publishedAt: "6h ago",
+    readTime: "6 min read",
+    imageUrl: "/images/news/robert-pattinson-cast-as-james-bond-in-denis-villeneuve-reboot.webp",
+    imageCaption: "Robert Pattinson attending a film gala, newly announced as the world's most famous secret agent in Bond 26.",
+    imageCredit: "Getty Images / Frazer Harrison",
+    isInvestigative: false,
+    commentCount: 512,
+    bullets: [
+      "Robert Pattinson officially selected as the seventh cinematic James Bond in landmark Amazon MGM Studios production.",
+      "Visionary filmmaker Denis Villeneuve signs on to direct from a gritty Cold War screenplay drafted by Steven Knight.",
+      "Production slated to commence in late 2027 across London, Morocco, and Switzerland with a $250 million budget."
+],
+    tags: [
+      "Entertainment",
+      "James Bond",
+      "Robert Pattinson",
+      "Denis Villeneuve",
+      "Movies"
+]
+  },
+
+  {
     id: "johnny-depp-tops-box-office-as-ebenezer-scores-42m-global-debut",
     title: "Johnny Depp Tops Box Office as Ebenezer Scores $42M Global Debut",
     kicker: "BOX OFFICE TRIUMPH • HOLLYWOOD COMEBACK",
@@ -2999,6 +3501,40 @@ Furthermore, cloud streaming platforms and mobile distribution networks have low
   ],
 
   'Sports': [
+  {
+    id: "chargers-edge-ravens-23-20-in-thrilling-monday-night-duel",
+    title: "Chargers Edge Ravens 23-20 in Thrilling Monday Night Duel",
+    kicker: "NFL SHOWDOWN • MONDAY NIGHT FOOTBALL",
+    summary: "Justin Herbert orchestrated a clutch game-winning fourth-quarter drive as the Los Angeles Chargers held off Lamar Jackson and the Baltimore Ravens in a 23-20 defensive battle in Maryland.",
+    body: "BALTIMORE — In an electrifying, physical defensive heavyweight duel that came down to the final possession, the Los Angeles Chargers secured a signature road victory Monday night, outlasting two-time MVP Lamar Jackson and the Baltimore Ravens 23-20 before a raucous sellout crowd at M&T Bank Stadium. Spearheaded by the poised, ice-cold decision-making of quarterback Justin Herbert and a suffocating front seven orchestrated by head coach Jim Harbaugh, the Chargers proved their physical mettle on national television, cementing their credentials as a bona fide AFC championship contender.\n\nHerbert delivered a masterclass in pocket poise under relentless blitz pressure, completing 23 of 34 passes for 285 yards and two touchdowns without committing a turnover. When the Ravens surged ahead 20-16 midway through the fourth quarter on a vintage 38-yard highlight-reel scramble by Jackson, Herbert calmly took the field with 5:42 remaining, converting three consecutive third downs on bullet completions to rookie wideout Ladd McConkey before hitting tight end Will Dissly on a back-shoulder nine-yard touchdown strike with 1:18 left on the game clock.\n\nThe dramatic finish was sealed by the Chargers' tenacious defense. Needing only a field goal to force overtime, Baltimore advanced past midfield behind Jackson's quick checkdowns. However, on fourth-and-3 from the Los Angeles 38-yard line, All-Pro edge rusher Joey Bosa and linebacker Daiyan Henley collapsed the pocket, forcing Jackson to throw an off-balance incompletion into heavy coverage as time expired, igniting jubilant celebrations along the visitor sideline.\n\n\"Our team has relentless fight, discipline, and blue-collar grit,\" an emotional Jim Harbaugh told reporters during his postgame press conference. \"Coming into Baltimore in mid-November and going toe-to-toe with one of the most explosive offenses in football is the ultimate test of character. Justin Herbert was magnificent when everything was on the line, and our defense made the championship stop when we needed it most.\"\n\nFor the Ravens, the bitter home defeat dropped Baltimore to 7-4, exposing lingering vulnerabilities in pass protection and red-zone execution. Despite Jackson's dynamic individual heroics—finishing with 242 passing yards, 74 rushing yards, and two total touchdowns—the Ravens were stymied on three separate goal-to-go opportunities, forced to settle for short field goals by Justin Tucker after failing to generate push against the Chargers' stout defensive interior.\n\nThe victory improves the Chargers to an impressive 8-3 record, vaulting them into a tie atop the fiercely contested AFC West standings. As Los Angeles heads back to the West Coast to prepare for a critical Thanksgiving weekend matchup, Herbert's clutch fourth-quarter performance in primetime has elevated the star passer into the center of national MVP voting conversations.",
+    category: "Sports",
+    edition: ["US & Americas", "Global"],
+    author: {
+      name: "Darius Vance",
+      role: "Senior Sports Correspondent",
+      avatar: "/images/authors/darius_vance.jpg"
+    },
+    publishedAt: "7h ago",
+    readTime: "6 min read",
+    imageUrl: "/images/news/chargers-edge-ravens-23-20-in-thrilling-monday-night-duel.webp",
+    imageCaption: "Justin Herbert calls signals at the line of scrimmage during the fourth quarter against the Baltimore Ravens.",
+    imageCredit: "AP Photo / Nick Wass",
+    isInvestigative: false,
+    commentCount: 381,
+    bullets: [
+      "Justin Herbert delivers 285 passing yards and two touchdowns, leading Chargers to hard-fought 23-20 victory.",
+      "Los Angeles defense sacks Lamar Jackson four times and stops Ravens on critical fourth-down goal-line stand.",
+      "Victory propels Jim Harbaugh's Chargers into prime AFC playoff contention heading into late-season slate."
+],
+    tags: [
+      "Sports",
+      "NFL",
+      "Chargers",
+      "Ravens",
+      "Justin Herbert"
+]
+  },
+
   {
     id: "luka-doncic-scores-43-points-to-power-lakers-over-phoenix-suns",
     title: "Luka Doncic Scores 43 Points to Power Lakers Over Phoenix Suns",
@@ -3350,6 +3886,40 @@ On the stadium infrastructure front, club executives evaluated demonstrations of
   ],
 
   'Science': [
+  {
+    id: "voyager-1-reaches-one-light-day-from-earth-in-historic-milestone",
+    title: "Voyager 1 Reaches One Light-Day From Earth in Historic Milestone",
+    kicker: "DEEP SPACE FRONTIER • NASA ASTRONOMY",
+    summary: "NASA's legendary Voyager 1 spacecraft crossed the historic milestone of one light-day from Earth—over 16 billion miles away in interstellar space—as stargazers worldwide joined in a global Morse salute.",
+    body: "PASADENA, Calif. — In a poetic and monumental milestone that marks the absolute frontier of human technological exploration, NASA's legendary Voyager 1 robotic probe crossed the threshold of exactly one light-day of distance from planet Earth on Tuesday. Positioned more than 16 billion miles (25.9 billion kilometers) away in the cold, unyielding silence of interstellar space, the plucky 1,800-pound spacecraft has ventured so far from its cradle of origin that a radio signal traveling at the speed of light—186,282 miles per second—now requires a full twenty-four hours to bridge the cosmic expanse between Earth and the probe's high-gain antenna.\n\nLaunched from Cape Canaveral, Florida, in September 1977 during the Carter administration, Voyager 1 was originally designed for a modest five-year mission to conduct close flybys of Jupiter and Saturn. Yet nearly five decades later, powered by the steadily decaying heat of its plutonium-fueled radioisotope thermoelectric generators (RTGs), the venerable explorer continues to defy engineering expectations, transmitting invaluable measurements of the interstellar magnetic medium, cosmic ray density, and interstellar plasma waves back to the towering parabolic dishes of NASA's Deep Space Network in Goldstone, Madrid, and Canberra.\n\nTo commemorate the unprecedented occasion, NASA and the Jet Propulsion Laboratory (JPL) hosted a synchronized worldwide public event on Tuesday evening entitled \"Shine Bright for Voyager's Light-Day.\" As darkness fell across successive time zones, amateur astronomers, schoolchildren, and space enthusiasts gathered on rooftops, observatory grounds, and beaches worldwide, utilizing flashlights and smartphone screens to flash the letters \"V-G-R\" in Morse code toward the northern sky in a symbolic, golden wave of light saluting humanity's farthest ambassador.\n\n\"Reaching one light-day of distance is not simply an astronomical triumph of aerospace telemetry; it is a profound testament to the timeless spirit of human curiosity,\" said Dr. Aris Thorne, senior aerospace analyst at Newyorkerherald. \"A robotic emissary conceived with slide rules and magnetic tape drives has journeyed beyond the gravitational dominion of our Sun, carrying our voices, our music, and our hopes on the Golden Record into the eternal ocean of the Milky Way. Voyager 1 reminds us of what humanity can achieve when we dare to look beyond the horizon.\"\n\nAt mission control in Pasadena, an extraordinary cadre of veteran engineers—some of whom have dedicated their entire professional careers to the Voyager project—continue to nurse the spacecraft's dwindling electrical margins with surgical precision. Over recent months, flight controllers successfully resolved complex digital telemetry glitches by rerouting data commands through backup memory banks, ensuring that the probe's magnetometer and cosmic ray instruments can operate continuously through its fiftieth anniversary in 2027.\n\nWhile physicists estimate that Voyager 1's atomic power source will finally fall silent by the end of the decade, the silent, inert spacecraft will continue to drift through the cosmos for millions of years. In roughly 40,000 years, it will pass within 1.6 light-years of the red dwarf star Gliese 445 in the constellation Camelopardalis, carrying the indelible fingerprint of human civilization across the stars.",
+    category: "Science",
+    edition: ["US & Americas", "Global"],
+    author: {
+      name: "Dr. Aris Thorne",
+      role: "Aerospace & Planetary Exploration Desk",
+      avatar: "/images/authors/aris_thorne.jpg"
+    },
+    publishedAt: "8h ago",
+    readTime: "8 min read",
+    imageUrl: "/images/news/voyager-1-reaches-one-light-day-from-earth-in-historic-milestone.webp",
+    imageCaption: "Artist concept of the Voyager 1 robotic probe traversing the plasma boundaries of interstellar space.",
+    imageCredit: "NASA / JPL-Caltech",
+    isInvestigative: false,
+    commentCount: 634,
+    bullets: [
+      "Voyager 1 officially achieves distance of one light-day (16 billion miles / 25.9 billion km) from Earth.",
+      "Radio communications now require exactly 24 hours traveling at the speed of light to reach the robotic explorer.",
+      "NASA JPL hosts worldwide 'Shine Bright' Morse code light salute celebrating humanity's farthest journey."
+],
+    tags: [
+      "Science",
+      "NASA",
+      "Voyager 1",
+      "Deep Space",
+      "Astronomy"
+]
+  },
+
   {
     id: "spacex-catches-starship-with-mechazilla-chopsticks-in-flight-15",
     title: "SpaceX Catches Starship With Mechazilla Chopsticks in Flight 15",
@@ -3714,6 +4284,40 @@ Domestic automotive manufacturers have committed multi-billion-dollar off-take a
   ],
 
   'Opinion': [
+  {
+    id: "why-muzzling-congressional-testimony-threatens-basic-governance",
+    title: "Why Muzzling Congressional Testimony Threatens Basic Governance",
+    kicker: "CONSTITUTIONAL INTEGRITY • EDITORIAL PERSPECTIVE",
+    summary: "The White House directive ordering federal agency officials to obtain pre-approval before testifying before Congress is a dangerous assault on Article I oversight that undermines basic democratic accountability.",
+    body: "In the delicate constitutional architecture designed by the Framers in 1787, no principle was more fundamental than the insistence that power must never be permitted to operate in the dark. Article I of the United States Constitution did not create Congress merely as an assembly to rubber-stamp budgets and pass aspirational statutes; it vested lawmakers with the solemn, non-negotiable duty to conduct rigorous oversight—to question cabinet chiefs under oath, inspect federal regulatory agencies, and hold the immense apparatus of the modern administrative state strictly accountable to the citizens who pay for it.\n\nIt is against this bedrock constitutional heritage that the White House's latest executive memorandum must be judged. By issuing an omnibus directive requiring every federal department head and agency official to obtain prior institutional permission from the West Wing before testifying before congressional committees, the administration is not engaging in standard legal defense. It is erecting an authoritarian filter across the executive branch: an administrative muzzle designed to insulate executive conduct from legislative scrutiny, obstruct legitimate inquiries, and degrade the constitutional prerogatives of a co-equal branch of government.\n\nThe administration’s stated rationale—that this centralized gatekeeping is necessary to prevent \"politically motivated, baseless investigations\" in the aftermath of midterm elections—is as cynical as it is legally hollow. Every president in American history has found congressional oversight uncomfortable, inconvenient, and politically frustrating. When Harry Truman investigated defense contractor profiteering, when Sam Ervin investigated Watergate, when congressional panels probed the Challenger disaster, the Iran-Contra affair, or the 2008 financial crash, the executive branch was inevitably subjected to fierce, uncomfortable grilling. That discomfort is not a flaw in the American system; it is the entire point.\n\nWhen an administration asserts the power to decide which public servants may speak to lawmakers, the consequences reverberate far beyond Capitol Hill hearing rooms. It chills conscientious whistleblowers who witness environmental negligence, aviation safety lapses, or fiscal waste. It blindfolds appropriators responsible for allocating trillions in taxpayer funds. And most dangerously, it establishes a toxic precedent: the proposition that federal agencies funded by public treasure owe their primary allegiance to the political occupants of the Oval Office rather than the laws of the United States.\n\nLawmakers in both political parties must recognize this directive for what it truly is: a direct institutional provocation that threatens the balance of constitutional governance. If the incoming Congress capitulates to this executive embargo, it will have surrendered the essential tool that makes representative democracy meaningful. Democratic and Republican committee chairs must stand shoulder-to-shoulder, enforce witness subpoenas through compulsory court process, withhold discretionary executive appropriations from non-compliant departments, and defend the institutional dignity of Article I.\n\nThe American people did not vote for a monarch surrounded by unanswerable bureaucrats. They voted for a constitutional republic governed by checks, balances, and public transparency. Until the White House rescinds this misguided gag order, Congress has an absolute obligation to fight for the truth—subpoena by subpoena, hearing by hearing.",
+    category: "Opinion",
+    edition: ["US & Americas", "Global"],
+    author: {
+      name: "Eleanor Vance",
+      role: "Senior Opinion Columnist",
+      avatar: "/images/authors/eleanor_vance.jpg"
+    },
+    publishedAt: "10h ago",
+    readTime: "7 min read",
+    imageUrl: "/images/news/why-muzzling-congressional-testimony-threatens-basic-governance.webp",
+    imageCaption: "The United States Capitol dome silhouetted at dusk during high-stakes legislative sessions in Washington.",
+    imageCredit: "Getty Images / Win McNamee",
+    isInvestigative: false,
+    commentCount: 427,
+    bullets: [
+      "White House directive restricting agency testimony violates fundamental constitutional separation of powers.",
+      "Congressional oversight is essential to uncover regulatory waste, ensure public safety, and hold power accountable.",
+      "Lawmakers must unite across partisan lines to enforce subpoenas and defend Article I prerogatives."
+],
+    tags: [
+      "Opinion",
+      "Congress",
+      "Constitution",
+      "Oversight",
+      "Separation of Powers"
+]
+  },
+
   {
     id: "why-the-faa-system-collapse-exposes-decades-of-federal-neglect",
     title: "Why the FAA System Collapse Exposes Decades of Federal Neglect",
@@ -4443,45 +5047,45 @@ export function getHomepageDepartmentArticles(dept: string): Article[] {
   const mapping: Record<string, string[]> = {
     us: [
       'the-vanity-of-alina-habba-mildon',
+      'fema-holds-nationwide-alert-test-amid-viral-blackout-falsehoods',
       'faa-system-outage-sparks-chaos-for-over-1-million-air-travelers',
-      'deadly-logan-circle-shooting-in-washington-leaves-two-dead',
-      'deadly-brooklyn-building-collapse-sparks-massive-rescue-operation'
+      'deadly-logan-circle-shooting-in-washington-leaves-two-dead'
     ],
     politics: [
+      'white-house-orders-agencies-to-curb-congressional-testimony',
       'trump-pauses-iran-strikes-following-talks-with-mideast-allies',
       'trump-drops-iran-deal-talks-and-pivots-vance-to-urban-crime',
-      'treasury-chief-scott-bessent-moved-to-military-base-over-threats',
-      'democrats-and-gop-clash-over-defense-bill-on-veterans-day'
+      'treasury-chief-scott-bessent-moved-to-military-base-over-threats'
     ],
     business: [
+      'major-us-banks-hit-by-widespread-online-outages-and-delays',
       'microsoft-restores-cloud-systems-after-crippling-global-outage',
       'surging-treasury-yields-rattle-global-markets-and-pound-gold',
-      'anthropic-kicks-off-landmark-ipo-roadshow-for-1-4t-valuation',
-      'securitize-acquires-river-one-to-expand-tokenized-lending'
+      'anthropic-kicks-off-landmark-ipo-roadshow-for-1-4t-valuation'
     ],
     tech: [
+      'gta-vi-countdown-upends-gaming-slates-as-budgets-eclipse-1b',
       'jensen-huang-nvidia-return-petition-tops-160000-signatures',
       'jensen-huang-abruptly-steps-down-as-ceo-of-nvidia-in-shock-exit',
-      'deepmind-alphaproof-code-verifies-signal-encryption-protocol',
-      'openai-launches-businesses-in-chatgpt-enterprise-ai-platform'
+      'deepmind-alphaproof-code-verifies-signal-encryption-protocol'
     ],
     entertainment: [
+      'robert-pattinson-cast-as-james-bond-in-denis-villeneuve-reboot',
       'johnny-depp-tops-box-office-as-ebenezer-scores-42m-global-debut',
       'hollywood-takes-an-anti-tech-turn-with-dystopian-wave-of-films',
-      'dua-lipa-named-historic-first-british-female-coachella-headliner',
-      'ella-langley-and-olivia-rodrigo-lead-2027-grammy-predictions'
+      'dua-lipa-named-historic-first-british-female-coachella-headliner'
     ],
     sports: [
+      'chargers-edge-ravens-23-20-in-thrilling-monday-night-duel',
       'luka-doncic-scores-43-points-to-power-lakers-over-phoenix-suns',
       'cade-cunningham-explodes-for-52-points-as-pistons-edge-wizards',
-      'us-withdraws-from-u-17-world-cup-in-qatar-over-security-concerns',
-      'michigan-state-downs-duke-79-73-in-chicago-college-showdown'
+      'us-withdraws-from-u-17-world-cup-in-qatar-over-security-concerns'
     ],
     science: [
+      'voyager-1-reaches-one-light-day-from-earth-in-historic-milestone',
       'spacex-catches-starship-with-mechazilla-chopsticks-in-flight-15',
       'nasa-escapade-twin-probes-slingshot-past-earth-en-route-to-mars',
-      'nature-study-confirms-accuracy-of-historic-m87-black-hole-image',
-      'nasa-unveils-promise-moon-rover-built-from-mars-rover-spares'
+      'nature-study-confirms-accuracy-of-historic-m87-black-hole-image'
     ]
   };
 
