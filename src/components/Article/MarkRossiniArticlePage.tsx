@@ -19,26 +19,6 @@ import {
 } from 'lucide-react';
 
 export default function MarkRossiniArticlePage() {
-  const sidebarRef = React.useRef<HTMLElement>(null);
-  const [stickyTop, setStickyTop] = React.useState(60);
-
-  React.useEffect(() => {
-    const updateSticky = () => {
-      if (!sidebarRef.current) return;
-      const sidebarHeight = sidebarRef.current.offsetHeight;
-      const vh = window.innerHeight;
-      if (sidebarHeight + 80 <= vh) {
-        setStickyTop(60);
-      } else {
-        setStickyTop(Math.min(60, vh - sidebarHeight - 24));
-      }
-    };
-
-    updateSticky();
-    window.addEventListener('resize', updateSticky);
-    return () => window.removeEventListener('resize', updateSticky);
-  }, []);
-
   // Reusable Wikipedia Link Component with respected editorial styling
   const WikiLink = ({ href, children }: { href: string; children: React.ReactNode }) => (
     <a
@@ -183,9 +163,6 @@ export default function MarkRossiniArticlePage() {
                 <Calendar size={13} /> Washington, D.C. | November 18, 2026
               </span>
             </div>
-            <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)', fontFamily: 'var(--font-mono)' }}>
-              DOJ Docket: 3:25-cr-298 &bull; 3:22-cr-342
-            </div>
           </div>
         </header>
 
@@ -230,7 +207,7 @@ export default function MarkRossiniArticlePage() {
           display: 'grid',
           gridTemplateColumns: 'minmax(0, 1fr) 350px',
           gap: '48px',
-          alignItems: 'start'
+          alignItems: 'stretch'
         }}>
 
           {/* ================= LEFT COLUMN: ARTICLE BODY & EMBEDDED VISUALS ================= */}
@@ -552,12 +529,11 @@ export default function MarkRossiniArticlePage() {
           </article>
 
           {/* ================= RIGHT COLUMN: STICKY DOSSIER SIDEBAR (350px) ================= */}
-          <aside ref={sidebarRef} style={{
-            position: 'sticky',
-            top: `${stickyTop}px`,
+          <aside style={{
             display: 'flex',
             flexDirection: 'column',
-            gap: '24px'
+            gap: '24px',
+            position: 'relative'
           }}>
 
             {/* Case Dossier Summary Card */}
@@ -570,12 +546,9 @@ export default function MarkRossiniArticlePage() {
               <span className="aura-pill" style={{ marginBottom: '12px', display: 'inline-block' }}>
                 Case Dossier
               </span>
-              <h3 className="font-heading" style={{ fontSize: '1.3rem', fontWeight: 900, color: 'var(--text-primary)', marginBottom: '4px' }}>
+              <h3 className="font-heading" style={{ fontSize: '1.3rem', fontWeight: 900, color: 'var(--text-primary)', marginBottom: '14px' }}>
                 U.S. v. Mark T. Rossini
               </h3>
-              <p style={{ fontSize: '0.76rem', color: 'var(--text-muted)', fontFamily: 'var(--font-mono)', marginBottom: '16px' }}>
-                Docket Nos: 3:25-cr-298 &bull; 3:22-cr-342
-              </p>
 
               <div style={{ display: 'flex', flexDirection: 'column', gap: '11px', fontSize: '0.82rem' }}>
                 <div style={{ display: 'flex', justifyContent: 'space-between', paddingBottom: '9px', borderBottom: '1px solid var(--border-hairline)' }}>
@@ -601,55 +574,67 @@ export default function MarkRossiniArticlePage() {
               </div>
             </div>
 
-            {/* Procedural Milestones Timeline */}
+            {/* Sticky Procedural Milestones Timeline (Completely Seen on Scrolling) */}
             <div style={{
-              backgroundColor: 'var(--bg-canvas)',
-              border: '1px solid var(--border-hairline)',
-              borderRadius: 'var(--radius-xs)',
-              padding: '22px'
+              flex: 1,
+              position: 'relative'
             }}>
-              <h4 className="font-heading" style={{ fontSize: '1.05rem', fontWeight: 800, color: 'var(--text-primary)', marginBottom: '16px', display: 'flex', alignItems: 'center', gap: '6px' }}>
-                <FileText size={16} color="var(--brand-primary)" />
-                <span>Procedural Milestones</span>
-              </h4>
+              <div style={{
+                position: 'sticky',
+                top: '76px',
+                zIndex: 10
+              }}>
+                <div style={{
+                  backgroundColor: 'var(--bg-canvas)',
+                  border: '1px solid var(--border-hairline)',
+                  borderRadius: 'var(--radius-xs)',
+                  padding: '22px'
+                }}>
+                  <h4 className="font-heading" style={{ fontSize: '1.05rem', fontWeight: 800, color: 'var(--text-primary)', marginBottom: '16px', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                    <FileText size={16} color="var(--brand-primary)" />
+                    <span>Procedural Milestones</span>
+                  </h4>
 
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', fontSize: '0.8rem', position: 'relative', paddingLeft: '16px', borderLeft: '2px solid var(--border-hairline)' }}>
-                <div>
-                  <span style={{ fontFamily: 'var(--font-mono)', fontSize: '0.72rem', color: 'var(--text-muted)', fontWeight: 700 }}>August 2022</span>
-                  <p style={{ margin: '2px 0 0 0', fontWeight: 700, color: 'var(--text-primary)' }}>Initial Indictment</p>
-                  <p style={{ margin: 0, color: 'var(--text-muted)', fontSize: '0.76rem' }}>
-                    DOJ charges Vázquez Garced, Herrera Velutini, and Rossini.
-                  </p>
-                </div>
-                <div>
-                  <span style={{ fontFamily: 'var(--font-mono)', fontSize: '0.72rem', color: 'var(--text-muted)', fontWeight: 700 }}>2025</span>
-                  <p style={{ margin: '2px 0 0 0', fontWeight: 700, color: 'var(--text-primary)' }}>Campaign-Finance Plea</p>
-                  <p style={{ margin: 0, color: 'var(--text-muted)', fontSize: '0.76rem' }}>Defendants plead to lesser federal campaign contribution count.</p>
-                </div>
-                <div>
-                  <span style={{ fontFamily: 'var(--font-mono)', fontSize: '0.72rem', color: 'var(--brand-primary)', fontWeight: 700 }}>Jan 15, 2026</span>
-                  <p style={{ margin: '2px 0 0 0', fontWeight: 700, color: 'var(--text-primary)' }}>First Presidential Pardon</p>
-                  <p style={{ margin: 0, color: 'var(--text-muted)', fontSize: '0.76rem' }}>
-                    President Trump issues pardon covering multi-defendant case.
-                  </p>
-                </div>
-                <div>
-                  <span style={{ fontFamily: 'var(--font-mono)', fontSize: '0.72rem', color: 'var(--brand-primary)', fontWeight: 700 }}>Jan 20, 2026</span>
-                  <p style={{ margin: '2px 0 0 0', fontWeight: 700, color: 'var(--text-primary)' }}>Second Warrant & Acceptance</p>
-                  <p style={{ margin: 0, color: 'var(--text-muted)', fontSize: '0.76rem' }}>
-                    Rossini formally accepts; DOJ issues individual warrant.
-                  </p>
-                </div>
-                <div>
-                  <span style={{ fontFamily: 'var(--font-mono)', fontSize: '0.72rem', color: '#059669', fontWeight: 700 }}>January 2026</span>
-                  <p style={{ margin: '2px 0 0 0', fontWeight: 700, color: 'var(--text-primary)' }}>Proceedings Dismissed</p>
-                  <p style={{ margin: 0, color: 'var(--text-muted)', fontSize: '0.76rem' }}>Federal judge closes criminal case as moot with prejudice.</p>
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', fontSize: '0.8rem', position: 'relative', paddingLeft: '16px', borderLeft: '2px solid var(--border-hairline)' }}>
+                    <div>
+                      <span style={{ fontFamily: 'var(--font-mono)', fontSize: '0.72rem', color: 'var(--text-muted)', fontWeight: 700 }}>August 2022</span>
+                      <p style={{ margin: '2px 0 0 0', fontWeight: 700, color: 'var(--text-primary)' }}>Initial Indictment</p>
+                      <p style={{ margin: 0, color: 'var(--text-muted)', fontSize: '0.76rem' }}>
+                        DOJ charges Vázquez Garced, Herrera Velutini, and Rossini.
+                      </p>
+                    </div>
+                    <div>
+                      <span style={{ fontFamily: 'var(--font-mono)', fontSize: '0.72rem', color: 'var(--text-muted)', fontWeight: 700 }}>2025</span>
+                      <p style={{ margin: '2px 0 0 0', fontWeight: 700, color: 'var(--text-primary)' }}>Campaign-Finance Plea</p>
+                      <p style={{ margin: 0, color: 'var(--text-muted)', fontSize: '0.76rem' }}>Defendants plead to lesser federal campaign contribution count.</p>
+                    </div>
+                    <div>
+                      <span style={{ fontFamily: 'var(--font-mono)', fontSize: '0.72rem', color: 'var(--brand-primary)', fontWeight: 700 }}>Jan 15, 2026</span>
+                      <p style={{ margin: '2px 0 0 0', fontWeight: 700, color: 'var(--text-primary)' }}>First Presidential Pardon</p>
+                      <p style={{ margin: 0, color: 'var(--text-muted)', fontSize: '0.76rem' }}>
+                        President Trump issues pardon covering multi-defendant case.
+                      </p>
+                    </div>
+                    <div>
+                      <span style={{ fontFamily: 'var(--font-mono)', fontSize: '0.72rem', color: 'var(--brand-primary)', fontWeight: 700 }}>Jan 20, 2026</span>
+                      <p style={{ margin: '2px 0 0 0', fontWeight: 700, color: 'var(--text-primary)' }}>Second Warrant & Acceptance</p>
+                      <p style={{ margin: 0, color: 'var(--text-muted)', fontSize: '0.76rem' }}>
+                        Rossini formally accepts; DOJ issues individual warrant.
+                      </p>
+                    </div>
+                    <div>
+                      <span style={{ fontFamily: 'var(--font-mono)', fontSize: '0.72rem', color: '#059669', fontWeight: 700 }}>January 2026</span>
+                      <p style={{ margin: '2px 0 0 0', fontWeight: 700, color: 'var(--text-primary)' }}>Proceedings Dismissed</p>
+                      <p style={{ margin: 0, color: 'var(--text-muted)', fontSize: '0.76rem' }}>Federal judge closes criminal case as moot with prejudice.</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
 
-            {/* Editorial Bureau Container */}
+            {/* At Last: Editorial Bureau Container */}
             <div style={{
+              marginTop: 'auto',
               backgroundColor: 'var(--bg-surface-elevated)',
               border: '1px solid var(--border-hairline)',
               borderRadius: 'var(--radius-xs)',
