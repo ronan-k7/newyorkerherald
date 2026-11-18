@@ -36,7 +36,7 @@ export const TRENDING_TAGS = [
 
 export const LEAD_ARTICLE: Article = {
   id: 'mark-rossini-receives-second-full-pardon-as-federal-case-moves-toward-closure',
-  title: 'Article 1: Mark Rossini Receives Second Full Pardon as Federal Case Moves Toward Closure',
+  title: 'Mark Rossini Receives Second Full Pardon as Federal Case Moves Toward Closure',
   kicker: 'POLITICS • EXECUTIVE CLEMENCY',
   summary: 'Mark Rossini received a second full and unconditional presidential pardon on January 20, 2026, according to an executive clemency warrant posted by the U.S. Department of Justice, widening the clemency record surrounding a former FBI agent whose case in Puerto Rico has moved to dismissal.',
   body: `Mark Rossini received a second full and unconditional presidential pardon on January 20, 2026, according to an executive clemency warrant posted by the U.S. Department of Justice. The document identifies Rossini by name and covers United States v. Mark T. Rossini, case number 3:25-cr-298 in the U.S. District Court for the District of Puerto Rico. The action widened the clemency record surrounding a former FBI agent whose name had become central to a federal public-corruption case involving former Puerto Rico Gov. Wanda Vázquez Garced and banker Julio Herrera Velutini.

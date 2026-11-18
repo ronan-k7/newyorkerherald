@@ -11,7 +11,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { category, slug } = await params;
   if (slug.includes('rossini')) {
     return {
-      title: 'Article 1: Mark Rossini Receives Second Full Pardon as Federal Case Moves Toward Closure | Newyorkerherald',
+      title: 'Mark Rossini Receives Second Full Pardon as Federal Case Moves Toward Closure | Newyorkerherald',
       description: 'Mark Rossini received a second full and unconditional presidential pardon covering his federal case in Puerto Rico. Full legal analysis and case timeline.'
     };
   }
