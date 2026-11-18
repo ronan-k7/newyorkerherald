@@ -92,7 +92,6 @@ export default function MarkRossiniArticlePage() {
             Politics
           </Link>
           <span>/</span>
-          <span style={{ color: 'var(--brand-primary)', fontWeight: 800 }}>Presidential Pardon</span>
         </nav>
 
         {/* ================= EDITORIAL HERO HEADER SECTION ================= */}
@@ -109,7 +108,7 @@ export default function MarkRossiniArticlePage() {
           }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '10px', flexWrap: 'wrap' }}>
               <span className="aura-pill" style={{ letterSpacing: '0.06em', padding: '5px 12px', fontWeight: 800 }}>
-                POLITICS • PRESIDENTIAL PARDON
+                POLITICS
               </span>
               <span style={{ fontSize: '0.76rem', color: 'var(--text-muted)', fontWeight: 600, display: 'inline-flex', alignItems: 'center', gap: '4px' }}>
                 <Clock size={13} /> 6 min read
@@ -164,11 +163,25 @@ export default function MarkRossiniArticlePage() {
             color: 'var(--text-secondary)'
           }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '8px', flexWrap: 'wrap' }}>
-              <span style={{ fontWeight: 800, color: 'var(--text-primary)', textTransform: 'uppercase', letterSpacing: '0.04em' }}>
-                By News Desk
-              </span>
-              <span>&bull;</span>
-              <span>Editorial Board & Legal Reporting Bureau</span>
+              <Link
+                href="/author/editorial-board"
+                style={{
+                  color: 'inherit',
+                  textDecoration: 'none',
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '6px'
+                }}
+                className="hover:text-[var(--brand-primary)]"
+              >
+                <span style={{ fontWeight: 800, color: 'var(--text-primary)', textTransform: 'uppercase', letterSpacing: '0.04em' }}>
+                  By Editorial Board
+                </span>
+                <span>&bull;</span>
+                <span style={{ textDecoration: 'underline', textUnderlineOffset: '3px', textDecorationColor: 'var(--brand-primary)', fontWeight: 600 }}>
+                  Newyorkerherald Staff
+                </span>
+              </Link>
               <span>&bull;</span>
               <span style={{ display: 'inline-flex', alignItems: 'center', gap: '4px', color: 'var(--brand-primary)', fontWeight: 700 }}>
                 <Calendar size={13} /> Washington, D.C. | November 18, 2026
@@ -345,7 +358,7 @@ export default function MarkRossiniArticlePage() {
                 gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
                 gap: '24px'
               }}>
-                
+
                 {/* Julio Herrera Velutini — Full Sized */}
                 <figure style={{
                   margin: 0,
@@ -550,6 +563,76 @@ export default function MarkRossiniArticlePage() {
             flexDirection: 'column',
             gap: '24px'
           }}>
+
+            {/* Editorial Byline Card */}
+            <div style={{
+              backgroundColor: 'var(--bg-surface-elevated)',
+              border: '1px solid var(--border-hairline)',
+              borderRadius: 'var(--radius-xs)',
+              padding: '20px'
+            }}>
+              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '12px' }}>
+                <span className="aura-pill" style={{ fontSize: '0.65rem' }}>
+                  Editorial Bureau
+                </span>
+                <span style={{ fontSize: '0.7rem', color: 'var(--text-muted)', fontFamily: 'var(--font-mono)' }}>
+                  Washington, D.C.
+                </span>
+              </div>
+
+              <div style={{ display: 'flex', gap: '12px', alignItems: 'center', marginBottom: '10px' }}>
+                <img
+                  src="/images/authors/sarah_mitchell.jpg"
+                  alt="Editorial Board"
+                  style={{
+                    width: '46px',
+                    height: '46px',
+                    borderRadius: '50%',
+                    objectFit: 'cover',
+                    border: '1px solid var(--border-hairline)'
+                  }}
+                />
+                <div>
+                  <Link
+                    href="/author/editorial-board"
+                    style={{
+                      textDecoration: 'none',
+                      color: 'var(--text-primary)',
+                      fontWeight: 800,
+                      fontSize: '0.94rem',
+                      display: 'block'
+                    }}
+                    className="hover:text-[var(--brand-primary)]"
+                  >
+                    Editorial Board
+                  </Link>
+                  <span style={{ fontSize: '0.74rem', color: 'var(--text-muted)' }}>
+                    Newyorkerherald Staff
+                  </span>
+                </div>
+              </div>
+
+              <p style={{ fontSize: '0.76rem', color: 'var(--text-secondary)', lineHeight: 1.5, margin: '0 0 12px 0' }}>
+                The Newyorkerherald editorial board and legal bureau produce verified investigative intelligence and breaking policy analysis.
+              </p>
+
+              <Link
+                href="/author/editorial-board"
+                style={{
+                  fontSize: '0.75rem',
+                  color: 'var(--brand-primary)',
+                  fontWeight: 700,
+                  textDecoration: 'none',
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '4px'
+                }}
+                className="hover:underline"
+              >
+                <span>View Full Editorial Archive</span>
+                <span>&rarr;</span>
+              </Link>
+            </div>
 
             {/* Case Dossier Summary Card */}
             <div style={{
