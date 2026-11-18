@@ -389,7 +389,6 @@ export default function MarkRossiniArticlePage() {
                 <span>Source</span>
               </div>
               <p style={{ margin: 0, color: 'var(--text-secondary)' }}>
-                <strong style={{ color: 'var(--text-primary)' }}>Source:</strong>{' '}
                 <a
                   href="https://www.justice.gov/pardon/media/1425091/dl?inline="
                   target="_blank"
