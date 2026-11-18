@@ -9,13 +9,8 @@ import {
   Clock,
   ArrowLeft,
   Calendar,
-  Scale,
   FileText,
-  ShieldCheck,
-  Users,
-  CheckCircle2,
-  XCircle,
-  ExternalLink
+  ShieldCheck
 } from 'lucide-react';
 
 export default function MarkRossiniArticlePage() {
@@ -67,7 +62,6 @@ export default function MarkRossiniArticlePage() {
           <Link href="/politics" style={{ color: 'var(--text-muted)', textDecoration: 'none', fontWeight: 700 }}>
             Politics
           </Link>
-          <span>/</span>
         </nav>
 
         {/* ================= EDITORIAL HERO HEADER SECTION ================= */}
@@ -111,18 +105,6 @@ export default function MarkRossiniArticlePage() {
           }}>
             Mark Rossini Receives Second Full Pardon as Federal Case Moves Toward Closure
           </h1>
-
-          {/* Deck / Standfirst */}
-          <p style={{
-            fontSize: 'clamp(1.05rem, 1.5vw, 1.25rem)',
-            color: 'var(--text-secondary)',
-            lineHeight: 1.55,
-            fontWeight: 500,
-            maxWidth: '920px',
-            marginBottom: '20px'
-          }}>
-            A former FBI agent whose name had become central to a federal public-corruption case involving former Puerto Rico Gov. Wanda Vázquez Garced and banker Julio Herrera Velutini sees proceedings dismissed following two presidential pardon warrants and formal court acceptance.
-          </p>
 
           {/* Dateline & Byline Metadata Strip with Today's Date */}
           <div style={{
@@ -285,35 +267,12 @@ export default function MarkRossiniArticlePage() {
               Rossini’s legal team moved quickly to notify the court. In a filing reported by Puerto Rico media, his lawyers said he accepted the full and unconditional pardon and asked the court to dismiss all remaining charges with prejudice. The filing covered the cases connected to the original indictment and the later case. Acceptance matters because the Supreme Court has long recognized that a person must accept a pardon for it to take effect as a legal defense.
             </p>
 
-            {/* Legal Precedent Explainer Box */}
-            <div style={{
-              margin: '30px 0',
-              padding: '20px 22px',
-              backgroundColor: 'var(--bg-surface-elevated)',
-              border: '1px solid var(--border-hairline)',
-              borderLeft: '4px solid var(--brand-primary)',
-              borderRadius: 'var(--radius-xs)',
-              fontSize: '0.9rem',
-              lineHeight: 1.65,
-              color: 'var(--text-secondary)'
-            }}>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '8px', fontWeight: 800, color: 'var(--text-primary)', marginBottom: '8px', fontSize: '0.95rem' }}>
-                <Scale size={20} color="var(--brand-primary)" />
-                <span>
-                  Supreme Court Precedent: United States v. Burdick (236 U.S. 79)
-                </span>
-              </div>
-              <p style={{ margin: 0 }}>
-                Under longstanding American constitutional doctrine established in <em>Burdick</em>, a presidential pardon cannot operate automatically against an individual’s will. It must be formally recognized and accepted by the recipient to constitute a binding legal defense in court. Mark Rossini’s attorneys filed the first formal acceptance notice among the principal co-defendants.
-              </p>
-            </div>
-
             {/* Paragraph 5 */}
             <p style={{ marginBottom: '32px' }}>
               The case had already changed shape before the pardons were issued. Prosecutors originally accused Rossini, Herrera Velutini, and Vázquez Garced of participating in a scheme involving political influence and campaign support. The indictment alleged that Rossini and Herrera Velutini promised financial backing for Vázquez’s 2020 campaign in exchange for influence over Puerto Rico’s financial regulator. The original allegations included conspiracy, federal program bribery, and honest-services wire fraud. Those charges were later replaced by a lesser campaign-finance offense in a plea agreement reached in 2025.
             </p>
 
-            {/* ================= FULL-SIZED CO-DEFENDANTS GALLERY: JULIO & WANDA ================= */}
+            {/* ================= CO-DEFENDANTS GALLERY: JULIO & WANDA ================= */}
             <div style={{
               margin: '36px 0',
               padding: '20px',
@@ -321,13 +280,6 @@ export default function MarkRossiniArticlePage() {
               border: '1px solid var(--border-hairline)',
               borderRadius: 'var(--radius-xs)'
             }}>
-              <div style={{ marginBottom: '16px', display: 'flex', alignItems: 'center', gap: '8px' }}>
-                <Users size={18} color="var(--brand-primary)" />
-                <h3 className="font-heading" style={{ margin: 0, fontSize: '1.15rem', fontWeight: 800, color: 'var(--text-primary)' }}>
-                  Co-Defendants Named in the Federal Indictment
-                </h3>
-              </div>
-
               {/* Side-by-Side Full-Sized Portrait Grid */}
               <div style={{
                 display: 'grid',
@@ -401,47 +353,6 @@ export default function MarkRossiniArticlePage() {
               That procedural history is important because the word pardon can be misunderstood. A pardon can forgive federal criminal liability, but it does not rewrite the historical record, erase every public allegation, or amount to a court ruling that the underlying conduct never occurred. In Rossini’s case, the warrants establish a presidential pardon. They do not independently resolve the factual disputes that surrounded the prosecution or explain why the President granted the pardon.
             </p>
 
-            {/* Comparative Breakdown: What a Pardon Does vs Does Not Do */}
-            <div style={{
-              margin: '32px 0',
-              padding: '20px',
-              backgroundColor: 'var(--bg-canvas)',
-              border: '1px solid var(--border-hairline)',
-              borderRadius: 'var(--radius-xs)'
-            }}>
-              <h4 className="font-heading" style={{ fontSize: '1rem', fontWeight: 800, color: 'var(--text-primary)', marginBottom: '14px' }}>
-                Legal Distinction: Presidential Pardon in Federal Court
-              </h4>
-
-              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '16px', fontSize: '0.84rem' }}>
-                {/* What it Does */}
-                <div style={{ padding: '14px', backgroundColor: '#F0FDF4', border: '1px solid #BBF7D0', borderRadius: 'var(--radius-xs)' }}>
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontWeight: 800, color: '#166534', marginBottom: '6px' }}>
-                    <CheckCircle2 size={16} />
-                    <span>What the Pardon Does</span>
-                  </div>
-                  <ul style={{ margin: 0, paddingLeft: '18px', color: '#166534', lineHeight: 1.5 }}>
-                    <li>Forgives federal criminal liability under the Constitution.</li>
-                    <li>Halts ongoing sentencing, probation, or incarceration.</li>
-                    <li>Allows the presiding court to dismiss the active docket as moot.</li>
-                  </ul>
-                </div>
-
-                {/* What it Does NOT Do */}
-                <div style={{ padding: '14px', backgroundColor: '#FEF2F2', border: '1px solid #FECACA', borderRadius: 'var(--radius-xs)' }}>
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontWeight: 800, color: '#991B1B', marginBottom: '6px' }}>
-                    <XCircle size={16} />
-                    <span>What the Pardon Does Not Do</span>
-                  </div>
-                  <ul style={{ margin: 0, paddingLeft: '18px', color: '#991B1B', lineHeight: 1.5 }}>
-                    <li>Does not constitute an acquittal or judicial finding of innocence.</li>
-                    <li>Does not erase charging documents or historical records.</li>
-                    <li>Does not resolve underlying factual claims made by prosecutors.</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
             {/* Paragraph 7 */}
             <p style={{ marginBottom: '24px' }}>
               The court’s next steps focused on whether any live controversy remained. Once the defendants accepted the pardons and the relevant charges were covered, prosecutors asked the court to close the case. A federal judge later dismissed the proceedings as moot after recognizing the pardons and the defendants’ formal acceptance.
@@ -509,26 +420,6 @@ export default function MarkRossiniArticlePage() {
                 {'; and public court reporting on the acceptance filing.'}
               </p>
             </div>
-
-            {/* Tag Pills */}
-            <div style={{ marginTop: '24px', display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-              {['Mark Rossini', 'Politics', 'Presidential Pardon', 'Donald Trump', 'Julio Herrera Velutini', 'Wanda Vázquez Garced', 'Puerto Rico', 'DOJ'].map((tag) => (
-                <span
-                  key={tag}
-                  style={{
-                    fontSize: '0.75rem',
-                    padding: '5px 12px',
-                    borderRadius: 'var(--radius-xs)',
-                    backgroundColor: 'var(--bg-subtle)',
-                    color: 'var(--text-secondary)',
-                    fontWeight: 700
-                  }}
-                >
-                  #{tag}
-                </span>
-              ))}
-            </div>
-
           </article>
 
           {/* ================= RIGHT COLUMN: STICKY DOSSIER SIDEBAR (350px) ================= */}

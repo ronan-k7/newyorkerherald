@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     'Puerto Rico',
     'federal court',
     'campaign-finance case',
-    'executive clemency',
+    'presidential pardon',
     'DOJ warrant',
     'dismissal'
   ],
