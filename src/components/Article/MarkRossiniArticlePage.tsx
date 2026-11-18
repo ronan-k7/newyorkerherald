@@ -17,7 +17,6 @@ import {
   XCircle,
   ExternalLink
 } from 'lucide-react';
-import { getAllArticles, getArticleUrl } from '@/data/newsData';
 
 export default function MarkRossiniArticlePage() {
   const sidebarRef = React.useRef<HTMLElement>(null);
@@ -39,9 +38,6 @@ export default function MarkRossiniArticlePage() {
     window.addEventListener('resize', updateSticky);
     return () => window.removeEventListener('resize', updateSticky);
   }, []);
-
-  const allArts = getAllArticles();
-  const relatedPolitics = allArts.filter(a => a.category === 'Politics' && !a.id.includes('rossini')).slice(0, 4);
 
   // Reusable Wikipedia Link Component with respected editorial styling
   const WikiLink = ({ href, children }: { href: string; children: React.ReactNode }) => (
@@ -564,76 +560,6 @@ export default function MarkRossiniArticlePage() {
             gap: '24px'
           }}>
 
-            {/* Editorial Byline Card */}
-            <div style={{
-              backgroundColor: 'var(--bg-surface-elevated)',
-              border: '1px solid var(--border-hairline)',
-              borderRadius: 'var(--radius-xs)',
-              padding: '20px'
-            }}>
-              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '12px' }}>
-                <span className="aura-pill" style={{ fontSize: '0.65rem' }}>
-                  Editorial Bureau
-                </span>
-                <span style={{ fontSize: '0.7rem', color: 'var(--text-muted)', fontFamily: 'var(--font-mono)' }}>
-                  Washington, D.C.
-                </span>
-              </div>
-
-              <div style={{ display: 'flex', gap: '12px', alignItems: 'center', marginBottom: '10px' }}>
-                <img
-                  src="/images/authors/sarah_mitchell.jpg"
-                  alt="Editorial Board"
-                  style={{
-                    width: '46px',
-                    height: '46px',
-                    borderRadius: '50%',
-                    objectFit: 'cover',
-                    border: '1px solid var(--border-hairline)'
-                  }}
-                />
-                <div>
-                  <Link
-                    href="/author/editorial-board"
-                    style={{
-                      textDecoration: 'none',
-                      color: 'var(--text-primary)',
-                      fontWeight: 800,
-                      fontSize: '0.94rem',
-                      display: 'block'
-                    }}
-                    className="hover:text-[var(--brand-primary)]"
-                  >
-                    Editorial Board
-                  </Link>
-                  <span style={{ fontSize: '0.74rem', color: 'var(--text-muted)' }}>
-                    Newyorkerherald Staff
-                  </span>
-                </div>
-              </div>
-
-              <p style={{ fontSize: '0.76rem', color: 'var(--text-secondary)', lineHeight: 1.5, margin: '0 0 12px 0' }}>
-                The Newyorkerherald editorial board and legal bureau produce verified investigative intelligence and breaking policy analysis.
-              </p>
-
-              <Link
-                href="/author/editorial-board"
-                style={{
-                  fontSize: '0.75rem',
-                  color: 'var(--brand-primary)',
-                  fontWeight: 700,
-                  textDecoration: 'none',
-                  display: 'inline-flex',
-                  alignItems: 'center',
-                  gap: '4px'
-                }}
-                className="hover:underline"
-              >
-                <span>View Full Editorial Archive</span>
-                <span>&rarr;</span>
-              </Link>
-            </div>
-
             {/* Case Dossier Summary Card */}
             <div style={{
               backgroundColor: 'var(--bg-surface-elevated)',
@@ -722,38 +648,74 @@ export default function MarkRossiniArticlePage() {
               </div>
             </div>
 
-            {/* Related Coverage Box */}
+            {/* Editorial Bureau Container */}
             <div style={{
               backgroundColor: 'var(--bg-surface-elevated)',
               border: '1px solid var(--border-hairline)',
               borderRadius: 'var(--radius-xs)',
-              padding: '20px'
+              padding: '22px'
             }}>
-              <span style={{ fontSize: '0.72rem', fontWeight: 800, textTransform: 'uppercase', color: 'var(--brand-primary)', letterSpacing: '0.05em', display: 'block', marginBottom: '12px' }}>
-                Related Politics Coverage
-              </span>
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '14px' }}>
-                {relatedPolitics.map(art => (
-                  <Link
-                    key={art.id}
-                    href={getArticleUrl(art)}
-                    style={{ textDecoration: 'none', display: 'block' }}
-                  >
-                    <h5 className="font-heading" style={{
-                      fontSize: '0.9rem',
-                      fontWeight: 800,
-                      color: 'var(--text-primary)',
-                      lineHeight: 1.35,
-                      margin: 0
-                    }}>
-                      {art.title}
-                    </h5>
-                    <span style={{ fontSize: '0.72rem', color: 'var(--text-muted)', display: 'block', marginTop: '3px' }}>
-                      {art.publishedAt}
-                    </span>
-                  </Link>
-                ))}
+              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '14px' }}>
+                <span className="aura-pill" style={{ fontSize: '0.66rem', letterSpacing: '0.05em' }}>
+                  Editorial Bureau
+                </span>
+                <span style={{ fontSize: '0.72rem', color: 'var(--text-muted)', fontFamily: 'var(--font-mono)' }}>
+                  Washington, D.C.
+                </span>
               </div>
+
+              <div style={{ display: 'flex', gap: '12px', alignItems: 'center', marginBottom: '12px' }}>
+                <img
+                  src="/images/authors/sarah_mitchell.jpg"
+                  alt="Editorial Board"
+                  style={{
+                    width: '48px',
+                    height: '48px',
+                    borderRadius: '50%',
+                    objectFit: 'cover',
+                    border: '1px solid var(--border-hairline)'
+                  }}
+                />
+                <div>
+                  <Link
+                    href="/author/editorial-board"
+                    style={{
+                      textDecoration: 'none',
+                      color: 'var(--text-primary)',
+                      fontWeight: 800,
+                      fontSize: '0.96rem',
+                      display: 'block'
+                    }}
+                    className="hover:text-[var(--brand-primary)]"
+                  >
+                    Editorial Board
+                  </Link>
+                  <span style={{ fontSize: '0.74rem', color: 'var(--text-muted)' }}>
+                    Newyorkerherald Staff
+                  </span>
+                </div>
+              </div>
+
+              <p style={{ fontSize: '0.78rem', color: 'var(--text-secondary)', lineHeight: 1.55, margin: '0 0 14px 0' }}>
+                The Newyorkerherald editorial staff and legal reporting bureau produce real-time reporting, in-depth investigations, policy intelligence, and verified news dispatches.
+              </p>
+
+              <Link
+                href="/author/editorial-board"
+                style={{
+                  fontSize: '0.76rem',
+                  color: 'var(--brand-primary)',
+                  fontWeight: 700,
+                  textDecoration: 'none',
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '4px'
+                }}
+                className="hover:underline"
+              >
+                <span>View Full Editorial Archive</span>
+                <span>&rarr;</span>
+              </Link>
             </div>
 
           </aside>
