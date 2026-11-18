@@ -202,24 +202,16 @@ export default function MarkRossiniArticlePage() {
               }}
             />
             <figcaption style={{
-              padding: '14px 18px',
+              padding: '12px 18px',
               backgroundColor: 'var(--bg-canvas)',
               borderTop: '1px solid var(--border-hairline)',
-              display: 'flex',
-              flexDirection: 'column',
-              gap: '4px',
-              fontSize: '0.8rem',
+              fontSize: '0.85rem',
               color: 'var(--text-secondary)'
             }}>
-              <div>
-                <strong style={{ color: 'var(--text-primary)', fontSize: '0.92rem', display: 'block', marginBottom: '2px' }}>
-                  <WikiLink href="https://en.wikipedia.org/wiki/Mark_Rossini">Mark Rossini</WikiLink>
-                </strong>
-                Former FBI supervisory special agent whose federal public-corruption prosecution in the U.S. District Court for the District of Puerto Rico has moved toward dismissal following two presidential clemency warrants.
-              </div>
-              <div style={{ fontSize: '0.72rem', color: 'var(--text-muted)', fontWeight: 600, fontFamily: 'var(--font-mono)' }}>
-                Source: Department of Justice Archive / Federal Court Records
-              </div>
+              <strong style={{ color: 'var(--text-primary)', fontSize: '0.94rem' }}>
+                <WikiLink href="https://en.wikipedia.org/wiki/Mark_Rossini">Mark Rossini</WikiLink>
+              </strong>
+              <span style={{ color: 'var(--text-muted)', marginLeft: '6px' }}>— Former FBI Supervisory Special Agent</span>
             </figcaption>
           </figure>
         </section>
@@ -286,21 +278,16 @@ export default function MarkRossiniArticlePage() {
                 }}
               />
               <figcaption style={{
-                padding: '14px 18px',
+                padding: '12px 18px',
                 backgroundColor: 'var(--bg-canvas)',
                 borderTop: '1px solid var(--border-hairline)',
-                fontSize: '0.8rem',
+                fontSize: '0.85rem',
                 color: 'var(--text-secondary)'
               }}>
-                <strong style={{ color: 'var(--text-primary)', fontSize: '0.92rem', display: 'block', marginBottom: '2px' }}>
+                <strong style={{ color: 'var(--text-primary)', fontSize: '0.94rem' }}>
                   <WikiLink href="https://en.wikipedia.org/wiki/Donald_Trump">Donald J. Trump</WikiLink>
                 </strong>
-                <p style={{ margin: 0, lineHeight: 1.45 }}>
-                  President of the United States, who acted under Article II, Section 2, Clause 1 of the United States Constitution to grant two successive pardon warrants that relieved federal criminal liability and enabled the Puerto Rico proceedings to move to dismissal.
-                </p>
-                <span style={{ display: 'block', fontSize: '0.7rem', marginTop: '6px', fontWeight: 600, color: 'var(--text-muted)' }}>
-                  The White House / Official Photo
-                </span>
+                <span style={{ color: 'var(--text-muted)', marginLeft: '6px' }}>— President of the United States</span>
               </figcaption>
             </figure>
 
@@ -378,11 +365,13 @@ export default function MarkRossiniArticlePage() {
                       maxHeight: 'none'
                     }}
                   />
-                  <figcaption style={{ padding: '14px', fontSize: '0.8rem', color: 'var(--text-secondary)' }}>
-                    <strong style={{ color: 'var(--text-primary)', display: 'block', fontSize: '0.95rem', marginBottom: '4px' }}>
+                  <figcaption style={{ padding: '12px 14px', fontSize: '0.85rem', color: 'var(--text-secondary)' }}>
+                    <strong style={{ color: 'var(--text-primary)', fontSize: '0.94rem' }}>
                       <WikiLink href="https://en.wikipedia.org/wiki/Julio_Herrera_Velutini">Julio Herrera Velutini</WikiLink>
                     </strong>
-                    <span>International banker and principal co-defendant. Accused of seeking regulatory relief regarding his financial institution in Puerto Rico.</span>
+                    <span style={{ color: 'var(--text-muted)', display: 'block', fontSize: '0.8rem', marginTop: '2px' }}>
+                      International Banker
+                    </span>
                   </figcaption>
                 </figure>
 
@@ -405,11 +394,13 @@ export default function MarkRossiniArticlePage() {
                       maxHeight: 'none'
                     }}
                   />
-                  <figcaption style={{ padding: '14px', fontSize: '0.8rem', color: 'var(--text-secondary)' }}>
-                    <strong style={{ color: 'var(--text-primary)', display: 'block', fontSize: '0.95rem', marginBottom: '4px' }}>
+                  <figcaption style={{ padding: '12px 14px', fontSize: '0.85rem', color: 'var(--text-secondary)' }}>
+                    <strong style={{ color: 'var(--text-primary)', fontSize: '0.94rem' }}>
                       <WikiLink href="https://en.wikipedia.org/wiki/Wanda_V%C3%A1zquez_Garced">Wanda Vázquez Garced</WikiLink>
                     </strong>
-                    <span>Former Governor of Puerto Rico (2019–2021) and former Secretary of Justice, whose 2020 political campaign was central to the allegations.</span>
+                    <span style={{ color: 'var(--text-muted)', display: 'block', fontSize: '0.8rem', marginTop: '2px' }}>
+                      Former Governor of Puerto Rico
+                    </span>
                   </figcaption>
                 </figure>
 
