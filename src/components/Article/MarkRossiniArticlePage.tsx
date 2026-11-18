@@ -166,25 +166,28 @@ export default function MarkRossiniArticlePage() {
           </div>
         </header>
 
-        {/* ================= FULL-SIZED HERO VISUAL: MARK ROSSINI ================= */}
-        <section style={{ marginBottom: '40px' }}>
+        {/* ================= HERO VISUAL: MARK ROSSINI ================= */}
+        <section style={{ marginBottom: '36px', display: 'flex', justifyContent: 'center' }}>
           <figure style={{
-            margin: 0,
+            margin: '0 auto',
             padding: 0,
+            width: '100%',
+            maxWidth: '780px',
             backgroundColor: 'var(--bg-surface-elevated)',
             border: '1px solid var(--border-hairline)',
             borderRadius: 'var(--radius-xs)',
             overflow: 'hidden'
           }}>
-            {/* Full-Sized Unclamped Image */}
             <img
               src="/images/rossini/mark-rossini.webp"
               alt="Mark Rossini"
               style={{
                 width: '100%',
                 height: 'auto',
-                display: 'block',
-                maxHeight: 'none'
+                maxHeight: '480px',
+                objectFit: 'cover',
+                objectPosition: 'top center',
+                display: 'block'
               }}
             />
             <figcaption style={{
