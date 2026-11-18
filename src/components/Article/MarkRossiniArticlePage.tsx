@@ -13,7 +13,12 @@ import {
   FileText,
   ShieldCheck,
   ChevronRight,
-  UserCheck
+  ExternalLink,
+  Users,
+  CheckCircle2,
+  XCircle,
+  HelpCircle,
+  Award
 } from 'lucide-react';
 import { getAllArticles, getArticleUrl } from '@/data/newsData';
 
@@ -49,40 +54,65 @@ export default function MarkRossiniArticlePage() {
       {/* Main Container */}
       <div className="aura-container" style={{ padding: '24px 20px 60px 20px', flex: 1 }}>
 
-        {/* Breadcrumb Navigation */}
-        <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '20px', fontSize: '0.72rem', color: 'var(--text-muted)' }}>
-          <Link href="/" style={{ display: 'flex', alignItems: 'center', gap: '4px', color: 'var(--text-muted)', textDecoration: 'none', fontWeight: 600 }}>
-            <ArrowLeft size={12} />
+        {/* Breadcrumb Navigation Bar */}
+        <nav style={{
+          display: 'flex',
+          alignItems: 'center',
+          gap: '8px',
+          marginBottom: '22px',
+          fontSize: '0.74rem',
+          color: 'var(--text-muted)',
+          textTransform: 'uppercase',
+          letterSpacing: '0.04em'
+        }}>
+          <Link href="/" style={{ display: 'flex', alignItems: 'center', gap: '4px', color: 'var(--text-muted)', textDecoration: 'none', fontWeight: 700 }}>
+            <ArrowLeft size={13} />
             <span>Home</span>
           </Link>
           <span>/</span>
-          <Link href="/politics" style={{ color: 'var(--text-muted)', textDecoration: 'none', fontWeight: 600 }}>
+          <Link href="/politics" style={{ color: 'var(--text-muted)', textDecoration: 'none', fontWeight: 700 }}>
             Politics
           </Link>
           <span>/</span>
-          <span style={{ color: 'var(--brand-primary)', fontWeight: 800 }}>Executive Clemency Report</span>
-        </div>
+          <span style={{ color: 'var(--brand-primary)', fontWeight: 800 }}>Special Legal Report</span>
+        </nav>
 
-        {/* ================= EDITORIAL HERO HEADER ================= */}
+        {/* ================= EDITORIAL HERO HEADER SECTION ================= */}
         <header style={{ marginBottom: '36px' }}>
 
-          {/* Kicker & Actions Row */}
+          {/* Top Badges & Meta Actions */}
           <div style={{
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'space-between',
             flexWrap: 'wrap',
-            gap: '10px',
-            marginBottom: '16px'
+            gap: '12px',
+            marginBottom: '18px'
           }}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-              <span className="aura-pill" style={{ letterSpacing: '0.06em' }}>
-                Politics • Legal Report
+            <div style={{ display: 'flex', alignItems: 'center', gap: '10px', flexWrap: 'wrap' }}>
+              <span className="aura-pill" style={{ letterSpacing: '0.06em', padding: '5px 12px', fontWeight: 800 }}>
+                POLITICS • SPECIAL REPORT
               </span>
-              <span style={{ fontSize: '0.76rem', color: 'var(--text-muted)', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '4px' }}>
+              <span style={{
+                fontSize: '0.76rem',
+                color: 'var(--text-secondary)',
+                backgroundColor: 'var(--bg-surface-elevated)',
+                border: '1px solid var(--border-hairline)',
+                padding: '4px 10px',
+                borderRadius: 'var(--radius-xs)',
+                fontWeight: 700,
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '5px'
+              }}>
+                <FileText size={12} color="var(--brand-primary)" />
+                Keyword Focus: Mark Rossini
+              </span>
+              <span style={{ fontSize: '0.76rem', color: 'var(--text-muted)', fontWeight: 600, display: 'inline-flex', alignItems: 'center', gap: '4px' }}>
                 <Clock size={13} /> 6 min read
               </span>
             </div>
+
             <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
               <ArticleShareMenu
                 title="Mark Rossini Receives Second Full Pardon as Federal Case Moves Toward Closure"
@@ -93,91 +123,126 @@ export default function MarkRossiniArticlePage() {
 
           {/* Headline */}
           <h1 className="font-heading" style={{
-            fontSize: 'clamp(2.3rem, 4.5vw, 3.6rem)',
+            fontSize: 'clamp(2.4rem, 4.6vw, 3.8rem)',
             fontWeight: 900,
             color: 'var(--text-primary)',
-            lineHeight: 1.1,
-            letterSpacing: '-0.035em',
-            margin: '0 0 16px 0',
-            maxWidth: '980px'
+            lineHeight: 1.08,
+            letterSpacing: '-0.04em',
+            margin: '0 0 18px 0',
+            maxWidth: '1040px'
           }}>
             Article 1: Mark Rossini Receives Second Full Pardon as Federal Case Moves Toward Closure
           </h1>
 
-          {/* Subtitle / Metadata Deck */}
+          {/* Deck / Standfirst */}
+          <p style={{
+            fontSize: 'clamp(1.05rem, 1.5vw, 1.25rem)',
+            color: 'var(--text-secondary)',
+            lineHeight: 1.55,
+            fontWeight: 500,
+            maxWidth: '920px',
+            marginBottom: '20px'
+          }}>
+            A former FBI agent whose name had become central to a federal public-corruption case involving former Puerto Rico Gov. Wanda Vázquez Garced and banker Julio Herrera Velutini sees proceedings dismissed following two presidential clemency warrants and formal court acceptance.
+          </p>
+
+          {/* Dateline & Byline Metadata Strip */}
           <div style={{
             display: 'flex',
             alignItems: 'center',
-            gap: '12px',
+            justifyContent: 'space-between',
             flexWrap: 'wrap',
-            fontSize: '0.84rem',
-            color: 'var(--text-secondary)',
-            fontWeight: 600,
-            paddingBottom: '16px',
-            borderBottom: '1px solid var(--border-hairline)'
+            gap: '14px',
+            padding: '14px 18px',
+            backgroundColor: 'var(--bg-surface-elevated)',
+            border: '1px solid var(--border-hairline)',
+            borderRadius: 'var(--radius-xs)',
+            fontSize: '0.82rem',
+            color: 'var(--text-secondary)'
           }}>
-            <span style={{ color: 'var(--text-primary)', display: 'flex', alignItems: 'center', gap: '5px' }}>
-              <Calendar size={14} color="var(--brand-primary)" /> Washington, D.C. | January 20, 2026
-            </span>
-            <span>&bull;</span>
-            <span style={{ color: 'var(--brand-primary)', fontWeight: 800 }}>By News Desk</span>
-            <span>&bull;</span>
-            <span style={{ color: 'var(--text-muted)', fontStyle: 'italic' }}>Keyword focus: Mark Rossini</span>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px', flexWrap: 'wrap' }}>
+              <span style={{ fontWeight: 800, color: 'var(--text-primary)', textTransform: 'uppercase', letterSpacing: '0.04em' }}>
+                By News Desk
+              </span>
+              <span>&bull;</span>
+              <span>Editorial Board & Legal Reporting Bureau</span>
+              <span>&bull;</span>
+              <span style={{ display: 'inline-flex', alignItems: 'center', gap: '4px', color: 'var(--brand-primary)', fontWeight: 700 }}>
+                <Calendar size={13} /> Washington, D.C. | January 20, 2026
+              </span>
+            </div>
+            <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)', fontFamily: 'var(--font-mono)' }}>
+              DOJ Docket: 3:25-cr-298 &bull; 3:22-cr-342
+            </div>
           </div>
+        </header>
 
-          {/* Hero Image — Full Width Mark Rossini */}
-          <figure style={{ margin: '24px 0 0 0', padding: 0 }}>
+        {/* ================= FULL-SIZED HERO VISUAL: MARK ROSSINI ================= */}
+        <section style={{ marginBottom: '40px' }}>
+          <figure style={{
+            margin: 0,
+            padding: 0,
+            backgroundColor: 'var(--bg-surface-elevated)',
+            border: '1px solid var(--border-hairline)',
+            borderRadius: 'var(--radius-xs)',
+            overflow: 'hidden'
+          }}>
+            {/* Full-Sized Unclamped Image */}
             <img
               src="/images/rossini/mark-rossini.webp"
-              alt="Mark Rossini"
+              alt="Mark Rossini - Former FBI supervisory special agent"
               style={{
                 width: '100%',
                 height: 'auto',
-                maxHeight: '620px',
-                objectFit: 'cover',
-                objectPosition: 'center 15%',
                 display: 'block',
-                borderRadius: 'var(--radius-xs)'
+                maxHeight: 'none'
               }}
             />
             <figcaption style={{
-              fontSize: '0.76rem',
-              color: 'var(--text-muted)',
-              marginTop: '10px',
-              lineHeight: '1.4',
-              fontStyle: 'italic'
+              padding: '14px 18px',
+              backgroundColor: 'var(--bg-canvas)',
+              borderTop: '1px solid var(--border-hairline)',
+              display: 'flex',
+              flexDirection: 'column',
+              gap: '4px',
+              fontSize: '0.8rem',
+              color: 'var(--text-secondary)'
             }}>
-              Former FBI supervisory special agent Mark Rossini, whose federal public-corruption prosecution in the District of Puerto Rico has moved toward dismissal following two presidential clemency warrants.
-              <span style={{ display: 'block', fontSize: '0.7rem', marginTop: '2px', fontWeight: 600, fontStyle: 'normal', color: 'var(--text-muted)' }}>
-                Department of Justice Archive / News Desk
-              </span>
+              <div>
+                <strong style={{ color: 'var(--text-primary)', marginRight: '6px' }}>Main Subject:</strong>
+                Former FBI supervisory special agent Mark Rossini, whose federal public-corruption prosecution in the U.S. District Court for the District of Puerto Rico has moved toward dismissal following two presidential clemency warrants.
+              </div>
+              <div style={{ fontSize: '0.72rem', color: 'var(--text-muted)', fontWeight: 600, fontFamily: 'var(--font-mono)' }}>
+                Source: Department of Justice Archive / Federal Court Records
+              </div>
             </figcaption>
           </figure>
-        </header>
+        </section>
 
         {/* ================= 2-COLUMN DOSSIER GRID ================= */}
         <div className="alina-dossier-grid" style={{
           display: 'grid',
-          gridTemplateColumns: 'minmax(0, 1fr) 340px',
+          gridTemplateColumns: 'minmax(0, 1fr) 350px',
           gap: '48px',
           alignItems: 'start'
         }}>
 
-          {/* ================= LEFT: EXACT ARTICLE TEXT & SPECIFIED IMAGES ================= */}
-          <article style={{ fontSize: '1.02rem', lineHeight: 1.8, color: 'var(--text-secondary)' }}>
+          {/* ================= LEFT COLUMN: ARTICLE BODY & EMBEDDED VISUALS ================= */}
+          <article style={{ fontSize: '1.04rem', lineHeight: 1.82, color: 'var(--text-secondary)' }}>
 
             {/* Paragraph 1 */}
             <p style={{
-              fontSize: '1.14rem',
-              lineHeight: 1.7,
+              fontSize: '1.18rem',
+              lineHeight: 1.72,
               color: 'var(--text-primary)',
-              marginBottom: '24px'
+              fontWeight: 500,
+              marginBottom: '26px'
             }}>
               <strong style={{
-                fontSize: '1.6rem',
+                fontSize: '1.75rem',
                 float: 'left',
                 lineHeight: '1',
-                paddingRight: '8px',
+                paddingRight: '10px',
                 paddingTop: '4px',
                 color: 'var(--brand-primary)',
                 fontFamily: 'var(--font-heading)'
@@ -185,174 +250,245 @@ export default function MarkRossiniArticlePage() {
             </p>
 
             {/* Paragraph 2 */}
-            <p style={{ marginBottom: '22px' }}>
+            <p style={{ marginBottom: '24px' }}>
               The new warrant is brief, but its legal significance is substantial. It describes the grant as a full and unconditional pardon for the offenses individually listed and submitted for presidential consideration. It also states that the Pardon Attorney is authorized to administer and sign the grant as the President’s representative. The warrant is dated January 20, 2026, and carries the name of President Donald J. Trump.
             </p>
 
             {/* Paragraph 3 */}
-            <p style={{ marginBottom: '22px' }}>
+            <p style={{ marginBottom: '28px' }}>
               For Mark Rossini, the document followed an earlier pardon dated January 15. That first warrant referred to the broader case, United States v. Vazquez-Garced, et al., 3:22-cr-342. The later warrant specifically names the separate Rossini case. The two documents help explain why prosecutors and defense lawyers continued filing notices after the first announcement: the parties still needed the clemency documents to match the federal cases and charges pending in court.
             </p>
 
-            {/* Specified Image: Donald Trump */}
+            {/* ================= FULL-SIZED VISUAL: PRESIDENT DONALD J. TRUMP ================= */}
             <figure style={{
-              margin: '32px 0',
-              padding: '16px',
+              margin: '36px 0',
+              padding: 0,
               backgroundColor: 'var(--bg-surface-elevated)',
               border: '1px solid var(--border-hairline)',
-              borderRadius: 'var(--radius-xs)'
+              borderRadius: 'var(--radius-xs)',
+              overflow: 'hidden'
             }}>
+              {/* Full-Sized Unclamped Trump Photo */}
               <img
                 src="/images/rossini/donald-trump.webp"
                 alt="President Donald J. Trump"
                 style={{
                   width: '100%',
                   height: 'auto',
-                  maxHeight: '440px',
-                  objectFit: 'cover',
                   display: 'block',
-                  borderRadius: 'var(--radius-xs)',
-                  marginBottom: '10px'
+                  maxHeight: 'none'
                 }}
               />
-              <figcaption style={{ fontSize: '0.78rem', color: 'var(--text-muted)', lineHeight: 1.45 }}>
-                <strong style={{ color: 'var(--text-primary)', display: 'block', marginBottom: '2px' }}>President Donald J. Trump</strong>
-                Exercised Article II, Section 2 executive clemency authority to issue two successive pardon warrants covering the Puerto Rico federal cases.
-                <span style={{ display: 'block', fontSize: '0.7rem', marginTop: '3px', fontWeight: 600, color: 'var(--text-muted)' }}>
+              <figcaption style={{
+                padding: '14px 18px',
+                backgroundColor: 'var(--bg-canvas)',
+                borderTop: '1px solid var(--border-hairline)',
+                fontSize: '0.8rem',
+                color: 'var(--text-secondary)'
+              }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '6px', marginBottom: '4px' }}>
+                  <Award size={15} color="var(--brand-primary)" />
+                  <strong style={{ color: 'var(--text-primary)', fontSize: '0.88rem' }}>
+                    Executive Clemency Authority: President Donald J. Trump
+                  </strong>
+                </div>
+                <p style={{ margin: 0, lineHeight: 1.45 }}>
+                  President Trump acted under Article II, Section 2, Clause 1 of the United States Constitution, granting two successive pardon warrants that relieved federal criminal liability and enabled the Puerto Rico proceedings to move to dismissal.
+                </p>
+                <span style={{ display: 'block', fontSize: '0.7rem', marginTop: '6px', fontWeight: 600, color: 'var(--text-muted)' }}>
                   The White House / Official Photo
                 </span>
               </figcaption>
             </figure>
 
             {/* Paragraph 4 */}
-            <p style={{ marginBottom: '22px' }}>
+            <p style={{ marginBottom: '24px' }}>
               Rossini’s legal team moved quickly to notify the court. In a filing reported by Puerto Rico media, his lawyers said he accepted the full and unconditional pardon and asked the court to dismiss all remaining charges with prejudice. The filing covered the cases connected to the original indictment and the later case. Acceptance matters because the Supreme Court has long recognized that a person must accept a pardon for it to take effect as a legal defense.
             </p>
 
-            {/* Burdick Precedent Explainer Box */}
+            {/* Legal Precedent Explainer Box */}
             <div style={{
-              margin: '28px 0',
-              padding: '18px 20px',
-              backgroundColor: 'var(--bg-subtle)',
+              margin: '30px 0',
+              padding: '20px 22px',
+              backgroundColor: 'var(--bg-surface-elevated)',
+              border: '1px solid var(--border-hairline)',
               borderLeft: '4px solid var(--brand-primary)',
               borderRadius: 'var(--radius-xs)',
-              fontSize: '0.88rem',
-              lineHeight: 1.6,
+              fontSize: '0.9rem',
+              lineHeight: 1.65,
               color: 'var(--text-secondary)'
             }}>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '8px', fontWeight: 800, color: 'var(--text-primary)', marginBottom: '6px' }}>
-                <Scale size={18} color="var(--brand-primary)" />
-                <span>Supreme Court Precedent: United States v. Burdick</span>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '8px', fontWeight: 800, color: 'var(--text-primary)', marginBottom: '8px', fontSize: '0.95rem' }}>
+                <Scale size={20} color="var(--brand-primary)" />
+                <span>Supreme Court Precedent: United States v. Burdick (236 U.S. 79)</span>
               </div>
               <p style={{ margin: 0 }}>
-                Under federal jurisprudence, a presidential pardon must be formally accepted by the person to whom it is tendered in order to take effect as a bar to judicial proceedings. Rossini became the first principal defendant in the case to formally submit an acceptance notice.
+                Under longstanding American constitutional doctrine established in <em>Burdick</em>, a presidential pardon cannot operate automatically against an individual’s will. It must be formally recognized and accepted by the recipient to constitute a binding legal defense in court. Mark Rossini’s attorneys filed the first formal acceptance notice among the principal co-defendants.
               </p>
             </div>
 
             {/* Paragraph 5 */}
-            <p style={{ marginBottom: '22px' }}>
+            <p style={{ marginBottom: '32px' }}>
               The case had already changed shape before the pardons were issued. Prosecutors originally accused Rossini, Herrera Velutini, and Vázquez Garced of participating in a scheme involving political influence and campaign support. The indictment alleged that Rossini and Herrera Velutini promised financial backing for Vázquez’s 2020 campaign in exchange for influence over Puerto Rico’s financial regulator. The original allegations included conspiracy, federal program bribery, and honest-services wire fraud. Those charges were later replaced by a lesser campaign-finance offense in a plea agreement reached in 2025.
             </p>
 
-            {/* Specified Images: Julio Herrera Velutini & Wanda Vázquez Garced */}
+            {/* ================= FULL-SIZED CO-DEFENDANTS GALLERY: JULIO & WANDA ================= */}
             <div style={{
-              margin: '32px 0',
-              display: 'grid',
-              gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))',
-              gap: '20px'
+              margin: '36px 0',
+              padding: '20px',
+              backgroundColor: 'var(--bg-surface-elevated)',
+              border: '1px solid var(--border-hairline)',
+              borderRadius: 'var(--radius-xs)'
             }}>
-              {/* Julio Herrera Velutini */}
-              <figure style={{
-                margin: 0,
-                padding: '14px',
-                backgroundColor: 'var(--bg-surface-elevated)',
-                border: '1px solid var(--border-hairline)',
-                borderRadius: 'var(--radius-xs)'
-              }}>
-                <img
-                  src="/images/rossini/julio-herrera-velutini.webp"
-                  alt="Julio Herrera Velutini"
-                  style={{
-                    width: '100%',
-                    height: '320px',
-                    objectFit: 'cover',
-                    objectPosition: 'top',
-                    display: 'block',
-                    borderRadius: 'var(--radius-xs)',
-                    marginBottom: '10px'
-                  }}
-                />
-                <figcaption style={{ fontSize: '0.78rem', color: 'var(--text-muted)', lineHeight: 1.4 }}>
-                  <strong style={{ color: 'var(--text-primary)', display: 'block', marginBottom: '2px', fontSize: '0.85rem' }}>Julio Herrera Velutini</strong>
-                  International banker named alongside Rossini in the Puerto Rico political influence prosecution.
-                </figcaption>
-              </figure>
+              <div style={{ marginBottom: '16px', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                <Users size={18} color="var(--brand-primary)" />
+                <h3 className="font-heading" style={{ margin: 0, fontSize: '1.15rem', fontWeight: 800, color: 'var(--text-primary)' }}>
+                  Co-Defendants Named in the Federal Indictment
+                </h3>
+              </div>
 
-              {/* Wanda Vázquez Garced */}
-              <figure style={{
-                margin: 0,
-                padding: '14px',
-                backgroundColor: 'var(--bg-surface-elevated)',
-                border: '1px solid var(--border-hairline)',
-                borderRadius: 'var(--radius-xs)'
+              {/* Side-by-Side Full-Sized Portrait Grid */}
+              <div style={{
+                display: 'grid',
+                gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
+                gap: '24px'
               }}>
-                <img
-                  src="/images/rossini/wanda-vazquez-garced.webp"
-                  alt="Wanda Vázquez Garced"
-                  style={{
-                    width: '100%',
-                    height: '320px',
-                    objectFit: 'cover',
-                    objectPosition: 'top',
-                    display: 'block',
-                    borderRadius: 'var(--radius-xs)',
-                    marginBottom: '10px'
-                  }}
-                />
-                <figcaption style={{ fontSize: '0.78rem', color: 'var(--text-muted)', lineHeight: 1.4 }}>
-                  <strong style={{ color: 'var(--text-primary)', display: 'block', marginBottom: '2px', fontSize: '0.85rem' }}>Wanda Vázquez Garced</strong>
-                  Former Puerto Rico Governor whose 2020 campaign was central to the original allegations.
-                </figcaption>
-              </figure>
+                
+                {/* Julio Herrera Velutini — Full Sized */}
+                <figure style={{
+                  margin: 0,
+                  padding: 0,
+                  backgroundColor: 'var(--bg-canvas)',
+                  border: '1px solid var(--border-hairline)',
+                  borderRadius: 'var(--radius-xs)',
+                  overflow: 'hidden'
+                }}>
+                  <img
+                    src="/images/rossini/julio-herrera-velutini.webp"
+                    alt="Julio Herrera Velutini"
+                    style={{
+                      width: '100%',
+                      height: 'auto',
+                      display: 'block',
+                      maxHeight: 'none'
+                    }}
+                  />
+                  <figcaption style={{ padding: '14px', fontSize: '0.8rem', color: 'var(--text-secondary)' }}>
+                    <strong style={{ color: 'var(--text-primary)', display: 'block', fontSize: '0.95rem', marginBottom: '4px' }}>
+                      Julio Herrera Velutini
+                    </strong>
+                    <span>International banker and principal co-defendant. Accused of seeking regulatory relief regarding his financial institution in Puerto Rico.</span>
+                  </figcaption>
+                </figure>
+
+                {/* Wanda Vázquez Garced — Full Sized */}
+                <figure style={{
+                  margin: 0,
+                  padding: 0,
+                  backgroundColor: 'var(--bg-canvas)',
+                  border: '1px solid var(--border-hairline)',
+                  borderRadius: 'var(--radius-xs)',
+                  overflow: 'hidden'
+                }}>
+                  <img
+                    src="/images/rossini/wanda-vazquez-garced.webp"
+                    alt="Wanda Vázquez Garced"
+                    style={{
+                      width: '100%',
+                      height: 'auto',
+                      display: 'block',
+                      maxHeight: 'none'
+                    }}
+                  />
+                  <figcaption style={{ padding: '14px', fontSize: '0.8rem', color: 'var(--text-secondary)' }}>
+                    <strong style={{ color: 'var(--text-primary)', display: 'block', fontSize: '0.95rem', marginBottom: '4px' }}>
+                      Wanda Vázquez Garced
+                    </strong>
+                    <span>Former Governor of Puerto Rico (2019–2021) and former Secretary of Justice, whose 2020 political campaign was central to the allegations.</span>
+                  </figcaption>
+                </figure>
+
+              </div>
             </div>
 
             {/* Paragraph 6 */}
-            <p style={{ marginBottom: '22px' }}>
+            <p style={{ marginBottom: '24px' }}>
               That procedural history is important because the word pardon can be misunderstood. A pardon can forgive federal criminal liability, but it does not rewrite the historical record, erase every public allegation, or amount to a court ruling that the underlying conduct never occurred. In Rossini’s case, the warrants establish executive clemency. They do not independently resolve the factual disputes that surrounded the prosecution or explain why the President granted the pardon.
             </p>
 
+            {/* Comparative Breakdown: What a Pardon Does vs Does Not Do */}
+            <div style={{
+              margin: '32px 0',
+              padding: '20px',
+              backgroundColor: 'var(--bg-canvas)',
+              border: '1px solid var(--border-hairline)',
+              borderRadius: 'var(--radius-xs)'
+            }}>
+              <h4 className="font-heading" style={{ fontSize: '1rem', fontWeight: 800, color: 'var(--text-primary)', marginBottom: '14px' }}>
+                Legal Distinction: Executive Clemency in Federal Court
+              </h4>
+
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '16px', fontSize: '0.84rem' }}>
+                {/* What it Does */}
+                <div style={{ padding: '14px', backgroundColor: '#F0FDF4', border: '1px solid #BBF7D0', borderRadius: 'var(--radius-xs)' }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontWeight: 800, color: '#166534', marginBottom: '6px' }}>
+                    <CheckCircle2 size={16} />
+                    <span>What the Pardon Does</span>
+                  </div>
+                  <ul style={{ margin: 0, paddingLeft: '18px', color: '#166534', lineHeight: 1.5 }}>
+                    <li>Forgives federal criminal liability under the Constitution.</li>
+                    <li>Halts ongoing sentencing, probation, or incarceration.</li>
+                    <li>Allows the presiding court to dismiss the active docket as moot.</li>
+                  </ul>
+                </div>
+
+                {/* What it Does NOT Do */}
+                <div style={{ padding: '14px', backgroundColor: '#FEF2F2', border: '1px solid #FECACA', borderRadius: 'var(--radius-xs)' }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontWeight: 800, color: '#991B1B', marginBottom: '6px' }}>
+                    <XCircle size={16} />
+                    <span>What the Pardon Does Not Do</span>
+                  </div>
+                  <ul style={{ margin: 0, paddingLeft: '18px', color: '#991B1B', lineHeight: 1.5 }}>
+                    <li>Does not constitute an acquittal or judicial finding of innocence.</li>
+                    <li>Does not erase charging documents or historical records.</li>
+                    <li>Does not resolve underlying factual claims made by prosecutors.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
             {/* Paragraph 7 */}
-            <p style={{ marginBottom: '22px' }}>
+            <p style={{ marginBottom: '24px' }}>
               The court’s next steps focused on whether any live controversy remained. Once the defendants accepted the pardons and the relevant charges were covered, prosecutors asked the court to close the case. A federal judge later dismissed the proceedings as moot after recognizing the pardons and the defendants’ formal acceptance.
             </p>
 
             {/* Paragraph 8 */}
-            <p style={{ marginBottom: '22px' }}>
+            <p style={{ marginBottom: '24px' }}>
               For readers following Mark Rossini, the two-warrant sequence provides the clearest roadmap. The January 15 document addressed the primary Puerto Rico case. The January 20 document addressed Rossini’s separate case number. Together, the records show how executive clemency moved from a presidential announcement to a court filing and then to a judicial order closing the pending criminal proceedings.
             </p>
 
             {/* Paragraph 9 */}
-            <p style={{ marginBottom: '22px' }}>
+            <p style={{ marginBottom: '24px' }}>
               The development also renewed debate about presidential pardon power. Supporters of the decision described it as a lawful exercise of Article II authority. Critics argued that pardoning defendants in a politically sensitive public-corruption case could damage confidence in federal accountability. Those arguments are political and institutional questions, separate from the narrower legal fact that the warrants were issued and accepted.
             </p>
 
             {/* Paragraph 10 */}
-            <p style={{ marginBottom: '28px' }}>
+            <p style={{ marginBottom: '32px' }}>
               For now, the official record is straightforward: Mark Rossini was named in two presidential clemency documents, accepted the grants through counsel, and saw the related federal proceedings move toward dismissal. The case’s public significance, however, will continue to be measured not only by its legal ending but also by the unanswered questions about influence, campaign finance, and the reach of executive power.
             </p>
 
-            {/* Reporting Basis Card */}
+            {/* Reporting Basis Footer */}
             <div style={{
               margin: '36px 0 24px 0',
-              padding: '18px 20px',
+              padding: '18px 22px',
               backgroundColor: 'var(--bg-surface-elevated)',
               border: '1px solid var(--border-hairline)',
               borderRadius: 'var(--radius-xs)',
-              fontSize: '0.82rem',
+              fontSize: '0.84rem',
               color: 'var(--text-muted)',
               lineHeight: 1.55
             }}>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontWeight: 800, color: 'var(--text-primary)', marginBottom: '4px', textTransform: 'uppercase', letterSpacing: '0.04em', fontSize: '0.75rem' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontWeight: 800, color: 'var(--text-primary)', marginBottom: '5px', textTransform: 'uppercase', letterSpacing: '0.04em', fontSize: '0.76rem' }}>
                 <ShieldCheck size={16} color="var(--brand-primary)" />
                 <span>Reporting Basis</span>
               </div>
@@ -361,18 +497,18 @@ export default function MarkRossiniArticlePage() {
               </p>
             </div>
 
-            {/* Semantic Tags */}
+            {/* Tag Pills */}
             <div style={{ marginTop: '24px', display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
               {['Mark Rossini', 'Politics', 'Presidential Pardon', 'Donald Trump', 'Julio Herrera Velutini', 'Wanda Vázquez Garced', 'Puerto Rico', 'DOJ'].map((tag) => (
                 <span
                   key={tag}
                   style={{
                     fontSize: '0.75rem',
-                    padding: '4px 10px',
+                    padding: '5px 12px',
                     borderRadius: 'var(--radius-xs)',
                     backgroundColor: 'var(--bg-subtle)',
                     color: 'var(--text-secondary)',
-                    fontWeight: 600
+                    fontWeight: 700
                   }}
                 >
                   #{tag}
@@ -382,7 +518,7 @@ export default function MarkRossiniArticlePage() {
 
           </article>
 
-          {/* ================= RIGHT: STICKY DOSSIER SIDEBAR (340px) ================= */}
+          {/* ================= RIGHT COLUMN: STICKY DOSSIER SIDEBAR (350px) ================= */}
           <aside ref={sidebarRef} style={{
             position: 'sticky',
             top: `${stickyTop}px`,
@@ -396,90 +532,94 @@ export default function MarkRossiniArticlePage() {
               backgroundColor: 'var(--bg-surface-elevated)',
               border: '1px solid var(--border-hairline)',
               borderRadius: 'var(--radius-xs)',
-              padding: '20px'
+              padding: '22px'
             }}>
-              <span className="aura-pill" style={{ marginBottom: '10px', display: 'inline-block' }}>
-                Case Dossier
+              <span className="aura-pill" style={{ marginBottom: '12px', display: 'inline-block' }}>
+                Federal Case Dossier
               </span>
-              <h3 className="font-heading" style={{ fontSize: '1.25rem', fontWeight: 900, color: 'var(--text-primary)', marginBottom: '4px' }}>
+              <h3 className="font-heading" style={{ fontSize: '1.3rem', fontWeight: 900, color: 'var(--text-primary)', marginBottom: '4px' }}>
                 U.S. v. Mark T. Rossini
               </h3>
-              <p style={{ fontSize: '0.75rem', color: 'var(--text-muted)', fontFamily: 'var(--font-mono)', marginBottom: '14px' }}>
-                Case No: 3:25-cr-298 (D.P.R.)
+              <p style={{ fontSize: '0.76rem', color: 'var(--text-muted)', fontFamily: 'var(--font-mono)', marginBottom: '16px' }}>
+                Docket Nos: 3:25-cr-298 &bull; 3:22-cr-342
               </p>
 
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', fontSize: '0.8rem' }}>
-                <div style={{ display: 'flex', justifyContent: 'space-between', paddingBottom: '8px', borderBottom: '1px solid var(--border-hairline)' }}>
-                  <span style={{ color: 'var(--text-muted)' }}>Defendant:</span>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '11px', fontSize: '0.82rem' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', paddingBottom: '9px', borderBottom: '1px solid var(--border-hairline)' }}>
+                  <span style={{ color: 'var(--text-muted)' }}>Primary Subject:</span>
                   <strong style={{ color: 'var(--text-primary)' }}>Mark T. Rossini</strong>
                 </div>
-                <div style={{ display: 'flex', justifyContent: 'space-between', paddingBottom: '8px', borderBottom: '1px solid var(--border-hairline)' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', paddingBottom: '9px', borderBottom: '1px solid var(--border-hairline)' }}>
                   <span style={{ color: 'var(--text-muted)' }}>Co-Defendants:</span>
                   <span style={{ color: 'var(--text-primary)', textAlign: 'right', fontWeight: 600 }}>J. Herrera Velutini, W. Vázquez</span>
                 </div>
-                <div style={{ display: 'flex', justifyContent: 'space-between', paddingBottom: '8px', borderBottom: '1px solid var(--border-hairline)' }}>
-                  <span style={{ color: 'var(--text-muted)' }}>Clemency:</span>
+                <div style={{ display: 'flex', justifyContent: 'space-between', paddingBottom: '9px', borderBottom: '1px solid var(--border-hairline)' }}>
+                  <span style={{ color: 'var(--text-muted)' }}>Jurisdiction:</span>
+                  <span style={{ color: 'var(--text-primary)', fontWeight: 600 }}>District of Puerto Rico</span>
+                </div>
+                <div style={{ display: 'flex', justifyContent: 'space-between', paddingBottom: '9px', borderBottom: '1px solid var(--border-hairline)' }}>
+                  <span style={{ color: 'var(--text-muted)' }}>Executive Clemency:</span>
                   <strong style={{ color: 'var(--brand-primary)' }}>Full & Unconditional</strong>
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-                  <span style={{ color: 'var(--text-muted)' }}>Status:</span>
+                  <span style={{ color: 'var(--text-muted)' }}>Judicial Disposition:</span>
                   <strong style={{ color: '#059669' }}>Dismissed as Moot</strong>
                 </div>
               </div>
             </div>
 
-            {/* Procedural Timeline Card */}
+            {/* Procedural Milestones Timeline */}
             <div style={{
               backgroundColor: 'var(--bg-canvas)',
               border: '1px solid var(--border-hairline)',
               borderRadius: 'var(--radius-xs)',
-              padding: '20px'
+              padding: '22px'
             }}>
-              <h4 className="font-heading" style={{ fontSize: '1rem', fontWeight: 800, color: 'var(--text-primary)', marginBottom: '14px', display: 'flex', alignItems: 'center', gap: '6px' }}>
+              <h4 className="font-heading" style={{ fontSize: '1.05rem', fontWeight: 800, color: 'var(--text-primary)', marginBottom: '16px', display: 'flex', alignItems: 'center', gap: '6px' }}>
                 <FileText size={16} color="var(--brand-primary)" />
                 <span>Procedural Milestones</span>
               </h4>
 
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '14px', fontSize: '0.78rem', position: 'relative', paddingLeft: '14px', borderLeft: '2px solid var(--border-hairline)' }}>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', fontSize: '0.8rem', position: 'relative', paddingLeft: '16px', borderLeft: '2px solid var(--border-hairline)' }}>
                 <div>
-                  <span style={{ fontFamily: 'var(--font-mono)', fontSize: '0.7rem', color: 'var(--text-muted)', fontWeight: 700 }}>2022</span>
+                  <span style={{ fontFamily: 'var(--font-mono)', fontSize: '0.72rem', color: 'var(--text-muted)', fontWeight: 700 }}>August 2022</span>
                   <p style={{ margin: '2px 0 0 0', fontWeight: 700, color: 'var(--text-primary)' }}>Initial Indictment</p>
-                  <p style={{ margin: 0, color: 'var(--text-muted)' }}>DOJ alleges political influence in Puerto Rico campaign.</p>
+                  <p style={{ margin: 0, color: 'var(--text-muted)', fontSize: '0.76rem' }}>DOJ charges Vázquez Garced, Herrera Velutini, and Rossini.</p>
                 </div>
                 <div>
-                  <span style={{ fontFamily: 'var(--font-mono)', fontSize: '0.7rem', color: 'var(--text-muted)', fontWeight: 700 }}>2025</span>
+                  <span style={{ fontFamily: 'var(--font-mono)', fontSize: '0.72rem', color: 'var(--text-muted)', fontWeight: 700 }}>2025</span>
                   <p style={{ margin: '2px 0 0 0', fontWeight: 700, color: 'var(--text-primary)' }}>Campaign-Finance Plea</p>
-                  <p style={{ margin: 0, color: 'var(--text-muted)' }}>Defendants plead to lesser federal contribution violation.</p>
+                  <p style={{ margin: 0, color: 'var(--text-muted)', fontSize: '0.76rem' }}>Defendants plead to lesser federal campaign contribution count.</p>
                 </div>
                 <div>
-                  <span style={{ fontFamily: 'var(--font-mono)', fontSize: '0.7rem', color: 'var(--brand-primary)', fontWeight: 700 }}>Jan 15, 2026</span>
-                  <p style={{ margin: '2px 0 0 0', fontWeight: 700, color: 'var(--text-primary)' }}>First Warrant</p>
-                  <p style={{ margin: 0, color: 'var(--text-muted)' }}>Trump issues clemency in broader multi-defendant case.</p>
+                  <span style={{ fontFamily: 'var(--font-mono)', fontSize: '0.72rem', color: 'var(--brand-primary)', fontWeight: 700 }}>Jan 15, 2026</span>
+                  <p style={{ margin: '2px 0 0 0', fontWeight: 700, color: 'var(--text-primary)' }}>First Presidential Pardon</p>
+                  <p style={{ margin: 0, color: 'var(--text-muted)', fontSize: '0.76rem' }}>President Trump issues clemency covering multi-defendant case.</p>
                 </div>
                 <div>
-                  <span style={{ fontFamily: 'var(--font-mono)', fontSize: '0.7rem', color: 'var(--brand-primary)', fontWeight: 700 }}>Jan 20, 2026</span>
+                  <span style={{ fontFamily: 'var(--font-mono)', fontSize: '0.72rem', color: 'var(--brand-primary)', fontWeight: 700 }}>Jan 20, 2026</span>
                   <p style={{ margin: '2px 0 0 0', fontWeight: 700, color: 'var(--text-primary)' }}>Second Warrant & Acceptance</p>
-                  <p style={{ margin: 0, color: 'var(--text-muted)' }}>Rossini formally accepts; DOJ specifies separate case number.</p>
+                  <p style={{ margin: 0, color: 'var(--text-muted)', fontSize: '0.76rem' }}>Rossini formally accepts; DOJ issues individual warrant.</p>
                 </div>
                 <div>
-                  <span style={{ fontFamily: 'var(--font-mono)', fontSize: '0.7rem', color: '#059669', fontWeight: 700 }}>Jan 27, 2026</span>
-                  <p style={{ margin: '2px 0 0 0', fontWeight: 700, color: 'var(--text-primary)' }}>Dismissal as Moot</p>
-                  <p style={{ margin: 0, color: 'var(--text-muted)' }}>Federal judge closes criminal proceedings with prejudice.</p>
+                  <span style={{ fontFamily: 'var(--font-mono)', fontSize: '0.72rem', color: '#059669', fontWeight: 700 }}>January 2026</span>
+                  <p style={{ margin: '2px 0 0 0', fontWeight: 700, color: 'var(--text-primary)' }}>Proceedings Dismissed</p>
+                  <p style={{ margin: 0, color: 'var(--text-muted)', fontSize: '0.76rem' }}>Federal judge closes criminal case as moot with prejudice.</p>
                 </div>
               </div>
             </div>
 
-            {/* Related Politics Stories */}
+            {/* Related Coverage Box */}
             <div style={{
               backgroundColor: 'var(--bg-surface-elevated)',
               border: '1px solid var(--border-hairline)',
               borderRadius: 'var(--radius-xs)',
-              padding: '18px'
+              padding: '20px'
             }}>
-              <span style={{ fontSize: '0.7rem', fontWeight: 800, textTransform: 'uppercase', color: 'var(--brand-primary)', letterSpacing: '0.05em', display: 'block', marginBottom: '10px' }}>
-                Latest in Politics
+              <span style={{ fontSize: '0.72rem', fontWeight: 800, textTransform: 'uppercase', color: 'var(--brand-primary)', letterSpacing: '0.05em', display: 'block', marginBottom: '12px' }}>
+                Related Politics Coverage
               </span>
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '14px' }}>
                 {relatedPolitics.map(art => (
                   <Link
                     key={art.id}
@@ -487,15 +627,15 @@ export default function MarkRossiniArticlePage() {
                     style={{ textDecoration: 'none', display: 'block' }}
                   >
                     <h5 className="font-heading" style={{
-                      fontSize: '0.88rem',
+                      fontSize: '0.9rem',
                       fontWeight: 800,
                       color: 'var(--text-primary)',
-                      lineHeight: 1.3,
+                      lineHeight: 1.35,
                       margin: 0
                     }}>
                       {art.title}
                     </h5>
-                    <span style={{ fontSize: '0.7rem', color: 'var(--text-muted)', display: 'block', marginTop: '3px' }}>
+                    <span style={{ fontSize: '0.72rem', color: 'var(--text-muted)', display: 'block', marginTop: '3px' }}>
                       {art.publishedAt}
                     </span>
                   </Link>
