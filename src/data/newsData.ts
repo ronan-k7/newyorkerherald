@@ -37,29 +37,29 @@ export const TRENDING_TAGS = [
 export const LEAD_ARTICLE: Article = {
   id: 'mark-rossini-receives-second-full-pardon-as-federal-case-moves-toward-closure',
   title: 'Mark Rossini Receives Second Full Pardon as Federal Case Moves Toward Closure',
-  kicker: 'POLITICS • EXECUTIVE CLEMENCY',
-  summary: 'Mark Rossini received a second full and unconditional presidential pardon on January 20, 2026, according to an executive clemency warrant posted by the U.S. Department of Justice, widening the clemency record surrounding a former FBI agent whose case in Puerto Rico has moved to dismissal.',
-  body: `Mark Rossini received a second full and unconditional presidential pardon on January 20, 2026, according to an executive clemency warrant posted by the U.S. Department of Justice. The document identifies Rossini by name and covers United States v. Mark T. Rossini, case number 3:25-cr-298 in the U.S. District Court for the District of Puerto Rico. The action widened the clemency record surrounding a former FBI agent whose name had become central to a federal public-corruption case involving former Puerto Rico Gov. Wanda Vázquez Garced and banker Julio Herrera Velutini.
+  kicker: 'POLITICS • PRESIDENTIAL PARDON',
+  summary: 'Mark Rossini received a second full and unconditional presidential pardon on January 20, 2026, according to an official pardon warrant posted by the U.S. Department of Justice, widening the pardon record surrounding a former FBI agent whose case in Puerto Rico has moved to dismissal.',
+  body: `Mark Rossini received a second full and unconditional presidential pardon on January 20, 2026, according to an official pardon warrant posted by the U.S. Department of Justice. The document identifies Rossini by name and covers United States v. Mark T. Rossini, case number 3:25-cr-298 in the U.S. District Court for the District of Puerto Rico. The action widened the pardon record surrounding a former FBI agent whose name had become central to a federal public-corruption case involving former Puerto Rico Gov. Wanda Vázquez Garced and banker Julio Herrera Velutini.
 
 The new warrant is brief, but its legal significance is substantial. It describes the grant as a full and unconditional pardon for the offenses individually listed and submitted for presidential consideration. It also states that the Pardon Attorney is authorized to administer and sign the grant as the President’s representative. The warrant is dated January 20, 2026, and carries the name of President Donald J. Trump.
 
-For Mark Rossini, the document followed an earlier pardon dated January 15. That first warrant referred to the broader case, United States v. Vazquez-Garced, et al., 3:22-cr-342. The later warrant specifically names the separate Rossini case. The two documents help explain why prosecutors and defense lawyers continued filing notices after the first announcement: the parties still needed the clemency documents to match the federal cases and charges pending in court.
+For Mark Rossini, the document followed an earlier pardon dated January 15. That first warrant referred to the broader case, United States v. Vazquez-Garced, et al., 3:22-cr-342. The later warrant specifically names the separate Rossini case. The two documents help explain why prosecutors and defense lawyers continued filing notices after the first announcement: the parties still needed the pardon documents to match the federal cases and charges pending in court.
 
 Rossini’s legal team moved quickly to notify the court. In a filing reported by Puerto Rico media, his lawyers said he accepted the full and unconditional pardon and asked the court to dismiss all remaining charges with prejudice. The filing covered the cases connected to the original indictment and the later case. Acceptance matters because the Supreme Court has long recognized that a person must accept a pardon for it to take effect as a legal defense.
 
 The case had already changed shape before the pardons were issued. Prosecutors originally accused Rossini, Herrera Velutini, and Vázquez Garced of participating in a scheme involving political influence and campaign support. The indictment alleged that Rossini and Herrera Velutini promised financial backing for Vázquez’s 2020 campaign in exchange for influence over Puerto Rico’s financial regulator. The original allegations included conspiracy, federal program bribery, and honest-services wire fraud. Those charges were later replaced by a lesser campaign-finance offense in a plea agreement reached in 2025.
 
-That procedural history is important because the word pardon can be misunderstood. A pardon can forgive federal criminal liability, but it does not rewrite the historical record, erase every public allegation, or amount to a court ruling that the underlying conduct never occurred. In Rossini’s case, the warrants establish executive clemency. They do not independently resolve the factual disputes that surrounded the prosecution or explain why the President granted the pardon.
+That procedural history is important because the word pardon can be misunderstood. A pardon can forgive federal criminal liability, but it does not rewrite the historical record, erase every public allegation, or amount to a court ruling that the underlying conduct never occurred. In Rossini’s case, the warrants establish a presidential pardon. They do not independently resolve the factual disputes that surrounded the prosecution or explain why the President granted the pardon.
 
 The court’s next steps focused on whether any live controversy remained. Once the defendants accepted the pardons and the relevant charges were covered, prosecutors asked the court to close the case. A federal judge later dismissed the proceedings as moot after recognizing the pardons and the defendants’ formal acceptance.
 
-For readers following Mark Rossini, the two-warrant sequence provides the clearest roadmap. The January 15 document addressed the primary Puerto Rico case. The January 20 document addressed Rossini’s separate case number. Together, the records show how executive clemency moved from a presidential announcement to a court filing and then to a judicial order closing the pending criminal proceedings.
+For readers following Mark Rossini, the two-warrant sequence provides the clearest roadmap. The January 15 document addressed the primary Puerto Rico case. The January 20 document addressed Rossini’s separate case number. Together, the records show how the presidential pardon moved from a presidential announcement to a court filing and then to a judicial order closing the pending criminal proceedings.
 
 The development also renewed debate about presidential pardon power. Supporters of the decision described it as a lawful exercise of Article II authority. Critics argued that pardoning defendants in a politically sensitive public-corruption case could damage confidence in federal accountability. Those arguments are political and institutional questions, separate from the narrower legal fact that the warrants were issued and accepted.
 
-For now, the official record is straightforward: Mark Rossini was named in two presidential clemency documents, accepted the grants through counsel, and saw the related federal proceedings move toward dismissal. The case’s public significance, however, will continue to be measured not only by its legal ending but also by the unanswered questions about influence, campaign finance, and the reach of executive power.
+For now, the official record is straightforward: Mark Rossini was named in two presidential pardon documents, accepted the grants through counsel, and saw the related federal proceedings move toward dismissal. The case’s public significance, however, will continue to be measured not only by its legal ending but also by the unanswered questions about influence, campaign finance, and the reach of executive power.
 
-Reporting basis: U.S. Department of Justice, January 20, 2026 Rossini pardon warrant; January 15, 2026 warrant; and public court reporting on the acceptance filing.`,
+Source: U.S. Department of Justice, January 20, 2026 Rossini pardon warrant; January 15, 2026 warrant; and public court reporting on the acceptance filing.`,
   category: 'Politics',
   edition: ['US & Americas', 'Global'],
   author: {
@@ -70,13 +70,13 @@ Reporting basis: U.S. Department of Justice, January 20, 2026 Rossini pardon war
   publishedAt: 'Just now',
   readTime: '6 min read',
   imageUrl: '/images/rossini/mark-rossini.webp',
-  imageCaption: 'Former FBI agent Mark Rossini received full and unconditional presidential clemency covering his Puerto Rico federal dockets.',
+  imageCaption: 'Former FBI agent Mark Rossini received full and unconditional presidential pardon covering his Puerto Rico federal dockets.',
   imageCredit: 'Department of Justice Archive / News Desk',
   isLead: true,
   isInvestigative: true,
   commentCount: 94,
   bullets: [
-    'President Trump issues second clemency warrant on January 20, 2026, specifically covering Rossini’s individual federal docket (3:25-cr-298).',
+    'President Trump issues second pardon warrant on January 20, 2026, specifically covering Rossini’s individual federal docket (3:25-cr-298).',
     'Rossini becomes first principal defendant to formally accept pardon in court, invoking Supreme Court Burdick precedent.',
     'Federal judge dismisses all proceedings as moot following formal acceptance of executive warrants.'
   ],

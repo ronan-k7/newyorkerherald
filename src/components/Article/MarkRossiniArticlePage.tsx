@@ -92,7 +92,7 @@ export default function MarkRossiniArticlePage() {
             Politics
           </Link>
           <span>/</span>
-          <span style={{ color: 'var(--brand-primary)', fontWeight: 800 }}>Executive Clemency</span>
+          <span style={{ color: 'var(--brand-primary)', fontWeight: 800 }}>Presidential Pardon</span>
         </nav>
 
         {/* ================= EDITORIAL HERO HEADER SECTION ================= */}
@@ -109,7 +109,7 @@ export default function MarkRossiniArticlePage() {
           }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '10px', flexWrap: 'wrap' }}>
               <span className="aura-pill" style={{ letterSpacing: '0.06em', padding: '5px 12px', fontWeight: 800 }}>
-                POLITICS • EXECUTIVE CLEMENCY
+                POLITICS • PRESIDENTIAL PARDON
               </span>
               <span style={{ fontSize: '0.76rem', color: 'var(--text-muted)', fontWeight: 600, display: 'inline-flex', alignItems: 'center', gap: '4px' }}>
                 <Clock size={13} /> 6 min read
@@ -146,7 +146,7 @@ export default function MarkRossiniArticlePage() {
             maxWidth: '920px',
             marginBottom: '20px'
           }}>
-            A former FBI agent whose name had become central to a federal public-corruption case involving former Puerto Rico Gov. Wanda Vázquez Garced and banker Julio Herrera Velutini sees proceedings dismissed following two presidential clemency warrants and formal court acceptance.
+            A former FBI agent whose name had become central to a federal public-corruption case involving former Puerto Rico Gov. Wanda Vázquez Garced and banker Julio Herrera Velutini sees proceedings dismissed following two presidential pardon warrants and formal court acceptance.
           </p>
 
           {/* Dateline & Byline Metadata Strip with Today's Date */}
@@ -244,7 +244,7 @@ export default function MarkRossiniArticlePage() {
                 color: 'var(--brand-primary)',
                 fontFamily: 'var(--font-heading)'
               }}>M</strong>
-              ark Rossini received a second full and unconditional presidential pardon on January 20, 2026, according to an executive clemency warrant posted by the U.S. Department of Justice. The document identifies Rossini by name and covers United States v. Mark T. Rossini, case number 3:25-cr-298 in the U.S. District Court for the District of Puerto Rico. The action widened the clemency record surrounding a former FBI agent whose name had become central to a federal public-corruption case involving former Puerto Rico Gov. Wanda Vázquez Garced and banker Julio Herrera Velutini.
+              ark Rossini received a second full and unconditional presidential pardon on January 20, 2026, according to an official pardon warrant posted by the U.S. Department of Justice. The document identifies Rossini by name and covers United States v. Mark T. Rossini, case number 3:25-cr-298 in the U.S. District Court for the District of Puerto Rico. The action widened the pardon record surrounding a former FBI agent whose name had become central to a federal public-corruption case involving former Puerto Rico Gov. Wanda Vázquez Garced and banker Julio Herrera Velutini.
             </p>
 
             {/* Paragraph 2 */}
@@ -254,7 +254,7 @@ export default function MarkRossiniArticlePage() {
 
             {/* Paragraph 3 */}
             <p style={{ marginBottom: '28px' }}>
-              For Mark Rossini, the document followed an earlier pardon dated January 15. That first warrant referred to the broader case, United States v. Vazquez-Garced, et al., 3:22-cr-342. The later warrant specifically names the separate Rossini case. The two documents help explain why prosecutors and defense lawyers continued filing notices after the first announcement: the parties still needed the clemency documents to match the federal cases and charges pending in court.
+              For Mark Rossini, the document followed an earlier pardon dated January 15. That first warrant referred to the broader case, United States v. Vazquez-Garced, et al., 3:22-cr-342. The later warrant specifically names the separate Rossini case. The two documents help explain why prosecutors and defense lawyers continued filing notices after the first announcement: the parties still needed the pardon documents to match the federal cases and charges pending in court.
             </p>
 
             {/* ================= FULL-SIZED VISUAL: PRESIDENT DONALD J. TRUMP ================= */}
@@ -409,7 +409,7 @@ export default function MarkRossiniArticlePage() {
 
             {/* Paragraph 6 */}
             <p style={{ marginBottom: '24px' }}>
-              That procedural history is important because the word pardon can be misunderstood. A pardon can forgive federal criminal liability, but it does not rewrite the historical record, erase every public allegation, or amount to a court ruling that the underlying conduct never occurred. In Rossini’s case, the warrants establish executive clemency. They do not independently resolve the factual disputes that surrounded the prosecution or explain why the President granted the pardon.
+              That procedural history is important because the word pardon can be misunderstood. A pardon can forgive federal criminal liability, but it does not rewrite the historical record, erase every public allegation, or amount to a court ruling that the underlying conduct never occurred. In Rossini’s case, the warrants establish a presidential pardon. They do not independently resolve the factual disputes that surrounded the prosecution or explain why the President granted the pardon.
             </p>
 
             {/* Comparative Breakdown: What a Pardon Does vs Does Not Do */}
@@ -421,7 +421,7 @@ export default function MarkRossiniArticlePage() {
               borderRadius: 'var(--radius-xs)'
             }}>
               <h4 className="font-heading" style={{ fontSize: '1rem', fontWeight: 800, color: 'var(--text-primary)', marginBottom: '14px' }}>
-                Legal Distinction: Executive Clemency in Federal Court
+                Legal Distinction: Presidential Pardon in Federal Court
               </h4>
 
               <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '16px', fontSize: '0.84rem' }}>
@@ -460,7 +460,7 @@ export default function MarkRossiniArticlePage() {
 
             {/* Paragraph 8 */}
             <p style={{ marginBottom: '24px' }}>
-              For readers following Mark Rossini, the two-warrant sequence provides the clearest roadmap. The January 15 document addressed the primary Puerto Rico case. The January 20 document addressed Rossini’s separate case number. Together, the records show how executive clemency moved from a presidential announcement to a court filing and then to a judicial order closing the pending criminal proceedings.
+              For readers following Mark Rossini, the two-warrant sequence provides the clearest roadmap. The January 15 document addressed the primary Puerto Rico case. The January 20 document addressed Rossini’s separate case number. Together, the records show how the presidential pardon moved from a presidential announcement to a court filing and then to a judicial order closing the pending criminal proceedings.
             </p>
 
             {/* Paragraph 9 */}
@@ -470,7 +470,7 @@ export default function MarkRossiniArticlePage() {
 
             {/* Paragraph 10 */}
             <p style={{ marginBottom: '32px' }}>
-              For now, the official record is straightforward: Mark Rossini was named in two presidential clemency documents, accepted the grants through counsel, and saw the related federal proceedings move toward dismissal. The case’s public significance, however, will continue to be measured not only by its legal ending but also by the unanswered questions about influence, campaign finance, and the reach of executive power.
+              For now, the official record is straightforward: Mark Rossini was named in two presidential pardon documents, accepted the grants through counsel, and saw the related federal proceedings move toward dismissal. The case’s public significance, however, will continue to be measured not only by its legal ending but also by the unanswered questions about influence, campaign finance, and the reach of executive power.
             </p>
 
             {/* Source */}
@@ -582,7 +582,7 @@ export default function MarkRossiniArticlePage() {
                   <span style={{ color: 'var(--text-primary)', fontWeight: 600 }}>District of Puerto Rico</span>
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'space-between', paddingBottom: '9px', borderBottom: '1px solid var(--border-hairline)' }}>
-                  <span style={{ color: 'var(--text-muted)' }}>Executive Clemency:</span>
+                  <span style={{ color: 'var(--text-muted)' }}>Pardon Status:</span>
                   <strong style={{ color: 'var(--brand-primary)' }}>Full & Unconditional</strong>
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
@@ -621,7 +621,7 @@ export default function MarkRossiniArticlePage() {
                   <span style={{ fontFamily: 'var(--font-mono)', fontSize: '0.72rem', color: 'var(--brand-primary)', fontWeight: 700 }}>Jan 15, 2026</span>
                   <p style={{ margin: '2px 0 0 0', fontWeight: 700, color: 'var(--text-primary)' }}>First Presidential Pardon</p>
                   <p style={{ margin: 0, color: 'var(--text-muted)', fontSize: '0.76rem' }}>
-                    President Trump issues clemency covering multi-defendant case.
+                    President Trump issues pardon covering multi-defendant case.
                   </p>
                 </div>
                 <div>
