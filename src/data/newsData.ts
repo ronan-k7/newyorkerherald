@@ -3,35 +3,35 @@ import { Article, OpinionColumn, FactCheckItem, PhotoStory, VideoItem, PodcastEp
 export const BREAKING_NEWS_ITEMS = [
   {
     id: 'brk-1',
-    kicker: 'EXECUTIVE POWER',
-    headline: 'White House Orders Agencies to Curb Congressional Testimony',
+    kicker: 'CABINET SHAKEUP',
+    headline: 'White House Withdraws Heidi Overton Nomination to Lead FDA',
     time: '2m ago',
-    url: '/politics/white-house-orders-agencies-to-curb-congressional-testimony'
+    url: '/politics/white-house-withdraws-heidi-overton-nomination-to-lead-fda'
   },
   {
     id: 'brk-2',
-    kicker: 'EMERGENCY ALERTS',
-    headline: 'FEMA Holds Nationwide Alert Test Amid Viral Blackout Falsehoods',
+    kicker: 'PUBLIC AFFAIRS',
+    headline: 'Hochul and MTA Press Congress for Billions in Transit Funds',
     time: '15m ago',
-    url: '/us/fema-holds-nationwide-alert-test-amid-viral-blackout-falsehoods'
+    url: '/us/hochul-and-mta-press-congress-for-billions-in-transit-funds'
   },
   {
     id: 'brk-3',
-    kicker: 'GAMING TSUNAMI',
-    headline: 'GTA VI Countdown Upends Gaming Slates as Budgets Eclipse $1B',
+    kicker: 'WALL STREET',
+    headline: 'Dow Plunges 848 Points as AI Valuation Anxiety Grips Markets',
     time: '28m ago',
-    url: '/tech/gta-vi-countdown-upends-gaming-slates-as-budgets-eclipse-1b'
+    url: '/business/dow-plunges-848-points-as-ai-valuation-anxiety-grips-markets'
   }
 ];
 
 export const TRENDING_TAGS = [
-  '#Voyager1LightDay',
-  '#RobertPattinson007',
-  '#WhiteHouseMemo',
-  '#GTAVI1Billion',
-  '#FEMATest',
-  '#ChargersRavens',
-  '#BankOutages'
+  '#OvertonFDA',
+  '#MTAFundingNY',
+  '#DowPlunge848',
+  '#GeminiAgentAI',
+  '#RayeGrammys11',
+  '#QuentinGrimes47',
+  '#ISSBioprinting'
 ];
 
 export const LEAD_ARTICLE: Article = {
@@ -79,6 +79,350 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
 };
 
 export const SECONDARY_LEAD_STORIES: Article[] = [
+  {
+  "id": "white-house-withdraws-heidi-overton-nomination-to-lead-fda",
+  "title": "White House Withdraws Heidi Overton Nomination to Lead FDA",
+  "kicker": "CABINET SHAKEUP \u2022 HEALTH POLICY",
+  "summary": "The White House has formally withdrawn Heidi Overton's nomination to serve as FDA Commissioner following stiff resistance from Senate lawmakers, scientific bodies, and public health advocates.",
+  "body": "WASHINGTON \u2014 In a major retreat on executive appointments following the contentious midterm elections, the White House on Wednesday formally withdrew the nomination of Dr. Heidi Overton to serve as Commissioner of the Food and Drug Administration (FDA). The sudden decision followed days of mounting bipartisan skepticism on Capitol Hill, where lawmakers from both parties, prominent biomedical research coalitions, and former public health officials expressed acute concerns over her unconventional regulatory philosophies and stated intentions to overhaul pharmaceutical review standards.\n\nThe withdrawal marks the highest-profile executive nomination collapse of the post-election transition period. Dr. Overton, a surgical fellow and prominent health policy researcher known for championing institutional deregulation and questioning long-standing nutritional and pharmaceutical guidelines, had initially been elevated by the administration to spearhead a sweeping reform agenda aligned with the 'Make America Healthy Again' coalition. However, her impending confirmation faced an insurmountable wall of opposition within the Senate Committee on Health, Education, Labor, and Pensions (HELP), where several moderate Republican lawmakers joined a unified Democratic minority in signaling they would not vote to advance her nomination to the Senate floor.\n\nSenior congressional aides familiar with the committee's deliberations confirmed that private confirmation vetting sessions deteriorated rapidly over the past seventy-two hours. Key senators pressed Overton on her past public critiques of established vaccine clinical trial benchmarks, her proposals to deregulate certain dietary supplements, and her contentious views regarding the FDA's regulatory authority over ultra-processed food additives. Industry representatives from major pharmaceutical developers and agricultural conglomerates also mounted behind-the-scenes lobbying campaigns, warning that sudden disruptions to the FDA's rigorous gold-standard review processes could destabilize global biomedical markets and undermine public trust in domestic healthcare oversight.\n\n\"The integrity and scientific independence of the Food and Drug Administration are paramount to the safety and well-being of hundreds of millions of American families,\" said HELP Committee leadership in a statement following the announcement. \"While every administration has the prerogative to nominate leaders who reflect its broader policy priorities, the leader of our nation's primary consumer protection and biomedical agency must possess unassailable credibility and an unwavering commitment to empirical, peer-reviewed science. The administration's decision to pull this nomination reflects the reality of the Senate's constitutional advice and consent role.\"\n\nIn a terse statement released late Wednesday afternoon, the White House defended Overton's background while conceding that prolonged confirmation gridlock would paralyze the agency at a critical juncture. \"Dr. Overton has spent her career advocating for greater clinical transparency, patient autonomy, and bold structural reforms to address chronic disease epidemics,\" the executive press office noted. \"While we regret that entrenched bureaucratic and special-interest opposition has prevented the Senate from giving her fair consideration, the administration remains dedicated to delivering transformative health leadership and will announce a replacement nominee in the coming days.\"\n\nPublic health organizations and patient advocacy groups breathed a collective sigh of relief, though policy analysts warned that the vacancy leaves the FDA under temporary acting leadership precisely as federal agencies prepare for critical decisions regarding winter respiratory immunizations, medical device approvals, and contentious food labeling mandates heading into the new fiscal year.",
+  "category": "Politics",
+  "edition": [
+    "US & Americas",
+    "Global"
+  ],
+  "author": {
+    "name": "Sarah Mitchell",
+    "role": "Chief Congressional & National Security Correspondent",
+    "avatar": "/images/authors/sarah_mitchell.jpg"
+  },
+  "publishedAt": "2h ago",
+  "readTime": "7 min read",
+  "imageUrl": "/images/news/white-house-withdraws-heidi-overton-nomination-to-lead-fda.webp",
+  "imageCaption": "The Food and Drug Administration headquarters in Silver Spring, Maryland, as the White House withdraws its commissioner nominee.",
+  "imageCredit": "Reuters / Leah Millis",
+  "isInvestigative": false,
+  "commentCount": 142,
+  "bullets": [
+    "White House officially withdraws Dr. Heidi Overton's nomination to lead the Food and Drug Administration.",
+    "Bipartisan resistance in the Senate HELP Committee centered on regulatory views and pharmaceutical review benchmarks.",
+    "The collapse marks the highest-profile executive appointment reversal following the 2026 midterm elections."
+  ],
+  "tags": [
+    "Politics",
+    "White House",
+    "FDA",
+    "Senate",
+    "Health Policy",
+    "Congress",
+    "Cabinet Nominations"
+  ]
+},
+  {
+  "id": "hochul-and-mta-press-congress-for-billions-in-transit-funds",
+  "title": "Hochul and MTA Press Congress for Billions in Transit Funds",
+  "kicker": "PUBLIC AFFAIRS \u2022 NEW YORK TRANSIT CRISIS",
+  "summary": "Governor Kathy Hochul and MTA leadership launched an urgent federal lobbying offensive, warning that New York carries 43% of national transit riders but receives only 17% of federal transit funding.",
+  "body": "NEW YORK & WASHINGTON \u2014 In a high-stakes confrontation over the future of urban infrastructure, New York Governor Kathy Hochul and Metropolitan Transportation Authority (MTA) Chair and CEO Janno Lieber launched an aggressive emergency lobbying blitz in Washington on Wednesday, demanding that Congress rectify a massive federal transit funding deficit that threatens the economic vitality of the entire tri-state region. Presenting newly certified operational data, state and transit officials revealed that while New York's subways, buses, and commuter rail systems account for nearly 43% of all mass transit journeys in the United States, the agency receives merely 17% of federal formula transit assistance, creating an unsustainable fiscal imbalance ahead of a pivotal December 11 federal funding deadline.\n\nThe public affairs offensive comes at a perilous financial moment for the transit authority. With pandemic-era federal relief exhausted, ridership stabilizing below pre-2020 peaks, and escalating operational maintenance costs, the MTA warned that failure to secure advance federal appropriations will blow an unrecoverable multi-hundred-million-dollar hole into its fiscal 2027 capital program. Such a shortfall would jeopardize vital modernization projects, including signal automation along the Lexington Avenue subway line, accessibility upgrades across outer-borough stations, and phase two of the Second Avenue Subway extension into East Harlem.\n\nCompounding the crisis, Governor Hochul formally petitioned federal commerce and transportation regulators for comprehensive tariff exemptions on imported train cars, electric buses, and critical signaling components manufactured overseas. Officials estimate that impending trade tariffs could add upwards of $1 billion in direct surcharges to scheduled rolling stock procurements, forcing painful tradeoffs between purchasing new rail equipment and maintaining current service frequencies across the five boroughs, Long Island, and the Hudson Valley.\n\n\"New York's transit network is not just a regional amenity; it is the economic cardiovascular system of the United States,\" Governor Hochul asserted during a joint Capitol Hill press briefing alongside transit labor leaders and regional business executives. \"Every day, millions of essential workers, students, entrepreneurs, and tourists depend on our subways and commuter rails to power nearly 10% of the entire gross domestic product of this nation. To ask New York taxpayers to shoulder almost half of America's transit ridership with less than a fifth of federal transit investment is economically irrational and fundamentally unfair. Washington cannot take New York for granted.\"\n\nMTA Chair Janno Lieber echoed the governor's warnings, laying out the potential consequences if federal lawmakers fail to include dedicated capital backstops in the upcoming omnibus appropriations package. Lieber underscored that without federal parity and targeted relief from crippling equipment tariffs, the authority would be pushed toward unpalatable options, including accelerated fare hikes, deferred state-of-good-repair overhauls, or delays to the Interborough Express (IBX) light rail project linking Brooklyn and Queens.\n\nCivic advocacy organizations, urban planning bodies, and Wall Street business groups have rallied behind the state's push. The Partnership for New York City issued a companion analysis warning that any forced degradation in transit reliability would trigger cascading economic fallout, disincentivizing corporate returns to commercial business districts and eroding municipal tax bases. As negotiations in Congress heat up over surface transportation reauthorization, New York's leaders have drawn a definitive line, making equitable transit dollars the ultimate test of federal urban commitment.",
+  "category": "US",
+  "edition": [
+    "US & Americas",
+    "Global"
+  ],
+  "author": {
+    "name": "David Brooks",
+    "role": "Urban Affairs & Governance Correspondent",
+    "avatar": "/images/authors/sarah_mitchell.jpg"
+  },
+  "publishedAt": "3h ago",
+  "readTime": "8 min read",
+  "imageUrl": "/images/news/hochul-and-mta-press-congress-for-billions-in-transit-funds.webp",
+  "imageCaption": "Governor Kathy Hochul and MTA CEO Janno Lieber presenting federal transit funding data during a joint address.",
+  "imageCredit": "Office of Governor Kathy Hochul / AP",
+  "isInvestigative": false,
+  "commentCount": 218,
+  "bullets": [
+    "Governor Kathy Hochul and MTA CEO Janno Lieber mount federal lobbying drive ahead of December 11 funding deadline.",
+    "Data shows NYC handles 43% of U.S. transit ridership but receives only 17% of federal transit formula dollars.",
+    "State seeks tariff waivers on railcars and electric buses to prevent an estimated $1B equipment cost surge."
+  ],
+  "tags": [
+    "US",
+    "New York",
+    "MTA",
+    "Kathy Hochul",
+    "Public Affairs",
+    "Infrastructure",
+    "Congress",
+    "Transit Funding"
+  ]
+},
+  {
+  "id": "dow-plunges-848-points-as-ai-valuation-anxiety-grips-markets",
+  "title": "Dow Plunges 848 Points as AI Valuation Anxiety Grips Wall Street",
+  "kicker": "WALL STREET SELLOFF \u2022 MARKET VOLATILITY",
+  "summary": "Wall Street suffered a severe selloff as the Dow dropped 848 points, triggered by heightened anxiety over artificial intelligence valuations, elevated bond yields, and new federal chip export limits.",
+  "body": "NEW YORK \u2014 A wave of intense institutional selling swept across Wall Street on Tuesday and Wednesday, driving the Dow Jones Industrial Average down by 848.75 points to close at 50,759.42 in one of the sharpest single-day declines of the quarter. The dramatic downturn was mirrored across broader indices, with the benchmark S&P 500 falling 1.0% to 7,340.53 and the tech-heavy Nasdaq Composite retreating 0.7% to 24,328.38, as investors grappled with a convergence of elevated sovereign bond yields, new international export controls, and nerve-racking uncertainty surrounding artificial intelligence capital expenditure returns.\n\nAt the epicenter of market trepidation was semiconductor giant Nvidia, which faced heightened scrutiny ahead of its highly anticipated quarterly financial earnings release\u2014the first official earnings report since the abrupt departure of founding chief executive Jensen Huang earlier this month. The sudden leadership vacuum, coupled with astronomical expectations baked into megacap technology valuations, triggered widespread de-risking among quantitative funds and institutional asset managers. Across trading floors, fund managers moved swiftly to trim exposure to high-multiple semiconductor and enterprise software stocks that have powered the equity bull market for over two years.\n\nMarket jitters were amplified significantly by an announcement from the U.S. Department of Commerce unveiling stringent new regulatory rules governing remote access to advanced computing infrastructure. Under the new export restrictions, cloud providers and data center operators worldwide will be required to obtain federal licenses before providing high-performance computing power to foreign entities based in restricted jurisdictions, including China. The mandate, which imposes a strict 90-day compliance timeline, sparked immediate fears of revenue headwinds for domestic cloud infrastructure leaders and hyperscaler data center developers.\n\nMacroeconomic crosscurrents added further pressure to equity valuations. The 10-year U.S. Treasury yield climbed past 5.02%, reflecting persistent investor anxiety over sticky services inflation and the Federal Reserve's signaled reluctance to ease borrowing costs prematurely. Fresh retail sales data showed consumer spending grew at a modest 0.2% in October, coming in slightly under consensus estimates and underscoring concerns that prolonged high interest rates are beginning to weigh on middle-income household budgets despite resilient labor market metrics.\n\n\"What we witnessed today was a necessary reality check for a market priced for absolute perfection,\" said Marcus Thorne, chief global strategist at Manhattan Asset Management. \"For nearly twenty-four months, investors have treated every generative AI headline as an unassailable license to bid up multiples. But when you combine a 5% risk-free rate, sweeping federal regulatory hurdles on global chip distribution, and leadership transitions at foundational companies, capital demands tangible revenue proof over speculative narrative.\"\n\nDespite the steep selloff, corporate bond markets remained orderly, and commodity prices softened, with West Texas Intermediate crude settling below $88 a barrel. Nonetheless, trading desks are bracing for continued volatility as derivative markets price in outsized swings following Nvidia's post-closing bell figures and the upcoming release of the Federal Open Market Committee's policy minutes.",
+  "category": "Business",
+  "edition": [
+    "US & Americas",
+    "Global"
+  ],
+  "author": {
+    "name": "Henrik Lindqvist",
+    "role": "Senior Financial Markets Correspondent",
+    "avatar": "/images/authors/henrik_lindqvist.jpg"
+  },
+  "publishedAt": "2h ago",
+  "readTime": "7 min read",
+  "imageUrl": "/images/news/dow-plunges-848-points-as-ai-valuation-anxiety-grips-markets.webp",
+  "imageCaption": "Traders on the floor of the New York Stock Exchange during Wednesday's steep 848-point market slide.",
+  "imageCredit": "NYSE / Brendan McDermid",
+  "isInvestigative": false,
+  "commentCount": 312,
+  "bullets": [
+    "Dow Jones sinks 848.75 points to 50,759.42 amid tech selloff and 10-year Treasury yields topping 5%.",
+    "Nvidia faces intense market scrutiny ahead of first earnings report since Jensen Huang's unexpected exit.",
+    "U.S. Commerce Department imposes strict new licensing rules on foreign remote access to AI cloud compute."
+  ],
+  "tags": [
+    "Business",
+    "Wall Street",
+    "Dow Jones",
+    "Stocks",
+    "Nvidia",
+    "Federal Reserve",
+    "AI",
+    "Markets"
+  ]
+},
+  {
+  "id": "google-expands-gemini-into-autonomous-ai-agent-for-real-tasks",
+  "title": "Google Expands Gemini Into Autonomous AI Agent For Real Tasks",
+  "kicker": "ARTIFICIAL INTELLIGENCE \u2022 AGENTIC WORKFLOWS",
+  "summary": "Google unveiled an expansive architectural upgrade to Gemini, transforming the conversational AI into an autonomous agent capable of executing complex real-world actions across applications.",
+  "body": "MOUNTAIN VIEW, Calif. \u2014 In a milestone transition that signals the arrival of practical autonomous software, Google on Wednesday officially rolled out a sweeping architectural evolution for its Gemini platform, transforming the system from a passive conversational language model into an active, multi-modal autonomous agent capable of executing complex digital workflows across the web, mobile operating systems, and enterprise services. The deployment represents Google's most aggressive push yet into 'agentic AI,' empowering algorithms to plan, execute, and verify multistep human tasks without requiring continuous line-by-line prompting.\n\nThe upgraded Gemini agentic system introduces native action execution across everyday digital environments. Users can now assign high-level goals\u2014such as auditing calendar conflicts, placing telephone calls to confirm restaurant or service reservations, comparing price differentials across multiple retail platforms, and completing secure e-commerce checkout via Google Pay\u2014while Gemini coordinates background API interactions and visual screen navigation. Built upon advanced reasoning kernels, the model breaks down abstract requests into programmatic sub-goals, autonomously navigating authentication challenges and presenting users with interactive confirmation checkpoints before authorizing financial charges or transmitting personal data.\n\nGoogle demonstrated the system handling intricate personal logistics, including negotiating schedule changes with commercial vendors and managing multi-platform travel itineraries. The agent is launching at no additional cost for users across major global markets, including the United States, Japan, India, and Australia, integrated directly into Android devices, Google Workspace suites, and standard Chrome browser sessions. The rollout comes as Silicon Valley rivals, including OpenAI, Microsoft, and Anthropic, race to transition their frontier models from text generation engines into actionable autonomous assistants capable of replacing repetitive human knowledge work.\n\n\"We are shifting from an era where humans adapt to computers to an era where computers actively work on behalf of humans,\" said Sundar Pichai, CEO of Alphabet and Google, during an executive keynote briefing at Google's Mountain View campus. \"Conversational intelligence was the first chapter of generative AI. The next frontier is agency: AI that understands context, anticipates logistical hurdles, and safely takes action in the real world to give people hours of their lives back each week.\"\n\nThe announcement arrives amid intense global regulatory and ethical scrutiny regarding autonomous agent security. Independent cybersecurity researchers have warned that granting AI systems direct agency over email accounts, telephone telephony, and payment mechanisms introduces novel threat vectors, including automated social engineering and prompt injection attacks that could hijack agent permissions. Addressing these concerns, Google emphasized that the Gemini agent incorporates hardware-isolated cryptographic verification layers, rigorous sandboxing protocols, and strict human-in-the-loop policies for all transactional operations.\n\nIndustry analysts predict that Google's deep integration across Android, Google Search, Maps, and Gmail gives the tech giant an unmatched distribution advantage over standalone AI competitors. As enterprise and consumer adoption accelerates, the launch is poised to ignite a transformative shift in how humans interact with the internet, redefining software from a collection of static applications into an autonomous, proactive digital workforce.",
+  "category": "Tech",
+  "edition": [
+    "US & Americas",
+    "Global"
+  ],
+  "author": {
+    "name": "Elena Rostova",
+    "role": "Senior Artificial Intelligence & Tech Policy Editor",
+    "avatar": "/images/authors/elena_rostova.jpg"
+  },
+  "publishedAt": "3h ago",
+  "readTime": "8 min read",
+  "imageUrl": "/images/news/google-expands-gemini-into-autonomous-ai-agent-for-real-tasks.webp",
+  "imageCaption": "Visual demonstration of Gemini's new autonomous task execution and agentic workflow platform.",
+  "imageCredit": "Google LLC / Press Archive",
+  "isInvestigative": false,
+  "commentCount": 267,
+  "bullets": [
+    "Google deploys major Gemini update converting conversational AI into an autonomous task-executing agent.",
+    "System autonomously manages phone scheduling, retail price comparisons, and Google Pay checkouts.",
+    "Feature launches globally across Android, Chrome, and Workspace with cryptographic human-in-the-loop safeguards."
+  ],
+  "tags": [
+    "Tech",
+    "Google",
+    "Gemini",
+    "Artificial Intelligence",
+    "Agentic AI",
+    "Android",
+    "Silicon Valley"
+  ]
+},
+  {
+  "id": "raye-leads-2027-grammy-nominations-with-record-tying-11-nods",
+  "title": "Raye Leads 2027 Grammy Nominations With Record-Tying 11 Nods",
+  "kicker": "MUSIC AWARDS \u2022 GRAMMY NOMINATIONS",
+  "summary": "British singer-songwriter Raye made music history by earning 11 nominations for the 69th Grammy Awards, tying Beyonc\u00e9's all-time single-year record for a female artist.",
+  "body": "LOS ANGELES \u2014 In a triumphant validation of artistic independence and songwriting virtuosity, British singer-songwriter Raye captured the spotlight of the global music industry on Wednesday as the Recording Academy officially unveiled nominations for the 69th Annual Grammy Awards. Raye secured a staggering 11 nominations across major general and genre categories, tying the historic all-time single-year record set by Beyonc\u00e9 in 2025 for the most nominations earned by a female artist in Grammy history. The landmark achievement cements her extraordinary ascent from a disillusioned major-label refugee into one of modern music's most celebrated autonomous visionaries.\n\nRaye's monumental sweep was anchored by her critically revered second studio LP, 'This Music May Contain Hope,' which garnered coveted nominations for Album of the Year and Best Pop Vocal Album. Her breakout anthemic single, 'Where Is My Husband!,' proved an inescapable cultural juggernaut, picking up nods for Record of the Year, Song of the Year, and Best Pop Solo Performance. Beyond the marquee pop categories, the London-born multi-instrumentalist earned widespread recognition across dance, R&B, and technical fields, including Songwriter of the Year (Non-Classical) and Producer of the Year, reflecting her exhaustive hands-on craft across composition, vocal arrangement, and orchestral production.\n\nTrailing closely behind Raye was Spanish powerhouse Rosal\u00eda, who captured an extraordinary nine nominations of her own, propelled by her genre-defying masterpiece 'Lux (Complete Works)' and her groundbreaking international collaboration 'Berghain' alongside Bj\u00f6rk and Yves Tumor. The heavy presence of both European trailblazers across American music's most prestigious honors underscores a profound internationalization of the Grammy electorate, following years of voting academy structural reforms aimed at diversifying age, geography, and genre representation among its voting membership.\n\n\"To see your life's work, written in tears, sleepless nights, and complete creative freedom, embraced in this manner is something I can scarcely comprehend,\" an emotional Raye stated from London shortly after the nominations broadcast. \"A few short years ago, I was fighting just to release my music into the world under my own terms. To stand alongside the icons I idolized as a girl is proof that when artists hold on to their truth and refuse to compromise, listeners will meet them there. This is a victory for independent artists everywhere.\"\n\nMusic critics and cultural commentators noted that this year's nomination slate reflects an overdue shift away from formulaic streaming algorithmic hits toward daring, long-form artistic expression. In addition to Raye and Rosal\u00eda, the Album of the Year ballot features an unusually diverse and fiercely competitive roster of global talent, setting up an electrifying face-off when the awards are handed out live at the Crypto.com Arena in Los Angeles on February 7, 2027.\n\nThe Recording Academy also highlighted significant gains in female and non-binary representation across technical categories, with women dominating both the Producer of the Year and Best Engineered Album categories for the first time. As the music community begins its annual winter campaign season, Raye's record-equaling achievement stands as an indelible testament to the enduring power of raw musical excellence over corporate assembly-line pop.",
+  "category": "Entertainment",
+  "edition": [
+    "US & Americas",
+    "Global"
+  ],
+  "author": {
+    "name": "Marcus Vance",
+    "role": "Culture & Entertainment Editor",
+    "avatar": "/images/authors/marcus_vance.jpg"
+  },
+  "publishedAt": "4h ago",
+  "readTime": "7 min read",
+  "imageUrl": "/images/news/raye-leads-2027-grammy-nominations-with-record-tying-11-nods.webp",
+  "imageCaption": "British sensation Raye celebrates a record-tying 11 nominations ahead of the 69th Grammy Awards.",
+  "imageCredit": "The Recording Academy / Getty Images",
+  "isInvestigative": false,
+  "commentCount": 184,
+  "bullets": [
+    "Raye secures 11 Grammy nominations, tying Beyonc\u00e9's all-time single-year record for a female artist.",
+    "Nominations include Album of the Year, Record of the Year, Song of the Year, and Producer of the Year.",
+    "Spanish artist Rosal\u00eda follows with 9 nominations; ceremony set for February 7, 2027 in Los Angeles."
+  ],
+  "tags": [
+    "Entertainment",
+    "Grammys",
+    "Raye",
+    "Rosal\u00eda",
+    "Music Awards",
+    "Recording Academy",
+    "Pop Music"
+  ]
+},
+  {
+  "id": "quentin-grimes-drops-47-as-lakers-edge-hornets-118-114-in-ot",
+  "title": "Quentin Grimes Drops 47 as Lakers Edge Hornets 118-114 in OT",
+  "kicker": "NBA REGULAR SEASON \u2022 OVERTIME DRAMA",
+  "summary": "Quentin Grimes erupted for a career-high 47 points, hitting ten three-pointers including a miracle game-tying shot, to propel the Lakers past Charlotte in an overtime thriller.",
+  "body": "CHARLOTTE, N.C. \u2014 In an astonishing individual shooting exhibition that electrified the Spectrum Center and rewrote franchise record books, guard Quentin Grimes poured in a sensational career-high 47 points on Tuesday night, dragging the Los Angeles Lakers back from an 18-point second-half deficit to capture a breathless 118-114 overtime victory over the Charlotte Hornets. Grimes connected on ten shots from beyond the three-point arc, including a cold-blooded, step-back triple with 1.7 seconds remaining in regulation that rescued Los Angeles from the brink of defeat and extended their season-best winning streak to nine consecutive games.\n\nThe Lakers entered Tuesday's road tilt facing significant adversity, missing key starters Austin Reaves and center Walker Kessler due to nagging hamstring and ankle ailments. With the offense searching for rhythm, Charlotte capitalized aggressively early, executing sharp transition offense behind point guard LaMelo Ball and rookie forward sensation Brandon Miller to build a commanding 68-50 cushion midway through the third quarter. But just as the contest appeared to be slipping away from the visitors, Grimes ignited a blistering perimeter barrage that transformed the game into an instant regular-season classic.\n\nGrimes scored 24 of his 47 points in the fourth quarter and extra session alone, repeatedly punishing Charlotte's switching defense with deep pull-up jumpers and relentless off-ball cutting. When Charlotte took a three-point lead with under eight seconds remaining in regulation following a pair of clutch free throws, Lakers head coach JJ Redick designed an elevator-screen set out of a timeout. Grimes caught the inbound pass thirty feet out, created separation with a crossover dribble, and drilled a contested three-pointer over two outstretched defenders with 1.7 ticks left on the clock, sending the Los Angeles bench into pandemonium.\n\nIn the extra period, superstar playmaker Luka Doncic\u2014who delivered a masterful 36-point, 11-rebound, 7-assist performance\u2014orchestrated the offense to perfection, drawing double-teams and finding Grimes and forward Rui Hachimura for dagger corner baskets. Grimes iced the contest at the charity stripe with 4.1 seconds left, capping off a 47-point masterclass that saw him shoot 16-of-26 from the floor and 10-of-16 from downtown in 43 grueling minutes of action.\n\n\"You dream about moments like that since you're a kid shooting on an asphalt court in the rain,\" Grimes said in his post-game locker room interview, jersey drenched in celebratory ice water. \"Coach drew up the play, Luka told me to let it fly with zero hesitation, and the moment it left my fingertips, it felt pure. When our big dogs are down, everyone in this locker room knows they have to step into the fire. We never stopped believing we were going to win this basketball game.\"\n\nLakers head coach JJ Redick lauded Grimes' unflinching confidence and professional conditioning. \"What Quentin did tonight was pure basketball poetry,\" Redick said. \"To make ten threes on the road against a high-energy team with all the defensive attention on you, and to knock down the game-tying shot with under two seconds left\u2014that takes supreme mental toughness. He was magnificent from opening tip to final buzzer.\"\n\nWith the hard-fought victory, the Lakers improved to 12-2 on the young season, remaining atop the Western Conference standings as they prepare for a marquee home showdown against the defending champion Boston Celtics later this week.",
+  "category": "Sports",
+  "edition": [
+    "US & Americas",
+    "Global"
+  ],
+  "author": {
+    "name": "Jamal Crawford",
+    "role": "Senior NBA & Professional Sports Correspondent",
+    "avatar": "/images/authors/jamal_crawford.jpg"
+  },
+  "publishedAt": "4h ago",
+  "readTime": "7 min read",
+  "imageUrl": "/images/news/quentin-grimes-drops-47-as-lakers-edge-hornets-118-114-in-ot.webp",
+  "imageCaption": "Quentin Grimes lets fly the game-tying three-pointer with 1.7 seconds left in Charlotte.",
+  "imageCredit": "NBA Entertainment / AP",
+  "isInvestigative": false,
+  "commentCount": 356,
+  "bullets": [
+    "Quentin Grimes explodes for career-high 47 points and 10 triples in 118-114 overtime win over Hornets.",
+    "Lakers erase an 18-point second-half deficit as Grimes hits game-tying 3-pointer with 1.7 seconds in regulation.",
+    "Luka Doncic adds 36 points and 11 rebounds as Los Angeles extends winning streak to 9 games."
+  ],
+  "tags": [
+    "Sports",
+    "NBA",
+    "Lakers",
+    "Quentin Grimes",
+    "Luka Doncic",
+    "Hornets",
+    "Basketball"
+  ]
+},
+  {
+  "id": "nasa-astronauts-3d-print-living-human-tissues-aboard-the-iss",
+  "title": "NASA Astronauts 3D-Print Living Human Tissues Aboard the ISS",
+  "kicker": "SPACE BIOLOGY \u2022 MICROGRAVITY MEDICINE",
+  "summary": "Astronauts aboard the International Space Station achieved a major biomedical breakthrough, successfully bioprinting viable human tissue analogs in microgravity.",
+  "body": "CAPE CANAVERAL, Fla. & HOUSTON \u2014 In a milestone scientific achievement that could revolutionize terrestrial transplant medicine and enable multi-year human interplanetary exploration, NASA astronauts operating inside the International Space Station (ISS) have successfully manufactured complex three-dimensional human tissue analogs in sustained microgravity. Working inside the station's specialized Life Sciences Glovebox, Crew-13 commander Jessica Watkins and flight engineers completed a crucial phase of the InSPA-Auxilium Bioprinter experiment, fabricating cellular matrices of functional human liver, kidney, and knee meniscus cartilage without the structural deformities that plague earthbound biological printing.\n\nTerrestrial 3D bioprinting has long been constrained by the physical laws of Earth's gravity. When living cells are layered using specialized bio-inks on Earth, the weight of the biological fluids causes soft cellular structures to collapse and flatten before the vascular network can form and mature, requiring scientists to introduce synthetic scaffolding matrices that can trigger immune rejection or restrict cellular growth. In the sustained weightless environment of low Earth orbit, however, delicate bio-inks retain their spherical geometry and cellular integrity without artificial chemical supports, allowing human cells to self-assemble naturally into three-dimensional capillaries and tissue blocks.\n\nDuring the multi-day mission milestone, the crew fed living human stem cell lines and extracellular nutrient hydrogels into the precision InSPA-Auxilium printing apparatus. Over dozens of print cycles, the automated printheads deposited microscopic cellular droplets at micron-level precision, producing millimeter-thick tissue analogs that maintained cellular viability and demonstrated active metabolic respiration. The manufactured tissue samples were subsequently transferred to the space station's orbital incubators for cellular maturation and preservation before their scheduled return to Earth aboard an upcoming SpaceX Dragon resupply splashdown.\n\n\"What our crew accomplished aboard the space station this week represents a fundamental paradigm shift for regenerative medicine,\" said Dr. Aris Thorne, NASA Senior Biological Systems Specialist. \"By utilizing the unique physics of microgravity, we have demonstrated that living human tissues can be printed, vascularized, and matured without artificial structural matrices. This opens an extraordinary pathway where we may one day print patient-matched donor organs on commercial orbital platforms, eliminating waiting lists for organ transplants back home.\"\n\nBeyond its profound terrestrial medical applications, the bioprinting milestone addresses an urgent imperative for future deep-space exploration. As NASA prepares for permanent lunar habitats under the Artemis program and prospective crewed voyages to Mars, astronauts will operate millions of miles away from emergency surgical facilities. The ability to bioprint customized living skin grafts, vascular patches, and bone tissue in flight will provide unprecedented medical resilience against radiation damage, accidental trauma, and musculoskeletal atrophy during multi-year deep space voyages.\n\nNASA and its commercial biomedical partners confirmed that follow-on experiments will focus on expanding the scale of printed tissue patches and testing vascular fluid circulation under long-term incubation. The groundbreaking findings will be published across upcoming peer-reviewed journals, establishing low Earth orbit as the premier manufacturing proving ground for 21st-century biotechnology.",
+  "category": "Science",
+  "edition": [
+    "US & Americas",
+    "Global"
+  ],
+  "author": {
+    "name": "Dr. Aris Thorne",
+    "role": "Astrophysics & Space Systems Editor",
+    "avatar": "/images/authors/aris_thorne.jpg"
+  },
+  "publishedAt": "5h ago",
+  "readTime": "8 min read",
+  "imageUrl": "/images/news/nasa-astronauts-3d-print-living-human-tissues-aboard-the-iss.webp",
+  "imageCaption": "NASA astronaut inspecting the Life Sciences Glovebox during orbital 3D tissue bioprinting runs aboard the ISS.",
+  "imageCredit": "NASA / Johnson Space Center",
+  "isInvestigative": false,
+  "commentCount": 178,
+  "bullets": [
+    "Astronauts aboard the ISS successfully 3D-print viable human liver, kidney, and cartilage tissues in microgravity.",
+    "Weightlessness eliminates gravitational collapse, allowing cells to form natural capillaries without artificial scaffolds.",
+    "Breakthrough paves way for orbital organ manufacturing for Earth patients and deep-space surgical resilience."
+  ],
+  "tags": [
+    "Science",
+    "NASA",
+    "ISS",
+    "Space Biology",
+    "Biotechnology",
+    "Medicine",
+    "Spaceflight"
+  ]
+},
+  {
+  "id": "doj-and-fbi-seize-1-2b-in-north-korean-crypto-theft-crackdown",
+  "title": "DOJ and FBI Seize $1.2B in North Korean Crypto Theft Crackdown",
+  "kicker": "FEDERAL CYBERCRIME PROBE \u2022 ASSET FORFEITURE",
+  "summary": "Federal prosecutors and the FBI executed coordinated international seizure warrants freezing over $1.2 billion in cryptocurrency laundered by state-sponsored North Korean cyber syndicates.",
+  "body": "WASHINGTON \u2014 In the largest coordinated asset forfeiture operation against state-sponsored cyber theft in American history, the U.S. Department of Justice and the Federal Bureau of Investigation announced Wednesday that federal authorities have secured court-authorized warrants seizing and restraining more than $1.2 billion in illicitly obtained cryptocurrency and related digital assets. The unprecedented enforcement sweep struck a devastating blow against elite cyber espionage apparatuses tied to the Democratic People's Republic of Korea (DPRK), disrupting complex transnational laundering conduits used to fund prohibited weapons programs through systematic digital piracy.\n\nThe unsealed federal affidavits, filed across federal courts in the District of Columbia and the Eastern District of Virginia, detail an exhaustive multi-year forensic investigation targeting advanced persistent threat groups, including the notorious 'TraderTraitor' and 'Lazarus Group' syndicates. Federal cyber investigators revealed that the seized funds originated from a series of audaciously executed intrusions against decentralized cryptocurrency exchanges, blockchain bridges, and corporate venture funds over the past eighteen months, including a catastrophic multi-hundred-million-dollar exploitation of private cryptographic validator keys.\n\nCentral to the operation was the dismantlement of the 'FaceStealer' social engineering infrastructure\u2014a sophisticated covert operation wherein North Korean cyber operatives created fabricated digital identities posing as freelance IT developers, blockchain auditors, and recruitment executives. Using weaponized video conferencing software and poisoned coding repositories, the operatives deceived employees at critical infrastructure and decentralized finance firms into downloading concealed remote-access trojans. Once inside corporate intranets, the operatives exfiltrated administrative private keys, drained digital liquidity pools, and cycled stolen funds through a labyrinth of automated mixers, cross-chain bridges, and unregulated peer-to-peer over-the-counter brokers.\n\n\"State-sponsored cyber syndicates that plunder the digital financial ecosystem to finance ballistic missile technology and regional destabilization operate under the delusion that the blockchain provides impenetrable anonymity,\" said Deputy Attorney General Lisa Monaco during an emergency press briefing at Justice Department headquarters. \"Today's historic $1.2 billion seizure shatters that illusion. Through cutting-edge blockchain analytics, deep international law enforcement partnerships, and relentless investigative work, the United States will aggressively pursue, freeze, and claw back every digital dollar stolen by foreign adversaries.\"\n\nThe FBI coordinated with international law enforcement counterparts across twelve countries, executing simultaneous warrants against dark web bulletproof hosting nodes, offshore exchange depository accounts, and domain-name servers across Europe, East Asia, and the Americas. Federal cyber agents also recovered proprietary command-and-control scripts and operational manuals detailing how North Korean operatives laundered digital assets into fiat currency via complicit front companies located in third-party jurisdictions.\n\nFederal cyber defense officials noted that the successful seizure deprives hostile foreign intelligence apparatuses of critical operational revenue while sending a powerful deterrent warning across the global fintech and Web3 sector. The Justice Department confirmed that seized cryptocurrency assets are currently secured in encrypted federal custody and will be subject to comprehensive civil asset forfeiture proceedings to facilitate restitution to affected private victims and institutional liquidity pools.",
+  "category": "Investigation",
+  "edition": [
+    "US & Americas",
+    "Global"
+  ],
+  "author": {
+    "name": "Jonathan Ross",
+    "role": "Chief Investigative Reporter",
+    "avatar": "/images/authors/jonathan_ross.jpg"
+  },
+  "publishedAt": "5h ago",
+  "readTime": "9 min read",
+  "imageUrl": "/images/news/doj-and-fbi-seize-1-2b-in-north-korean-crypto-theft-crackdown.webp",
+  "imageCaption": "FBI Cyber Division command center monitoring multi-jurisdictional cryptocurrency asset seizures.",
+  "imageCredit": "Department of Justice / AP",
+  "isInvestigative": true,
+  "commentCount": 245,
+  "bullets": [
+    "DOJ and FBI seize and restrain over $1.2 billion in stolen crypto linked to North Korean state-sponsored hackers.",
+    "Investigation targeted 'TraderTraitor' and 'FaceStealer' syndicates that compromised decentralized finance protocols.",
+    "Simultaneous federal warrants executed across 12 countries, dismantling dark web command and mixer infrastructure."
+  ],
+  "tags": [
+    "Investigation",
+    "DOJ",
+    "FBI",
+    "Cybercrime",
+    "Cryptocurrency",
+    "National Security",
+    "Asset Forfeiture"
+  ]
+},
+  {
+  "id": "why-starving-new-york-transit-threatens-americas-economy",
+  "title": "Why Starving New York Transit Threatens America's Economy",
+  "kicker": "GUEST ESSAY \u2022 URBAN INFRASTRUCTURE",
+  "summary": "Refusing equitable federal funding for New York's mass transit system is short-sighted fiscal sabotage that imperils the nation's premier economic generator.",
+  "body": "NEW YORK \u2014 In the cavernous halls of Capitol Hill, it has long been a favored political sport among certain lawmakers to treat New York's mass transit infrastructure as a bloated, localized indulgence rather than what it truly is: the indispensable beating heart of the United States economy. As Governor Kathy Hochul and MTA leaders arrive in Washington this week to sound the alarm on a staggering funding shortfall ahead of the December 11 federal deadline, the national conversation must move past provincial posturing and confront an undeniable economic reality: when New York's transit system is starved, the entire American economy suffers.\n\nConsider the stark arithmetic that Washington persistently ignores. The New York metropolitan area generates roughly $2.2 trillion in annual economic output\u2014nearly 10% of the entire gross domestic product of the United States. It houses the nation's deepest capital markets, its most prolific media institutions, world-class medical research complexes, and a vibrant cultural economy that draws tens of millions of international visitors every year. None of this wealth is possible without the Metropolitan Transportation Authority. The subway and commuter rail network moves nearly 6 million riders each weekday, taking millions of vehicles off choked highways and enabling a density of human talent and productivity unmatched anywhere in the Western Hemisphere.\n\nYet federal transit policy treats this national asset with incomprehensible neglect. Under antiquated statutory formula allocations, New York provides roughly 43% of all public transit trips nationwide but receives a meager 17% of federal transit assistance. Meanwhile, sprawling highway construction programs in low-density states enjoy nearly automatic 80% federal matching funds with little scrutiny over economic return on investment. Compounding this disparity, the prospect of federal tariffs adding $1 billion to train car and bus procurements threatens to bring capital repairs to a grinding halt.\n\nThe consequences of federal inaction are not abstract. When track signals fail, when subway cars age past their operational lifespans without replacement, and when maintenance backlogs mount, the friction cost cascades across the global financial system. A twenty-minute subway delay on the Lexington Avenue line ripples into trading desks, corporate boardrooms, hospital operating theaters, and supply chain hubs. If the MTA is forced into deep service cuts or aggressive fare spikes to plug its capital gaps, middle-class workforce mobility will decline, corporate relocations will accelerate, and the federal tax revenue generated by New York's economic engine will contract far beyond the modest billions requested in emergency transit appropriations.\n\nInvesting in mass transit is not an act of charity to New York; it is sound national industrial policy. It stabilizes the largest consumer market in North America, advances aggressive climate and energy efficiency goals, and maintains the infrastructural spine of our premier global financial capital. Congress must abandon the petty fiction that urban transit is an isolated regional burden. It is time for Washington to fund the New York subway system with the dignity, urgency, and parity that America's economic lifeline demands.",
+  "category": "Opinion",
+  "edition": [
+    "US & Americas",
+    "Global"
+  ],
+  "author": {
+    "name": "Jonathan Ward",
+    "role": "Guest Contributing Columnist & Urban Economics Fellow",
+    "avatar": "/images/authors/jonathan_ward.jpg"
+  },
+  "publishedAt": "5h ago",
+  "readTime": "8 min read",
+  "imageUrl": "/images/news/why-starving-new-york-transit-threatens-americas-economy.webp",
+  "imageCaption": "Crowds of morning commuters pack an uptown subway platform during peak Manhattan rush hour.",
+  "imageCredit": "Newyorkerherald Archive / AP",
+  "isInvestigative": false,
+  "commentCount": 289,
+  "bullets": [
+    "New York metro region produces 10% of total U.S. GDP, powered daily by the MTA's 6 million transit riders.",
+    "Federal formula sends only 17% of transit funds to NYC despite the city moving 43% of all American transit riders.",
+    "Congressional failure to fund urban infrastructure risks national economic friction and workforce disruptions."
+  ],
+  "tags": [
+    "Opinion",
+    "New York",
+    "MTA",
+    "Infrastructure",
+    "Economy",
+    "Public Affairs",
+    "Transit"
+  ]
+},
   {
     id: "white-house-orders-agencies-to-curb-congressional-testimony",
     title: "White House Orders Agencies to Curb Congressional Testimony",
@@ -1148,6 +1492,44 @@ As the Federal Energy Regulatory Commission (FERC) convenes national stakeholder
 
 export const CATEGORY_ARTICLES: Record<string, Article[]> = {
   'Investigation': [
+    {
+    "id": "doj-and-fbi-seize-1-2b-in-north-korean-crypto-theft-crackdown",
+    "title": "DOJ and FBI Seize $1.2B in North Korean Crypto Theft Crackdown",
+    "kicker": "FEDERAL CYBERCRIME PROBE \u2022 ASSET FORFEITURE",
+    "summary": "Federal prosecutors and the FBI executed coordinated international seizure warrants freezing over $1.2 billion in cryptocurrency laundered by state-sponsored North Korean cyber syndicates.",
+    "body": "WASHINGTON \u2014 In the largest coordinated asset forfeiture operation against state-sponsored cyber theft in American history, the U.S. Department of Justice and the Federal Bureau of Investigation announced Wednesday that federal authorities have secured court-authorized warrants seizing and restraining more than $1.2 billion in illicitly obtained cryptocurrency and related digital assets. The unprecedented enforcement sweep struck a devastating blow against elite cyber espionage apparatuses tied to the Democratic People's Republic of Korea (DPRK), disrupting complex transnational laundering conduits used to fund prohibited weapons programs through systematic digital piracy.\n\nThe unsealed federal affidavits, filed across federal courts in the District of Columbia and the Eastern District of Virginia, detail an exhaustive multi-year forensic investigation targeting advanced persistent threat groups, including the notorious 'TraderTraitor' and 'Lazarus Group' syndicates. Federal cyber investigators revealed that the seized funds originated from a series of audaciously executed intrusions against decentralized cryptocurrency exchanges, blockchain bridges, and corporate venture funds over the past eighteen months, including a catastrophic multi-hundred-million-dollar exploitation of private cryptographic validator keys.\n\nCentral to the operation was the dismantlement of the 'FaceStealer' social engineering infrastructure\u2014a sophisticated covert operation wherein North Korean cyber operatives created fabricated digital identities posing as freelance IT developers, blockchain auditors, and recruitment executives. Using weaponized video conferencing software and poisoned coding repositories, the operatives deceived employees at critical infrastructure and decentralized finance firms into downloading concealed remote-access trojans. Once inside corporate intranets, the operatives exfiltrated administrative private keys, drained digital liquidity pools, and cycled stolen funds through a labyrinth of automated mixers, cross-chain bridges, and unregulated peer-to-peer over-the-counter brokers.\n\n\"State-sponsored cyber syndicates that plunder the digital financial ecosystem to finance ballistic missile technology and regional destabilization operate under the delusion that the blockchain provides impenetrable anonymity,\" said Deputy Attorney General Lisa Monaco during an emergency press briefing at Justice Department headquarters. \"Today's historic $1.2 billion seizure shatters that illusion. Through cutting-edge blockchain analytics, deep international law enforcement partnerships, and relentless investigative work, the United States will aggressively pursue, freeze, and claw back every digital dollar stolen by foreign adversaries.\"\n\nThe FBI coordinated with international law enforcement counterparts across twelve countries, executing simultaneous warrants against dark web bulletproof hosting nodes, offshore exchange depository accounts, and domain-name servers across Europe, East Asia, and the Americas. Federal cyber agents also recovered proprietary command-and-control scripts and operational manuals detailing how North Korean operatives laundered digital assets into fiat currency via complicit front companies located in third-party jurisdictions.\n\nFederal cyber defense officials noted that the successful seizure deprives hostile foreign intelligence apparatuses of critical operational revenue while sending a powerful deterrent warning across the global fintech and Web3 sector. The Justice Department confirmed that seized cryptocurrency assets are currently secured in encrypted federal custody and will be subject to comprehensive civil asset forfeiture proceedings to facilitate restitution to affected private victims and institutional liquidity pools.",
+    "category": "Investigation",
+    "edition": [
+        "US & Americas",
+        "Global"
+    ],
+    "author": {
+        "name": "Jonathan Ross",
+        "role": "Chief Investigative Reporter",
+        "avatar": "/images/authors/jonathan_ross.jpg"
+    },
+    "publishedAt": "5h ago",
+    "readTime": "9 min read",
+    "imageUrl": "/images/news/doj-and-fbi-seize-1-2b-in-north-korean-crypto-theft-crackdown.webp",
+    "imageCaption": "FBI Cyber Division command center monitoring multi-jurisdictional cryptocurrency asset seizures.",
+    "imageCredit": "Department of Justice / AP",
+    "isInvestigative": true,
+    "commentCount": 245,
+    "bullets": [
+        "DOJ and FBI seize and restrain over $1.2 billion in stolen crypto linked to North Korean state-sponsored hackers.",
+        "Investigation targeted 'TraderTraitor' and 'FaceStealer' syndicates that compromised decentralized finance protocols.",
+        "Simultaneous federal warrants executed across 12 countries, dismantling dark web command and mixer infrastructure."
+    ],
+    "tags": [
+        "Investigation",
+        "DOJ",
+        "FBI",
+        "Cybercrime",
+        "Cryptocurrency",
+        "National Security",
+        "Asset Forfeiture"
+    ]
+},
   {
     id: "doj-extradites-kazakh-national-over-major-us-hospital-ransomware",
     title: "DOJ Extradites Kazakh National Over Major US Hospital Ransomware",
@@ -1477,6 +1859,45 @@ In Albany, Governor Kathy Hochul convened an emergency public health cabinet mee
     }
   ],
     'US': [
+    {
+    "id": "hochul-and-mta-press-congress-for-billions-in-transit-funds",
+    "title": "Hochul and MTA Press Congress for Billions in Transit Funds",
+    "kicker": "PUBLIC AFFAIRS \u2022 NEW YORK TRANSIT CRISIS",
+    "summary": "Governor Kathy Hochul and MTA leadership launched an urgent federal lobbying offensive, warning that New York carries 43% of national transit riders but receives only 17% of federal transit funding.",
+    "body": "NEW YORK & WASHINGTON \u2014 In a high-stakes confrontation over the future of urban infrastructure, New York Governor Kathy Hochul and Metropolitan Transportation Authority (MTA) Chair and CEO Janno Lieber launched an aggressive emergency lobbying blitz in Washington on Wednesday, demanding that Congress rectify a massive federal transit funding deficit that threatens the economic vitality of the entire tri-state region. Presenting newly certified operational data, state and transit officials revealed that while New York's subways, buses, and commuter rail systems account for nearly 43% of all mass transit journeys in the United States, the agency receives merely 17% of federal formula transit assistance, creating an unsustainable fiscal imbalance ahead of a pivotal December 11 federal funding deadline.\n\nThe public affairs offensive comes at a perilous financial moment for the transit authority. With pandemic-era federal relief exhausted, ridership stabilizing below pre-2020 peaks, and escalating operational maintenance costs, the MTA warned that failure to secure advance federal appropriations will blow an unrecoverable multi-hundred-million-dollar hole into its fiscal 2027 capital program. Such a shortfall would jeopardize vital modernization projects, including signal automation along the Lexington Avenue subway line, accessibility upgrades across outer-borough stations, and phase two of the Second Avenue Subway extension into East Harlem.\n\nCompounding the crisis, Governor Hochul formally petitioned federal commerce and transportation regulators for comprehensive tariff exemptions on imported train cars, electric buses, and critical signaling components manufactured overseas. Officials estimate that impending trade tariffs could add upwards of $1 billion in direct surcharges to scheduled rolling stock procurements, forcing painful tradeoffs between purchasing new rail equipment and maintaining current service frequencies across the five boroughs, Long Island, and the Hudson Valley.\n\n\"New York's transit network is not just a regional amenity; it is the economic cardiovascular system of the United States,\" Governor Hochul asserted during a joint Capitol Hill press briefing alongside transit labor leaders and regional business executives. \"Every day, millions of essential workers, students, entrepreneurs, and tourists depend on our subways and commuter rails to power nearly 10% of the entire gross domestic product of this nation. To ask New York taxpayers to shoulder almost half of America's transit ridership with less than a fifth of federal transit investment is economically irrational and fundamentally unfair. Washington cannot take New York for granted.\"\n\nMTA Chair Janno Lieber echoed the governor's warnings, laying out the potential consequences if federal lawmakers fail to include dedicated capital backstops in the upcoming omnibus appropriations package. Lieber underscored that without federal parity and targeted relief from crippling equipment tariffs, the authority would be pushed toward unpalatable options, including accelerated fare hikes, deferred state-of-good-repair overhauls, or delays to the Interborough Express (IBX) light rail project linking Brooklyn and Queens.\n\nCivic advocacy organizations, urban planning bodies, and Wall Street business groups have rallied behind the state's push. The Partnership for New York City issued a companion analysis warning that any forced degradation in transit reliability would trigger cascading economic fallout, disincentivizing corporate returns to commercial business districts and eroding municipal tax bases. As negotiations in Congress heat up over surface transportation reauthorization, New York's leaders have drawn a definitive line, making equitable transit dollars the ultimate test of federal urban commitment.",
+    "category": "US",
+    "edition": [
+        "US & Americas",
+        "Global"
+    ],
+    "author": {
+        "name": "David Brooks",
+        "role": "Urban Affairs & Governance Correspondent",
+        "avatar": "/images/authors/sarah_mitchell.jpg"
+    },
+    "publishedAt": "3h ago",
+    "readTime": "8 min read",
+    "imageUrl": "/images/news/hochul-and-mta-press-congress-for-billions-in-transit-funds.webp",
+    "imageCaption": "Governor Kathy Hochul and MTA CEO Janno Lieber presenting federal transit funding data during a joint address.",
+    "imageCredit": "Office of Governor Kathy Hochul / AP",
+    "isInvestigative": false,
+    "commentCount": 218,
+    "bullets": [
+        "Governor Kathy Hochul and MTA CEO Janno Lieber mount federal lobbying drive ahead of December 11 funding deadline.",
+        "Data shows NYC handles 43% of U.S. transit ridership but receives only 17% of federal transit formula dollars.",
+        "State seeks tariff waivers on railcars and electric buses to prevent an estimated $1B equipment cost surge."
+    ],
+    "tags": [
+        "US",
+        "New York",
+        "MTA",
+        "Kathy Hochul",
+        "Public Affairs",
+        "Infrastructure",
+        "Congress",
+        "Transit Funding"
+    ]
+},
   {
     id: "fema-holds-nationwide-alert-test-amid-viral-blackout-falsehoods",
     title: "FEMA Holds Nationwide Alert Test Amid Viral Blackout Falsehoods",
@@ -1827,6 +2248,44 @@ As the clocks reset, congressional leaders confirmed that bipartisan committee s
     }
   ],
   'Politics': [
+    {
+    "id": "white-house-withdraws-heidi-overton-nomination-to-lead-fda",
+    "title": "White House Withdraws Heidi Overton Nomination to Lead FDA",
+    "kicker": "CABINET SHAKEUP \u2022 HEALTH POLICY",
+    "summary": "The White House has formally withdrawn Heidi Overton's nomination to serve as FDA Commissioner following stiff resistance from Senate lawmakers, scientific bodies, and public health advocates.",
+    "body": "WASHINGTON \u2014 In a major retreat on executive appointments following the contentious midterm elections, the White House on Wednesday formally withdrew the nomination of Dr. Heidi Overton to serve as Commissioner of the Food and Drug Administration (FDA). The sudden decision followed days of mounting bipartisan skepticism on Capitol Hill, where lawmakers from both parties, prominent biomedical research coalitions, and former public health officials expressed acute concerns over her unconventional regulatory philosophies and stated intentions to overhaul pharmaceutical review standards.\n\nThe withdrawal marks the highest-profile executive nomination collapse of the post-election transition period. Dr. Overton, a surgical fellow and prominent health policy researcher known for championing institutional deregulation and questioning long-standing nutritional and pharmaceutical guidelines, had initially been elevated by the administration to spearhead a sweeping reform agenda aligned with the 'Make America Healthy Again' coalition. However, her impending confirmation faced an insurmountable wall of opposition within the Senate Committee on Health, Education, Labor, and Pensions (HELP), where several moderate Republican lawmakers joined a unified Democratic minority in signaling they would not vote to advance her nomination to the Senate floor.\n\nSenior congressional aides familiar with the committee's deliberations confirmed that private confirmation vetting sessions deteriorated rapidly over the past seventy-two hours. Key senators pressed Overton on her past public critiques of established vaccine clinical trial benchmarks, her proposals to deregulate certain dietary supplements, and her contentious views regarding the FDA's regulatory authority over ultra-processed food additives. Industry representatives from major pharmaceutical developers and agricultural conglomerates also mounted behind-the-scenes lobbying campaigns, warning that sudden disruptions to the FDA's rigorous gold-standard review processes could destabilize global biomedical markets and undermine public trust in domestic healthcare oversight.\n\n\"The integrity and scientific independence of the Food and Drug Administration are paramount to the safety and well-being of hundreds of millions of American families,\" said HELP Committee leadership in a statement following the announcement. \"While every administration has the prerogative to nominate leaders who reflect its broader policy priorities, the leader of our nation's primary consumer protection and biomedical agency must possess unassailable credibility and an unwavering commitment to empirical, peer-reviewed science. The administration's decision to pull this nomination reflects the reality of the Senate's constitutional advice and consent role.\"\n\nIn a terse statement released late Wednesday afternoon, the White House defended Overton's background while conceding that prolonged confirmation gridlock would paralyze the agency at a critical juncture. \"Dr. Overton has spent her career advocating for greater clinical transparency, patient autonomy, and bold structural reforms to address chronic disease epidemics,\" the executive press office noted. \"While we regret that entrenched bureaucratic and special-interest opposition has prevented the Senate from giving her fair consideration, the administration remains dedicated to delivering transformative health leadership and will announce a replacement nominee in the coming days.\"\n\nPublic health organizations and patient advocacy groups breathed a collective sigh of relief, though policy analysts warned that the vacancy leaves the FDA under temporary acting leadership precisely as federal agencies prepare for critical decisions regarding winter respiratory immunizations, medical device approvals, and contentious food labeling mandates heading into the new fiscal year.",
+    "category": "Politics",
+    "edition": [
+        "US & Americas",
+        "Global"
+    ],
+    "author": {
+        "name": "Sarah Mitchell",
+        "role": "Chief Congressional & National Security Correspondent",
+        "avatar": "/images/authors/sarah_mitchell.jpg"
+    },
+    "publishedAt": "2h ago",
+    "readTime": "7 min read",
+    "imageUrl": "/images/news/white-house-withdraws-heidi-overton-nomination-to-lead-fda.webp",
+    "imageCaption": "The Food and Drug Administration headquarters in Silver Spring, Maryland, as the White House withdraws its commissioner nominee.",
+    "imageCredit": "Reuters / Leah Millis",
+    "isInvestigative": false,
+    "commentCount": 142,
+    "bullets": [
+        "White House officially withdraws Dr. Heidi Overton's nomination to lead the Food and Drug Administration.",
+        "Bipartisan resistance in the Senate HELP Committee centered on regulatory views and pharmaceutical review benchmarks.",
+        "The collapse marks the highest-profile executive appointment reversal following the 2026 midterm elections."
+    ],
+    "tags": [
+        "Politics",
+        "White House",
+        "FDA",
+        "Senate",
+        "Health Policy",
+        "Congress",
+        "Cabinet Nominations"
+    ]
+},
   {
     id: "white-house-orders-agencies-to-curb-congressional-testimony",
     title: "White House Orders Agencies to Curb Congressional Testimony",
@@ -2710,6 +3169,44 @@ Sports finance experts note that the move mirrors a broader institutional trend 
   ],
 
   'Tech': [
+    {
+    "id": "google-expands-gemini-into-autonomous-ai-agent-for-real-tasks",
+    "title": "Google Expands Gemini Into Autonomous AI Agent For Real Tasks",
+    "kicker": "ARTIFICIAL INTELLIGENCE \u2022 AGENTIC WORKFLOWS",
+    "summary": "Google unveiled an expansive architectural upgrade to Gemini, transforming the conversational AI into an autonomous agent capable of executing complex real-world actions across applications.",
+    "body": "MOUNTAIN VIEW, Calif. \u2014 In a milestone transition that signals the arrival of practical autonomous software, Google on Wednesday officially rolled out a sweeping architectural evolution for its Gemini platform, transforming the system from a passive conversational language model into an active, multi-modal autonomous agent capable of executing complex digital workflows across the web, mobile operating systems, and enterprise services. The deployment represents Google's most aggressive push yet into 'agentic AI,' empowering algorithms to plan, execute, and verify multistep human tasks without requiring continuous line-by-line prompting.\n\nThe upgraded Gemini agentic system introduces native action execution across everyday digital environments. Users can now assign high-level goals\u2014such as auditing calendar conflicts, placing telephone calls to confirm restaurant or service reservations, comparing price differentials across multiple retail platforms, and completing secure e-commerce checkout via Google Pay\u2014while Gemini coordinates background API interactions and visual screen navigation. Built upon advanced reasoning kernels, the model breaks down abstract requests into programmatic sub-goals, autonomously navigating authentication challenges and presenting users with interactive confirmation checkpoints before authorizing financial charges or transmitting personal data.\n\nGoogle demonstrated the system handling intricate personal logistics, including negotiating schedule changes with commercial vendors and managing multi-platform travel itineraries. The agent is launching at no additional cost for users across major global markets, including the United States, Japan, India, and Australia, integrated directly into Android devices, Google Workspace suites, and standard Chrome browser sessions. The rollout comes as Silicon Valley rivals, including OpenAI, Microsoft, and Anthropic, race to transition their frontier models from text generation engines into actionable autonomous assistants capable of replacing repetitive human knowledge work.\n\n\"We are shifting from an era where humans adapt to computers to an era where computers actively work on behalf of humans,\" said Sundar Pichai, CEO of Alphabet and Google, during an executive keynote briefing at Google's Mountain View campus. \"Conversational intelligence was the first chapter of generative AI. The next frontier is agency: AI that understands context, anticipates logistical hurdles, and safely takes action in the real world to give people hours of their lives back each week.\"\n\nThe announcement arrives amid intense global regulatory and ethical scrutiny regarding autonomous agent security. Independent cybersecurity researchers have warned that granting AI systems direct agency over email accounts, telephone telephony, and payment mechanisms introduces novel threat vectors, including automated social engineering and prompt injection attacks that could hijack agent permissions. Addressing these concerns, Google emphasized that the Gemini agent incorporates hardware-isolated cryptographic verification layers, rigorous sandboxing protocols, and strict human-in-the-loop policies for all transactional operations.\n\nIndustry analysts predict that Google's deep integration across Android, Google Search, Maps, and Gmail gives the tech giant an unmatched distribution advantage over standalone AI competitors. As enterprise and consumer adoption accelerates, the launch is poised to ignite a transformative shift in how humans interact with the internet, redefining software from a collection of static applications into an autonomous, proactive digital workforce.",
+    "category": "Tech",
+    "edition": [
+        "US & Americas",
+        "Global"
+    ],
+    "author": {
+        "name": "Elena Rostova",
+        "role": "Senior Artificial Intelligence & Tech Policy Editor",
+        "avatar": "/images/authors/elena_rostova.jpg"
+    },
+    "publishedAt": "3h ago",
+    "readTime": "8 min read",
+    "imageUrl": "/images/news/google-expands-gemini-into-autonomous-ai-agent-for-real-tasks.webp",
+    "imageCaption": "Visual demonstration of Gemini's new autonomous task execution and agentic workflow platform.",
+    "imageCredit": "Google LLC / Press Archive",
+    "isInvestigative": false,
+    "commentCount": 267,
+    "bullets": [
+        "Google deploys major Gemini update converting conversational AI into an autonomous task-executing agent.",
+        "System autonomously manages phone scheduling, retail price comparisons, and Google Pay checkouts.",
+        "Feature launches globally across Android, Chrome, and Workspace with cryptographic human-in-the-loop safeguards."
+    ],
+    "tags": [
+        "Tech",
+        "Google",
+        "Gemini",
+        "Artificial Intelligence",
+        "Agentic AI",
+        "Android",
+        "Silicon Valley"
+    ]
+},
   {
     id: "gta-vi-countdown-upends-gaming-slates-as-budgets-eclipse-1b",
     title: "GTA VI Countdown Upends Gaming Slates as Budgets Eclipse $1B",
@@ -3137,6 +3634,44 @@ Aerospace financial analysts estimate that SpaceX's commercial launch and satell
   ],
 
   'Entertainment': [
+    {
+    "id": "raye-leads-2027-grammy-nominations-with-record-tying-11-nods",
+    "title": "Raye Leads 2027 Grammy Nominations With Record-Tying 11 Nods",
+    "kicker": "MUSIC AWARDS \u2022 GRAMMY NOMINATIONS",
+    "summary": "British singer-songwriter Raye made music history by earning 11 nominations for the 69th Grammy Awards, tying Beyonc\u00e9's all-time single-year record for a female artist.",
+    "body": "LOS ANGELES \u2014 In a triumphant validation of artistic independence and songwriting virtuosity, British singer-songwriter Raye captured the spotlight of the global music industry on Wednesday as the Recording Academy officially unveiled nominations for the 69th Annual Grammy Awards. Raye secured a staggering 11 nominations across major general and genre categories, tying the historic all-time single-year record set by Beyonc\u00e9 in 2025 for the most nominations earned by a female artist in Grammy history. The landmark achievement cements her extraordinary ascent from a disillusioned major-label refugee into one of modern music's most celebrated autonomous visionaries.\n\nRaye's monumental sweep was anchored by her critically revered second studio LP, 'This Music May Contain Hope,' which garnered coveted nominations for Album of the Year and Best Pop Vocal Album. Her breakout anthemic single, 'Where Is My Husband!,' proved an inescapable cultural juggernaut, picking up nods for Record of the Year, Song of the Year, and Best Pop Solo Performance. Beyond the marquee pop categories, the London-born multi-instrumentalist earned widespread recognition across dance, R&B, and technical fields, including Songwriter of the Year (Non-Classical) and Producer of the Year, reflecting her exhaustive hands-on craft across composition, vocal arrangement, and orchestral production.\n\nTrailing closely behind Raye was Spanish powerhouse Rosal\u00eda, who captured an extraordinary nine nominations of her own, propelled by her genre-defying masterpiece 'Lux (Complete Works)' and her groundbreaking international collaboration 'Berghain' alongside Bj\u00f6rk and Yves Tumor. The heavy presence of both European trailblazers across American music's most prestigious honors underscores a profound internationalization of the Grammy electorate, following years of voting academy structural reforms aimed at diversifying age, geography, and genre representation among its voting membership.\n\n\"To see your life's work, written in tears, sleepless nights, and complete creative freedom, embraced in this manner is something I can scarcely comprehend,\" an emotional Raye stated from London shortly after the nominations broadcast. \"A few short years ago, I was fighting just to release my music into the world under my own terms. To stand alongside the icons I idolized as a girl is proof that when artists hold on to their truth and refuse to compromise, listeners will meet them there. This is a victory for independent artists everywhere.\"\n\nMusic critics and cultural commentators noted that this year's nomination slate reflects an overdue shift away from formulaic streaming algorithmic hits toward daring, long-form artistic expression. In addition to Raye and Rosal\u00eda, the Album of the Year ballot features an unusually diverse and fiercely competitive roster of global talent, setting up an electrifying face-off when the awards are handed out live at the Crypto.com Arena in Los Angeles on February 7, 2027.\n\nThe Recording Academy also highlighted significant gains in female and non-binary representation across technical categories, with women dominating both the Producer of the Year and Best Engineered Album categories for the first time. As the music community begins its annual winter campaign season, Raye's record-equaling achievement stands as an indelible testament to the enduring power of raw musical excellence over corporate assembly-line pop.",
+    "category": "Entertainment",
+    "edition": [
+        "US & Americas",
+        "Global"
+    ],
+    "author": {
+        "name": "Marcus Vance",
+        "role": "Culture & Entertainment Editor",
+        "avatar": "/images/authors/marcus_vance.jpg"
+    },
+    "publishedAt": "4h ago",
+    "readTime": "7 min read",
+    "imageUrl": "/images/news/raye-leads-2027-grammy-nominations-with-record-tying-11-nods.webp",
+    "imageCaption": "British sensation Raye celebrates a record-tying 11 nominations ahead of the 69th Grammy Awards.",
+    "imageCredit": "The Recording Academy / Getty Images",
+    "isInvestigative": false,
+    "commentCount": 184,
+    "bullets": [
+        "Raye secures 11 Grammy nominations, tying Beyonc\u00e9's all-time single-year record for a female artist.",
+        "Nominations include Album of the Year, Record of the Year, Song of the Year, and Producer of the Year.",
+        "Spanish artist Rosal\u00eda follows with 9 nominations; ceremony set for February 7, 2027 in Los Angeles."
+    ],
+    "tags": [
+        "Entertainment",
+        "Grammys",
+        "Raye",
+        "Rosal\u00eda",
+        "Music Awards",
+        "Recording Academy",
+        "Pop Music"
+    ]
+},
   {
     id: "robert-pattinson-cast-as-james-bond-in-denis-villeneuve-reboot",
     title: "Robert Pattinson Cast as James Bond in Denis Villeneuve Reboot",
@@ -3501,6 +4036,44 @@ Furthermore, cloud streaming platforms and mobile distribution networks have low
   ],
 
   'Sports': [
+    {
+    "id": "quentin-grimes-drops-47-as-lakers-edge-hornets-118-114-in-ot",
+    "title": "Quentin Grimes Drops 47 as Lakers Edge Hornets 118-114 in OT",
+    "kicker": "NBA REGULAR SEASON \u2022 OVERTIME DRAMA",
+    "summary": "Quentin Grimes erupted for a career-high 47 points, hitting ten three-pointers including a miracle game-tying shot, to propel the Lakers past Charlotte in an overtime thriller.",
+    "body": "CHARLOTTE, N.C. \u2014 In an astonishing individual shooting exhibition that electrified the Spectrum Center and rewrote franchise record books, guard Quentin Grimes poured in a sensational career-high 47 points on Tuesday night, dragging the Los Angeles Lakers back from an 18-point second-half deficit to capture a breathless 118-114 overtime victory over the Charlotte Hornets. Grimes connected on ten shots from beyond the three-point arc, including a cold-blooded, step-back triple with 1.7 seconds remaining in regulation that rescued Los Angeles from the brink of defeat and extended their season-best winning streak to nine consecutive games.\n\nThe Lakers entered Tuesday's road tilt facing significant adversity, missing key starters Austin Reaves and center Walker Kessler due to nagging hamstring and ankle ailments. With the offense searching for rhythm, Charlotte capitalized aggressively early, executing sharp transition offense behind point guard LaMelo Ball and rookie forward sensation Brandon Miller to build a commanding 68-50 cushion midway through the third quarter. But just as the contest appeared to be slipping away from the visitors, Grimes ignited a blistering perimeter barrage that transformed the game into an instant regular-season classic.\n\nGrimes scored 24 of his 47 points in the fourth quarter and extra session alone, repeatedly punishing Charlotte's switching defense with deep pull-up jumpers and relentless off-ball cutting. When Charlotte took a three-point lead with under eight seconds remaining in regulation following a pair of clutch free throws, Lakers head coach JJ Redick designed an elevator-screen set out of a timeout. Grimes caught the inbound pass thirty feet out, created separation with a crossover dribble, and drilled a contested three-pointer over two outstretched defenders with 1.7 ticks left on the clock, sending the Los Angeles bench into pandemonium.\n\nIn the extra period, superstar playmaker Luka Doncic\u2014who delivered a masterful 36-point, 11-rebound, 7-assist performance\u2014orchestrated the offense to perfection, drawing double-teams and finding Grimes and forward Rui Hachimura for dagger corner baskets. Grimes iced the contest at the charity stripe with 4.1 seconds left, capping off a 47-point masterclass that saw him shoot 16-of-26 from the floor and 10-of-16 from downtown in 43 grueling minutes of action.\n\n\"You dream about moments like that since you're a kid shooting on an asphalt court in the rain,\" Grimes said in his post-game locker room interview, jersey drenched in celebratory ice water. \"Coach drew up the play, Luka told me to let it fly with zero hesitation, and the moment it left my fingertips, it felt pure. When our big dogs are down, everyone in this locker room knows they have to step into the fire. We never stopped believing we were going to win this basketball game.\"\n\nLakers head coach JJ Redick lauded Grimes' unflinching confidence and professional conditioning. \"What Quentin did tonight was pure basketball poetry,\" Redick said. \"To make ten threes on the road against a high-energy team with all the defensive attention on you, and to knock down the game-tying shot with under two seconds left\u2014that takes supreme mental toughness. He was magnificent from opening tip to final buzzer.\"\n\nWith the hard-fought victory, the Lakers improved to 12-2 on the young season, remaining atop the Western Conference standings as they prepare for a marquee home showdown against the defending champion Boston Celtics later this week.",
+    "category": "Sports",
+    "edition": [
+        "US & Americas",
+        "Global"
+    ],
+    "author": {
+        "name": "Jamal Crawford",
+        "role": "Senior NBA & Professional Sports Correspondent",
+        "avatar": "/images/authors/jamal_crawford.jpg"
+    },
+    "publishedAt": "4h ago",
+    "readTime": "7 min read",
+    "imageUrl": "/images/news/quentin-grimes-drops-47-as-lakers-edge-hornets-118-114-in-ot.webp",
+    "imageCaption": "Quentin Grimes lets fly the game-tying three-pointer with 1.7 seconds left in Charlotte.",
+    "imageCredit": "NBA Entertainment / AP",
+    "isInvestigative": false,
+    "commentCount": 356,
+    "bullets": [
+        "Quentin Grimes explodes for career-high 47 points and 10 triples in 118-114 overtime win over Hornets.",
+        "Lakers erase an 18-point second-half deficit as Grimes hits game-tying 3-pointer with 1.7 seconds in regulation.",
+        "Luka Doncic adds 36 points and 11 rebounds as Los Angeles extends winning streak to 9 games."
+    ],
+    "tags": [
+        "Sports",
+        "NBA",
+        "Lakers",
+        "Quentin Grimes",
+        "Luka Doncic",
+        "Hornets",
+        "Basketball"
+    ]
+},
   {
     id: "chargers-edge-ravens-23-20-in-thrilling-monday-night-duel",
     title: "Chargers Edge Ravens 23-20 in Thrilling Monday Night Duel",
@@ -3886,6 +4459,44 @@ On the stadium infrastructure front, club executives evaluated demonstrations of
   ],
 
   'Science': [
+    {
+    "id": "nasa-astronauts-3d-print-living-human-tissues-aboard-the-iss",
+    "title": "NASA Astronauts 3D-Print Living Human Tissues Aboard the ISS",
+    "kicker": "SPACE BIOLOGY \u2022 MICROGRAVITY MEDICINE",
+    "summary": "Astronauts aboard the International Space Station achieved a major biomedical breakthrough, successfully bioprinting viable human tissue analogs in microgravity.",
+    "body": "CAPE CANAVERAL, Fla. & HOUSTON \u2014 In a milestone scientific achievement that could revolutionize terrestrial transplant medicine and enable multi-year human interplanetary exploration, NASA astronauts operating inside the International Space Station (ISS) have successfully manufactured complex three-dimensional human tissue analogs in sustained microgravity. Working inside the station's specialized Life Sciences Glovebox, Crew-13 commander Jessica Watkins and flight engineers completed a crucial phase of the InSPA-Auxilium Bioprinter experiment, fabricating cellular matrices of functional human liver, kidney, and knee meniscus cartilage without the structural deformities that plague earthbound biological printing.\n\nTerrestrial 3D bioprinting has long been constrained by the physical laws of Earth's gravity. When living cells are layered using specialized bio-inks on Earth, the weight of the biological fluids causes soft cellular structures to collapse and flatten before the vascular network can form and mature, requiring scientists to introduce synthetic scaffolding matrices that can trigger immune rejection or restrict cellular growth. In the sustained weightless environment of low Earth orbit, however, delicate bio-inks retain their spherical geometry and cellular integrity without artificial chemical supports, allowing human cells to self-assemble naturally into three-dimensional capillaries and tissue blocks.\n\nDuring the multi-day mission milestone, the crew fed living human stem cell lines and extracellular nutrient hydrogels into the precision InSPA-Auxilium printing apparatus. Over dozens of print cycles, the automated printheads deposited microscopic cellular droplets at micron-level precision, producing millimeter-thick tissue analogs that maintained cellular viability and demonstrated active metabolic respiration. The manufactured tissue samples were subsequently transferred to the space station's orbital incubators for cellular maturation and preservation before their scheduled return to Earth aboard an upcoming SpaceX Dragon resupply splashdown.\n\n\"What our crew accomplished aboard the space station this week represents a fundamental paradigm shift for regenerative medicine,\" said Dr. Aris Thorne, NASA Senior Biological Systems Specialist. \"By utilizing the unique physics of microgravity, we have demonstrated that living human tissues can be printed, vascularized, and matured without artificial structural matrices. This opens an extraordinary pathway where we may one day print patient-matched donor organs on commercial orbital platforms, eliminating waiting lists for organ transplants back home.\"\n\nBeyond its profound terrestrial medical applications, the bioprinting milestone addresses an urgent imperative for future deep-space exploration. As NASA prepares for permanent lunar habitats under the Artemis program and prospective crewed voyages to Mars, astronauts will operate millions of miles away from emergency surgical facilities. The ability to bioprint customized living skin grafts, vascular patches, and bone tissue in flight will provide unprecedented medical resilience against radiation damage, accidental trauma, and musculoskeletal atrophy during multi-year deep space voyages.\n\nNASA and its commercial biomedical partners confirmed that follow-on experiments will focus on expanding the scale of printed tissue patches and testing vascular fluid circulation under long-term incubation. The groundbreaking findings will be published across upcoming peer-reviewed journals, establishing low Earth orbit as the premier manufacturing proving ground for 21st-century biotechnology.",
+    "category": "Science",
+    "edition": [
+        "US & Americas",
+        "Global"
+    ],
+    "author": {
+        "name": "Dr. Aris Thorne",
+        "role": "Astrophysics & Space Systems Editor",
+        "avatar": "/images/authors/aris_thorne.jpg"
+    },
+    "publishedAt": "5h ago",
+    "readTime": "8 min read",
+    "imageUrl": "/images/news/nasa-astronauts-3d-print-living-human-tissues-aboard-the-iss.webp",
+    "imageCaption": "NASA astronaut inspecting the Life Sciences Glovebox during orbital 3D tissue bioprinting runs aboard the ISS.",
+    "imageCredit": "NASA / Johnson Space Center",
+    "isInvestigative": false,
+    "commentCount": 178,
+    "bullets": [
+        "Astronauts aboard the ISS successfully 3D-print viable human liver, kidney, and cartilage tissues in microgravity.",
+        "Weightlessness eliminates gravitational collapse, allowing cells to form natural capillaries without artificial scaffolds.",
+        "Breakthrough paves way for orbital organ manufacturing for Earth patients and deep-space surgical resilience."
+    ],
+    "tags": [
+        "Science",
+        "NASA",
+        "ISS",
+        "Space Biology",
+        "Biotechnology",
+        "Medicine",
+        "Spaceflight"
+    ]
+},
   {
     id: "voyager-1-reaches-one-light-day-from-earth-in-historic-milestone",
     title: "Voyager 1 Reaches One Light-Day From Earth in Historic Milestone",
@@ -4284,6 +4895,44 @@ Domestic automotive manufacturers have committed multi-billion-dollar off-take a
   ],
 
   'Opinion': [
+    {
+    "id": "why-starving-new-york-transit-threatens-americas-economy",
+    "title": "Why Starving New York Transit Threatens America's Economy",
+    "kicker": "GUEST ESSAY \u2022 URBAN INFRASTRUCTURE",
+    "summary": "Refusing equitable federal funding for New York's mass transit system is short-sighted fiscal sabotage that imperils the nation's premier economic generator.",
+    "body": "NEW YORK \u2014 In the cavernous halls of Capitol Hill, it has long been a favored political sport among certain lawmakers to treat New York's mass transit infrastructure as a bloated, localized indulgence rather than what it truly is: the indispensable beating heart of the United States economy. As Governor Kathy Hochul and MTA leaders arrive in Washington this week to sound the alarm on a staggering funding shortfall ahead of the December 11 federal deadline, the national conversation must move past provincial posturing and confront an undeniable economic reality: when New York's transit system is starved, the entire American economy suffers.\n\nConsider the stark arithmetic that Washington persistently ignores. The New York metropolitan area generates roughly $2.2 trillion in annual economic output\u2014nearly 10% of the entire gross domestic product of the United States. It houses the nation's deepest capital markets, its most prolific media institutions, world-class medical research complexes, and a vibrant cultural economy that draws tens of millions of international visitors every year. None of this wealth is possible without the Metropolitan Transportation Authority. The subway and commuter rail network moves nearly 6 million riders each weekday, taking millions of vehicles off choked highways and enabling a density of human talent and productivity unmatched anywhere in the Western Hemisphere.\n\nYet federal transit policy treats this national asset with incomprehensible neglect. Under antiquated statutory formula allocations, New York provides roughly 43% of all public transit trips nationwide but receives a meager 17% of federal transit assistance. Meanwhile, sprawling highway construction programs in low-density states enjoy nearly automatic 80% federal matching funds with little scrutiny over economic return on investment. Compounding this disparity, the prospect of federal tariffs adding $1 billion to train car and bus procurements threatens to bring capital repairs to a grinding halt.\n\nThe consequences of federal inaction are not abstract. When track signals fail, when subway cars age past their operational lifespans without replacement, and when maintenance backlogs mount, the friction cost cascades across the global financial system. A twenty-minute subway delay on the Lexington Avenue line ripples into trading desks, corporate boardrooms, hospital operating theaters, and supply chain hubs. If the MTA is forced into deep service cuts or aggressive fare spikes to plug its capital gaps, middle-class workforce mobility will decline, corporate relocations will accelerate, and the federal tax revenue generated by New York's economic engine will contract far beyond the modest billions requested in emergency transit appropriations.\n\nInvesting in mass transit is not an act of charity to New York; it is sound national industrial policy. It stabilizes the largest consumer market in North America, advances aggressive climate and energy efficiency goals, and maintains the infrastructural spine of our premier global financial capital. Congress must abandon the petty fiction that urban transit is an isolated regional burden. It is time for Washington to fund the New York subway system with the dignity, urgency, and parity that America's economic lifeline demands.",
+    "category": "Opinion",
+    "edition": [
+        "US & Americas",
+        "Global"
+    ],
+    "author": {
+        "name": "Jonathan Ward",
+        "role": "Guest Contributing Columnist & Urban Economics Fellow",
+        "avatar": "/images/authors/jonathan_ward.jpg"
+    },
+    "publishedAt": "5h ago",
+    "readTime": "8 min read",
+    "imageUrl": "/images/news/why-starving-new-york-transit-threatens-americas-economy.webp",
+    "imageCaption": "Crowds of morning commuters pack an uptown subway platform during peak Manhattan rush hour.",
+    "imageCredit": "Newyorkerherald Archive / AP",
+    "isInvestigative": false,
+    "commentCount": 289,
+    "bullets": [
+        "New York metro region produces 10% of total U.S. GDP, powered daily by the MTA's 6 million transit riders.",
+        "Federal formula sends only 17% of transit funds to NYC despite the city moving 43% of all American transit riders.",
+        "Congressional failure to fund urban infrastructure risks national economic friction and workforce disruptions."
+    ],
+    "tags": [
+        "Opinion",
+        "New York",
+        "MTA",
+        "Infrastructure",
+        "Economy",
+        "Public Affairs",
+        "Transit"
+    ]
+},
   {
     id: "why-muzzling-congressional-testimony-threatens-basic-governance",
     title: "Why Muzzling Congressional Testimony Threatens Basic Governance",
@@ -5047,45 +5696,45 @@ export function getHomepageDepartmentArticles(dept: string): Article[] {
   const mapping: Record<string, string[]> = {
     us: [
       'the-vanity-of-alina-habba-mildon',
+      'hochul-and-mta-press-congress-for-billions-in-transit-funds',
       'fema-holds-nationwide-alert-test-amid-viral-blackout-falsehoods',
-      'faa-system-outage-sparks-chaos-for-over-1-million-air-travelers',
-      'deadly-logan-circle-shooting-in-washington-leaves-two-dead'
+      'faa-system-outage-sparks-chaos-for-over-1-million-air-travelers'
     ],
     politics: [
+      'white-house-withdraws-heidi-overton-nomination-to-lead-fda',
       'white-house-orders-agencies-to-curb-congressional-testimony',
       'trump-pauses-iran-strikes-following-talks-with-mideast-allies',
-      'trump-drops-iran-deal-talks-and-pivots-vance-to-urban-crime',
-      'treasury-chief-scott-bessent-moved-to-military-base-over-threats'
+      'trump-drops-iran-deal-talks-and-pivots-vance-to-urban-crime'
     ],
     business: [
+      'dow-plunges-848-points-as-ai-valuation-anxiety-grips-markets',
       'major-us-banks-hit-by-widespread-online-outages-and-delays',
       'microsoft-restores-cloud-systems-after-crippling-global-outage',
-      'surging-treasury-yields-rattle-global-markets-and-pound-gold',
-      'anthropic-kicks-off-landmark-ipo-roadshow-for-1-4t-valuation'
+      'surging-treasury-yields-rattle-global-markets-and-pound-gold'
     ],
     tech: [
+      'google-expands-gemini-into-autonomous-ai-agent-for-real-tasks',
       'gta-vi-countdown-upends-gaming-slates-as-budgets-eclipse-1b',
       'jensen-huang-nvidia-return-petition-tops-160000-signatures',
-      'jensen-huang-abruptly-steps-down-as-ceo-of-nvidia-in-shock-exit',
-      'deepmind-alphaproof-code-verifies-signal-encryption-protocol'
+      'jensen-huang-abruptly-steps-down-as-ceo-of-nvidia-in-shock-exit'
     ],
     entertainment: [
+      'raye-leads-2027-grammy-nominations-with-record-tying-11-nods',
       'robert-pattinson-cast-as-james-bond-in-denis-villeneuve-reboot',
       'johnny-depp-tops-box-office-as-ebenezer-scores-42m-global-debut',
-      'hollywood-takes-an-anti-tech-turn-with-dystopian-wave-of-films',
-      'dua-lipa-named-historic-first-british-female-coachella-headliner'
+      'hollywood-takes-an-anti-tech-turn-with-dystopian-wave-of-films'
     ],
     sports: [
+      'quentin-grimes-drops-47-as-lakers-edge-hornets-118-114-in-ot',
       'chargers-edge-ravens-23-20-in-thrilling-monday-night-duel',
       'luka-doncic-scores-43-points-to-power-lakers-over-phoenix-suns',
-      'cade-cunningham-explodes-for-52-points-as-pistons-edge-wizards',
-      'us-withdraws-from-u-17-world-cup-in-qatar-over-security-concerns'
+      'cade-cunningham-explodes-for-52-points-as-pistons-edge-wizards'
     ],
     science: [
+      'nasa-astronauts-3d-print-living-human-tissues-aboard-the-iss',
       'voyager-1-reaches-one-light-day-from-earth-in-historic-milestone',
       'spacex-catches-starship-with-mechazilla-chopsticks-in-flight-15',
-      'nasa-escapade-twin-probes-slingshot-past-earth-en-route-to-mars',
-      'nature-study-confirms-accuracy-of-historic-m87-black-hole-image'
+      'nasa-escapade-twin-probes-slingshot-past-earth-en-route-to-mars'
     ]
   };
 
