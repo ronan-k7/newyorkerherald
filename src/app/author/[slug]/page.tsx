@@ -1,47 +1,87 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import { useParams } from 'next/navigation';
 import Link from 'next/link';
 import CurvedHeader from '@/components/Header/CurvedHeader';
 import CurvedFooter from '@/components/Footer/CurvedFooter';
-import ArticleShareMenu from '@/components/Common/ArticleShareMenu';
 import { AUTHORS, AUTHORS_DATA, getAllArticles, getArticleUrl } from '@/data/newsData';
-import { 
-  Award, 
-  GraduationCap, 
-  Mail, 
-  Share2, 
-  Check, 
-  Plus, 
-  FileText, 
-  Clock,
-  ArrowLeft,
-  MapPin
-} from 'lucide-react';
-import { useNews } from '@/context/NewsContext';
+import { Mail, ArrowLeft, MapPin, ChevronLeft, ChevronRight } from 'lucide-react';
+
+const ITEMS_PER_PAGE = 6;
+
+function getPageNumbers(current: number, total: number): (number | string)[] {
+  if (total <= 5) {
+    return Array.from({ length: total }, (_, i) => i + 1);
+  }
+  if (current <= 3) {
+    return [1, 2, 3, 4, '...', total];
+  }
+  if (current >= total - 2) {
+    return [1, '...', total - 3, total - 2, total - 1, total];
+  }
+  return [1, '...', current - 1, current, current + 1, '...', total];
+}
 
 export default function AuthorProfilePage() {
   const params = useParams();
   const slug = params?.slug as string;
   const author = AUTHORS_DATA[slug] || AUTHORS[slug];
 
-  const [isFollowing, setIsFollowing] = useState(false);
-  const [copied, setCopied] = useState(false);
   const [activeTab, setActiveTab] = useState<'all' | 'investigations' | 'analysis'>('all');
+  const [currentPage, setCurrentPage] = useState(1);
+  const streamTopRef = useRef<HTMLDivElement>(null);
 
   const allArticles = getAllArticles();
   const authorArticles = author 
-    ? allArticles.filter(a => a.author.name.toLowerCase().includes(author.name.toLowerCase()) || author.name.toLowerCase().includes(a.author.name.toLowerCase()))
+    ? allArticles.filter(a => 
+        a.author.name.toLowerCase().includes(author.name.toLowerCase()) || 
+        author.name.toLowerCase().includes(a.author.name.toLowerCase()) ||
+        slug === 'editorial-board' ||
+        slug === 'staff'
+      )
     : [];
 
-  const displayArticles = authorArticles.length > 0 ? authorArticles : allArticles.slice(0, 6);
+  const baseArticles = authorArticles.length > 0 ? authorArticles : allArticles.slice(0, 10);
+  const displayArticles = baseArticles.filter(art => {
+    if (activeTab === 'investigations') {
+      return art.isInvestigative || art.category?.toLowerCase().includes('politic') || art.category?.toLowerCase().includes('investigat');
+    }
+    if (activeTab === 'analysis') {
+      return !art.isInvestigative || art.category?.toLowerCase().includes('opinion') || art.category?.toLowerCase().includes('tech') || art.category?.toLowerCase().includes('business');
+    }
+    return true;
+  });
+
+  const finalArticles = displayArticles.length > 0 ? displayArticles : baseArticles;
+
+  // Pagination calculations
+  const totalArticles = finalArticles.length;
+  const totalPages = Math.max(1, Math.ceil(totalArticles / ITEMS_PER_PAGE));
+  const safePage = Math.min(currentPage, totalPages);
+  const startIndex = (safePage - 1) * ITEMS_PER_PAGE;
+  const paginatedArticles = finalArticles.slice(startIndex, startIndex + ITEMS_PER_PAGE);
+
+  const handleTabChange = (tab: 'all' | 'investigations' | 'analysis') => {
+    setActiveTab(tab);
+    setCurrentPage(1);
+  };
+
+  const handlePageChange = (newPage: number) => {
+    if (newPage < 1 || newPage > totalPages) return;
+    setCurrentPage(newPage);
+    if (streamTopRef.current) {
+      const yOffset = -70;
+      const y = streamTopRef.current.getBoundingClientRect().top + window.pageYOffset + yOffset;
+      window.scrollTo({ top: y, behavior: 'smooth' });
+    }
+  };
 
   if (!author) {
     return (
       <main style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
         <CurvedHeader />
-        <div className="aura-container" style={{ padding: '80px 20px', textAlign: 'left', flex: 1 }}>
+        <div className="author-profile-container" style={{ padding: '80px 20px', textAlign: 'left' }}>
           <h2 className="font-heading" style={{ fontSize: '2rem', marginBottom: '16px' }}>Journalist Profile Not Found</h2>
           <Link href="/" className="aura-pill" style={{ padding: '6px 14px', fontSize: '0.8rem' }}>
             Return to Homepage
@@ -52,22 +92,14 @@ export default function AuthorProfilePage() {
     );
   }
 
-  const handleShare = () => {
-    if (typeof window !== 'undefined') {
-      navigator.clipboard.writeText(window.location.href);
-      setCopied(true);
-      setTimeout(() => setCopied(false), 3000);
-    }
-  };
-
   return (
     <main style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
       <CurvedHeader />
 
-      <div className="aura-container" style={{ padding: '20px 20px 48px 20px', flex: 1 }}>
+      <div className="author-profile-container">
         
         {/* Breadcrumb Navigation */}
-        <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '16px', fontSize: '0.72rem', color: 'var(--text-muted)' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '16px', fontSize: '0.72rem', color: 'var(--text-muted)', flexWrap: 'wrap' }}>
           <Link href="/" style={{ display: 'flex', alignItems: 'center', gap: '3px', color: 'var(--text-muted)', textDecoration: 'none', fontWeight: 600 }}>
             <ArrowLeft size={12} />
             <span>Home</span>
@@ -78,44 +110,18 @@ export default function AuthorProfilePage() {
           <span style={{ color: 'var(--brand-primary)', fontWeight: 800 }}>{author.name}</span>
         </div>
 
-        {/* 2-Column Split Dossier Layout (4 Cols Fixed Left / 8 Cols Main Stream) */}
-        <div style={{
-          display: 'grid',
-          gridTemplateColumns: 'repeat(12, 1fr)',
-          gap: '36px',
-          alignItems: 'start'
-        }}>
+        {/* Responsive Dossier Layout (Sidebar Aside + Main Reporting Stream) */}
+        <div className="author-profile-grid">
           
-          {/* ================= LEFT COLUMN: STAFF PROFILE DOSSIER (4 Cols) ================= */}
-          <aside style={{
-            gridColumn: 'span 4',
-            borderRight: '1px solid var(--border-rule)',
-            paddingRight: '28px',
-            display: 'flex',
-            flexDirection: 'column',
-            gap: '20px'
-          }}>
-            {/* Author Portrait */}
+          {/* ================= LEFT COLUMN: STAFF PROFILE DOSSIER ================= */}
+          <aside className="author-profile-aside">
             <div>
-              <img
-                src={author.avatar}
-                alt={author.name}
-                style={{
-                  width: '100%',
-                  height: '240px',
-                  borderRadius: '0px',
-                  objectFit: 'cover',
-                  border: '1px solid var(--border-rule)',
-                  marginBottom: '14px'
-                }}
-              />
-
-              <div style={{ display: 'flex', alignItems: 'center', gap: '6px', marginBottom: '6px' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '6px', marginBottom: '8px', flexWrap: 'wrap' }}>
                 <span className="aura-pill">
-                  Staff Correspondent
+                  {slug === 'editorial-board' || slug === 'staff' ? 'Editorial Board' : 'Staff Correspondent'}
                 </span>
                 <span style={{ fontSize: '0.68rem', color: 'var(--text-muted)', fontWeight: 600 }}>
-                  {author.articlesCount || displayArticles.length}+ Dispatches
+                  {author.articlesCount || baseArticles.length}+ Dispatches
                 </span>
               </div>
 
@@ -124,7 +130,7 @@ export default function AuthorProfilePage() {
                 fontWeight: 900,
                 color: 'var(--text-primary)',
                 lineHeight: 1.15,
-                margin: '0 0 4px 0'
+                margin: '0 0 6px 0'
               }}>
                 {author.name}
               </h1>
@@ -133,35 +139,9 @@ export default function AuthorProfilePage() {
                 {author.role}
               </p>
 
-              <div style={{ display: 'flex', alignItems: 'center', gap: '5px', fontSize: '0.74rem', color: 'var(--text-muted)', marginBottom: '14px' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '5px', fontSize: '0.74rem', color: 'var(--text-muted)' }}>
                 <MapPin size={13} color="var(--brand-primary)" />
                 <span>{author.bureau || 'Washington D.C. Bureau'}</span>
-              </div>
-
-              {/* Follow & Share Actions */}
-              <div style={{ display: 'flex', gap: '8px', marginBottom: '18px' }}>
-                <button
-                  onClick={() => setIsFollowing(!isFollowing)}
-                  style={{
-                    flex: 1,
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    gap: '4px',
-                    backgroundColor: isFollowing ? 'var(--bg-subtle)' : 'var(--badge-red-bg)',
-                    color: isFollowing ? 'var(--text-primary)' : '#FFFFFF',
-                    padding: '7px 12px',
-                    borderRadius: '0px',
-                    fontSize: '0.74rem',
-                    fontWeight: 700,
-                    border: isFollowing ? '1px solid var(--border-rule)' : 'none'
-                  }}
-                >
-                  {isFollowing ? <Check size={12} /> : <Plus size={12} />}
-                  <span>{isFollowing ? 'Following Byline' : 'Follow Byline'}</span>
-                </button>
-
-                <ArticleShareMenu title={author ? `${author.name} — Editorial Byline & Profile` : "Editorial Byline"} triggerText="Share Profile" align="right" />
               </div>
             </div>
 
@@ -173,28 +153,9 @@ export default function AuthorProfilePage() {
               <p style={{ fontSize: '0.82rem', fontWeight: 700, color: 'var(--text-primary)', margin: '0 0 8px 0' }}>
                 {author.beat || 'National Security, Geopolitics & Foreign Affairs'}
               </p>
-              <p style={{ fontSize: '0.82rem', color: 'var(--text-secondary)', lineHeight: 1.45, margin: 0 }}>
+              <p style={{ fontSize: '0.82rem', color: 'var(--text-secondary)', lineHeight: 1.5, margin: 0 }}>
                 {author.bio}
               </p>
-            </div>
-
-            {/* Academic Pedigree & Accolades */}
-            <div style={{ borderTop: '1px solid var(--border-rule)', paddingTop: '16px', display: 'flex', flexDirection: 'column', gap: '10px' }}>
-              <span className="aura-pill">
-                Credentials & Honors
-              </span>
-
-              <div style={{ display: 'flex', alignItems: 'flex-start', gap: '8px', fontSize: '0.76rem', color: 'var(--text-secondary)' }}>
-                <GraduationCap size={14} color="var(--brand-primary)" style={{ flexShrink: 0, marginTop: '2px' }} />
-                <span>{author.education || 'M.A. International Relations, Georgetown University'}</span>
-              </div>
-
-              {author.awards && author.awards.map((award, i) => (
-                <div key={i} style={{ display: 'flex', alignItems: 'flex-start', gap: '8px', fontSize: '0.76rem', color: 'var(--text-secondary)' }}>
-                  <Award size={14} color="var(--accent-amber)" style={{ flexShrink: 0, marginTop: '2px' }} />
-                  <span>{award}</span>
-                </div>
-              ))}
             </div>
 
             {/* Direct Contact */}
@@ -211,23 +172,28 @@ export default function AuthorProfilePage() {
             )}
           </aside>
 
-          {/* ================= RIGHT COLUMN: BYLINE STREAM (8 Cols) ================= */}
-          <main style={{ gridColumn: 'span 8', display: 'flex', flexDirection: 'column' }}>
+          {/* ================= RIGHT COLUMN: BYLINE STREAM ================= */}
+          <main className="author-profile-main">
             
             {/* Header & Segmented Tabs */}
-            <div style={{ borderBottom: '2px solid var(--border-strong)', paddingBottom: '12px', marginBottom: '20px' }}>
+            <div ref={streamTopRef} style={{ borderBottom: '2px solid var(--border-strong)', paddingBottom: '12px', marginBottom: '20px' }}>
               <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '8px' }}>
                 <h2 className="section-title" style={{ fontSize: '1.25rem' }}>
-                  Published Reporting ({displayArticles.length})
+                  Published Reporting ({totalArticles})
                 </h2>
+                {totalPages > 1 && (
+                  <span style={{ fontSize: '0.7rem', color: 'var(--text-muted)', fontWeight: 600 }}>
+                    Page {safePage} of {totalPages}
+                  </span>
+                )}
               </div>
 
-              <div style={{ display: 'flex', gap: '8px' }}>
+              <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap' }}>
                 <button
-                  onClick={() => setActiveTab('all')}
+                  onClick={() => handleTabChange('all')}
                   style={{
-                    padding: '4px 10px',
-                    fontSize: '0.7rem',
+                    padding: '5px 12px',
+                    fontSize: '0.72rem',
                     fontWeight: activeTab === 'all' ? 800 : 600,
                     backgroundColor: activeTab === 'all' ? 'var(--badge-red-bg)' : 'var(--bg-subtle)',
                     color: activeTab === 'all' ? '#FFFFFF' : 'var(--text-secondary)',
@@ -237,10 +203,10 @@ export default function AuthorProfilePage() {
                   All Dispatches
                 </button>
                 <button
-                  onClick={() => setActiveTab('investigations')}
+                  onClick={() => handleTabChange('investigations')}
                   style={{
-                    padding: '4px 10px',
-                    fontSize: '0.7rem',
+                    padding: '5px 12px',
+                    fontSize: '0.72rem',
                     fontWeight: activeTab === 'investigations' ? 800 : 600,
                     backgroundColor: activeTab === 'investigations' ? 'var(--badge-red-bg)' : 'var(--bg-subtle)',
                     color: activeTab === 'investigations' ? '#FFFFFF' : 'var(--text-secondary)',
@@ -250,10 +216,10 @@ export default function AuthorProfilePage() {
                   Investigations
                 </button>
                 <button
-                  onClick={() => setActiveTab('analysis')}
+                  onClick={() => handleTabChange('analysis')}
                   style={{
-                    padding: '4px 10px',
-                    fontSize: '0.7rem',
+                    padding: '5px 12px',
+                    fontSize: '0.72rem',
                     fontWeight: activeTab === 'analysis' ? 800 : 600,
                     backgroundColor: activeTab === 'analysis' ? 'var(--badge-red-bg)' : 'var(--bg-subtle)',
                     color: activeTab === 'analysis' ? '#FFFFFF' : 'var(--text-secondary)',
@@ -266,36 +232,31 @@ export default function AuthorProfilePage() {
             </div>
 
             {/* Horizontal Story Rows Spread */}
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
-              {displayArticles.map((art, idx) => (
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+              {paginatedArticles.map((art, idx) => (
                 <div
                   key={art.id}
+                  className="author-article-row"
                   style={{
-                    display: 'grid',
-                    gridTemplateColumns: '180px 1fr',
-                    gap: '18px',
-                    paddingBottom: idx !== displayArticles.length - 1 ? '18px' : '0',
-                    borderBottom: idx !== displayArticles.length - 1 ? '1px solid var(--border-rule)' : 'none',
-                    alignItems: 'start'
+                    paddingBottom: idx !== paginatedArticles.length - 1 ? '16px' : '0',
+                    borderBottom: idx !== paginatedArticles.length - 1 ? '1px solid var(--border-rule)' : 'none'
                   }}
                 >
                   <Link href={getArticleUrl(art)} style={{ display: 'block', textDecoration: 'none' }}>
-                    <div className="aura-img-wrap" style={{ height: '120px', width: '100%' }}>
+                    <div className="aura-img-wrap author-article-img-wrap">
                       <img src={art.imageUrl} alt={art.title} className="aura-card-img" />
                     </div>
                   </Link>
 
-                  <div style={{ display: 'flex', flexDirection: 'column' }}>
+                  <div style={{ display: 'flex', flexDirection: 'column', minWidth: 0 }}>
                     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '3px' }}>
                       <span className="aura-pill">
                         {art.kicker}
                       </span>
-                      
                     </div>
 
                     <Link href={getArticleUrl(art)} style={{ textDecoration: 'none' }}>
-                      <h3 className="font-heading" style={{
-                        fontSize: '0.98rem',
+                      <h3 className="font-heading author-article-title" style={{
                         fontWeight: 800,
                         lineHeight: 1.25,
                         color: 'var(--text-primary)',
@@ -305,11 +266,11 @@ export default function AuthorProfilePage() {
                       </h3>
                     </Link>
 
-                    <p style={{ fontSize: '0.78rem', color: 'var(--text-secondary)', lineHeight: 1.4, margin: '0 0 8px 0' }}>
+                    <p className="author-article-summary">
                       {art.summary}
                     </p>
 
-                    <div style={{ display: 'flex', alignItems: 'center', gap: '10px', fontSize: '0.66rem', color: 'var(--text-muted)', marginTop: 'auto' }}>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '8px', fontSize: '0.66rem', color: 'var(--text-muted)', marginTop: 'auto', flexWrap: 'wrap' }}>
                       <span style={{ fontWeight: 700, color: 'var(--brand-primary)' }}>{art.category}</span>
                       <span>•</span>
                       <span>{art.publishedAt}</span>
@@ -320,6 +281,108 @@ export default function AuthorProfilePage() {
                 </div>
               ))}
             </div>
+
+            {/* Pagination Controls */}
+            {totalPages > 1 && (
+              <div 
+                className="author-pagination-bar"
+                style={{
+                  marginTop: '24px',
+                  paddingTop: '16px',
+                  borderTop: '2px solid var(--border-rule)',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'space-between',
+                  flexWrap: 'wrap',
+                  gap: '12px'
+                }}
+              >
+                <div style={{ fontSize: '0.72rem', color: 'var(--text-muted)', fontWeight: 600 }}>
+                  Showing <span style={{ color: 'var(--text-primary)', fontWeight: 800 }}>{startIndex + 1}–{Math.min(startIndex + ITEMS_PER_PAGE, totalArticles)}</span> of <span style={{ color: 'var(--text-primary)', fontWeight: 800 }}>{totalArticles}</span> dispatches
+                </div>
+
+                <div style={{ display: 'flex', alignItems: 'center', gap: '5px', flexWrap: 'wrap' }}>
+                  <button
+                    onClick={() => handlePageChange(safePage - 1)}
+                    disabled={safePage === 1}
+                    aria-label="Previous Page"
+                    style={{
+                      display: 'inline-flex',
+                      alignItems: 'center',
+                      gap: '3px',
+                      padding: '5px 10px',
+                      fontSize: '0.7rem',
+                      fontWeight: 700,
+                      borderRadius: '0px',
+                      border: '1px solid var(--border-rule)',
+                      backgroundColor: safePage === 1 ? 'var(--bg-subtle)' : 'var(--bg-canvas)',
+                      color: safePage === 1 ? 'var(--text-muted)' : 'var(--text-primary)',
+                      cursor: safePage === 1 ? 'not-allowed' : 'pointer',
+                      opacity: safePage === 1 ? 0.5 : 1
+                    }}
+                  >
+                    <ChevronLeft size={12} />
+                    <span>Prev</span>
+                  </button>
+
+                  {getPageNumbers(safePage, totalPages).map((p, i) => {
+                    if (typeof p === 'string') {
+                      return (
+                        <span key={`dots-${i}`} style={{ padding: '0 3px', fontSize: '0.72rem', color: 'var(--text-muted)' }}>
+                          ...
+                        </span>
+                      );
+                    }
+                    const isActive = p === safePage;
+                    return (
+                      <button
+                        key={p}
+                        onClick={() => handlePageChange(p)}
+                        style={{
+                          minWidth: '28px',
+                          height: '28px',
+                          display: 'inline-flex',
+                          alignItems: 'center',
+                          justifyContent: 'center',
+                          fontSize: '0.72rem',
+                          fontWeight: isActive ? 800 : 600,
+                          borderRadius: '0px',
+                          backgroundColor: isActive ? 'var(--badge-red-bg)' : 'var(--bg-subtle)',
+                          color: isActive ? '#FFFFFF' : 'var(--text-primary)',
+                          border: isActive ? 'none' : '1px solid var(--border-rule)',
+                          cursor: 'pointer'
+                        }}
+                      >
+                        {p}
+                      </button>
+                    );
+                  })}
+
+                  <button
+                    onClick={() => handlePageChange(safePage + 1)}
+                    disabled={safePage === totalPages}
+                    aria-label="Next Page"
+                    style={{
+                      display: 'inline-flex',
+                      alignItems: 'center',
+                      gap: '3px',
+                      padding: '5px 10px',
+                      fontSize: '0.7rem',
+                      fontWeight: 700,
+                      borderRadius: '0px',
+                      border: '1px solid var(--border-rule)',
+                      backgroundColor: safePage === totalPages ? 'var(--bg-subtle)' : 'var(--bg-canvas)',
+                      color: safePage === totalPages ? 'var(--text-muted)' : 'var(--text-primary)',
+                      cursor: safePage === totalPages ? 'not-allowed' : 'pointer',
+                      opacity: safePage === totalPages ? 0.5 : 1
+                    }}
+                  >
+                    <span>Next</span>
+                    <ChevronRight size={12} />
+                  </button>
+                </div>
+              </div>
+            )}
 
           </main>
 

@@ -44,21 +44,14 @@ export default function CurvedOpinionStream() {
                 flexDirection: 'column'
               }}
             >
-              <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
-                <Link href={`/author/${getAuthorSlugFromName(col.authorName)}`} style={{ textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '8px' }}>
-                  <img
-                    src={col.authorAvatar}
-                    alt={col.authorName}
-                    style={{ width: '34px', height: '34px', borderRadius: '50%', objectFit: 'cover' }}
-                  />
-                  <div>
-                    <strong style={{ display: 'block', fontSize: '0.8rem', color: 'var(--text-primary)' }}>
-                      {col.authorName}
-                    </strong>
-                    <span style={{ fontSize: '0.66rem', color: 'var(--text-muted)' }}>
-                      {col.authorTitle}
-                    </span>
-                  </div>
+              <div style={{ marginBottom: '8px' }}>
+                <Link href={`/author/${getAuthorSlugFromName(col.authorName)}`} style={{ textDecoration: 'none' }}>
+                  <strong style={{ display: 'block', fontSize: '0.8rem', color: 'var(--text-primary)' }}>
+                    {col.authorName}
+                  </strong>
+                  <span style={{ fontSize: '0.66rem', color: 'var(--text-muted)' }}>
+                    {col.authorTitle}
+                  </span>
                 </Link>
               </div>
 

@@ -1,9 +1,10 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
+import { createPortal } from 'react-dom';
 import Link from 'next/link';
 import { useNews } from '@/context/NewsContext';
-import { CloudSun, Search } from 'lucide-react';
+import { CloudSun, Search, Menu, X, ChevronRight } from 'lucide-react';
 
 interface CurvedHeaderProps {
   activeCategory?: string;
@@ -17,24 +18,76 @@ export default function CurvedHeader({ activeCategory = 'All', onSelectCategory 
 
   const [dateStr, setDateStr] = useState('');
   const [isScrolled, setIsScrolled] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [mounted, setMounted] = useState(false);
+  const headerRef = useRef<HTMLElement>(null);
+  const topAreaRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   useEffect(() => {
     const now = new Date();
     setDateStr(now.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric' }));
   }, []);
 
+  // Lock body scroll when mobile menu is open
   useEffect(() => {
+    if (isMobileMenuOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [isMobileMenuOpen]);
+
+  // Handle Escape key to close mobile menu
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape' && isMobileMenuOpen) {
+        setIsMobileMenuOpen(false);
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [isMobileMenuOpen]);
+
+  useEffect(() => {
+    const updateHeaderOffset = () => {
+      if (topAreaRef.current && headerRef.current) {
+        const topHeight = topAreaRef.current.offsetHeight;
+        headerRef.current.style.setProperty('--header-top-offset', `${topHeight}px`);
+      }
+    };
+
+    updateHeaderOffset();
+
+    let ro: ResizeObserver | null = null;
+    if (typeof ResizeObserver !== 'undefined' && topAreaRef.current) {
+      ro = new ResizeObserver(() => {
+        updateHeaderOffset();
+      });
+      ro.observe(topAreaRef.current);
+    }
+
     let ticking = false;
 
     const handleScroll = () => {
       if (!ticking) {
         window.requestAnimationFrame(() => {
           const scrollY = window.scrollY;
-          // Hysteresis window: collapse when scrolled past 60px, expand back only when scrolled back above 20px
-          // This completely prevents oscillation, shivering, or rapid state toggling
-          if (scrollY > 60) {
+          const topHeight = topAreaRef.current ? topAreaRef.current.offsetHeight : 134;
+          // Activate compact sticky category bar once the top area has scrolled offscreen
+          // Hysteresis window ensures zero oscillation or flickering
+          const threshold = Math.max(topHeight - 10, 40);
+          const resetThreshold = Math.max(threshold - 30, 15);
+
+          if (scrollY >= threshold) {
             setIsScrolled(true);
-          } else if (scrollY < 20) {
+          } else if (scrollY <= resetThreshold) {
             setIsScrolled(false);
           }
           ticking = false;
@@ -44,9 +97,14 @@ export default function CurvedHeader({ activeCategory = 'All', onSelectCategory 
     };
 
     window.addEventListener('scroll', handleScroll, { passive: true });
+    window.addEventListener('resize', updateHeaderOffset, { passive: true });
     handleScroll();
 
-    return () => window.removeEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener('resize', updateHeaderOffset);
+      if (ro) ro.disconnect();
+    };
   }, []);
 
   // EXACT same categories as the primary site
@@ -64,9 +122,12 @@ export default function CurvedHeader({ activeCategory = 'All', onSelectCategory 
   ];
 
   return (
-    <header className={`curved-header-root ${isScrolled ? 'is-scrolled' : ''}`}>
-      {/* Top Strip - collapsed smoothly when scrolled */}
-      <div className="header-top-strip">
+    <>
+    <header ref={headerRef} className={`curved-header-root ${isScrolled ? 'is-scrolled' : ''}`}>
+      {/* Top Collapsible Area (Top Strip + Masthead Banner) */}
+      <div ref={topAreaRef} className="header-top-collapsible-area">
+        {/* Top Strip */}
+        <div className="header-top-strip">
         <div className="aura-container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
           {/* Left: Date & Weather */}
           <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
@@ -232,6 +293,54 @@ export default function CurvedHeader({ activeCategory = 'All', onSelectCategory 
           </div>
         </div>
       </div>
+      </div>
+
+      {/* Mobile Navigation Header Bar (Visible on mobile <= 768px) */}
+      <div className="mobile-header-nav-bar">
+        {/* Left: Hamburger Toggle */}
+        <button
+          type="button"
+          onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+          className="mobile-hamburger-btn"
+          aria-label={isMobileMenuOpen ? "Close menu" : "Open menu"}
+          aria-expanded={isMobileMenuOpen}
+          title="Categories & Search"
+        >
+          {isMobileMenuOpen ? <X size={22} /> : <Menu size={22} />}
+        </button>
+
+        {/* Center: Brand Title */}
+        <Link
+          href="/"
+          className="mobile-masthead-logo"
+          onClick={() => setIsMobileMenuOpen(false)}
+          title="Newyorker Herald Home"
+        >
+          <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+            <span style={{ width: '6px', height: '6px', backgroundColor: 'var(--brand-primary)', display: 'inline-block', flexShrink: 0 }} />
+            <span className="font-heading" style={{ fontSize: '1.2rem', fontWeight: 900, letterSpacing: '-0.03em', color: 'var(--text-primary)', lineHeight: 1 }}>
+              NEWYORKERHERALD
+            </span>
+          </div>
+          <span style={{ fontSize: '0.58rem', fontWeight: 800, color: 'var(--text-muted)', letterSpacing: '0.08em', textTransform: 'uppercase', marginTop: '3px' }}>
+            Independent Global Journal
+          </span>
+        </Link>
+
+        {/* Right: Quick Search Button */}
+        <button
+          type="button"
+          onClick={() => {
+            setIsMobileMenuOpen(false);
+            setIsSearchOpen(true);
+          }}
+          className="mobile-search-btn"
+          aria-label="Search articles"
+          title="Search"
+        >
+          <Search size={20} color="var(--text-primary)" />
+        </button>
+      </div>
 
       {/* Category Bar - transforms into slim sticky header bar */}
       <div className="header-category-bar">
@@ -363,5 +472,118 @@ export default function CurvedHeader({ activeCategory = 'All', onSelectCategory 
         </div>
       </div>
     </header>
+
+    {/* Mobile Navigation & Search Drawer - Rendered via Portal to escape header containing block */}
+    {mounted && typeof document !== 'undefined' && createPortal(
+      <div
+        className={`mobile-drawer-backdrop ${isMobileMenuOpen ? 'is-open' : ''}`}
+        onClick={() => setIsMobileMenuOpen(false)}
+        aria-hidden={!isMobileMenuOpen}
+      >
+        <div
+          className="mobile-drawer-sheet"
+          onClick={(e) => e.stopPropagation()}
+        >
+          {/* Drawer Header */}
+          <div className="mobile-drawer-header">
+            <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+              <span style={{ width: '7px', height: '7px', backgroundColor: 'var(--brand-primary)', display: 'inline-block' }} />
+              <span className="font-heading" style={{ fontSize: '1.05rem', fontWeight: 900, color: 'var(--text-primary)', letterSpacing: '-0.02em' }}>
+                NEWYORKERHERALD
+              </span>
+            </div>
+            <button
+              type="button"
+              onClick={() => setIsMobileMenuOpen(false)}
+              className="mobile-drawer-close-btn"
+              aria-label="Close menu"
+            >
+              <X size={20} />
+            </button>
+          </div>
+
+          {/* Search Box in Mobile Menu */}
+          <div className="mobile-drawer-search-section">
+            <button
+              type="button"
+              onClick={() => {
+                setIsMobileMenuOpen(false);
+                setIsSearchOpen(true);
+              }}
+              className="mobile-drawer-search-box"
+              aria-label="Open search dialog"
+            >
+              <Search size={16} color="var(--brand-primary)" />
+              <span>Search news, investigations, analysis...</span>
+            </button>
+          </div>
+
+          {/* Categories List in Mobile Menu */}
+          <div className="mobile-drawer-nav-section">
+            <span className="mobile-drawer-section-title">
+              SECTIONS & CATEGORIES
+            </span>
+            <nav className="mobile-drawer-nav-list">
+              {categories.map((cat) => {
+                const isActive = (cat.slug === '' && (!activeCategory || activeCategory === 'All' || activeCategory === 'Home' || activeCategory === 'Top Stories')) || activeCategory === cat.slug;
+                return (
+                  <Link
+                    key={cat.name}
+                    href={cat.href}
+                    onClick={() => {
+                      if (onSelectCategory) onSelectCategory(cat.slug || 'All');
+                      setIsMobileMenuOpen(false);
+                    }}
+                    className={`mobile-drawer-nav-item ${isActive ? 'is-active' : ''}`}
+                  >
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                      <span className={`mobile-nav-bullet ${isActive ? 'is-active' : ''}`} />
+                      <span>{cat.name}</span>
+                    </div>
+                    <ChevronRight size={15} color={isActive ? "var(--brand-primary)" : "var(--text-muted)"} />
+                  </Link>
+                );
+              })}
+            </nav>
+          </div>
+
+          {/* Drawer Footer: Edition info and Social links */}
+          <div className="mobile-drawer-footer">
+            <div className="mobile-drawer-edition-badge">
+              <span>{dateStr || 'Mon, Nov 2, 2026'}</span>
+              <span>•</span>
+              <span>Global Edition</span>
+            </div>
+
+            <div className="mobile-drawer-socials">
+              <a href="https://www.instagram.com/newyorker_herald/" target="_blank" rel="noopener noreferrer" title="Instagram">
+                Instagram
+              </a>
+              <span>•</span>
+              <a href="https://www.facebook.com/profile.php?id=61595450824941" target="_blank" rel="noopener noreferrer" title="Facebook">
+                Facebook
+              </a>
+              <span>•</span>
+              <a href="https://medium.com/@newyorkerherald" target="_blank" rel="noopener noreferrer" title="Medium">
+                Medium
+              </a>
+              <span>•</span>
+              <a href="https://substack.com/@newyorkerherald1" target="_blank" rel="noopener noreferrer" title="Substack">
+                Substack
+              </a>
+            </div>
+
+            <div className="mobile-drawer-legal-links">
+              <Link href="/about" onClick={() => setIsMobileMenuOpen(false)}>About</Link>
+              <Link href="/editorial-policy" onClick={() => setIsMobileMenuOpen(false)}>Editorial Policy</Link>
+              <Link href="/contact" onClick={() => setIsMobileMenuOpen(false)}>Contact</Link>
+              <Link href="/privacy" onClick={() => setIsMobileMenuOpen(false)}>Privacy</Link>
+            </div>
+          </div>
+        </div>
+      </div>,
+      document.body
+    )}
+    </>
   );
 }

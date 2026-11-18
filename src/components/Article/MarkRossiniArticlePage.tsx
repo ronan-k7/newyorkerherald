@@ -133,11 +133,7 @@ export default function MarkRossiniArticlePage() {
                 className="hover:text-[var(--brand-primary)]"
               >
                 <span style={{ fontWeight: 800, color: 'var(--text-primary)', textTransform: 'uppercase', letterSpacing: '0.04em' }}>
-                  By Editorial Board
-                </span>
-                <span>&bull;</span>
-                <span style={{ textDecoration: 'underline', textUnderlineOffset: '3px', textDecorationColor: 'var(--brand-primary)', fontWeight: 600 }}>
-                  Newyorkerherald Staff
+                  By Newyorkerherald Staff
                 </span>
               </Link>
               <span>&bull;</span>
@@ -542,36 +538,24 @@ export default function MarkRossiniArticlePage() {
                 </span>
               </div>
 
-              <div style={{ display: 'flex', gap: '12px', alignItems: 'center', marginBottom: '12px' }}>
-                <img
-                  src="/images/authors/sarah_mitchell.jpg"
-                  alt="Editorial Board"
+              <div style={{ marginBottom: '12px' }}>
+                <Link
+                  href="/author/editorial-board"
                   style={{
-                    width: '48px',
-                    height: '48px',
-                    borderRadius: '50%',
-                    objectFit: 'cover',
-                    border: '1px solid var(--border-hairline)'
+                    textDecoration: 'none',
+                    color: 'var(--text-primary)',
+                    fontWeight: 800,
+                    fontSize: '0.96rem',
+                    display: 'block',
+                    marginBottom: '2px'
                   }}
-                />
-                <div>
-                  <Link
-                    href="/author/editorial-board"
-                    style={{
-                      textDecoration: 'none',
-                      color: 'var(--text-primary)',
-                      fontWeight: 800,
-                      fontSize: '0.96rem',
-                      display: 'block'
-                    }}
-                    className="hover:text-[var(--brand-primary)]"
-                  >
-                    Editorial Board
-                  </Link>
-                  <span style={{ fontSize: '0.74rem', color: 'var(--text-muted)' }}>
-                    Newyorkerherald Staff
-                  </span>
-                </div>
+                  className="hover:text-[var(--brand-primary)]"
+                >
+                  Newyorkerherald Staff
+                </Link>
+                <span style={{ fontSize: '0.74rem', color: 'var(--text-muted)', fontWeight: 600 }}>
+                  Editorial Board &amp; Investigative Bureau
+                </span>
               </div>
 
               <p style={{ fontSize: '0.78rem', color: 'var(--text-secondary)', lineHeight: 1.55, margin: '0 0 14px 0' }}>

@@ -69,7 +69,7 @@ export default function InvestigativeDossier() {
             </p>
 
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', borderTop: '1px solid var(--border-rule)', paddingTop: '10px', fontSize: '0.74rem', color: 'var(--text-muted)' }}>
-              <Link href="/author/carlos-mendoza" style={{ fontWeight: 700, color: 'var(--text-primary)', textDecoration: 'none' }}>
+              <Link href="/author/editorial-board" style={{ fontWeight: 700, color: 'var(--text-primary)', textDecoration: 'none' }}>
                 Reporting by {INVESTIGATIVE_FEATURE.author.name}
               </Link>
               <span>{INVESTIGATIVE_FEATURE.publishedAt} • {INVESTIGATIVE_FEATURE.readTime}</span>

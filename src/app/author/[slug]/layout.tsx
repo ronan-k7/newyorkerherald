@@ -19,9 +19,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
   const title = `${author.name} — ${author.role} | Newyorkerherald`;
   const desc = author.bio || `Read articles, investigative reporting, and news dispatches by ${author.name} on Newyorkerherald.`;
-  const avatarUrl = author.avatar
-    ? (author.avatar.startsWith('http') ? author.avatar : `${baseUrl}${author.avatar}`)
-    : `${baseUrl}/images/news/alina-habba-image.webp`;
+  const shareImageUrl = `${baseUrl}/images/news/alina-habba-image.webp`;
 
   return {
     title,
@@ -37,20 +35,20 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       type: 'profile',
       images: [
         {
-          url: avatarUrl,
-          width: 800,
-          height: 800,
+          url: shareImageUrl,
+          width: 1200,
+          height: 630,
           alt: author.name
         }
       ]
     },
     twitter: {
-      card: 'summary',
+      card: 'summary_large_image',
       site: '@newyorkerherald',
       creator: '@newyorkerherald',
       title,
       description: desc,
-      images: [avatarUrl]
+      images: [shareImageUrl]
     }
   };
 }

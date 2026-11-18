@@ -63,9 +63,9 @@ Source: U.S. Department of Justice, January 20, 2026 Rossini pardon warrant; Jan
   category: 'Politics',
   edition: ['US & Americas', 'Global'],
   author: {
-    name: 'Editorial Board',
+    name: 'Newyorkerherald Staff',
     role: 'Editorial Board & Legal Reporting Bureau',
-    avatar: '/images/authors/sarah_mitchell.jpg'
+    avatar: ''
   },
   publishedAt: 'Just now',
   readTime: '6 min read',
@@ -108,7 +108,7 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
     author: {
       name: 'Newyorkerherald Staff',
       role: 'Editorial Board & Investigative Reporting Unit',
-      avatar: '/images/authors/sarah_mitchell.jpg'
+      avatar: ''
     },
     publishedAt: '2h ago',
     readTime: '12 min read',
@@ -150,9 +150,9 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
       "Global"
     ],
     "author": {
-      "name": "Sarah Mitchell",
+      "name": "Newyorkerherald Staff",
       "role": "Chief Congressional & National Security Correspondent",
-      "avatar": "/images/authors/sarah_mitchell.jpg"
+      "avatar": ""
     },
     "publishedAt": "2h ago",
     "readTime": "7 min read",
@@ -188,9 +188,9 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
       "Global"
     ],
     "author": {
-      "name": "David Brooks",
+      "name": "Newyorkerherald Staff",
       "role": "Urban Affairs & Governance Correspondent",
-      "avatar": "/images/authors/sarah_mitchell.jpg"
+      "avatar": ""
     },
     "publishedAt": "3h ago",
     "readTime": "8 min read",
@@ -227,9 +227,9 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
       "Global"
     ],
     "author": {
-      "name": "Henrik Lindqvist",
+      "name": "Newyorkerherald Staff",
       "role": "Senior Financial Markets Correspondent",
-      "avatar": "/images/authors/henrik_lindqvist.jpg"
+      "avatar": ""
     },
     "publishedAt": "2h ago",
     "readTime": "7 min read",
@@ -266,9 +266,9 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
       "Global"
     ],
     "author": {
-      "name": "Elena Rostova",
+      "name": "Newyorkerherald Staff",
       "role": "Senior Artificial Intelligence & Tech Policy Editor",
-      "avatar": "/images/authors/elena_rostova.jpg"
+      "avatar": ""
     },
     "publishedAt": "3h ago",
     "readTime": "8 min read",
@@ -304,9 +304,9 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
       "Global"
     ],
     "author": {
-      "name": "Marcus Vance",
+      "name": "Newyorkerherald Staff",
       "role": "Culture & Entertainment Editor",
-      "avatar": "/images/authors/marcus_vance.jpg"
+      "avatar": ""
     },
     "publishedAt": "4h ago",
     "readTime": "7 min read",
@@ -342,9 +342,9 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
       "Global"
     ],
     "author": {
-      "name": "Jamal Crawford",
+      "name": "Newyorkerherald Staff",
       "role": "Senior NBA & Professional Sports Correspondent",
-      "avatar": "/images/authors/jamal_crawford.jpg"
+      "avatar": ""
     },
     "publishedAt": "4h ago",
     "readTime": "7 min read",
@@ -380,9 +380,9 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
       "Global"
     ],
     "author": {
-      "name": "Dr. Aris Thorne",
+      "name": "Newyorkerherald Staff",
       "role": "Astrophysics & Space Systems Editor",
-      "avatar": "/images/authors/aris_thorne.jpg"
+      "avatar": ""
     },
     "publishedAt": "5h ago",
     "readTime": "8 min read",
@@ -418,9 +418,9 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
       "Global"
     ],
     "author": {
-      "name": "Jonathan Ross",
+      "name": "Newyorkerherald Staff",
       "role": "Chief Investigative Reporter",
-      "avatar": "/images/authors/jonathan_ross.jpg"
+      "avatar": ""
     },
     "publishedAt": "5h ago",
     "readTime": "9 min read",
@@ -456,9 +456,9 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
       "Global"
     ],
     "author": {
-      "name": "Jonathan Ward",
+      "name": "Newyorkerherald Staff",
       "role": "Guest Contributing Columnist & Urban Economics Fellow",
-      "avatar": "/images/authors/jonathan_ward.jpg"
+      "avatar": ""
     },
     "publishedAt": "5h ago",
     "readTime": "8 min read",
@@ -491,9 +491,9 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
     category: "Politics",
     edition: ["US & Americas", "Global"],
     author: {
-      name: "Sarah Mitchell",
+      name: "Newyorkerherald Staff",
       role: "Chief Congressional & National Security Correspondent",
-      avatar: "/images/authors/sarah_mitchell.jpg"
+      avatar: ''
     },
     publishedAt: "2h ago",
     readTime: "7 min read",
@@ -524,9 +524,9 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
     category: "US",
     edition: ["US & Americas", "Global"],
     author: {
-      name: "Marcus Sterling",
+      name: "Newyorkerherald Staff",
       role: "National Justice & Urban Affairs Bureau",
-      avatar: "/images/authors/marcus_sterling.jpg"
+      avatar: ''
     },
     publishedAt: "3h ago",
     readTime: "8 min read",
@@ -557,9 +557,9 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
     category: "Business",
     edition: ["US & Americas", "Global"],
     author: {
-      name: "Henrik Lindqvist",
+      name: "Newyorkerherald Staff",
       role: "Chief Economics & Financial Markets Editor",
-      avatar: "/images/authors/henrik_lindqvist.jpg"
+      avatar: ''
     },
     publishedAt: "4h ago",
     readTime: "7 min read",
@@ -590,9 +590,9 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
     category: "Tech",
     edition: ["US & Americas", "Global"],
     author: {
-      name: "Elena Rostova",
+      name: "Newyorkerherald Staff",
       role: "Silicon Valley & Artificial Intelligence Bureau",
-      avatar: "/images/authors/elena_rostova.jpg"
+      avatar: ''
     },
     publishedAt: "5h ago",
     readTime: "8 min read",
@@ -623,9 +623,9 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
     category: "Entertainment",
     edition: ["US & Americas", "Global"],
     author: {
-      name: "Chloe Kensington",
+      name: "Newyorkerherald Staff",
       role: "Culture & Entertainment Bureau",
-      avatar: "/images/authors/chloe_kensington.jpg"
+      avatar: ''
     },
     publishedAt: "6h ago",
     readTime: "6 min read",
@@ -656,9 +656,9 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
     category: "Sports",
     edition: ["US & Americas", "Global"],
     author: {
-      name: "Darius Vance",
+      name: "Newyorkerherald Staff",
       role: "Senior Sports Correspondent",
-      avatar: "/images/authors/darius_vance.jpg"
+      avatar: ''
     },
     publishedAt: "7h ago",
     readTime: "6 min read",
@@ -689,9 +689,9 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
     category: "Science",
     edition: ["US & Americas", "Global"],
     author: {
-      name: "Dr. Aris Thorne",
+      name: "Newyorkerherald Staff",
       role: "Aerospace & Planetary Exploration Desk",
-      avatar: "/images/authors/aris_thorne.jpg"
+      avatar: ''
     },
     publishedAt: "8h ago",
     readTime: "8 min read",
@@ -722,9 +722,9 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
     category: "Investigation",
     edition: ["US & Americas", "Global"],
     author: {
-      name: "Jonathan Ross",
+      name: "Newyorkerherald Staff",
       role: "Chief Investigative Reporter",
-      avatar: "/images/authors/jonathan_ross.jpg"
+      avatar: ''
     },
     publishedAt: "9h ago",
     readTime: "9 min read",
@@ -755,9 +755,9 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
     category: "Opinion",
     edition: ["US & Americas", "Global"],
     author: {
-      name: "Eleanor Vance",
+      name: "Newyorkerherald Staff",
       role: "Senior Opinion Columnist",
-      avatar: "/images/authors/eleanor_vance.jpg"
+      avatar: ''
     },
     publishedAt: "10h ago",
     readTime: "7 min read",
@@ -789,9 +789,9 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
     category: "Politics",
     edition: ["US & Americas", "Global"],
     author: {
-      name: "Sarah Mitchell",
+      name: "Newyorkerherald Staff",
       role: "Chief Congressional & National Security Correspondent",
-      avatar: "/images/authors/sarah_mitchell.jpg"
+      avatar: ''
     },
     publishedAt: "2h ago",
     readTime: "7 min read",
@@ -822,9 +822,9 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
     category: "US",
     edition: ["US & Americas", "Global"],
     author: {
-      name: "Marcus Sterling",
+      name: "Newyorkerherald Staff",
       role: "National Justice & Urban Affairs Bureau",
-      avatar: "/images/authors/marcus_sterling.jpg"
+      avatar: ''
     },
     publishedAt: "3h ago",
     readTime: "8 min read",
@@ -855,9 +855,9 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
     category: "Business",
     edition: ["US & Americas", "Global"],
     author: {
-      name: "Henrik Lindqvist",
+      name: "Newyorkerherald Staff",
       role: "Chief Economics & Financial Markets Editor",
-      avatar: "/images/authors/henrik_lindqvist.jpg"
+      avatar: ''
     },
     publishedAt: "4h ago",
     readTime: "7 min read",
@@ -888,9 +888,9 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
     category: "Tech",
     edition: ["US & Americas", "Global"],
     author: {
-      name: "Elena Rostova",
+      name: "Newyorkerherald Staff",
       role: "Silicon Valley & Artificial Intelligence Bureau",
-      avatar: "/images/authors/elena_rostova.jpg"
+      avatar: ''
     },
     publishedAt: "5h ago",
     readTime: "8 min read",
@@ -921,9 +921,9 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
     category: "Entertainment",
     edition: ["US & Americas", "Global"],
     author: {
-      name: "Chloe Kensington",
+      name: "Newyorkerherald Staff",
       role: "Culture & Entertainment Bureau",
-      avatar: "/images/authors/chloe_kensington.jpg"
+      avatar: ''
     },
     publishedAt: "6h ago",
     readTime: "6 min read",
@@ -954,9 +954,9 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
     category: "Sports",
     edition: ["US & Americas", "Global"],
     author: {
-      name: "Darius Vance",
+      name: "Newyorkerherald Staff",
       role: "Senior Sports Correspondent",
-      avatar: "/images/authors/darius_vance.jpg"
+      avatar: ''
     },
     publishedAt: "7h ago",
     readTime: "6 min read",
@@ -987,9 +987,9 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
     category: "Science",
     edition: ["US & Americas", "Global"],
     author: {
-      name: "Dr. Aris Thorne",
+      name: "Newyorkerherald Staff",
       role: "Aerospace & Planetary Exploration Desk",
-      avatar: "/images/authors/aris_thorne.jpg"
+      avatar: ''
     },
     publishedAt: "8h ago",
     readTime: "8 min read",
@@ -1020,9 +1020,9 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
     category: "Investigation",
     edition: ["US & Americas", "Global"],
     author: {
-      name: "Jonathan Ross",
+      name: "Newyorkerherald Staff",
       role: "Chief Investigative Reporter",
-      avatar: "/images/authors/jonathan_ross.jpg"
+      avatar: ''
     },
     publishedAt: "9h ago",
     readTime: "9 min read",
@@ -1053,9 +1053,9 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
     category: "Opinion",
     edition: ["US & Americas", "Global"],
     author: {
-      name: "Eleanor Vance",
+      name: "Newyorkerherald Staff",
       role: "Senior Opinion Columnist",
-      avatar: "/images/authors/eleanor_vance.jpg"
+      avatar: ''
     },
     publishedAt: "10h ago",
     readTime: "7 min read",
@@ -1090,9 +1090,9 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
       "Global"
     ],
     "author": {
-      "name": "Sarah Mitchell",
+      "name": "Newyorkerherald Staff",
       "role": "Chief Congressional & National Security Correspondent",
-      "avatar": "/images/authors/sarah_mitchell.jpg"
+      "avatar": ""
     },
     "publishedAt": "2h ago",
     "readTime": "8 min read",
@@ -1126,9 +1126,9 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
       "Global"
     ],
     "author": {
-      "name": "Sarah Mitchell",
+      "name": "Newyorkerherald Staff",
       "role": "Chief Congressional & National Security Correspondent",
-      "avatar": "/images/authors/sarah_mitchell.jpg"
+      "avatar": ""
     },
     "publishedAt": "2h ago",
     "readTime": "8 min read",
@@ -1162,9 +1162,9 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
       "Global"
     ],
     "author": {
-      "name": "Sarah Mitchell",
+      "name": "Newyorkerherald Staff",
       "role": "Chief Congressional Correspondent",
-      "avatar": "/images/authors/sarah_mitchell.jpg"
+      "avatar": ""
     },
     "publishedAt": "2h ago",
     "readTime": "7 min read",
@@ -1200,7 +1200,7 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
     "author": {
       "name": "Newyorkerherald Staff",
       "role": "Capitol Hill & National Security Bureau",
-      "avatar": "/images/authors/sarah_mitchell.jpg"
+      "avatar": ""
     },
     "publishedAt": "1h ago",
     "readTime": "7 min read",
@@ -1236,7 +1236,7 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
     "author": {
       "name": "Newyorkerherald Staff",
       "role": "Capitol Hill & National Politics Bureau",
-      "avatar": "/images/authors/sarah_mitchell.jpg"
+      "avatar": ""
     },
     "publishedAt": "1h ago",
     "readTime": "8 min read",
@@ -1277,7 +1277,7 @@ The ruling carries immediate ramifications for the battle for control of the Uni
     author: {
       name: 'Newyorkerherald Staff',
       role: 'Supreme Court & Legal Affairs Bureau',
-      avatar: '/images/authors/sarah_mitchell.jpg'
+      avatar: ''
     },
     publishedAt: '2h ago',
     readTime: '7 min read',
@@ -1313,7 +1313,7 @@ Federal cybersecurity and domestic intelligence agencies confirmed that monitori
     author: {
       name: 'Newyorkerherald Staff',
       role: 'Editorial Board & Newsroom Desks',
-      avatar: '/images/authors/sarah_mitchell.jpg'
+      avatar: ''
     },
     publishedAt: 'Updated 14 minutes ago',
     readTime: '7 min read',
@@ -1348,7 +1348,7 @@ The tragedy marks one of the deadliest executive business aviation accidents in 
     author: {
       name: 'Newyorkerherald Staff',
       role: 'Editorial Board & Newsroom Desks',
-      avatar: '/images/authors/sarah_mitchell.jpg'
+      avatar: ''
     },
     publishedAt: '35m ago',
     readTime: '6 min read',
@@ -1382,7 +1382,7 @@ With financial markets and manufacturing executives watching closely, trade poli
     author: {
       name: 'Newyorkerherald Staff',
       role: 'Editorial Board & Newsroom Desks',
-      avatar: '/images/authors/sarah_mitchell.jpg'
+      avatar: ''
     },
     publishedAt: '52m ago',
     readTime: '6 min read',
@@ -1417,7 +1417,7 @@ Despite the headwinds, technology executives insist that underinvesting in found
     author: {
       name: 'Newyorkerherald Staff',
       role: 'Editorial Board & Newsroom Desks',
-      avatar: '/images/authors/sarah_mitchell.jpg'
+      avatar: ''
     },
     publishedAt: '1h ago',
     readTime: '5 min read',
@@ -1441,7 +1441,7 @@ With Congress focused on election day, legislative leaders have deferred floor c
     author: {
       name: 'Newyorkerherald Staff',
       role: 'Editorial Board & Newsroom Desks',
-      avatar: '/images/authors/sarah_mitchell.jpg'
+      avatar: ''
     },
     publishedAt: '2h ago',
     readTime: '5 min read',
@@ -1460,7 +1460,7 @@ export const TRENDING_RANKED_ARTICLES: Article[] = [
     author: {
       name: 'Newyorkerherald Staff',
       role: 'Editorial Board & Newsroom Desks',
-      avatar: '/images/authors/sarah_mitchell.jpg'
+      avatar: ''
     },
     publishedAt: '3h ago',
     readTime: '5 min read',
@@ -1475,7 +1475,7 @@ export const TRENDING_RANKED_ARTICLES: Article[] = [
     author: {
       name: 'Newyorkerherald Staff',
       role: 'Editorial Board & Newsroom Desks',
-      avatar: '/images/authors/sarah_mitchell.jpg'
+      avatar: ''
     },
     publishedAt: '5h ago',
     readTime: '5 min read',
@@ -1490,7 +1490,7 @@ export const TRENDING_RANKED_ARTICLES: Article[] = [
     author: {
       name: 'Newyorkerherald Staff',
       role: 'Editorial Board & Newsroom Desks',
-      avatar: '/images/authors/sarah_mitchell.jpg'
+      avatar: ''
     },
     publishedAt: '6h ago',
     readTime: '6 min read',
@@ -1505,7 +1505,7 @@ export const TRENDING_RANKED_ARTICLES: Article[] = [
     author: {
       name: 'Newyorkerherald Staff',
       role: 'Editorial Board & Newsroom Desks',
-      avatar: '/images/authors/sarah_mitchell.jpg'
+      avatar: ''
     },
     publishedAt: '4h ago',
     readTime: '5 min read',
@@ -1532,7 +1532,7 @@ As the Federal Energy Regulatory Commission (FERC) convenes national stakeholder
   author: {
     name: 'Newyorkerherald Staff',
     role: 'Editorial Board & Newsroom Desks',
-    avatar: '/images/authors/sarah_mitchell.jpg'
+    avatar: ''
   },
   publishedAt: 'Updated Nov 2, 2026',
   readTime: '10 min read',
@@ -1563,9 +1563,9 @@ export const CATEGORY_ARTICLES: Record<string, Article[]> = {
         "Global"
       ],
       "author": {
-        "name": "Jonathan Ross",
+        "name": "Newyorkerherald Staff",
         "role": "Chief Investigative Reporter",
-        "avatar": "/images/authors/jonathan_ross.jpg"
+        "avatar": ""
       },
       "publishedAt": "5h ago",
       "readTime": "9 min read",
@@ -1598,9 +1598,9 @@ export const CATEGORY_ARTICLES: Record<string, Article[]> = {
       category: "Investigation",
       edition: ["US & Americas", "Global"],
       author: {
-        name: "Jonathan Ross",
+        name: "Newyorkerherald Staff",
         role: "Chief Investigative Reporter",
-        avatar: "/images/authors/jonathan_ross.jpg"
+        avatar: ''
       },
       publishedAt: "9h ago",
       readTime: "9 min read",
@@ -1632,9 +1632,9 @@ export const CATEGORY_ARTICLES: Record<string, Article[]> = {
       category: "Investigation",
       edition: ["US & Americas", "Global"],
       author: {
-        name: "Jonathan Ross",
+        name: "Newyorkerherald Staff",
         role: "Chief Investigative Reporter",
-        avatar: "/images/authors/jonathan_ross.jpg"
+        avatar: ''
       },
       publishedAt: "9h ago",
       readTime: "9 min read",
@@ -1668,9 +1668,9 @@ export const CATEGORY_ARTICLES: Record<string, Article[]> = {
         "US & Americas"
       ],
       "author": {
-        "name": "Jonathan Ross",
+        "name": "Newyorkerherald Staff",
         "role": "Chief Investigative Reporter",
-        "avatar": "/images/authors/jonathan_ross.jpg"
+        "avatar": ""
       },
       "publishedAt": "9h ago",
       "readTime": "9 min read",
@@ -1704,9 +1704,9 @@ export const CATEGORY_ARTICLES: Record<string, Article[]> = {
         "US & Americas"
       ],
       "author": {
-        "name": "Jonathan Ross",
+        "name": "Newyorkerherald Staff",
         "role": "Chief Investigative Reporter",
-        "avatar": "/images/authors/jonathan_ross.jpg"
+        "avatar": ""
       },
       "publishedAt": "9h ago",
       "readTime": "9 min read",
@@ -1740,9 +1740,9 @@ export const CATEGORY_ARTICLES: Record<string, Article[]> = {
         "US & Americas"
       ],
       "author": {
-        "name": "Jonathan Ross",
+        "name": "Newyorkerherald Staff",
         "role": "Chief Investigative Reporter",
-        "avatar": "/images/authors/jonathan_ross.jpg"
+        "avatar": ""
       },
       "publishedAt": "12h ago",
       "readTime": "9 min read",
@@ -1779,7 +1779,7 @@ export const CATEGORY_ARTICLES: Record<string, Article[]> = {
       "author": {
         "name": "Newyorkerherald Staff",
         "role": "National Security & Justice Department Reporting Unit",
-        "avatar": "/images/authors/sarah_mitchell.jpg"
+        "avatar": ""
       },
       "publishedAt": "6h ago",
       "readTime": "8 min read",
@@ -1814,7 +1814,7 @@ export const CATEGORY_ARTICLES: Record<string, Article[]> = {
       "author": {
         "name": "Newyorkerherald Staff",
         "role": "Investigative Reporting & Enterprise Unit",
-        "avatar": "/images/authors/sarah_mitchell.jpg"
+        "avatar": ""
       },
       "publishedAt": "6h ago",
       "readTime": "9 min read",
@@ -1856,7 +1856,7 @@ In Albany, Governor Kathy Hochul convened an emergency public health cabinet mee
       author: {
         name: 'Newyorkerherald Staff',
         role: 'Investigative Public Health Bureau',
-        avatar: '/images/authors/sarah_mitchell.jpg'
+        avatar: ''
       },
       publishedAt: '6h ago',
       readTime: '9 min read',
@@ -1886,7 +1886,7 @@ In Albany, Governor Kathy Hochul convened an emergency public health cabinet mee
       "author": {
         "name": "Newyorkerherald Staff",
         "role": "Editorial Board & Investigative Reporting Unit",
-        "avatar": "/images/authors/sarah_mitchell.jpg"
+        "avatar": ""
       },
       "publishedAt": "2h ago",
       "readTime": "12 min read",
@@ -1930,9 +1930,9 @@ In Albany, Governor Kathy Hochul convened an emergency public health cabinet mee
         "Global"
       ],
       "author": {
-        "name": "David Brooks",
+        "name": "Newyorkerherald Staff",
         "role": "Urban Affairs & Governance Correspondent",
-        "avatar": "/images/authors/sarah_mitchell.jpg"
+        "avatar": ""
       },
       "publishedAt": "3h ago",
       "readTime": "8 min read",
@@ -1966,9 +1966,9 @@ In Albany, Governor Kathy Hochul convened an emergency public health cabinet mee
       category: "US",
       edition: ["US & Americas", "Global"],
       author: {
-        name: "Marcus Sterling",
+        name: "Newyorkerherald Staff",
         role: "National Justice & Urban Affairs Bureau",
-        avatar: "/images/authors/marcus_sterling.jpg"
+        avatar: ''
       },
       publishedAt: "3h ago",
       readTime: "8 min read",
@@ -2000,9 +2000,9 @@ In Albany, Governor Kathy Hochul convened an emergency public health cabinet mee
       category: "US",
       edition: ["US & Americas", "Global"],
       author: {
-        name: "Marcus Sterling",
+        name: "Newyorkerherald Staff",
         role: "National Justice & Urban Affairs Bureau",
-        avatar: "/images/authors/marcus_sterling.jpg"
+        avatar: ''
       },
       publishedAt: "3h ago",
       readTime: "8 min read",
@@ -2036,9 +2036,9 @@ In Albany, Governor Kathy Hochul convened an emergency public health cabinet mee
         "US & Americas"
       ],
       "author": {
-        "name": "Marcus Sterling",
+        "name": "Newyorkerherald Staff",
         "role": "National Justice & Urban Affairs Bureau",
-        "avatar": "/images/authors/marcus_sterling.jpg"
+        "avatar": ""
       },
       "publishedAt": "3h ago",
       "readTime": "8 min read",
@@ -2071,9 +2071,9 @@ In Albany, Governor Kathy Hochul convened an emergency public health cabinet mee
         "US & Americas"
       ],
       "author": {
-        "name": "Marcus Sterling",
+        "name": "Newyorkerherald Staff",
         "role": "National Justice & Urban Affairs Bureau",
-        "avatar": "/images/authors/marcus_sterling.jpg"
+        "avatar": ""
       },
       "publishedAt": "3h ago",
       "readTime": "8 min read",
@@ -2106,9 +2106,9 @@ In Albany, Governor Kathy Hochul convened an emergency public health cabinet mee
         "US & Americas"
       ],
       "author": {
-        "name": "Marcus Sterling",
+        "name": "Newyorkerherald Staff",
         "role": "National Justice & Federal Agencies Bureau",
-        "avatar": "/images/authors/marcus_sterling.jpg"
+        "avatar": ""
       },
       "publishedAt": "3h ago",
       "readTime": "8 min read",
@@ -2143,7 +2143,7 @@ In Albany, Governor Kathy Hochul convened an emergency public health cabinet mee
       "author": {
         "name": "Newyorkerherald Staff",
         "role": "National Affairs & Historical Documentation Desk",
-        "avatar": "/images/authors/sarah_mitchell.jpg"
+        "avatar": ""
       },
       "publishedAt": "2h ago",
       "readTime": "8 min read",
@@ -2178,7 +2178,7 @@ In Albany, Governor Kathy Hochul convened an emergency public health cabinet mee
       "author": {
         "name": "Newyorkerherald Staff",
         "role": "National State Affairs & Policy Bureau",
-        "avatar": "/images/authors/sarah_mitchell.jpg"
+        "avatar": ""
       },
       "publishedAt": "2h ago",
       "readTime": "7 min read",
@@ -2219,7 +2219,7 @@ Constitutional legal scholars anticipate that regardless of Tuesday's electoral 
       author: {
         name: 'Newyorkerherald Staff',
         role: 'California & National Policy Desk',
-        avatar: '/images/authors/sarah_mitchell.jpg'
+        avatar: ''
       },
       publishedAt: '3h ago',
       readTime: '8 min read',
@@ -2248,7 +2248,7 @@ Constitutional legal scholars anticipate that regardless of Tuesday's electoral 
       "author": {
         "name": "Newyorkerherald Staff",
         "role": "Editorial Board & Investigative Reporting Unit",
-        "avatar": "/images/authors/sarah_mitchell.jpg"
+        "avatar": ""
       },
       "publishedAt": "2h ago",
       "readTime": "12 min read",
@@ -2297,7 +2297,7 @@ As the clocks reset, congressional leaders confirmed that bipartisan committee s
       author: {
         name: 'Newyorkerherald Staff',
         role: 'Editorial Board & Newsroom Desks',
-        avatar: '/images/authors/sarah_mitchell.jpg'
+        avatar: ''
       },
       publishedAt: '2h ago',
       readTime: '5 min read',
@@ -2319,9 +2319,9 @@ As the clocks reset, congressional leaders confirmed that bipartisan committee s
         "Global"
       ],
       "author": {
-        "name": "Sarah Mitchell",
+        "name": "Newyorkerherald Staff",
         "role": "Chief Congressional & National Security Correspondent",
-        "avatar": "/images/authors/sarah_mitchell.jpg"
+        "avatar": ""
       },
       "publishedAt": "2h ago",
       "readTime": "7 min read",
@@ -2354,9 +2354,9 @@ As the clocks reset, congressional leaders confirmed that bipartisan committee s
       category: "Politics",
       edition: ["US & Americas", "Global"],
       author: {
-        name: "Sarah Mitchell",
+        name: "Newyorkerherald Staff",
         role: "Chief Congressional & National Security Correspondent",
-        avatar: "/images/authors/sarah_mitchell.jpg"
+        avatar: ''
       },
       publishedAt: "2h ago",
       readTime: "7 min read",
@@ -2388,9 +2388,9 @@ As the clocks reset, congressional leaders confirmed that bipartisan committee s
       category: "Politics",
       edition: ["US & Americas", "Global"],
       author: {
-        name: "Sarah Mitchell",
+        name: "Newyorkerherald Staff",
         role: "Chief Congressional & National Security Correspondent",
-        avatar: "/images/authors/sarah_mitchell.jpg"
+        avatar: ''
       },
       publishedAt: "2h ago",
       readTime: "7 min read",
@@ -2425,9 +2425,9 @@ As the clocks reset, congressional leaders confirmed that bipartisan committee s
         "Global"
       ],
       "author": {
-        "name": "Sarah Mitchell",
+        "name": "Newyorkerherald Staff",
         "role": "Chief Congressional & National Security Correspondent",
-        "avatar": "/images/authors/sarah_mitchell.jpg"
+        "avatar": ""
       },
       "publishedAt": "2h ago",
       "readTime": "8 min read",
@@ -2461,9 +2461,9 @@ As the clocks reset, congressional leaders confirmed that bipartisan committee s
         "Global"
       ],
       "author": {
-        "name": "Sarah Mitchell",
+        "name": "Newyorkerherald Staff",
         "role": "Chief Congressional & National Security Correspondent",
-        "avatar": "/images/authors/sarah_mitchell.jpg"
+        "avatar": ""
       },
       "publishedAt": "2h ago",
       "readTime": "8 min read",
@@ -2497,9 +2497,9 @@ As the clocks reset, congressional leaders confirmed that bipartisan committee s
         "Global"
       ],
       "author": {
-        "name": "Sarah Mitchell",
+        "name": "Newyorkerherald Staff",
         "role": "Chief Congressional Correspondent",
-        "avatar": "/images/authors/sarah_mitchell.jpg"
+        "avatar": ""
       },
       "publishedAt": "2h ago",
       "readTime": "7 min read",
@@ -2535,7 +2535,7 @@ As the clocks reset, congressional leaders confirmed that bipartisan committee s
       "author": {
         "name": "Newyorkerherald Staff",
         "role": "Capitol Hill & National Security Bureau",
-        "avatar": "/images/authors/sarah_mitchell.jpg"
+        "avatar": ""
       },
       "publishedAt": "1h ago",
       "readTime": "7 min read",
@@ -2571,7 +2571,7 @@ As the clocks reset, congressional leaders confirmed that bipartisan committee s
       "author": {
         "name": "Newyorkerherald Staff",
         "role": "Capitol Hill & National Politics Bureau",
-        "avatar": "/images/authors/sarah_mitchell.jpg"
+        "avatar": ""
       },
       "publishedAt": "1h ago",
       "readTime": "8 min read",
@@ -2612,7 +2612,7 @@ The ruling carries immediate ramifications for the battle for control of the Uni
       author: {
         name: 'Newyorkerherald Staff',
         role: 'Supreme Court & Legal Affairs Bureau',
-        avatar: '/images/authors/sarah_mitchell.jpg'
+        avatar: ''
       },
       publishedAt: '2h ago',
       readTime: '7 min read',
@@ -2641,7 +2641,7 @@ The ruling carries immediate ramifications for the battle for control of the Uni
       "author": {
         "name": "Newyorkerherald Staff",
         "role": "Editorial Board & Newsroom Desks",
-        "avatar": "/images/authors/sarah_mitchell.jpg"
+        "avatar": ""
       },
       "publishedAt": "2h ago",
       "readTime": "7 min read",
@@ -2680,7 +2680,7 @@ With floor votes scheduled for the upcoming post-election lame-duck congressiona
       author: {
         name: 'Newyorkerherald Staff',
         role: 'Editorial Board & Newsroom Desks',
-        avatar: '/images/authors/sarah_mitchell.jpg'
+        avatar: ''
       },
       publishedAt: '2h ago',
       readTime: '6 min read',
@@ -2712,7 +2712,7 @@ Statistical forecasters emphasize that unprecedented early in-person turnout tal
       author: {
         name: 'Newyorkerherald Staff',
         role: 'Editorial Board & Newsroom Desks',
-        avatar: '/images/authors/sarah_mitchell.jpg'
+        avatar: ''
       },
       publishedAt: '3h ago',
       readTime: '6 min read',
@@ -2747,7 +2747,7 @@ Murphy, who has served in the United States Senate since 2013 and previously rep
       author: {
         name: 'Newyorkerherald Staff',
         role: 'Editorial Board & Newsroom Desks',
-        avatar: '/images/authors/sarah_mitchell.jpg'
+        avatar: ''
       },
       publishedAt: '3h ago',
       readTime: '5 min read',
@@ -2769,7 +2769,7 @@ Legal scholars note that the high court's eventual ruling, anticipated in the sp
       author: {
         name: 'Newyorkerherald Staff',
         role: 'Editorial Board & Newsroom Desks',
-        avatar: '/images/authors/sarah_mitchell.jpg'
+        avatar: ''
       },
       publishedAt: '4h ago',
       readTime: '5 min read',
@@ -2791,7 +2791,7 @@ In Washington, national security officials convened in the White House Situation
       author: {
         name: 'Newyorkerherald Staff',
         role: 'Editorial Board & Newsroom Desks',
-        avatar: '/images/authors/sarah_mitchell.jpg'
+        avatar: ''
       },
       publishedAt: '5h ago',
       readTime: '5 min read',
@@ -2810,9 +2810,9 @@ In Washington, national security officials convened in the White House Situation
       category: "Business",
       edition: ["US & Americas", "Global"],
       author: {
-        name: "Henrik Lindqvist",
+        name: "Newyorkerherald Staff",
         role: "Chief Economics & Financial Markets Editor",
-        avatar: "/images/authors/henrik_lindqvist.jpg"
+        avatar: ''
       },
       publishedAt: "4h ago",
       readTime: "7 min read",
@@ -2844,9 +2844,9 @@ In Washington, national security officials convened in the White House Situation
       category: "Business",
       edition: ["US & Americas", "Global"],
       author: {
-        name: "Henrik Lindqvist",
+        name: "Newyorkerherald Staff",
         role: "Chief Economics & Financial Markets Editor",
-        avatar: "/images/authors/henrik_lindqvist.jpg"
+        avatar: ''
       },
       publishedAt: "4h ago",
       readTime: "7 min read",
@@ -2881,9 +2881,9 @@ In Washington, national security officials convened in the White House Situation
         "Global"
       ],
       "author": {
-        "name": "Tyler Brooks",
+        "name": "Newyorkerherald Staff",
         "role": "Wall Street & Financial Markets Bureau",
-        "avatar": "/images/authors/tyler_brooks.jpg"
+        "avatar": ""
       },
       "publishedAt": "4h ago",
       "readTime": "8 min read",
@@ -2917,9 +2917,9 @@ In Washington, national security officials convened in the White House Situation
         "Global"
       ],
       "author": {
-        "name": "Tyler Brooks",
+        "name": "Newyorkerherald Staff",
         "role": "Wall Street & Financial Markets Bureau",
-        "avatar": "/images/authors/tyler_brooks.jpg"
+        "avatar": ""
       },
       "publishedAt": "4h ago",
       "readTime": "8 min read",
@@ -2953,9 +2953,9 @@ In Washington, national security officials convened in the White House Situation
         "Global"
       ],
       "author": {
-        "name": "Tyler Brooks",
+        "name": "Newyorkerherald Staff",
         "role": "Financial Markets & Fintech Correspondent",
-        "avatar": "/images/authors/tyler_brooks.jpg"
+        "avatar": ""
       },
       "publishedAt": "4h ago",
       "readTime": "7 min read",
@@ -2991,7 +2991,7 @@ In Washington, national security officials convened in the White House Situation
       "author": {
         "name": "Newyorkerherald Staff",
         "role": "Wall Street & Financial Markets Bureau",
-        "avatar": "/images/authors/sarah_mitchell.jpg"
+        "avatar": ""
       },
       "publishedAt": "3h ago",
       "readTime": "7 min read",
@@ -3027,7 +3027,7 @@ In Washington, national security officials convened in the White House Situation
       "author": {
         "name": "Newyorkerherald Staff",
         "role": "Wall Street & Global Markets Bureau",
-        "avatar": "/images/authors/sarah_mitchell.jpg"
+        "avatar": ""
       },
       "publishedAt": "3h ago",
       "readTime": "6 min read",
@@ -3068,7 +3068,7 @@ The energy price shock arrives at an exceptionally delicate juncture for domesti
       author: {
         name: 'Newyorkerherald Staff',
         role: 'Global Energy & Financial Markets Desk',
-        avatar: '/images/authors/sarah_mitchell.jpg'
+        avatar: ''
       },
       publishedAt: '4h ago',
       readTime: '8 min read',
@@ -3097,7 +3097,7 @@ The energy price shock arrives at an exceptionally delicate juncture for domesti
       "author": {
         "name": "Newyorkerherald Staff",
         "role": "Editorial Board & Newsroom Desks",
-        "avatar": "/images/authors/sarah_mitchell.jpg"
+        "avatar": ""
       },
       "publishedAt": "3h ago",
       "readTime": "6 min read",
@@ -3136,7 +3136,7 @@ With multi-billion-dollar domestic semiconductor facilities under construction a
       author: {
         name: 'Newyorkerherald Staff',
         role: 'Editorial Board & Newsroom Desks',
-        avatar: '/images/authors/sarah_mitchell.jpg'
+        avatar: ''
       },
       publishedAt: '4h ago',
       readTime: '6 min read',
@@ -3170,7 +3170,7 @@ Domestically, U.S. oil and gas producers operating across the Permian Basin in T
       author: {
         name: 'Newyorkerherald Staff',
         role: 'Editorial Board & Newsroom Desks',
-        avatar: '/images/authors/sarah_mitchell.jpg'
+        avatar: ''
       },
       publishedAt: '1h ago',
       readTime: '5 min read',
@@ -3194,7 +3194,7 @@ However, independent retailers argue that payment fees have become the second-hi
       author: {
         name: 'Newyorkerherald Staff',
         role: 'Editorial Board & Newsroom Desks',
-        avatar: '/images/authors/sarah_mitchell.jpg'
+        avatar: ''
       },
       publishedAt: '4h ago',
       readTime: '5 min read',
@@ -3218,7 +3218,7 @@ Sports finance experts note that the move mirrors a broader institutional trend 
       author: {
         name: 'Newyorkerherald Staff',
         role: 'Editorial Board & Newsroom Desks',
-        avatar: '/images/authors/sarah_mitchell.jpg'
+        avatar: ''
       },
       publishedAt: '5h ago',
       readTime: '5 min read',
@@ -3240,9 +3240,9 @@ Sports finance experts note that the move mirrors a broader institutional trend 
         "Global"
       ],
       "author": {
-        "name": "Elena Rostova",
+        "name": "Newyorkerherald Staff",
         "role": "Senior Artificial Intelligence & Tech Policy Editor",
-        "avatar": "/images/authors/elena_rostova.jpg"
+        "avatar": ""
       },
       "publishedAt": "3h ago",
       "readTime": "8 min read",
@@ -3275,9 +3275,9 @@ Sports finance experts note that the move mirrors a broader institutional trend 
       category: "Tech",
       edition: ["US & Americas", "Global"],
       author: {
-        name: "Elena Rostova",
+        name: "Newyorkerherald Staff",
         role: "Silicon Valley & Artificial Intelligence Bureau",
-        avatar: "/images/authors/elena_rostova.jpg"
+        avatar: ''
       },
       publishedAt: "5h ago",
       readTime: "8 min read",
@@ -3309,9 +3309,9 @@ Sports finance experts note that the move mirrors a broader institutional trend 
       category: "Tech",
       edition: ["US & Americas", "Global"],
       author: {
-        name: "Elena Rostova",
+        name: "Newyorkerherald Staff",
         role: "Silicon Valley & Artificial Intelligence Bureau",
-        avatar: "/images/authors/elena_rostova.jpg"
+        avatar: ''
       },
       publishedAt: "5h ago",
       readTime: "8 min read",
@@ -3346,9 +3346,9 @@ Sports finance experts note that the move mirrors a broader institutional trend 
         "Global"
       ],
       "author": {
-        "name": "Maya Lin Chen",
+        "name": "Newyorkerherald Staff",
         "role": "Silicon Valley & Artificial Intelligence Lead",
-        "avatar": "/images/authors/maya_lin_chen.jpg"
+        "avatar": ""
       },
       "publishedAt": "5h ago",
       "readTime": "9 min read",
@@ -3382,9 +3382,9 @@ Sports finance experts note that the move mirrors a broader institutional trend 
         "Global"
       ],
       "author": {
-        "name": "Maya Lin Chen",
+        "name": "Newyorkerherald Staff",
         "role": "Silicon Valley & Cybersecurity Bureau",
-        "avatar": "/images/authors/maya_lin_chen.jpg"
+        "avatar": ""
       },
       "publishedAt": "5h ago",
       "readTime": "8 min read",
@@ -3418,9 +3418,9 @@ Sports finance experts note that the move mirrors a broader institutional trend 
         "Global"
       ],
       "author": {
-        "name": "Maya Lin Chen",
+        "name": "Newyorkerherald Staff",
         "role": "Silicon Valley & Artificial Intelligence Lead",
-        "avatar": "/images/authors/maya_lin_chen.jpg"
+        "avatar": ""
       },
       "publishedAt": "5h ago",
       "readTime": "8 min read",
@@ -3456,7 +3456,7 @@ Sports finance experts note that the move mirrors a broader institutional trend 
       "author": {
         "name": "Newyorkerherald Staff",
         "role": "Global Technology Regulation & Cyber Law Desk",
-        "avatar": "/images/authors/sarah_mitchell.jpg"
+        "avatar": ""
       },
       "publishedAt": "4h ago",
       "readTime": "8 min read",
@@ -3492,7 +3492,7 @@ Sports finance experts note that the move mirrors a broader institutional trend 
       "author": {
         "name": "Newyorkerherald Staff",
         "role": "Frontier AI & Technology Bureau",
-        "avatar": "/images/authors/sarah_mitchell.jpg"
+        "avatar": ""
       },
       "publishedAt": "4h ago",
       "readTime": "7 min read",
@@ -3533,7 +3533,7 @@ Despite these assurances, regulatory sentiment in Washington and Brussels has ha
       author: {
         name: 'Newyorkerherald Staff',
         role: 'Silicon Valley Tech & Antitrust Bureau',
-        avatar: '/images/authors/sarah_mitchell.jpg'
+        avatar: ''
       },
       publishedAt: '4h ago',
       readTime: '8 min read',
@@ -3562,7 +3562,7 @@ Despite these assurances, regulatory sentiment in Washington and Brussels has ha
       "author": {
         "name": "Newyorkerherald Staff",
         "role": "Editorial Board & Newsroom Desks",
-        "avatar": "/images/authors/david_vance.jpg"
+        "avatar": ""
       },
       "publishedAt": "1h ago",
       "readTime": "7 min read",
@@ -3601,7 +3601,7 @@ In response to congressional inquiries, leading enterprise AI laboratories annou
       author: {
         name: 'Newyorkerherald Staff',
         role: 'Editorial Board & Newsroom Desks',
-        avatar: '/images/authors/sarah_mitchell.jpg'
+        avatar: ''
       },
       publishedAt: '4h ago',
       readTime: '6 min read',
@@ -3635,7 +3635,7 @@ Industry analysts emphasize that maintaining clear, transparent regulatory frame
       author: {
         name: 'Newyorkerherald Staff',
         role: 'Editorial Board & Newsroom Desks',
-        avatar: '/images/authors/sarah_mitchell.jpg'
+        avatar: ''
       },
       publishedAt: '2h ago',
       readTime: '5 min read',
@@ -3659,7 +3659,7 @@ Sociologists and tech policy researchers note that the Menomonie decision marks 
       author: {
         name: 'Newyorkerherald Staff',
         role: 'Editorial Board & Newsroom Desks',
-        avatar: '/images/authors/sarah_mitchell.jpg'
+        avatar: ''
       },
       publishedAt: '3h ago',
       readTime: '5 min read',
@@ -3683,7 +3683,7 @@ Aerospace financial analysts estimate that SpaceX's commercial launch and satell
       author: {
         name: 'Newyorkerherald Staff',
         role: 'Editorial Board & Newsroom Desks',
-        avatar: '/images/authors/sarah_mitchell.jpg'
+        avatar: ''
       },
       publishedAt: '4h ago',
       readTime: '5 min read',
@@ -3705,9 +3705,9 @@ Aerospace financial analysts estimate that SpaceX's commercial launch and satell
         "Global"
       ],
       "author": {
-        "name": "Marcus Vance",
+        "name": "Newyorkerherald Staff",
         "role": "Culture & Entertainment Editor",
-        "avatar": "/images/authors/marcus_vance.jpg"
+        "avatar": ""
       },
       "publishedAt": "4h ago",
       "readTime": "7 min read",
@@ -3740,9 +3740,9 @@ Aerospace financial analysts estimate that SpaceX's commercial launch and satell
       category: "Entertainment",
       edition: ["US & Americas", "Global"],
       author: {
-        name: "Chloe Kensington",
+        name: "Newyorkerherald Staff",
         role: "Culture & Entertainment Bureau",
-        avatar: "/images/authors/chloe_kensington.jpg"
+        avatar: ''
       },
       publishedAt: "6h ago",
       readTime: "6 min read",
@@ -3774,9 +3774,9 @@ Aerospace financial analysts estimate that SpaceX's commercial launch and satell
       category: "Entertainment",
       edition: ["US & Americas", "Global"],
       author: {
-        name: "Chloe Kensington",
+        name: "Newyorkerherald Staff",
         role: "Culture & Entertainment Bureau",
-        avatar: "/images/authors/chloe_kensington.jpg"
+        avatar: ''
       },
       publishedAt: "6h ago",
       readTime: "6 min read",
@@ -3810,9 +3810,9 @@ Aerospace financial analysts estimate that SpaceX's commercial launch and satell
         "US & Americas"
       ],
       "author": {
-        "name": "Claire Montgomery",
+        "name": "Newyorkerherald Staff",
         "role": "Culture & Entertainment Bureau",
-        "avatar": "/images/authors/claire_montgomery.jpg"
+        "avatar": ""
       },
       "publishedAt": "6h ago",
       "readTime": "7 min read",
@@ -3845,9 +3845,9 @@ Aerospace financial analysts estimate that SpaceX's commercial launch and satell
         "US & Americas"
       ],
       "author": {
-        "name": "Claire Montgomery",
+        "name": "Newyorkerherald Staff",
         "role": "Culture & Entertainment Bureau",
-        "avatar": "/images/authors/claire_montgomery.jpg"
+        "avatar": ""
       },
       "publishedAt": "6h ago",
       "readTime": "7 min read",
@@ -3880,9 +3880,9 @@ Aerospace financial analysts estimate that SpaceX's commercial launch and satell
         "US & Americas"
       ],
       "author": {
-        "name": "Claire Montgomery",
+        "name": "Newyorkerherald Staff",
         "role": "Culture & Music Industry Editor",
-        "avatar": "/images/authors/claire_montgomery.jpg"
+        "avatar": ""
       },
       "publishedAt": "6h ago",
       "readTime": "7 min read",
@@ -3918,7 +3918,7 @@ Aerospace financial analysts estimate that SpaceX's commercial launch and satell
       "author": {
         "name": "Newyorkerherald Staff",
         "role": "Film Culture & Hollywood Studio Industry Bureau",
-        "avatar": "/images/authors/sarah_mitchell.jpg"
+        "avatar": ""
       },
       "publishedAt": "5h ago",
       "readTime": "7 min read",
@@ -3954,7 +3954,7 @@ Aerospace financial analysts estimate that SpaceX's commercial launch and satell
       "author": {
         "name": "Newyorkerherald Staff",
         "role": "Culture, Arts & Entertainment Desk",
-        "avatar": "/images/authors/sarah_mitchell.jpg"
+        "avatar": ""
       },
       "publishedAt": "5h ago",
       "readTime": "6 min read",
@@ -3995,7 +3995,7 @@ With the film's worldwide cumulative gross now standing at an astounding $1.68 b
       author: {
         name: 'Newyorkerherald Staff',
         role: 'Hollywood & Global Culture Desk',
-        avatar: '/images/authors/sarah_mitchell.jpg'
+        avatar: ''
       },
       publishedAt: '5h ago',
       readTime: '7 min read',
@@ -4023,7 +4023,7 @@ With the film's worldwide cumulative gross now standing at an astounding $1.68 b
       "author": {
         "name": "Newyorkerherald Staff",
         "role": "Editorial Board & Newsroom Desks",
-        "avatar": "/images/authors/maya_patel.jpg"
+        "avatar": ""
       },
       "publishedAt": "4h ago",
       "readTime": "6 min read",
@@ -4063,7 +4063,7 @@ Hollywood creative guilds and talent agencies have watched the integration close
       author: {
         name: 'Newyorkerherald Staff',
         role: 'Editorial Board & Newsroom Desks',
-        avatar: '/images/authors/sarah_mitchell.jpg'
+        avatar: ''
       },
       publishedAt: '2h ago',
       readTime: '5 min read',
@@ -4085,7 +4085,7 @@ Furthermore, cloud streaming platforms and mobile distribution networks have low
       author: {
         name: 'Newyorkerherald Staff',
         role: 'Editorial Board & Newsroom Desks',
-        avatar: '/images/authors/sarah_mitchell.jpg'
+        avatar: ''
       },
       publishedAt: '4h ago',
       readTime: '5 min read',
@@ -4107,9 +4107,9 @@ Furthermore, cloud streaming platforms and mobile distribution networks have low
         "Global"
       ],
       "author": {
-        "name": "Jamal Crawford",
+        "name": "Newyorkerherald Staff",
         "role": "Senior NBA & Professional Sports Correspondent",
-        "avatar": "/images/authors/jamal_crawford.jpg"
+        "avatar": ""
       },
       "publishedAt": "4h ago",
       "readTime": "7 min read",
@@ -4142,9 +4142,9 @@ Furthermore, cloud streaming platforms and mobile distribution networks have low
       category: "Sports",
       edition: ["US & Americas", "Global"],
       author: {
-        name: "Darius Vance",
+        name: "Newyorkerherald Staff",
         role: "Senior Sports Correspondent",
-        avatar: "/images/authors/darius_vance.jpg"
+        avatar: ''
       },
       publishedAt: "7h ago",
       readTime: "6 min read",
@@ -4176,9 +4176,9 @@ Furthermore, cloud streaming platforms and mobile distribution networks have low
       category: "Sports",
       edition: ["US & Americas", "Global"],
       author: {
-        name: "Darius Vance",
+        name: "Newyorkerherald Staff",
         role: "Senior Sports Correspondent",
-        avatar: "/images/authors/darius_vance.jpg"
+        avatar: ''
       },
       publishedAt: "7h ago",
       readTime: "6 min read",
@@ -4212,9 +4212,9 @@ Furthermore, cloud streaming platforms and mobile distribution networks have low
         "US & Americas"
       ],
       "author": {
-        "name": "David Vance",
+        "name": "Newyorkerherald Staff",
         "role": "Senior Sports Columnist",
-        "avatar": "/images/authors/david_vance.jpg"
+        "avatar": ""
       },
       "publishedAt": "7h ago",
       "readTime": "7 min read",
@@ -4247,9 +4247,9 @@ Furthermore, cloud streaming platforms and mobile distribution networks have low
         "US & Americas"
       ],
       "author": {
-        "name": "David Vance",
+        "name": "Newyorkerherald Staff",
         "role": "Senior Sports Columnist",
-        "avatar": "/images/authors/david_vance.jpg"
+        "avatar": ""
       },
       "publishedAt": "7h ago",
       "readTime": "7 min read",
@@ -4282,9 +4282,9 @@ Furthermore, cloud streaming platforms and mobile distribution networks have low
         "US & Americas"
       ],
       "author": {
-        "name": "David Vance",
+        "name": "Newyorkerherald Staff",
         "role": "Senior Sports Columnist",
-        "avatar": "/images/authors/david_vance.jpg"
+        "avatar": ""
       },
       "publishedAt": "7h ago",
       "readTime": "7 min read",
@@ -4319,7 +4319,7 @@ Furthermore, cloud streaming platforms and mobile distribution networks have low
       "author": {
         "name": "Newyorkerherald Staff",
         "role": "NFL & National Sports Bureau",
-        "avatar": "/images/authors/sarah_mitchell.jpg"
+        "avatar": ""
       },
       "publishedAt": "5h ago",
       "readTime": "7 min read",
@@ -4354,7 +4354,7 @@ Furthermore, cloud streaming platforms and mobile distribution networks have low
       "author": {
         "name": "Newyorkerherald Staff",
         "role": "National Sports & Athletics Bureau",
-        "avatar": "/images/authors/sarah_mitchell.jpg"
+        "avatar": ""
       },
       "publishedAt": "5h ago",
       "readTime": "6 min read",
@@ -4395,7 +4395,7 @@ Across sports analytics desks and sportsbooks in Las Vegas, the reaction was imm
       author: {
         name: 'Newyorkerherald Staff',
         role: 'National Football & Sports Desk',
-        avatar: '/images/authors/sarah_mitchell.jpg'
+        avatar: ''
       },
       publishedAt: '5h ago',
       readTime: '7 min read',
@@ -4424,7 +4424,7 @@ Across sports analytics desks and sportsbooks in Las Vegas, the reaction was imm
       "author": {
         "name": "Newyorkerherald Staff",
         "role": "Editorial Board & Newsroom Desks",
-        "avatar": "/images/authors/marcus_sterling.jpg"
+        "avatar": ""
       },
       "publishedAt": "3h ago",
       "readTime": "6 min read",
@@ -4464,7 +4464,7 @@ Wheelchair division champions Daniel Romanchuk of the United States and Susannah
       author: {
         name: 'Newyorkerherald Staff',
         role: 'Editorial Board & Newsroom Desks',
-        avatar: '/images/authors/sarah_mitchell.jpg'
+        avatar: ''
       },
       publishedAt: '2h ago',
       readTime: '5 min read',
@@ -4486,7 +4486,7 @@ Meanwhile, on the hardwood, NBA action reached a fever pitch Sunday evening as s
       author: {
         name: 'Newyorkerherald Staff',
         role: 'Editorial Board & Newsroom Desks',
-        avatar: '/images/authors/sarah_mitchell.jpg'
+        avatar: ''
       },
       publishedAt: '3h ago',
       readTime: '5 min read',
@@ -4508,7 +4508,7 @@ On the stadium infrastructure front, club executives evaluated demonstrations of
       author: {
         name: 'Newyorkerherald Staff',
         role: 'Editorial Board & Newsroom Desks',
-        avatar: '/images/authors/sarah_mitchell.jpg'
+        avatar: ''
       },
       publishedAt: '5h ago',
       readTime: '5 min read',
@@ -4530,9 +4530,9 @@ On the stadium infrastructure front, club executives evaluated demonstrations of
         "Global"
       ],
       "author": {
-        "name": "Dr. Aris Thorne",
+        "name": "Newyorkerherald Staff",
         "role": "Astrophysics & Space Systems Editor",
-        "avatar": "/images/authors/aris_thorne.jpg"
+        "avatar": ""
       },
       "publishedAt": "5h ago",
       "readTime": "8 min read",
@@ -4565,9 +4565,9 @@ On the stadium infrastructure front, club executives evaluated demonstrations of
       category: "Science",
       edition: ["US & Americas", "Global"],
       author: {
-        name: "Dr. Aris Thorne",
+        name: "Newyorkerherald Staff",
         role: "Aerospace & Planetary Exploration Desk",
-        avatar: "/images/authors/aris_thorne.jpg"
+        avatar: ''
       },
       publishedAt: "8h ago",
       readTime: "8 min read",
@@ -4599,9 +4599,9 @@ On the stadium infrastructure front, club executives evaluated demonstrations of
       category: "Science",
       edition: ["US & Americas", "Global"],
       author: {
-        name: "Dr. Aris Thorne",
+        name: "Newyorkerherald Staff",
         role: "Aerospace & Planetary Exploration Desk",
-        avatar: "/images/authors/aris_thorne.jpg"
+        avatar: ''
       },
       publishedAt: "8h ago",
       readTime: "8 min read",
@@ -4636,9 +4636,9 @@ On the stadium infrastructure front, club executives evaluated demonstrations of
         "Global"
       ],
       "author": {
-        "name": "Julian Thorne",
+        "name": "Newyorkerherald Staff",
         "role": "Astrophysics & Space Exploration Bureau",
-        "avatar": "/images/authors/julian_thorne.jpg"
+        "avatar": ""
       },
       "publishedAt": "8h ago",
       "readTime": "8 min read",
@@ -4672,9 +4672,9 @@ On the stadium infrastructure front, club executives evaluated demonstrations of
         "Global"
       ],
       "author": {
-        "name": "Julian Thorne",
+        "name": "Newyorkerherald Staff",
         "role": "Astrophysics & Space Exploration Bureau",
-        "avatar": "/images/authors/julian_thorne.jpg"
+        "avatar": ""
       },
       "publishedAt": "8h ago",
       "readTime": "8 min read",
@@ -4708,9 +4708,9 @@ On the stadium infrastructure front, club executives evaluated demonstrations of
         "Global"
       ],
       "author": {
-        "name": "Julian Thorne",
+        "name": "Newyorkerherald Staff",
         "role": "Space & Planetary Exploration Bureau",
-        "avatar": "/images/authors/julian_thorne.jpg"
+        "avatar": ""
       },
       "publishedAt": "8h ago",
       "readTime": "8 min read",
@@ -4746,7 +4746,7 @@ On the stadium infrastructure front, club executives evaluated demonstrations of
       "author": {
         "name": "Newyorkerherald Staff",
         "role": "Aerospace & Human Deep-Space Exploration Desk",
-        "avatar": "/images/authors/sarah_mitchell.jpg"
+        "avatar": ""
       },
       "publishedAt": "6h ago",
       "readTime": "7 min read",
@@ -4782,7 +4782,7 @@ On the stadium infrastructure front, club executives evaluated demonstrations of
       "author": {
         "name": "Newyorkerherald Staff",
         "role": "Space Exploration & Astrophysics Desk",
-        "avatar": "/images/authors/sarah_mitchell.jpg"
+        "avatar": ""
       },
       "publishedAt": "6h ago",
       "readTime": "7 min read",
@@ -4823,7 +4823,7 @@ Attached to the spacecraft's chassis remains the iconic Golden Record: a gold-pl
       author: {
         name: 'Newyorkerherald Staff',
         role: 'Aerospace & Astrophysics Science Bureau',
-        avatar: '/images/authors/sarah_mitchell.jpg'
+        avatar: ''
       },
       publishedAt: '6h ago',
       readTime: '8 min read',
@@ -4851,7 +4851,7 @@ Attached to the spacecraft's chassis remains the iconic Golden Record: a gold-pl
       "author": {
         "name": "Newyorkerherald Staff",
         "role": "Editorial Board & Newsroom Desks",
-        "avatar": "/images/authors/rebecca_foster.jpg"
+        "avatar": ""
       },
       "publishedAt": "2h ago",
       "readTime": "6 min read",
@@ -4890,7 +4890,7 @@ Civic leaders across New England praised the collaborative model, noting that pa
       author: {
         name: 'Newyorkerherald Staff',
         role: 'Editorial Board & Newsroom Desks',
-        avatar: '/images/authors/sarah_mitchell.jpg'
+        avatar: ''
       },
       publishedAt: '5h ago',
       readTime: '5 min read',
@@ -4922,7 +4922,7 @@ Scientists emphasized that continuous ground deformation GPS telemetry and therm
       author: {
         name: 'Newyorkerherald Staff',
         role: 'Editorial Board & Newsroom Desks',
-        avatar: '/images/authors/sarah_mitchell.jpg'
+        avatar: ''
       },
       publishedAt: '4h ago',
       readTime: '5 min read',
@@ -4944,7 +4944,7 @@ Domestic automotive manufacturers have committed multi-billion-dollar off-take a
       author: {
         name: 'Newyorkerherald Staff',
         role: 'Editorial Board & Newsroom Desks',
-        avatar: '/images/authors/sarah_mitchell.jpg'
+        avatar: ''
       },
       publishedAt: '5h ago',
       readTime: '5 min read',
@@ -4966,9 +4966,9 @@ Domestic automotive manufacturers have committed multi-billion-dollar off-take a
         "Global"
       ],
       "author": {
-        "name": "Jonathan Ward",
+        "name": "Newyorkerherald Staff",
         "role": "Guest Contributing Columnist & Urban Economics Fellow",
-        "avatar": "/images/authors/jonathan_ward.jpg"
+        "avatar": ""
       },
       "publishedAt": "5h ago",
       "readTime": "8 min read",
@@ -5001,9 +5001,9 @@ Domestic automotive manufacturers have committed multi-billion-dollar off-take a
       category: "Opinion",
       edition: ["US & Americas", "Global"],
       author: {
-        name: "Eleanor Vance",
+        name: "Newyorkerherald Staff",
         role: "Senior Opinion Columnist",
-        avatar: "/images/authors/eleanor_vance.jpg"
+        avatar: ''
       },
       publishedAt: "10h ago",
       readTime: "7 min read",
@@ -5035,9 +5035,9 @@ Domestic automotive manufacturers have committed multi-billion-dollar off-take a
       category: "Opinion",
       edition: ["US & Americas", "Global"],
       author: {
-        name: "Eleanor Vance",
+        name: "Newyorkerherald Staff",
         role: "Senior Opinion Columnist",
-        avatar: "/images/authors/eleanor_vance.jpg"
+        avatar: ''
       },
       publishedAt: "10h ago",
       readTime: "7 min read",
@@ -5072,9 +5072,9 @@ Domestic automotive manufacturers have committed multi-billion-dollar off-take a
         "Global"
       ],
       "author": {
-        "name": "Elena Rostova",
+        "name": "Newyorkerherald Staff",
         "role": "Editorial Board & Constitutional Affairs",
-        "avatar": "/images/authors/elena_rostova.jpg"
+        "avatar": ""
       },
       "publishedAt": "10h ago",
       "readTime": "8 min read",
@@ -5108,9 +5108,9 @@ Domestic automotive manufacturers have committed multi-billion-dollar off-take a
         "Global"
       ],
       "author": {
-        "name": "Elena Rostova",
+        "name": "Newyorkerherald Staff",
         "role": "Editorial Board & Constitutional Affairs",
-        "avatar": "/images/authors/elena_rostova.jpg"
+        "avatar": ""
       },
       "publishedAt": "10h ago",
       "readTime": "8 min read",
@@ -5144,9 +5144,9 @@ Domestic automotive manufacturers have committed multi-billion-dollar off-take a
         "Global"
       ],
       "author": {
-        "name": "Elena Rostova",
+        "name": "Newyorkerherald Staff",
         "role": "Legal Affairs Columnist & Editorial Board",
-        "avatar": "/images/authors/elena_rostova.jpg"
+        "avatar": ""
       },
       "publishedAt": "14h ago",
       "readTime": "8 min read",
@@ -5181,7 +5181,7 @@ Domestic automotive manufacturers have committed multi-billion-dollar off-take a
       "author": {
         "name": "Newyorkerherald Staff",
         "role": "Editorial Board & National Economic Policy Commentary",
-        "avatar": "/images/authors/sarah_mitchell.jpg"
+        "avatar": ""
       },
       "publishedAt": "7h ago",
       "readTime": "8 min read",
@@ -5217,7 +5217,7 @@ Domestic automotive manufacturers have committed multi-billion-dollar off-take a
       "author": {
         "name": "Newyorkerherald Staff",
         "role": "Editorial Board & Opinion Desk",
-        "avatar": "/images/authors/sarah_mitchell.jpg"
+        "avatar": ""
       },
       "publishedAt": "4h ago",
       "readTime": "8 min read",
@@ -5258,7 +5258,7 @@ As the ballots are tabulated and the congressional map takes shape over the comi
       author: {
         name: 'Newyorkerherald Staff',
         role: 'Editorial Board',
-        avatar: '/images/authors/sarah_mitchell.jpg'
+        avatar: ''
       },
       publishedAt: '7h ago',
       readTime: '8 min read',
@@ -5290,7 +5290,7 @@ As voters enter polling precincts tomorrow, the enduring promise of the American
       author: {
         name: 'Newyorkerherald Staff',
         role: 'Editorial Board & Newsroom Desks',
-        avatar: '/images/authors/sarah_mitchell.jpg'
+        avatar: ''
       },
       publishedAt: '2h ago',
       readTime: '6 min read',
@@ -5312,7 +5312,7 @@ When independent academic researchers, startup founders, and global developers h
       author: {
         name: 'Newyorkerherald Staff',
         role: 'Editorial Board & Newsroom Desks',
-        avatar: '/images/authors/sarah_mitchell.jpg'
+        avatar: ''
       },
       publishedAt: '4h ago',
       readTime: '6 min read',
@@ -5330,7 +5330,7 @@ export const OPINION_COLUMNS: OpinionColumn[] = [
     headline: 'Divided Governance Is Not a Crisis: Why Constitutional Gridlock Can Foster Policy Stability',
     authorName: 'Newyorkerherald Staff',
     authorTitle: 'Editorial Board & Commentary Desk',
-    authorAvatar: '/images/authors/jonathan_ross.jpg',
+    authorAvatar: '',
     quoteSnippet: 'The Founders engineered the American republic to resist swift factional impulses; divided government forces consensus over fiat.',
     date: 'Nov 2, 2026',
     readTime: '5 min read'
@@ -5342,7 +5342,7 @@ export const OPINION_COLUMNS: OpinionColumn[] = [
     headline: 'The Strait of Hormuz Trap: Why Diplomatic Patience Outweighs Hasty Military Action',
     authorName: 'Newyorkerherald Staff',
     authorTitle: 'Editorial Board & Commentary Desk',
-    authorAvatar: '/images/authors/sarah_mitchell.jpg',
+    authorAvatar: '',
     quoteSnippet: 'A localized maritime incident must not be allowed to dictate the trajectory of continental security in the Middle East.',
     date: 'Nov 2, 2026',
     readTime: '6 min read'
@@ -5354,7 +5354,7 @@ export const OPINION_COLUMNS: OpinionColumn[] = [
     headline: 'Why Open-Source AI Architecture Remains America’s Greatest Strategic Moat',
     authorName: 'Newyorkerherald Staff',
     authorTitle: 'Editorial Board & Commentary Desk',
-    authorAvatar: '/images/authors/elena_rostova.jpg',
+    authorAvatar: '',
     quoteSnippet: 'Monopolies seek protective regulatory moats; open developer communities build the enduring infrastructure of the future.',
     date: 'Nov 1, 2026',
     readTime: '5 min read'
@@ -5366,7 +5366,7 @@ export const OPINION_COLUMNS: OpinionColumn[] = [
     headline: 'The Hidden Toll of Cross-Border Tariffs on Midwest Working Families',
     authorName: 'Newyorkerherald Staff',
     authorTitle: 'Editorial Board & Commentary Desk',
-    authorAvatar: '/images/authors/henrik_lindqvist.jpg',
+    authorAvatar: '',
     quoteSnippet: 'Automotive supply chains are continental ecosystems; taxing parts at the border punishes American assembly lines first.',
     date: 'Nov 1, 2026',
     readTime: '5 min read'
@@ -5558,7 +5558,7 @@ export const AUTHORS_DATA: Record<string, AuthorProfile> = {
     name: 'Newyorkerherald Staff',
     role: 'Editorial Board & Newsroom Desks',
     bureau: 'Global Editorial Bureau',
-    avatar: '/images/authors/sarah_mitchell.jpg',
+    avatar: '',
     bio: 'The Newyorkerherald editorial staff and newsroom correspondents produce real-time reporting, in-depth investigations, policy intelligence, and verified news dispatches across the United States and the international stage.',
     beat: 'National & Global Affairs',
     articlesCount: 250,
@@ -5572,7 +5572,7 @@ export const AUTHORS_DATA: Record<string, AuthorProfile> = {
     name: 'Newyorkerherald Staff',
     role: 'Editorial Board & Newsroom Desks',
     bureau: 'Global Editorial Bureau',
-    avatar: '/images/authors/sarah_mitchell.jpg',
+    avatar: '',
     bio: 'The Newyorkerherald editorial staff and newsroom correspondents produce real-time reporting, in-depth investigations, policy intelligence, and verified news dispatches across the United States and the international stage.',
     beat: 'National & Global Affairs',
     articlesCount: 250,
@@ -5702,7 +5702,7 @@ export const PHOTO_STORIES: PhotoStory[] = [
     id: 'photo-1',
     title: 'Final Surge: Voters Fill Polling Lines on Eve of Midterm Vote',
     location: 'Philadelphia, Pennsylvania',
-    photographer: 'David Miller / Newyorkerherald Visuals',
+    photographer: 'Newyorkerherald Staff',
     date: 'Nov 2, 2026',
     imageUrl: '/images/news/us-midterm-elections-early-voting-surge-51-million-ballots-battleground-states.jpg',
     description: 'Voters stand in early-morning queues to deposit mail and in-person ballots ahead of the nationwide Tuesday general election.'

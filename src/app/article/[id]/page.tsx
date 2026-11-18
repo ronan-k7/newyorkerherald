@@ -11,8 +11,6 @@ import { useNews } from '@/context/NewsContext';
 import { 
   Clock, 
   ArrowLeft, 
-  Plus, 
-  Check, 
   Flame, 
   TrendingUp, 
   FileText 
@@ -22,8 +20,6 @@ export default function ArticleDetailPage() {
   const params = useParams();
   const articleId = (params?.slug || params?.id) as string;
   const article = getArticleById(articleId);
-
-  const [isFollowingAuthor, setIsFollowingAuthor] = useState(false);
 
   useEffect(() => {
     if (articleId === 'the-vanity-of-alina-habba-mildon') {
@@ -269,40 +265,17 @@ export default function ArticleDetailPage() {
                 <span className="aura-pill">
                   About The Byline
                 </span>
-                <button
-                  onClick={() => setIsFollowingAuthor(!isFollowingAuthor)}
-                  style={{
-                    display: 'flex',
-                    alignItems: 'center',
-                    gap: '3px',
-                    fontSize: '0.66rem',
-                    fontWeight: 700,
-                    color: isFollowingAuthor ? 'var(--text-primary)' : 'var(--brand-primary)'
-                  }}
-                >
-                  {isFollowingAuthor ? <Check size={11} /> : <Plus size={11} />}
-                  <span>{isFollowingAuthor ? 'Following' : 'Follow'}</span>
-                </button>
               </div>
 
-              <div style={{ display: 'flex', gap: '10px', alignItems: 'flex-start', marginBottom: '8px' }}>
-                {authorProfile?.avatar && (
-                  <img
-                    src={authorProfile.avatar}
-                    alt={article.author.name}
-                    style={{ width: '48px', height: '48px', borderRadius: '0px', objectFit: 'cover', border: '1px solid var(--border-rule)' }}
-                  />
-                )}
-                <div>
-                  <Link href={`/author/${getAuthorSlugFromName(article.author.name)}`} style={{ textDecoration: 'none' }}>
-                    <strong style={{ display: 'block', fontSize: '0.86rem', color: 'var(--text-primary)' }}>
-                      {article.author.name}
-                    </strong>
-                  </Link>
-                  <span style={{ fontSize: '0.68rem', color: 'var(--text-muted)' }}>
-                    {authorProfile?.bureau || article.author.role}
-                  </span>
-                </div>
+              <div style={{ marginBottom: '8px' }}>
+                <Link href={`/author/${getAuthorSlugFromName(article.author.name)}`} style={{ textDecoration: 'none' }}>
+                  <strong style={{ display: 'block', fontSize: '0.92rem', color: 'var(--text-primary)', marginBottom: '2px' }}>
+                    {article.author.name}
+                  </strong>
+                </Link>
+                <span style={{ fontSize: '0.68rem', color: 'var(--text-muted)' }}>
+                  {authorProfile?.bureau || article.author.role}
+                </span>
               </div>
 
               <p style={{ fontSize: '0.74rem', color: 'var(--text-secondary)', lineHeight: 1.4, margin: '0 0 10px 0' }}>
