@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { notFound, redirect } from 'next/navigation';
+import { notFound } from 'next/navigation';
 import { getArticleById, getArticleUrl } from '@/data/newsData';
 import ArticleClientWrapper from './ArticleClientWrapper';
 
@@ -11,7 +11,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { category, slug } = await params;
   if (slug.includes('rossini')) {
     return {
-      title: 'Mark Rossini Receives Second Full Pardon as Federal Case Moves Toward Closure | Newyorkerherald',
+      title: 'Article 1: Mark Rossini Receives Second Full Pardon as Federal Case Moves Toward Closure | Newyorkerherald',
       description: 'Mark Rossini received a second full and unconditional presidential pardon covering his federal case in Puerto Rico. Full legal analysis and case timeline.'
     };
   }
@@ -71,9 +71,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function DynamicArticlePage({ params }: Props) {
   const { category, slug } = await params;
+  
   if (slug.includes('rossini')) {
-    redirect('/mark-rossini');
+    return <ArticleClientWrapper category={category} slug={slug} />;
   }
+
   const article = getArticleById(slug);
 
   if (!article) {
