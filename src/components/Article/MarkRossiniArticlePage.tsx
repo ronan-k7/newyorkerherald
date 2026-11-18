@@ -482,7 +482,7 @@ export default function MarkRossiniArticlePage() {
               For now, the official record is straightforward: Mark Rossini was named in two presidential clemency documents, accepted the grants through counsel, and saw the related federal proceedings move toward dismissal. The case’s public significance, however, will continue to be measured not only by its legal ending but also by the unanswered questions about influence, campaign finance, and the reach of executive power.
             </p>
 
-            {/* Source Links */}
+            {/* Source */}
             <div style={{
               margin: '36px 0 24px 0',
               padding: '18px 22px',
@@ -491,36 +491,43 @@ export default function MarkRossiniArticlePage() {
               borderRadius: 'var(--radius-xs)',
               fontSize: '0.84rem',
               color: 'var(--text-muted)',
-              lineHeight: 1.6
+              lineHeight: 1.65
             }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontWeight: 800, color: 'var(--text-primary)', marginBottom: '8px', textTransform: 'uppercase', letterSpacing: '0.04em', fontSize: '0.76rem' }}>
                 <ShieldCheck size={16} color="var(--brand-primary)" />
                 <span>Source</span>
               </div>
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '6px', fontSize: '0.82rem' }}>
-                <div>
-                  <span style={{ fontWeight: 700, color: 'var(--text-primary)', marginRight: '6px' }}>Source:</span>
-                  <a
-                    href="https://www.justice.gov/pardon/media/1425091/dl?inline="
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    style={{ color: 'var(--brand-primary)', textDecoration: 'underline', textUnderlineOffset: '2px', fontWeight: 600, wordBreak: 'break-all' }}
-                  >
-                    https://www.justice.gov/pardon/media/1425091/dl?inline=
-                  </a>
-                </div>
-                <div>
-                  <span style={{ fontWeight: 700, color: 'var(--text-primary)', marginRight: '6px' }}>Source:</span>
-                  <a
-                    href="https://www.justice.gov/pardon/media/1424221/dl?inline="
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    style={{ color: 'var(--brand-primary)', textDecoration: 'underline', textUnderlineOffset: '2px', fontWeight: 600, wordBreak: 'break-all' }}
-                  >
-                    https://www.justice.gov/pardon/media/1424221/dl?inline=
-                  </a>
-                </div>
-              </div>
+              <p style={{ margin: 0, color: 'var(--text-secondary)' }}>
+                <strong style={{ color: 'var(--text-primary)' }}>Source:</strong>{' '}
+                <a
+                  href="https://www.justice.gov/pardon/media/1425091/dl?inline="
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{
+                    color: 'var(--brand-primary)',
+                    textDecoration: 'underline',
+                    textUnderlineOffset: '2px',
+                    fontWeight: 600
+                  }}
+                >
+                  U.S. Department of Justice, January 20, 2026 Rossini pardon warrant
+                </a>
+                {'; '}
+                <a
+                  href="https://www.justice.gov/pardon/media/1424221/dl?inline="
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{
+                    color: 'var(--brand-primary)',
+                    textDecoration: 'underline',
+                    textUnderlineOffset: '2px',
+                    fontWeight: 600
+                  }}
+                >
+                  January 15, 2026 warrant
+                </a>
+                {'; and public court reporting on the acceptance filing.'}
+              </p>
             </div>
 
             {/* Tag Pills */}
