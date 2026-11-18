@@ -12,13 +12,10 @@ import {
   Scale,
   FileText,
   ShieldCheck,
-  ChevronRight,
-  ExternalLink,
   Users,
   CheckCircle2,
   XCircle,
-  HelpCircle,
-  Award
+  ExternalLink
 } from 'lucide-react';
 import { getAllArticles, getArticleUrl } from '@/data/newsData';
 
@@ -45,6 +42,27 @@ export default function MarkRossiniArticlePage() {
 
   const allArts = getAllArticles();
   const relatedPolitics = allArts.filter(a => a.category === 'Politics' && !a.id.includes('rossini')).slice(0, 4);
+
+  // Reusable Wikipedia Link Component with respected editorial styling
+  const WikiLink = ({ href, children }: { href: string; children: React.ReactNode }) => (
+    <a
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+      style={{
+        color: 'inherit',
+        textDecoration: 'underline',
+        textDecorationColor: 'var(--brand-primary)',
+        textUnderlineOffset: '3px',
+        fontWeight: 600,
+        transition: 'color 0.15s ease'
+      }}
+      className="hover:text-[var(--brand-primary)]"
+      title={`View ${typeof children === 'string' ? children : 'biography'} on Wikipedia`}
+    >
+      {children}
+    </a>
+  );
 
   return (
     <main style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', backgroundColor: 'var(--bg-canvas)' }}>
@@ -74,7 +92,7 @@ export default function MarkRossiniArticlePage() {
             Politics
           </Link>
           <span>/</span>
-          <span style={{ color: 'var(--brand-primary)', fontWeight: 800 }}>Special Legal Report</span>
+          <span style={{ color: 'var(--brand-primary)', fontWeight: 800 }}>Executive Clemency</span>
         </nav>
 
         {/* ================= EDITORIAL HERO HEADER SECTION ================= */}
@@ -91,22 +109,7 @@ export default function MarkRossiniArticlePage() {
           }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '10px', flexWrap: 'wrap' }}>
               <span className="aura-pill" style={{ letterSpacing: '0.06em', padding: '5px 12px', fontWeight: 800 }}>
-                POLITICS • SPECIAL REPORT
-              </span>
-              <span style={{
-                fontSize: '0.76rem',
-                color: 'var(--text-secondary)',
-                backgroundColor: 'var(--bg-surface-elevated)',
-                border: '1px solid var(--border-hairline)',
-                padding: '4px 10px',
-                borderRadius: 'var(--radius-xs)',
-                fontWeight: 700,
-                display: 'inline-flex',
-                alignItems: 'center',
-                gap: '5px'
-              }}>
-                <FileText size={12} color="var(--brand-primary)" />
-                Keyword Focus: Mark Rossini
+                POLITICS • EXECUTIVE CLEMENCY
               </span>
               <span style={{ fontSize: '0.76rem', color: 'var(--text-muted)', fontWeight: 600, display: 'inline-flex', alignItems: 'center', gap: '4px' }}>
                 <Clock size={13} /> 6 min read
@@ -143,10 +146,10 @@ export default function MarkRossiniArticlePage() {
             maxWidth: '920px',
             marginBottom: '20px'
           }}>
-            A former FBI agent whose name had become central to a federal public-corruption case involving former Puerto Rico Gov. Wanda Vázquez Garced and banker Julio Herrera Velutini sees proceedings dismissed following two presidential clemency warrants and formal court acceptance.
+            A former FBI agent whose name had become central to a federal public-corruption case involving former Puerto Rico Gov. <WikiLink href="https://en.wikipedia.org/wiki/Wanda_V%C3%A1zquez_Garced">Wanda Vázquez Garced</WikiLink> and banker <WikiLink href="https://en.wikipedia.org/wiki/Julio_Herrera_Velutini">Julio Herrera Velutini</WikiLink> sees proceedings dismissed following two presidential clemency warrants and formal court acceptance.
           </p>
 
-          {/* Dateline & Byline Metadata Strip */}
+          {/* Dateline & Byline Metadata Strip with Today's Date */}
           <div style={{
             display: 'flex',
             alignItems: 'center',
@@ -168,7 +171,7 @@ export default function MarkRossiniArticlePage() {
               <span>Editorial Board & Legal Reporting Bureau</span>
               <span>&bull;</span>
               <span style={{ display: 'inline-flex', alignItems: 'center', gap: '4px', color: 'var(--brand-primary)', fontWeight: 700 }}>
-                <Calendar size={13} /> Washington, D.C. | January 20, 2026
+                <Calendar size={13} /> Washington, D.C. | November 18, 2026
               </span>
             </div>
             <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)', fontFamily: 'var(--font-mono)' }}>
@@ -190,7 +193,7 @@ export default function MarkRossiniArticlePage() {
             {/* Full-Sized Unclamped Image */}
             <img
               src="/images/rossini/mark-rossini.webp"
-              alt="Mark Rossini - Former FBI supervisory special agent"
+              alt="Mark Rossini"
               style={{
                 width: '100%',
                 height: 'auto',
@@ -209,8 +212,10 @@ export default function MarkRossiniArticlePage() {
               color: 'var(--text-secondary)'
             }}>
               <div>
-                <strong style={{ color: 'var(--text-primary)', marginRight: '6px' }}>Main Subject:</strong>
-                Former FBI supervisory special agent Mark Rossini, whose federal public-corruption prosecution in the U.S. District Court for the District of Puerto Rico has moved toward dismissal following two presidential clemency warrants.
+                <strong style={{ color: 'var(--text-primary)', fontSize: '0.92rem', display: 'block', marginBottom: '2px' }}>
+                  <WikiLink href="https://en.wikipedia.org/wiki/Mark_Rossini">Mark Rossini</WikiLink>
+                </strong>
+                Former FBI supervisory special agent whose federal public-corruption prosecution in the U.S. District Court for the District of Puerto Rico has moved toward dismissal following two presidential clemency warrants.
               </div>
               <div style={{ fontSize: '0.72rem', color: 'var(--text-muted)', fontWeight: 600, fontFamily: 'var(--font-mono)' }}>
                 Source: Department of Justice Archive / Federal Court Records
@@ -246,17 +251,18 @@ export default function MarkRossiniArticlePage() {
                 paddingTop: '4px',
                 color: 'var(--brand-primary)',
                 fontFamily: 'var(--font-heading)'
-              }}>M</strong>ark Rossini received a second full and unconditional presidential pardon on January 20, 2026, according to an executive clemency warrant posted by the U.S. Department of Justice. The document identifies Rossini by name and covers United States v. Mark T. Rossini, case number 3:25-cr-298 in the U.S. District Court for the District of Puerto Rico. The action widened the clemency record surrounding a former FBI agent whose name had become central to a federal public-corruption case involving former Puerto Rico Gov. Wanda Vázquez Garced and banker Julio Herrera Velutini.
+              }}>M</strong>
+              <WikiLink href="https://en.wikipedia.org/wiki/Mark_Rossini">Mark Rossini</WikiLink> received a second full and unconditional presidential pardon on January 20, 2026, according to an executive clemency warrant posted by the U.S. Department of Justice. The document identifies <WikiLink href="https://en.wikipedia.org/wiki/Mark_Rossini">Rossini</WikiLink> by name and covers United States v. <WikiLink href="https://en.wikipedia.org/wiki/Mark_Rossini">Mark T. Rossini</WikiLink>, case number 3:25-cr-298 in the U.S. District Court for the District of Puerto Rico. The action widened the clemency record surrounding a former FBI agent whose name had become central to a federal public-corruption case involving former Puerto Rico Gov. <WikiLink href="https://en.wikipedia.org/wiki/Wanda_V%C3%A1zquez_Garced">Wanda Vázquez Garced</WikiLink> and banker <WikiLink href="https://en.wikipedia.org/wiki/Julio_Herrera_Velutini">Julio Herrera Velutini</WikiLink>.
             </p>
 
             {/* Paragraph 2 */}
             <p style={{ marginBottom: '24px' }}>
-              The new warrant is brief, but its legal significance is substantial. It describes the grant as a full and unconditional pardon for the offenses individually listed and submitted for presidential consideration. It also states that the Pardon Attorney is authorized to administer and sign the grant as the President’s representative. The warrant is dated January 20, 2026, and carries the name of President Donald J. Trump.
+              The new warrant is brief, but its legal significance is substantial. It describes the grant as a full and unconditional pardon for the offenses individually listed and submitted for presidential consideration. It also states that the Pardon Attorney is authorized to administer and sign the grant as the President’s representative. The warrant is dated January 20, 2026, and carries the name of President <WikiLink href="https://en.wikipedia.org/wiki/Donald_Trump">Donald J. Trump</WikiLink>.
             </p>
 
             {/* Paragraph 3 */}
             <p style={{ marginBottom: '28px' }}>
-              For Mark Rossini, the document followed an earlier pardon dated January 15. That first warrant referred to the broader case, United States v. Vazquez-Garced, et al., 3:22-cr-342. The later warrant specifically names the separate Rossini case. The two documents help explain why prosecutors and defense lawyers continued filing notices after the first announcement: the parties still needed the clemency documents to match the federal cases and charges pending in court.
+              For <WikiLink href="https://en.wikipedia.org/wiki/Mark_Rossini">Mark Rossini</WikiLink>, the document followed an earlier pardon dated January 15. That first warrant referred to the broader case, United States v. <WikiLink href="https://en.wikipedia.org/wiki/Wanda_V%C3%A1zquez_Garced">Vazquez-Garced</WikiLink>, et al., 3:22-cr-342. The later warrant specifically names the separate <WikiLink href="https://en.wikipedia.org/wiki/Mark_Rossini">Rossini</WikiLink> case. The two documents help explain why prosecutors and defense lawyers continued filing notices after the first announcement: the parties still needed the clemency documents to match the federal cases and charges pending in court.
             </p>
 
             {/* ================= FULL-SIZED VISUAL: PRESIDENT DONALD J. TRUMP ================= */}
@@ -271,7 +277,7 @@ export default function MarkRossiniArticlePage() {
               {/* Full-Sized Unclamped Trump Photo */}
               <img
                 src="/images/rossini/donald-trump.webp"
-                alt="President Donald J. Trump"
+                alt="Donald J. Trump"
                 style={{
                   width: '100%',
                   height: 'auto',
@@ -286,14 +292,11 @@ export default function MarkRossiniArticlePage() {
                 fontSize: '0.8rem',
                 color: 'var(--text-secondary)'
               }}>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '6px', marginBottom: '4px' }}>
-                  <Award size={15} color="var(--brand-primary)" />
-                  <strong style={{ color: 'var(--text-primary)', fontSize: '0.88rem' }}>
-                    Executive Clemency Authority: President Donald J. Trump
-                  </strong>
-                </div>
+                <strong style={{ color: 'var(--text-primary)', fontSize: '0.92rem', display: 'block', marginBottom: '2px' }}>
+                  <WikiLink href="https://en.wikipedia.org/wiki/Donald_Trump">Donald J. Trump</WikiLink>
+                </strong>
                 <p style={{ margin: 0, lineHeight: 1.45 }}>
-                  President Trump acted under Article II, Section 2, Clause 1 of the United States Constitution, granting two successive pardon warrants that relieved federal criminal liability and enabled the Puerto Rico proceedings to move to dismissal.
+                  President of the United States, who acted under Article II, Section 2, Clause 1 of the United States Constitution to grant two successive pardon warrants that relieved federal criminal liability and enabled the Puerto Rico proceedings to move to dismissal.
                 </p>
                 <span style={{ display: 'block', fontSize: '0.7rem', marginTop: '6px', fontWeight: 600, color: 'var(--text-muted)' }}>
                   The White House / Official Photo
@@ -303,7 +306,7 @@ export default function MarkRossiniArticlePage() {
 
             {/* Paragraph 4 */}
             <p style={{ marginBottom: '24px' }}>
-              Rossini’s legal team moved quickly to notify the court. In a filing reported by Puerto Rico media, his lawyers said he accepted the full and unconditional pardon and asked the court to dismiss all remaining charges with prejudice. The filing covered the cases connected to the original indictment and the later case. Acceptance matters because the Supreme Court has long recognized that a person must accept a pardon for it to take effect as a legal defense.
+              <WikiLink href="https://en.wikipedia.org/wiki/Mark_Rossini">Rossini’s</WikiLink> legal team moved quickly to notify the court. In a filing reported by Puerto Rico media, his lawyers said he accepted the full and unconditional pardon and asked the court to dismiss all remaining charges with prejudice. The filing covered the cases connected to the original indictment and the later case. Acceptance matters because the Supreme Court has long recognized that a person must accept a pardon for it to take effect as a legal defense.
             </p>
 
             {/* Legal Precedent Explainer Box */}
@@ -320,16 +323,18 @@ export default function MarkRossiniArticlePage() {
             }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '8px', fontWeight: 800, color: 'var(--text-primary)', marginBottom: '8px', fontSize: '0.95rem' }}>
                 <Scale size={20} color="var(--brand-primary)" />
-                <span>Supreme Court Precedent: United States v. Burdick (236 U.S. 79)</span>
+                <span>
+                  Supreme Court Precedent: <WikiLink href="https://en.wikipedia.org/wiki/Burdick_v._United_States">United States v. Burdick (236 U.S. 79)</WikiLink>
+                </span>
               </div>
               <p style={{ margin: 0 }}>
-                Under longstanding American constitutional doctrine established in <em>Burdick</em>, a presidential pardon cannot operate automatically against an individual’s will. It must be formally recognized and accepted by the recipient to constitute a binding legal defense in court. Mark Rossini’s attorneys filed the first formal acceptance notice among the principal co-defendants.
+                Under longstanding American constitutional doctrine established in <em>Burdick</em>, a presidential pardon cannot operate automatically against an individual’s will. It must be formally recognized and accepted by the recipient to constitute a binding legal defense in court. <WikiLink href="https://en.wikipedia.org/wiki/Mark_Rossini">Mark Rossini’s</WikiLink> attorneys filed the first formal acceptance notice among the principal co-defendants.
               </p>
             </div>
 
             {/* Paragraph 5 */}
             <p style={{ marginBottom: '32px' }}>
-              The case had already changed shape before the pardons were issued. Prosecutors originally accused Rossini, Herrera Velutini, and Vázquez Garced of participating in a scheme involving political influence and campaign support. The indictment alleged that Rossini and Herrera Velutini promised financial backing for Vázquez’s 2020 campaign in exchange for influence over Puerto Rico’s financial regulator. The original allegations included conspiracy, federal program bribery, and honest-services wire fraud. Those charges were later replaced by a lesser campaign-finance offense in a plea agreement reached in 2025.
+              The case had already changed shape before the pardons were issued. Prosecutors originally accused <WikiLink href="https://en.wikipedia.org/wiki/Mark_Rossini">Rossini</WikiLink>, <WikiLink href="https://en.wikipedia.org/wiki/Julio_Herrera_Velutini">Herrera Velutini</WikiLink>, and <WikiLink href="https://en.wikipedia.org/wiki/Wanda_V%C3%A1zquez_Garced">Vázquez Garced</WikiLink> of participating in a scheme involving political influence and campaign support. The indictment alleged that <WikiLink href="https://en.wikipedia.org/wiki/Mark_Rossini">Rossini</WikiLink> and <WikiLink href="https://en.wikipedia.org/wiki/Julio_Herrera_Velutini">Herrera Velutini</WikiLink> promised financial backing for <WikiLink href="https://en.wikipedia.org/wiki/Wanda_V%C3%A1zquez_Garced">Vázquez’s</WikiLink> 2020 campaign in exchange for influence over Puerto Rico’s financial regulator. The original allegations included conspiracy, federal program bribery, and honest-services wire fraud. Those charges were later replaced by a lesser campaign-finance offense in a plea agreement reached in 2025.
             </p>
 
             {/* ================= FULL-SIZED CO-DEFENDANTS GALLERY: JULIO & WANDA ================= */}
@@ -375,7 +380,7 @@ export default function MarkRossiniArticlePage() {
                   />
                   <figcaption style={{ padding: '14px', fontSize: '0.8rem', color: 'var(--text-secondary)' }}>
                     <strong style={{ color: 'var(--text-primary)', display: 'block', fontSize: '0.95rem', marginBottom: '4px' }}>
-                      Julio Herrera Velutini
+                      <WikiLink href="https://en.wikipedia.org/wiki/Julio_Herrera_Velutini">Julio Herrera Velutini</WikiLink>
                     </strong>
                     <span>International banker and principal co-defendant. Accused of seeking regulatory relief regarding his financial institution in Puerto Rico.</span>
                   </figcaption>
@@ -402,7 +407,7 @@ export default function MarkRossiniArticlePage() {
                   />
                   <figcaption style={{ padding: '14px', fontSize: '0.8rem', color: 'var(--text-secondary)' }}>
                     <strong style={{ color: 'var(--text-primary)', display: 'block', fontSize: '0.95rem', marginBottom: '4px' }}>
-                      Wanda Vázquez Garced
+                      <WikiLink href="https://en.wikipedia.org/wiki/Wanda_V%C3%A1zquez_Garced">Wanda Vázquez Garced</WikiLink>
                     </strong>
                     <span>Former Governor of Puerto Rico (2019–2021) and former Secretary of Justice, whose 2020 political campaign was central to the allegations.</span>
                   </figcaption>
@@ -413,7 +418,7 @@ export default function MarkRossiniArticlePage() {
 
             {/* Paragraph 6 */}
             <p style={{ marginBottom: '24px' }}>
-              That procedural history is important because the word pardon can be misunderstood. A pardon can forgive federal criminal liability, but it does not rewrite the historical record, erase every public allegation, or amount to a court ruling that the underlying conduct never occurred. In Rossini’s case, the warrants establish executive clemency. They do not independently resolve the factual disputes that surrounded the prosecution or explain why the President granted the pardon.
+              That procedural history is important because the word pardon can be misunderstood. A pardon can forgive federal criminal liability, but it does not rewrite the historical record, erase every public allegation, or amount to a court ruling that the underlying conduct never occurred. In <WikiLink href="https://en.wikipedia.org/wiki/Mark_Rossini">Rossini’s</WikiLink> case, the warrants establish executive clemency. They do not independently resolve the factual disputes that surrounded the prosecution or explain why the President granted the pardon.
             </p>
 
             {/* Comparative Breakdown: What a Pardon Does vs Does Not Do */}
@@ -464,7 +469,7 @@ export default function MarkRossiniArticlePage() {
 
             {/* Paragraph 8 */}
             <p style={{ marginBottom: '24px' }}>
-              For readers following Mark Rossini, the two-warrant sequence provides the clearest roadmap. The January 15 document addressed the primary Puerto Rico case. The January 20 document addressed Rossini’s separate case number. Together, the records show how executive clemency moved from a presidential announcement to a court filing and then to a judicial order closing the pending criminal proceedings.
+              For readers following <WikiLink href="https://en.wikipedia.org/wiki/Mark_Rossini">Mark Rossini</WikiLink>, the two-warrant sequence provides the clearest roadmap. The January 15 document addressed the primary Puerto Rico case. The January 20 document addressed <WikiLink href="https://en.wikipedia.org/wiki/Mark_Rossini">Rossini’s</WikiLink> separate case number. Together, the records show how executive clemency moved from a presidential announcement to a court filing and then to a judicial order closing the pending criminal proceedings.
             </p>
 
             {/* Paragraph 9 */}
@@ -474,10 +479,10 @@ export default function MarkRossiniArticlePage() {
 
             {/* Paragraph 10 */}
             <p style={{ marginBottom: '32px' }}>
-              For now, the official record is straightforward: Mark Rossini was named in two presidential clemency documents, accepted the grants through counsel, and saw the related federal proceedings move toward dismissal. The case’s public significance, however, will continue to be measured not only by its legal ending but also by the unanswered questions about influence, campaign finance, and the reach of executive power.
+              For now, the official record is straightforward: <WikiLink href="https://en.wikipedia.org/wiki/Mark_Rossini">Mark Rossini</WikiLink> was named in two presidential clemency documents, accepted the grants through counsel, and saw the related federal proceedings move toward dismissal. The case’s public significance, however, will continue to be measured not only by its legal ending but also by the unanswered questions about influence, campaign finance, and the reach of executive power.
             </p>
 
-            {/* Reporting Basis Footer */}
+            {/* Reporting Basis Footer with Hyperlinked Data */}
             <div style={{
               margin: '36px 0 24px 0',
               padding: '18px 22px',
@@ -486,14 +491,50 @@ export default function MarkRossiniArticlePage() {
               borderRadius: 'var(--radius-xs)',
               fontSize: '0.84rem',
               color: 'var(--text-muted)',
-              lineHeight: 1.55
+              lineHeight: 1.6
             }}>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontWeight: 800, color: 'var(--text-primary)', marginBottom: '5px', textTransform: 'uppercase', letterSpacing: '0.04em', fontSize: '0.76rem' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontWeight: 800, color: 'var(--text-primary)', marginBottom: '6px', textTransform: 'uppercase', letterSpacing: '0.04em', fontSize: '0.76rem' }}>
                 <ShieldCheck size={16} color="var(--brand-primary)" />
                 <span>Reporting Basis</span>
               </div>
               <p style={{ margin: 0 }}>
-                U.S. Department of Justice, January 20, 2026 Rossini pardon warrant; January 15, 2026 warrant; and public court reporting on the acceptance filing.
+                Reporting basis:{' '}
+                <a
+                  href="https://www.justice.gov"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: 'var(--brand-primary)', textDecoration: 'underline', textUnderlineOffset: '2px', fontWeight: 600 }}
+                >
+                  U.S. Department of Justice
+                </a>
+                ,{' '}
+                <a
+                  href="https://www.justice.gov/pardon"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: 'var(--brand-primary)', textDecoration: 'underline', textUnderlineOffset: '2px', fontWeight: 600 }}
+                >
+                  January 20, 2026 Rossini pardon warrant
+                </a>
+                ;{' '}
+                <a
+                  href="https://www.justice.gov/pardon"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: 'var(--brand-primary)', textDecoration: 'underline', textUnderlineOffset: '2px', fontWeight: 600 }}
+                >
+                  January 15, 2026 warrant
+                </a>
+                ; and public court reporting on the{' '}
+                <a
+                  href="https://www.prd.uscourts.gov"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: 'var(--brand-primary)', textDecoration: 'underline', textUnderlineOffset: '2px', fontWeight: 600 }}
+                >
+                  acceptance filing
+                </a>{' '}
+                in the U.S. District Court for the District of Puerto Rico.
               </p>
             </div>
 
@@ -535,7 +576,7 @@ export default function MarkRossiniArticlePage() {
               padding: '22px'
             }}>
               <span className="aura-pill" style={{ marginBottom: '12px', display: 'inline-block' }}>
-                Federal Case Dossier
+                Case Dossier
               </span>
               <h3 className="font-heading" style={{ fontSize: '1.3rem', fontWeight: 900, color: 'var(--text-primary)', marginBottom: '4px' }}>
                 U.S. v. Mark T. Rossini
@@ -546,12 +587,17 @@ export default function MarkRossiniArticlePage() {
 
               <div style={{ display: 'flex', flexDirection: 'column', gap: '11px', fontSize: '0.82rem' }}>
                 <div style={{ display: 'flex', justifyContent: 'space-between', paddingBottom: '9px', borderBottom: '1px solid var(--border-hairline)' }}>
-                  <span style={{ color: 'var(--text-muted)' }}>Primary Subject:</span>
-                  <strong style={{ color: 'var(--text-primary)' }}>Mark T. Rossini</strong>
+                  <span style={{ color: 'var(--text-muted)' }}>Defendant:</span>
+                  <strong style={{ color: 'var(--text-primary)' }}>
+                    <WikiLink href="https://en.wikipedia.org/wiki/Mark_Rossini">Mark T. Rossini</WikiLink>
+                  </strong>
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'space-between', paddingBottom: '9px', borderBottom: '1px solid var(--border-hairline)' }}>
                   <span style={{ color: 'var(--text-muted)' }}>Co-Defendants:</span>
-                  <span style={{ color: 'var(--text-primary)', textAlign: 'right', fontWeight: 600 }}>J. Herrera Velutini, W. Vázquez</span>
+                  <span style={{ color: 'var(--text-primary)', textAlign: 'right', fontWeight: 600 }}>
+                    <WikiLink href="https://en.wikipedia.org/wiki/Julio_Herrera_Velutini">J. Herrera Velutini</WikiLink>,{' '}
+                    <WikiLink href="https://en.wikipedia.org/wiki/Wanda_V%C3%A1zquez_Garced">W. Vázquez</WikiLink>
+                  </span>
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'space-between', paddingBottom: '9px', borderBottom: '1px solid var(--border-hairline)' }}>
                   <span style={{ color: 'var(--text-muted)' }}>Jurisdiction:</span>
@@ -584,7 +630,9 @@ export default function MarkRossiniArticlePage() {
                 <div>
                   <span style={{ fontFamily: 'var(--font-mono)', fontSize: '0.72rem', color: 'var(--text-muted)', fontWeight: 700 }}>August 2022</span>
                   <p style={{ margin: '2px 0 0 0', fontWeight: 700, color: 'var(--text-primary)' }}>Initial Indictment</p>
-                  <p style={{ margin: 0, color: 'var(--text-muted)', fontSize: '0.76rem' }}>DOJ charges Vázquez Garced, Herrera Velutini, and Rossini.</p>
+                  <p style={{ margin: 0, color: 'var(--text-muted)', fontSize: '0.76rem' }}>
+                    DOJ charges <WikiLink href="https://en.wikipedia.org/wiki/Wanda_V%C3%A1zquez_Garced">Vázquez Garced</WikiLink>, <WikiLink href="https://en.wikipedia.org/wiki/Julio_Herrera_Velutini">Herrera Velutini</WikiLink>, and <WikiLink href="https://en.wikipedia.org/wiki/Mark_Rossini">Rossini</WikiLink>.
+                  </p>
                 </div>
                 <div>
                   <span style={{ fontFamily: 'var(--font-mono)', fontSize: '0.72rem', color: 'var(--text-muted)', fontWeight: 700 }}>2025</span>
@@ -594,12 +642,16 @@ export default function MarkRossiniArticlePage() {
                 <div>
                   <span style={{ fontFamily: 'var(--font-mono)', fontSize: '0.72rem', color: 'var(--brand-primary)', fontWeight: 700 }}>Jan 15, 2026</span>
                   <p style={{ margin: '2px 0 0 0', fontWeight: 700, color: 'var(--text-primary)' }}>First Presidential Pardon</p>
-                  <p style={{ margin: 0, color: 'var(--text-muted)', fontSize: '0.76rem' }}>President Trump issues clemency covering multi-defendant case.</p>
+                  <p style={{ margin: 0, color: 'var(--text-muted)', fontSize: '0.76rem' }}>
+                    President <WikiLink href="https://en.wikipedia.org/wiki/Donald_Trump">Trump</WikiLink> issues clemency covering multi-defendant case.
+                  </p>
                 </div>
                 <div>
                   <span style={{ fontFamily: 'var(--font-mono)', fontSize: '0.72rem', color: 'var(--brand-primary)', fontWeight: 700 }}>Jan 20, 2026</span>
                   <p style={{ margin: '2px 0 0 0', fontWeight: 700, color: 'var(--text-primary)' }}>Second Warrant & Acceptance</p>
-                  <p style={{ margin: 0, color: 'var(--text-muted)', fontSize: '0.76rem' }}>Rossini formally accepts; DOJ issues individual warrant.</p>
+                  <p style={{ margin: 0, color: 'var(--text-muted)', fontSize: '0.76rem' }}>
+                    <WikiLink href="https://en.wikipedia.org/wiki/Mark_Rossini">Rossini</WikiLink> formally accepts; DOJ issues individual warrant.
+                  </p>
                 </div>
                 <div>
                   <span style={{ fontFamily: 'var(--font-mono)', fontSize: '0.72rem', color: '#059669', fontWeight: 700 }}>January 2026</span>
