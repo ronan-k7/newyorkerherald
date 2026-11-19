@@ -3,24 +3,24 @@ import { Article, OpinionColumn, FactCheckItem, PhotoStory, VideoItem, PodcastEp
 export const BREAKING_NEWS_ITEMS = [
   {
     id: 'brk-1',
-    kicker: 'CABINET SHAKEUP',
-    headline: 'White House Withdraws Heidi Overton Nomination to Lead FDA',
+    kicker: 'PUBLIC SAFETY',
+    headline: 'NYC Orders Emergency Sweeps Across 160 Construction Sites Following Flatbush Collapse',
     time: '2m ago',
-    url: '/politics/white-house-withdraws-heidi-overton-nomination-to-lead-fda'
+    url: '/us/nyc-orders-emergency-sweeps-160-construction-sites-fatal-flatbush-collapse'
   },
   {
     id: 'brk-2',
-    kicker: 'PUBLIC AFFAIRS',
-    headline: 'Hochul and MTA Press Congress for Billions in Transit Funds',
-    time: '15m ago',
-    url: '/us/hochul-and-mta-press-congress-for-billions-in-transit-funds'
+    kicker: 'CAPITOL HILL',
+    headline: "House Democrats Formally Nominate Brooklyn's Hakeem Jeffries for Speaker",
+    time: '14m ago',
+    url: '/politics/house-democrats-formally-nominate-brooklyn-hakeem-jeffries-speaker'
   },
   {
     id: 'brk-3',
-    kicker: 'WALL STREET',
-    headline: 'Dow Plunges 848 Points as AI Valuation Anxiety Grips Markets',
+    kicker: 'CENTRAL BANKING',
+    headline: 'Federal Reserve Flags Escalating Debt and Private Credit Risks in AI Boom',
     time: '28m ago',
-    url: '/business/dow-plunges-848-points-as-ai-valuation-anxiety-grips-markets'
+    url: '/business/federal-reserve-flags-escalating-debt-and-private-credit-risks-ai-boom'
   }
 ];
 
@@ -1552,6 +1552,46 @@ As the Federal Energy Regulatory Commission (FERC) convenes national stakeholder
 export const CATEGORY_ARTICLES: Record<string, Article[]> = {
   'Investigation': [
     {
+        "id": "broken-routes-stranded-students-inside-nyc-deepening-school-bus-crisis",
+        "title": "Broken Routes and Stranded Students: Inside New York City's Deepening School Bus Crisis",
+        "kicker": "PUBLIC ACCOUNTABILITY • INVESTIGATIVE DOSSIER",
+        "summary": "Three months into the academic year, an exhaustive investigation reveals that hundreds of special-education students remain stranded without reliable bus transportation, triggering intense City Council grilling and audits of billion-dollar private vendor contracts.",
+        "category": "Investigation",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Newyorkerherald Staff",
+            "role": "Investigative Reporting Unit",
+            "avatar": "/images/authors/sarah_mitchell.jpg"
+        },
+        "publishedAt": "Yesterday",
+        "readTime": "9 min read",
+        "imageUrl": "/images/news/nyc-school-bus-transit-crisis-investigation.webp",
+        "imageCaption": "Yellow school buses parked at a municipal dispatch yard in Long Island City as route shortages leave hundreds of special-education students stranded across the boroughs.",
+        "imageCredit": "Department of Education Oversight / Investigative Bureau",
+        "isLead": false,
+        "isBreaking": false,
+        "isInvestigative": true,
+        "bullets": [
+            "Over 750 special-education students across Brooklyn, Queens, and the Bronx left without assigned school bus transit.",
+            "City Council Education Committee investigates $1.4 billion in outsourced private vendor transit contracts.",
+            "Department of Education penalizes four major bus consortia for chronic route abandonment and GPS tracking failures.",
+            "Advocates and families file class-action petition alleging systematic violations of federal disability education laws."
+        ],
+        "tags": [
+            "New York City",
+            "Education",
+            "School Bus",
+            "Public Affairs",
+            "City Council",
+            "Department of Education",
+            "Investigation"
+        ],
+        "body": "NEW YORK — Nearly three months into the school year, thousands of New York City families continue to navigate a daily crisis of municipal logistics, as chronic driver shortages, operational mismanagement, and private contractor defaults have left hundreds of the city's most vulnerable schoolchildren without reliable bus service.\n\nAn investigative review of internal Department of Education (DOE) transportation records, GPS tracking logs, and municipal vendor filings conducted by the Newyorkerherald reveals that as of mid-November, more than 750 students with Individualized Education Programs (IEPs)—many requiring specialized wheelchair-accessible vehicles or dedicated paraprofessional escorts—remain without permanent, assigned bus routes. The administrative breakdown has forced working parents across Brooklyn, Queens, and the Bronx to sacrifice employment hours, incur substantial rideshare expenses, or keep their children home from classrooms, depriving students of essential therapies and instructional time.\n\nThe issue culminated in a volatile, five-hour public oversight hearing on Tuesday before the City Council's Education Committee, where council members repeatedly pressed DOE officials and representatives from private transportation consortia on the performance of municipal contracts totaling approximately $1.4 billion annually. The city currently contracts with roughly thirty private bus companies operating over 9,000 daily routes to serve approximately 150,000 public and non-public school pupils across the five boroughs.\n\n\"What we are witnessing is not a temporary scheduling glitch or seasonal staffing friction; it is a profound institutional failure that violates the federal rights of our children,\" stated Education Committee Chair Rita Joseph during an impassioned opening interrogation. \"We have nonverbal children left waiting at curb corners for buses that never arrive. We have parents losing their jobs because they must spend four hours every day navigating public buses with specialized medical equipment. New York City taxpayers are paying over a billion dollars for a transportation apparatus that repeatedly fails to transport the children who need it most.\"\n\nInternal audits obtained through open-records disclosures highlight structural vulnerabilities within the city’s privatized vendor framework. Despite substantial contractual performance guarantees, several prominent bus companies operating in Queens and the outer Bronx routinely sub-contracted routes to secondary providers without requisite background verifications, failed to maintain required vehicle communication radios, and allowed vehicle GPS tracking units to remain offline for consecutive weeks, leaving the central dispatch center unable to provide parents with real-time location estimates.\n\nIn response to mounting public outrage, the Department of Education announced Tuesday that it has issued formal breach-of-contract warnings to four major bus companies, initiating contractual liquidated damages totaling millions of dollars and demanding that vendors submit immediate operational recovery roadmaps. The administration has also expanded its emergency rideshare reimbursement program, increasing daily transportation vouchers to families up to $200 per day while promising to deploy additional municipal staff to manual route reassignment.\n\nHowever, advocates for children with disabilities argue that financial reimbursements fail to address the core harm. On Wednesday morning, legal aid organizations and a coalition of affected parents filed a class-action petition in federal district court, alleging that the ongoing failure to provide mandatory transportation violates the federal Individuals with Disabilities Education Act (IDEA). As pressure mounts on City Hall to overhaul its long-term school transit agreements, the crisis has become a potent symbol of municipal service delivery deficits, demanding fundamental structural reform of New York's educational infrastructure."
+    },
+    {
       "id": "doj-and-fbi-seize-1-2b-in-north-korean-crypto-theft-crackdown",
       "title": "DOJ and FBI Seize $1.2B in North Korean Crypto Theft Crackdown",
       "kicker": "FEDERAL CYBERCRIME PROBE \u2022 ASSET FORFEITURE",
@@ -1918,6 +1958,46 @@ In Albany, Governor Kathy Hochul convened an emergency public health cabinet mee
     }
   ],
   'US': [
+    {
+        "id": "nyc-orders-emergency-sweeps-160-construction-sites-fatal-flatbush-collapse",
+        "title": "NYC Orders Emergency Inspection Sweeps Across 160 Construction Sites Following Fatal Flatbush Collapse",
+        "kicker": "PUBLIC SAFETY • METROPOLITAN INVESTIGATION",
+        "summary": "Following a catastrophic structural collapse at a Brooklyn residential site that claimed two lives, the Department of Buildings has mobilized emergency inspection squads across more than 160 active excavation projects as city leaders prepare strict new contractor accountability mandates.",
+        "category": "US",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Newyorkerherald Staff",
+            "role": "Metropolitan Reporting Bureau",
+            "avatar": "/images/authors/sarah_mitchell.jpg"
+        },
+        "publishedAt": "2h ago",
+        "readTime": "8 min read",
+        "imageUrl": "/images/news/nyc-flatbush-building-collapse-sweeps.webp",
+        "imageCaption": "Emergency inspection teams and structural engineers examine excavation barriers and foundation underpinning across Brooklyn following the fatal Flatbush collapse.",
+        "imageCredit": "Newyorkerherald Archive / Metropolitan Desk",
+        "isLead": false,
+        "isBreaking": true,
+        "isInvestigative": true,
+        "bullets": [
+            "Department of Buildings deploys 40 specialized engineering inspection teams across five boroughs.",
+            "Emergency stop-work orders issued to 23 high-risk residential excavation and underpinning operations.",
+            "City Council schedules emergency hearing to review contractor licensing and criminal negligence referrals.",
+            "Families of victims file multimillion-dollar wrongful-death actions in Kings County Supreme Court."
+        ],
+        "tags": [
+            "New York City",
+            "Brooklyn",
+            "Public Safety",
+            "Construction",
+            "Department of Buildings",
+            "Housing",
+            "Flatbush"
+        ],
+        "body": "NEW YORK — In the wake of a catastrophic multi-story building collapse in Flatbush, Brooklyn, that killed two construction workers and displaced dozens of neighborhood residents, New York City officials have launched an aggressive, emergency regulatory sweep across more than 160 active excavation and foundation work sites spanning all five boroughs.\n\nThe coordinated crackdown, announced early Wednesday by the Department of Buildings (DOB) and the Mayor's Office of Public Safety, represents one of the most sweeping emergency interventions in the city's construction sector in recent memory. Specialized forensic engineers and senior inspectors have been deployed to review structural underpinning, geotechnical soil retaining walls, and adjacent foundation protections at deep-trench construction projects, focusing on private residential developments where unpermitted modifications have historically posed severe structural risks.\n\nWithin the first forty-eight hours of the blitz, inspectors had already issued twenty-three full stop-work orders and sixty-four environmental control summonses. The rapid enforcement follows forensic disclosures indicating that the Flatbush property—a six-story residential development on Church Avenue—had suffered severe foundational subsidence when crews excavated several feet below the permitted footing depth without installing the required lateral shoring steel. The resulting ground collapse compromised the load-bearing masonry wall of an adjacent occupied four-story brownstone, sending hundreds of tons of debris cascading into the subterranean work zone.\n\n\"Every single worker who steps onto a New York City job site has an absolute right to return home safely to their family at the end of their shift, and every tenant living next door deserves the assurance that their home will not collapse beneath them,\" declared Department of Buildings Commissioner James Oddo during a solemn press briefing at City Hall. \"We are sending a transparent and uncompromising message to unscrupulous general contractors and negligent developers: if you cut corners on structural underpinning, if you bypass engineering permits, or if you treat safety guidelines as optional suggestions, we will shut your project down immediately and pursue every available civil and criminal penalty under the administrative code.\"\n\nThe tragedy has quickly ignited fierce political fallout in Albany and at City Hall. The New York City Council’s Committee on Housing and Buildings announced it will convene an emergency oversight hearing next week, subpoenaing senior executives from the development group, sub-tier masonry subcontractors, and private third-party site safety managers. Council members across Brooklyn and Queens are preparing legislative packages that would mandate continuous automated seismic vibration monitors along property lines of deep-foundation projects, dramatically raise the minimum liability insurance required for excavation licenses, and create a centralized public registry of contractors penalized for severe code breaches.\n\nMeanwhile, legal actions are accelerating rapidly. Attorneys representing the families of the two deceased workers, as well as displaced tenants who lost their homes and personal belongings, filed comprehensive wrongful-death and negligence lawsuits in Kings County Supreme Court on Tuesday afternoon. The complaints accuse the general contractor of egregious misconduct, alleging that work continued unabated for days after neighboring tenants reported widening structural cracks and shifting door frames. As investigators from the Brooklyn District Attorney's office and the federal Occupational Safety and Health Administration (OSHA) comb through soil core samples, daily safety logs, and digital architectural plans, the tragedy has cast an urgent spotlight on the municipal balancing act between accelerating desperately needed housing construction and enforcing rigorous structural safety standards across New York's historic neighborhoods."
+    },
     {
       "id": "hochul-and-mta-press-congress-for-billions-in-transit-funds",
       "title": "Hochul and MTA Press Congress for Billions in Transit Funds",
@@ -2307,6 +2387,46 @@ As the clocks reset, congressional leaders confirmed that bipartisan committee s
     }
   ],
   'Politics': [
+    {
+        "id": "house-democrats-formally-nominate-brooklyn-hakeem-jeffries-speaker",
+        "title": "House Democrats Formally Nominate Brooklyn's Hakeem Jeffries for Speaker of the House",
+        "kicker": "CAPITOL HILL • HISTORIC LEADERSHIP VOTE",
+        "summary": "In a momentous leadership caucus in Washington, House Democrats unanimously nominated Brooklyn Representative Hakeem Jeffries as their candidate for Speaker of the House, positioning him to lead a transformed legislative majority.",
+        "category": "Politics",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Newyorkerherald Staff",
+            "role": "Washington Bureau",
+            "avatar": "/images/authors/sarah_mitchell.jpg"
+        },
+        "publishedAt": "3h ago",
+        "readTime": "8 min read",
+        "imageUrl": "/images/news/hakeem-jeffries-speaker-nomination.webp",
+        "imageCaption": "House Democratic Leader Hakeem Jeffries addresses lawmakers in the Capitol following his nomination as Speaker of the House for the upcoming congressional session.",
+        "imageCredit": "Congressional Archive / News Desk",
+        "isLead": false,
+        "isBreaking": true,
+        "isInvestigative": false,
+        "bullets": [
+            "Brooklyn Representative Hakeem Jeffries clinches formal Democratic nomination for Speaker of the House.",
+            "Vote sets the stage for historic speakership as party prepares legislative priorities for incoming Congress.",
+            "Incoming House majority outlines focus on reproductive freedom, voting rights, and federal infrastructure oversight.",
+            "Bipartisan negotiations underway on crucial winter government funding deadlines and debt ceiling measures."
+        ],
+        "tags": [
+            "Congress",
+            "House of Representatives",
+            "Hakeem Jeffries",
+            "New York",
+            "Capitol Hill",
+            "Politics",
+            "Democrats"
+        ],
+        "body": "WASHINGTON — In an emotional and historically resonant caucus gathering inside the Longworth House Office Building on Wednesday, House Democrats voted by enthusiastic acclamation to formally nominate Democratic Leader Hakeem Jeffries of Brooklyn as Speaker of the House for the incoming Congress.\n\nThe milestone vote positions the 56-year-old New York lawmaker to become the first Black Speaker in the 237-year history of the United States House of Representatives, capping a disciplined two-year effort to hold his caucus unified through fractious legislative battles, national midterm campaigns, and heightened executive branch confrontations. When the formal roll call was completed, the caucus chamber erupted in prolonged standing ovations, with senior lawmakers and freshman members alike surrounding the Brooklyn native on the dais.\n\nJeffries’ elevation represents not only a personal triumph for a leader known for his measured rhetoric and methodical political strategy, but also a decisive shift in congressional power back toward the urban corridors of the Northeast. Speaking to assembled members following his nomination, Jeffries struck a tone of determined pragmatism, emphasizing that the incoming majority intends to govern with institutional discipline and focus on pocketbook issues affecting working families nationwide.\n\n\"From the neighborhoods of Brooklyn, where hard work, community solidarity, and resilience define daily life, to small towns and metropolitan centers across this vast nation, the American people have delivered an unmistakable mandate,\" Jeffries stated to cheers from the caucus. \"They have chosen progress over chaos. They have chosen economic dignity over division. As we prepare to take the gavel in the people’s House, we do so with a profound sense of constitutional responsibility, ready to protect fundamental freedoms, rebuild our public infrastructure, and hold power strictly accountable to the public interest.\"\n\nThe path to the speakership on the House floor in January will test Jeffries’ renowned legislative coalition-building skills. While Democrats secured a clear working majority in the November midterms, the margin remains narrow enough to require near-perfect caucus cohesion on critical floor votes. Over recent weeks, Jeffries has engaged in intensive discussions with leaders across the Congressional Progressive Caucus, the New Democrat Coalition, and the Blue Dog Coalition, successfully constructing an inclusive legislative blueprint that balances aggressive oversight of federal agencies with bipartisan commitments to funding core national security, veterans affairs, and domestic transportation priorities.\n\nKey legislative priorities outlined by the incoming Democratic leadership include advancing the John Lewis Voting Rights Advancement Act, codifying federal protections for reproductive healthcare access, expanding the child tax credit, and addressing the nationwide housing affordability crisis through expanded federal community development block grants. Furthermore, with several crucial federal spending authorizations expiring in early 2027, Jeffries and his transition team have initiated preliminary bipartisan channels with Senate Majority Leader Chuck Schumer and congressional Republican leaders to establish guardrails that avert costly government shutdowns or financial destabilization.\n\nFor New York, Jeffries’ speakership is expected to yield substantial policy and budgetary dividends. Senior New York delegation members are poised to assume influential committee leadership posts, bolstering federal allocations for the Metropolitan Transportation Authority (MTA), coastal storm surge defenses along the Eastern Seaboard, and public housing modernization across the New York City Housing Authority (NYCHA) network. As Washington braces for a dramatic reorganization of legislative power, Jeffries' ascension establishes a historic new chapter in American governance, defined by a son of Brooklyn wielding the most powerful gavel in the legislative branch."
+    },
     {
       "id": "white-house-withdraws-heidi-overton-nomination-to-lead-fda",
       "title": "White House Withdraws Heidi Overton Nomination to Lead FDA",
@@ -2802,6 +2922,46 @@ In Washington, national security officials convened in the White House Situation
 
   'Business & Economy': [
     {
+        "id": "federal-reserve-flags-escalating-debt-and-private-credit-risks-ai-boom",
+        "title": "Federal Reserve Flags Escalating Debt and Private Credit Risks in Hyperscale AI Boom",
+        "kicker": "CENTRAL BANKING • FINANCIAL STABILITY REPORT",
+        "summary": "Minutes from the Federal Reserve's latest monetary policy deliberations reveal growing unease among central bank officials over complex corporate debt and non-bank financing fueling multi-billion-dollar artificial intelligence capital expenditures.",
+        "category": "Business",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Newyorkerherald Staff",
+            "role": "Wall Street & Financial Intelligence Desk",
+            "avatar": "/images/authors/sarah_mitchell.jpg"
+        },
+        "publishedAt": "4h ago",
+        "readTime": "8 min read",
+        "imageUrl": "/images/news/federal-reserve-ai-debt-warning-wall-street.webp",
+        "imageCaption": "Federal Reserve Chairman Jerome Powell and the Federal Open Market Committee deliberate at the Marriner S. Eccles Building in Washington.",
+        "imageCredit": "Federal Reserve Board Archive",
+        "isLead": false,
+        "isBreaking": false,
+        "isInvestigative": false,
+        "bullets": [
+            "Federal Reserve meeting minutes disclose unprecedented central bank concerns over tech debt build-up.",
+            "Private credit vehicles and synthetic loans used to finance multi-billion-dollar GPU computing farms.",
+            "Wall Street analysts evaluate vulnerability of tech leverage to extended higher-for-longer interest rates.",
+            "Federal Reserve Bank of New York increases surveillance on non-bank financial intermediaries."
+        ],
+        "tags": [
+            "Federal Reserve",
+            "Wall Street",
+            "Economy",
+            "Artificial Intelligence",
+            "Interest Rates",
+            "Private Credit",
+            "Banking"
+        ],
+        "body": "WASHINGTON & NEW YORK — In a striking departure from its conventional monetary focus on inflation indices and labor metrics, the Federal Reserve has issued an unprecedented warning regarding the rapid accumulation of corporate debt and opaque private credit structures fueling the global artificial intelligence infrastructure boom.\n\nAccording to detailed minutes released Wednesday afternoon from the Federal Open Market Committee's (FOMC) October policy meeting, central bank governors and regional reserve bank presidents expressed widespread anxiety over the financial mechanisms backing the multi-hundred-billion-dollar capital expenditure wave underway across the technology and utilities sectors. Policymakers noted that while technological innovation historically yields long-term macroeconomic productivity dividends, the sheer velocity and structural leverage of current data center, semiconductor, and power transmission financing could generate acute systemic vulnerabilities if anticipated enterprise revenues fail to materialize on projected timetables.\n\nThe central bank's analysis specifically highlighted the emergence of bespoke private credit facilities and off-balance-sheet joint ventures established to acquire specialized graphic processing unit (GPU) hardware and secure commercial power-purchase contracts. Because top-tier hyperscale technology corporations face Wall Street pressure to preserve cash reserves and protect pristine credit ratings, developers have increasingly turned to private debt funds, sovereign wealth conduits, and non-bank financial intermediaries (NBFIs) to finance multi-billion-dollar computing facilities across states like Virginia, Texas, and New York.\n\n\"Several participants remarked on the potential financial stability risks associated with the rapid growth of private market financing for high-technology capital investments,\" the Federal Reserve minutes noted. \"A number of officials observed that some of these debt instruments incorporate high degrees of leverage and limited liquidity buffers, which could amplify stress across credit markets in the event of unanticipated demand retrenchment, technological obsolescence, or regulatory constraints on electrical utility grids.\"\n\nThe warning resonated immediately across Wall Street trading desks and fixed-income research departments. The yield on the benchmark 10-year U.S. Treasury note rose four basis points to 4.48% following the release, as credit analysts evaluated whether major commercial banks could face indirect contagion through credit lines extended to private lending funds. Ratings agencies, including Moody’s and S&P Global, have already begun scrutinizing structured debt collateralized solely by computing silicon, cautioning that rapid iteration cycles in frontier artificial intelligence algorithms could rapidly erode the residual salvage value of current-generation hardware.\n\nAt the Federal Reserve Bank of New York in lower Manhattan, supervisory teams have quietly intensified their scrutiny of top financial institutions' counterparty exposures to large private capital funds. Regulators are preparing comprehensive stress-testing scenarios that evaluate how regional utilities, specialized data center real estate investment trusts (REITs), and tech infrastructure consortia would withstand a scenario where enterprise artificial intelligence adoption curves plateau while capital servicing costs remain elevated.\n\nAs Federal Reserve Chairman Jerome Powell prepares for upcoming congressional testimony, the central bank’s intervention underscores a critical inflection point in the modern economy: the intersection of frontier technology, energy transition constraints, and complex structured finance, where central bankers must balance fostering technological competitiveness against safeguarding the structural integrity of the American banking system."
+    },
+    {
       id: "major-us-banks-hit-by-widespread-online-outages-and-delays",
       title: "Major US Banks Hit by Widespread Online Outages and Delays",
       kicker: "FINANCIAL INFRASTRUCTURE • DIGITAL BANKING",
@@ -3228,6 +3388,46 @@ Sports finance experts note that the move mirrors a broader institutional trend 
   ],
 
   'Tech': [
+    {
+        "id": "anthropic-debuts-on-new-york-stock-exchange-in-historic-1-5-trillion-ipo",
+        "title": "Anthropic Debuts on New York Stock Exchange in Historic $1.5 Trillion Valuation IPO",
+        "kicker": "WALL STREET & SILICON VALLEY • LANDMARK MARKET DEBUT",
+        "summary": "AI frontier laboratory Anthropic achieved an extraordinary $1.52 trillion market valuation as trading commenced on the New York Stock Exchange, marking one of the largest capital offerings in global financial history.",
+        "category": "Tech",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Newyorkerherald Staff",
+            "role": "San Francisco & Silicon Valley Bureau",
+            "avatar": "/images/authors/sarah_mitchell.jpg"
+        },
+        "publishedAt": "Yesterday",
+        "readTime": "8 min read",
+        "imageUrl": "/images/news/anthropic-nyse-ipo-trading-debut.webp",
+        "imageCaption": "Traders on the floor of the New York Stock Exchange gather beneath banner displays marking the landmark initial public offering of AI frontier lab Anthropic.",
+        "imageCredit": "NYSE Floor Photography / Business Wire",
+        "isLead": false,
+        "isBreaking": false,
+        "isInvestigative": false,
+        "bullets": [
+            "Anthropic prices landmark initial public offering at $83 per share, raising $14.2 billion in primary capital.",
+            "Trading debut pushes total company market capitalization to historic $1.52 trillion on NYSE floor.",
+            "Proceeds slated for advanced multi-gigawatt compute clusters and safety-focused frontier model research.",
+            "Public benefit corporate governance structure withstands public market scrutiny with dual-class voting."
+        ],
+        "tags": [
+            "Anthropic",
+            "Artificial Intelligence",
+            "NYSE",
+            "Wall Street",
+            "Tech",
+            "IPO",
+            "Silicon Valley"
+        ],
+        "body": "NEW YORK — In an electric atmosphere that mirrored the defining market moments of the modern financial era, artificial intelligence research laboratory Anthropic officially debuted on the New York Stock Exchange on Wednesday, achieving a staggering market capitalization of approximately $1.52 trillion in one of the most consequential initial public offerings ever executed.\n\nTrading under the ticker symbol ANTH, shares opened at $83.50, comfortably surpassing the elevated offering price of $83 set late Tuesday by lead underwriting syndicates Goldman Sachs and Morgan Stanley. The offering raised $14.2 billion in net primary proceeds for the San Francisco-based frontier lab, supplying the enterprise with unprecedented financial reserves to fund its multi-gigawatt supercomputing infrastructure and accelerate safety-governed frontier model research over the coming decade.\n\nThe debut represents a defining triumph for founders Dario and Daniela Amodei, former senior research executives who founded Anthropic in 2021 with an explicit commitment to empirical alignment, constitutional guardrails, and transparent institutional governance. Crowded on the historic floor of 11 Wall Street alongside research engineers and early corporate backers, the leadership team watched as opening trading volume eclipsed fifty million shares within the first twenty minutes of the opening bell.\n\n\"When we founded Anthropic five years ago, our guiding conviction was that the transition to powerful artificial intelligence required a fundamental reimagining of how technology companies operate, innovate, and govern themselves,\" CEO Dario Amodei declared in an address to market participants on the exchange floor. \"Taking this company public as a Public Benefit Corporation is proof that the public markets can support rigorous, disciplined safety research alongside world-class commercial execution. This capital will be deployed with unremitting responsibility to build systems that solve humanity’s most complex scientific, medical, and industrial challenges.\"\n\nFinancial disclosures filed with the Securities and Exchange Commission (SEC) in the weeks leading up to the offering reveal extraordinary financial velocity. Anthropic’s annualized revenue run rate surged past $5.8 billion in the third quarter of 2026, driven by rapid enterprise adoption of its Claude frontier models across Fortune 500 corporations in financial services, biotechnology, software engineering, and legal intelligence. Operating margins expanded significantly as proprietary inference efficiency optimizations and custom silicon partnerships reduced per-token processing overhead.\n\nCrucially, Anthropic’s public debut also served as a major test case for alternative corporate governance models on Wall Street. The company’s Long-Term Benefit Trust—an independent fiduciary council empowered to review the safety standards of advanced frontier systems and veto hazardous algorithmic deployments—remained fully intact through the underwriting process. While several institutional investors initially questioned the non-traditional governance structure, overwhelming institutional demand from sovereign wealth funds, university endowments, and global pension managers ultimately confirmed broad market acceptance of safety-centric corporate architectures.\n\nAs trading concluded Wednesday afternoon with shares holding steady above $84, the landmark listing not only reshuffled global tech valuation hierarchies, but established a towering new benchmark for Wall Street's confidence in the commercial and transformative durability of the artificial intelligence revolution."
+    },
     {
       "id": "google-expands-gemini-into-autonomous-ai-agent-for-real-tasks",
       "title": "Google Expands Gemini Into Autonomous AI Agent For Real Tasks",
@@ -3694,6 +3894,46 @@ Aerospace financial analysts estimate that SpaceX's commercial launch and satell
 
   'Entertainment': [
     {
+        "id": "macys-unveils-centenary-float-lineup-for-100th-annual-thanksgiving-parade",
+        "title": "Macy's Unveils Centenary Float Lineup for 100th Annual Thanksgiving Day Parade in Manhattan",
+        "kicker": "HOLIDAY TRADITION • NEW YORK CENTENNIAL",
+        "summary": "Ahead of the historic centenary milestone of America's most celebrated street pageant, parade artisans in New Jersey and Manhattan have unveiled eight spectacular new floats honoring a century of New York cultural heritage.",
+        "category": "Entertainment",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Newyorkerherald Staff",
+            "role": "Arts & Metropolitan Culture Desk",
+            "avatar": "/images/authors/sarah_mitchell.jpg"
+        },
+        "publishedAt": "Yesterday",
+        "readTime": "7 min read",
+        "imageUrl": "/images/news/macys-100th-thanksgiving-parade-floats.webp",
+        "imageCaption": "Artisans and balloon handlers inspect newly sculpted centenary floats at the Macy’s Parade Studio facility ahead of inflation tests on Central Park West.",
+        "imageCredit": "Newyorkerherald Cultural Archive",
+        "isLead": false,
+        "isBreaking": false,
+        "isInvestigative": false,
+        "bullets": [
+            "Macy's Parade Studio debuts eight newly engineered centenary floats commemorating 1924–2026 tradition.",
+            "Over 3.5 million live spectators projected along 2.5-mile route from Upper West Side to Herald Square.",
+            "Parade features 17 giant helium character balloons, 28 performance floats, and 12 premier marching bands.",
+            "City tourism and hospitality bureau forecasts $420 million holiday economic impact for local businesses."
+        ],
+        "tags": [
+            "Macy's Parade",
+            "New York City",
+            "Thanksgiving",
+            "Culture",
+            "Manhattan",
+            "Entertainment",
+            "Centennial"
+        ],
+        "body": "NEW YORK — In a dazzling display of kinetic sculpture, theatrical set engineering, and historic celebration, organizers of the Macy's Thanksgiving Day Parade officially unveiled their centenary float collection on Wednesday, offering a preview of what promises to be the most ambitious holiday procession in the pageant’s 100-year history.\n\nAt the sprawling Macy’s Parade Studio in Moonachie, New Jersey—where teams of master carpenters, hydraulic engineers, scenic painters, and animatronic sculptors have laboured around the clock since January—artistic directors debuted eight breathtaking new floats engineered specifically to commemorate the pageant's 1924 founding by immigrant retail workers. When the opening horn sounds on Thanksgiving morning, the 2.5-mile route from 77th Street and Central Park West down Sixth Avenue to 34th Street will transform into a living tapestry of American performance art.\n\nThe crown jewel of the new centenary collection is \"Century of Wonder,\" a towering, three-story mobile monument celebrating New York’s cultural evolution. The float features functioning kinetic replicas of the historic 34th Street flagship wooden escalators, rotating illuminated architectural silhouettes of the Empire State Building and Chrysler Building, and a state-of-the-art hydraulic stage designed to host a rotating ensemble of Broadway performers. Other newly crafted floats celebrate international children's literature, wildlife conservation, and modern technological storytelling, each engineered to collapse seamlessly under the low-hanging traffic light corridors along Manhattan's avenue grids.\n\n\"When our predecessors stepped out onto the streets of Manhattan in 1924 with live animals from the Central Park Zoo and brass band instruments, they were immigrant retail workers sharing gratitude with the city they loved,\" stated Will Coss, Executive Producer of the Macy's Thanksgiving Day Parade. \"One hundred years later, this parade has become a permanent strand of the American cultural fabric. Reaching our centenary is an extraordinary privilege, and our artists and engineers have designed an experience that honors our century-long heritage while inspiring the millions of children who will look up in wonder from sidewalks and living rooms across the world.\"\n\nThe milestone event is anticipated to generate massive economic momentum for New York City’s hospitality, restaurant, and retail sectors. NYC Tourism + Conventions forecasts that more than 3.5 million spectators will gather along the public viewing areas in Manhattan, with hotel occupancy across Midtown and the Upper West Side climbing toward near-capacity. Total holiday weekend tourism spending associated with the parade is projected to surpass $420 million, providing vital support to local merchants and performance artists.\n\nLogistical and public safety preparations are already running at full tempo. The New York City Police Department (NYPD) and municipal transportation agencies have coordinated an extensive multi-agency security perimeter, deploying thousands of uniformed officers, tactical canine units, and high-altitude meteorological observation stations to monitor wind velocity along Central Park West. Early-morning inflation operations on Wednesday afternoon will welcome thousands of spectators to witness the colossal helium balloons take form, marking the official commencement of New York's grandest holiday tradition."
+    },
+    {
       "id": "raye-leads-2027-grammy-nominations-with-record-tying-11-nods",
       "title": "Raye Leads 2027 Grammy Nominations With Record-Tying 11 Nods",
       "kicker": "MUSIC AWARDS \u2022 GRAMMY NOMINATIONS",
@@ -4095,6 +4335,45 @@ Furthermore, cloud streaming platforms and mobile distribution networks have low
   ],
 
   'Sports': [
+    {
+        "id": "towns-and-brunson-drop-28-each-as-knicks-grind-out-112-108-triumph-toronto",
+        "title": "Towns and Brunson Drop 28 Each as Knicks Grind Out 112-108 Road Triumph in Toronto",
+        "kicker": "NBA REGULAR SEASON • METROPOLITAN HARDWOOD",
+        "summary": "Karl-Anthony Towns pulled down 17 rebounds while teaming with Jalen Brunson for 56 combined points as the New York Knicks clamped down late in Toronto to secure a thrilling 112-108 Eastern Conference road victory.",
+        "category": "Sports",
+        "edition": [
+            "US & Americas"
+        ],
+        "author": {
+            "name": "Newyorkerherald Staff",
+            "role": "Metropolitan Sports Bureau",
+            "avatar": "/images/authors/sarah_mitchell.jpg"
+        },
+        "publishedAt": "4h ago",
+        "readTime": "7 min read",
+        "imageUrl": "/images/news/knicks-towns-brunson-toronto-victory.webp",
+        "imageCaption": "Karl-Anthony Towns pulls down a contested defensive rebound as Jalen Brunson directs the transition offense during the Knicks’ fourth-quarter surge in Toronto.",
+        "imageCredit": "NBA Action Photography / Sports Archive",
+        "isLead": false,
+        "isBreaking": false,
+        "isInvestigative": false,
+        "bullets": [
+            "Karl-Anthony Towns records monster double-double with 28 points, 17 rebounds, and 3 blocks in Toronto.",
+            "Jalen Brunson scores 12 fourth-quarter points, including consecutive step-back jumpers in clutch final minutes.",
+            "Mikal Bridges and OG Anunoby anchor perimeter defense, forcing 16 Raptors turnovers down the stretch.",
+            "Victory propels Knicks over .500 mark (7-6) ahead of crucial four-game home stand at Madison Square Garden."
+        ],
+        "tags": [
+            "New York Knicks",
+            "NBA",
+            "Jalen Brunson",
+            "Karl-Anthony Towns",
+            "Basketball",
+            "Sports",
+            "Madison Square Garden"
+        ],
+        "body": "TORONTO — In a physical, defense-heavy battle that evoked the gritty playoff clashes of decades past, the New York Knicks demonstrated their championship caliber poise on Wednesday night, grinding out a hard-fought 112-108 road victory over the Toronto Raptors at a raucous Scotiabank Arena.\n\nThe triumph was anchored by the devastating two-man chemistry of New York's marquee stars, Karl-Anthony Towns and Jalen Brunson, who poured in 28 points apiece to withstand a furious fourth-quarter push from a surging Raptors squad. Towns was an immovable force across forty minutes of action, registering a towering double-double with seventeen rebounds, three blocked shots, and two pinpoint perimeter three-pointers that repeatedly punctured Toronto’s interior defensive schemes.\n\nWhenever Toronto threatened to seize momentum late in the second half, Brunson stepped forward with the cold-blooded shotmaking that has made him the heartbeat of basketball in Manhattan. The All-NBA point guard scored twelve of his 28 points in the final seven minutes, creating space against physical perimeter double-teams and sinking back-to-back step-back jumpers from the right wing to keep the Knicks ahead in the game's closing ninety seconds.\n\n\"That’s a big-time, character road win for our ballclub,\" an exhausted but satisfied Brunson noted in the postgame locker room. \"Toronto plays with incredible pace, length, and energy in this building, and they tested our discipline on every possession. But we stayed poised, we trusted our defensive rotations, and KAT was just an absolute monster on the glass for us all night. When he controls the paint like that, it opens up everything for our offense.\"\n\nThe victory also highlighted the growing cohesion of head coach Tom Thibodeau’s defensive unit. Perimeter wing stoppers Mikal Bridges and former Raptor OG Anunoby exerted relentless pressure on Toronto’s primary ballhandlers, deflecting passes and contesting perimeter shooters without fouling. New York forced sixteen turnovers, translating those defensive stops into twenty-two critical fast-break points during a pivotal 14-4 run midway through the third quarter.\n\nTowns’ interior dominance proved decisive down the stretch. Trailing by two with under three minutes remaining, Towns absorbed contact on an aggressive drive to the rim, finishing through a foul for a three-point play before blocking a driving layup attempt by Toronto forward RJ Barrett on the ensuing possession. His seventeen boards marked a season high, underscoring the transformative interior presence the 7-foot center has brought to New York since his blockbuster arrival.\n\nWith the victory, the Knicks pushed their early-season record above the .500 threshold to 7-6, establishing vital momentum as they conclude their three-game international road swing. The team returns home to Manhattan on Thursday morning to prepare for a demanding four-game homestand at Madison Square Garden, where they will face Eastern Conference rivals in a series of matchups that will test New York’s defensive resolve and validate their standing among the conference’s elite title contenders."
+    },
     {
       "id": "quentin-grimes-drops-47-as-lakers-edge-hornets-118-114-in-ot",
       "title": "Quentin Grimes Drops 47 as Lakers Edge Hornets 118-114 in OT",
@@ -4518,6 +4797,46 @@ On the stadium infrastructure front, club executives evaluated demonstrations of
   ],
 
   'Science': [
+    {
+        "id": "new-york-expands-180m-clean-heat-and-urban-geothermal-energy-subsidies",
+        "title": "New York Expands $180M Clean-Heat and Urban Geothermal Energy Subsidies for Pre-War Neighborhoods",
+        "kicker": "ENVIRONMENTAL POLICY • CLIMATE RESILIENCE",
+        "summary": "Governor Kathy Hochul and state energy officials have authorized an expanded $180 million capital initiative to accelerate urban district geothermal networks and clean heating retrofits across older multi-family apartment communities.",
+        "category": "Science",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Newyorkerherald Staff",
+            "role": "National Science & Energy Desk",
+            "avatar": "/images/authors/sarah_mitchell.jpg"
+        },
+        "publishedAt": "7h ago",
+        "readTime": "8 min read",
+        "imageUrl": "/images/news/ny-clean-heat-geothermal-energy-program.webp",
+        "imageCaption": "Engineers and geothermal drilling specialists inspect closed-loop thermal transfer piping for an urban district heating conversion project in Brooklyn.",
+        "imageCredit": "NYSERDA Energy Archives",
+        "isLead": false,
+        "isBreaking": false,
+        "isInvestigative": false,
+        "bullets": [
+            "NYSERDA authorizes $180 million in expanded clean heat subsidies for historic urban multi-family buildings.",
+            "District geothermal pilot networks tap ambient underground temperatures to eliminate fossil fuel boiler plants.",
+            "40 percent of capital funds dedicated to disadvantaged communities under Climate Leadership Act mandates.",
+            "Program designed to help building owners comply with New York City Local Law 97 carbon emissions limits."
+        ],
+        "tags": [
+            "Climate Change",
+            "New York",
+            "Science",
+            "Clean Energy",
+            "Geothermal",
+            "Public Health",
+            "Environment"
+        ],
+        "body": "ALBANY & NEW YORK — In a major acceleration of New York’s statutory climate transition, Governor Kathy Hochul and the New York State Energy Research and Development Authority (NYSERDA) announced on Wednesday an expanded $180 million clean-energy capital package aimed at retrofitting older urban residential buildings with advanced heat pumps and neighborhood-scale geothermal energy networks.\n\nThe initiative represents one of the most technologically ambitious thermal decarbonization investments in the United States, targeting the complex engineering challenges inherent in modernizing New York City’s vast stock of pre-war brick multi-family apartment complexes. Under statutory mandates established by the state’s Climate Leadership and Community Protection Act (CLCPA) and New York City’s Local Law 97, commercial and residential properties face escalating financial penalties unless they substantially curtail on-site fossil fuel emissions over the coming decade.\n\nAt the core of the new funding framework is the expansion of Thermal Energy Networks (TENs)—subterranean utility loops that circulate water through closed-loop borehole fields drilled deep beneath city streets, alleys, and courtyards. By drawing upon the earth’s constant 55-degree Fahrenheit ambient subterranean temperature, the district systems allow centralized heat pumps to extract heat during harsh winter freezes and dissipate excess warmth during summer heatwaves, consuming up to 70 percent less electrical grid power than conventional air-source heat pumps.\n\n\"The journey toward a clean energy future cannot leave our historic urban neighborhoods behind,\" declared Governor Hochul during an announcement at an active geothermal pilot installation in Brooklyn. \"By expanding state subsidies for clean heat and district geothermal technology, we are helping building owners transition away from dirty heating oil and fossil gas, cutting hazardous airborne emissions in densely populated communities, and lowering energy utility burdens for thousands of hardworking families.\"\n\nThe program places a mandatory statutory focus on environmental justice. Forty percent of the total $180 million capital allocation is strictly reserved for projects situated within designated disadvantaged communities across the South Bronx, central Brooklyn, eastern Queens, and upstate metropolitan centers like Buffalo and Syracuse. Public health researchers have long linked reliance on aging No. 4 and No. 2 heating oil boilers to disproportionately high pediatric asthma hospitalizations and respiratory illnesses in these neighborhoods, making thermal electrification a critical public health priority as well as a climate mitigation strategy.\n\nEngineering experts from Columbia University's Climate School praised the state's district-scale approach, noting that dense urban topography makes individual building electrification extraordinarily difficult without shared thermal infrastructure. By connecting residential blocks, public schools, and community centers to common thermal transfer loops, the state can optimize energy balancing—channeling excess waste heat generated by commercial refrigeration or subway ventilation into residential heating circuits.\n\nState utility regulators from the Public Service Commission (PSC) will oversee private-public partnerships with regional energy providers Con Edison and National Grid, establishing standard consumer tariff structures that ensure converted tenants do not face spikes in monthly heating expenses. As test drilling rigs begin boring hundreds of feet into bedrock beneath New York's boroughs, the initiative offers an engineering blueprint for how older industrial metropolitan centers worldwide can decarbonize their built environments while safeguarding public health and grid stability."
+    },
     {
       "id": "nasa-astronauts-3d-print-living-human-tissues-aboard-the-iss",
       "title": "NASA Astronauts 3D-Print Living Human Tissues Aboard the ISS",
@@ -4954,6 +5273,46 @@ Domestic automotive manufacturers have committed multi-billion-dollar off-take a
   ],
 
   'Opinion': [
+    {
+        "id": "why-new-yorks-public-accountability-crisis-demands-more-than-emergency-sweeps",
+        "title": "Why New York's Public Accountability Crisis Demands More Than Emergency Sweeps",
+        "kicker": "EDITORIAL BOARD • THE PUBLIC INTEREST",
+        "summary": "From fatal construction site failures to stranded school bus routes and stalled transit upgrades, New York's political leadership must confront a recurring administrative cycle: substituting theatrical enforcement blitzes for permanent institutional accountability.",
+        "category": "Opinion",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Editorial Board",
+            "role": "Newyorkerherald Staff",
+            "avatar": "/images/authors/sarah_mitchell.jpg"
+        },
+        "publishedAt": "2h ago",
+        "readTime": "8 min read",
+        "imageUrl": "/images/news/ny-editorial-public-accountability-governance.webp",
+        "imageCaption": "The neo-classical facade of New York City Hall in lower Manhattan stands beneath the skyline as municipal oversight debates intensify.",
+        "imageCredit": "Newyorkerherald Editorial Archives",
+        "isLead": false,
+        "isBreaking": false,
+        "isInvestigative": false,
+        "bullets": [
+            "Editorial Board examines structural administrative vulnerabilities across New York City and State agencies.",
+            "Post-tragedy regulatory crackdowns fail to address systemic contractor oversight and auditing loopholes.",
+            "Billions in municipal public services outsourced without real-time performance accountability metrics.",
+            "Board urges Albany and City Hall to establish permanent, independent municipal inspectorates with subpoena authority."
+        ],
+        "tags": [
+            "Editorial",
+            "Opinion",
+            "New York City",
+            "Governance",
+            "Public Safety",
+            "MTA",
+            "City Hall"
+        ],
+        "body": "NEW YORK — In the wake of this week’s fatal building collapse in Flatbush, the municipal response followed a script thoroughly familiar to every New Yorker: solemn press conferences on City Hall steps, vows of zero tolerance, and the sudden announcement of an emergency inspection blitz targeting more than a hundred construction sites across the five boroughs.\n\nWe have witnessed the exact same choreography before. We saw it when scaffold safety task forces were mobilized following high-profile sidewalk collapses, when emergency transit task forces were assembled following subway signal meltdowns, and when inspection squads were deployed following devastating multi-family tenement fires. In New York governance, the emergency task force has become the default political pressure valve—a theatrical display of decisive activity engineered to reassure the public while leaving the structural machinery of administrative failure untouched.\n\nThe uncomfortable truth that city and state leaders must finally confront is that New York is suffering from a systemic public accountability crisis. Across construction regulation, educational transportation, affordable housing maintenance, and public transit capital management, our municipal apparatus has grown habituated to reacting to catastrophe rather than enforcing the everyday operational standards that prevent tragedy in the first place.\n\nConsider the reality of the Flatbush disaster. Before the Church Avenue excavation collapsed into a deadly sinkhole, warning signs were visible for weeks: structural cracks in adjoining foundations, complaints lodged by terrified tenants, and glaring engineering discrepancies in permitted excavation depths. Why did it require two deaths and forty-five displaced families for city inspectors to discover that foundational underpinning was dangerously deficient? The answer lies in an underfunded, bureaucratic Department of Buildings that relies disproportionately on paper self-certifications by private architects and developers, allowing dangerous shortcuts to persist until gravity exposes them.\n\nA nearly identical pattern of outsourced unaccountability defines the city's school bus crisis. The Department of Education commits roughly $1.4 billion in annual public funding to private bus consortia. Yet three months into the school year, hundreds of children with profound special needs are left stranded on sidewalks because private operators face negligible financial or legal consequences for route abandonment. When private corporations collect municipal windfalls while leaving vulnerable children stranded, government is not merely failing to manage a contract; it is abandoning its fundamental civic covenant.\n\nWhat New York urgently requires is not another transient, ninety-day enforcement sweep, but a permanent, structural overhaul of how public contracts, building permits, and administrative agencies are audited. City Hall and the State Legislature must dismantle the culture of self-certification that allows developers and corporate vendors to police themselves. We need mandatory automated penalty triggers that automatically strip municipal contracts from companies that breach baseline safety and operational commitments. We need an independent Municipal Oversight Inspectorate, equipped with independent subpoena authority and real-time public digital dashboards, to audit high-risk job sites and municipal logistics continuously rather than after the sirens fade.\n\nNew York remains the greatest metropolis on earth because of the boundless energy, resilience, and ambition of the people who live and work here. But that greatness cannot survive an administrative culture that treats basic public safety and core municipal services as negotiable. The measure of leadership is not the severity of words spoken after a disaster; it is the courage to build an enduring system of accountability that ensures the disaster never occurs."
+    },
     {
       "id": "why-starving-new-york-transit-threatens-americas-economy",
       "title": "Why Starving New York Transit Threatens America's Economy",
@@ -5760,44 +6119,44 @@ export function getHomepageDepartmentArticles(dept: string): Article[] {
   const all = getAllArticles();
   const mapping: Record<string, string[]> = {
     us: [
+      'nyc-orders-emergency-sweeps-160-construction-sites-fatal-flatbush-collapse',
       'the-vanity-of-alina-habba-mildon',
       'hochul-and-mta-press-congress-for-billions-in-transit-funds',
-      'fema-holds-nationwide-alert-test-amid-viral-blackout-falsehoods',
-      'faa-system-outage-sparks-chaos-for-over-1-million-air-travelers'
+      'fema-holds-nationwide-alert-test-amid-viral-blackout-falsehoods'
     ],
     politics: [
+      'house-democrats-formally-nominate-brooklyn-hakeem-jeffries-speaker',
       'mark-rossini-receives-second-full-pardon-as-federal-case-moves-toward-closure',
       'white-house-withdraws-heidi-overton-nomination-to-lead-fda',
-      'white-house-orders-agencies-to-curb-congressional-testimony',
-      'trump-pauses-iran-strikes-following-talks-with-mideast-allies'
+      'white-house-orders-agencies-to-curb-congressional-testimony'
     ],
     business: [
+      'federal-reserve-flags-escalating-debt-and-private-credit-risks-ai-boom',
       'dow-plunges-848-points-as-ai-valuation-anxiety-grips-markets',
       'major-us-banks-hit-by-widespread-online-outages-and-delays',
-      'microsoft-restores-cloud-systems-after-crippling-global-outage',
-      'surging-treasury-yields-rattle-global-markets-and-pound-gold'
+      'microsoft-restores-cloud-systems-after-crippling-global-outage'
     ],
     tech: [
+      'anthropic-debuts-on-new-york-stock-exchange-in-historic-1-5-trillion-ipo',
       'google-expands-gemini-into-autonomous-ai-agent-for-real-tasks',
       'gta-vi-countdown-upends-gaming-slates-as-budgets-eclipse-1b',
-      'jensen-huang-nvidia-return-petition-tops-160000-signatures',
-      'jensen-huang-abruptly-steps-down-as-ceo-of-nvidia-in-shock-exit'
+      'jensen-huang-nvidia-return-petition-tops-160000-signatures'
     ],
     entertainment: [
+      'macys-unveils-centenary-float-lineup-for-100th-annual-thanksgiving-parade',
       'raye-leads-2027-grammy-nominations-with-record-tying-11-nods',
       'robert-pattinson-cast-as-james-bond-in-denis-villeneuve-reboot',
-      'johnny-depp-tops-box-office-as-ebenezer-scores-42m-global-debut',
-      'hollywood-takes-an-anti-tech-turn-with-dystopian-wave-of-films'
+      'johnny-depp-tops-box-office-as-ebenezer-scores-42m-global-debut'
     ],
     sports: [
+      'towns-and-brunson-drop-28-each-as-knicks-grind-out-112-108-triumph-toronto',
       'quentin-grimes-drops-47-as-lakers-edge-hornets-118-114-in-ot',
       'chargers-edge-ravens-23-20-in-thrilling-monday-night-duel',
-      'luka-doncic-scores-43-points-to-power-lakers-over-phoenix-suns',
-      'cade-cunningham-explodes-for-52-points-as-pistons-edge-wizards'
+      'luka-doncic-scores-43-points-to-power-lakers-over-phoenix-suns'
     ],
     science: [
+      'new-york-expands-180m-clean-heat-and-urban-geothermal-energy-subsidies',
       'nasa-astronauts-3d-print-living-human-tissues-aboard-the-iss',
-      'voyager-1-reaches-one-light-day-from-earth-in-historic-milestone',
       'spacex-catches-starship-with-mechazilla-chopsticks-in-flight-15',
       'nasa-escapade-twin-probes-slingshot-past-earth-en-route-to-mars'
     ]
