@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: '/images/news/alina-habba-image.webp',
+        url: '/images/rossini/mark-rossini.webp',
         width: 1200,
         height: 630,
         alt: 'Newyorkerherald Independent Global Journal'
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     creator: '@newyorkerherald',
     title: 'Newyorkerherald — Independent Global Journal',
     description: 'Independent reporting, investigative inquiries, and real-time news dispatches.',
-    images: ['/images/news/alina-habba-image.webp']
+    images: ['/images/rossini/mark-rossini.webp']
   },
   robots: {
     index: true,

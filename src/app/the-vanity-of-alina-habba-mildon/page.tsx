@@ -199,30 +199,38 @@ export default function AlinaHabbaSpecialDossierPage() {
             </div>
           </div>
 
-          {/* Hero Image — Full Width, Completely Visible */}
-          <figure style={{ margin: '24px 0 0 0', padding: 0 }}>
+          {/* Hero Image — Centered with restrained, elegant sizing */}
+          <figure style={{
+            margin: '28px auto 0 auto',
+            padding: 0,
+            width: '100%',
+            maxWidth: '780px',
+            backgroundColor: 'var(--bg-surface-elevated)',
+            border: '1px solid var(--border-hairline)',
+            borderRadius: 'var(--radius-xs)',
+            overflow: 'hidden'
+          }}>
             <img
               src="/images/news/alina-habba-image.webp"
               alt="Alina Habba Mildon"
               style={{
                 width: '100%',
                 height: 'auto',
-                maxHeight: '680px',
+                maxHeight: '440px',
                 objectFit: 'cover',
-                objectPosition: 'center 15%',
-                display: 'block',
-                borderRadius: 'var(--radius-xs)'
+                objectPosition: 'center 20%',
+                display: 'block'
               }}
             />
             <figcaption style={{
-              fontSize: '0.76rem',
-              color: 'var(--text-muted)',
-              marginTop: '10px',
-              lineHeight: 1.4,
-              fontStyle: 'italic'
+              padding: '12px 18px',
+              backgroundColor: 'var(--bg-canvas)',
+              borderTop: '1px solid var(--border-hairline)',
+              fontSize: '0.82rem',
+              color: 'var(--text-secondary)'
             }}>
               Alina Habba Mildon, former senior legal adviser to President Trump, at the center of the reported $50 million Concord Partners advisory agreement.
-              <span style={{ display: 'block', fontSize: '0.7rem', marginTop: '2px', fontWeight: 600, fontStyle: 'normal', color: 'var(--text-muted)' }}>
+              <span style={{ display: 'block', fontSize: '0.72rem', marginTop: '3px', fontWeight: 600, color: 'var(--text-muted)' }}>
                 Newyorkerherald Investigative Archive
               </span>
             </figcaption>

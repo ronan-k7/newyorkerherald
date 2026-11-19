@@ -28,6 +28,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const title = meta?.name ? `${meta.name} | Newyorkerherald` : `${catLower ? catLower.toUpperCase() : 'News'} | Newyorkerherald`;
   const description = meta?.description || `In-depth ${meta?.name || category} reporting, real-time intelligence, and verified news dispatches.`;
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://newyorkerherald.com';
+  const categoryImageUrl = catLower === 'us'
+    ? `${baseUrl}/images/news/alina-habba-image.webp`
+    : `${baseUrl}/images/rossini/mark-rossini.webp`;
 
   return {
     title,
@@ -44,7 +47,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       locale: 'en_US',
       images: [
         {
-          url: `${baseUrl}/images/news/alina-habba-image.webp`,
+          url: categoryImageUrl,
           width: 1200,
           height: 630,
           alt: title
@@ -57,7 +60,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       creator: '@newyorkerherald',
       title,
       description,
-      images: [`${baseUrl}/images/news/alina-habba-image.webp`]
+      images: [categoryImageUrl]
     }
   };
 }
