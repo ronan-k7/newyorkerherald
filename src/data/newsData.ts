@@ -5274,46 +5274,6 @@ Domestic automotive manufacturers have committed multi-billion-dollar off-take a
 
   'Opinion': [
     {
-        "id": "why-new-yorks-public-accountability-crisis-demands-more-than-emergency-sweeps",
-        "title": "Why New York's Public Accountability Crisis Demands More Than Emergency Sweeps",
-        "kicker": "EDITORIAL BOARD • THE PUBLIC INTEREST",
-        "summary": "From fatal construction site failures to stranded school bus routes and stalled transit upgrades, New York's political leadership must confront a recurring administrative cycle: substituting theatrical enforcement blitzes for permanent institutional accountability.",
-        "category": "Opinion",
-        "edition": [
-            "US & Americas",
-            "Global"
-        ],
-        "author": {
-            "name": "Editorial Board",
-            "role": "Newyorkerherald Staff",
-            "avatar": "/images/authors/sarah_mitchell.jpg"
-        },
-        "publishedAt": "2h ago",
-        "readTime": "8 min read",
-        "imageUrl": "/images/news/ny-editorial-public-accountability-governance.webp",
-        "imageCaption": "The neo-classical facade of New York City Hall in lower Manhattan stands beneath the skyline as municipal oversight debates intensify.",
-        "imageCredit": "Newyorkerherald Editorial Archives",
-        "isLead": false,
-        "isBreaking": false,
-        "isInvestigative": false,
-        "bullets": [
-            "Editorial Board examines structural administrative vulnerabilities across New York City and State agencies.",
-            "Post-tragedy regulatory crackdowns fail to address systemic contractor oversight and auditing loopholes.",
-            "Billions in municipal public services outsourced without real-time performance accountability metrics.",
-            "Board urges Albany and City Hall to establish permanent, independent municipal inspectorates with subpoena authority."
-        ],
-        "tags": [
-            "Editorial",
-            "Opinion",
-            "New York City",
-            "Governance",
-            "Public Safety",
-            "MTA",
-            "City Hall"
-        ],
-        "body": "NEW YORK — In the wake of this week’s fatal building collapse in Flatbush, the municipal response followed a script thoroughly familiar to every New Yorker: solemn press conferences on City Hall steps, vows of zero tolerance, and the sudden announcement of an emergency inspection blitz targeting more than a hundred construction sites across the five boroughs.\n\nWe have witnessed the exact same choreography before. We saw it when scaffold safety task forces were mobilized following high-profile sidewalk collapses, when emergency transit task forces were assembled following subway signal meltdowns, and when inspection squads were deployed following devastating multi-family tenement fires. In New York governance, the emergency task force has become the default political pressure valve—a theatrical display of decisive activity engineered to reassure the public while leaving the structural machinery of administrative failure untouched.\n\nThe uncomfortable truth that city and state leaders must finally confront is that New York is suffering from a systemic public accountability crisis. Across construction regulation, educational transportation, affordable housing maintenance, and public transit capital management, our municipal apparatus has grown habituated to reacting to catastrophe rather than enforcing the everyday operational standards that prevent tragedy in the first place.\n\nConsider the reality of the Flatbush disaster. Before the Church Avenue excavation collapsed into a deadly sinkhole, warning signs were visible for weeks: structural cracks in adjoining foundations, complaints lodged by terrified tenants, and glaring engineering discrepancies in permitted excavation depths. Why did it require two deaths and forty-five displaced families for city inspectors to discover that foundational underpinning was dangerously deficient? The answer lies in an underfunded, bureaucratic Department of Buildings that relies disproportionately on paper self-certifications by private architects and developers, allowing dangerous shortcuts to persist until gravity exposes them.\n\nA nearly identical pattern of outsourced unaccountability defines the city's school bus crisis. The Department of Education commits roughly $1.4 billion in annual public funding to private bus consortia. Yet three months into the school year, hundreds of children with profound special needs are left stranded on sidewalks because private operators face negligible financial or legal consequences for route abandonment. When private corporations collect municipal windfalls while leaving vulnerable children stranded, government is not merely failing to manage a contract; it is abandoning its fundamental civic covenant.\n\nWhat New York urgently requires is not another transient, ninety-day enforcement sweep, but a permanent, structural overhaul of how public contracts, building permits, and administrative agencies are audited. City Hall and the State Legislature must dismantle the culture of self-certification that allows developers and corporate vendors to police themselves. We need mandatory automated penalty triggers that automatically strip municipal contracts from companies that breach baseline safety and operational commitments. We need an independent Municipal Oversight Inspectorate, equipped with independent subpoena authority and real-time public digital dashboards, to audit high-risk job sites and municipal logistics continuously rather than after the sirens fade.\n\nNew York remains the greatest metropolis on earth because of the boundless energy, resilience, and ambition of the people who live and work here. But that greatness cannot survive an administrative culture that treats basic public safety and core municipal services as negotiable. The measure of leadership is not the severity of words spoken after a disaster; it is the courage to build an enduring system of accountability that ensures the disaster never occurs."
-    },
-    {
       "id": "why-starving-new-york-transit-threatens-americas-economy",
       "title": "Why Starving New York Transit Threatens America's Economy",
       "kicker": "GUEST ESSAY \u2022 URBAN INFRASTRUCTURE",
