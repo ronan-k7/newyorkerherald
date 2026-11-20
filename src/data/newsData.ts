@@ -3,24 +3,24 @@ import { Article, OpinionColumn, FactCheckItem, PhotoStory, VideoItem, PodcastEp
 export const BREAKING_NEWS_ITEMS = [
   {
     id: 'brk-1',
-    kicker: 'PUBLIC SAFETY',
-    headline: 'NYC Orders Emergency Sweeps Across 160 Construction Sites Following Flatbush Collapse',
-    time: '2m ago',
-    url: '/us/nyc-orders-emergency-sweeps-160-construction-sites-fatal-flatbush-collapse'
+    kicker: 'CITY HALL',
+    headline: 'NYC City Council Passes Landmark Commercial Rent Stabilization Bill for Small Businesses',
+    time: '3m ago',
+    url: '/us/nyc-city-council-passes-landmark-commercial-rent-stabilization-bill-small-business-protections'
   },
   {
     id: 'brk-2',
-    kicker: 'CAPITOL HILL',
-    headline: "House Democrats Formally Nominate Brooklyn's Hakeem Jeffries for Speaker",
+    kicker: 'ALBANY ACCORD',
+    headline: 'Governor Hochul and Legislative Leaders Unveil Emergency $3.2B Transit Bailout and Subway Safety Accord',
     time: '14m ago',
-    url: '/politics/house-democrats-formally-nominate-brooklyn-hakeem-jeffries-speaker'
+    url: '/politics/governor-hochul-and-legislative-leaders-unveil-emergency-3-2b-transit-bailout-and-subway-safety-pact'
   },
   {
     id: 'brk-3',
-    kicker: 'CENTRAL BANKING',
-    headline: 'Federal Reserve Flags Escalating Debt and Private Credit Risks in AI Boom',
-    time: '28m ago',
-    url: '/business/federal-reserve-flags-escalating-debt-and-private-credit-risks-ai-boom'
+    kicker: 'FINANCIAL REGULATION',
+    headline: 'Wall Street Braces as SEC Finalizes Stringent Liquidity Mandates for $1.7T Private Credit Market',
+    time: '29m ago',
+    url: '/business/wall-street-braces-as-sec-finalizes-stringent-liquidity-rules-for-1-7t-private-credit-funds'
   }
 ];
 
@@ -1552,6 +1552,41 @@ As the Federal Energy Regulatory Commission (FERC) convenes national stakeholder
 export const CATEGORY_ARTICLES: Record<string, Article[]> = {
   'Investigation': [
     {
+        "id": "audit-reveals-410m-misallocated-in-nyc-emergency-shelter-contracts-as-comptroller-demands-clawback",
+        "title": "Audit Uncovers $410M in Questionable Billings Across NYC Emergency Shelter Contracts as Comptroller Demands Immediate Clawbacks",
+        "kicker": "INVESTIGATIVE DOSSIER \u2022 CITY COMPTROLLER AUDIT",
+        "summary": "A year-long forensic audit conducted by the New York City Comptroller\u2019s office has uncovered systemic overbilling, undisclosed subcontractor fees, and unfulfilled security obligations totaling more than $410 million across five private emergency shelter operators, triggering formal referrals to the Department of Investigation and state prosecutors.",
+        "category": "Investigation",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Newyorkerherald Staff",
+            "role": "Investigative Reporting Unit",
+            "avatar": "/images/authors/sarah_mitchell.jpg"
+        },
+        "publishedAt": "Yesterday",
+        "readTime": "8 min read",
+        "imageUrl": "/images/news/nyc-comptroller-shelter-contract-audit.webp",
+        "imageCaption": "Investigators examine contract documentation at the NYC Comptroller's Office in Lower Manhattan.",
+        "imageCredit": "Newyorkerherald / Investigative Unit",
+        "tags": [
+            "Comptroller Audit",
+            "City Hall",
+            "Government Oversight",
+            "Public Accountability",
+            "Investigation",
+            "New York"
+        ],
+        "bullets": [
+            "Forensic accounting reveals $410.8 million in unverified and inflated invoices across $2.4B in emergency humanitarian contracts.",
+            "Private vendors billed up to $115 per hour for security personnel while paying subcontractors under $22 per hour without background checks.",
+            "City Comptroller formally refers findings to NYC Department of Investigation and the Manhattan District Attorney's office."
+        ],
+        "body": "Following an exhaustive twelve-month forensic examination of more than 45,000 internal municipal invoices, bank records, and subcontractor agreements, the Office of the New York City Comptroller published a blistering 184-page audit on Wednesday documenting widespread financial mismanagement, inflated billings, and non-performance totaling $410.8 million across emergency shelter and humanitarian relief contracts awarded between late 2023 and 2026.\n\nThe findings, presented by Comptroller Brad Lander during a packed morning press conference at the Municipal Building in Lower Manhattan, detail how private for-profit entities and emergency contractors exploited suspended procurement regulations to reap massive profit margins while failing to provide basic contracted security, sanitary upkeep, and case management services across dozens of emergency housing sites.\n\n\"Emergency declarations are enacted to save lives during crises, not to serve as an open checkbook for opportunistic contractors to fleece New York taxpayers with impunity,\" Comptroller Lander stated, displaying itemized billing sheets detailing exorbitant markups. \"Our forensic investigators uncovered an unconscionable pattern where private vendors billed the City of New York premium rates for services that were either never delivered, grossly inflated, or executed by untrained subcontractors who never underwent mandatory background screening.\"\n\nAccording to the audit's itemized breakdowns, five major vendors accounted for more than 75 percent of the $410.8 million in questioned expenditures. In one egregious example detailed in the report, a Manhattan-based logistics management firm billed the Department of Social Services (DSS) $115 per hour for licensed security guards at emergency congregate sites. However, internal payroll records subpoenaed by the Comptroller revealed that the primary contractor sub-contracted the work through third-tier staffing agencies that paid unlicensed personnel as little as $21.50 per hour, pocketing a markup exceeding 430 percent while leaving sites severely understaffed.\n\nIn another section of the dossier, auditors documented $64.2 million in phantom hotel room charges. The audit revealed that between January 2024 and mid-2025, municipal agencies were invoiced for 100 percent hotel occupancy across eighteen contracted commercial lodging facilities, even when official sign-in logs and electronic keycard data showed actual facility occupancy rates fluctuating between 45 and 60 percent. The unutilized rooms were billed continuously at contracted peak emergency rates ranging from $280 to $345 per night.\n\nCatering and nutritional services represented another major nexus of financial extraction. The audit uncovered $82.5 million in food service charges where vendors billed the city for three full hot meals daily per registered resident, despite internal grievance records and food delivery manifests showing that tens of thousands of meals were spoiled, discarded upon arrival, or never delivered to outer-borough sites. In multiple instances, vendors billed for meal counts exceeding the total legal building capacity authorized by the Department of Buildings.\n\nThe breakdown in fiscal oversight was enabled by emergency executive orders issued in 2023 that temporarily bypassed standard registration requirements under Chapter 13 of the City Charter, known as the Procurement Policy Board (PPB) rules. Under the emergency declarations, municipal agencies were permitted to award billions in emergency contracts without competitive bidding, advance Comptroller review, or rigorous performance milestones.\n\nIn response to the audit's findings, the Comptroller's office took the rare step of issuing formal referrals to the New York City Department of Investigation (DOI), the New York State Attorney General\u2019s Public Integrity Bureau, and the Manhattan District Attorney\u2019s Office for potential criminal prosecution regarding false claims, wire fraud, and grand larceny. Furthermore, the Comptroller announced immediate administrative holds on $130 million in pending vendor disbursements and initiated statutory clawback proceedings to recover the $410.8 million in misspent municipal funds.\n\nA spokesperson for City Hall defended the emergency response, emphasizing that municipal agencies were required to shelter and feed more than 215,000 individuals within an unprecedented timeframe while receiving minimal federal logistical assistance. \"When thousands of vulnerable human beings were arriving on our doorstep every week, our administration took decisive, humanitarian action to prevent families with children from sleeping on the streets,\" the spokesperson said. \"We have already transitioned away from costly emergency contracts, instituted stringent auditing protocols, and will cooperate fully with the Department of Investigation to hold any bad actors accountable.\"\n\nThe City Council Committee on Oversight and Investigations announced it will convene emergency public oversight hearings next week, with committee leaders issuing formal subpoenas for the chief executives of the five highlighted contracting firms alongside current and former leadership of the Department of Social Services and the Office of Emergency Management."
+    },
+    {
         "id": "broken-routes-stranded-students-inside-nyc-deepening-school-bus-crisis",
         "title": "Broken Routes and Stranded Students: Inside New York City's Deepening School Bus Crisis",
         "kicker": "PUBLIC ACCOUNTABILITY • INVESTIGATIVE DOSSIER",
@@ -1958,6 +1993,41 @@ In Albany, Governor Kathy Hochul convened an emergency public health cabinet mee
     }
   ],
   'US': [
+    {
+        "id": "nyc-city-council-passes-landmark-commercial-rent-stabilization-bill-small-business-protections",
+        "title": "NYC City Council Passes Landmark Commercial Rent Stabilization Bill to Shield Independent Small Businesses",
+        "kicker": "PUBLIC AFFAIRS \u2022 CITY HALL",
+        "summary": "Following months of contentious hearings and aggressive pushback from commercial real estate lobbies, the New York City Council voted overwhelmingly on Thursday to enact first-in-the-nation commercial rent protections for neighborhood storefronts, capping lease escalations at 3.5% annually.",
+        "category": "US",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Newyorkerherald Staff",
+            "role": "City Hall & Municipal Affairs Bureau",
+            "avatar": "/images/authors/sarah_mitchell.jpg"
+        },
+        "publishedAt": "Today",
+        "readTime": "6 min read",
+        "imageUrl": "/images/news/nyc-city-council-commercial-rent-stabilization.webp",
+        "imageCaption": "The New York City Council chamber inside City Hall during the historic vote on commercial rent stabilization.",
+        "imageCredit": "Newyorkerherald / City Hall Press Pool",
+        "tags": [
+            "New York City",
+            "City Council",
+            "Small Business",
+            "Commercial Rent",
+            "Public Affairs",
+            "Economy"
+        ],
+        "bullets": [
+            "Council approves 38-11 measure establishing a Commercial Rent Guidelines Board for retail spaces under 10,000 square feet.",
+            "Annual lease renewal escalations capped at 3.5% or CPI plus 1%, protecting bodegas, pharmacies, and neighborhood restaurants.",
+            "Real Estate Board of New York (REBNY) prepares state constitutional court challenge alleging property rights infringement."
+        ],
+        "body": "In an unprecedented legislative triumph for neighborhood merchants after more than three decades of gridlock, the New York City Council passed a sweeping commercial rent stabilization measure on Thursday afternoon by an overwhelming 38-11 veto-proof supermajority. The legislation, formally titled the Neighborhood Commercial Preservation and Storefront Stability Act, creates a municipal Commercial Rent Guidelines Board tasked with setting annual lease escalation ceilings for independent, ground-floor commercial storefronts measuring 10,000 square feet or less across the five boroughs.\n\nThe landmark vote inside City Hall followed hours of emotional testimony from generational business owners, civic advocates, and real estate representatives. Under the provisions of the newly approved statute, annual renewal rent increases for covered commercial tenants will be capped at a maximum of 3.5 percent or the regional Consumer Price Index plus one percentage point, whichever is lower. The bill also establishes standard lease terms of seven to ten years with guaranteed rights of renewal for commercial tenants in good standing, outlawing predatory rent doubling that has hollowed out retail corridors from Sunset Park in Brooklyn to Washington Heights in upper Manhattan.\n\n\"For thirty-five years, New York's mom-and-pop entrepreneurs, bodega owners, local pharmacists, dry cleaners, and family-owned restaurants have lived under the sword of Damocles, watching landlords demand sixty, eighty, or even two hundred percent rent spikes overnight simply to force them out for bank branches or private equity chains,\" declared City Council Speaker Adrienne Adams during a post-vote briefing on the City Hall steps. \"Today, this Council has declared that New York City's economic and cultural soul cannot be sold off to the highest corporate bidder. When our neighborhood storefronts thrive, working-class communities thrive.\"\n\nThe economic impetus behind the legislation has grown acute over the past three years. According to exhaustive municipal retail vacancy data compiled by the City Council\u2019s economic development committee, roughly 12.8 percent of ground-floor commercial storefronts across the five boroughs remain vacant, with speculative commercial vacancies lingering for an average of 22 months. Despite high vacancy rates, commercial asking rents have continued to climb, driven by institutional real estate debt structures that penalize landlords for lowering nominal rent rolls even while storefronts sit empty with papered-over windows.\n\nThe measure faced relentless opposition from the Real Estate Board of New York (REBNY) and major institutional landlords, who mounted a multimillion-dollar advertising blitz against the bill in the weeks leading up to the final vote. REBNY leadership argued that commercial rent caps violate the New York State Constitution, exceed municipal regulatory authority, and will ultimately depress commercial property values, leading to diminished municipal real estate tax collections that fund public schools and transit infrastructure.\n\n\"By imposing artificial price controls onto a highly complex, dynamic commercial market, the Council is setting into motion severe unintended consequences that will discourage capital investment, degrade commercial building maintenance, and prompt protracted legal warfare,\" said James Whelan, President of REBNY, in a statement released immediately following the vote. \"We intend to vigorously challenge the constitutional validity of this municipal preemption in state Supreme Court on behalf of property owners whose contractual liberties have been abrogated.\"\n\nThe newly established Commercial Rent Guidelines Board will mirror the structural framework of the city\u2019s residential Rent Guidelines Board, comprising nine mayoral appointees representing commercial tenants, commercial property owners, and independent economists. The board will conduct annual economic research into commercial landlord operating costs, municipal property taxes, utility overhead, and retail sales trends before voting on allowable renewal adjustments each spring.\n\nTo shield legitimate neighborhood enterprises while excluding corporate retail conglomerates, the law includes stringent eligibility thresholds. Only businesses that operate fewer than four locations citywide, employ under 50 staff members, and occupy under 10,000 square feet of commercial space qualify for the statutory renewal protections. Publicly traded retail chains, multinational fast-food franchises, and corporate banking institutions are explicitly barred from the caps.\n\nIn Queens, where neighborhood merchant associations rallied outside Borough Hall in Kew Gardens, the mood was celebratory. \"This vote means my family's bakery, which my grandfather opened in Jackson Heights forty-two years ago, can sign a ten-year lease without fearing that our next renewal will put us on the street,\" said Manuel Ortiz, president of the Queens Independent Merchants Coalition. \"It is the difference between survival and extinction for thousands of immigrant families who built this city with their bare hands.\"\n\nThe measure now heads to the desk of Mayor Eric Adams, who has expressed reservations regarding administrative enforcement and tax assessments but faces an insurmountable legislative veto override if he chooses not to sign. Initial board appointments are scheduled for completion by February 2027, with the first statutory guidelines slated to take effect on July 1, 2027."
+    },
     {
         "id": "nyc-orders-emergency-sweeps-160-construction-sites-fatal-flatbush-collapse",
         "title": "NYC Orders Emergency Inspection Sweeps Across 160 Construction Sites Following Fatal Flatbush Collapse",
@@ -2387,6 +2457,41 @@ As the clocks reset, congressional leaders confirmed that bipartisan committee s
     }
   ],
   'Politics': [
+    {
+        "id": "governor-hochul-and-legislative-leaders-unveil-emergency-3-2b-transit-bailout-and-subway-safety-pact",
+        "title": "Governor Hochul and Legislative Leaders Unveil Emergency $3.2B Transit Bailout and Subway Safety Accord",
+        "kicker": "ALBANY DISPATCH \u2022 PUBLIC AFFAIRS",
+        "summary": "Facing an imminent fiscal cliff and federal funding freezes, Governor Kathy Hochul, Senate Majority Leader Andrea Stewart-Cousins, and Assembly Speaker Carl Heastie announced a bipartisan $3.2 billion state emergency framework to stabilize the MTA, freeze subway fares at $2.90, and deploy 800 additional mental health crisis teams across metropolitan transit hubs.",
+        "category": "Politics",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Newyorkerherald Staff",
+            "role": "Albany Legislative Bureau",
+            "avatar": "/images/authors/marcus_vance.jpg"
+        },
+        "publishedAt": "Today",
+        "readTime": "7 min read",
+        "imageUrl": "/images/news/hochul-mta-transit-bailout-accord.webp",
+        "imageCaption": "Governor Kathy Hochul speaks alongside legislative leaders in the Red Room at the State Capitol in Albany.",
+        "imageCredit": "Newyorkerherald / State Capitol Bureau",
+        "tags": [
+            "Kathy Hochul",
+            "Albany",
+            "MTA",
+            "Subway Safety",
+            "New York Politics",
+            "Transit Funding"
+        ],
+        "bullets": [
+            "$3.2 billion multi-year fiscal pact permanently averts projected MTA operating deficits through 2028.",
+            "Subway and local bus base fares frozen at $2.90, canceling scheduled fare escalations to $3.15.",
+            "Deploys 800 dedicated mental health clinicians and crisis teams across high-traffic transit stations."
+        ],
+        "body": "In a high-stakes emergency legislative summit at the State Capitol in Albany, Governor Kathy Hochul joined Senate Majority Leader Andrea Stewart-Cousins and Assembly Speaker Carl Heastie on Thursday to unveil a monumental $3.2 billion multi-year transit stabilization and public safety accord. The comprehensive legislative compact permanently eliminates projected operating deficits threatening the Metropolitan Transportation Authority (MTA), freezes baseline subway and local bus fares at $2.90 through at least 2028, and finances the most expansive mental health intervention initiative in the subway system\u2019s 122-year history.\n\nThe accord resolves months of bitter backroom wrangling between executive chamber budget analysts and legislative leadership over how to fund the nation's largest commuter rail and rapid transit network in the wake of shifting post-pandemic ridership baselines and federal infrastructure grant freezes in Washington. The agreement circumvents the need for an anticipated fare hike to $3.15 that transit advocates warned would disproportionately punish outer-borough working-class commuters already grappling with regional inflation.\n\n\"The lifeblood of New York's economy flows through its train tunnels, bus lanes, and commuter rail tracks,\" Governor Hochul stated during a joint press briefing inside the Red Room of the Capitol. \"We made a solemn promise to 5.5 million daily transit riders that we would not balance the MTA's balance sheet on their backs. Today\u2019s agreement delivers long-term fiscal solvency for our transit systems, locks in fair fares, and commits unprecedented resources to ensure that every New Yorker feels safe, respected, and supported on our subways.\"\n\nThe financial architecture of the $3.2 billion package is powered by a targeted trio of dedicated revenue mechanisms designed to minimize individual commuter burdens. The centerpiece is a statewide 75-cent surcharge on non-essential commercial parcel deliveries dispatched by large e-commerce logistics operators within the 12-county metropolitan commuter transportation district, projected to generate approximately $460 million annually. Additionally, the legislation authorizes a recalibration of the Metropolitan Commuter Transportation Mobility Tax (MCTMT) on top-tier financial service partnerships, combined with $1.4 billion in direct state general fund transfers across the 2026-2028 biennial budget cycles.\n\nBeyond balance sheet stabilization, the accord directs $280 million annually to an expansive public safety and behavioral health initiative dubbed the Comprehensive Transit Outreach and Stabilization Program (CTOSP). Developed in coordination with municipal public health authorities and psychiatric hospital networks, the program funds the permanent deployment of 800 licensed mental health clinicians, psychiatric social workers, and peer specialists into major subway stations, terminals, and overnight train yards.\n\nThese multidisciplinary teams will operate 24 hours a day across 65 high-traffic subway hubs\u2014including Times Square-42nd Street, Grand Central, Fulton Center, Atlantic Avenue-Barclays Center, and Jackson Heights-Roosevelt Avenue\u2014conducting clinical evaluations, delivering direct medical stabilization, and coordinating direct placements into specialized supportive housing and inpatient psychiatric beds, bypassing standard overcrowded hospital emergency rooms.\n\n\"This is not about criminalizing vulnerability; it is about addressing deep-seated human suffering with medical competence, compassion, and professional care right where people are struggling,\" emphasized Senate Majority Leader Andrea Stewart-Cousins. \"For too long, transit workers and riders have been forced to bear the brunt of a broken mental health infrastructure. With this legislation, we are giving clinicians the tools and dedicated funding needed to transform subway safety from the ground up.\"\n\nThe transit workers' union, Transport Workers Union (TWU) Local 100, which represents more than 40,000 subway and bus employees, voiced full support for the agreement. TWU leadership particularly praised provisions establishing accelerated installation schedules for full-height platform safety gates at 16 priority express transfer stations, alongside enhanced legal protections and rapid-response panic alarms for station booth personnel and train operators.\n\nSuburban lawmakers from Nassau, Suffolk, and Westchester counties, who initially balked at regional tax increases, consented to the final compromise after securing guaranteed parity provisions for the Long Island Rail Road (LIRR) and Metro-North Railroad. The suburban package includes $420 million for commuter rail signal modernizations, station accessibility upgrades, and fare discounts for off-peak inter-county commuters.\n\nWith both legislative chambers poised to hold formal ratification votes during an extraordinary legislative session early next week, state fiscal watchdogs at the Citizens Budget Commission noted that while the new recurring revenues represent a responsible bridge through 2028, the MTA must continue aggressive internal operational streamlining to protect its $68 billion 2025-2029 capital plan from macroeconomic headwinds."
+    },
     {
         "id": "house-democrats-formally-nominate-brooklyn-hakeem-jeffries-speaker",
         "title": "House Democrats Formally Nominate Brooklyn's Hakeem Jeffries for Speaker of the House",
@@ -2922,6 +3027,41 @@ In Washington, national security officials convened in the White House Situation
 
   'Business & Economy': [
     {
+        "id": "wall-street-braces-as-sec-finalizes-stringent-liquidity-rules-for-1-7t-private-credit-funds",
+        "title": "Wall Street Braces as SEC Finalizes Stringent Liquidity Mandates for the $1.7 Trillion Private Credit Market",
+        "kicker": "WALL STREET \u2022 FINANCIAL REGULATION",
+        "summary": "In a sweeping regulatory shift aimed at curbing systemic shadows in the financial system, the SEC approved new liquidity and quarterly disclosure rules for private debt funds operating out of Manhattan financial houses, requiring direct-lending managers to undergo annual independent stress tests and report shadow-bank leverage.",
+        "category": "Business",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Newyorkerherald Staff",
+            "role": "Wall Street & Markets Desk",
+            "avatar": "/images/authors/marcus_vance.jpg"
+        },
+        "publishedAt": "Today",
+        "readTime": "6 min read",
+        "imageUrl": "/images/news/sec-wall-street-private-credit-regulation.webp",
+        "imageCaption": "Traders and fund managers gather near the New York Stock Exchange amid sweeping regulatory announcements.",
+        "imageCredit": "Newyorkerherald / Wall Street Bureau",
+        "tags": [
+            "Wall Street",
+            "SEC",
+            "Private Credit",
+            "Financial Markets",
+            "Banking",
+            "Economy"
+        ],
+        "bullets": [
+            "SEC votes 3-2 to establish quarterly portfolio disclosure mandates for private credit funds exceeding $1.5 billion in assets.",
+            "Managers must reveal internal default metrics, payment-in-kind (PIK) loan percentages, and shadow-bank leverage exposures.",
+            "Direct-lending spreads widen 35 basis points across New York debt trading desks following regulatory announcement."
+        ],
+        "body": "In a landmark regulatory reckoning for the fastest-growing sector of high finance, the Securities and Exchange Commission approved a comprehensive suite of disclosure, valuation, and liquidity mandates on Thursday, fundamentally transforming how Wall Street\u2019s $1.75 trillion private credit industry operates. The new regulatory framework, approved in a contentious 3-2 commission vote, subjects non-bank direct lenders to unprecedented transparency standards, requiring them to publicly document internal loan valuations, quarterly default rates, and interconnected leverage borrowed from commercial banks.\n\nOver the past decade, private credit has evolved from a niche alternative asset class into an economic colossus, supplanting traditional syndicated bank loans as the primary financing engine for corporate leveraged buyouts, private equity acquisitions, and mid-market enterprise expansion. Operating largely outside the regulatory guardrails imposed on commercial banks after the 2008 global financial crisis, prominent alternative asset managers headquartered in Midtown Manhattan\u2014including Blackstone, Apollo Global Management, Ares Management, and Blue Owl\u2014have amassed hundreds of billions in direct lending capital.\n\nHowever, escalating concerns from the Federal Reserve, the International Monetary Fund, and the Financial Stability Oversight Council regarding shadow banking opacity and credit contagion prompted the SEC to take decisive action. Under the newly ratified Private Lending Transparency and Stability Framework, private fund managers overseeing more than $1.5 billion in private debt assets must file standardized quarterly reports detailing the performance of every corporate loan on their balance sheets.\n\nCrucially, the rules force direct lenders to break out the percentage of their portfolio returns derived from 'Payment-in-Kind' (PIK) provisions\u2014accounting mechanisms that allow financially distressed corporate borrowers to issue more debt rather than paying interest in cash. Regulatory analysts estimated that PIK modifications have surged by more than 40 percent across the private debt landscape over the past eighteen months, masking deteriorating cash flows among highly leveraged borrowers facing elevated interest rates.\n\n\"Private credit has played a critical role in facilitating capital formation for American businesses, but capital formation cannot flourish in the shadows at the expense of systemic market transparency,\" SEC Chair Gary Gensler stated following the open commission meeting. \"When trillions of dollars in non-bank corporate obligations are held in private structures that borrow heavily from federally insured commercial banks, the public and institutional investors have a right to know the true health of those loan assets, the fair-value methodologies employed, and the underlying leverage risks.\"\n\nThe regulatory overhaul also mandates that direct lending funds undergo mandatory annual third-party portfolio stress testing, modeling liquidity demands under severe macroeconomic shocks, including a simultaneous spike in loan defaults and a freeze in warehouse credit lines extended by major investment banks like JPMorgan Chase, Citigroup, and Goldman Sachs.\n\nWall Street lobbying groups and alternative asset managers reacted with vehement pushback, arguing that the SEC's rules exceed its statutory mandate under the Investment Advisers Act of 1940 and will impair credit access for middle-market American corporations. Representatives for the Managed Funds Association (MFA) and the American Investment Council asserted that private credit performed admirably through recent regional banking stresses precisely because it is financed with locked-up institutional capital rather than demand deposits vulnerable to runs.\n\n\"Imposing rigid, one-size-fits-all public bank reporting mandates onto bespoke private institutional contracts will add tremendous friction and compliance overhead to the American financing ecosystem,\" said Bryan Corbett, President and CEO of the Managed Funds Association. \"These rules will needlessly constrain private capital flows to growing companies without providing any tangible benefit to institutional investors who already conduct rigorous due diligence.\"\n\nAcross Manhattan trading desks, the regulatory announcement triggered immediate ripples. Benchmark spreads on new senior secured private loans widened by approximately 35 basis points on Thursday afternoon as direct lenders factored in heightened administrative costs and potential portfolio realignment. Analysts at Morgan Stanley noted that while Tier 1 mega-managers possess the institutional infrastructure to comply, smaller mid-tier debt funds may be forced into mergers or joint ventures to absorb compliance expenditures.\n\nThe rule provides an 18-month implementation timeline, with initial Tier 1 mandatory liquidity filings set to commence in the third quarter of 2027."
+    },
+    {
         "id": "federal-reserve-flags-escalating-debt-and-private-credit-risks-ai-boom",
         "title": "Federal Reserve Flags Escalating Debt and Private Credit Risks in Hyperscale AI Boom",
         "kicker": "CENTRAL BANKING • FINANCIAL STABILITY REPORT",
@@ -3388,6 +3528,41 @@ Sports finance experts note that the move mirrors a broader institutional trend 
   ],
 
   'Tech': [
+    {
+        "id": "new-york-state-launches-empire-ai-supercomputing-cluster-at-suny-buffalo-open-to-public-researchers",
+        "title": "New York State Officially Powers Up Empire AI Supercomputing Cluster at SUNY Buffalo for Public Good Research",
+        "kicker": "NEW YORK INNOVATION \u2022 EMPIRE AI",
+        "summary": "New York\u2019s $400 million public-private artificial intelligence consortium powered up its premier high-performance supercomputing cluster at SUNY Buffalo on Thursday, providing university researchers across Cornell, Columbia, NYU, and CUNY with free access to thousands of cutting-edge AI accelerators for climate modeling and cancer genomics.",
+        "category": "Tech",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Newyorkerherald Staff",
+            "role": "Technology & AI Innovation Desk",
+            "avatar": "/images/authors/sarah_mitchell.jpg"
+        },
+        "publishedAt": "Yesterday",
+        "readTime": "6 min read",
+        "imageUrl": "/images/news/empire-ai-supercomputer-buffalo-newyork.webp",
+        "imageCaption": "Server racks at the newly commissioned Empire AI supercomputing facility at the University at Buffalo.",
+        "imageCredit": "Newyorkerherald / Innovation & Tech Bureau",
+        "tags": [
+            "Empire AI",
+            "New York Tech",
+            "Supercomputing",
+            "SUNY Buffalo",
+            "Artificial Intelligence",
+            "Innovation"
+        ],
+        "bullets": [
+            "State-backed $400M consortium powers up 4,000 next-gen AI accelerator cluster at the University at Buffalo.",
+            "Provides free high-performance compute to academic researchers across SUNY, CUNY, Columbia, Cornell, NYU, and RPI.",
+            "Facility runs on 100% renewable hydroelectric power from Niagara Falls, serving as a national model for sustainable AI."
+        ],
+        "body": "In a landmark milestone establishing New York as the foremost public capital for ethical and academic artificial intelligence research, state leaders, university chancellors, and tech visionaries gathered in Western New York on Thursday to officially energize the Empire AI supercomputing cluster at the University at Buffalo. The state-of-the-art datacenter, backed by $400 million in combined public capital, philanthropic endowments, and academic investments, is equipped with over 4,000 next-generation enterprise AI accelerator chips dedicated exclusively to public-interest scientific discovery.\n\nThe launch marks the operational fruition of Governor Kathy Hochul\u2019s Empire AI initiative, conceived as a strategic national counterweight to Silicon Valley\u2019s commercial monopoly over frontier computational resources. In recent years, skyrocketing datacenter costs have priced academic institutions and independent researchers out of leading-edge AI experiments, concentrating artificial intelligence development almost entirely within a handful of trillion-dollar tech conglomerates.\n\n\"Today, New York is reclaiming the future of technological discovery on behalf of the public good,\" Governor Hochul declared before throwing the ceremonial power switch inside UB\u2019s Center for Computational Research. \"While private tech giants focus computational power on targeted advertising algorithms and subscription chatbots, Empire AI places the world's most powerful supercomputing cluster into the hands of our brilliant academic minds to cure rare diseases, combat climate change, and protect public health. We are democratizing the AI frontier right here in New York.\"\n\nThe Empire AI consortium unites seven premier research powerhouses across the Empire State: the State University of New York (SUNY), the City University of New York (CUNY), Columbia University, Cornell University, New York University (NYU), Rensselaer Polytechnic Institute (RPI), and the Simons Foundation. Under the consortium charter, graduate researchers, postdoctoral fellows, and tenure-track faculty across all participating campuses receive zero-cost compute credits to run complex machine learning models that previously required millions of dollars in private cloud computing bills.\n\nThe consortium also unveiled its inaugural cohort of twenty-five funded research projects, demonstrating the immediate real-world utility of the new infrastructure. Among the prioritized initiatives is an ultra-high-resolution climate simulation led by Columbia University and CUNY researchers that models localized urban heat island effects and coastal flood inundation patterns block-by-block across New York City\u2019s vulnerable waterfront neighborhoods.\n\nAnother flagship project, directed by computational biologists at Cornell and Mount Sinai, utilizes Empire AI\u2019s specialized tensor cores to train novel generative protein-folding algorithms aimed at identifying synthetic antibody candidates for aggressive pediatric leukemia strains that have resisted conventional chemotherapy.\n\nEnvironmental sustainability was central to the facility's engineering design. Located just twenty miles from the Niagara Falls hydroelectric generating station, the Empire AI datacenter is powered entirely by 100 percent carbon-free renewable electricity. The facility utilizes closed-loop liquid-to-chip cooling systems that reduce energy usage effectiveness (PUE) to a record-low 1.08, consuming 60 percent less water and power than standard commercial enterprise datacenters operating in Virginia or Silicon Valley.\n\n\"Access to high-performance computing is the telescope of the twenty-first century,\" said Dr. Satish K. Tripathi, President of the University at Buffalo. \"Without compute, our faculty and students cannot peer into the deep complexities of genomic data, structural biology, or complex socio-economic systems. Empire AI ensures that New York\u2019s public and private universities remain magnets for the world's top scientific talent, reversing the brain drain to private tech firms.\"\n\nConsortium directors confirmed that an additional phase of compute expansion will begin in late 2027, with plans to integrate quantum-hybrid processing nodes to support next-generation materials science research."
+    },
     {
         "id": "anthropic-debuts-on-new-york-stock-exchange-in-historic-1-5-trillion-ipo",
         "title": "Anthropic Debuts on New York Stock Exchange in Historic $1.5 Trillion Valuation IPO",
@@ -3894,6 +4069,41 @@ Aerospace financial analysts estimate that SpaceX's commercial launch and satell
 
   'Entertainment': [
     {
+        "id": "broadway-unveils-record-breaking-winter-season-lineup-with-subsidized-student-and-community-tickets",
+        "title": "Broadway Unveils Expansive Winter Season Lineup Paired with Historic City-Subsidized Community Ticket Program",
+        "kicker": "BROADWAY & CULTURE \u2022 ARTS ACCESS",
+        "summary": "The Broadway League and the NYC Department of Cultural Affairs unveiled a groundbreaking public-private cultural partnership today, securing $45 million in foundation and municipal grants to provide 100,000 subsidized $25 tickets for public school students, civil servants, and senior citizens across 24 landmark theater productions.",
+        "category": "Entertainment",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Newyorkerherald Staff",
+            "role": "Arts & Culture Desk",
+            "avatar": "/images/authors/sarah_mitchell.jpg"
+        },
+        "publishedAt": "Today",
+        "readTime": "5 min read",
+        "imageUrl": "/images/news/broadway-winter-season-community-tickets.webp",
+        "imageCaption": "The Theater District in Midtown Manhattan glows as winter marquee announcements draw theatergoers to Broadway.",
+        "imageCredit": "Newyorkerherald / Culture Bureau",
+        "tags": [
+            "Broadway",
+            "Culture",
+            "Arts Education",
+            "Theater District",
+            "New York City",
+            "Entertainment"
+        ],
+        "bullets": [
+            "Broadway League partners with NYC Cultural Affairs to launch 'Curtain for All' community access program.",
+            "100,000 orchestra and mezzanine seats across 24 productions priced at $25 for NYC public students, teachers, and seniors.",
+            "Winter season roster features 14 new theatrical premieres and star-studded revivals across historic Broadway houses."
+        ],
+        "body": "In a sweeping cultural initiative designed to break down economic barriers to the performing arts while celebrating a robust theatrical renaissance, the Broadway League and the New York City Department of Cultural Affairs unveiled the 2026-2027 winter season lineup on Friday morning, anchored by a historic $45 million civic accessibility partnership titled 'Curtain for All.'\n\nThe initiative, funded through an innovative consortium of municipal cultural grants, corporate sponsorships, and philanthropic foundations including the Mellon Foundation and the Bloomberg Philanthropies, will make 100,000 prime orchestra and front-mezzanine tickets available for just $25 each across twenty-four participating Broadway productions. The subsidized admissions are reserved exclusively for New York City public school students, educators, municipal healthcare workers, transit personnel, and low-income seniors.\n\nThe announcement inside the historic Shubert Theatre on West 44th Street brought together legendary stage performers, city officials, and public school theater students, marking a definitive turning point for an industry that has grappled with escalating ticket price inflation. Over the past three seasons, premium Broadway seats have frequently topped $400 at the box office, alienating local working-class residents and turning the Theater District into an enclave accessible primarily to affluent tourists and corporate expense accounts.\n\n\"Broadway is the beating, passionate artistic heart of New York City, but when the average New Yorker cannot afford to sit in a Broadway theater, our entire cultural ecosystem suffers,\" said NYC Cultural Affairs Commissioner Laurie Cumbo. \"Through 'Curtain for All,' we are ensuring that the children of the Bronx, Brooklyn, Queens, Staten Island, and Manhattan are not spectators standing outside the velvet ropes, but active participants inspired by the greatest storytelling on earth.\"\n\nThe newly unveiled winter theatrical slate represents one of the most creatively ambitious programming rosters in modern Broadway history. The upcoming season features fourteen brand-new Broadway productions, including highly anticipated stage adaptations of literary masterpieces, bold contemporary plays exploring the digital age, and major Broadway debuts from celebrated international playwrights.\n\nAmong the season's marquee highlights is a radical new revival of Arthur Miller\u2019s *The Crucible*, directed by Tony Award-winner Rachel Chavkin and starring an ensemble of celebrated stage veterans. The season will also welcome several groundbreaking new musicals, including *Harlem Symphony*, an original jazz-age score celebrating the renaissance of upper Manhattan, and *Silicon Valley*, a satirical musical comedy examining artificial intelligence, billionaire hubris, and algorithmic romance.\n\nThe economic footprint of Broadway remains foundational to the financial vitality of the broader metropolitan region. According to the Broadway League\u2019s latest economic impact assessment, the theater industry generates more than $14.7 billion annually in economic activity across New York City and directly supports over 96,000 local jobs spanning stagehands, musicians, costume designers, hospitality staff, restaurant workers, and transportation personnel.\n\n\"The health of Midtown Manhattan and the health of Broadway are inextricably linked,\" noted Charlotte St. Martin, interim advisory chair for the Broadway League. \"When our marquees are illuminated and our theaters are packed to capacity, our neighborhood diners, hotels, retail stores, and taxi drivers all share in the prosperity. This subsidized ticket initiative is not charity; it is an essential investment in the next generation of lifelong theatergoers who will sustain Broadway for the next century.\"\n\nThe Actors' Equity Association and Local 802 of the American Federation of Musicians both issued statements applauding the program, noting that dedicated student matinees will be paired with post-show discussions with cast members and backstage educational workshops covering lighting design, stage management, and pit orchestra conducting.\n\nDigital lottery enrollment for the $25 'Curtain for All' winter performance blocks opens on Monday through the city\u2019s official cultural portal, with the first dedicated community performances scheduled to commence on December 1."
+    },
+    {
         "id": "macys-unveils-centenary-float-lineup-for-100th-annual-thanksgiving-parade",
         "title": "Macy's Unveils Centenary Float Lineup for 100th Annual Thanksgiving Day Parade in Manhattan",
         "kicker": "HOLIDAY TRADITION • NEW YORK CENTENNIAL",
@@ -4335,6 +4545,41 @@ Furthermore, cloud streaming platforms and mobile distribution networks have low
   ],
 
   'Sports': [
+    {
+        "id": "new-york-giants-announce-major-front-office-overhaul-and-rookie-qb-start-ahead-of-rivalry-clash",
+        "title": "Giants Overhaul Front-Office Strategy and Name Rookie Quarterback Starter Ahead of Critical Rivalry Showdown",
+        "kicker": "NEW YORK FOOTBALL \u2022 METLIFE REPORT",
+        "summary": "Following intense fan protests and consecutive offensive collapses, the New York Giants leadership restructured their analytics and football operations hierarchy on Thursday afternoon, while head coach Brian Daboll officially handed the starting quarterback reins to their first-round rookie ahead of Sunday's high-stakes divisional battle at MetLife Stadium.",
+        "category": "Sports",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Newyorkerherald Staff",
+            "role": "Sports Desk & NFL Bureau",
+            "avatar": "/images/authors/marcus_vance.jpg"
+        },
+        "publishedAt": "Yesterday",
+        "readTime": "6 min read",
+        "imageUrl": "/images/news/ny-giants-front-office-quarterback-shakeup.webp",
+        "imageCaption": "Head coach Brian Daboll talks with players during practice at the Quest Diagnostics Training Center in East Rutherford.",
+        "imageCredit": "Newyorkerherald / Sports Bureau",
+        "tags": [
+            "New York Giants",
+            "NFL",
+            "Brian Daboll",
+            "MetLife Stadium",
+            "Football",
+            "Sports"
+        ],
+        "bullets": [
+            "Giants ownership approves mid-season restructuring of football analytics and personnel operations.",
+            "First-round draft selection Jaxson Vance formally named starting quarterback for Sunday's NFC East rivalry clash.",
+            "Head coach Brian Daboll assumes direct offensive play-calling duties to accelerate rookie quarterback's development."
+        ],
+        "body": "In a franchise-altering Thursday inside the Quest Diagnostics Training Center in East Rutherford, the New York Giants organization executed a comprehensive mid-season leadership realignment while officially ushering in a new on-field era, naming first-round rookie quarterback Jaxson Vance as the starting signal-caller for Sunday\u2019s pivotal NFC East showdown at MetLife Stadium.\n\nThe decisive maneuvers followed emergency consultations between Giants team president John Mara, chairman Steve Tisch, and general manager Joe Schoen. Coming off back-to-back fourth-quarter collapses and stagnant offensive production that left the Giants languishing near the bottom of the league in third-down conversions and red-zone touchdown efficiency, team leadership concluded that status-quo continuity was no longer tenable for a passionate, exasperated fanbase.\n\nUnder the front-office restructuring unveiled Thursday, the organization has overhauled its football research and analytics department, integrating advanced tracking data directly into weekly game-planning and personnel evaluations. Furthermore, head coach Brian Daboll announced he will reassume direct offensive play-calling responsibilities, stripping play-calling duties from the offensive coordinator to personally oversee the young rookie quarterback\u2019s developmental progression.\n\n\"We evaluate every single decision through one unyielding lens: what gives the New York Football Giants the best opportunity to win football games today, and what positions this franchise for sustained championship contention tomorrow,\" Coach Daboll stated during an emotionally charged press conference. \"Jaxson has earned this opportunity through his relentless work ethic, his mastery of protections in the film room, and his poise against our first-team defense. We are not treating this as an audition; Jaxson Vance is our starting quarterback.\"\n\nVance, selected tenth overall in the spring draft after a sensational collegiate campaign renowned for elite arm strength, pocket escapability, and clutch improvisation, received first-team repetitions throughout Wednesday and Thursday\u2019s practices. Teammates described an immediate surge in offensive tempo and downfield aggressiveness during eleven-on-eleven scrimmage work.\n\n\"Jaxson brings a contagious spark in the huddle,\" said veteran wide receiver Darius Slayton. \"When you're running a deep post route and you see the ball coming out early with velocity and anticipation before you even make your break, that elevates everybody's intensity. As receivers, we know we have to step up and make plays for him, but he\u2019s ready for the bright lights of New York.\"\n\nThe personnel shift comes at a critical juncture in the NFL schedule. Sunday\u2019s matchup at MetLife Stadium against the division rival Philadelphia Eagles represents not only a fierce geographic rivalry, but a must-win contest to keep the Giants\u2019 fringe playoff aspirations mathematically viable. Facing an aggressive defensive front renowned for simulated blitzes and exotic disguised coverages, Vance\u2019s ability to process pre-snap leverage and deliver under physical duress will be tested immediately.\n\nFrom a financial and franchise trajectory perspective, turning the keys over to a rookie on a cost-controlled four-year rookie scale contract provides the Giants with immense strategic flexibility heading into the 2027 offseason. If Vance demonstrates starting-caliber competency down the stretch, the front office will possess over $65 million in projected salary cap room to aggressively bolster the offensive line, secure premier edge rushers, and lock in core defensive personnel.\n\nFan enthusiasm around the metropolitan area responded instantly to the announcement. Secondary ticket marketplaces reported a 40 percent surge in ticket transaction volumes and search interest for Sunday's game within two hours of Daboll\u2019s press conference, with Big Blue supporters eager to witness the opening chapter of the Vance era in East Rutherford."
+    },
     {
         "id": "towns-and-brunson-drop-28-each-as-knicks-grind-out-112-108-triumph-toronto",
         "title": "Towns and Brunson Drop 28 Each as Knicks Grind Out 112-108 Road Triumph in Toronto",
@@ -4797,6 +5042,41 @@ On the stadium infrastructure front, club executives evaluated demonstrations of
   ],
 
   'Science': [
+    {
+        "id": "columbia-and-mount-sinai-scientists-unveil-breakthrough-air-filtration-network-to-curb-urban-asthma",
+        "title": "Columbia and Mount Sinai Researchers Deploy Breakthrough Nanomaterial Air Filtration Network Across South Bronx and Harlem Schools",
+        "kicker": "PUBLIC HEALTH \u2022 URBAN MEDICINE",
+        "summary": "A pioneering joint clinical study by Mount Sinai and Columbia University Mailman School of Public Health demonstrates a 64% reduction in pediatric asthma emergency visits after installing newly patented bio-polymer air purification grids across 85 public school buildings located near high-traffic highway corridors.",
+        "category": "Science",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Newyorkerherald Staff",
+            "role": "Science & Medicine Desk",
+            "avatar": "/images/authors/sarah_mitchell.jpg"
+        },
+        "publishedAt": "Today",
+        "readTime": "6 min read",
+        "imageUrl": "/images/news/columbia-mount-sinai-clean-air-filtration.webp",
+        "imageCaption": "Scientists inspect a prototype bio-polymer air filtration unit in an urban classroom setting.",
+        "imageCredit": "Newyorkerherald / Medical Sciences Bureau",
+        "tags": [
+            "Public Health",
+            "Columbia University",
+            "Mount Sinai",
+            "Urban Environment",
+            "Pediatric Health",
+            "Science"
+        ],
+        "bullets": [
+            "Clinical trial across 85 public schools demonstrates a 64% reduction in pediatric asthma emergency hospital visits.",
+            "Patented bio-polymer nanofiber grids capture 99.4% of ultrafine particulate matter (PM2.5) and neutralize vehicular nitrogen dioxide.",
+            "State and city allocate $60 million to scale the passive filtration system to 300 additional public school facilities."
+        ],
+        "body": "In what leading epidemiologists are hailing as the most consequential environmental health breakthrough for metropolitan centers in decades, clinical researchers from Columbia University\u2019s Mailman School of Public Health and the Icahn School of Medicine at Mount Sinai published landmark clinical trial data on Friday demonstrating a stunning 64 percent decline in pediatric asthma-related emergency room admissions across eighty-five New York City public schools equipped with experimental bio-polymer air filtration systems.\n\nThe peer-reviewed study, published simultaneously in *The New England Journal of Medicine* and *The Lancet Public Health*, provides rigorous empirical proof that passive, low-cost nanomaterial air filtration can neutralize the devastating cardiovascular and pulmonary impacts of vehicular highway pollution in historically overburdened environmental justice communities.\n\nFor generations, children residing in the South Bronx and East Harlem have suffered from childhood asthma hospitalization rates up to eight times higher than the national average, earning the geographic corridor around the Cross Bronx Expressway, Major Deegan Expressway, and FDR Drive the tragic moniker of 'Asthma Alley.' Decades of heavy diesel truck traffic and congested arterial roadways generate dense plumes of ultrafine particulate matter (PM2.5), black carbon, and nitrogen dioxide (NO2) that infiltrate aging classroom ventilation ducts, triggering chronic lung inflammation, missed school days, and life-threatening respiratory emergencies.\n\nThe novel technology evaluated in the two-year trial was developed by an interdisciplinary team of chemical engineers and pediatric pulmonologists at Columbia and Mount Sinai. Unlike conventional mechanical HEPA filters that require loud, energy-intensive electric fans and frequent replacement, the newly patented 'Bio-NanoClean' grids utilize electrospun cellulose nanofibers coated with naturally derived catalytic enzymes that passively attract and capture 99.4 percent of airborne particulates while chemically breaking down toxic nitrogen oxides into benign atmospheric compounds.\n\n\"For too long, urban societies have treated pediatric asthma in low-income neighborhoods as an unavoidable consequence of metropolitan life,\" said Dr. Elena Rostova, lead author of the study and professor of environmental health sciences at Columbia Mailman. \"Our findings conclusively demonstrate that by employing targeted nanoscale engineering directly into school infrastructure, we can create clean-air sanctuaries inside classrooms, shielding developing lungs from toxic roadside emissions and immediately saving children's lives.\"\n\nThe clinical outcomes were stark. Across the 34,000 elementary and middle school students monitored during the multi-year study, participating schools recorded a 58 percent drop in asthma-related absenteeism, a 42 percent decrease in in-school inhaler administrations, and a 64 percent drop in emergency department hospitalizations compared to matched control schools in adjacent neighborhoods using standard mechanical ventilation.\n\nCognitive benefits were also documented. Researchers tracking standardized reading and mathematics assessments noted a statistically significant 7.2 percent improvement in academic performance among students in filtered classrooms, corroborating growing neuroscientific evidence that chronic neuro-inflammation from fine particulate pollution impairs concentration, working memory, and executive function.\n\nIn response to the clinical results, Governor Kathy Hochul and the New York City Department of Education announced a joint $60 million clean-air capital commitment to scale the bio-polymer filtration grids to 300 additional public school buildings located within 500 feet of major metropolitan expressways and industrial corridors across Brooklyn, Queens, and Staten Island over the next eighteen months.\n\n\"Clean air is a fundamental human right, not a luxury reserved for zip codes with the highest property values,\" stated Schools Chancellor David Banks during a joint briefing at P.S. 179 in the South Bronx. \"Every child in New York City deserves to walk into a classroom where they can breathe deeply, focus on learning, and reach their full potential without gasping for air. This partnership between our academic medical centers and public schools proves what is possible when science serves the community.\"\n\nThe World Health Organization and urban planning departments from London, Paris, and Tokyo have requested trial data and engineering specifications, viewing the New York deployment as a scalable blueprint for safeguarding schoolchildren in highway-adjacent megacities globally."
+    },
     {
         "id": "new-york-expands-180m-clean-heat-and-urban-geothermal-energy-subsidies",
         "title": "New York Expands $180M Clean-Heat and Urban Geothermal Energy Subsidies for Pre-War Neighborhoods",
@@ -5273,6 +5553,41 @@ Domestic automotive manufacturers have committed multi-billion-dollar off-take a
   ],
 
   'Opinion': [
+    {
+        "id": "why-new-yorks-affordability-crisis-requires-bold-action-on-commercial-rent-and-housing-supply",
+        "title": "Why New York\u2019s Dual Crises in Housing and Small Business Demand a Single, Unified Urban Compact",
+        "kicker": "EDITORIAL BOARD \u2022 CIVIC HORIZONS",
+        "summary": "Treating commercial rent spikes and residential displacement as separate emergencies is bankrupting the soul of New York; City Hall and Albany must combine zoning deregulation with aggressive neighborhood stabilization before the city\u2019s small merchants and working class vanish entirely.",
+        "category": "Opinion",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Newyorkerherald Staff",
+            "role": "The Editorial Board",
+            "avatar": "/images/authors/sarah_mitchell.jpg"
+        },
+        "publishedAt": "Today",
+        "readTime": "5 min read",
+        "imageUrl": "/images/news/nyc-housing-commercial-compact-opinion.webp",
+        "imageCaption": "A neighborhood street corner in Queens where residential apartments sit atop family-owned storefronts.",
+        "imageCredit": "Newyorkerherald / Editorial Board",
+        "tags": [
+            "Editorial",
+            "Opinion",
+            "Affordable Housing",
+            "Small Business",
+            "New York Governance",
+            "Urban Planning"
+        ],
+        "bullets": [
+            "Siloed municipal policies treat commercial storefront extinction and residential rent spikes as unrelated crises.",
+            "Ground-floor small business viability and upper-floor residential stability form an inseparable social and economic fabric.",
+            "Albany and City Hall must coordinate commercial lease protections with sweeping zoning deregulation to build 500,000 new homes."
+        ],
+        "body": "For more than three decades, the governance of New York City has suffered from a debilitating political fiction: the notion that residential housing affordability and small business survival are two distinct, unrelated policy portfolios. In City Hall and the State Capitol, housing advocates and tenant unions battle landlords over rent stabilization, Good Cause eviction thresholds, and housing vouchers, while neighborhood merchant associations and retail federations wage entirely separate, lonely campaigns against predatory commercial lease escalations and bureaucratic fines.\n\nThis bureaucratic compartmentalization has proven disastrous for the civic fabric of New York. A city cannot remain a vibrant, living metropolis if it successfully shields a working-class family\u2019s apartment rent only to watch their neighborhood grocery store, pharmacy, dry cleaner, and bakery forced out by a 100 percent commercial rent spike, replaced by a vacant storefront held empty for institutional tax write-offs or an automated chain convenience depot. Conversely, a thriving commercial corridor cannot survive if the nurses, municipal workers, cooks, and teachers who frequent its storefronts are priced out of their homes and banished to the distant periphery.\n\nGround-floor commerce and upper-floor living are not separate economies; they are the twin chambers of the exact same beating urban heart. The historic vote by the New York City Council this week to establish commercial rent stabilization guidelines for independent small storefronts under 10,000 square feet marks a desperately overdue recognition of this truth. But if treated in isolation, commercial rent caps alone will fail to arrest New York's accelerating affordability crisis.\n\nWhat New York urgently requires from Governor Kathy Hochul, Mayor Eric Adams, and legislative leaders in Albany is a single, bold, unified Urban Compact that simultaneously tackles supply, stability, and public infrastructure across both residential and commercial sectors.\n\nFirst, Albany and City Hall must stop timidly negotiating around the edges of zoning reform. The city\u2019s restrictive, outdated 1961 zoning resolution remains an archaic straitjacket designed for a suburbanized mid-century model of segregated living and working. While the City Planning Commission\u2019s 'City of Yes for Housing Opportunity' represents a commendable step, the scale of New York\u2019s housing famine\u2014with rental vacancy rates hovering at historic lows near 1.4 percent\u2014demands an unapologetic supply revolution.\n\nNew York must legalize accessory dwelling units statewide, permit transit-oriented multi-family construction across suburban commuter rail stations in Nassau, Suffolk, and Westchester counties, and eliminate mandatory parking minimums that force developers to waste millions of dollars building garages rather than bedrooms. To build the 500,000 new housing units New York needs over the next decade, the state must grant automatic, fast-tracked zoning variances for any developer committing to at least 30 percent permanent affordability.\n\nSecond, that aggressive supply mandate must be paired with stringent penalties against speculative commercial warehousing. Across the five boroughs, tens of thousands of ground-floor retail spaces sit abandoned for years because institutional real estate debt structures encourage national property trusts to keep spaces empty rather than accept lower market rents that would trigger technical loan defaults. The state legislature must enact an escalating Commercial Vacancy Surcharge on non-residential storefronts left unoccupied for more than six consecutive months without active construction permits, forcing absentee landlords to negotiate realistic leases with local merchants.\n\nFinally, New York must reinvest the revenues generated by commercial vitality back into public safety, transit infrastructure, and clean-air urban greening. As demonstrated by the state\u2019s newly announced transit stabilization accord and pioneering school air filtration initiatives in Harlem and the South Bronx, municipal governance succeeds when it invests directly in human flourishing rather than bureaucratic inertia.\n\nNew York was not built by corporate private equity algorithms or absentee real estate holding trusts. It was built by generations of working-class families, immigrant storefront pioneers, artists, and municipal workers who bet their futures on the promise of this city. Saving that promise requires political courage that looks beyond the next election cycle and dismantles the false silos that have paralyzed urban policy. The moment for a unified urban compact is right now."
+    },
     {
       "id": "why-starving-new-york-transit-threatens-americas-economy",
       "title": "Why Starving New York Transit Threatens America's Economy",
@@ -6079,42 +6394,49 @@ export function getHomepageDepartmentArticles(dept: string): Article[] {
   const all = getAllArticles();
   const mapping: Record<string, string[]> = {
     us: [
+      'nyc-city-council-passes-landmark-commercial-rent-stabilization-bill-small-business-protections',
       'nyc-orders-emergency-sweeps-160-construction-sites-fatal-flatbush-collapse',
       'the-vanity-of-alina-habba-mildon',
       'hochul-and-mta-press-congress-for-billions-in-transit-funds',
       'fema-holds-nationwide-alert-test-amid-viral-blackout-falsehoods'
     ],
     politics: [
+      'governor-hochul-and-legislative-leaders-unveil-emergency-3-2b-transit-bailout-and-subway-safety-pact',
       'house-democrats-formally-nominate-brooklyn-hakeem-jeffries-speaker',
       'mark-rossini-receives-second-full-pardon-as-federal-case-moves-toward-closure',
       'white-house-withdraws-heidi-overton-nomination-to-lead-fda',
       'white-house-orders-agencies-to-curb-congressional-testimony'
     ],
     business: [
+      'wall-street-braces-as-sec-finalizes-stringent-liquidity-rules-for-1-7t-private-credit-funds',
       'federal-reserve-flags-escalating-debt-and-private-credit-risks-ai-boom',
       'dow-plunges-848-points-as-ai-valuation-anxiety-grips-markets',
       'major-us-banks-hit-by-widespread-online-outages-and-delays',
       'microsoft-restores-cloud-systems-after-crippling-global-outage'
     ],
     tech: [
+      'new-york-state-launches-empire-ai-supercomputing-cluster-at-suny-buffalo-open-to-public-researchers',
       'anthropic-debuts-on-new-york-stock-exchange-in-historic-1-5-trillion-ipo',
       'google-expands-gemini-into-autonomous-ai-agent-for-real-tasks',
       'gta-vi-countdown-upends-gaming-slates-as-budgets-eclipse-1b',
       'jensen-huang-nvidia-return-petition-tops-160000-signatures'
     ],
     entertainment: [
+      'broadway-unveils-record-breaking-winter-season-lineup-with-subsidized-student-and-community-tickets',
       'macys-unveils-centenary-float-lineup-for-100th-annual-thanksgiving-parade',
       'raye-leads-2027-grammy-nominations-with-record-tying-11-nods',
       'robert-pattinson-cast-as-james-bond-in-denis-villeneuve-reboot',
       'johnny-depp-tops-box-office-as-ebenezer-scores-42m-global-debut'
     ],
     sports: [
+      'new-york-giants-announce-major-front-office-overhaul-and-rookie-qb-start-ahead-of-rivalry-clash',
       'towns-and-brunson-drop-28-each-as-knicks-grind-out-112-108-triumph-toronto',
       'quentin-grimes-drops-47-as-lakers-edge-hornets-118-114-in-ot',
       'chargers-edge-ravens-23-20-in-thrilling-monday-night-duel',
       'luka-doncic-scores-43-points-to-power-lakers-over-phoenix-suns'
     ],
     science: [
+      'columbia-and-mount-sinai-scientists-unveil-breakthrough-air-filtration-network-to-curb-urban-asthma',
       'new-york-expands-180m-clean-heat-and-urban-geothermal-energy-subsidies',
       'nasa-astronauts-3d-print-living-human-tissues-aboard-the-iss',
       'spacex-catches-starship-with-mechazilla-chopsticks-in-flight-15',
