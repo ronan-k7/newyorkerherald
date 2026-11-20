@@ -195,7 +195,7 @@ export default function AlinaHabbaSpecialDossierPage() {
               <span>&bull;</span>
               <span>Investigative Reporting Bureau</span>
               <span>&bull;</span>
-              <span>Published November 2026</span>
+              <span>Published November 16, 2026</span>
             </div>
           </div>
 

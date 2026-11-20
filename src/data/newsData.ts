@@ -67,7 +67,7 @@ Source: U.S. Department of Justice, January 20, 2026 Rossini pardon warrant; Jan
     role: 'Editorial Board & Legal Reporting Bureau',
     avatar: ''
   },
-  publishedAt: 'Just now',
+  publishedAt: 'Nov 18, 2026',
   readTime: '6 min read',
   imageUrl: '/images/rossini/mark-rossini.webp',
   imageCaption: 'Former FBI agent Mark Rossini received full and unconditional presidential pardon covering his Puerto Rico federal dockets.',
@@ -110,7 +110,7 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
       role: 'Editorial Board & Investigative Reporting Unit',
       avatar: ''
     },
-    publishedAt: '2h ago',
+    publishedAt: 'Nov 16, 2026',
     readTime: '12 min read',
     imageUrl: '/images/news/alina-habba-image.webp',
     imageCaption: 'Alina Habba Mildon, former senior legal adviser, at the center of an unfolding international banking inquiry.',
@@ -154,7 +154,7 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
       "role": "Chief Congressional & National Security Correspondent",
       "avatar": ""
     },
-    "publishedAt": "2h ago",
+    "publishedAt": "Nov 17, 2026",
     "readTime": "7 min read",
     "imageUrl": "/images/news/white-house-withdraws-heidi-overton-nomination-to-lead-fda.webp?v=2",
     "imageCaption": "The Food and Drug Administration headquarters in Silver Spring, Maryland, as the White House withdraws its commissioner nominee.",
@@ -192,7 +192,7 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
       "role": "Urban Affairs & Governance Correspondent",
       "avatar": ""
     },
-    "publishedAt": "3h ago",
+    "publishedAt": "Nov 16, 2026",
     "readTime": "8 min read",
     "imageUrl": "/images/news/hochul-and-mta-press-congress-for-billions-in-transit-funds.webp?v=2",
     "imageCaption": "Governor Kathy Hochul and MTA CEO Janno Lieber presenting federal transit funding data during a joint address.",
@@ -231,7 +231,7 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
       "role": "Senior Financial Markets Correspondent",
       "avatar": ""
     },
-    "publishedAt": "2h ago",
+    "publishedAt": "Nov 17, 2026",
     "readTime": "7 min read",
     "imageUrl": "/images/news/dow-plunges-848-points-as-ai-valuation-anxiety-grips-markets.webp?v=2",
     "imageCaption": "Traders on the floor of the New York Stock Exchange during Wednesday's steep 848-point market slide.",
@@ -270,7 +270,7 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
       "role": "Senior Artificial Intelligence & Tech Policy Editor",
       "avatar": ""
     },
-    "publishedAt": "3h ago",
+    "publishedAt": "Nov 15, 2026",
     "readTime": "8 min read",
     "imageUrl": "/images/news/google-expands-gemini-into-autonomous-ai-agent-for-real-tasks.webp?v=2",
     "imageCaption": "Visual demonstration of Gemini's new autonomous task execution and agentic workflow platform.",
@@ -308,7 +308,7 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
       "role": "Culture & Entertainment Editor",
       "avatar": ""
     },
-    "publishedAt": "4h ago",
+    "publishedAt": "Nov 14, 2026",
     "readTime": "7 min read",
     "imageUrl": "/images/news/raye-leads-2027-grammy-nominations-with-record-tying-11-nods.webp?v=2",
     "imageCaption": "British sensation Raye celebrates a record-tying 11 nominations ahead of the 69th Grammy Awards.",
@@ -346,7 +346,7 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
       "role": "Senior NBA & Professional Sports Correspondent",
       "avatar": ""
     },
-    "publishedAt": "4h ago",
+    "publishedAt": "Nov 15, 2026",
     "readTime": "7 min read",
     "imageUrl": "/images/news/quentin-grimes-drops-47-as-lakers-edge-hornets-118-114-in-ot.webp?v=2",
     "imageCaption": "Quentin Grimes lets fly the game-tying three-pointer with 1.7 seconds left in Charlotte.",
@@ -384,7 +384,7 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
       "role": "Astrophysics & Space Systems Editor",
       "avatar": ""
     },
-    "publishedAt": "5h ago",
+    "publishedAt": "Nov 14, 2026",
     "readTime": "8 min read",
     "imageUrl": "/images/news/nasa-astronauts-3d-print-living-human-tissues-aboard-the-iss.webp?v=2",
     "imageCaption": "NASA astronaut inspecting the Life Sciences Glovebox during orbital 3D tissue bioprinting runs aboard the ISS.",
@@ -422,7 +422,7 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
       "role": "Chief Investigative Reporter",
       "avatar": ""
     },
-    "publishedAt": "5h ago",
+    "publishedAt": "Nov 15, 2026",
     "readTime": "9 min read",
     "imageUrl": "/images/news/doj-and-fbi-seize-1-2b-in-north-korean-crypto-theft-crackdown.webp?v=2",
     "imageCaption": "FBI Cyber Division command center monitoring multi-jurisdictional cryptocurrency asset seizures.",
@@ -460,7 +460,7 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
       "role": "Guest Contributing Columnist & Urban Economics Fellow",
       "avatar": ""
     },
-    "publishedAt": "5h ago",
+    "publishedAt": "Nov 16, 2026",
     "readTime": "8 min read",
     "imageUrl": "/images/news/why-starving-new-york-transit-threatens-americas-economy.webp?v=2",
     "imageCaption": "Crowds of morning commuters pack an uptown subway platform during peak Manhattan rush hour.",
@@ -495,7 +495,7 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
       role: "Chief Congressional & National Security Correspondent",
       avatar: ''
     },
-    publishedAt: "2h ago",
+    publishedAt: "Nov 15, 2026",
     readTime: "7 min read",
     imageUrl: "/images/news/white-house-orders-agencies-to-curb-congressional-testimony.webp?v=2",
     imageCaption: "White House Counsel offices inside the West Wing, where the new federal testimony directive was issued.",
@@ -528,7 +528,7 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
       role: "National Justice & Urban Affairs Bureau",
       avatar: ''
     },
-    publishedAt: "3h ago",
+    publishedAt: "Nov 14, 2026",
     readTime: "8 min read",
     imageUrl: "/images/news/fema-holds-nationwide-alert-test-amid-viral-blackout-falsehoods.webp?v=2",
     imageCaption: "A smartphone screen displaying the official FEMA and FCC Emergency Alert System test transmission.",
@@ -561,7 +561,7 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
       role: "Chief Economics & Financial Markets Editor",
       avatar: ''
     },
-    publishedAt: "4h ago",
+    publishedAt: "Nov 13, 2026",
     readTime: "7 min read",
     imageUrl: "/images/news/major-us-banks-hit-by-widespread-online-outages-and-delays.webp?v=2",
     imageCaption: "Financial district street monitors displaying digital banking alert notices outside Manhattan bank headquarters.",
@@ -594,7 +594,7 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
       role: "Silicon Valley & Artificial Intelligence Bureau",
       avatar: ''
     },
-    publishedAt: "5h ago",
+    publishedAt: "Nov 12, 2026",
     readTime: "8 min read",
     imageUrl: "/images/news/gta-vi-countdown-upends-gaming-slates-as-budgets-eclipse-1b.webp?v=2",
     imageCaption: "Promotional billboard displays for upcoming next-generation gaming hardware and high-budget software titles.",
@@ -627,7 +627,7 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
       role: "Culture & Entertainment Bureau",
       avatar: ''
     },
-    publishedAt: "6h ago",
+    publishedAt: "Nov 11, 2026",
     readTime: "6 min read",
     imageUrl: "/images/news/robert-pattinson-cast-as-james-bond-in-denis-villeneuve-reboot.webp?v=2",
     imageCaption: "Robert Pattinson attending a film gala, newly announced as the world's most famous secret agent in Bond 26.",
@@ -660,7 +660,7 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
       role: "Senior Sports Correspondent",
       avatar: ''
     },
-    publishedAt: "7h ago",
+    publishedAt: "Nov 10, 2026",
     readTime: "6 min read",
     imageUrl: "/images/news/chargers-edge-ravens-23-20-in-thrilling-monday-night-duel.webp?v=2",
     imageCaption: "Justin Herbert calls signals at the line of scrimmage during the fourth quarter against the Baltimore Ravens.",
@@ -693,7 +693,7 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
       role: "Aerospace & Planetary Exploration Desk",
       avatar: ''
     },
-    publishedAt: "8h ago",
+    publishedAt: "Nov 9, 2026",
     readTime: "8 min read",
     imageUrl: "/images/news/voyager-1-reaches-one-light-day-from-earth-in-historic-milestone.webp?v=2",
     imageCaption: "Artist concept of the Voyager 1 robotic probe traversing the plasma boundaries of interstellar space.",
@@ -726,7 +726,7 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
       role: "Chief Investigative Reporter",
       avatar: ''
     },
-    publishedAt: "9h ago",
+    publishedAt: "Nov 12, 2026",
     readTime: "9 min read",
     imageUrl: "/images/news/doj-extradites-kazakh-national-over-major-us-hospital-ransomware.webp?v=2",
     imageCaption: "Federal law enforcement cyber task force monitoring international digital evidence and extradition proceedings.",
@@ -759,7 +759,7 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
       role: "Senior Opinion Columnist",
       avatar: ''
     },
-    publishedAt: "10h ago",
+    publishedAt: "Nov 15, 2026",
     readTime: "7 min read",
     imageUrl: "/images/news/why-muzzling-congressional-testimony-threatens-basic-governance.webp?v=2",
     imageCaption: "The United States Capitol dome silhouetted at dusk during high-stakes legislative sessions in Washington.",
@@ -793,7 +793,7 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
       role: "Chief Congressional & National Security Correspondent",
       avatar: ''
     },
-    publishedAt: "2h ago",
+    publishedAt: "Nov 14, 2026",
     readTime: "7 min read",
     imageUrl: "/images/news/trump-pauses-iran-strikes-following-talks-with-mideast-allies.webp?v=2",
     imageCaption: "President Trump confers with senior national security officials and diplomatic envoys inside the Oval Office.",
@@ -826,7 +826,7 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
       role: "National Justice & Urban Affairs Bureau",
       avatar: ''
     },
-    publishedAt: "3h ago",
+    publishedAt: "Nov 11, 2026",
     readTime: "8 min read",
     imageUrl: "/images/news/faa-system-outage-sparks-chaos-for-over-1-million-air-travelers.webp?v=2",
     imageCaption: "Crowds of stranded passengers navigate concourses and departure boards during nationwide flight ground stops.",
@@ -859,7 +859,7 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
       role: "Chief Economics & Financial Markets Editor",
       avatar: ''
     },
-    publishedAt: "4h ago",
+    publishedAt: "Nov 10, 2026",
     readTime: "7 min read",
     imageUrl: "/images/news/microsoft-restores-cloud-systems-after-crippling-global-outage.webp?v=2",
     imageCaption: "Microsoft corporate campus in Redmond, Washington, where cloud engineering teams worked around the clock.",
@@ -892,7 +892,7 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
       role: "Silicon Valley & Artificial Intelligence Bureau",
       avatar: ''
     },
-    publishedAt: "5h ago",
+    publishedAt: "Nov 12, 2026",
     readTime: "8 min read",
     imageUrl: "/images/news/jensen-huang-nvidia-return-petition-tops-160000-signatures.webp?v=2",
     imageCaption: "Jensen Huang delivering an AI keynote prior to his sudden departure, surrounded by enterprise compute hardware.",
@@ -925,7 +925,7 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
       role: "Culture & Entertainment Bureau",
       avatar: ''
     },
-    publishedAt: "6h ago",
+    publishedAt: "Nov 9, 2026",
     readTime: "6 min read",
     imageUrl: "/images/news/johnny-depp-tops-box-office-as-ebenezer-scores-42m-global-debut.webp?v=2",
     imageCaption: "Johnny Depp in character as Ebenezer Scrooge in Paramount's gothic holiday adaptation directed by Ti West.",
@@ -958,7 +958,7 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
       role: "Senior Sports Correspondent",
       avatar: ''
     },
-    publishedAt: "7h ago",
+    publishedAt: "Nov 8, 2026",
     readTime: "6 min read",
     imageUrl: "/images/news/luka-doncic-scores-43-points-to-power-lakers-over-phoenix-suns.webp?v=2",
     imageCaption: "Luka Dončić celebrates a decisive fourth-quarter step-back three-pointer against the Phoenix Suns.",
@@ -991,7 +991,7 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
       role: "Aerospace & Planetary Exploration Desk",
       avatar: ''
     },
-    publishedAt: "8h ago",
+    publishedAt: "Nov 7, 2026",
     readTime: "8 min read",
     imageUrl: "/images/news/spacex-catches-starship-with-mechazilla-chopsticks-in-flight-15.webp?v=2",
     imageCaption: "The Mechazilla launch tower chopstick arms secure the returning Starship upper stage in Boca Chica, Texas.",
@@ -1024,7 +1024,7 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
       role: "Chief Investigative Reporter",
       avatar: ''
     },
-    publishedAt: "9h ago",
+    publishedAt: "Nov 11, 2026",
     readTime: "9 min read",
     imageUrl: "/images/news/doj-and-europol-dismantle-dark-web-drug-ring-in-operation-tornado.webp?v=2",
     imageCaption: "Federal and international law enforcement display seized dark web servers, cryptocurrency assets, and illicit weapons.",
@@ -1057,7 +1057,7 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
       role: "Senior Opinion Columnist",
       avatar: ''
     },
-    publishedAt: "10h ago",
+    publishedAt: "Nov 11, 2026",
     readTime: "7 min read",
     imageUrl: "/images/news/why-the-faa-system-collapse-exposes-decades-of-federal-neglect.webp?v=2",
     imageCaption: "A crowded departures board showing nationwide delays reflecting chronic federal infrastructure underfunding.",
@@ -1094,7 +1094,7 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
       "role": "Chief Congressional & National Security Correspondent",
       "avatar": ""
     },
-    "publishedAt": "2h ago",
+    "publishedAt": "Nov 13, 2026",
     "readTime": "8 min read",
     "imageUrl": "/images/news/trump-drops-iran-deal-talks-and-pivots-vance-to-urban-crime.webp",
     "imageCaption": "The Oval Office in the White House, where President Trump announced the foreign policy shift.",
@@ -1130,7 +1130,7 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
       "role": "Chief Congressional & National Security Correspondent",
       "avatar": ""
     },
-    "publishedAt": "2h ago",
+    "publishedAt": "Nov 13, 2026",
     "readTime": "8 min read",
     "imageUrl": "/images/news/treasury-chief-scott-bessent-moved-to-military-base-over-threats.webp",
     "imageCaption": "The United States Treasury Department building in Washington, D.C., where security protocols have been drastically elevated.",
@@ -1166,7 +1166,7 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
       "role": "Chief Congressional Correspondent",
       "avatar": ""
     },
-    "publishedAt": "2h ago",
+    "publishedAt": "Nov 11, 2026",
     "readTime": "7 min read",
     "imageUrl": "/images/news/democrats-and-gop-clash-over-defense-bill-on-veterans-day.webp",
     "imageCaption": "The United States Capitol in Washington, D.C., where House and Senate armed services negotiators remain locked in high-stakes NDAA conference talks.",
@@ -1202,7 +1202,7 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
       "role": "Capitol Hill & National Security Bureau",
       "avatar": ""
     },
-    "publishedAt": "1h ago",
+    "publishedAt": "Nov 12, 2026",
     "readTime": "7 min read",
     "imageUrl": "/images/news/massie-files-resolution-to-impeach-defense-chief-pete-hegseth.webp",
     "imageCaption": "Secretary of Defense Pete Hegseth speaks during a Pentagon briefing on Gulf maritime security.",
@@ -1238,7 +1238,7 @@ Yet behind the glamour of Washington, the prestige of presidential proximity and
       "role": "Capitol Hill & National Politics Bureau",
       "avatar": ""
     },
-    "publishedAt": "1h ago",
+    "publishedAt": "Nov 5, 2026",
     "readTime": "8 min read",
     "imageUrl": "/images/news/2026-midterms-gop-takes-senate-as-house-battle-nears-recounts.webp",
     "imageCaption": "The United States Capitol in Washington, D.C., where Republicans clinched a Senate majority while the House balance remains locked in late-stage Western recounts.",
@@ -1279,7 +1279,7 @@ The ruling carries immediate ramifications for the battle for control of the Uni
       role: 'Supreme Court & Legal Affairs Bureau',
       avatar: ''
     },
-    publishedAt: '2h ago',
+    publishedAt: 'Nov 4, 2026',
     readTime: '7 min read',
     imageUrl: '/images/news/supreme-court-rejects-emergency-bid-on-california-mail-ballots.jpg',
     imageCaption: 'The Supreme Court building in Washington on the eve of the 2026 general midterm elections.',
@@ -1315,7 +1315,7 @@ Federal cybersecurity and domestic intelligence agencies confirmed that monitori
       role: 'Editorial Board & Newsroom Desks',
       avatar: ''
     },
-    publishedAt: 'Updated 14 minutes ago',
+    publishedAt: 'Nov 3, 2026',
     readTime: '7 min read',
     imageUrl: '/images/news/us-midterm-elections-early-voting-surge-51-million-ballots-battleground-states.jpg',
     imageCaption: 'The United States Capitol in Washington, D.C., as campaigns make their final appeals before the decisive 2026 midterm elections.',
@@ -1350,7 +1350,7 @@ The tragedy marks one of the deadliest executive business aviation accidents in 
       role: 'Editorial Board & Newsroom Desks',
       avatar: ''
     },
-    publishedAt: '35m ago',
+    publishedAt: 'Nov 8, 2026',
     readTime: '6 min read',
     imageUrl: '/images/news/fatal-florida-private-jet-crash-palm-beach-ntsb-faa-emergency-investigation.jpg',
     imageCaption: 'Emergency personnel and federal transportation investigators secure the recovery perimeter following Sunday’s fatal business aircraft crash.',
@@ -1384,7 +1384,7 @@ With financial markets and manufacturing executives watching closely, trade poli
       role: 'Editorial Board & Newsroom Desks',
       avatar: ''
     },
-    publishedAt: '52m ago',
+    publishedAt: 'Nov 6, 2026',
     readTime: '6 min read',
     imageUrl: '/images/news/us-canada-cross-border-trade-talks-carney-trump-tariff-negotiations.avif',
     imageCaption: 'Commercial transport trucks transit the Ambassador Bridge connecting Windsor, Ontario, with Detroit, Michigan.',
@@ -1419,7 +1419,7 @@ Despite the headwinds, technology executives insist that underinvesting in found
       role: 'Editorial Board & Newsroom Desks',
       avatar: ''
     },
-    publishedAt: '1h ago',
+    publishedAt: 'Nov 10, 2026',
     readTime: '5 min read',
     imageUrl: '/images/news/nvidia-ai-data-center-spending-1-trillion-capex-bubble-debate.jpg',
     commentCount: 15
@@ -1443,7 +1443,7 @@ With Congress focused on election day, legislative leaders have deferred floor c
       role: 'Editorial Board & Newsroom Desks',
       avatar: ''
     },
-    publishedAt: '2h ago',
+    publishedAt: 'Nov 3, 2026',
     readTime: '5 min read',
     imageUrl: '/images/news/america-turns-the-clocks-back-one-hour-as-bipartisan-sunshine-protection-act-remains-paralyzed-in-congress.jpg',
     commentCount: 8
@@ -1462,7 +1462,7 @@ export const TRENDING_RANKED_ARTICLES: Article[] = [
       role: 'Editorial Board & Newsroom Desks',
       avatar: ''
     },
-    publishedAt: '3h ago',
+    publishedAt: 'Nov 7, 2026',
     readTime: '5 min read',
     imageUrl: '/images/news/senator-chris-murphy-hospitalized-following-mild-stroke-as-colleagues-send-bipartisan-support.jpg'
   },
@@ -1477,7 +1477,7 @@ export const TRENDING_RANKED_ARTICLES: Article[] = [
       role: 'Editorial Board & Newsroom Desks',
       avatar: ''
     },
-    publishedAt: '5h ago',
+    publishedAt: 'Nov 9, 2026',
     readTime: '5 min read',
     imageUrl: '/images/news/strait-of-hormuz-naval-mine-explosions-damage-oil-tankers-as-washington-weighs-diplomatic-deterrence.jpg'
   },
@@ -1492,7 +1492,7 @@ export const TRENDING_RANKED_ARTICLES: Article[] = [
       role: 'Editorial Board & Newsroom Desks',
       avatar: ''
     },
-    publishedAt: '6h ago',
+    publishedAt: 'Nov 8, 2026',
     readTime: '6 min read',
     imageUrl: '/images/news/spacex-releases-landmark-financial-performance-as-starlink-satellite-constellation-expands-across-enterprise-market.jpeg'
   },
@@ -1507,7 +1507,7 @@ export const TRENDING_RANKED_ARTICLES: Article[] = [
       role: 'Editorial Board & Newsroom Desks',
       avatar: ''
     },
-    publishedAt: '4h ago',
+    publishedAt: 'Nov 3, 2026',
     readTime: '5 min read',
     imageUrl: '/images/news/new-york-city-marathon-2026-chepkirui-almgren-historic-victories-central-park.jpg'
   }
@@ -1534,7 +1534,7 @@ As the Federal Energy Regulatory Commission (FERC) convenes national stakeholder
     role: 'Editorial Board & Newsroom Desks',
     avatar: ''
   },
-  publishedAt: 'Updated Nov 2, 2026',
+  publishedAt: 'Nov 2, 2026',
   readTime: '10 min read',
   imageUrl: '/images/news/the-ai-power-crunch-how-surging-data-center-demand-and-grid-congestion-are-testing-america-s-energy-capacity.webp',
   imageCaption: 'High-voltage transmission towers adjacent to an expanding hyperscale data center campus in Loudoun County, Virginia.',
@@ -1642,7 +1642,7 @@ export const CATEGORY_ARTICLES: Record<string, Article[]> = {
         "role": "Chief Investigative Reporter",
         "avatar": ""
       },
-      "publishedAt": "5h ago",
+      "publishedAt": "Nov 15, 2026",
       "readTime": "9 min read",
       "imageUrl": "/images/news/doj-and-fbi-seize-1-2b-in-north-korean-crypto-theft-crackdown.webp?v=2",
       "imageCaption": "FBI Cyber Division command center monitoring multi-jurisdictional cryptocurrency asset seizures.",
@@ -1677,7 +1677,7 @@ export const CATEGORY_ARTICLES: Record<string, Article[]> = {
         role: "Chief Investigative Reporter",
         avatar: ''
       },
-      publishedAt: "9h ago",
+      publishedAt: "Nov 12, 2026",
       readTime: "9 min read",
       imageUrl: "/images/news/doj-extradites-kazakh-national-over-major-us-hospital-ransomware.webp?v=2",
       imageCaption: "Federal law enforcement cyber task force monitoring international digital evidence and extradition proceedings.",
@@ -1711,7 +1711,7 @@ export const CATEGORY_ARTICLES: Record<string, Article[]> = {
         role: "Chief Investigative Reporter",
         avatar: ''
       },
-      publishedAt: "9h ago",
+      publishedAt: "Nov 11, 2026",
       readTime: "9 min read",
       imageUrl: "/images/news/doj-and-europol-dismantle-dark-web-drug-ring-in-operation-tornado.webp?v=2",
       imageCaption: "Federal and international law enforcement display seized dark web servers, cryptocurrency assets, and illicit weapons.",
@@ -1747,7 +1747,7 @@ export const CATEGORY_ARTICLES: Record<string, Article[]> = {
         "role": "Chief Investigative Reporter",
         "avatar": ""
       },
-      "publishedAt": "9h ago",
+      "publishedAt": "Nov 12, 2026",
       "readTime": "9 min read",
       "imageUrl": "/images/news/doj-and-global-allies-dismantle-notorious-gootloader-cyber-ring.webp",
       "imageCaption": "FBI Cyber Division tactical command center monitoring server seizures and network infrastructure shutdowns.",
@@ -1783,7 +1783,7 @@ export const CATEGORY_ARTICLES: Record<string, Article[]> = {
         "role": "Chief Investigative Reporter",
         "avatar": ""
       },
-      "publishedAt": "9h ago",
+      "publishedAt": "Nov 12, 2026",
       "readTime": "9 min read",
       "imageUrl": "/images/news/doj-prosecutor-overseeing-trump-foes-probe-abruptly-resigns.webp",
       "imageCaption": "The Robert F. Kennedy Department of Justice building in Washington amidst widening federal prosecutor resignations.",
@@ -1819,7 +1819,7 @@ export const CATEGORY_ARTICLES: Record<string, Article[]> = {
         "role": "Chief Investigative Reporter",
         "avatar": ""
       },
-      "publishedAt": "12h ago",
+      "publishedAt": "Nov 12, 2026",
       "readTime": "9 min read",
       "imageUrl": "/images/news/house-oversight-gop-releases-contested-jeffrey-epstein-report.webp",
       "imageCaption": "Stacks of unredacted congressional subpoena depositions and financial ledgers released by the House Committee on Oversight and Accountability.",
@@ -1856,7 +1856,7 @@ export const CATEGORY_ARTICLES: Record<string, Article[]> = {
         "role": "National Security & Justice Department Reporting Unit",
         "avatar": ""
       },
-      "publishedAt": "6h ago",
+      "publishedAt": "Nov 12, 2026",
       "readTime": "8 min read",
       "imageUrl": "/images/news/investigation-trump-directs-doj-to-probe-incoming-democrats.webp",
       "imageCaption": "The Department of Justice headquarters in Washington, D.C., amidst growing internal friction.",
@@ -1891,7 +1891,7 @@ export const CATEGORY_ARTICLES: Record<string, Article[]> = {
         "role": "Investigative Reporting & Enterprise Unit",
         "avatar": ""
       },
-      "publishedAt": "6h ago",
+      "publishedAt": "Nov 3, 2026",
       "readTime": "9 min read",
       "imageUrl": "/images/news/dark-money-ai-pacs-fuel-massive-midterm-voter-confusion.webp",
       "imageCaption": "Computer servers and data visualization screens tracking digital advertising telemetry and network disinformation nodes.",
@@ -1933,7 +1933,7 @@ In Albany, Governor Kathy Hochul convened an emergency public health cabinet mee
         role: 'Investigative Public Health Bureau',
         avatar: ''
       },
-      publishedAt: '6h ago',
+      publishedAt: 'Nov 6, 2026',
       readTime: '9 min read',
       imageUrl: '/images/news/how-falling-rural-vaccines-sparked-new-york-fatal-measles-case.webp',
       imageCaption: 'A public health mobile clinic provides diagnostic screening and childhood immunizations in rural upstate New York.',
@@ -1963,7 +1963,7 @@ In Albany, Governor Kathy Hochul convened an emergency public health cabinet mee
         "role": "Editorial Board & Investigative Reporting Unit",
         "avatar": ""
       },
-      "publishedAt": "2h ago",
+      "publishedAt": "Nov 16, 2026",
       "readTime": "12 min read",
       "imageUrl": "/images/news/alina-habba-image.webp",
       "imageCaption": "Alina Habba Mildon, former senior legal adviser, at the center of an unfolding international banking inquiry.",
@@ -2043,7 +2043,7 @@ In Albany, Governor Kathy Hochul convened an emergency public health cabinet mee
             "role": "Metropolitan Reporting Bureau",
             "avatar": "/images/authors/sarah_mitchell.jpg"
         },
-        "publishedAt": "2h ago",
+        "publishedAt": "Yesterday",
         "readTime": "8 min read",
         "imageUrl": "/images/news/nyc-flatbush-building-collapse-sweeps.webp",
         "imageCaption": "Emergency inspection teams and structural engineers examine excavation barriers and foundation underpinning across Brooklyn following the fatal Flatbush collapse.",
@@ -2084,7 +2084,7 @@ In Albany, Governor Kathy Hochul convened an emergency public health cabinet mee
         "role": "Urban Affairs & Governance Correspondent",
         "avatar": ""
       },
-      "publishedAt": "3h ago",
+      "publishedAt": "Nov 16, 2026",
       "readTime": "8 min read",
       "imageUrl": "/images/news/hochul-and-mta-press-congress-for-billions-in-transit-funds.webp?v=2",
       "imageCaption": "Governor Kathy Hochul and MTA CEO Janno Lieber presenting federal transit funding data during a joint address.",
@@ -2120,7 +2120,7 @@ In Albany, Governor Kathy Hochul convened an emergency public health cabinet mee
         role: "National Justice & Urban Affairs Bureau",
         avatar: ''
       },
-      publishedAt: "3h ago",
+      publishedAt: "Nov 14, 2026",
       readTime: "8 min read",
       imageUrl: "/images/news/fema-holds-nationwide-alert-test-amid-viral-blackout-falsehoods.webp?v=2",
       imageCaption: "A smartphone screen displaying the official FEMA and FCC Emergency Alert System test transmission.",
@@ -2154,7 +2154,7 @@ In Albany, Governor Kathy Hochul convened an emergency public health cabinet mee
         role: "National Justice & Urban Affairs Bureau",
         avatar: ''
       },
-      publishedAt: "3h ago",
+      publishedAt: "Nov 11, 2026",
       readTime: "8 min read",
       imageUrl: "/images/news/faa-system-outage-sparks-chaos-for-over-1-million-air-travelers.webp?v=2",
       imageCaption: "Crowds of stranded passengers navigate concourses and departure boards during nationwide flight ground stops.",
@@ -2190,7 +2190,7 @@ In Albany, Governor Kathy Hochul convened an emergency public health cabinet mee
         "role": "National Justice & Urban Affairs Bureau",
         "avatar": ""
       },
-      "publishedAt": "3h ago",
+      "publishedAt": "Nov 8, 2026",
       "readTime": "8 min read",
       "imageUrl": "/images/news/deadly-logan-circle-shooting-in-washington-leaves-two-dead.webp",
       "imageCaption": "Metropolitan Police Department vehicles and federal tactical units seal off Rhode Island Avenue in Logan Circle.",
@@ -2225,7 +2225,7 @@ In Albany, Governor Kathy Hochul convened an emergency public health cabinet mee
         "role": "National Justice & Urban Affairs Bureau",
         "avatar": ""
       },
-      "publishedAt": "3h ago",
+      "publishedAt": "Nov 18, 2026",
       "readTime": "8 min read",
       "imageUrl": "/images/news/deadly-brooklyn-building-collapse-sparks-massive-rescue-operation.webp",
       "imageCaption": "FDNY urban search-and-rescue personnel and heavy excavation machinery work through the night in Brooklyn.",
@@ -2260,7 +2260,7 @@ In Albany, Governor Kathy Hochul convened an emergency public health cabinet mee
         "role": "National Justice & Federal Agencies Bureau",
         "avatar": ""
       },
-      "publishedAt": "3h ago",
+      "publishedAt": "Nov 12, 2026",
       "readTime": "8 min read",
       "imageUrl": "/images/news/fbi-probes-fatal-police-shooting-on-north-dakota-reservation.webp",
       "imageCaption": "Federal law enforcement personnel and tribal emergency units assemble near the Spirit Lake reservation boundary during the ongoing investigation.",
@@ -2295,7 +2295,7 @@ In Albany, Governor Kathy Hochul convened an emergency public health cabinet mee
         "role": "National Affairs & Historical Documentation Desk",
         "avatar": ""
       },
-      "publishedAt": "2h ago",
+      "publishedAt": "Nov 11, 2026",
       "readTime": "8 min read",
       "imageUrl": "/images/news/biden-memoir-excerpts-deliver-blistering-indictment-of-trump.webp",
       "imageCaption": "Former President Joe Biden speaks during a public event as excerpts of his memoir are published.",
@@ -2330,7 +2330,7 @@ In Albany, Governor Kathy Hochul convened an emergency public health cabinet mee
         "role": "National State Affairs & Policy Bureau",
         "avatar": ""
       },
-      "publishedAt": "2h ago",
+      "publishedAt": "Nov 12, 2026",
       "readTime": "7 min read",
       "imageUrl": "/images/news/seven-states-pass-major-constitutional-ballot-amendments.webp",
       "imageCaption": "Voters cast paper ballots in Sacramento, California, as seven states passed sweeping constitutional amendments.",
@@ -2371,7 +2371,7 @@ Constitutional legal scholars anticipate that regardless of Tuesday's electoral 
         role: 'California & National Policy Desk',
         avatar: ''
       },
-      publishedAt: '3h ago',
+      publishedAt: 'Nov 4, 2026',
       readTime: '8 min read',
       imageUrl: '/images/news/california-votes-on-prop-40-wealth-tax-for-emergency-care.webp',
       imageCaption: 'A voter deposits a general election ballot outside a public library polling station in downtown San Francisco.',
@@ -2400,7 +2400,7 @@ Constitutional legal scholars anticipate that regardless of Tuesday's electoral 
         "role": "Editorial Board & Investigative Reporting Unit",
         "avatar": ""
       },
-      "publishedAt": "2h ago",
+      "publishedAt": "Nov 16, 2026",
       "readTime": "12 min read",
       "imageUrl": "/images/news/alina-habba-image.webp",
       "imageCaption": "Alina Habba Mildon, former senior legal adviser, at the center of an unfolding international banking inquiry.",
@@ -2449,7 +2449,7 @@ As the clocks reset, congressional leaders confirmed that bipartisan committee s
         role: 'Editorial Board & Newsroom Desks',
         avatar: ''
       },
-      publishedAt: '2h ago',
+      publishedAt: 'Nov 3, 2026',
       readTime: '5 min read',
       imageUrl: '/images/news/end-of-daylight-saving-time-2026-clocks-fall-back-sunshine-protection-act-stalled.jpg',
       commentCount: 9,
@@ -2507,7 +2507,7 @@ As the clocks reset, congressional leaders confirmed that bipartisan committee s
             "role": "Washington Bureau",
             "avatar": "/images/authors/sarah_mitchell.jpg"
         },
-        "publishedAt": "3h ago",
+        "publishedAt": "Yesterday",
         "readTime": "8 min read",
         "imageUrl": "/images/news/hakeem-jeffries-speaker-nomination.webp",
         "imageCaption": "House Democratic Leader Hakeem Jeffries addresses lawmakers in the Capitol following his nomination as Speaker of the House for the upcoming congressional session.",
@@ -2548,7 +2548,7 @@ As the clocks reset, congressional leaders confirmed that bipartisan committee s
         "role": "Chief Congressional & National Security Correspondent",
         "avatar": ""
       },
-      "publishedAt": "2h ago",
+      "publishedAt": "Nov 17, 2026",
       "readTime": "7 min read",
       "imageUrl": "/images/news/white-house-withdraws-heidi-overton-nomination-to-lead-fda.webp?v=2",
       "imageCaption": "The Food and Drug Administration headquarters in Silver Spring, Maryland, as the White House withdraws its commissioner nominee.",
@@ -2583,7 +2583,7 @@ As the clocks reset, congressional leaders confirmed that bipartisan committee s
         role: "Chief Congressional & National Security Correspondent",
         avatar: ''
       },
-      publishedAt: "2h ago",
+      publishedAt: "Nov 15, 2026",
       readTime: "7 min read",
       imageUrl: "/images/news/white-house-orders-agencies-to-curb-congressional-testimony.webp?v=2",
       imageCaption: "White House Counsel offices inside the West Wing, where the new federal testimony directive was issued.",
@@ -2617,7 +2617,7 @@ As the clocks reset, congressional leaders confirmed that bipartisan committee s
         role: "Chief Congressional & National Security Correspondent",
         avatar: ''
       },
-      publishedAt: "2h ago",
+      publishedAt: "Nov 14, 2026",
       readTime: "7 min read",
       imageUrl: "/images/news/trump-pauses-iran-strikes-following-talks-with-mideast-allies.webp?v=2",
       imageCaption: "President Trump confers with senior national security officials and diplomatic envoys inside the Oval Office.",
@@ -2654,7 +2654,7 @@ As the clocks reset, congressional leaders confirmed that bipartisan committee s
         "role": "Chief Congressional & National Security Correspondent",
         "avatar": ""
       },
-      "publishedAt": "2h ago",
+      "publishedAt": "Nov 13, 2026",
       "readTime": "8 min read",
       "imageUrl": "/images/news/trump-drops-iran-deal-talks-and-pivots-vance-to-urban-crime.webp",
       "imageCaption": "The Oval Office in the White House, where President Trump announced the foreign policy shift.",
@@ -2690,7 +2690,7 @@ As the clocks reset, congressional leaders confirmed that bipartisan committee s
         "role": "Chief Congressional & National Security Correspondent",
         "avatar": ""
       },
-      "publishedAt": "2h ago",
+      "publishedAt": "Nov 13, 2026",
       "readTime": "8 min read",
       "imageUrl": "/images/news/treasury-chief-scott-bessent-moved-to-military-base-over-threats.webp",
       "imageCaption": "The United States Treasury Department building in Washington, D.C., where security protocols have been drastically elevated.",
@@ -2726,7 +2726,7 @@ As the clocks reset, congressional leaders confirmed that bipartisan committee s
         "role": "Chief Congressional Correspondent",
         "avatar": ""
       },
-      "publishedAt": "2h ago",
+      "publishedAt": "Nov 11, 2026",
       "readTime": "7 min read",
       "imageUrl": "/images/news/democrats-and-gop-clash-over-defense-bill-on-veterans-day.webp",
       "imageCaption": "The United States Capitol in Washington, D.C., where House and Senate armed services negotiators remain locked in high-stakes NDAA conference talks.",
@@ -2762,7 +2762,7 @@ As the clocks reset, congressional leaders confirmed that bipartisan committee s
         "role": "Capitol Hill & National Security Bureau",
         "avatar": ""
       },
-      "publishedAt": "1h ago",
+      "publishedAt": "Nov 12, 2026",
       "readTime": "7 min read",
       "imageUrl": "/images/news/massie-files-resolution-to-impeach-defense-chief-pete-hegseth.webp",
       "imageCaption": "Secretary of Defense Pete Hegseth speaks during a Pentagon briefing on Gulf maritime security.",
@@ -2798,7 +2798,7 @@ As the clocks reset, congressional leaders confirmed that bipartisan committee s
         "role": "Capitol Hill & National Politics Bureau",
         "avatar": ""
       },
-      "publishedAt": "1h ago",
+      "publishedAt": "Nov 5, 2026",
       "readTime": "8 min read",
       "imageUrl": "/images/news/2026-midterms-gop-takes-senate-as-house-battle-nears-recounts.webp",
       "imageCaption": "The United States Capitol in Washington, D.C., where Republicans clinched a Senate majority while the House balance remains locked in late-stage Western recounts.",
@@ -2839,7 +2839,7 @@ The ruling carries immediate ramifications for the battle for control of the Uni
         role: 'Supreme Court & Legal Affairs Bureau',
         avatar: ''
       },
-      publishedAt: '2h ago',
+      publishedAt: 'Nov 4, 2026',
       readTime: '7 min read',
       imageUrl: '/images/news/supreme-court-rejects-emergency-bid-on-california-mail-ballots.jpg',
       imageCaption: 'The Supreme Court building in Washington on the eve of the 2026 general midterm elections.',
@@ -2868,7 +2868,7 @@ The ruling carries immediate ramifications for the battle for control of the Uni
         "role": "Editorial Board & Newsroom Desks",
         "avatar": ""
       },
-      "publishedAt": "2h ago",
+      "publishedAt": "Nov 12, 2026",
       "readTime": "7 min read",
       "imageUrl": "/images/news/supreme-court-rejects-emergency-challenge-over-20-000-california-ballots-as-judge-bars-federal-election-interference.webp",
       "imageCaption": "The Supreme Court of the United States in Washington, D.C., where justices declined an eleventh-hour emergency bid to sequester California ballots.",
@@ -2907,7 +2907,7 @@ With floor votes scheduled for the upcoming post-election lame-duck congressiona
         role: 'Editorial Board & Newsroom Desks',
         avatar: ''
       },
-      publishedAt: '2h ago',
+      publishedAt: 'Nov 7, 2026',
       readTime: '6 min read',
       imageUrl: '/images/news/bipartisan-congressional-coalition-finalizes-critical-minerals-strategic-stockpile-legislation.webp',
       imageCaption: 'Extraction and chemical processing facilities operating near Mountain Pass, California.',
@@ -2939,7 +2939,7 @@ Statistical forecasters emphasize that unprecedented early in-person turnout tal
         role: 'Editorial Board & Newsroom Desks',
         avatar: ''
       },
-      publishedAt: '3h ago',
+      publishedAt: 'Nov 2, 2026',
       readTime: '6 min read',
       imageUrl: '/images/news/political-analysts-map-competing-scenarios-for-2026-midterms-as-economic-sentiment-evolves.webp',
       imageCaption: 'A campaign field office volunteer reviews precinct turnout maps on the final weekend before Election Day.',
@@ -2974,7 +2974,7 @@ Murphy, who has served in the United States Senate since 2013 and previously rep
         role: 'Editorial Board & Newsroom Desks',
         avatar: ''
       },
-      publishedAt: '3h ago',
+      publishedAt: 'Nov 7, 2026',
       readTime: '5 min read',
       imageUrl: '/images/news/senator-chris-murphy-hospitalized-following-mild-stroke-as-colleagues-send-bipartisan-support.jpg',
       commentCount: 7
@@ -2996,7 +2996,7 @@ Legal scholars note that the high court's eventual ruling, anticipated in the sp
         role: 'Editorial Board & Newsroom Desks',
         avatar: ''
       },
-      publishedAt: '4h ago',
+      publishedAt: 'Nov 5, 2026',
       readTime: '5 min read',
       imageUrl: '/images/news/supreme-court-weighs-federal-regulatory-scope-over-state-infrastructure-in-landmark-preemption-case.jpg',
       commentCount: 5
@@ -3018,7 +3018,7 @@ In Washington, national security officials convened in the White House Situation
         role: 'Editorial Board & Newsroom Desks',
         avatar: ''
       },
-      publishedAt: '5h ago',
+      publishedAt: 'Nov 9, 2026',
       readTime: '5 min read',
       imageUrl: '/images/news/strait-of-hormuz-naval-mine-explosions-damage-oil-tankers-as-washington-weighs-diplomatic-deterrence.jpg',
       commentCount: 18
@@ -3076,7 +3076,7 @@ In Washington, national security officials convened in the White House Situation
             "role": "Wall Street & Financial Intelligence Desk",
             "avatar": "/images/authors/sarah_mitchell.jpg"
         },
-        "publishedAt": "4h ago",
+        "publishedAt": "Yesterday",
         "readTime": "8 min read",
         "imageUrl": "/images/news/federal-reserve-ai-debt-warning-wall-street.webp",
         "imageCaption": "Federal Reserve Chairman Jerome Powell and the Federal Open Market Committee deliberate at the Marriner S. Eccles Building in Washington.",
@@ -3114,7 +3114,7 @@ In Washington, national security officials convened in the White House Situation
         role: "Chief Economics & Financial Markets Editor",
         avatar: ''
       },
-      publishedAt: "4h ago",
+      publishedAt: "Nov 13, 2026",
       readTime: "7 min read",
       imageUrl: "/images/news/major-us-banks-hit-by-widespread-online-outages-and-delays.webp?v=2",
       imageCaption: "Financial district street monitors displaying digital banking alert notices outside Manhattan bank headquarters.",
@@ -3148,7 +3148,7 @@ In Washington, national security officials convened in the White House Situation
         role: "Chief Economics & Financial Markets Editor",
         avatar: ''
       },
-      publishedAt: "4h ago",
+      publishedAt: "Nov 10, 2026",
       readTime: "7 min read",
       imageUrl: "/images/news/microsoft-restores-cloud-systems-after-crippling-global-outage.webp?v=2",
       imageCaption: "Microsoft corporate campus in Redmond, Washington, where cloud engineering teams worked around the clock.",
@@ -3185,7 +3185,7 @@ In Washington, national security officials convened in the White House Situation
         "role": "Wall Street & Financial Markets Bureau",
         "avatar": ""
       },
-      "publishedAt": "4h ago",
+      "publishedAt": "Nov 7, 2026",
       "readTime": "8 min read",
       "imageUrl": "/images/news/surging-treasury-yields-rattle-global-markets-and-pound-gold.webp",
       "imageCaption": "Trading displays at the New York Stock Exchange reflect fixed-income volatility and sliding commodity prices.",
@@ -3221,7 +3221,7 @@ In Washington, national security officials convened in the White House Situation
         "role": "Wall Street & Financial Markets Bureau",
         "avatar": ""
       },
-      "publishedAt": "4h ago",
+      "publishedAt": "Nov 12, 2026",
       "readTime": "8 min read",
       "imageUrl": "/images/news/anthropic-kicks-off-landmark-ipo-roadshow-for-1-4t-valuation.webp",
       "imageCaption": "Trading floor displays at the Nasdaq MarketSite in Times Square tracking institutional roadshow demand for Anthropic.",
@@ -3257,7 +3257,7 @@ In Washington, national security officials convened in the White House Situation
         "role": "Financial Markets & Fintech Correspondent",
         "avatar": ""
       },
-      "publishedAt": "4h ago",
+      "publishedAt": "Nov 12, 2026",
       "readTime": "7 min read",
       "imageUrl": "/images/news/securitize-acquires-river-one-to-expand-tokenized-lending.webp",
       "imageCaption": "Digital terminal displays real-time yields on tokenized U.S. Treasuries and institutional private credit pools.",
@@ -3293,7 +3293,7 @@ In Washington, national security officials convened in the White House Situation
         "role": "Wall Street & Financial Markets Bureau",
         "avatar": ""
       },
-      "publishedAt": "3h ago",
+      "publishedAt": "Nov 6, 2026",
       "readTime": "7 min read",
       "imageUrl": "/images/news/dow-surges-1104-points-as-wall-street-stages-monster-rally.webp",
       "imageCaption": "The trading floor of the New York Stock Exchange during Monday historic 1,104-point Dow surge.",
@@ -3329,7 +3329,7 @@ In Washington, national security officials convened in the White House Situation
         "role": "Wall Street & Global Markets Bureau",
         "avatar": ""
       },
-      "publishedAt": "3h ago",
+      "publishedAt": "Nov 12, 2026",
       "readTime": "6 min read",
       "imageUrl": "/images/news/sp-500-hits-record-high-on-midterm-clarity-and-steady-jobs-data.webp",
       "imageCaption": "Traders celebrate on the floor of the New York Stock Exchange as indices climb to record highs following election results.",
@@ -3370,7 +3370,7 @@ The energy price shock arrives at an exceptionally delicate juncture for domesti
         role: 'Global Energy & Financial Markets Desk',
         avatar: ''
       },
-      publishedAt: '4h ago',
+      publishedAt: 'Nov 8, 2026',
       readTime: '8 min read',
       imageUrl: '/images/news/crude-oil-surges-above-89-as-us-strikes-iranian-drone-bases.avif',
       imageCaption: 'A commercial crude oil tanker navigates international shipping lanes in the Persian Gulf under heightened security observation.',
@@ -3399,7 +3399,7 @@ The energy price shock arrives at an exceptionally delicate juncture for domesti
         "role": "Editorial Board & Newsroom Desks",
         "avatar": ""
       },
-      "publishedAt": "3h ago",
+      "publishedAt": "Nov 12, 2026",
       "readTime": "6 min read",
       "imageUrl": "/images/news/oracle-prices-historic-20-billion-debt-and-equity-offering-to-finance-massive-ai-cloud-data-center-expansion.webp",
       "imageCaption": "Oracle corporate operations hub in Austin, Texas, where the software giant finalized its landmark $20 billion public capital raise.",
@@ -3438,7 +3438,7 @@ With multi-billion-dollar domestic semiconductor facilities under construction a
         role: 'Editorial Board & Newsroom Desks',
         avatar: ''
       },
-      publishedAt: '4h ago',
+      publishedAt: 'Nov 6, 2026',
       readTime: '6 min read',
       imageUrl: '/images/news/university-engineering-co-op-students-earn-record-99-5m-as-tech-employers-compete-for-applied-talent.webp',
       imageCaption: 'Undergraduate engineering students test robotics systems during an industrial cooperative placement.',
@@ -3472,7 +3472,7 @@ Domestically, U.S. oil and gas producers operating across the Permian Basin in T
         role: 'Editorial Board & Newsroom Desks',
         avatar: ''
       },
-      publishedAt: '1h ago',
+      publishedAt: 'Nov 4, 2026',
       readTime: '5 min read',
       imageUrl: '/images/news/crude-oil-climbs-toward-90-as-global-supply-concerns-mount-over-stalled-middle-east-talks.avif',
       commentCount: 14
@@ -3496,7 +3496,7 @@ However, independent retailers argue that payment fees have become the second-hi
         role: 'Editorial Board & Newsroom Desks',
         avatar: ''
       },
-      publishedAt: '4h ago',
+      publishedAt: 'Nov 5, 2026',
       readTime: '5 min read',
       imageUrl: '/images/news/main-street-merchants-and-retail-coalitions-press-congress-to-pass-credit-card-competition-act-as-fees-hit-record-highs.jpg',
       commentCount: 6
@@ -3520,7 +3520,7 @@ Sports finance experts note that the move mirrors a broader institutional trend 
         role: 'Editorial Board & Newsroom Desks',
         avatar: ''
       },
-      publishedAt: '5h ago',
+      publishedAt: 'Nov 6, 2026',
       readTime: '5 min read',
       imageUrl: '/images/news/msg-sports-advances-corporate-separation-of-new-york-rangers-to-unlock-pure-play-nhl-franchise-value.jpg',
       commentCount: 4
@@ -3619,7 +3619,7 @@ Sports finance experts note that the move mirrors a broader institutional trend 
         "role": "Senior Artificial Intelligence & Tech Policy Editor",
         "avatar": ""
       },
-      "publishedAt": "3h ago",
+      "publishedAt": "Nov 15, 2026",
       "readTime": "8 min read",
       "imageUrl": "/images/news/google-expands-gemini-into-autonomous-ai-agent-for-real-tasks.webp?v=2",
       "imageCaption": "Visual demonstration of Gemini's new autonomous task execution and agentic workflow platform.",
@@ -3654,7 +3654,7 @@ Sports finance experts note that the move mirrors a broader institutional trend 
         role: "Silicon Valley & Artificial Intelligence Bureau",
         avatar: ''
       },
-      publishedAt: "5h ago",
+      publishedAt: "Nov 12, 2026",
       readTime: "8 min read",
       imageUrl: "/images/news/gta-vi-countdown-upends-gaming-slates-as-budgets-eclipse-1b.webp?v=2",
       imageCaption: "Promotional billboard displays for upcoming next-generation gaming hardware and high-budget software titles.",
@@ -3688,7 +3688,7 @@ Sports finance experts note that the move mirrors a broader institutional trend 
         role: "Silicon Valley & Artificial Intelligence Bureau",
         avatar: ''
       },
-      publishedAt: "5h ago",
+      publishedAt: "Nov 12, 2026",
       readTime: "8 min read",
       imageUrl: "/images/news/jensen-huang-nvidia-return-petition-tops-160000-signatures.webp?v=2",
       imageCaption: "Jensen Huang delivering an AI keynote prior to his sudden departure, surrounded by enterprise compute hardware.",
@@ -3725,7 +3725,7 @@ Sports finance experts note that the move mirrors a broader institutional trend 
         "role": "Silicon Valley & Artificial Intelligence Lead",
         "avatar": ""
       },
-      "publishedAt": "5h ago",
+      "publishedAt": "Nov 12, 2026",
       "readTime": "9 min read",
       "imageUrl": "/images/news/jensen-huang-abruptly-steps-down-as-ceo-of-nvidia-in-shock-exit.webp",
       "imageCaption": "Nvidia headquarters in Santa Clara, California, where Jensen Huang abruptly resigned as CEO.",
@@ -3761,7 +3761,7 @@ Sports finance experts note that the move mirrors a broader institutional trend 
         "role": "Silicon Valley & Cybersecurity Bureau",
         "avatar": ""
       },
-      "publishedAt": "5h ago",
+      "publishedAt": "Nov 9, 2026",
       "readTime": "8 min read",
       "imageUrl": "/images/news/deepmind-alphaproof-code-verifies-signal-encryption-protocol.webp",
       "imageCaption": "Automated formal mathematical verification logic trees displayed on terminal screens inside DeepMind laboratories.",
@@ -3797,7 +3797,7 @@ Sports finance experts note that the move mirrors a broader institutional trend 
         "role": "Silicon Valley & Artificial Intelligence Lead",
         "avatar": ""
       },
-      "publishedAt": "5h ago",
+      "publishedAt": "Nov 12, 2026",
       "readTime": "8 min read",
       "imageUrl": "/images/news/openai-launches-businesses-in-chatgpt-enterprise-ai-platform.webp",
       "imageCaption": "OpenAI headquarters in San Francisco, California, where executives introduced the new 'Businesses in ChatGPT' platform.",
@@ -3833,7 +3833,7 @@ Sports finance experts note that the move mirrors a broader institutional trend 
         "role": "Global Technology Regulation & Cyber Law Desk",
         "avatar": ""
       },
-      "publishedAt": "4h ago",
+      "publishedAt": "Nov 8, 2026",
       "readTime": "8 min read",
       "imageUrl": "/images/news/eu-drafts-digital-fairness-act-to-ban-deceptive-web-design.webp",
       "imageCaption": "The European Commission headquarters in Brussels, where the Digital Fairness Act was drafted.",
@@ -3869,7 +3869,7 @@ Sports finance experts note that the move mirrors a broader institutional trend 
         "role": "Frontier AI & Technology Bureau",
         "avatar": ""
       },
-      "publishedAt": "4h ago",
+      "publishedAt": "Nov 12, 2026",
       "readTime": "7 min read",
       "imageUrl": "/images/news/openai-and-anthropic-launch-joint-safety-accord-for-ai-agents.webp",
       "imageCaption": "Enterprise cloud servers and neural network architecture monitoring terminals in San Francisco, California.",
@@ -3910,7 +3910,7 @@ Despite these assurances, regulatory sentiment in Washington and Brussels has ha
         role: 'Silicon Valley Tech & Antitrust Bureau',
         avatar: ''
       },
-      publishedAt: '4h ago',
+      publishedAt: 'Nov 9, 2026',
       readTime: '8 min read',
       imageUrl: '/images/news/doj-expands-nvidia-antitrust-probe-over-hugging-face-buyout.jpg',
       imageCaption: 'Signage outside the Department of Justice headquarters in Washington, where antitrust regulators are examining artificial intelligence consolidation.',
@@ -3939,7 +3939,7 @@ Despite these assurances, regulatory sentiment in Washington and Brussels has ha
         "role": "Editorial Board & Newsroom Desks",
         "avatar": ""
       },
-      "publishedAt": "1h ago",
+      "publishedAt": "Nov 12, 2026",
       "readTime": "7 min read",
       "imageUrl": "/images/news/us-forces-conduct-retaliatory-strikes-near-qeshm-island-amid-tense-qatari-mediated-iran-negotiations.webp",
       "imageCaption": "A U.S. Navy guided-missile destroyer operates on high alert near the Strait of Hormuz following targeted defensive strikes on Qeshm Island.",
@@ -3978,7 +3978,7 @@ In response to congressional inquiries, leading enterprise AI laboratories annou
         role: 'Editorial Board & Newsroom Desks',
         avatar: ''
       },
-      publishedAt: '4h ago',
+      publishedAt: 'Nov 8, 2026',
       readTime: '6 min read',
       imageUrl: '/images/news/lawmakers-scrutinize-autonomous-ai-cybersecurity-agents-following-unauthorized-model-exploits.webp',
       imageCaption: 'Cybersecurity defense analysts monitor telemetry from autonomous software test environments.',
@@ -4012,7 +4012,7 @@ Industry analysts emphasize that maintaining clear, transparent regulatory frame
         role: 'Editorial Board & Newsroom Desks',
         avatar: ''
       },
-      publishedAt: '2h ago',
+      publishedAt: 'Nov 7, 2026',
       readTime: '5 min read',
       imageUrl: '/images/news/nvidia-ceo-scrutiny-and-ai-export-controls-draw-fresh-spotlight-in-washington-semiconductor-debate.jpeg',
       commentCount: 11
@@ -4036,7 +4036,7 @@ Sociologists and tech policy researchers note that the Menomonie decision marks 
         role: 'Editorial Board & Newsroom Desks',
         avatar: ''
       },
-      publishedAt: '3h ago',
+      publishedAt: 'Nov 5, 2026',
       readTime: '5 min read',
       imageUrl: '/images/news/midwest-townspeople-halt-multibillion-dollar-ai-data-center-project-in-historic-pushback-against-tech-sprawl.avif',
       commentCount: 9
@@ -4060,7 +4060,7 @@ Aerospace financial analysts estimate that SpaceX's commercial launch and satell
         role: 'Editorial Board & Newsroom Desks',
         avatar: ''
       },
-      publishedAt: '4h ago',
+      publishedAt: 'Nov 8, 2026',
       readTime: '5 min read',
       imageUrl: '/images/news/spacex-releases-landmark-financial-performance-as-starlink-satellite-constellation-expands-across-enterprise-market.jpeg',
       commentCount: 16
@@ -4159,7 +4159,7 @@ Aerospace financial analysts estimate that SpaceX's commercial launch and satell
         "role": "Culture & Entertainment Editor",
         "avatar": ""
       },
-      "publishedAt": "4h ago",
+      "publishedAt": "Nov 14, 2026",
       "readTime": "7 min read",
       "imageUrl": "/images/news/raye-leads-2027-grammy-nominations-with-record-tying-11-nods.webp?v=2",
       "imageCaption": "British sensation Raye celebrates a record-tying 11 nominations ahead of the 69th Grammy Awards.",
@@ -4194,7 +4194,7 @@ Aerospace financial analysts estimate that SpaceX's commercial launch and satell
         role: "Culture & Entertainment Bureau",
         avatar: ''
       },
-      publishedAt: "6h ago",
+      publishedAt: "Nov 11, 2026",
       readTime: "6 min read",
       imageUrl: "/images/news/robert-pattinson-cast-as-james-bond-in-denis-villeneuve-reboot.webp?v=2",
       imageCaption: "Robert Pattinson attending a film gala, newly announced as the world's most famous secret agent in Bond 26.",
@@ -4228,7 +4228,7 @@ Aerospace financial analysts estimate that SpaceX's commercial launch and satell
         role: "Culture & Entertainment Bureau",
         avatar: ''
       },
-      publishedAt: "6h ago",
+      publishedAt: "Nov 9, 2026",
       readTime: "6 min read",
       imageUrl: "/images/news/johnny-depp-tops-box-office-as-ebenezer-scores-42m-global-debut.webp?v=2",
       imageCaption: "Johnny Depp in character as Ebenezer Scrooge in Paramount's gothic holiday adaptation directed by Ti West.",
@@ -4264,7 +4264,7 @@ Aerospace financial analysts estimate that SpaceX's commercial launch and satell
         "role": "Culture & Entertainment Bureau",
         "avatar": ""
       },
-      "publishedAt": "6h ago",
+      "publishedAt": "Nov 7, 2026",
       "readTime": "7 min read",
       "imageUrl": "/images/news/hollywood-takes-an-anti-tech-turn-with-dystopian-wave-of-films.webp",
       "imageCaption": "The iconic Hollywood sign overlooking Los Angeles amidst a cultural and cinematic shift against Big Tech.",
@@ -4299,7 +4299,7 @@ Aerospace financial analysts estimate that SpaceX's commercial launch and satell
         "role": "Culture & Entertainment Bureau",
         "avatar": ""
       },
-      "publishedAt": "6h ago",
+      "publishedAt": "Nov 10, 2026",
       "readTime": "7 min read",
       "imageUrl": "/images/news/dua-lipa-named-historic-first-british-female-coachella-headliner.webp",
       "imageCaption": "The Coachella main stage under twilight in Indio, California, where Dua Lipa will headline in April 2027.",
@@ -4334,7 +4334,7 @@ Aerospace financial analysts estimate that SpaceX's commercial launch and satell
         "role": "Culture & Music Industry Editor",
         "avatar": ""
       },
-      "publishedAt": "6h ago",
+      "publishedAt": "Nov 13, 2026",
       "readTime": "7 min read",
       "imageUrl": "/images/news/ella-langley-and-olivia-rodrigo-lead-2027-grammy-predictions.webp",
       "imageCaption": "Recording Academy Grammy statuettes displayed at the Grammy Museum in Los Angeles ahead of the annual ballot deadline.",
@@ -4370,7 +4370,7 @@ Aerospace financial analysts estimate that SpaceX's commercial launch and satell
         "role": "Film Culture & Hollywood Studio Industry Bureau",
         "avatar": ""
       },
-      "publishedAt": "5h ago",
+      "publishedAt": "Nov 12, 2026",
       "readTime": "7 min read",
       "imageUrl": "/images/news/johnny-depp-readies-hollywood-return-in-paramount-ebenezer.webp",
       "imageCaption": "Johnny Depp arrives at a promotional preview screening for Paramount Pictures Ebenezer.",
@@ -4406,7 +4406,7 @@ Aerospace financial analysts estimate that SpaceX's commercial launch and satell
         "role": "Culture, Arts & Entertainment Desk",
         "avatar": ""
       },
-      "publishedAt": "5h ago",
+      "publishedAt": "Nov 12, 2026",
       "readTime": "6 min read",
       "imageUrl": "/images/news/grammy-nominations-2027-global-and-indie-artists-dominate.webp",
       "imageCaption": "The iconic golden Grammy Award statuette on display at the Grammy Museum in downtown Los Angeles.",
@@ -4447,7 +4447,7 @@ With the film's worldwide cumulative gross now standing at an astounding $1.68 b
         role: 'Hollywood & Global Culture Desk',
         avatar: ''
       },
-      publishedAt: '5h ago',
+      publishedAt: 'Nov 8, 2026',
       readTime: '7 min read',
       imageUrl: '/images/news/christopher-nolans-the-odyssey-hits-record-1-17-billion.jpg',
       imageCaption: 'A theater marquee in Hollywood announces sold-out IMAX 70mm screenings of Christopher Nolan\'s The Odyssey.',
@@ -4475,7 +4475,7 @@ With the film's worldwide cumulative gross now standing at an astounding $1.68 b
         "role": "Editorial Board & Newsroom Desks",
         "avatar": ""
       },
-      "publishedAt": "4h ago",
+      "publishedAt": "Nov 6, 2026",
       "readTime": "6 min read",
       "imageUrl": "/images/news/subscription-fatigue-hits-streaming-giants-as-pay-tv-satisfaction-rebounds-in-latest-consumer-index.jpg",
       "imageCaption": "A smart television displaying competing media streaming applications as American consumers push back against escalating subscription prices.",
@@ -4515,7 +4515,7 @@ Hollywood creative guilds and talent agencies have watched the integration close
         role: 'Editorial Board & Newsroom Desks',
         avatar: ''
       },
-      publishedAt: '2h ago',
+      publishedAt: 'Nov 5, 2026',
       readTime: '5 min read',
       imageUrl: '/images/news/paramount-skydance-merger-completes-formal-integration-uniting-studio-blockbusters-with-gaming-franchises.jpg',
       commentCount: 8
@@ -4537,7 +4537,7 @@ Furthermore, cloud streaming platforms and mobile distribution networks have low
         role: 'Editorial Board & Newsroom Desks',
         avatar: ''
       },
-      publishedAt: '4h ago',
+      publishedAt: 'Nov 4, 2026',
       readTime: '5 min read',
       imageUrl: '/images/news/interactive-gaming-surpasses-film-and-television-as-the-leading-growth-engine-for-global-entertainment-ip.jpg',
       commentCount: 5
@@ -4594,7 +4594,7 @@ Furthermore, cloud streaming platforms and mobile distribution networks have low
             "role": "Metropolitan Sports Bureau",
             "avatar": "/images/authors/sarah_mitchell.jpg"
         },
-        "publishedAt": "4h ago",
+        "publishedAt": "Yesterday",
         "readTime": "7 min read",
         "imageUrl": "/images/news/knicks-towns-brunson-toronto-victory.webp",
         "imageCaption": "Karl-Anthony Towns pulls down a contested defensive rebound as Jalen Brunson directs the transition offense during the Knicks’ fourth-quarter surge in Toronto.",
@@ -4635,7 +4635,7 @@ Furthermore, cloud streaming platforms and mobile distribution networks have low
         "role": "Senior NBA & Professional Sports Correspondent",
         "avatar": ""
       },
-      "publishedAt": "4h ago",
+      "publishedAt": "Nov 15, 2026",
       "readTime": "7 min read",
       "imageUrl": "/images/news/quentin-grimes-drops-47-as-lakers-edge-hornets-118-114-in-ot.webp?v=2",
       "imageCaption": "Quentin Grimes lets fly the game-tying three-pointer with 1.7 seconds left in Charlotte.",
@@ -4670,7 +4670,7 @@ Furthermore, cloud streaming platforms and mobile distribution networks have low
         role: "Senior Sports Correspondent",
         avatar: ''
       },
-      publishedAt: "7h ago",
+      publishedAt: "Nov 10, 2026",
       readTime: "6 min read",
       imageUrl: "/images/news/chargers-edge-ravens-23-20-in-thrilling-monday-night-duel.webp?v=2",
       imageCaption: "Justin Herbert calls signals at the line of scrimmage during the fourth quarter against the Baltimore Ravens.",
@@ -4704,7 +4704,7 @@ Furthermore, cloud streaming platforms and mobile distribution networks have low
         role: "Senior Sports Correspondent",
         avatar: ''
       },
-      publishedAt: "7h ago",
+      publishedAt: "Nov 8, 2026",
       readTime: "6 min read",
       imageUrl: "/images/news/luka-doncic-scores-43-points-to-power-lakers-over-phoenix-suns.webp?v=2",
       imageCaption: "Luka Dončić celebrates a decisive fourth-quarter step-back three-pointer against the Phoenix Suns.",
@@ -4740,7 +4740,7 @@ Furthermore, cloud streaming platforms and mobile distribution networks have low
         "role": "Senior Sports Columnist",
         "avatar": ""
       },
-      "publishedAt": "7h ago",
+      "publishedAt": "Nov 9, 2026",
       "readTime": "7 min read",
       "imageUrl": "/images/news/cade-cunningham-explodes-for-52-points-as-pistons-edge-wizards.webp",
       "imageCaption": "Detroit Pistons guard Cade Cunningham celebrates following his historic 52-point double-overtime victory.",
@@ -4775,7 +4775,7 @@ Furthermore, cloud streaming platforms and mobile distribution networks have low
         "role": "Senior Sports Columnist",
         "avatar": ""
       },
-      "publishedAt": "7h ago",
+      "publishedAt": "Nov 8, 2026",
       "readTime": "7 min read",
       "imageUrl": "/images/news/us-withdraws-from-u-17-world-cup-in-qatar-over-security-concerns.webp",
       "imageCaption": "The United States Men's Under-17 National Team in formation ahead of a recent international training match.",
@@ -4810,7 +4810,7 @@ Furthermore, cloud streaming platforms and mobile distribution networks have low
         "role": "Senior Sports Columnist",
         "avatar": ""
       },
-      "publishedAt": "7h ago",
+      "publishedAt": "Nov 11, 2026",
       "readTime": "7 min read",
       "imageUrl": "/images/news/michigan-state-downs-duke-79-73-in-chicago-college-showdown.webp",
       "imageCaption": "Michigan State Spartans celebrate following their 79-73 victory over the Duke Blue Devils at the United Center in Chicago.",
@@ -4845,7 +4845,7 @@ Furthermore, cloud streaming platforms and mobile distribution networks have low
         "role": "NFL & National Sports Bureau",
         "avatar": ""
       },
-      "publishedAt": "5h ago",
+      "publishedAt": "Nov 10, 2026",
       "readTime": "7 min read",
       "imageUrl": "/images/news/bills-stifle-vikings-23-6-in-dominant-monday-night-football.webp",
       "imageCaption": "Josh Allen celebrates a Buffalo Bills touchdown during Monday Night Football in Minneapolis.",
@@ -4880,7 +4880,7 @@ Furthermore, cloud streaming platforms and mobile distribution networks have low
         "role": "National Sports & Athletics Bureau",
         "avatar": ""
       },
-      "publishedAt": "5h ago",
+      "publishedAt": "Nov 1, 2026",
       "readTime": "6 min read",
       "imageUrl": "/images/news/dodgers-win-2026-world-series-in-extra-inning-game-7-thriller.webp",
       "imageCaption": "Dodgers players celebrate on the mound at Yankee Stadium after securing the final out of Game 7 in extra innings.",
@@ -4921,7 +4921,7 @@ Across sports analytics desks and sportsbooks in Las Vegas, the reaction was imm
         role: 'National Football & Sports Desk',
         avatar: ''
       },
-      publishedAt: '5h ago',
+      publishedAt: 'Nov 7, 2026',
       readTime: '7 min read',
       imageUrl: '/images/news/lamar-jackson-out-on-injured-reserve-following-thumb-surgery.webp',
       imageCaption: 'Baltimore Ravens quarterback Lamar Jackson confers with head coach John Harbaugh on the sideline during a recent home game.',
@@ -4950,7 +4950,7 @@ Across sports analytics desks and sportsbooks in Las Vegas, the reaction was imm
         "role": "Editorial Board & Newsroom Desks",
         "avatar": ""
       },
-      "publishedAt": "3h ago",
+      "publishedAt": "Nov 2, 2026",
       "readTime": "6 min read",
       "imageUrl": "/images/news/twenty-year-old-kimi-antonelli-becomes-youngest-formula-1-world-champion-in-historic-mexico-city-grand-prix.webp",
       "imageCaption": "Kimi Antonelli powers his Mercedes W17 through the Foro Sol stadium section at the Autódromo Hermanos Rodríguez en route to his historic championship.",
@@ -4990,7 +4990,7 @@ Wheelchair division champions Daniel Romanchuk of the United States and Susannah
         role: 'Editorial Board & Newsroom Desks',
         avatar: ''
       },
-      publishedAt: '2h ago',
+      publishedAt: 'Nov 3, 2026',
       readTime: '5 min read',
       imageUrl: '/images/news/new-york-city-marathon-2026-chepkirui-almgren-historic-victories-central-park.jpg',
       commentCount: 19
@@ -5012,7 +5012,7 @@ Meanwhile, on the hardwood, NBA action reached a fever pitch Sunday evening as s
         role: 'Editorial Board & Newsroom Desks',
         avatar: ''
       },
-      publishedAt: '3h ago',
+      publishedAt: 'Nov 4, 2026',
       readTime: '5 min read',
       imageUrl: '/images/news/nfl-week-9-commanders-crush-eagles-rams-chargers-derby-luka-45-points.jpg',
       commentCount: 12
@@ -5034,7 +5034,7 @@ On the stadium infrastructure front, club executives evaluated demonstrations of
         role: 'Editorial Board & Newsroom Desks',
         avatar: ''
       },
-      publishedAt: '5h ago',
+      publishedAt: 'Nov 6, 2026',
       readTime: '5 min read',
       imageUrl: '/images/news/mlb-tech-summit-miami-2026-ai-analytics-stadium-infrastructure-revolution.webp',
       commentCount: 6
@@ -5092,7 +5092,7 @@ On the stadium infrastructure front, club executives evaluated demonstrations of
             "role": "National Science & Energy Desk",
             "avatar": "/images/authors/sarah_mitchell.jpg"
         },
-        "publishedAt": "7h ago",
+        "publishedAt": "Yesterday",
         "readTime": "8 min read",
         "imageUrl": "/images/news/ny-clean-heat-geothermal-energy-program.webp",
         "imageCaption": "Engineers and geothermal drilling specialists inspect closed-loop thermal transfer piping for an urban district heating conversion project in Brooklyn.",
@@ -5133,7 +5133,7 @@ On the stadium infrastructure front, club executives evaluated demonstrations of
         "role": "Astrophysics & Space Systems Editor",
         "avatar": ""
       },
-      "publishedAt": "5h ago",
+      "publishedAt": "Nov 14, 2026",
       "readTime": "8 min read",
       "imageUrl": "/images/news/nasa-astronauts-3d-print-living-human-tissues-aboard-the-iss.webp?v=2",
       "imageCaption": "NASA astronaut inspecting the Life Sciences Glovebox during orbital 3D tissue bioprinting runs aboard the ISS.",
@@ -5168,7 +5168,7 @@ On the stadium infrastructure front, club executives evaluated demonstrations of
         role: "Aerospace & Planetary Exploration Desk",
         avatar: ''
       },
-      publishedAt: "8h ago",
+      publishedAt: "Nov 9, 2026",
       readTime: "8 min read",
       imageUrl: "/images/news/voyager-1-reaches-one-light-day-from-earth-in-historic-milestone.webp?v=2",
       imageCaption: "Artist concept of the Voyager 1 robotic probe traversing the plasma boundaries of interstellar space.",
@@ -5202,7 +5202,7 @@ On the stadium infrastructure front, club executives evaluated demonstrations of
         role: "Aerospace & Planetary Exploration Desk",
         avatar: ''
       },
-      publishedAt: "8h ago",
+      publishedAt: "Nov 7, 2026",
       readTime: "8 min read",
       imageUrl: "/images/news/spacex-catches-starship-with-mechazilla-chopsticks-in-flight-15.webp?v=2",
       imageCaption: "The Mechazilla launch tower chopstick arms secure the returning Starship upper stage in Boca Chica, Texas.",
@@ -5239,7 +5239,7 @@ On the stadium infrastructure front, club executives evaluated demonstrations of
         "role": "Astrophysics & Space Exploration Bureau",
         "avatar": ""
       },
-      "publishedAt": "8h ago",
+      "publishedAt": "Nov 8, 2026",
       "readTime": "8 min read",
       "imageUrl": "/images/news/nasa-escapade-twin-probes-slingshot-past-earth-en-route-to-mars.webp",
       "imageCaption": "Artist concept of NASA's twin ESCAPADE spacecraft slingshotting past Earth en route to Mars.",
@@ -5275,7 +5275,7 @@ On the stadium infrastructure front, club executives evaluated demonstrations of
         "role": "Astrophysics & Space Exploration Bureau",
         "avatar": ""
       },
-      "publishedAt": "8h ago",
+      "publishedAt": "Nov 5, 2026",
       "readTime": "8 min read",
       "imageUrl": "/images/news/nature-study-confirms-accuracy-of-historic-m87-black-hole-image.webp",
       "imageCaption": "The glowing ring of superheated plasma encircling the M87 supermassive black hole validated by independent Nature study.",
@@ -5311,7 +5311,7 @@ On the stadium infrastructure front, club executives evaluated demonstrations of
         "role": "Space & Planetary Exploration Bureau",
         "avatar": ""
       },
-      "publishedAt": "8h ago",
+      "publishedAt": "Nov 7, 2026",
       "readTime": "8 min read",
       "imageUrl": "/images/news/nasa-unveils-promise-moon-rover-built-from-mars-rover-spares.webp",
       "imageCaption": "NASA technicians inspect the PROMISE lunar rover prototype inside the Spacecraft Assembly Facility clean room at JPL in Pasadena.",
@@ -5347,7 +5347,7 @@ On the stadium infrastructure front, club executives evaluated demonstrations of
         "role": "Aerospace & Human Deep-Space Exploration Desk",
         "avatar": ""
       },
-      "publishedAt": "6h ago",
+      "publishedAt": "Nov 4, 2026",
       "readTime": "7 min read",
       "imageUrl": "/images/news/nasa-chapea-crew-completes-378-days-inside-mars-simulation.webp",
       "imageCaption": "The four CHAPEA analog crew members celebrate as they step out of the simulated Mars habitat.",
@@ -5383,7 +5383,7 @@ On the stadium infrastructure front, club executives evaluated demonstrations of
         "role": "Space Exploration & Astrophysics Desk",
         "avatar": ""
       },
-      "publishedAt": "6h ago",
+      "publishedAt": "Nov 6, 2026",
       "readTime": "7 min read",
       "imageUrl": "/images/news/webb-telescope-finds-water-vapor-on-habitable-zone-exoplanet.webp",
       "imageCaption": "Artist rendering of an Earth-sized rocky exoplanet with atmospheric water vapor and clouds in the habitable zone.",
@@ -5424,7 +5424,7 @@ Attached to the spacecraft's chassis remains the iconic Golden Record: a gold-pl
         role: 'Aerospace & Astrophysics Science Bureau',
         avatar: ''
       },
-      publishedAt: '6h ago',
+      publishedAt: 'Nov 9, 2026',
       readTime: '8 min read',
       imageUrl: '/images/news/nasa-voyager-1-reaches-record-one-light-day-distance-from-earth.jpg',
       imageCaption: 'An artist rendering of NASA\'s Voyager 1 spacecraft operating in the uncharted plasma density of deep interstellar space.',
@@ -5452,7 +5452,7 @@ Attached to the spacecraft's chassis remains the iconic Golden Record: a gold-pl
         "role": "Editorial Board & Newsroom Desks",
         "avatar": ""
       },
-      "publishedAt": "2h ago",
+      "publishedAt": "Nov 5, 2026",
       "readTime": "6 min read",
       "imageUrl": "/images/news/catastrophic-flash-floods-force-emergency-evacuations-across-southwestern-colorado-as-atmospheric-river-slams-rockies.jpg",
       "imageCaption": "Emergency response vehicles monitor raging floodwaters along the swollen Animas River in Durango, Colorado, following historic rainfall.",
@@ -5491,7 +5491,7 @@ Civic leaders across New England praised the collaborative model, noting that pa
         role: 'Editorial Board & Newsroom Desks',
         avatar: ''
       },
-      publishedAt: '5h ago',
+      publishedAt: 'Nov 6, 2026',
       readTime: '5 min read',
       imageUrl: '/images/news/community-water-safety-programs-in-massachusetts-expand-free-life-saving-training-for-youth.webp',
       imageCaption: 'Instructors guide youth swimmers through aquatic safety training at a community recreation center.',
@@ -5523,7 +5523,7 @@ Scientists emphasized that continuous ground deformation GPS telemetry and therm
         role: 'Editorial Board & Newsroom Desks',
         avatar: ''
       },
-      publishedAt: '4h ago',
+      publishedAt: 'Nov 4, 2026',
       readTime: '5 min read',
       imageUrl: '/images/news/usgs-supervolcano-research-reveals-yellowstone-eruptions-occur-in-complex-multi-pulse-sequences.jpg',
       commentCount: 14
@@ -5545,7 +5545,7 @@ Domestic automotive manufacturers have committed multi-billion-dollar off-take a
         role: 'Editorial Board & Newsroom Desks',
         avatar: ''
       },
-      publishedAt: '5h ago',
+      publishedAt: 'Nov 5, 2026',
       readTime: '5 min read',
       imageUrl: '/images/news/advanced-solid-state-battery-pilot-facilities-break-ground-across-midwest-clean-tech-corridors.jpg',
       commentCount: 7
@@ -5604,7 +5604,7 @@ Domestic automotive manufacturers have committed multi-billion-dollar off-take a
         "role": "Guest Contributing Columnist & Urban Economics Fellow",
         "avatar": ""
       },
-      "publishedAt": "5h ago",
+      "publishedAt": "Nov 16, 2026",
       "readTime": "8 min read",
       "imageUrl": "/images/news/why-starving-new-york-transit-threatens-americas-economy.webp?v=2",
       "imageCaption": "Crowds of morning commuters pack an uptown subway platform during peak Manhattan rush hour.",
@@ -5639,7 +5639,7 @@ Domestic automotive manufacturers have committed multi-billion-dollar off-take a
         role: "Senior Opinion Columnist",
         avatar: ''
       },
-      publishedAt: "10h ago",
+      publishedAt: "Nov 15, 2026",
       readTime: "7 min read",
       imageUrl: "/images/news/why-muzzling-congressional-testimony-threatens-basic-governance.webp?v=2",
       imageCaption: "The United States Capitol dome silhouetted at dusk during high-stakes legislative sessions in Washington.",
@@ -5673,7 +5673,7 @@ Domestic automotive manufacturers have committed multi-billion-dollar off-take a
         role: "Senior Opinion Columnist",
         avatar: ''
       },
-      publishedAt: "10h ago",
+      publishedAt: "Nov 11, 2026",
       readTime: "7 min read",
       imageUrl: "/images/news/why-the-faa-system-collapse-exposes-decades-of-federal-neglect.webp?v=2",
       imageCaption: "A crowded departures board showing nationwide delays reflecting chronic federal infrastructure underfunding.",
@@ -5710,7 +5710,7 @@ Domestic automotive manufacturers have committed multi-billion-dollar off-take a
         "role": "Editorial Board & Constitutional Affairs",
         "avatar": ""
       },
-      "publishedAt": "10h ago",
+      "publishedAt": "Nov 11, 2026",
       "readTime": "8 min read",
       "imageUrl": "/images/news/why-sending-jd-vance-to-police-blue-cities-endangers-federalism.webp",
       "imageCaption": "The United States Capitol and federal corridors in Washington, where constitutional debates over federalism rage.",
@@ -5746,7 +5746,7 @@ Domestic automotive manufacturers have committed multi-billion-dollar off-take a
         "role": "Editorial Board & Constitutional Affairs",
         "avatar": ""
       },
-      "publishedAt": "10h ago",
+      "publishedAt": "Nov 13, 2026",
       "readTime": "8 min read",
       "imageUrl": "/images/news/why-moving-cabinet-chiefs-to-military-bases-sets-a-bad-precedent.webp",
       "imageCaption": "Security barriers and sentry checkpoints at an armed forces installation in the capital region.",
@@ -5782,7 +5782,7 @@ Domestic automotive manufacturers have committed multi-billion-dollar off-take a
         "role": "Legal Affairs Columnist & Editorial Board",
         "avatar": ""
       },
-      "publishedAt": "14h ago",
+      "publishedAt": "Nov 10, 2026",
       "readTime": "8 min read",
       "imageUrl": "/images/news/why-court-decision-on-reporter-records-protects-press-freedom.webp",
       "imageCaption": "The United States Court of Appeals for the District of Columbia Circuit, where judges reaffirmed First Amendment reporter privilege.",
@@ -5817,7 +5817,7 @@ Domestic automotive manufacturers have committed multi-billion-dollar off-take a
         "role": "Editorial Board & National Economic Policy Commentary",
         "avatar": ""
       },
-      "publishedAt": "7h ago",
+      "publishedAt": "Nov 8, 2026",
       "readTime": "8 min read",
       "imageUrl": "/images/news/why-lame-duck-congress-must-pass-energy-permitting-reform.webp",
       "imageCaption": "High-voltage electrical transmission towers stretch across the American landscape at sunset.",
@@ -5853,7 +5853,7 @@ Domestic automotive manufacturers have committed multi-billion-dollar off-take a
         "role": "Editorial Board & Opinion Desk",
         "avatar": ""
       },
-      "publishedAt": "4h ago",
+      "publishedAt": "Nov 4, 2026",
       "readTime": "8 min read",
       "imageUrl": "/images/news/divided-nation-why-americas-midterm-vote-demands-compromise.webp",
       "imageCaption": "The sunset over the National Mall and the Lincoln Memorial in Washington, D.C.",
@@ -5894,7 +5894,7 @@ As the ballots are tabulated and the congressional map takes shape over the comi
         role: 'Editorial Board',
         avatar: ''
       },
-      publishedAt: '7h ago',
+      publishedAt: 'Nov 3, 2026',
       readTime: '8 min read',
       imageUrl: '/images/news/2026-midterm-choice-why-divided-government-faces-crucial-test.webp',
       imageCaption: 'The Capitol dome illuminated at twilight on election night in Washington.',
@@ -5926,7 +5926,7 @@ As voters enter polling precincts tomorrow, the enduring promise of the American
         role: 'Editorial Board & Newsroom Desks',
         avatar: ''
       },
-      publishedAt: '2h ago',
+      publishedAt: 'Nov 3, 2026',
       readTime: '6 min read',
       imageUrl: '/images/news/the-closing-argument-america-votes-under-the-shadow-of-polarized-governance.jpeg',
       commentCount: 28
@@ -5948,7 +5948,7 @@ When independent academic researchers, startup founders, and global developers h
         role: 'Editorial Board & Newsroom Desks',
         avatar: ''
       },
-      publishedAt: '4h ago',
+      publishedAt: 'Nov 6, 2026',
       readTime: '6 min read',
       imageUrl: '/images/news/the-open-source-paradox-why-decentralized-ai-models-are-essential-for-american-innovation.jpg',
       commentCount: 15
@@ -6014,7 +6014,7 @@ export const MULTIMEDIA_VIDEOS: VideoItem[] = [
     category: 'Politics',
     duration: '14:20',
     views: '84K views',
-    publishedAt: '4h ago',
+    publishedAt: 'Nov 4, 2026',
     thumbnail: '/images/news/vid_arena.jpg',
     videoUrl: 'https://www.youtube.com/embed/5Ld4hACcjOI',
     description: 'On-the-ground dispatch reporting from Pennsylvania, Georgia, and Michigan as field teams knock on hundreds of thousands of doors in the election’s closing hours.',
@@ -6026,7 +6026,7 @@ export const MULTIMEDIA_VIDEOS: VideoItem[] = [
     category: 'Investigation',
     duration: '18:45',
     views: '142K views',
-    publishedAt: '1d ago',
+    publishedAt: 'Nov 2, 2026',
     thumbnail: '/images/news/vid_yellowstone.jpg',
     videoUrl: 'https://www.youtube.com/embed/K-Kwxv604dQ',
     description: 'A special visual investigation exploring the electrical substations and nuclear power contracts fueling America’s artificial intelligence compute boom.',
@@ -6038,7 +6038,7 @@ export const MULTIMEDIA_VIDEOS: VideoItem[] = [
     category: 'Sports',
     duration: '09:15',
     views: '61K views',
-    publishedAt: '1d ago',
+    publishedAt: 'Nov 3, 2026',
     thumbnail: '/images/news/vid_spacex.jpg',
     videoUrl: 'https://www.youtube.com/embed/AchvMIrqHYA',
     description: 'Relive the electric atmosphere, tactical breakaways, and historic sprint finishes across Central Park during the 55th New York City Marathon.',
