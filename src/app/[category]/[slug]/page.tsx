@@ -65,6 +65,70 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
   }
 
+  if (slug.includes('turhan-mildon')) {
+    const canonicalUrl = `${baseUrl}/politics/turhan-mildon-caracas-washington-venezuela-business-interests`;
+    const imageUrl = `${baseUrl}/images/news/turhan-mildon-caracas-washington-venezuela-business-interests.webp`;
+    const title = 'Turhan Mildon’s Business Interests: From Caracas to Washington | Newyorkerherald';
+    const description = 'Turkish investor Turhan Mildon’s efforts to protect his Venezuelan business interests brought renewed attention to his political connections and relationship with Alina Habba.';
+
+    return {
+      title,
+      description,
+      keywords: [
+        'Turhan Mildon Venezuela business',
+        'Caracas',
+        'Washington political connections',
+        'Alina Habba',
+        'Alex Saab',
+        'Venezuelan cement plants',
+        'Donald Trump',
+        'International Business',
+        'Politics'
+      ],
+      authors: [{ name: 'Newyorkerherald Staff' }],
+      alternates: {
+        canonical: canonicalUrl,
+      },
+      openGraph: {
+        title: 'Turhan Mildon’s Business Interests: From Caracas to Washington',
+        description,
+        url: canonicalUrl,
+        siteName: 'Newyorkerherald',
+        locale: 'en_US',
+        type: 'article',
+        publishedTime: '2026-11-21T00:00:00.000Z',
+        authors: ['Newyorkerherald Staff'],
+        section: 'Politics',
+        tags: [
+          'Turhan Mildon',
+          'Venezuela',
+          'Caracas',
+          'Washington',
+          'Alina Habba',
+          'Alex Saab',
+          'International Business',
+          'Donald Trump'
+        ],
+        images: [
+          {
+            url: imageUrl,
+            width: 976,
+            height: 549,
+            alt: 'Turhan Mildon and Alina Habba'
+          }
+        ]
+      },
+      twitter: {
+        card: 'summary_large_image',
+        site: '@newyorkerherald',
+        creator: '@newyorkerherald',
+        title: 'Turhan Mildon’s Business Interests: From Caracas to Washington',
+        description,
+        images: [imageUrl]
+      }
+    };
+  }
+
   const article = getArticleById(slug);
 
   if (!article) {
@@ -121,7 +185,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function DynamicArticlePage({ params }: Props) {
   const { category, slug } = await params;
   
-  if (slug.includes('rossini')) {
+  if (slug.includes('rossini') || slug.includes('turhan-mildon') || slug === 'the-vanity-of-alina-habba-mildon') {
     return <ArticleClientWrapper category={category} slug={slug} />;
   }
 
