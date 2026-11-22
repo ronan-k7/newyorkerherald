@@ -110,7 +110,7 @@ export default function VazquezSentencingArticlePage() {
               <div style={{ display: 'flex', alignItems: 'center', gap: '12px', flexWrap: 'wrap', marginBottom: '18px' }}>
                 <span className="aura-pill">Opinion &amp; Analysis</span>
                 <span style={{ fontSize: '0.72rem', fontWeight: 800, letterSpacing: '0.08em', textTransform: 'uppercase', color: 'var(--brand-primary)' }}>
-                  Lawfare Series &middot; No. 06
+                  Lawfare Series 
                 </span>
               </div>
 
