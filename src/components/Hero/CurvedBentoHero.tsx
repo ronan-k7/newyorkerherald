@@ -7,6 +7,7 @@ import {
   getArticleUrl, 
   SECONDARY_LEAD_STORIES, 
   WIRE_STORIES, 
+  PINNED_WIRE_STORY,
   TRENDING_RANKED_ARTICLES, 
   getAllArticles,
   getAuthorSlugFromName 
@@ -37,7 +38,11 @@ export default function CurvedBentoHero() {
   ].filter(Boolean);
 
   // Fast Wire Stream (Only 2 cards)
-  const wireFeed = WIRE_STORIES.slice(0, 2);
+  // First card is permanently pinned to the new Vázquez opinion article
+  const wireFeed = [
+    PINNED_WIRE_STORY,
+    ...WIRE_STORIES.filter(w => w.id !== PINNED_WIRE_STORY.id)
+  ].slice(0, 2);
 
   // Bottom Highlights Grid (4 items with clean spacing)
   

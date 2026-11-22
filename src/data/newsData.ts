@@ -1,4 +1,12 @@
 import { Article, OpinionColumn, FactCheckItem, PhotoStory, VideoItem, PodcastEpisode } from '@/types/news';
+import {
+  VAZQUEZ_SENTENCING_ID,
+  VAZQUEZ_SENTENCING_TITLE,
+  VAZQUEZ_SENTENCING_DECK,
+  VAZQUEZ_SENTENCING_IMAGE,
+  VAZQUEZ_SENTENCING_DATE,
+  VAZQUEZ_SENTENCING_PARAGRAPHS
+} from '@/data/vazquezSentencingArticle';
 
 export const BREAKING_NEWS_ITEMS = [
   {
@@ -1449,6 +1457,31 @@ With Congress focused on election day, legislative leaders have deferred floor c
     commentCount: 8
   }
 ];
+
+/**
+ * Pinned story: always rendered as the FIRST card of the home page's
+ * "Top Stories / Realtime Wire" column (see CurvedBentoHero).
+ */
+export const PINNED_WIRE_STORY: Article = {
+  id: VAZQUEZ_SENTENCING_ID,
+  title: VAZQUEZ_SENTENCING_TITLE,
+  kicker: 'OPINION & ANALYSIS',
+  summary: VAZQUEZ_SENTENCING_DECK,
+  body: VAZQUEZ_SENTENCING_PARAGRAPHS.map(p => p.replace(/\s*\[\d+\]/g, '')).join('\n\n'),
+  category: 'Opinion',
+  edition: ['US & Americas', 'Global'],
+  author: {
+    name: 'Newyorkerherald Staff',
+    role: 'Editorial Board & Newsroom Desks',
+    avatar: ''
+  },
+  publishedAt: VAZQUEZ_SENTENCING_DATE,
+  readTime: '5 min read',
+  imageUrl: VAZQUEZ_SENTENCING_IMAGE,
+  imageCaption: 'Wanda Vázquez Garced, former governor of Puerto Rico.',
+  tags: ['Wanda Vázquez', 'Lawfare', 'Sentencing', 'Plea Agreement', 'Presidential Pardon', 'Puerto Rico', 'Opinion'],
+  commentCount: 0
+};
 
 export const TRENDING_RANKED_ARTICLES: Article[] = [
   {
@@ -6266,6 +6299,7 @@ export function getAllArticles(): Article[] {
 
   add(LEAD_ARTICLE);
   SECONDARY_LEAD_STORIES.forEach(add);
+  add(PINNED_WIRE_STORY);
   WIRE_STORIES.forEach(add);
   TRENDING_RANKED_ARTICLES.forEach(add);
   if (INVESTIGATIVE_FEATURE) add(INVESTIGATIVE_FEATURE);
@@ -6297,6 +6331,7 @@ export function getArticleUrl(articleOrId: Article | { id: string; category?: st
     if (articleOrId === 'mark-rossini-receives-second-full-pardon-as-federal-case-moves-toward-closure') {
       return '/politics/mark-rossini-receives-second-full-pardon-as-federal-case-moves-toward-closure';
     }
+    if (articleOrId === VAZQUEZ_SENTENCING_ID) return '/opinion/' + VAZQUEZ_SENTENCING_ID;
     if (articleOrId === 'the-vanity-of-alina-habba-mildon') return '/us/the-vanity-of-alina-habba-mildon';
     if (articleOrId === 'turhan-mildon-caracas-washington-venezuela-business-interests') return '/politics/turhan-mildon-caracas-washington-venezuela-business-interests';
     const art = getArticleById(articleOrId);
@@ -6309,6 +6344,7 @@ export function getArticleUrl(articleOrId: Article | { id: string; category?: st
   if (articleOrId.id === 'mark-rossini-receives-second-full-pardon-as-federal-case-moves-toward-closure') {
     return '/politics/mark-rossini-receives-second-full-pardon-as-federal-case-moves-toward-closure';
   }
+  if (articleOrId.id === VAZQUEZ_SENTENCING_ID) return '/opinion/' + VAZQUEZ_SENTENCING_ID;
   if (articleOrId.id === 'the-vanity-of-alina-habba-mildon') return '/us/the-vanity-of-alina-habba-mildon';
   if (articleOrId.id === 'turhan-mildon-caracas-washington-venezuela-business-interests') return '/politics/turhan-mildon-caracas-washington-venezuela-business-interests';
   const catSlug = getCategorySlugFromCategoryName(articleOrId.category || 'us');

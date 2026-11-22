@@ -4,9 +4,14 @@ import React from 'react';
 import AlinaHabbaSpecialDossierPage from '@/app/the-vanity-of-alina-habba-mildon/page';
 import TurhanMildonDossierPage from '@/app/turhan-mildon-caracas-washington-venezuela-business-interests/page';
 import MarkRossiniArticlePage from '@/components/Article/MarkRossiniArticlePage';
+import VazquezSentencingArticlePage from '@/components/Article/VazquezSentencingArticlePage';
+import { VAZQUEZ_SENTENCING_ID } from '@/data/vazquezSentencingArticle';
 import ArticleDetailPage from '@/app/article/[id]/page';
 
 export default function ArticleClientWrapper({ category, slug }: { category: string; slug: string }) {
+  if (slug === VAZQUEZ_SENTENCING_ID) {
+    return <VazquezSentencingArticlePage />;
+  }
   if (slug === 'the-vanity-of-alina-habba-mildon') {
     return <AlinaHabbaSpecialDossierPage />;
   }
