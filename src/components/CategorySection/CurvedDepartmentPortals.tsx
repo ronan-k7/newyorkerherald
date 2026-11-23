@@ -6,13 +6,13 @@ import { getHomepageDepartmentArticles, getArticlesByCategorySlug, getAuthorSlug
 import { ArrowRight } from 'lucide-react';
 
 export default function CurvedDepartmentPortals() {
-  // Dedicated non-repeating department stories for the homepage
-  const politics = getHomepageDepartmentArticles('politics');
-  const business = getHomepageDepartmentArticles('business');
-  const tech = getHomepageDepartmentArticles('tech');
-  const entertainment = getHomepageDepartmentArticles('entertainment');
-  const sports = getHomepageDepartmentArticles('sports');
-  const science = getHomepageDepartmentArticles('science');
+  // Dedicated non-repeating department stories for the homepage (strictly 4 items per section)
+  const politics = getHomepageDepartmentArticles('politics').slice(0, 4);
+  const business = getHomepageDepartmentArticles('business').slice(0, 4);
+  const tech = getHomepageDepartmentArticles('tech').slice(0, 4);
+  const entertainment = getHomepageDepartmentArticles('entertainment').slice(0, 4);
+  const sports = getHomepageDepartmentArticles('sports').slice(0, 4);
+  const science = getHomepageDepartmentArticles('science').slice(0, 4);
 
   // Full category totals for section overview links
   const politicsTotal = getArticlesByCategorySlug('politics').length;

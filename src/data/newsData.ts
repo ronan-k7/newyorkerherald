@@ -6789,63 +6789,48 @@ export function getHomepageDepartmentArticles(dept: string): Article[] {
       'nyc-launches-1-4b-flood-resilience-overhaul-along-queens-and-brooklyn-waterfronts',
       'nyc-city-council-passes-landmark-commercial-rent-stabilization-bill-small-business-protections',
       'nyc-orders-emergency-sweeps-160-construction-sites-fatal-flatbush-collapse',
-      'the-vanity-of-alina-habba-mildon',
-      'hochul-and-mta-press-congress-for-billions-in-transit-funds',
-      'fema-holds-nationwide-alert-test-amid-viral-blackout-falsehoods'
+      'hochul-and-mta-press-congress-for-billions-in-transit-funds'
     ],
     politics: [
       'new-york-state-passes-historic-clean-water-and-lead-pipe-replacement-mandate',
       'turhan-mildon-caracas-washington-venezuela-business-interests',
       'governor-hochul-and-legislative-leaders-unveil-emergency-3-2b-transit-bailout-and-subway-safety-pact',
-      'house-democrats-formally-nominate-brooklyn-hakeem-jeffries-speaker',
-      'mark-rossini-receives-second-full-pardon-as-federal-case-moves-toward-closure',
-      'white-house-withdraws-heidi-overton-nomination-to-lead-fda',
-      'white-house-orders-agencies-to-curb-congressional-testimony'
+      'house-democrats-formally-nominate-brooklyn-hakeem-jeffries-speaker'
     ],
     business: [
       'federal-reserve-and-fdic-issue-joint-mandate-restricting-commercial-real-estate-debt-exposure',
       'wall-street-braces-as-sec-finalizes-stringent-liquidity-rules-for-1-7t-private-credit-funds',
       'federal-reserve-flags-escalating-debt-and-private-credit-risks-ai-boom',
-      'dow-plunges-848-points-as-ai-valuation-anxiety-grips-markets',
-      'major-us-banks-hit-by-widespread-online-outages-and-delays',
-      'microsoft-restores-cloud-systems-after-crippling-global-outage'
+      'dow-plunges-848-points-as-ai-valuation-anxiety-grips-markets'
     ],
     tech: [
       'new-york-ai-consortium-deploys-open-source-grid-intelligence-agent-to-prevent-metropolitan-blackouts',
       'new-york-state-launches-empire-ai-supercomputing-cluster-at-suny-buffalo-open-to-public-researchers',
       'anthropic-debuts-on-new-york-stock-exchange-in-historic-1-5-trillion-ipo',
-      'google-expands-gemini-into-autonomous-ai-agent-for-real-tasks',
-      'gta-vi-countdown-upends-gaming-slates-as-budgets-eclipse-1b',
-      'jensen-huang-nvidia-return-petition-tops-160000-signatures'
+      'google-expands-gemini-into-autonomous-ai-agent-for-real-tasks'
     ],
     entertainment: [
       'lincoln-center-announces-historic-250m-revitalization-of-public-plazas-and-free-outdoor-arts-spaces',
       'broadway-unveils-record-breaking-winter-season-lineup-with-subsidized-student-and-community-tickets',
       'macys-unveils-centenary-float-lineup-for-100th-annual-thanksgiving-parade',
-      'raye-leads-2027-grammy-nominations-with-record-tying-11-nods',
-      'robert-pattinson-cast-as-james-bond-in-denis-villeneuve-reboot',
-      'johnny-depp-tops-box-office-as-ebenezer-scores-42m-global-debut'
+      'raye-leads-2027-grammy-nominations-with-record-tying-11-nods'
     ],
     sports: [
       'jets-stun-division-rival-patriots-in-thrilling-overtime-upset-to-reignite-playoff-hopes',
       'new-york-giants-announce-major-front-office-overhaul-and-rookie-qb-start-ahead-of-rivalry-clash',
       'towns-and-brunson-drop-28-each-as-knicks-grind-out-112-108-triumph-toronto',
-      'quentin-grimes-drops-47-as-lakers-edge-hornets-118-114-in-ot',
-      'chargers-edge-ravens-23-20-in-thrilling-monday-night-duel',
-      'luka-doncic-scores-43-points-to-power-lakers-over-phoenix-suns'
+      'quentin-grimes-drops-47-as-lakers-edge-hornets-118-114-in-ot'
     ],
     science: [
       'nyu-langone-and-weill-cornell-pioneer-mrna-cellular-therapy-for-aggressive-cardiac-fibrosis',
       'columbia-and-mount-sinai-scientists-unveil-breakthrough-air-filtration-network-to-curb-urban-asthma',
       'new-york-expands-180m-clean-heat-and-urban-geothermal-energy-subsidies',
-      'nasa-astronauts-3d-print-living-human-tissues-aboard-the-iss',
-      'spacex-catches-starship-with-mechazilla-chopsticks-in-flight-15',
-      'nasa-escapade-twin-probes-slingshot-past-earth-en-route-to-mars'
+      'nasa-astronauts-3d-print-living-human-tissues-aboard-the-iss'
     ]
   };
 
   const ids = mapping[dept] || [];
-  return ids.map(id => all.find(a => a.id === id)).filter(Boolean) as Article[];
+  return ids.slice(0, 4).map(id => all.find(a => a.id === id)).filter(Boolean) as Article[];
 }
 
 export function getHomepageLongReads(): Article[] {

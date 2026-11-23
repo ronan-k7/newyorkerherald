@@ -25,11 +25,12 @@ export default function CurvedBentoHero() {
 
   const allArts = getAllArticles();
   
-  // Secondary stories (3 items with good height & spacing)
+  // Secondary stories (2 items with good height & spacing)
   const secondaryStories = [
-    ...SECONDARY_LEAD_STORIES.filter(s => s.id !== 'the-vanity-of-alina-habba-mildon'),
-    allArts.find(a => a.id === 'biz-1') || allArts[5]
-  ].filter(Boolean).slice(0, 3);
+    allArts.find(a => a.id === 'nyc-launches-1-4b-flood-resilience-overhaul-along-queens-and-brooklyn-waterfronts'),
+    allArts.find(a => a.id === 'the-vanity-of-alina-habba-mildon'),
+    ...SECONDARY_LEAD_STORIES
+  ].filter(Boolean) as typeof allArts;
 
   // Sub-lead companion stories below lead (2 items)
   const subLeadStories = [
