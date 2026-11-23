@@ -11,35 +11,35 @@ import {
 export const BREAKING_NEWS_ITEMS = [
   {
     id: 'brk-1',
-    kicker: 'CITY RESILIENCE',
-    headline: 'NYC Breaks Ground on $1.4B Coastal Flood Protection & Drainage Overhaul Across Queens and Brooklyn',
-    time: '14m ago',
-    url: '/us/nyc-launches-1-4b-flood-resilience-overhaul-along-queens-and-brooklyn-waterfronts'
+    kicker: 'CITY HALL',
+    headline: 'Mayor Mamdani Unveils Comprehensive $146M Blueprint to Formally Close Rikers Island by 2032',
+    time: '12m ago',
+    url: '/us/mayor-mamdani-unveils-comprehensive-146m-blueprint-to-close-rikers-island-by-2032'
   },
   {
     id: 'brk-2',
-    kicker: 'ALBANY MANDATE',
-    headline: 'New York State Passes Historic Clean Water and 100% Lead Pipe Replacement Mandate',
-    time: '36m ago',
-    url: '/politics/new-york-state-passes-historic-clean-water-and-lead-pipe-replacement-mandate'
+    kicker: 'ALBANY DISPATCH',
+    headline: 'Governor Kathy Hochul Announces Plan to Veto Food Additives Ban Citing Retail Grocery Inflation',
+    time: '28m ago',
+    url: '/politics/governor-hochul-plans-veto-of-new-york-food-additives-ban-citing-grocery-inflation'
   },
   {
     id: 'brk-3',
-    kicker: 'FINANCIAL REGULATION',
-    headline: 'Federal Reserve and FDIC Issue Joint Directive Restricting Bank Exposure to Commercial Real Estate Debt',
-    time: '58m ago',
-    url: '/business/federal-reserve-and-fdic-issue-joint-mandate-restricting-commercial-real-estate-debt-exposure'
+    kicker: 'MARKET CORRECTION',
+    headline: 'Wall Street Slides Into Correction as Nasdaq Plummets 1,225 Points in Tech Valuation Sell-Off',
+    time: '45m ago',
+    url: '/business/wall-street-plunges-into-correction-as-nasdaq-sheds-1225-points-in-global-tech-selloff'
   }
 ];
 
 export const TRENDING_TAGS = [
-  '#NYFloodDefense',
-  '#LeadFreeNY',
-  '#NYCFerryAudit',
-  '#CREDebtCap',
-  '#AIGridShield',
-  '#LincolnCenter250M',
-  '#JetsOvertimeWin'
+  '#Rikers2032',
+  '#HochulVeto',
+  '#NasdaqCrash1225',
+  '#EmpireAIBuffalo',
+  '#CentralParkCarriages',
+  '#GiantsWin2318',
+  '#NYPANuclearSMR'
 ];
 
 export const LEAD_ARTICLE: Article = {
@@ -1585,10 +1585,10 @@ As the Federal Energy Regulatory Commission (FERC) convenes national stakeholder
 export const CATEGORY_ARTICLES: Record<string, Article[]> = {
   'Investigation': [
     {
-        "id": "investigation-exposes-widespread-overtime-fraud-and-ghost-shifts-in-nyc-ferry-and-harbor-operations",
-        "title": "Investigation Exposes Millions in Ghost Shifts and Unsupervised Overtime Across Municipal Ferry and Harbor Operations",
-        "kicker": "INVESTIGATIVE DOSSIER \u2022 CITY OVERSIGHT",
-        "summary": "A joint multi-agency probe by the New York City Department of Investigation and state watchdogs revealed systematic falsification of maritime logs, unauthorized overtime payouts, and chronic equipment maintenance lapses within city-subsidized harbor transport networks, triggering formal criminal subpoenas.",
+        "id": "new-york-regulators-launch-inquiry-into-unannounced-ice-tent-detention-expansion-batavia",
+        "title": "New York State Health and Environmental Regulators Launch Inquiry Into Unannounced ICE Tent Facility in Batavia",
+        "kicker": "INVESTIGATIVE DOSSIER \u2022 STATE OVERSIGHT",
+        "summary": "Following whistle-blower disclosures and satellite imagery revealing rapid construction of industrial canvas housing units at the federal immigration processing center in Western New York, state environmental and health commissioners issued emergency demands for site inspections and regulatory documentation.",
         "category": "Investigation",
         "edition": [
             "US & Americas",
@@ -1596,28 +1596,29 @@ export const CATEGORY_ARTICLES: Record<string, Article[]> = {
         ],
         "author": {
             "name": "Newyorkerherald Staff",
-            "role": "Investigative Reporting Unit",
+            "role": "Investigative Reporting Bureau",
             "avatar": "/images/authors/sarah_mitchell.jpg"
         },
         "publishedAt": "Today",
         "readTime": "8 min read",
-        "imageUrl": "/images/news/nyc-ferry-harbor-overtime-fraud-investigation.webp",
-        "imageCaption": "NYC Ferry vessels docked at the Brooklyn Navy Yard facility, where forensic auditors uncovered chronic payroll discrepancies.",
-        "imageCredit": "Newyorkerherald / Maritime Oversight Bureau",
+        "imageUrl": "/images/news/new-york-regulators-launch-inquiry-into-unannounced-ice-tent-detention-expansion-batavia.webp",
+        "imageCaption": "The exterior perimeter of the Buffalo Federal Service Processing Center in Batavia, where state regulators are demanding immediate inspection access.",
+        "imageCredit": "Newyorkerherald / Investigative Unit",
         "tags": [
-            "NYC Ferry",
-            "City Hall",
+            "ICE",
+            "Batavia",
+            "Immigration Oversight",
             "Investigation",
-            "Corruption",
-            "Public Accountability",
-            "New York Harbor"
+            "Kathy Hochul",
+            "Human Rights",
+            "Department of Environmental Conservation"
         ],
         "bullets": [
-            "Forensic review of 32,000 maritime maintenance logs uncovers $24.6M in unverified overtime and ghost shifts across private ferry operators.",
-            "Senior deck officers and private contractors logged simultaneous 18-hour shifts on vessels docked hundreds of miles apart.",
-            "NYC Department of Investigation (DOI) and Manhattan DA issue grand jury subpoenas for vendor executives and agency supervisors."
+            "State DEC and Department of Health issue formal notice demanding immediate physical access and engineering blueprints for new tent structures in Batavia.",
+            "Whistle-blower reports allege industrial tent compounds were erected without municipal environmental permits or severe winter weather HVAC safeguards.",
+            "Immigrant rights coalitions file emergency federal court petitions citing sub-freezing Lake Ontario lake-effect snow hazards for detained individuals."
         ],
-        "body": "An exhaustive six-month joint forensic investigation conducted by the New York City Department of Investigation (DOI) and the Office of the State Comptroller has uncovered systemic payroll fabrication, phantom maintenance shifts, and widespread regulatory non-compliance across the municipal harbor transport network, resulting in more than $24.6 million in unauthorized public disbursements over the past thirty months.\n\nThe investigative findings, summarized in a confidential 142-page dossier submitted to the Manhattan District Attorney's office on Monday, detail an astonishing culture of unmonitored overtime extraction within private marine contractor operating consortiums contracted by the New York City Economic Development Corporation (NYCEDC) to run the city's subsidized NYC Ferry system.\n\nAccording to subpoenaed global positioning satellite (GPS) transponder data, automated turnstile logs, and internal time-stamped payroll rosters, dozens of senior marine engineers, private vessel captains, and dockside maintenance supervisors routinely claimed consecutive sixteen-to-twenty-hour operational shifts while digital access cards and security camera records showed they were nowhere near their assigned harbor terminals.\n\nIn one egregious pattern documented in the report, a lead marine propulsion contractor billed the city for 3,400 hours of specialized drydock engine overhauls across three separate catamaran passenger vessels at the Brooklyn Navy Yard during the summer of 2025. However, port authority gate manifests and security footage confirmed that the vessels sat unmanned inside locked drydock slips, while the contractor\u2019s primary personnel were concurrently logged as working on private commercial yachts in coastal New Jersey and Long Island Sound.\n\n\"The public subsidies poured into municipal maritime transit were intended to provide reliable, affordable water transit for outer-borough commuters, not to operate as an unsupervised feeding trough for private vendors and corrupt payroll managers,\" said a senior city oversight official speaking on condition of anonymity due to active grand jury proceedings. \"What our investigators found was not minor bookkeeping sloppiness; it was a brazen, institutionalized scheme of falsified logbooks, ghost shifts, and deliberate supervisory blindness.\"\n\nThe financial implications are staggering for a ferry system that already requires substantial municipal operating subsidies. In fiscal year 2025, the average city subsidy per passenger trip exceeded $9.40, with taxpayers underwriting tens of millions annually to offset operating deficits. The audit revealed that inflated contractor payrolls and phantom overtime accounted for roughly twelve percent of the ferry system's total operational budget overruns during the audited period.\n\nBeyond payroll theft, investigators uncovered severe maintenance falsifications that posed direct threats to passenger maritime safety. In multiple instances, mandatory U.S. Coast Guard auxiliary engine safety checks, fire suppression system pressure tests, and hull ultrasonic thickness evaluations were signed off as completed by certified inspectors who had retired years earlier or were out of state on the recorded dates of inspection. In at least two incidents, passenger vessels suffered mid-channel power failures along the East River and Rockaway routes that internal incident reports later traced directly to unperformed preventative filter replacements that had been billed as completed.\n\nThe Department of Investigation has served sweeping grand jury subpoenas on the executive leadership of two primary maritime staffing and maintenance vendors, demanding electronic communications, offshore banking transactions, and internal correspondence between contractor executives and mid-level NYCEDC contract monitors.\n\nIn a formal response, NYCEDC President and CEO Andrew Kimball announced immediate administrative sanctions, terminating contracts with two third-party staffing subcontractors, appointing an independent external monitor to oversee all harbor payroll approvals, and installing automated biometric facial-recognition time clocks across all ferry maintenance docks and terminal berths.\n\n\"We have zero tolerance for any vendor that abuses public trust or misallocates municipal resources,\" Kimball said in an official statement. \"We are cooperating fully with prosecutors and will vigorously seek complete financial restitution and debarment for any entity that compromised the integrity of the NYC Ferry system.\"\n\nThe City Council Committee on Transportation and Infrastructure announced it will convene an emergency public hearing on December 4, demanding sworn testimony from maritime union officials, agency leadership, and vendor executives regarding harbor safety protocols and contract enforcement."
+        "body": "BATAVIA, N.Y. \u2014 An escalating legal and jurisdictional standoff between Albany and federal immigration authorities intensified sharply on Monday as New York State environmental and public health agencies initiated a joint regulatory investigation into an unannounced, rapid expansion of temporary tent-based detention facilities at the Buffalo Federal Service Processing Center.\n\nThe inquiry, formally spearheaded by the state Department of Environmental Conservation (DEC) in coordination with the Department of Health (DOH), follows investigative reporting, aerial drone surveillance, and whistle-blower disclosures from facility subcontractors indicating that commercial detention operators erected multiple large-scale industrial canvas structures on the facility's grounds over the past three weeks without filing state environmental quality review documents or securing required regional utility permits.\n\nLocated in Genesee County midway between Rochester and Buffalo, the Batavia processing center has long operated as the primary federal immigration clearinghouse for the upstate border corridor. However, internal facility memoranda obtained by investigative watchdogs indicate that U.S. Immigration and Customs Enforcement (ICE) directed private facilities management contractors to construct high-density canvas tent pods designed to house up to 450 additional detainees as federal agencies prepare for accelerated regional enforcement sweeps.\n\nIn formal letters sent to federal regional directors and facility management executives, state commissioners warned that operating soft-sided canvas housing complexes in Western New York during late autumn and winter poses catastrophic hypothermia, structural collapse, and sanitary hazards. Genesee County routinely experiences severe lake-effect blizzard conditions fueled by Lake Erie and Lake Ontario, with ambient temperatures plummeting well below zero degrees Fahrenheit alongside sustained gale-force winds that have repeatedly compromised temporary structures across the Great Lakes basin.\n\n\"Under the laws of New York State, no sovereign entity or federal contractor possesses the legal authority to bypass state environmental safety mandates or subject human beings to substandard, unheated, and perilous physical conditions,\" state officials wrote in the joint inquiry directive. \"The state demands immediate, unfettered access for certified building inspectors and sanitary engineers to assess the thermal integrity, wastewater management conduits, and emergency egress safety protocols of all temporary structures erected on the Batavia campus.\"\n\nLegal defense organizations, including the New York Civil Liberties Union (NYCLU) and the Cornell Farmworker Legal Assistance Clinic, filed an emergency petition for injunctive relief in the U.S. District Court for the Western District of New York on Monday morning, seeking an immediate freeze on detainee transfers into the newly constructed tent compounds.\n\nThe legal filings detail harrowing declarations from currently detained individuals who describe uninsulated living quarters where condensation regularly freezes along interior walls, industrial diesel generators spew exhaust fumes near intake vents, and plumbing facilities remain restricted to portable outdoor units accessible only across icy gravel courtyards.\n\n\"Housing human beings in flimsy, uninsulated commercial tents during a Western New York winter is not merely an administrative oversight\u2014it is reckless, institutionalized cruelty that borders on criminal endangerment,\" stated Amy Belsher, senior staff attorney at the NYCLU. \"We have seen what happens when extreme lake-effect snowstorms paralyze the Buffalo corridor. If power fails or snow loads collapse these canvas roofs, the consequences for the men and women locked inside will be fatal.\"\n\nRepresentatives for ICE declined to comment on pending litigation but maintained in a brief written statement that all detention facilities contracted by the federal government adhere strictly to the agency's Performance-Based National Detention Standards, including environmental health, medical care access, and adequate climatic control systems. Facility operators asserted that the structures are classified as climate-controlled, engineered tension-fabric buildings equipped with auxiliary power generation and commercial-grade heating units.\n\nAlbany officials reaffirmed that should federal administrators refuse inspection access by Wednesday afternoon, the state attorney general's office will seek formal warrants in federal district court to halt all electrical, water, and sewage connections servicing the unpermitted expansion."
     },
     {
         "id": "audit-reveals-410m-misallocated-in-nyc-emergency-shelter-contracts-as-comptroller-demands-clawback",
@@ -2062,10 +2063,10 @@ In Albany, Governor Kathy Hochul convened an emergency public health cabinet mee
   ],
   'US': [
     {
-        "id": "nyc-launches-1-4b-flood-resilience-overhaul-along-queens-and-brooklyn-waterfronts",
-        "title": "NYC Breaks Ground on $1.4B Coastal Flood Protection and Drainage Overhaul Across Queens and Brooklyn",
-        "kicker": "PUBLIC AFFAIRS \u2022 CLIMATE RESILIENCE",
-        "summary": "Following severe flash flooding that repeatedly crippled outer-borough subway lines and basement dwellings, New York City Hall and federal climate infrastructure officials unveiled a comprehensive $1.4 billion stormwater mitigation initiative on Monday, constructing sea walls, underground retention basins, and bioswales from Coney Island to Flushing.",
+        "id": "mayor-mamdani-unveils-comprehensive-146m-blueprint-to-close-rikers-island-by-2032",
+        "title": "Mayor Mamdani Unveils Comprehensive $146M Blueprint to Formally Close Rikers Island by 2032",
+        "kicker": "PUBLIC AFFAIRS \u2022 MUNICIPAL GOVERNANCE",
+        "summary": "Marking the most significant municipal realignment of New York City's criminal legal system in a generation, City Hall and Mayor Zohran Mamdani announced an updated, legally binding roadmap to completely shut down the notorious Rikers Island jail complex by the end of 2032, pairing borough-based facility construction with $146 million in dedicated diversion programs.",
         "category": "US",
         "edition": [
             "US & Americas",
@@ -2077,25 +2078,25 @@ In Albany, Governor Kathy Hochul convened an emergency public health cabinet mee
             "avatar": "/images/authors/sarah_mitchell.jpg"
         },
         "publishedAt": "Today",
-        "readTime": "7 min read",
-        "imageUrl": "/images/news/nyc-flood-resilience-queens-brooklyn-stormwater.webp",
-        "imageCaption": "Construction crews and engineers begin foundational excavation work for flood walls and high-capacity drainage conduits in Southeast Queens.",
-        "imageCredit": "Newyorkerherald / City Hall Press Pool",
+        "readTime": "8 min read",
+        "imageUrl": "/images/news/mayor-mamdani-unveils-comprehensive-146m-blueprint-to-close-rikers-island-by-2032.webp",
+        "imageCaption": "City Hall officials and criminal justice reform leaders unveil the 2032 Rikers Island closure timeline in the City Hall Blue Room.",
+        "imageCredit": "Newyorkerherald / City Hall Bureau",
         "tags": [
             "New York City",
-            "Climate Resilience",
-            "Queens",
-            "Brooklyn",
-            "Stormwater",
+            "Rikers Island",
+            "Zohran Mamdani",
+            "City Hall",
+            "Criminal Justice",
             "Public Affairs",
-            "Infrastructure"
+            "Incarceration Reform"
         ],
         "bullets": [
-            "City Hall and federal agencies break ground on $1.4B resilient storm infrastructure spanning five low-lying outer-borough basins.",
-            "Includes 18 miles of elevated sea barriers, high-volume underground stormwater cisterns, and 3,200 automated street bioswales.",
-            "Prioritizes chronic flood corridors in Southeast Queens, Coney Island, Red Hook, and Flushing Meadows to shield vulnerable basement homes."
+            "City Hall formally sets end-of-2032 target for the complete decommissioning and demolition of all detention facilities on Rikers Island.",
+            "Borough-based jail facility schedule establishes phased openings: Brooklyn in 2029, Bronx and Queens in 2031, followed by Manhattan.",
+            "$146 million in upfront municipal funding deployed to expand specialized mental health diversion beds, supportive housing, and pretrial legal navigators."
         ],
-        "body": "Standing along the wind-whipped shoreline of Jamaica Bay on Monday morning, New York City leadership, federal disaster mitigation administrators, and community leaders officially broke ground on the most ambitious municipal climate adaptation and stormwater engineering undertaking in modern New York history. The $1.4 billion multi-phase infrastructure blueprint, formally designated the Coastal and Cloudburst Resilience Initiative, marks a definitive pivot from temporary sandbag deployments to permanent, heavy-civil engineering defenses designed to protect over 650,000 outer-borough residents from catastrophic coastal surges and torrential inland downpours.\n\nThe groundbreaking follows a devastating sequence of record-breaking rain events and tidal surges over the past three years that repeatedly overwhelmed the city\u2019s century-old combined sewer network. In neighborhoods such as South Ozone Park, Hollis, and East New York, flash storms dumping more than three inches of rain per hour have repeatedly submerged arterial roadways, paralyzed subway lines, and inundated thousands of basement apartments, claiming lives and causing billions of dollars in uninsurable private property destruction.\n\nUnder the $1.4 billion framework, financed through a cooperative blend of federal Bipartisan Infrastructure Law disbursements, state environmental bond acts, and municipal capital allocations, construction crews will immediately begin work across four critical maritime zones. The primary coastal component involves eighteen miles of interlocking steel-reinforced seawalls, deployable tidal gates, and elevated shoreline berms stretching from the Rockaway Peninsula and Coney Island Creek to the industrial maritime edges of Red Hook and Flushing Bay.\n\nSimultaneously, the Department of Environmental Protection (DEP) will execute a subterranean civil overhaul, constructing five massive underground stormwater storage vaults capable of holding a combined 85 million gallons of cloudburst runoff during peak cloudburst downpours. These subterranean cisterns, built deep beneath municipal parks and transit right-of-ways, will temporarily capture torrential storm flows before slowly discharging them into wastewater treatment facilities, preventing raw sewage backups into residential basements and surrounding estuaries.\n\n\"For decades, outer-borough working-class families in Queens and Brooklyn have watched the skies with sheer terror, knowing that a single localized cloudburst could destroy their life savings, submerge their homes, and threaten their children's lives,\" said New York City Mayor Eric Adams during the ceremonial groundbreaking ceremony in Broad Channel. \"Today, we are drawing a line in the sand. This $1.4 billion investment is not just about concrete, pumps, and steel; it is about racial and economic equity, environmental justice, and ensuring that every single zip code in this city receives the world-class flood defenses it deserves.\"\n\nUrban hydrologists and civil engineers from the Pratt Center for Community Development praised the integration of green infrastructure alongside heavy masonry walls. In addition to concrete bulkheads, the project incorporates 3,200 high-capacity urban bioswales, sunken rain gardens, and permeable asphalt corridors designed to absorb rainwater naturally at the street surface. These decentralized sponge-city installations are calibrated to reduce peak runoff volume into city storm sewers by roughly 42 percent across 1,800 surrounding urban blocks.\n\nCommunity advocates who have spent years lobbying City Hall for structural intervention welcomed the commencement of construction but emphasized that the city must simultaneously accelerate tenant protection and basement conversion legalizations. In Southeast Queens, where illegal basement occupancies remain a vital source of low-income housing, civic leaders called on the City Council to pair capital construction with expedited emergency relocation subsidies and window safety exit retrofits.\n\n\"We have buried neighbors and watched entire basements float away in chest-deep water,\" said Cheryl Henderson, co-founder of the Southeast Queens Flood Coalition. \"Seeing heavy excavators finally break ground is a hard-fought validation of our community's resilience. But we will be monitoring every mile of pipe laid and every dollar spent to make sure these flood barriers are completed on schedule before the next superstorm arrives.\"\n\nProject managers confirmed that the first operational phase, covering tidal gates in Jamaica Bay and subterranean cisterns in Flushing Meadows, is scheduled for commissioning by late 2027, with the full outer-borough protective shield slated for total completion by the autumn of 2029."
+        "body": "NEW YORK \u2014 In what administration officials termed an unavoidable confrontation with operational reality and a renewed moral imperative, Mayor Zohran Mamdani and City Hall leadership formally unveiled a comprehensive 120-page master blueprint on Monday detailing the timeline, financing, and infrastructure milestones required to permanently shut down the Rikers Island jail complex by December 31, 2032.\n\nThe announcement represents the first formal recalibration of the city's decennial decarceration strategy since the statutory August 2027 deadline established by the City Council in 2019 fell severely behind schedule due to post-pandemic construction backlogs, soaring municipal building costs, and persistent staffing instability within the Department of Correction. While criminal justice advocates expressed measured frustration over the five-year extension, municipal leaders emphasized that the new plan establishes the most enforceable, transparent, and funded path toward shuttering the 413-acre penal island in the East River.\n\nCentral to the 2032 roadmap is an immediate $146 million municipal capital infusion aimed at reducing the city's daily pretrial detainee population from its current plateau of approximately 6,300 to fewer than 4,000 within the next four years. City Hall's strategy hinges on an unprecedented expansion of community-based mental health diversion networks, rapid-response supervised release protocols, and 850 newly contracted supportive housing units designed to intercept individuals trapped in cyclical misdemeanor arraignments.\n\n\"For decades, Rikers Island has stood not as an instrument of rehabilitation, but as a monument to municipal failure, human degradation, and unconscionable violence,\" Mayor Mamdani declared during a morning press briefing in the City Hall Blue Room, flanked by district attorneys, public defenders, and formerly incarcerated community leaders. \"To pretend that the previous 2027 timeline was still physically achievable without plunging our neighborhoods into dangerous chaos was an exercise in civic denial. What we present today is not an excuse for delay\u2014it is an ironclad, fully budgeted commitment to shutter every cell, raze every decrepit intake pen, and return that island to the people of New York as a hub of renewable green energy.\"\n\nUnder the revised construction schedule formulated with the Department of Design and Construction (DDC), the city's network of four modern, borough-based correctional facilities will open in distinct phases. The state-of-the-art Brooklyn facility in Boerum Hill will be the first to reach completion in late 2029, accommodating up to 1,040 individuals with dedicated medical and behavioral health floors. Complementary facilities in Mott Haven in the Bronx and Kew Gardens in Queens are scheduled to open their doors in the spring and autumn of 2031, respectively, followed by the complete reconstruction of the Manhattan detention complex on White Street.\n\nCorrections unions responded with cautious pragmatism, demanding that the city immediately fulfill contractual pledges regarding officer safety, modern ventilation standards, and competitive retention allowances during the transitional operating years. Benny Boscio, president of the Correction Officers' Benevolent Association, noted that while the union supports modernizing obsolete physical plants, frontline staff cannot be treated as an afterthought while the city navigates a multi-year population transition.\n\nIndependent fiscal watchdogs, including the New York City Independent Budget Office (IBO), noted that while the overall capital budget for the borough-based jail plan has climbed from an initial estimate of $8.7 billion to nearly $14.2 billion due to inflationary pressures, the long-term operational savings of closing the isolated island facility\u2014which currently consumes more than $500,000 per incarcerated person annually in logistical overhead and emergency ferry transit\u2014will eventually yield substantial municipal dividends.\n\nAs City Council leadership prepares for oversight hearings next month, public debate is already shifting toward the long-term future of Rikers Island itself. City planners reaffirmed that once the final cell blocks are emptied in 2032, jurisdiction over the island will formally transfer to the Department of Citywide Administrative Services, paving the way for the envisioned Renewable Rikers initiative\u2014a sweeping infrastructure project slated to house municipal solar arrays, large-scale battery storage facilities, and advanced wastewater treatment plants that could decommission polluting peaker power stations across the South Bronx and Western Queens."
     },
     {
         "id": "nyc-city-council-passes-landmark-commercial-rent-stabilization-bill-small-business-protections",
@@ -2562,10 +2563,10 @@ As the clocks reset, congressional leaders confirmed that bipartisan committee s
   ],
   'Politics': [
     {
-        "id": "new-york-state-passes-historic-clean-water-and-lead-pipe-replacement-mandate",
-        "title": "New York State Enacts Historic Clean Water Mandate Requiring 100% Lead Service Pipe Replacement by 2030",
-        "kicker": "ALBANY DISPATCH \u2022 PUBLIC HEALTH",
-        "summary": "In a landmark bipartisan agreement signed in Albany on Sunday, Governor Kathy Hochul and legislative leaders enacted strict statutory deadlines mandating the complete replacement of more than 360,000 legacy lead drinking water service lines across New York State, supported by $850 million in revolving state clean water bonds.",
+        "id": "governor-hochul-plans-veto-of-new-york-food-additives-ban-citing-grocery-inflation",
+        "title": "Governor Hochul Announces Plan to Veto Food Additives Ban Following Legislative Push, Citing Grocery Inflation",
+        "kicker": "ALBANY DISPATCH \u2022 STATE LEGISLATION",
+        "summary": "Balancing consumer health advocacy against escalating concerns over retail food prices and interstate supply-chain disruption, Governor Kathy Hochul confirmed her intention to veto a landmark legislative measure that would have outlawed three prominent food additives across New York State grocery shelves.",
         "category": "Politics",
         "edition": [
             "US & Americas",
@@ -2574,27 +2575,28 @@ As the clocks reset, congressional leaders confirmed that bipartisan committee s
         "author": {
             "name": "Newyorkerherald Staff",
             "role": "Albany Legislative Bureau",
-            "avatar": "/images/authors/marcus_vance.jpg"
+            "avatar": "/images/authors/sarah_mitchell.jpg"
         },
         "publishedAt": "Yesterday",
-        "readTime": "6 min read",
-        "imageUrl": "/images/news/ny-state-clean-water-lead-pipe-replacement.webp",
-        "imageCaption": "Water utility workers replace aging lead distribution lines in upstate New York as state environmental officials oversee the new mandate.",
-        "imageCredit": "Newyorkerherald / State Capitol Bureau",
+        "readTime": "8 min read",
+        "imageUrl": "/images/news/governor-hochul-plans-veto-of-new-york-food-additives-ban-citing-grocery-inflation.webp",
+        "imageCaption": "Governor Kathy Hochul addresses legislative priorities during a policy briefing in the State Capitol Red Room in Albany.",
+        "imageCredit": "Newyorkerherald / Albany Press Pool",
         "tags": [
             "Kathy Hochul",
             "Albany",
-            "Clean Water",
-            "Public Health",
-            "Lead Pipes",
-            "New York Politics"
+            "New York State",
+            "Food Additives",
+            "Legislation",
+            "Consumer Protection",
+            "Grocery Prices"
         ],
         "bullets": [
-            "Legislation establishes statutory mandate for complete eradication of 360,000 lead service lines statewide by December 2030.",
-            "$850 million revolving grant fund covers 100% of residential replacement costs for low- and moderate-income homeowners and landlords.",
-            "Imposes mandatory annual drinking water filtration testing and transparent digital mapping for all public school districts."
+            "Governor Hochul announces planned veto of Assembly Bill 6424, which sought to ban FD&C Red No. 3, propylparaben, and potassium bromate statewide.",
+            "Administration cites risk of severe retail price spikes for staple packaged goods, bagels, and pizzas, as well as regulatory conflicts with federal FDA standards.",
+            "Sponsoring lawmakers and public health coalitions vow to reintroduce revised ingredient oversight legislation in the upcoming 2027 legislative session."
         ],
-        "body": "In a decisive legislative victory for environmental justice and public health across the Empire State, Governor Kathy Hochul signed landmark bipartisan legislation in Albany on Sunday establishing the most rigorous, time-bound lead drinking water infrastructure replacement mandate in the nation. The statute, titled the New York Pure Water and Child Health Protection Act, legally obligates all municipal water utilities and private water systems statewide to identify, excavate, and permanently replace every remaining lead service line by December 31, 2030.\n\nThe sweeping legislation resolves years of contentious debate over how to eliminate toxic legacy plumbing that continues to jeopardize pediatric brain development in post-industrial upstate cities and older urban neighborhoods. Department of Health inventories indicate that an estimated 360,000 lead service pipes\u2014the narrow conduit lines connecting municipal street water mains to private residential dwellings\u2014remain in active operation across New York, with the highest concentrations clustered in Buffalo, Rochester, Syracuse, Yonkers, and portions of Brooklyn and Queens.\n\nTo ensure that the financial burden of replacing the lines does not fall on vulnerable homeowners and working-class tenants, the legislation establishes an immediate $850 million state clean water grant and revolving loan pool. Under the statutory funding guidelines, property owners earning below 120 percent of their regional area median income will receive 100 percent of line replacement costs covered by state vouchers, prohibiting utility companies from adding capital surcharges onto monthly residential water utility bills.\n\n\"There is no safe blood level of lead in a developing child; every single medical study has shown that even micro-traces cause irreversible neurological damage, cognitive delays, and lifelong cardiovascular harm,\" Governor Hochul stated during the signing ceremony inside the State Capitol\u2019s Red Room. \"For over a century, children in our older working-class communities have been drinking water flowing through toxic pipes installed during the industrial era. With this law, New York is drawing a line: by 2030, lead pipes in our state will be completely consigned to the history books.\"\n\nThe statute also eliminates a notorious legal loophole known as 'partial lead line replacement.' Historically, cash-strapped municipalities would replace only the portion of the lead pipe running underneath public streets up to the property line, leaving the private segment running into the home intact. Public health studies conducted by researchers at Syracuse University revealed that partial replacements actually spiked lead concentrations in drinking water for months due to physical vibration and chemical galvanization. The new law legally mandates full, continuous replacement from the street main to the water meter inside the home.\n\nLegislative leaders from both parties in the Senate and Assembly hailed the final compromise, which passed both legislative chambers with overwhelming bipartisan majorities. Republican lawmakers representing rural and suburban districts praised provisions that allocate technical assistance and regional equipment sharing to under-resourced rural water districts in the Southern Tier and Adirondack regions, while progressive urban caucuses celebrated stringent tenant notification mandates.\n\n\"Every family in New York, whether living in an apartment in Buffalo or a farmhouse in the North Country, has a fundamental constitutional right to turn on their kitchen tap and pour a glass of water without fear of poisoning their children,\" said Senate Environmental Conservation Committee Chair Pete Harckham. \"This legislation pairs aggressive, enforceable deadlines with the real-world financing needed to get shovels into the ground immediately.\"\n\nIn addition to residential infrastructure, the bill requires all public school districts and state-licensed childcare facilities to conduct annual third-party laboratory water testing at every drinking fountain and kitchen faucet, lowering the actionable lead threshold from five parts per billion to two parts per billion. Schools with fixtures exceeding the threshold will receive direct state emergency capital grants to install point-of-use catalytic filtration units.\n\nState environmental contractors and labor unions, including the New York State Laborers and Plumbers Local 1, announced they will immediately launch specialized statewide apprenticeship certifications to train over 2,500 licensed pipefitters and heavy equipment operators needed to fulfill the ambitious 2030 excavation timeline."
+        "body": "ALBANY, N.Y. \u2014 In a decisive executive move that has set off intense debate between consumer health advocates and commercial food trade associations, Governor Kathy Hochul announced over the weekend her intention to veto a high-profile legislative package that would have established the nation's strictest state-level prohibitions on several widely used chemical food additives.\n\nThe legislation, passed by substantial majorities in both the State Senate and Assembly during the closing hours of the regular legislative session, sought to bar the commercial manufacturing, distribution, and sale of any food or beverage containing three specific chemical compounds: FD&C Red No. 3, propylparaben, and potassium bromate. The substances, commonly utilized as synthetic coloring agents, mold inhibitors, and dough strengtheners in commercial sandwich breads, store-bought bagels, canned baked goods, and frozen pizzas, have been the subject of intensifying scientific scrutiny regarding potential behavioral and metabolic health impacts.\n\nHowever, in statements released through senior administration policy aides and confirmed during a regional economic appearance, Governor Hochul underscored that while protecting New York families from toxic contaminants remains an executive priority, unilateral state-level ingredient bans carry severe economic unintended consequences for everyday consumers already burdened by persistent grocery inflation.\n\n\"At a time when working families from Buffalo to Brentwood are scrutinizing every single receipt at the supermarket checkout line, enacting a state-level regulatory patchwork that fractures interstate food distribution would deliver an unacceptable price shock to New York households,\" an executive chamber spokesperson stated. \"Major food manufacturers have made it unequivocally clear that formulating and packaging New York-only product lines would force regional distributors to either withdraw affordable staples from local bodegas and supermarket shelves or pass devastating reformulation surcharges directly onto consumers.\"\n\nThe decision drew immediate, sharply polarized reactions across the political spectrum. Sponsoring lawmakers, led by Manhattan State Senator Brian Kavanagh and Assembly Member Anna Kelles, expressed profound disappointment with the Governor's announced veto. They cited peer-reviewed toxicology studies and pointed to California's enactment of the California Food Safety Act as evidence that large-scale consumer packaged goods conglomerates possess the technical capacity to substitute natural colorants\u2014such as beet juice and turmeric\u2014without destabilizing wholesale pricing structures.\n\n\"Every year that Albany hesitates to purge known toxic chemical additives from our school cafeterias and family grocery carts is a year in which our children bear the avoidable burden of developmental and metabolic harm,\" Senator Kavanagh remarked in a joint statement. \"California proved that the sky does not fall when states take common-sense steps to protect their citizens. New York should be leading the march toward clean food standards, not deferring to corporate agribusiness lobbyists who prioritize synthetic shelf-life over public wellness.\"\n\nConversely, business and agricultural coalitions hailed the Governor's pragmatism. The Business Council of New York State, the Food Industry Alliance, and the Bodega and Small Business Association of New York had aggressively lobbied the executive chamber against the measure. They argued that because the federal Food and Drug Administration (FDA) exercises primary statutory jurisdiction over food safety determinations under the Federal Food, Drug, and Cosmetic Act, state-by-state prohibitions create severe logistical chaos, particularly for independent grocers and regional distributors who source wholesale goods across Pennsylvania, New Jersey, and Connecticut.\n\nThe planned veto marks a defining early signal of Governor Hochul's governing approach as she enters her second full term, underscoring an executive willingness to break with progressive legislative supermajorities on economic and regulatory mandates that risk exacerbating household cost-of-living burdens. Legislative leaders in Albany indicated that while an immediate override attempt appears unlikely before the year ends, they plan to hold comprehensive public hearings in January to explore phased-in compliance schedules and tax credits for regional bakeries that transition away from synthetic dough conditioners voluntarily."
     },
     {
         "id": "turhan-mildon-caracas-washington-venezuela-business-interests",
@@ -3204,10 +3206,10 @@ In Washington, national security officials convened in the White House Situation
 
   'Business & Economy': [
     {
-        "id": "federal-reserve-and-fdic-issue-joint-mandate-restricting-commercial-real-estate-debt-exposure",
-        "title": "Federal Reserve and FDIC Issue Sweeping Mandate Restricting Commercial Real Estate Debt Exposure Among Regional Lenders",
-        "kicker": "WALL STREET \u2022 FINANCIAL STABILITY",
-        "summary": "In response to mounting defaults in aging Midtown office towers and multi-family commercial portfolios, federal bank regulators issued a coordinated supervisory directive on Monday forcing mid-sized and regional banks to aggressively write down non-performing urban property loans and increase mandatory loss reserves.",
+        "id": "wall-street-plunges-into-correction-as-nasdaq-sheds-1225-points-in-global-tech-selloff",
+        "title": "Wall Street Plunges Into Correction as Nasdaq Sheds 1,225 Points in Global Tech Sell-Off Amid AI Capital Valuation Anxieties",
+        "kicker": "MARKET DISPATCH \u2022 FINANCIAL CRISIS",
+        "summary": "Financial markets across Lower Manhattan convulsed as a brutal, indiscriminate sell-off swept Wall Street trading desks, driving the S&P 500 into formal correction territory and erasing all year-to-date gains for the Nasdaq Composite as investors recalibrate the astronomical capital costs of generative artificial intelligence.",
         "category": "Business",
         "edition": [
             "US & Americas",
@@ -3215,28 +3217,30 @@ In Washington, national security officials convened in the White House Situation
         ],
         "author": {
             "name": "Newyorkerherald Staff",
-            "role": "Wall Street & Markets Desk",
-            "avatar": "/images/authors/marcus_vance.jpg"
+            "role": "Wall Street & Global Markets Bureau",
+            "avatar": "/images/authors/sarah_mitchell.jpg"
         },
         "publishedAt": "Today",
-        "readTime": "7 min read",
-        "imageUrl": "/images/news/federal-reserve-fdic-commercial-real-estate-directive.webp",
-        "imageCaption": "The Federal Reserve Bank of New York in Lower Manhattan, where banking supervisors finalized new loan-loss provisioning rules.",
-        "imageCredit": "Newyorkerherald / Wall Street Bureau",
+        "readTime": "8 min read",
+        "imageUrl": "/images/news/wall-street-plunges-into-correction-as-nasdaq-sheds-1225-points-in-global-tech-selloff.webp",
+        "imageCaption": "Traders monitor rapidly declining equity indices on the floor of the New York Stock Exchange in Lower Manhattan.",
+        "imageCredit": "Newyorkerherald / Financial Markets Desk",
         "tags": [
             "Wall Street",
-            "Federal Reserve",
-            "FDIC",
-            "Commercial Real Estate",
-            "Banking",
+            "Stock Market",
+            "Nasdaq",
+            "S&P 500",
+            "AI Valuation",
+            "Tech Sell-Off",
+            "Correction",
             "Economy"
         ],
         "bullets": [
-            "Regulators require regional institutions holding commercial real estate (CRE) debt over 300% of risk-based capital to boost loss reserves.",
-            "Mandates immediate mark-to-market revaluations on aging B- and C-grade office buildings across major metropolitan centers.",
-            "KBW Regional Banking Index dips 2.8% as Wall Street analysts anticipate widespread dividend cuts and debt restructurings."
+            "Nasdaq Composite plunges 5.13% (down 1,225 points) to 22,654, completely erasing all 2026 equity gains.",
+            "S&P 500 logs its seventh consecutive losing session, dropping 3.59% and declining more than 10% from October peak into formal correction.",
+            "Global central banks and regulatory authorities in South Korea, Taiwan, and Europe deploy emergency liquidity and short-selling circuit breakers."
         ],
-        "body": "In the most aggressive federal intervention into bank balance sheets since the regional banking tremors of 2023, the Federal Reserve, the Federal Deposit Insurance Corporation (FDIC), and the Office of the Comptroller of the Currency (OCC) released a coordinated joint supervisory mandate on Monday morning, placing stringent regulatory handcuffs on commercial real estate (CRE) lending across hundreds of mid-sized and regional banking institutions nationwide.\n\nThe emergency supervisory guidance, formally transmitted to bank boards of directors following months of covert stress testing by the Federal Reserve Bank of New York, targets the mounting liquidity vulnerabilities tied to the nation's $2.9 trillion in outstanding commercial property debt. With roughly $1.2 trillion of commercial real estate loans scheduled to mature over the next twenty-four months, property owners facing borrowing costs exceeding seven percent have increasingly opted to surrender keys to lenders rather than refinance depreciated urban office towers and rent-regulated multifamily housing complexes.\n\nUnder the newly issued regulatory framework, any banking institution whose total commercial real estate loan portfolio exceeds 300 percent of its total risk-based capital must immediately submit a formal capital enhancement plan. Regulators are mandating that these institutions raise their dedicated loan-loss provisions by an average of 35 percent, while capping executive bonus compensation and share repurchases until their CRE concentration metrics return to compliant thresholds.\n\nCritically, the joint directive eliminates the practice known in high finance as 'extend and pretend'\u2014an informal accounting workaround whereby lenders quietly modify loan maturities and defer principal payments for delinquent property owners to avoid recognizing massive balance sheet write-downs. Under the new rules, banks must conduct rigorous quarterly mark-to-market appraisal reviews for any commercial property loan that has undergone loan modification or where physical tenant occupancy has dropped below 65 percent.\n\n\"Banking supervisors can no longer permit financial institutions to paper over structural revaluations in the commercial property market with optimistic accounting assumptions,\" said Federal Reserve Vice Chair for Supervision Michael Barr in a prepared statement accompanying the release. \"The post-pandemic transformation of working patterns and urban commercial occupancy is permanent. Banks must recognize reality, absorb necessary loan write-downs with adequate capital cushions, and protect the safety and soundness of the broader deposit-taking financial system.\"\n\nThe regulatory announcement sent immediate shockwaves through financial markets. The KBW Regional Banking Index dropped 2.8 percent during morning trading on the New York Stock Exchange, with prominent regional lenders based in New York, New Jersey, and California bearing the brunt of the selloff. Shares of several prominent mid-sized lenders whose loan books are heavily weighted toward older Class-B and Class-C Manhattan office properties fell between four and seven percent.\n\nReal estate industry executives and banking trade associations pushed back vigorously, warning that forced rapid liquidations could trigger an artificial fire-sale contagion that destabilizes urban tax bases. Representatives from the American Bankers Association argued that the majority of regional institutions entered the rate cycle with substantial capital reserves and that property owners needed flexibility to convert obsolete commercial spaces into residential housing.\n\n\"By imposing rigid, punitive provisioning mandates at precisely the moment when commercial debt restructuring requires patience and flexibility, regulators risk transforming an orderly, multi-year market transition into an acute credit crunch,\" said Rob Nichols, President and CEO of the American Bankers Association. \"This policy will constrain credit availability for local businesses and developers working to revitalize downtown urban centers.\"\n\nFixed-income strategists at Goldman Sachs noted that while the supervisory directive will compress regional bank earnings through 2027, it significantly reduces the systemic probability of sudden, catastrophic bank failures by forcing institutions to confront impaired loan portfolios proactively under regulatory supervision."
+        "body": "NEW YORK \u2014 A wave of intense, unrelenting selling pressure ripped through the New York financial markets on Monday, culminating in the sharpest single-day tech equity retreat of the year and dragging the benchmark S&P 500 index into its first official market correction since early 2023.\n\nThe dramatic downturn, which unfolded across electronic trading networks and the historic floor of the New York Stock Exchange, saw the tech-heavy Nasdaq Composite index plummet by an astonishing 1,225 points\u2014or 5.13%\u2014to close at 22,654.15. The single-day liquidation thoroughly wiped out what had remained of the Nasdaq's 2026 gains, transforming an autumn of speculative euphoria into an austere winter reckoning over the true commercial return on hundreds of billions of dollars in corporate artificial intelligence infrastructure spending.\n\nThe broad-market S&P 500 index suffered a corresponding blow, dropping 3.59% to finish the session at 6,918.45. The decline marked the index's seventh consecutive negative trading day, officially pushing the benchmark more than 10.2% below its all-time closing record established in mid-October. The Dow Jones Industrial Average similarly slid 908 points, or 1.85%, closing at 48,188.18 as institutional portfolio managers unloaded shares across industrial, financial, and consumer technology holdings to cover margin requirements.\n\nThe catalyst for the systemic unwind originated in the fragile public market debut of artificial intelligence pioneer Anthropic, whose highly anticipated initial public offering last week failed to establish the sustained upward momentum Wall Street analysts had forecast. Instead, institutional investors utilized the liquidity event to aggressively lock in profits across mega-cap tech infrastructure providers, sparking a cascading chain reaction of algorithmic stop-loss triggers.\n\nSemiconductor titan Nvidia bore the brunt of the institutional rotation, sinking roughly 14% over a brutal two-day stretch and dragging downstream hardware assemblers, data center cooling suppliers, and chip fabrication networks into steep declines. Shares of Broadcom, Advanced Micro Devices, and Micron Technology recorded double-digit percentage drops as trading volumes eclipsed three times their 30-day moving averages.\n\n\"What markets are experiencing is not an exogenous macroeconomic shock, but an internal valuation reality check that has been building since corporate earnings reports revealed that the gap between enterprise AI capital expenditures and realized software revenues remains cavernous,\" remarked Michael Hartnett, chief investment strategist at Bank of America Securities in Midtown. \"When hyperscale cloud corporations are spending $250 billion a year on computing clusters while monetization is measured in single-digit billions, the multiple compression was mathematically inevitable.\"\n\nThe turbulence reverberated instantly across international bourses, prompting foreign monetary authorities to take unprecedented defensive measures over the weekend. In Seoul, South Korean financial regulators convened an emergency session to reactivate a dormant stock market stabilization fund and loosen corporate share buyback regulations after the Kospi index experienced heavy spillover selling. In Taipei and Shanghai, monetary officials tightened margin financing requirements and expanded short-selling circuit breakers to prevent disorderly liquidations.\n\nOn Wall Street, the Cboe Volatility Index (VIX)\u2014colloquially recognized as the market's 'fear gauge'\u2014surged toward 34 points, a level not witnessed since the height of regional banking anxieties in 2023. Fixed-income markets witnessed a fierce flight to quality, with benchmark 10-year U.S. Treasury yields falling 14 basis points to 4.12% as traders sought shelter in sovereign debt.\n\nWhile early morning index futures hinted at a tentative technical rebound as value-oriented asset managers stepped in to acquire oversold dividend blue chips, seasoned market veterans warned that broad-based momentum sell-offs typically require weeks of price discovery before establishing a durable cyclical bottom. Federal Reserve officials scheduled to deliver public addresses later this week are expected to face intense scrutiny regarding whether the financial tightening will alter the central bank's interest rate trajectory heading into the December FOMC policy summit."
     },
     {
         "id": "wall-street-braces-as-sec-finalizes-stringent-liquidity-rules-for-1-7t-private-credit-funds",
@@ -3741,10 +3745,10 @@ Sports finance experts note that the move mirrors a broader institutional trend 
 
   'Tech': [
     {
-        "id": "new-york-ai-consortium-deploys-open-source-grid-intelligence-agent-to-prevent-metropolitan-blackouts",
-        "title": "New York Tech Consortium Deploys Open-Source AI Grid Intelligence Agent to Prevent Metropolitan Blackouts",
-        "kicker": "SILICON ALLEY \u2022 ENTERPRISE AI",
-        "summary": "A public-private partnership between New York power grid operators, Columbia Engineering, and leading open-source AI laboratories unveiled 'GridShield-NY,' a decentralized autonomous AI system that dynamically balances sub-station power loads and anticipates grid bottlenecks during extreme winter temperature swings.",
+        "id": "new-york-breaks-ground-on-500m-permanent-empire-ai-supercomputing-center-suny-buffalo",
+        "title": "New York Breaks Ground on $500M Permanent Empire AI Supercomputing Consortium at SUNY Buffalo",
+        "kicker": "TECH & SOVEREIGNTY \u2022 COMPUTING INFRASTRUCTURE",
+        "summary": "Establishing the nation's premier public-interest supercomputing facility, state officials and university chancellors broke ground on the permanent home of Empire AI at the University at Buffalo, deploying sovereign compute capacity to democratize advanced neural network research for public health, climate science, and open-source models.",
         "category": "Tech",
         "edition": [
             "US & Americas",
@@ -3752,28 +3756,29 @@ Sports finance experts note that the move mirrors a broader institutional trend 
         ],
         "author": {
             "name": "Newyorkerherald Staff",
-            "role": "Technology & AI Innovation Desk",
+            "role": "Technology & Science Bureau",
             "avatar": "/images/authors/sarah_mitchell.jpg"
         },
         "publishedAt": "Yesterday",
-        "readTime": "6 min read",
-        "imageUrl": "/images/news/ny-ai-gridshield-power-blackout-prevention.webp",
-        "imageCaption": "Control monitors at the New York Independent System Operator (NYISO) command center running the newly deployed GridShield AI model.",
-        "imageCredit": "Newyorkerherald / Innovation & Tech Bureau",
+        "readTime": "8 min read",
+        "imageUrl": "/images/news/new-york-breaks-ground-on-500m-permanent-empire-ai-supercomputing-center-suny-buffalo.webp",
+        "imageCaption": "Architectural rendering of the permanent Empire AI supercomputing complex under construction at the University at Buffalo campus.",
+        "imageCredit": "Newyorkerherald / SUNY Architectural Consortium",
         "tags": [
+            "Empire AI",
+            "Supercomputing",
             "Artificial Intelligence",
-            "New York Tech",
-            "Energy Grid",
-            "Columbia Engineering",
-            "Silicon Alley",
-            "Climate Tech"
+            "SUNY Buffalo",
+            "Kathy Hochul",
+            "Tech Infrastructure",
+            "Public Research"
         ],
         "bullets": [
-            "NYISO, Con Edison, and Columbia University deploy decentralized AI agent across 140 major electrical sub-stations.",
-            "Algorithm predicts localized transformer overloads up to 48 hours in advance using real-time thermodynamic sensor data.",
-            "Open-source model released to public energy research repository, offering a blueprint for national grid modernization."
+            "Construction commences on the $500M+ permanent home of Empire AI Gamma, slated to be the nation's most powerful non-corporate academic compute cluster.",
+            "Consortium brings together Columbia, Cornell, NYU, CUNY, SUNY, and the Simons Foundation to guarantee non-commercial access for academic researchers.",
+            "Facility integrates closed-loop geothermal cooling and dedicated renewable power contracts to minimize carbon footprint and grid congestion in Western New York."
         ],
-        "body": "In an engineering breakthrough bridging cutting-edge artificial intelligence with critical urban utility infrastructure, a collaborative consortium of New York power grid operators, academic researchers, and Silicon Alley software engineers announced the operational deployment of 'GridShield-NY' on Sunday afternoon. The decentralized autonomous AI system, developed over two years through a partnership between Consolidated Edison, the New York Independent System Operator (NYISO), and Columbia University\u2019s School of Engineering, is designed to autonomously anticipate and neutralize catastrophic electrical grid failures during peak winter load surges.\n\nThe deployment addresses one of the most perilous operational challenges facing modern metropolitan centers: the escalating strain placed on aging electrical distribution grids by rapid electrification. As New York City accelerates its statutory transition away from fossil fuel heating systems and expands municipal electric vehicle charging hubs, peak electrical demand during sub-freezing winter cold snaps has surged to unprecedented levels, threatening high-voltage transformer substations with thermal overload and cascading neighborhood blackouts.\n\nOperating directly across 140 primary electrical substations and thousands of intelligent feeder lines across the five boroughs and Westchester County, GridShield-NY utilizes an advanced mixture-of-experts transformer neural network trained on thirty years of regional meteorological records, thermodynamic sensor telemetry, and minute-by-minute electrical impedance data. Unlike legacy utility management software that relies on static threshold rules and manual operator dispatch, GridShield operates as a continuous predictive reasoning agent, simulating grid stress conditions 48 hours in advance with sub-block resolution.\n\nWhen the algorithm detects an imminent localized bottleneck\u2014such as a substation transformer heating up in Long Island City while sub-zero winds trigger massive heat pump usage across multi-family towers\u2014it autonomously executes millisecond micro-adjustments. The system can dynamically throttle municipal battery storage reserves, re-route feeder transmissions through redundant circuits, and signal automated demand-response algorithms in commercial office buildings to temporarily reduce non-essential HVAC consumption, neutralizing voltage drops before circuit breakers trip.\n\n\"Modernizing America's power grid cannot simply be a matter of spending billions to bury thicker copper cables in the ground,\" said Dr. Kartik Chandran, chair of electrical engineering at Columbia University and co-principal investigator on the initiative. \"The grid of the twenty-first century must possess autonomous cognitive intelligence. GridShield functions as an electronic immune system for the power grid, anticipating physical stress before humans can even detect temperature fluctuations on copper coils.\"\n\nCrucially, in a departure from the proprietary black-box software models favored by defense contractors and private enterprise vendors, the consortium released the foundational neural architecture and mathematical simulation engines of GridShield-NY under an open-source permissive Apache 2.0 license to the national energy research repository. This transparent architecture allows independent academic researchers, municipal utilities in Chicago and Boston, and federal regulators at the Department of Energy to inspect, verify, and adapt the safety models without paying licensing fees to private tech monopolies.\n\nEnvironmental advocates and clean energy coalitions praised the initiative, noting that intelligent real-time grid orchestration is essential for integrating intermittent renewable power generated by offshore wind farms and upstate solar arrays into the metropolitan energy pool.\n\n\"By maximizing the efficiency and resilience of existing transmission infrastructure through open-source AI, New York is proving that we can meet our aggressive climate targets without sacrificing grid reliability,\" said Julie Tighe, President of the New York League of Conservation Voters. \"This is practical, public-interest technological innovation at its finest.\"\n\nConsortium directors confirmed that following initial operational trials during upcoming December cold fronts, plans are underway to expand GridShield's sensor telemetry to upstate transmission corridors connecting hydroelectric power from Niagara Falls and Quebec directly into New York City's electrical arteries."
+        "body": "BUFFALO, N.Y. \u2014 Amid growing national concern over the monopolization of high-performance artificial intelligence compute by a handful of multinational tech conglomerates, New York State officially launched the physical construction of the nation's most ambitious academic supercomputing initiative on Monday, breaking ground on the permanent headquarters of the Empire AI consortium at the State University of New York (SUNY) at Buffalo.\n\nThe $500-plus million capital endeavor, funded through a blend of state statutory appropriations and private philanthropic commitments led by the Simons Foundation and Bloomberg Philanthropies, is designed to house *Empire AI Gamma*\u2014a sovereign, next-generation computing cluster engineered to deliver unprecedented processing power exclusively for public-interest scientific discovery.\n\nWhen fully operational in early 2027, the facility will provide vetted researchers across New York's premier public and private universities\u2014including Columbia University, Cornell University, New York University (NYU), the City University of New York (CUNY), the University of Rochester, and the sprawling 64-campus SUNY system\u2014with direct, subsidized access to the bleeding-edge graphic processing units (GPUs) and specialized optical interconnects required to train multi-billion-parameter foundation models.\n\n\"For the past three years, the American scientific research enterprise has faced an existential crisis: our brilliant graduate students, public health epidemiologists, and climate modelers have been systematically locked out of cutting-edge artificial intelligence research simply because private venture-backed hyperscalers purchased all available compute capacity,\" stated SUNY Chancellor John B. King Jr. during the groundbreaking ceremony on the university's North Campus in Amherst. \"Empire AI fundamentally rewrites that dynamic. We are building a public utility for the human mind\u2014ensuring that the algorithms shaping our future are developed not in secret corporate boardrooms for immediate monetization, but in transparent academic laboratories dedicated to the common good.\"\n\nArchitectural blueprints for the 65,000-square-foot facility highlight advanced environmental engineering designed to address the severe energy and water consumption footprints that have made conventional commercial data centers controversial. The complex incorporates a closed-loop closed-circuit liquid cooling system utilizing regional geothermal heat-exchange wells, paired with direct high-voltage power contracts secured through the New York Power Authority's Niagara hydroelectric project, ensuring that the supercomputer operates on 100% carbon-free power from its first initialization cycle.\n\nInitial research grants earmarked for the facility focus on critical urban and regional challenges facing New Yorkers. Early compute allocations will empower computational biology teams at Roswell Park Comprehensive Cancer Center and Weill Cornell Medicine to model targeted cellular therapies for treatment-resistant leukemia, while civil engineering researchers at Columbia and SUNY Stony Brook will utilize neural simulation engines to model real-time coastal storm surges and flood mitigation corridors across Long Island Sound and the New York Harbor.\n\nThe groundbreaking also carries profound regional economic implications for Western New York. The Buffalo Niagara region, historically an industrial steel manufacturing capital, has increasingly leveraged its robust electrical grid capacity, cooler climate, and world-class academic institutions to transform itself into a northern tech and research corridor. Local officials project that Empire AI will generate more than 600 high-skilled software engineering, network operations, and data science positions, while incubating dozens of open-source artificial intelligence spin-off enterprises.\n\nFederal science administrators in Washington are closely watching New York's consortium model as potential federal blueprint. National Science Foundation officials attending the Buffalo ceremony noted that as Congress debates the structure of a proposed National Artificial Intelligence Research Resource (NAIRR), New York's cooperative institutional framework represents the most viable operational model for preserving American scientific preeminence while upholding rigorous ethical and algorithmic bias standards."
     },
     {
         "id": "new-york-state-launches-empire-ai-supercomputing-cluster-at-suny-buffalo-open-to-public-researchers",
@@ -4316,10 +4321,10 @@ Aerospace financial analysts estimate that SpaceX's commercial launch and satell
 
   'Entertainment': [
     {
-        "id": "lincoln-center-announces-historic-250m-revitalization-of-public-plazas-and-free-outdoor-arts-spaces",
-        "title": "Lincoln Center Unveils Historic $250M Revitalization of Public Plazas and Year-Round Free Outdoor Arts Spaces",
-        "kicker": "NEW YORK ARTS \u2022 CULTURAL LANDMARKS",
-        "summary": "In the largest civic investment in Upper West Side cultural architecture in twenty years, Lincoln Center and city cultural leaders broke ground on Monday on a transformational $250 million green renovation, creating expansive heated amphitheaters, acoustic garden stages, and year-round free public performance pavilions.",
+        "id": "mayor-mamdani-signs-historic-law-ending-new-york-city-central-park-horse-carriage-industry",
+        "title": "Mayor Zohran Mamdani Signs Landmark Law Ending New York City's 150-Year-Old Central Park Carriage Horse Industry",
+        "kicker": "CULTURE & HERITAGE \u2022 HISTORIC LEGISLATION",
+        "summary": "Resolving one of the most protracted, emotionally charged municipal controversies in modern New York City history, Mayor Zohran Mamdani signed landmark legislation officially mandating the complete phaseout of the historic horse-drawn carriage industry in Central Park by late 2027, pairing animal welfare sanctuaries with guaranteed worker pension transitions.",
         "category": "Entertainment",
         "edition": [
             "US & Americas",
@@ -4327,28 +4332,30 @@ Aerospace financial analysts estimate that SpaceX's commercial launch and satell
         ],
         "author": {
             "name": "Newyorkerherald Staff",
-            "role": "Arts & Culture Desk",
+            "role": "Arts, Culture & Urban Life Bureau",
             "avatar": "/images/authors/sarah_mitchell.jpg"
         },
         "publishedAt": "Today",
-        "readTime": "6 min read",
-        "imageUrl": "/images/news/lincoln-center-revitalization-outdoor-public-arts.webp",
-        "imageCaption": "Architectural renderings of the redesigned Josie Robertson Plaza and heated outdoor pavilion at Lincoln Center for the Performing Arts.",
+        "readTime": "8 min read",
+        "imageUrl": "/images/news/mayor-mamdani-signs-historic-law-ending-new-york-city-central-park-horse-carriage-industry.webp",
+        "imageCaption": "A horse-drawn carriage navigates the southern perimeter of Central Park along 59th Street ahead of the municipal transition.",
         "imageCredit": "Newyorkerherald / Culture Bureau",
         "tags": [
-            "Lincoln Center",
-            "New York Arts",
+            "Central Park",
+            "Horse Carriage Ban",
+            "Zohran Mamdani",
+            "New York City",
+            "Entertainment",
             "Culture",
-            "Architecture",
-            "Upper West Side",
-            "Entertainment"
+            "Animal Welfare",
+            "Teamsters Local 553"
         ],
         "bullets": [
-            "Groundbreaking marks $250M public-private transformation of Lincoln Center's iconic 16-acre outdoor campus.",
-            "Replaces travertine expanses with acoustic garden terraces, year-round heated pavilions, and sustainable permeable greenery.",
-            "Guarantees 250 free open-air orchestral, dance, and theatrical performances annually for public audiences."
+            "Mayor Mamdani signs Intro 573-A, mandating the complete retirement and phaseout of commercial carriage horses in Central Park by December 2027.",
+            "Establishment of the $12 million Carriage Workers Transition Fund guarantees union drivers full pension security, job placement, and electric carriage licensing rights.",
+            "All 160 active carriage horses will be placed into permanent, accredited sanctuary retirement facilities overseen by equine veterinary boards."
         ],
-        "body": "In an inspiring reinvention of one of the world's premier performing arts complexes, Lincoln Center for the Performing Arts and the New York City Department of Cultural Affairs broke ground on Monday morning on a $250 million architectural and public programming overhaul designed to transform the iconic 16-acre Upper West Side cultural campus into a vibrant, accessible, year-round civic park for all New Yorkers.\n\nThe visionary master plan, titled 'Lincoln Center Open Stage,' represents the most comprehensive redesign of the complex\u2019s outdoor spaces since its founding in the 1960s. For decades, the monumental travertine expanse of Josie Robertson Plaza and the iconic Revson Fountain, while internationally celebrated as cinematic modernist landmarks, presented stark physical and psychological barriers: scorching hot during summer heatwaves, windswept and barren during winter months, and cut off from the surrounding working-class neighborhood fabric of Amsterdam Avenue.\n\nUnder the $250 million capital plan, financed through an equal partnership of private philanthropic donations led by the Ford Foundation and the Stavros Niarchos Foundation alongside municipal cultural infrastructure bonds, the campus will undergo a radical ecological and civic transformation designed by the celebrated landscape architecture firm Scape.\n\nCentral to the design is the creation of the West Plaza Garden Terrace, an expansive multi-tiered amphitheater featuring living acoustic tree canopies, bioswales, and porous granite paving that replaces over 70,000 square feet of impermeable stone with native flowering gardens and shaded seating groves. During winter months, subterranean geothermal heating coils will warm outdoor stone seating benches and performance platforms, allowing open-air classical, jazz, and dance concerts to proceed comfortably in forty-degree weather.\n\n\"For too long, elite cultural institutions have treated outdoor public space as a decorative foyer leading to high-priced ticketed halls,\" said Henry Timms, President of Lincoln Center, speaking before an audience of community arts leaders, civic officials, and public school student musicians. \"Today, we are turning Lincoln Center inside out. Our art belongs to the entire city. This $250 million transformation ensures that world-class symphony, ballet, theater, and opera are not locked behind four-hundred-dollar box office doors, but accessible for free under the open sky to every child, senior, and worker who walks onto our campus.\"\n\nA core covenant of the municipal capital agreement legally obligates Lincoln Center and its resident constituent companies\u2014including the New York Philharmonic, the Metropolitan Opera, the New York City Ballet, and the Chamber Music Society\u2014to program at least 250 completely free outdoor community performances annually. These presentations will range from open-air chamber music concerts and bilingual community theater productions to summer social dance festivals and public school youth orchestra showcases.\n\nCivic leaders from the adjacent Amsterdam Houses NYCHA public housing complex, who participated in two years of community design workshops, praised the project for dismantling historical class divides. The redesign includes a wide, welcoming street-level garden portal on Amsterdam Avenue, complete with accessible ramps, community gathering lawns, and public restrooms, replacing the forbidding blank concrete retaining walls that historically walled off the public housing campus from Lincoln Center\u2019s glittering theaters.\n\n\"Our children have grown up across the street from these grand opera halls for three generations without ever feeling that this space belonged to them,\" said Monica Morales, president of the Amsterdam Houses Tenant Association. \"Today's groundbreaking proves that when communities are genuinely included in the design process, public institutions can become true community anchors where everyone feels welcomed and valued.\"\n\nConstruction will proceed in carefully phased increments to ensure that the outdoor campus remains partially accessible throughout the renovation, with the first phase of the acoustic garden terraces scheduled to open for the Summer for the City festival in June 2027, and full completion slated for late 2028."
+        "body": "NEW YORK \u2014 In a historic, bittersweet ceremony on the steps of City Hall on Monday afternoon, Mayor Zohran Mamdani signed into law landmark municipal legislation that formally brings an end to New York City's 150-year-old horse-drawn carriage tradition in Central Park.\n\nThe signing of Intro 573-A resolves a deeply entrenched, multi-decade battle that has pitted animal welfare organizations and urban progressives against traditional tourism operators, generational carriage drivers, and organized labor. Under the compromise framework established by the bill, all commercial carriage horse operations will cease permanently by December 31, 2027, with the city facilitating the dignified retirement of every registered horse to accredited sanctuaries while providing a comprehensive $12 million worker transition and retraining fund.\n\nFor generations of visitors and romantics, the clopping of horse hooves along Central Park South and the winding pathways of the Olmsted-designed park stood as an indelible cinematic symbol of Old New York. Yet, in recent years, the industry was increasingly besieged by public outrage over equine working conditions. High-profile incidents of horses collapsing in heavy traffic along congested Midtown avenues during humid summer heatwaves, paired with persistent concerns over cramped stables in Hell's Kitchen, catalyzed an unstoppable political movement to retire the trade.\n\n\"There is profound poetry in New York's history, but true civic progress requires recognizing when an institution forged in the 19th century can no longer coexist with the realities, density, and compassion of the 21st,\" Mayor Mamdani declared before signing the legislation with dozens of commemorative pens presented to union stewards and animal advocates alike. \"Today, we prove that animal welfare and worker dignity are not mutually exclusive. We are retiring our working horses to green pastures where they belong, while ensuring that the men and women who have steered these carriages through heat, rain, and snow receive the union pension security and dignified career pathways they have earned.\"\n\nThe breakthrough that enabled the bill's passage after decades of political gridlock was the establishment of the Carriage Workers Transition and Opportunity Fund. Negotiated extensively with Teamsters Local 553, which represents the city's roughly 130 licensed drivers and stable hands, the program guarantees full buyout allowances for existing hack medallion holders, bridge pension payments for older drivers approaching retirement, and priority commercial licensing for the newly authorized \"Historic Electric Carriage\" concessions.\n\nBeginning in the spring of 2026, the city will introduce vintage-styled, whisper-quiet electric horseless carriages to operate along the identical Central Park pathways. Existing carriage drivers will receive free operational certifications and preferential concession bidding rights, allowing them to maintain their familiar tourist tour routes without subjecting live animals to urban asphalt, exhaust emissions, and extreme weather.\n\nUnion drivers, many of whom trace their familial heritage back to Dublin or Campania, gathered outside City Hall with conflicted emotions. While celebrating the robust economic protections secured in the final compromise, veteran coachmen expressed nostalgia for an intimate way of life that helped define the sensory fabric of Manhattan.\n\n\"This was never just a job for us\u2014it was a bond with magnificent animals and a craft passed down from our fathers and grandfathers,\" said Thomas Higgins, a carriage driver of 34 years who operates carriage No. 42 along the park perimeter. \"We fought hard because we loved our horses and we wanted to protect our livelihoods. But the city listened to our needs, they respected our union contracts, and they made sure that no driver will be left out on the street without a pension. When the final shift ends in 2027, we will hold our heads high.\"\n\nAnimal protection organizations, including Voters for Animal Rights and the Humane Society of the United States, hailed the signing as a global milestone for urban animal welfare. Certified equine sanctuaries across Upstate New York, Vermont, and Pennsylvania have already entered into municipal protocols to receive the 160 active carriage horses, guaranteeing that each animal will spend its remaining years in expansive natural pastures free from commercial labor."
     },
     {
         "id": "broadway-unveils-record-breaking-winter-season-lineup-with-subsidized-student-and-community-tickets",
@@ -4828,10 +4835,10 @@ Furthermore, cloud streaming platforms and mobile distribution networks have low
 
   'Sports': [
     {
-        "id": "jets-stun-division-rival-patriots-in-thrilling-overtime-upset-to-reignite-playoff-hopes",
-        "title": "Jets Stun Division Rival Patriots 24-21 in Thrilling Overtime Upset to Reignite AFC Playoff Hopes",
-        "kicker": "NEW YORK FOOTBALL \u2022 METLIFE REPORT",
-        "summary": "Driven by a dominant defensive performance in the fourth quarter and a game-winning 52-yard field goal in sudden-death overtime, the New York Jets secured a stunning 24-21 comeback victory over the New England Patriots on Sunday night, electrifying a sellout crowd at MetLife Stadium.",
+        "id": "new-york-giants-defeat-afc-leading-jaguars-23-18-behind-dominant-defense-metlife-statement",
+        "title": "New York Giants Defeat AFC-Leading Jaguars 23-18 Behind Dominant Defense in Statement MetLife Win",
+        "kicker": "SUNDAY FOOTBALL \u2022 STATEMENT VICTORY",
+        "summary": "Electrifying a frigid MetLife Stadium crowd, the New York Giants pulled off a gritty 23-18 upset victory over the AFC South-leading Jacksonville Jaguars, anchored by rookie sensation Abdul Carter's dominant defensive performance and a relentless ground attack that thrusts New York into the heart of the NFC playoff race.",
         "category": "Sports",
         "edition": [
             "US & Americas",
@@ -4839,28 +4846,30 @@ Furthermore, cloud streaming platforms and mobile distribution networks have low
         ],
         "author": {
             "name": "Newyorkerherald Staff",
-            "role": "Sports Desk & NFL Bureau",
-            "avatar": "/images/authors/marcus_vance.jpg"
+            "role": "Sports & Analytics Bureau",
+            "avatar": "/images/authors/sarah_mitchell.jpg"
         },
         "publishedAt": "Yesterday",
-        "readTime": "6 min read",
-        "imageUrl": "/images/news/ny-jets-patriots-metlife-overtime-thriller.webp",
-        "imageCaption": "Jets players celebrate on the field at MetLife Stadium after kicking the game-winning field goal in overtime against New England.",
-        "imageCredit": "Newyorkerherald / Sports Bureau",
+        "readTime": "7 min read",
+        "imageUrl": "/images/news/new-york-giants-defeat-afc-leading-jaguars-23-18-behind-dominant-defense-metlife-statement.webp",
+        "imageCaption": "Giants defensive end Abdul Carter celebrates a crucial fourth-quarter sack of Trevor Lawrence at MetLife Stadium.",
+        "imageCredit": "Newyorkerherald / MetLife Sports Pool",
         "tags": [
-            "New York Jets",
+            "New York Giants",
             "NFL",
             "MetLife Stadium",
-            "Football",
-            "New England Patriots",
-            "Sports"
+            "Abdul Carter",
+            "John Harbaugh",
+            "Jacksonville Jaguars",
+            "Sports",
+            "Playoffs"
         ],
         "bullets": [
-            "Jets roar back from 21-10 fourth-quarter deficit to defeat AFC East rival New England 24-21 in sudden-death overtime.",
-            "Dominant pass rush records six sacks and forces two fourth-quarter turnovers to spark dramatic rally.",
-            "Victory lifts Gang Green back into prime wildcard contention ahead of crucial Thanksgiving weekend slate."
+            "Giants (6-3-1) snap Jacksonville's three-game winning streak in a physical 23-18 defensive masterpiece at MetLife Stadium.",
+            "Rookie pass-rusher Abdul Carter records 2.0 sacks, 5 quarterback hits, and forces a pivotal red-zone turnover against Trevor Lawrence.",
+            "Cam Skattebo's bruising fourth-quarter rushing and Malik Nabers' touchdown reception seal coach John Harbaugh's signature statement win."
         ],
-        "body": "In a raucous, wind-whipped thriller that tested every ounce of grit and resolve inside MetLife Stadium on Sunday night, the New York Jets pulled off a season-defining 24-21 comeback victory in sudden-death overtime against their fiercest division rival, the New England Patriots, breathing furious new life into Gang Green\u2019s pursuit of an AFC wildcard playoff berth.\n\nEntering the fourth quarter trailing 21-10 following three quarters of stagnant offensive rhythm and self-inflicted penalties, the Jets appeared poised to stumble out of postseason contention before 78,000 freezing, anxious fans in the Meadowlands. But spearheaded by a suffocating, blitz-heavy defensive onslaught orchestrating six second-half sacks and two crucial forced turnovers, the Jets launched an electrifying rally that turned a seemingly bleak Sunday evening into an unforgettable chapter of East Rutherford pandemonium.\n\nThe momentum shifted decisively with just under nine minutes remaining in regulation. With New England driving near midfield to ice the game, Jets All-Pro defensive tackle Quinnen Williams exploded through a double-team block, stripping the ball from Patriots quarterback Drake Maye. Defensive end Jermaine Johnson scooped the loose ball at the Patriots' 38-yard line, setting up a thunderous four-play touchdown drive capped by a leaping 14-yard touchdown grab in the back of the end zone by wide receiver Garrett Wilson.\n\nFollowing a successful two-point conversion that sliced the deficit to 21-18, the Jets' defense forced an immediate three-and-out, giving the offense one final possession with 2:42 left on the game clock. Operating a crisp, no-huddle two-minute drill, the Jets marched 62 yards down to the New England 16-yard line, where veteran kicker Greg Zuerlein drilled a clutch 34-yard field goal with four seconds remaining to send the contest into overtime.\n\n\"We looked each other in the eye on the sideline between the third and fourth quarters, and nobody blinked,\" said an emotional Jets head coach Jeff Ulbrich during his post-game press conference. \"This football team has endured heartbreak, injuries, and relentless outside noise all year long. But tonight, when our backs were pressed against the wall, these men fought with relentless brotherhood. That fourth-quarter performance was pure New York football.\"\n\nWinning the overtime coin toss, the Jets elected to receive, executing a patient, bruising ten-play offensive series that leaned heavily on power running between the tackles by Breece Hall. Hall, who finished the evening with 118 rushing yards and two total touchdowns, delivered consecutive third-down conversions against a tiring New England defensive front, bleeding the game clock down to 4:12 in the overtime period.\n\nFaced with a 4th-and-4 from the New England 34-yard line, Ulbrich bypassed a risky punt, summoning Zuerlein onto the field for a 52-yard walk-off attempt into a swirling 18-mile-per-hour November crosswind. The kick soared cleanly between the uprights with yards to spare, triggering a delirious rush of green-and-white jerseys onto the field as fireworks illuminated the Meadowlands night sky.\n\nThe monumental divisional triumph elevates the Jets to a 6-5 record, keeping them firmly positioned in the thick of the crowded AFC wildcard hunt with six regular-season contests remaining. For a long-suffering fanbase accustomed to November heartbreak, Sunday\u2019s overtime victory delivered an unmistakable jolt of belief that this Jets roster possesses the championship resilience required to compete deep into January."
+        "body": "EAST RUTHERFORD, N.J. \u2014 In an uncompromising showcase of physical, trench-warfare football that evoked the franchise's legendary championship eras, the New York Giants staked their claim as legitimate NFC postseason contenders on Sunday afternoon, stunning the AFC South-leading Jacksonville Jaguars 23-18 in front of 78,000 roaring fans at MetLife Stadium.\n\nThe victory, improving the Giants' record to 6-3-1 and snapping Jacksonville's three-game winning streak, represented a signature coaching triumph for head coach John Harbaugh. Facing an explosive Jaguars offense that entered the weekend averaging over 28 points per contest, the Giants deployed an aggressive, multi-layered defensive scheme that harassed Jacksonville quarterback Trevor Lawrence from the opening kickoff to the final desperate Hail Mary attempt.\n\nThe undisputed catalyst of the afternoon was rookie edge rusher Abdul Carter. The first-round dynamo delivered the most dominant performance of his young professional career, terrorizing Jacksonville's offensive line for two pivotal sacks, five quarterback hits, and a bone-jarring strip-tackle in the third quarter that halted a promising Jaguars scoring drive inside the New York red zone.\n\n\"That wasn't just a win\u2014that was a real, old-school, blue-collar football game,\" an exhilarated Harbaugh proclaimed during his postgame press conference, his voice hoarse from four quarters of sideline intensity. \"Our guys embraced the cold, they embraced the contact, and they played with a relentless edge for sixty straight minutes. When you control the line of scrimmage in November, you give yourself a chance to beat anybody in this league.\"\n\nOffensively, the Giants adhered strictly to a ball-control, clock-bleeding game plan engineered to keep Jacksonville's high-octane skill players stranded on the sideline. Sophomore sensation Malik Nabers provided the primary aerial spark, reeling in seven receptions for 55 yards and an acrobatic second-quarter touchdown catch in the back of the end zone, boxing out two defenders to secure the pass with millimeter precision.\n\nOn the ground, rookie running back Cam Skattebo cemented his status as a cult hero among Big Blue faithful. The punishing runner pounded through Jacksonville's defensive front for 82 hard-fought yards, repeatedly churning his legs through gang-tackles to convert crucial third-and-short situations. Skattebo delighted the stadium and drew broad smiles from Harbaugh on the sideline when, after executing a punishing 14-yard first-down run that effectively sealed the game with two minutes remaining, he broke his self-imposed ban on his signature celebratory backflip, sending the home crowd into pandemonium.\n\nJacksonville mounted a ferocious fourth-quarter comeback bid, cutting the deficit to five points on a 22-yard touchdown strike from Lawrence to Christian Kirk with just under five minutes remaining. However, the Giants' defense answered when the game hung in the balance. On fourth-and-goal with 1:12 on the clock, safety Xavier McKinney jumped a crossing route to bat down Lawrence's pass, prompting an eruption of fireworks over the Meadowlands.\n\nThe cross-town New York Jets added to a triumphant weekend for local football fans, travelling across the country to SoFi Stadium to hold off the Los Angeles Chargers 27-24 behind three touchdown passes from veteran quarterback Geno Smith, snapping a five-game skid and delivering a rare simultaneous victory weekend for both New York franchises.\n\nWith their record firmly in winning territory, the Giants enter the decisive Thanksgiving holiday stretch positioned in the upper tier of the NFC Wild Card race. As players celebrated inside a raucous home locker room, team captains emphasized that Sunday's statement triumph is merely the foundation for their December playoff ambitions."
     },
     {
         "id": "new-york-giants-announce-major-front-office-overhaul-and-rookie-qb-start-ahead-of-rivalry-clash",
@@ -5360,10 +5369,10 @@ On the stadium infrastructure front, club executives evaluated demonstrations of
 
   'Science': [
     {
-        "id": "nyu-langone-and-weill-cornell-pioneer-mrna-cellular-therapy-for-aggressive-cardiac-fibrosis",
-        "title": "NYU Langone and Weill Cornell Pioneer Breakthrough mRNA Cellular Therapy to Reverse Severe Heart Damage",
-        "kicker": "BIOMEDICAL ADVANCES \u2022 CARDIOLOGY",
-        "summary": "Medical researchers across two premier Manhattan academic health systems published phase-II clinical trial results on Monday demonstrating that targeted lipid-nanoparticle mRNA therapies can reprogram scarred heart muscle cells, offering hope for hundreds of thousands of patients suffering from end-stage congestive heart failure.",
+        "id": "new-york-power-authority-names-10-qualified-developers-for-1gw-advanced-nuclear-initiative",
+        "title": "New York Power Authority Names 10 Qualified Developers for 1-Gigawatt Advanced Nuclear Energy Initiative",
+        "kicker": "CLEAN ENERGY \u2022 GRID RELIABILITY",
+        "summary": "Accelerating New York's transition toward baseload clean energy to balance surging industrial power demands from artificial intelligence and electrification, the New York Power Authority formalized its roster of ten qualified developer-integrators to construct at least 1 gigawatt of advanced nuclear capacity across Upstate New York.",
         "category": "Science",
         "edition": [
             "US & Americas",
@@ -5371,28 +5380,30 @@ On the stadium infrastructure front, club executives evaluated demonstrations of
         ],
         "author": {
             "name": "Newyorkerherald Staff",
-            "role": "Science & Medicine Desk",
+            "role": "Energy & Environmental Science Bureau",
             "avatar": "/images/authors/sarah_mitchell.jpg"
         },
         "publishedAt": "Today",
-        "readTime": "7 min read",
-        "imageUrl": "/images/news/nyu-weill-cornell-mrna-cardiac-therapy-breakthrough.webp",
-        "imageCaption": "Biomedical researchers at the NYU Langone medical research complex examine fluorescence-microscopy imaging of regenerated cardiac tissue.",
-        "imageCredit": "Newyorkerherald / Medical Sciences Bureau",
+        "readTime": "8 min read",
+        "imageUrl": "/images/news/new-york-power-authority-names-10-qualified-developers-for-1gw-advanced-nuclear-initiative.webp",
+        "imageCaption": "A high-precision engineering model of a next-generation small modular reactor (SMR) under consideration for Upstate New York.",
+        "imageCredit": "Newyorkerherald / NYPA Clean Energy Division",
         "tags": [
-            "Cardiology",
-            "Medicine",
-            "NYU Langone",
-            "Weill Cornell",
-            "mRNA Therapy",
-            "Science"
+            "Nuclear Energy",
+            "NYPA",
+            "Kathy Hochul",
+            "Clean Energy",
+            "Science",
+            "Grid Reliability",
+            "Small Modular Reactors",
+            "Upstate NY"
         ],
         "bullets": [
-            "Phase-II multicenter clinical trial demonstrates 38% reduction in cardiac scar tissue among end-stage heart failure patients.",
-            "Engineered lipid nanoparticles deliver transient mRNA instructions directly to damaged cardiac fibroblasts, restoring contractile muscle elasticity.",
-            "FDA grants Breakthrough Therapy Designation, paving the way for expedited Phase-III trials across thirty national medical centers."
+            "NYPA selects 10 leading nuclear developers\u2014including Westinghouse, GE Hitachi, and Holtec\u2014to submit formal technical proposals for 1GW of advanced reactors.",
+            "Initiative forms the technological foundation of New York's 'Nuclear Reliability Backbone' to meet soaring grid loads from AI data centers and manufacturing.",
+            "Selected sites will undergo intensive seismic, environmental, and community engagement assessments throughout 2027 ahead of target 2032 commercial operation."
         ],
-        "body": "In what leading cardiovascular physicians are hailing as the most consequential therapeutic breakthrough in heart disease treatment in over half a century, medical researchers from NYU Langone Health and Weill Cornell Medicine published landmark clinical trial data on Monday in *Nature Medicine*, demonstrating that novel targeted messenger RNA (mRNA) cellular therapies can successfully reverse permanent fibrotic scarring in diseased human hearts.\n\nFor decades, the fundamental tragedy of human cardiology has been the inability of adult heart muscle cells to regenerate following heart attacks or chronic hypertensive heart failure. When oxygen-deprived heart tissue dies, the body replaces contractile muscle with dense, rigid collagen scar tissue. Over time, this non-functioning fibrotic scar prevents the heart from pumping effectively, steadily condemning patients to chronic fatigue, pulmonary congestion, and fatal congestive heart failure, for which heart transplants have historically been the only curative option.\n\nThe pioneering therapy evaluated in the multi-center New York clinical trial, designated 'CardioRevive-mRNA,' fundamentally rewires this biological dead-end. Developed through a seven-year collaborative research initiative between bioengineers at NYU Langone and clinical cardiologists at Weill Cornell, the treatment utilizes proprietary organ-targeted lipid nanoparticles engineered with surface antibodies that bind exclusively to activated cardiac fibroblasts\u2014the cells responsible for producing rigid scar tissue in damaged hearts.\n\nOnce bound, the nanoparticles deliver a transient sequence of engineered mRNA instructions into the cell's cytoplasm. These genetic instructions temporarily reprogram the fibroblast cells, inducing them to produce natural matrix metalloproteinases that dissolve dense collagen scarring while simultaneously stimulating the migration and electrical integration of healthy, contractile cardiomyocyte muscle cells into the damaged ventricular wall.\n\n\"For over a century, medical students have been taught that adult cardiac scar tissue is permanent, irreversible, and progressive,\" said Dr. Marcus Leventhal, chief of cardiovascular therapeutics at NYU Langone and co-lead investigator of the study. \"Our clinical results decisively shatter that dogma. By leveraging targeted nanotechnology to instruct the heart to heal its own scar tissue, we have observed dramatic restoration of left-ventricular ejection fraction and functional cardiac elasticity that was previously thought biologically impossible.\"\n\nThe Phase-II trial monitored 180 advanced heart failure patients across four Manhattan and Brooklyn academic hospitals over twelve months following a single non-invasive intravenous infusion of the therapy. High-resolution cardiac MRI imaging and invasive hemodynamic catheterizations documented an average 38 percent reduction in total ventricular scar volume, alongside a 24-point absolute increase in left ventricular ejection fraction.\n\nCrucially, patients receiving the therapy reported dramatic, life-altering improvements in quality of life. Over 74 percent of treated patients who were previously bedridden or experienced severe shortness of breath walking across a room were reclassified from New York Heart Association (NYHA) Class IV heart failure down to Class I or II, regaining the ability to climb stairs, garden, and resume active daily routines without supplemental oxygen.\n\nThe safety profile of the treatment was equally remarkable. Because the mRNA payload is transient and degrades naturally within seventy-two hours without integrating into patient DNA, investigators recorded zero instances of off-target organ toxicity, systemic autoimmune reactions, or malignant ventricular arrhythmias.\n\nIn light of the compelling clinical outcomes, the U.S. Food and Drug Administration (FDA) announced on Monday that it has granted CardioRevive-mRNA Breakthrough Therapy Designation and Fast Track status. Federal health officials are working with New York academic leaders to launch an expanded 1,200-patient Phase-III multicenter trial across thirty major academic medical centers nationwide by early 2027, with provisional regulatory approval projected for late 2028."
+        "body": "ALBANY, N.Y. \u2014 Confronting an unprecedented surge in electricity demand driven by high-density artificial intelligence compute facilities, semiconductor fabrication plants, and building electrification mandates, the New York Power Authority (NYPA) reached a milestone on Monday by officially naming the ten qualified developer-integrators authorized to compete for the state's landmark 1-gigawatt advanced nuclear power program.\n\nThe announcement represents the operational execution of Governor Kathy Hochul's \"Nuclear Reliability Backbone\" directive unveiled at the statewide Nuclear Summit earlier this autumn. By establishing formal pre-qualification criteria for next-generation nuclear technology, New York has positioned itself alongside federal energy planners at the forefront of the commercial deployment of Small Modular Reactors (SMRs) and advanced high-temperature gas-cooled reactors.\n\nThe designated roster of qualified developer-integrators includes global leaders in nuclear engineering and modular fabrication: GE Hitachi Nuclear Energy, Westinghouse Electric Company, Holtec International, BWX Technologies, TerraPower, X-energy, NuScale Power, Bechtel, Fluor Corporation, and Sargent & Lundy. Each selected entity demonstrated rigorous technical compliance across passive safety systems, modular factory manufacturing scalability, automated seismic shutdown thresholds, and standardized spent-fuel dry storage protocols.\n\n\"As New York aggressively phases out carbon-intensive fossil fuel peaker stations, the laws of physics and power grid engineering demand reliable, dispatchable, round-the-clock clean baseload generation,\" remarked NYPA President and Chief Executive Officer Justin E. Driscoll during the announcement in Albany. \"Intermittent wind and solar assets are indispensable pillars of our renewable portfolio, but they must be anchored by dense, firm, emission-free nuclear technology if we are to power our hospitals, mass transit networks, and expanding high-tech manufacturing corridors without risking metropolitan blackouts.\"\n\nUnder the state's procurement roadmap, the qualified developer consortia will submit formal engineering bids throughout 2027 evaluating potential deployment corridors across Upstate New York. Priority consideration is being directed toward existing or brownfield industrial utility sites\u2014including retired coal and natural gas facilities along Lake Ontario, the Mohawk Valley, and the Southern Tier\u2014where high-capacity transmission interconnections, industrial cooling water conduits, and skilled nuclear union labor forces are already established.\n\nThe deployment of small modular reactors offers profound engineering advantages over traditional legacy nuclear stations. Unlike the multi-gigawatt gigawatt facilities constructed in the mid-20th century that required bespoke, on-site civil fabrication spanning decades and billions in cost overruns, SMRs are designed to be manufactured in standardized modular segments inside centralized domestic factories before being transported via rail or barge for rapid assembly. Advanced reactor designs utilize passive cooling mechanisms that rely on natural convection, gravity, and ambient air circulation, eliminating the risk of core meltdown events even during complete grid power loss.\n\nEnvironmental and civic groups have voiced measured perspectives. While climate advocacy organizations acknowledge that meeting New York's statutory Climate Leadership and Community Protection Act (CLCPA) mandates is mathematically impossible without zero-emission nuclear generation, local coalitions have demanded rigorous community veto rights, independent groundwater radiation monitoring, and permanent federal solutions for long-term geological nuclear waste repositories.\n\nNYPA officials confirmed that initial site characterization studies and formal Nuclear Regulatory Commission (NRC) early site permit applications will commence in mid-2027, with the state targeting initial commercial reactor synchronizations to the New York power grid between 2031 and 2033."
     },
     {
         "id": "columbia-and-mount-sinai-scientists-unveil-breakthrough-air-filtration-network-to-curb-urban-asthma",
@@ -5906,39 +5917,41 @@ Domestic automotive manufacturers have committed multi-billion-dollar off-take a
 
   'Opinion': [
     {
-        "id": "why-new-yorks-waterfront-resilience-cannot-wait-for-the-next-superstorm",
-        "title": "Why New York\u2019s Waterfront Resilience Cannot Afford Another Decade of Bureaucratic Hesitation",
-        "kicker": "EDITORIAL BOARD \u2022 CIVIC HORIZONS",
-        "summary": "Fourteen years after Hurricane Sandy and multiple 100-year rainstorms later, half-measures on sea gates and basement dwelling protections are putting hundreds of thousands of outer-borough working-class residents directly in harm's way; Albany and Washington must treat coastal infrastructure as an existential civic emergency.",
+        "id": "the-rikers-2032-compromise-why-city-halls-realistic-timetable-demands-uncompromising-oversight",
+        "title": "The Rikers 2032 Compromise: Why City Hall's Realistic Timetable Demands Uncompromising Oversight",
+        "kicker": "EDITORIAL \u2022 PUBLIC ACCOUNTABILITY",
+        "summary": "Mayor Zohran Mamdani's revised 2032 Rikers Island closure roadmap trades dangerous bureaucratic fiction for actionable governance, but its success hinges on whether New York City can insulate its $146 million diversion investments from future institutional neglect.",
         "category": "Opinion",
         "edition": [
             "US & Americas",
             "Global"
         ],
         "author": {
-            "name": "Newyorkerherald Staff",
-            "role": "The Editorial Board",
+            "name": "Newyorkerherald Editorial Board",
+            "role": "Board of Contributors & Commentary",
             "avatar": "/images/authors/sarah_mitchell.jpg"
         },
         "publishedAt": "Today",
-        "readTime": "5 min read",
-        "imageUrl": "/images/news/nyc-waterfront-climate-resilience-editorial.webp",
-        "imageCaption": "A commuter ferry crosses the East River with the Lower Manhattan skyline and coastal defense revetments in the background.",
-        "imageCredit": "Newyorkerherald / Editorial Board",
+        "readTime": "7 min read",
+        "imageUrl": "/images/news/the-rikers-2032-compromise-why-city-halls-realistic-timetable-demands-uncompromising-oversight.webp",
+        "imageCaption": "A solitary guard tower overlooking the East River on the perimeter of Rikers Island.",
+        "imageCredit": "Newyorkerherald / Editorial Archive",
         "tags": [
             "Editorial",
+            "Rikers Island",
+            "Zohran Mamdani",
+            "City Hall",
             "Opinion",
-            "Climate Change",
-            "Waterfront Infrastructure",
-            "New York Governance",
-            "Public Affairs"
+            "Criminal Justice",
+            "Public Affairs",
+            "Governance"
         ],
         "bullets": [
-            "Piecemeal seawalls and slow-moving federal studies leave outer-borough communities unprotected against inevitable 100-year storms.",
-            "Inland cloudburst flooding in Southeast Queens and Brooklyn basement units poses as urgent an existential threat as coastal storm surges.",
-            "Albany and City Hall must unify behind dedicated revolving infrastructure bonds to accelerate regional flood defense construction."
+            "Editorial Board assesses City Hall's 2032 Rikers Island roadmap: embracing operational reality over an unachievable 2027 statutory fiction is responsible governance.",
+            "Delaying closure by five years is acceptable only if accompanied by rigid, legally binding construction milestones and an immediate reduction in pretrial detention.",
+            "City Hall must resist political pressure to water down the $146M mental health diversion investments when subsequent budget cycles tighten."
         ],
-        "body": "Every New Yorker remembers where they were fourteen autumns ago when the Atlantic Ocean surged into Lower Manhattan, when the lights went out across half of Manhattan, and when coastal communities in the Rockaways, Staten Island, and Coney Island were submerged under six feet of churning saltwater. In the immediate aftermath of Hurricane Sandy, civic leaders promised that New York would build an unassailable coastal fortress to ensure that such devastation would never recur.\n\nFourteen years later, that solemn promise remains tragically half-fulfilled. While the financial skyscrapers of Lower Manhattan now stand guarded behind billions in engineered floodwalls, deployable steel floodgates, and raised waterfront parks, the vast, vulnerable crescent of outer-borough working-class shorelines\u2014from Red Hook and Jamaica Bay to Flushing Meadows and Throggs Neck\u2014remains perilously exposed to the rising seas and intensifying Atlantic tempests of an accelerating climate crisis.\n\nThe groundbreaking on Monday for New York City\u2019s $1.4 billion coastal and cloudburst resilience package is a long-delayed, commendable step in the right direction. But let us be painfully honest with ourselves: a city with 520 miles of intricate coastline cannot protect its future with piecemeal, decade-long project timelines that move at the glacial pace of bureaucratic feasibility studies.\n\nThe nature of the climate threat facing New York has also evolved into a dual emergency. As devastating flash storms over the past three years have repeatedly proven, the city is no longer threatened solely by tidal storm surges rolling in from the ocean; it is being drowned from above by inland 'cloudburst' rainstorms that dump catastrophic volumes of water onto impermeable asphalt, overwhelming archaic nineteenth-century sewer lines and turning basement apartments in Queens and Brooklyn into lethal deathtraps.\n\nTreating coastal sea surge defenses and inland cloudburst plumbing as separate, competing budget line items is a recipe for urban catastrophe. What New York City and New York State require is a single, unified, multi-generational Coastal and Watershed Compact that operates with the urgency of a wartime mobilization.\n\nFirst, Albany and City Hall must streamline the paralyzing multi-jurisdictional environmental review process that routinely stalls critical infrastructure projects for years. When a project aims to construct a sea wall or install underground retention cisterns that protect human lives from drowning, taking six years simply to clear overlapping city, state, and federal permitting hurdles is not environmental prudence; it is bureaucratic malpractice. New York must establish an emergency fast-track permitting corridor for all certified municipal climate adaptation projects.\n\nSecond, the city must confront the reality of its subterranean housing crisis with honesty and resources. More than 100,000 New Yorkers reside in informal, unpermitted basement dwellings, primarily working-class immigrant families who have nowhere else to go in a city plagued by a 1.4 percent vacancy rate. Demanding that landlords simply padlock basement doors without providing alternative affordable housing will push thousands into homelessness. City Hall must pair drainage upgrades with comprehensive legalizations that fund emergency egress windows, backwater sewer check-valves, and automated flood alert sensors in every basement unit.\n\nFinally, Washington must abandon its reactive disaster-relief paradigm. The federal government continues to spend tens of billions rebuilding destroyed infrastructure after storms strike while allocating only pennies on the dollar for pre-disaster mitigation that prevents catastrophe in the first place. Every dollar invested in pre-disaster flood resilience saves six dollars in post-disaster reconstruction.\n\nNew York was born of the water; its harbor, bays, and rivers are the foundational arteries of its global economic dominance. But if our political leaders continue to treat climate resilience as a leisurely luxury to be studied rather than an existential imperative to be built, the waters that gave birth to this magnificent metropolis will eventually reclaim it. The moment for bold, decisive, unapologetic action is right now."
+        "body": "In public administration, there is a profound, moral distinction between an honest recalibration of difficult reality and an unprincipled retreat from institutional responsibility.\n\nFor the past three years, New York City government engaged in an elaborate, corrosive exercise in civic pretense. Everyone with even a passing familiarity with municipal contracting, structural engineering, or criminal court arraignments knew that the statutory August 2027 deadline to shutter the Rikers Island jail complex was dead in the water. Supply chain ruptures had brought foundation excavation at the borough-based jail sites to a crawl. The daily jail census, rather than declining toward the statutory threshold of 3,300, crept stubbornly above 6,000 as mental health crisis intervention systems cracked under post-pandemic strain.\n\nTo persist in claiming that the 413-acre East River penal colony could be safely evacuated and permanently padlocked within thirty-two months was no longer an expression of progressive ambition. It had degenerated into a dangerous lie that paralyzed constructive oversight and allowed conditions inside the squalid, century-old cell blocks to deteriorate further.\n\nBy formally resetting the finish line to December 31, 2032, Mayor Zohran Mamdani and his criminal justice team have chosen the arduous path of operational honesty over political theater. They deserve credit for confronting the reality of the crisis directly. But let no one mistake an honest timeline for an acceptable status quo. A five-year extension is a bitter, perilous pill that can be justified only by an uncompromising, transparent standard of municipal accountability.\n\nThe moral urgency cannot be overstated. Rikers Island is not merely an obsolete detention facility; it is a human rights catastrophe operating within sight of the Manhattan skyline. Every additional day that individuals\u2014nearly ninety percent of whom are unconvicted detainees awaiting trial\u2014spend inside intake pens plagued by mold, violence, and neglected medical emergencies is an indictment of the city's constitutional integrity.\n\nThe newly unveiled master blueprint succeeds in several critical respects where previous administrations faltered. By decoupling facility construction from abstract decarceration targets and investing an immediate $146 million into concrete mental health diversion beds, supportive housing vouchers, and specialized pretrial navigation networks, City Hall is finally addressing the root causes that churn vulnerable New Yorkers through arraignment courtrooms. The phased construction schedule\u2014opening Brooklyn in 2029, followed by the Bronx and Queens in 2031\u2014gives the Department of Design and Construction an achievable cadence rather than an impossible concurrent deadline.\n\nYet the greatest threat to this roadmap does not lie in concrete pours or steel fabrication. It lies in the inevitable temptation of municipal politics.\n\nWhen future municipal budget cycles contract and fiscal watchdogs demand departmental belt-tightening, the non-mandated social investments that underpin this entire plan\u2014the diversion networks, the supportive housing subsidies, the supervised release case managers\u2014will be the first line items targeted for cuts. If City Hall falters in maintaining these investments, the jail census will remain elevated, the borough-based facilities will be dangerously overwhelmed before they even open, and 2032 will simply become the preamble to another shameful postponement.\n\nTo prevent this tragedy, the City Council must immediately codify the 2032 milestones into statutory law, complete with enforceable benchmarks that trigger independent judicial oversight should facility deadlines or mental health funding commitments fall behind. The Board of Correction must be granted unhindered, real-time telemetry access to monitor detainee conditions during the transitional years.\n\nClosing Rikers Island is not merely a construction project. It is the defining test of whether the wealthiest, most culturally dynamic city in the world possesses the moral fortitude to treat the vulnerable with dignity. Mayor Mamdani has given New York an honest roadmap. Now, the city must hold him\u2014and every subsequent occupant of City Hall\u2014to its fulfillment without compromise."
     },
     {
         "id": "why-new-yorks-affordability-crisis-requires-bold-action-on-commercial-rent-and-housing-supply",
@@ -6786,43 +6799,43 @@ export function getHomepageDepartmentArticles(dept: string): Article[] {
   const all = getAllArticles();
   const mapping: Record<string, string[]> = {
     us: [
-      'nyc-launches-1-4b-flood-resilience-overhaul-along-queens-and-brooklyn-waterfronts',
+      'mayor-mamdani-unveils-comprehensive-146m-blueprint-to-close-rikers-island-by-2032',
       'nyc-city-council-passes-landmark-commercial-rent-stabilization-bill-small-business-protections',
       'nyc-orders-emergency-sweeps-160-construction-sites-fatal-flatbush-collapse',
       'hochul-and-mta-press-congress-for-billions-in-transit-funds'
     ],
     politics: [
-      'new-york-state-passes-historic-clean-water-and-lead-pipe-replacement-mandate',
+      'governor-hochul-plans-veto-of-new-york-food-additives-ban-citing-grocery-inflation',
       'turhan-mildon-caracas-washington-venezuela-business-interests',
       'governor-hochul-and-legislative-leaders-unveil-emergency-3-2b-transit-bailout-and-subway-safety-pact',
       'house-democrats-formally-nominate-brooklyn-hakeem-jeffries-speaker'
     ],
     business: [
-      'federal-reserve-and-fdic-issue-joint-mandate-restricting-commercial-real-estate-debt-exposure',
+      'wall-street-plunges-into-correction-as-nasdaq-sheds-1225-points-in-global-tech-selloff',
       'wall-street-braces-as-sec-finalizes-stringent-liquidity-rules-for-1-7t-private-credit-funds',
       'federal-reserve-flags-escalating-debt-and-private-credit-risks-ai-boom',
       'dow-plunges-848-points-as-ai-valuation-anxiety-grips-markets'
     ],
     tech: [
-      'new-york-ai-consortium-deploys-open-source-grid-intelligence-agent-to-prevent-metropolitan-blackouts',
+      'new-york-breaks-ground-on-500m-permanent-empire-ai-supercomputing-center-suny-buffalo',
       'new-york-state-launches-empire-ai-supercomputing-cluster-at-suny-buffalo-open-to-public-researchers',
       'anthropic-debuts-on-new-york-stock-exchange-in-historic-1-5-trillion-ipo',
       'google-expands-gemini-into-autonomous-ai-agent-for-real-tasks'
     ],
     entertainment: [
-      'lincoln-center-announces-historic-250m-revitalization-of-public-plazas-and-free-outdoor-arts-spaces',
+      'mayor-mamdani-signs-historic-law-ending-new-york-city-central-park-horse-carriage-industry',
       'broadway-unveils-record-breaking-winter-season-lineup-with-subsidized-student-and-community-tickets',
       'macys-unveils-centenary-float-lineup-for-100th-annual-thanksgiving-parade',
       'raye-leads-2027-grammy-nominations-with-record-tying-11-nods'
     ],
     sports: [
-      'jets-stun-division-rival-patriots-in-thrilling-overtime-upset-to-reignite-playoff-hopes',
+      'new-york-giants-defeat-afc-leading-jaguars-23-18-behind-dominant-defense-metlife-statement',
       'new-york-giants-announce-major-front-office-overhaul-and-rookie-qb-start-ahead-of-rivalry-clash',
       'towns-and-brunson-drop-28-each-as-knicks-grind-out-112-108-triumph-toronto',
       'quentin-grimes-drops-47-as-lakers-edge-hornets-118-114-in-ot'
     ],
     science: [
-      'nyu-langone-and-weill-cornell-pioneer-mrna-cellular-therapy-for-aggressive-cardiac-fibrosis',
+      'new-york-power-authority-names-10-qualified-developers-for-1gw-advanced-nuclear-initiative',
       'columbia-and-mount-sinai-scientists-unveil-breakthrough-air-filtration-network-to-curb-urban-asthma',
       'new-york-expands-180m-clean-heat-and-urban-geothermal-energy-subsidies',
       'nasa-astronauts-3d-print-living-human-tissues-aboard-the-iss'
