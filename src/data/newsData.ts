@@ -6194,41 +6194,6 @@ Domestic automotive manufacturers have committed multi-billion-dollar off-take a
 
   'Opinion': [
     {
-        "id": "the-second-circuits-dangerous-reset-why-immunity-cannot-shield-state-criminal-verdicts",
-        "title": "The Second Circuit's Dangerous Reset: Why Presidential Immunity Claims Cannot Shield State Criminal Verdicts",
-        "kicker": "EDITORIAL BOARD \u2022 CONSTITUTIONAL CRISIS",
-        "summary": "The 2nd U.S. Circuit Court of Appeals' decision to revive Donald Trump's federal removal petition over his Manhattan criminal conviction fundamentally misunderstands the federal officer removal statute, establishing a perilous precedent that threatens state judicial sovereignty.",
-        "category": "Opinion",
-        "edition": [
-            "US & Americas",
-            "Global"
-        ],
-        "author": {
-            "name": "Newyorkerherald Editorial Board",
-            "role": "Opinion & Constitutional Commentary Bureau",
-            "avatar": "/images/authors/staff.webp"
-        },
-        "publishedAt": "Nov 24, 2026",
-        "readTime": "6 min read",
-        "imageUrl": "/images/news/the-second-circuits-dangerous-reset-why-immunity-cannot-shield-state-criminal-verdicts.webp",
-        "imageCaption": "A statue of Lady Justice stands outside a federal courthouse, symbolizing the delicate constitutional balance between state sovereign courts and federal jurisdiction.",
-        "tags": [
-            "Opinion",
-            "Editorial",
-            "Donald Trump",
-            "Second Circuit",
-            "Supreme Court",
-            "Federalism",
-            "Alvin Bragg"
-        ],
-        "bullets": [
-            "The 2nd Circuit's order remanding Trump's hush-money removal petition threatens the foundational principle that state courts retain sovereign authority over state criminal law.",
-            "Using the federal officer removal statute to relitigate a completed state jury verdict creates a disruptive escape hatch for politically powerful defendants.",
-            "The Supreme Court's immunity doctrine was never intended to eradicate state criminal liability for purely private acts executed to influence elections."
-        ],
-        "body": "In our constitutional republic, federalism is not an abstract theoretical doctrine; it is the structural cornerstone that prevents the centralization of judicial power. For more than two centuries, the principle has remained unassailable: state courts possess independent sovereign authority to enforce their own criminal statutes, and their jury verdicts cannot be casually hijacked into federal jurisdiction simply because a defendant once occupied high federal office.\n\nOn Monday, a three-judge panel of the 2nd U.S. Circuit Court of Appeals in Lower Manhattan dealt a profound and destabilizing blow to that foundational principle. By vacating a lower-court order and reviving Donald Trump\u2019s petition to remove his Manhattan criminal conviction to federal court, the appellate court has opened a perilous escape hatch that threatens to subordinate state criminal justice systems to unprecedented federal interference.\n\n### A Distortion of the Removal Statute\n\nThe statutory vehicle at the center of this legal maneuvers\u2014Title 28, Section 1442 of the U.S. Code\u2014was crafted by Congress during the War of 1812 to protect federal customs collectors from hostile state prosecutions while enforcing federal trade embargoes. It was deliberately designed as a pre-trial protective shield, ensuring that federal officers performing official government duties would not face state court obstructionism.\n\nNever in the two-hundred-year history of the republic did Congress envision that this protective mechanism could be deployed *after* a state criminal trial has concluded, *after* twelve citizens have weighed the evidence, and *after* a unanimous felony verdict has been rendered under state law.\n\nTrump was not prosecuted by Manhattan District Attorney Alvin Bragg for conducting foreign diplomacy, directing military operations, or executing federal laws. He was convicted by a New York jury on 34 felony counts of falsifying business records under Article 175 of the New York Penal Law\u2014a garden-variety state crime involving the fraudulent concealment of personal hush-money reimbursements to a private lawyer. To argue that these private corporate manipulations constitute \"official acts under color of federal office\" requires a level of legal contortion that insults common sense.\n\n### The Misapplication of Presidential Immunity\n\nThe 2nd Circuit panel attempted to justify its procedural reset by pointing to the U.S. Supreme Court\u2019s July 2024 ruling in *Trump v. United States*, which created sweeping constitutional immunity for core presidential functions. But the high court\u2019s majority opinion, authored by Chief Justice John Roberts, explicitly distinguished between official duties and private, personal conduct.\n\nThe payments to Stormy Daniels and the subsequent ledger falsifications were initiated in 2016 before Trump ever took the oath of office, and were continued during his presidency through personal bank accounts and trust disbursements managed by private business associates. Introducing incidental testimony about conversations in the West Wing does not retroactively transform private criminal deceit into an exercise of Article II executive power.\n\nIf any state criminal prosecution of a former federal official can be remanded to federal court whenever private records touch upon incidental White House conversations, the sovereign power of the fifty states to hold powerful individuals accountable is effectively extinguished. It creates a two-tiered system of justice: one where ordinary citizens face the swift finality of state court jury verdicts, while elite political figures can demand endless federal jurisdictional replays.\n\n### An Urgent Need for Judicial Restraint\n\nThe case now returns to the courtroom of U.S. District Judge Alvin Hellerstein, who correctly recognized in his initial ruling that Trump\u2019s reimbursement scheme was private conduct outside the scope of federal officer jurisdiction. Judge Hellerstein must now conduct the mandated hearings with rigorous constitutional clarity.\n\nThe rule of law does not mean that every federal question must be decided in a federal building. State appellate courts\u2014including the New York Appellate Division and the New York Court of Appeals\u2014are fully competent and constitutionally bound under the Supremacy Clause to evaluate federal constitutional claims, including presidential immunity defenses.\n\nBy short-circuiting the established state appellate process, the 2nd Circuit has invited dangerous jurisdictional chaos. If state jury verdicts can be suspended and relitigated under the guise of federal removal whenever a former president claims immunity, the integrity of American trial courts will suffer lasting damage. It is time for the federal judiciary to respect the constitutional limits of its own authority and allow New York\u2019s sovereign legal process to run its rightful course."
-    },
-    {
         "id": "the-rikers-2032-compromise-why-city-halls-realistic-timetable-demands-uncompromising-oversight",
         "title": "The Rikers 2032 Compromise: Why City Hall's Realistic Timetable Demands Uncompromising Oversight",
         "kicker": "EDITORIAL \u2022 PUBLIC ACCOUNTABILITY",
