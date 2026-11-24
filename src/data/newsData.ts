@@ -1635,7 +1635,7 @@ export const CATEGORY_ARTICLES: Record<string, Article[]> = {
             "role": "Investigative Reporting Bureau",
             "avatar": "/images/authors/sarah_mitchell.jpg"
         },
-        "publishedAt": "Today",
+        "publishedAt": "Nov 23, 2026",
         "readTime": "8 min read",
         "imageUrl": "/images/news/new-york-regulators-launch-inquiry-into-unannounced-ice-tent-detention-expansion-batavia.webp",
         "imageCaption": "The exterior perimeter of the Buffalo Federal Service Processing Center in Batavia, where state regulators are demanding immediate inspection access.",
@@ -2147,7 +2147,7 @@ In Albany, Governor Kathy Hochul convened an emergency public health cabinet mee
             "role": "City Hall & Municipal Affairs Bureau",
             "avatar": "/images/authors/sarah_mitchell.jpg"
         },
-        "publishedAt": "Today",
+        "publishedAt": "Nov 23, 2026",
         "readTime": "8 min read",
         "imageUrl": "/images/news/mayor-mamdani-unveils-comprehensive-146m-blueprint-to-close-rikers-island-by-2032.webp",
         "imageCaption": "City Hall officials and criminal justice reform leaders unveil the 2032 Rikers Island closure timeline in the City Hall Blue Room.",
@@ -2681,7 +2681,7 @@ As the clocks reset, congressional leaders confirmed that bipartisan committee s
             "role": "Albany Legislative Bureau",
             "avatar": "/images/authors/sarah_mitchell.jpg"
         },
-        "publishedAt": "Yesterday",
+        "publishedAt": "Nov 22, 2026",
         "readTime": "8 min read",
         "imageUrl": "/images/news/governor-hochul-plans-veto-of-new-york-food-additives-ban-citing-grocery-inflation.webp",
         "imageCaption": "Governor Kathy Hochul addresses legislative priorities during a policy briefing in the State Capitol Red Room in Albany.",
@@ -3359,7 +3359,7 @@ In Washington, national security officials convened in the White House Situation
             "role": "Wall Street & Global Markets Bureau",
             "avatar": "/images/authors/sarah_mitchell.jpg"
         },
-        "publishedAt": "Today",
+        "publishedAt": "Nov 23, 2026",
         "readTime": "8 min read",
         "imageUrl": "/images/news/wall-street-plunges-into-correction-as-nasdaq-sheds-1225-points-in-global-tech-selloff.webp",
         "imageCaption": "Traders monitor rapidly declining equity indices on the floor of the New York Stock Exchange in Lower Manhattan.",
@@ -3932,7 +3932,7 @@ Sports finance experts note that the move mirrors a broader institutional trend 
             "role": "Technology & Science Bureau",
             "avatar": "/images/authors/sarah_mitchell.jpg"
         },
-        "publishedAt": "Yesterday",
+        "publishedAt": "Nov 22, 2026",
         "readTime": "8 min read",
         "imageUrl": "/images/news/new-york-breaks-ground-on-500m-permanent-empire-ai-supercomputing-center-suny-buffalo.webp",
         "imageCaption": "Architectural rendering of the permanent Empire AI supercomputing complex under construction at the University at Buffalo campus.",
@@ -4543,7 +4543,7 @@ Aerospace financial analysts estimate that SpaceX's commercial launch and satell
             "role": "Arts, Culture & Urban Life Bureau",
             "avatar": "/images/authors/sarah_mitchell.jpg"
         },
-        "publishedAt": "Today",
+        "publishedAt": "Nov 23, 2026",
         "readTime": "8 min read",
         "imageUrl": "/images/news/mayor-mamdani-signs-historic-law-ending-new-york-city-central-park-horse-carriage-industry.webp",
         "imageCaption": "A horse-drawn carriage navigates the southern perimeter of Central Park along 59th Street ahead of the municipal transition.",
@@ -5091,7 +5091,7 @@ Furthermore, cloud streaming platforms and mobile distribution networks have low
             "role": "Sports & Analytics Bureau",
             "avatar": "/images/authors/sarah_mitchell.jpg"
         },
-        "publishedAt": "Yesterday",
+        "publishedAt": "Nov 22, 2026",
         "readTime": "7 min read",
         "imageUrl": "/images/news/new-york-giants-defeat-afc-leading-jaguars-23-18-behind-dominant-defense-metlife-statement.webp",
         "imageCaption": "Giants defensive end Abdul Carter celebrates a crucial fourth-quarter sack of Trevor Lawrence at MetLife Stadium.",
@@ -5660,7 +5660,7 @@ On the stadium infrastructure front, club executives evaluated demonstrations of
             "role": "Energy & Environmental Science Bureau",
             "avatar": "/images/authors/sarah_mitchell.jpg"
         },
-        "publishedAt": "Today",
+        "publishedAt": "Nov 23, 2026",
         "readTime": "8 min read",
         "imageUrl": "/images/news/new-york-power-authority-names-10-qualified-developers-for-1gw-advanced-nuclear-initiative.webp",
         "imageCaption": "A high-precision engineering model of a next-generation small modular reactor (SMR) under consideration for Upstate New York.",
@@ -6208,7 +6208,7 @@ Domestic automotive manufacturers have committed multi-billion-dollar off-take a
             "role": "Board of Contributors & Commentary",
             "avatar": "/images/authors/sarah_mitchell.jpg"
         },
-        "publishedAt": "Today",
+        "publishedAt": "Nov 23, 2026",
         "readTime": "7 min read",
         "imageUrl": "/images/news/the-rikers-2032-compromise-why-city-halls-realistic-timetable-demands-uncompromising-oversight.webp",
         "imageCaption": "A solitary guard tower overlooking the East River on the perimeter of Rikers Island.",

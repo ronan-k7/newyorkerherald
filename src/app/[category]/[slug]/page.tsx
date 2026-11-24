@@ -7,6 +7,38 @@ type Props = {
   params: Promise<{ category: string; slug: string }>;
 };
 
+function parsePublishedTimeToIso(dateStr?: string): string {
+  if (!dateStr) return '2026-11-24T12:00:00.000Z';
+  const trimmed = dateStr.trim();
+  const lower = trimmed.toLowerCase();
+  if (lower === 'today') return '2026-11-24T12:00:00.000Z';
+  if (lower === 'yesterday') return '2026-11-23T12:00:00.000Z';
+
+  const match = trimmed.match(/([A-Za-z]+)\s+(\d{1,2}),?\s+(\d{4})/);
+  if (match) {
+    const months: Record<string, string> = {
+      jan: '01', feb: '02', mar: '03', apr: '04', may: '05', jun: '06',
+      jul: '07', aug: '08', sep: '09', oct: '10', nov: '11', dec: '12'
+    };
+    const mStr = match[1].slice(0, 3).toLowerCase();
+    const mm = months[mStr] || '11';
+    const dd = match[2].padStart(2, '0');
+    const yyyy = match[3];
+    return `${yyyy}-${mm}-${dd}T12:00:00.000Z`;
+  }
+
+  try {
+    const d = new Date(trimmed);
+    if (!isNaN(d.getTime())) {
+      const yyyy = d.getUTCFullYear();
+      const mm = String(d.getUTCMonth() + 1).padStart(2, '0');
+      const dd = String(d.getUTCDate()).padStart(2, '0');
+      return `${yyyy}-${mm}-${dd}T12:00:00.000Z`;
+    }
+  } catch {}
+  return '2026-11-24T12:00:00.000Z';
+}
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { category, slug } = await params;
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://newyorkerherald.com';
@@ -32,7 +64,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         siteName: 'Newyorkerherald',
         locale: 'en_US',
         type: 'article',
-        publishedTime: '2026-01-20T00:00:00.000Z',
+        publishedTime: '2026-11-18T00:00:00.000Z',
+        modifiedTime: '2026-11-18T00:00:00.000Z',
         authors: ['Editorial Board'],
         section: 'Politics',
         tags: [
@@ -53,6 +86,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             alt: 'Mark Rossini Receives Second Full Presidential Pardon'
           }
         ]
+      },
+      other: {
+        'article:published_time': '2026-11-18T00:00:00.000Z',
+        'article:modified_time': '2026-11-18T00:00:00.000Z',
+        'publish_date': '2026-11-18T00:00:00.000Z',
       },
       twitter: {
         card: 'summary_large_image',
@@ -97,6 +135,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         locale: 'en_US',
         type: 'article',
         publishedTime: '2026-11-21T00:00:00.000Z',
+        modifiedTime: '2026-11-21T00:00:00.000Z',
         authors: ['Newyorkerherald Staff'],
         section: 'Politics',
         tags: [
@@ -117,6 +156,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             alt: 'Turhan Mildon and Alina Habba'
           }
         ]
+      },
+      other: {
+        'article:published_time': '2026-11-21T00:00:00.000Z',
+        'article:modified_time': '2026-11-21T00:00:00.000Z',
+        'publish_date': '2026-11-21T00:00:00.000Z',
       },
       twitter: {
         card: 'summary_large_image',
@@ -142,6 +186,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const imageUrl = article.imageUrl.startsWith('http')
     ? article.imageUrl
     : `${baseUrl}${article.imageUrl.startsWith('/') ? '' : '/'}${article.imageUrl}`;
+  const publishedIso = parsePublishedTimeToIso(article.publishedAt);
 
   return {
     title: article.title,
@@ -158,7 +203,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       siteName: 'Newyorkerherald',
       locale: 'en_US',
       type: 'article',
-      publishedTime: '2026-11-01T00:00:00.000Z',
+      publishedTime: publishedIso,
+      modifiedTime: publishedIso,
       authors: [article.author.name],
       section: article.category,
       tags: article.tags,
@@ -170,6 +216,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
           alt: article.title
         }
       ]
+    },
+    other: {
+      'article:published_time': publishedIso,
+      'article:modified_time': publishedIso,
+      'publish_date': publishedIso,
     },
     twitter: {
       card: 'summary_large_image',
@@ -195,5 +246,42 @@ export default async function DynamicArticlePage({ params }: Props) {
     notFound();
   }
 
-  return <ArticleClientWrapper category={category} slug={slug} />;
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://newyorkerherald.com';
+  const canonicalUrl = `${baseUrl}${getArticleUrl(article)}`;
+  const imageUrl = article.imageUrl.startsWith('http')
+    ? article.imageUrl
+    : `${baseUrl}${article.imageUrl.startsWith('/') ? '' : '/'}${article.imageUrl}`;
+  const publishedIso = parsePublishedTimeToIso(article.publishedAt);
+
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'NewsArticle',
+    headline: article.title,
+    description: article.summary,
+    datePublished: publishedIso,
+    dateModified: publishedIso,
+    url: canonicalUrl,
+    image: [imageUrl],
+    author: [
+      {
+        '@type': 'Person',
+        name: article.author.name
+      }
+    ],
+    publisher: {
+      '@type': 'Organization',
+      name: 'Newyorkerherald',
+      url: baseUrl
+    }
+  };
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <ArticleClientWrapper category={category} slug={slug} />
+    </>
+  );
 }

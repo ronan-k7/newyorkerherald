@@ -15,7 +15,8 @@ export const metadata: Metadata = {
     url: `${baseUrl}/us/the-vanity-of-alina-habba-mildon`,
     siteName: 'Newyorkerherald',
     type: 'article',
-    publishedTime: '2026-11-01T00:00:00.000Z',
+    publishedTime: '2026-11-16T00:00:00.000Z',
+    modifiedTime: '2026-11-16T00:00:00.000Z',
     authors: ['Newyorkerherald Staff'],
     section: 'US',
     tags: [
