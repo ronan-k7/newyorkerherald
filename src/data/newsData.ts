@@ -11,35 +11,37 @@ import {
 export const BREAKING_NEWS_ITEMS = [
   {
     id: 'brk-1',
-    kicker: 'CITY HALL',
-    headline: 'Mayor Mamdani Unveils Comprehensive $146M Blueprint to Formally Close Rikers Island by 2032',
-    time: '12m ago',
-    url: '/us/mayor-mamdani-unveils-comprehensive-146m-blueprint-to-close-rikers-island-by-2032'
+    kicker: 'CITY HALL • LITIGATION',
+    headline: 'New York City Joins Multi-City Federal Lawsuit to Halt HUD Eviction Rule on Mixed-Status Families',
+    time: '14m ago',
+    url: '/us/nyc-joins-national-lawsuit-challenging-federal-hud-mixed-status-immigrant-housing-rule'
   },
   {
     id: 'brk-2',
-    kicker: 'ALBANY DISPATCH',
-    headline: 'Governor Kathy Hochul Announces Plan to Veto Food Additives Ban Citing Retail Grocery Inflation',
-    time: '28m ago',
-    url: '/politics/governor-hochul-plans-veto-of-new-york-food-additives-ban-citing-grocery-inflation'
+    kicker: 'FEDERAL APPEALS',
+    headline: 'Second Circuit Revives Donald Trump Bid to Transfer Manhattan Criminal Hush-Money Case to Federal Court',
+    time: '32m ago',
+    url: '/politics/federal-appeals-court-revives-trump-effort-to-transfer-manhattan-criminal-case-to-federal-court'
   },
   {
     id: 'brk-3',
-    kicker: 'MARKET CORRECTION',
-    headline: 'Wall Street Slides Into Correction as Nasdaq Plummets 1,225 Points in Tech Valuation Sell-Off',
-    time: '45m ago',
-    url: '/business/wall-street-plunges-into-correction-as-nasdaq-sheds-1225-points-in-global-tech-selloff'
+    kicker: 'WALL STREET REBOUND',
+    headline: 'Dow Soars 1,450 Points and Nasdaq Rallies 6.8% as Nvidia Reinstatement and Yield Easing Reignite Markets',
+    time: '48m ago',
+    url: '/business/wall-street-rebounds-in-dramatic-1450-point-surge-as-nvidia-leadership-and-treasury-yield-retreat-reignite-markets'
   }
 ];
 
 export const TRENDING_TAGS = [
-  '#Rikers2032',
-  '#HochulVeto',
-  '#NasdaqCrash1225',
-  '#EmpireAIBuffalo',
-  '#CentralParkCarriages',
-  '#GiantsWin2318',
-  '#NYPANuclearSMR'
+  '#HUDMixedStatusSuit',
+  '#Trump2ndCircuit',
+  '#Dow1450Surge',
+  '#NvidiaHuangCEO',
+  '#BrokerCrackdown',
+  '#DecartAWS7B',
+  '#BroadwayRecord38M',
+  '#Knicks106Pacers103',
+  '#ORION4siRNA'
 ];
 
 export const LEAD_ARTICLE: Article = {
@@ -1585,6 +1587,40 @@ As the Federal Energy Regulatory Commission (FERC) convenes national stakeholder
 export const CATEGORY_ARTICLES: Record<string, Article[]> = {
   'Investigation': [
     {
+        "id": "nyc-commission-on-human-rights-launches-sweeping-enforcement-crackdown-predatory-broker-voucher-discrimination",
+        "title": "NYC Human Rights Commission Launches Precedent-Setting Crackdown on Brokerages Over Rental Voucher Discrimination",
+        "kicker": "INVESTIGATIVE OVERSIGHT \u2022 REAL ESTATE ENFORCEMENT",
+        "summary": "The New York City Commission on Human Rights and the Mamdani administration on Tuesday announced an aggressive multi-borough enforcement initiative targeting chronic voucher discrimination, referring repeat-offender real estate brokers directly to the state for professional license revocation.",
+        "category": "Investigation",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Newyorkerherald Staff",
+            "role": "Investigative & Regulatory Oversight Bureau",
+            "avatar": "/images/authors/staff.webp"
+        },
+        "publishedAt": "Nov 24, 2026",
+        "readTime": "7 min read",
+        "imageUrl": "/images/news/nyc-commission-on-human-rights-launches-sweeping-enforcement-crackdown-predatory-broker-voucher-discrimination.webp",
+        "imageCaption": "Investigators and tenant advocates examine undercover housing audit records at the New York City Commission on Human Rights headquarters in Lower Manhattan.",
+        "tags": [
+            "Investigation",
+            "Human Rights",
+            "NYC Real Estate",
+            "Brokers",
+            "Housing Vouchers",
+            "CityFHEPS"
+        ],
+        "bullets": [
+            "A joint city investigation involving undercover testing uncovered systemic refusal of Section 8 and CityFHEPS vouchers across 42 private real estate brokerage firms.",
+            "For the first time, city enforcement agencies will bypass standard administrative settlements to seek formal professional license suspensions and revocations from the New York Department of State.",
+            "Audits revealed discriminatory ghost-ghosting, unlawful minimum income multipliers, and fraudulent availability claims targeting low-income and minority applicants."
+        ],
+        "body": "In the most aggressive regulatory enforcement sweep targeting the city\u2019s residential leasing industry in over a decade, the New York City Commission on Human Rights (CCHR) and the Mamdani administration on Tuesday unveiled a multi-borough investigation into pervasive source-of-income discrimination, initiating formal proceedings against 42 commercial real estate brokerage firms and signaling immediate referrals to the New York Department of State for professional license revocation.\n\nThe enforcement campaign follows a sweeping 10-month undercover testing operation conducted across Manhattan, Brooklyn, and Queens by CCHR\u2019s Law Enforcement Bureau in collaboration with municipal fair housing investigators. The probe tested hundreds of licensed real estate agents and property management firms representing thousands of market-rate rental listings, assessing their compliance with the New York City Human Rights Law, which has explicitly prohibited discrimination based on lawful source of income\u2014including federal Section 8 vouchers, municipal CityFHEPS subsidies, and emergency disability stipends\u2014since 2008.\n\n### Uncovering Systemic \"Ghost-Ghosting\" and Fraudulent Income Multipliers\n\nThe investigation's findings, released in a detailed 58-page regulatory dossier, paint a damning portrait of widespread bad faith across the private rental market. In more than 68 percent of undercover audit inquiries involving prospective tenants utilizing CityFHEPS vouchers, investigators encountered immediate and unlawful barriers designed to screen out voucher holders before an application could be submitted.\n\nThe tactics documented in the probe ranged from subtle evasions to brazen statutory violations:\n- **Artificial Minimum Income Multipliers**: Brokers routinely informed voucher recipients that they needed to earn 40 to 50 times the full monthly rent in earned salary, completely ignoring the fact that the government voucher legally guarantees and covers the contracted rent amount.\n- **Sudden \"Under Contract\" Fabrications**: In dozens of recorded instances, auditors posing as voucher holders were told an apartment had just been rented, while identical inquiries sent minutes later from testers claiming private corporate salaries received instant invitations for in-person viewings.\n- **Exorbitant Application and Screening Fees**: Brokerages demanded non-refundable \"processing and administrative fees\" exceeding $500 from voucher applicants, directly violating New York state laws that cap rental application fees at $20.\n\n\"For years, private brokerages have treated administrative penalties as a minor cost of doing business, pocketing lucrative commission checks while systematically slamming the door on families attempting to move out of municipal shelters,\" said Deputy Commissioner for Law Enforcement Andrea Chen during a briefing at the agency's Lower Manhattan headquarters. \"Today, that impunity ends. Fines alone have proven insufficient. If you operate an unlicensed discriminatory filter inside our housing market, the city will move to permanently take away your license to practice real estate in the State of New York.\"\n\n### Direct Referrals for Professional License Revocation\n\nUnder New York State Real Property Law Section 441-c, the New York Department of State possesses the statutory authority to suspend or revoke the license of any real estate broker or salesperson found guilty of untrustworthiness or incompetence, which state courts have long recognized includes violations of civil rights and fair housing statutes.\n\nHistorically, municipal human rights complaints were resolved through negotiated civil settlements, monetary damages, and mandatory fair housing retraining seminars. Under the new enforcement policy announced Tuesday, CCHR will automatically forward findings of repeat discriminatory conduct directly to the Department of State\u2019s Division of Licensing Services with a formal request to initiate revocation proceedings.\n\nThe initial batch of targets includes several prominent mid-tier commercial brokerage firms with extensive operations across Northern Brooklyn and the Bronx, whose agents were caught repeatedly rejecting voucher holders on audio recordings and in digital messaging logs.\n\n### The Human Toll of Housing Discrimination\n\nHousing advocates hailed the enforcement surge as a critical breakthrough for thousands of New Yorkers currently trapped in the municipal shelter system despite possessing fully funded vouchers. The city currently spends an average of $6,800 per month to shelter a family of four in emergency facilities, while the same family could be housed in a permanent two-bedroom apartment for roughly half that cost through a CityFHEPS voucher.\n\n\"The greatest bottleneck preventing New Yorkers from exiting homelessness has never been a lack of housing subsidies; it has been the systemic refusal of real estate brokers to accept them,\" said David Giffen, executive director of the Coalition for the Homeless. \"Brokers serve as the gatekeepers of New York City housing. Stripping licenses from those who treat vulnerable families with contempt sends a shockwave through the entire industry that civil rights laws will finally be enforced with real teeth.\"\n\nThe Commission announced that it has established a dedicated rapid-response portal for tenants facing active voucher discrimination, promising that investigators will deploy same-day testing to intervene before prospective apartments are unlawfully leased to other applicants."
+    },
+    {
         "id": "new-york-regulators-launch-inquiry-into-unannounced-ice-tent-detention-expansion-batavia",
         "title": "New York State Health and Environmental Regulators Launch Inquiry Into Unannounced ICE Tent Facility in Batavia",
         "kicker": "INVESTIGATIVE DOSSIER \u2022 STATE OVERSIGHT",
@@ -2062,6 +2098,40 @@ In Albany, Governor Kathy Hochul convened an emergency public health cabinet mee
     }
   ],
   'US': [
+    {
+        "id": "nyc-joins-national-lawsuit-challenging-federal-hud-mixed-status-immigrant-housing-rule",
+        "title": "New York City Joins National Coalition Lawsuit Challenging Federal HUD Rule Threatening Eviction of Mixed-Status Families",
+        "kicker": "HOUSING JUSTICE \u2022 FEDERAL LITIGATION",
+        "summary": "Mayor Zohran Mamdani announced Tuesday that New York City has formally joined a multi-city federal lawsuit to block a newly finalized Department of Housing and Urban Development rule that terminates housing subsidies for families with undocumented members, a policy municipal officials warn could displace more than 31,000 New Yorkers.",
+        "category": "US",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Newyorkerherald Staff",
+            "role": "Municipal Governance & Public Policy Bureau",
+            "avatar": "/images/authors/staff.webp"
+        },
+        "publishedAt": "Nov 24, 2026",
+        "readTime": "7 min read",
+        "imageUrl": "/images/news/nyc-joins-national-lawsuit-challenging-federal-hud-mixed-status-immigrant-housing-rule.webp",
+        "imageCaption": "Tenants and municipal housing advocates rally on the steps of New York City Hall as Mayor Zohran Mamdani announces legal action against federal housing restrictions on mixed-status families.",
+        "tags": [
+            "New York City",
+            "HUD",
+            "Immigration",
+            "Public Housing",
+            "Housing Rights",
+            "Zohran Mamdani"
+        ],
+        "bullets": [
+            "New York City joins Chicago, Los Angeles, and housing authorities nationwide in challenging a finalized federal HUD rule restricting housing assistance.",
+            "The regulation would bar Section 8 and public housing aid to households with undocumented members, threatening an estimated 31,000 New York residents with eviction.",
+            "City Hall contends the administrative rule violates the Fair Housing Act and Administrative Procedure Act, predicting severe strain on emergency shelter networks."
+        ],
+        "body": "Standing beneath the rotunda of New York City Hall on Tuesday morning, Mayor Zohran Mamdani declared that New York City has joined a nationwide coalition of municipalities, civil rights organizations, and local housing authorities in filing a federal lawsuit to halt a Department of Housing and Urban Development (HUD) regulation that would strip housing assistance from households containing undocumented immigrants.\n\nThe lawsuit, filed in the U.S. District Court for the Southern District of New York, challenges a final administrative rule promulgated by HUD earlier this month. Under current federal statute, mixed-status families\u2014households where some members are U.S. citizens or lawful permanent residents while others lack legal status\u2014receive prorated housing vouchers or public housing units, ensuring that federal assistance only subsidizes the eligible family members. The new federal rule eliminates proration altogether, mandating that any household with a single non-citizen without eligible immigration status be evicted or disqualified from all federally funded housing programs, including Section 8 housing choice vouchers and municipal public housing.\n\n### A Threat to 31,000 New York Residents\n\nAccording to municipal data compiled by the New York City Housing Authority (NYCHA) and the Department of Housing Preservation and Development (HPD), the federal mandate would directly threaten approximately 8,700 households across the five boroughs, comprising an estimated 31,000 residents, the vast majority of whom are American-born children and elderly permanent residents living with undocumented relatives.\n\n\"Housing is a fundamental human right, and weaponizing administrative procedure to throw children and seniors onto the streets is both morally bankrupt and legally indefensible,\" Mayor Mamdani stated during the press briefing, joined by Corporation Counsel leadership, tenant advocates, and legal aid attorneys. \"We are going to federal court today to make it unequivocally clear: New York City will not comply with illegal administrative dictates designed to dismantle our communities, destabilize our working families, and flood an already burdened emergency shelter system.\"\n\nThe coalition includes municipal governments from Los Angeles, Chicago, and Philadelphia, alongside the National Low Income Housing Coalition (NLIHC) and the American Civil Liberties Union (ACLU). The legal filing asserts that HUD exceeded its statutory authority under the Housing and Community Development Act of 1980, arbitrarily reversed decades of established administrative precedent, and failed to adequately evaluate the catastrophic economic and human consequences required under the Administrative Procedure Act (APA).\n\n### Severe Strains on Emergency Shelter Infrastructure\n\nCity officials highlighted the cascading impacts the federal rule would inflict on municipal budgets. Deputy Mayor for Housing and Economic Development Fatima Silva presented financial models estimating that should the rule take effect as scheduled in January, the mass eviction of mixed-status households would force thousands into the city\u2019s Department of Homeless Services shelter system. The cost to the municipal budget of sheltering displaced families is projected to exceed $340 million annually, far eclipsing any purported administrative savings touted by federal regulators.\n\n\"The federal government is attempting to manufacture a humanitarian crisis inside our city,\" Silva said. \"Our public housing communities have housed multigenerational families who contribute millions of dollars in local taxes, patronize neighborhood small businesses, and send their children to our public schools. Tearing apart these leaseholds is economically catastrophic and socially destructive.\"\n\nFederal officials from HUD defended the policy shift, claiming in an accompanying regulatory justification that the restriction is necessary to shorten waitlists for public housing and prioritize households composed entirely of U.S. citizens. However, housing economists and legal scholars noted that because federal subsidies are already prorated, eliminating mixed-status families would not generate additional voucher capacity, but would instead trigger protracted vacancy churn, administrative litigation, and eviction proceedings across thousands of public housing developments.\n\n### Grassroots Mobilization and Legal Strategy\n\nLegal aid organizations across New York City reported an immediate surge in terrified inquiries from immigrant households following the federal rule's publication. Judith Morales, a staff attorney with the Legal Aid Society\u2019s Civil Practice, emphasized that the lawsuit will seek an emergency preliminary injunction to enjoin HUD from enforcing the rule while litigation proceeds.\n\n\"This rule deliberately targets families who have complied with every reporting requirement and paid their fair share of rent for decades,\" Morales said. \"Federal law has recognized prorated assistance since the Reagan administration. Stripping that compromise away through executive overreach is an unconstitutional assault on vulnerable tenants.\"\n\nThe legal challenge marks the Mamdani administration\u2019s first major federal court confrontation with Washington, establishing a high-stakes constitutional standoff over local housing sovereignty and federal regulatory power that legal observers anticipate could eventually reach the U.S. Supreme Court."
+    },
     {
         "id": "mayor-mamdani-unveils-comprehensive-146m-blueprint-to-close-rikers-island-by-2032",
         "title": "Mayor Mamdani Unveils Comprehensive $146M Blueprint to Formally Close Rikers Island by 2032",
@@ -2562,6 +2632,40 @@ As the clocks reset, congressional leaders confirmed that bipartisan committee s
     }
   ],
   'Politics': [
+    {
+        "id": "federal-appeals-court-revives-trump-effort-to-transfer-manhattan-criminal-case-to-federal-court",
+        "title": "Second Circuit Federal Appeals Court Revives Donald Trump's Bid to Move Manhattan Criminal Case to Federal Court",
+        "kicker": "FEDERAL APPELLATE JURISDICTION \u2022 LEGAL SPOTLIGHT",
+        "summary": "A three-judge panel of the 2nd U.S. Circuit Court of Appeals on Monday vacated a lower-court order rejecting Donald Trump's attempt to transfer his New York criminal hush-money case to federal court, directing a Manhattan federal judge to hold hearings on whether federal jurisdiction applies.",
+        "category": "Politics",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Newyorkerherald Staff",
+            "role": "National Legal Affairs & Constitutional Bureau",
+            "avatar": "/images/authors/staff.webp"
+        },
+        "publishedAt": "Nov 24, 2026",
+        "readTime": "7 min read",
+        "imageUrl": "/images/news/federal-appeals-court-revives-trump-effort-to-transfer-manhattan-criminal-case-to-federal-court.webp",
+        "imageCaption": "The Thurgood Marshall United States Courthouse in Lower Manhattan, home to the 2nd U.S. Circuit Court of Appeals, where judges revived Donald Trump's bid for federal jurisdiction.",
+        "tags": [
+            "Donald Trump",
+            "Second Circuit",
+            "Manhattan",
+            "Federal Court",
+            "Alvin Bragg",
+            "Constitutional Law"
+        ],
+        "bullets": [
+            "A 2nd U.S. Circuit Court of Appeals panel ruled that U.S. District Judge Alvin Hellerstein acted prematurely in dismissing Trump's federal removal petition.",
+            "The appellate order requires the district court to assess whether Trump's 2024 state felony conviction intersects with official presidential acts under federal officer removal statutes.",
+            "Manhattan District Attorney Alvin Bragg's office argued that removal after a state trial verdict is procedurally improper and threatens state court sovereignty."
+        ],
+        "body": "In a consequential ruling that disrupts New York\u2019s criminal court proceedings, a three-judge panel of the 2nd U.S. Circuit Court of Appeals in Lower Manhattan on Monday revived former President Donald Trump\u2019s long-shot legal battle to transfer his state criminal hush-money case into federal court.\n\nThe decision vacates a previous order issued by U.S. District Judge Alvin K. Hellerstein, who had summarily dismissed Trump\u2019s federal removal petition without an evidentiary hearing in late 2024. The 2nd Circuit panel ruled that Judge Hellerstein acted prematurely and failed to apply the appropriate procedural scrutiny required under the federal officer removal statute, Title 28, Section 1442 of the U.S. Code. The case has now been remanded back to Manhattan federal court with instructions to determine whether Trump\u2019s post-verdict legal motions raise colorable federal defenses tied to presidential immunity.\n\n### The Federal Removal Battle\n\nTrump was convicted in May 2024 by a Manhattan Supreme Court jury on 34 felony counts of falsifying business records related to payments made to adult film actress Stormy Daniels ahead of the 2016 presidential election. His legal team has argued that because certain evidence introduced at trial involved communications and activities during his first term in the White House\u2014such as discussions with former communications director Hope Hicks and ethics filings\u2014the proceedings touched upon official presidential duties governed by federal law.\n\nFollowing the U.S. Supreme Court\u2019s landmark July 2024 ruling in *Trump v. United States*, which established broad presidential immunity for core constitutional duties and official acts, Trump's lawyers petitioned to move the entire Manhattan prosecution to federal court. Their ultimate goal is to vacate the state jury verdict on federal constitutional grounds or seek dismissal in a friendlier federal forum.\n\nIn a 26-page opinion, the appellate panel\u2014comprising Circuit Judges Joseph F. Bianco, Michael H. Park, and Alison J. Nathan\u2014emphasized that while federal officer removal typically occurs prior to trial, federal statutory provisions do not categorically foreclose removal after a verdict when significant federal constitutional questions arise regarding official acts.\n\n\"The federal officer removal statute is designed to ensure that federal defenses, including constitutional immunities asserted by executive officers, are evaluated with the full procedural guarantees of a federal forum,\" Judge Bianco wrote for the panel. \"By summarily dismissing the removal petition without affording the parties an opportunity to brief and argue the jurisdictional nexus, the district court failed to conduct the searching inquiry required by our precedent.\"\n\n### Manhattan District Attorney Pushes Back\n\nThe ruling represents a procedural setback for Manhattan District Attorney Alvin Bragg, whose prosecutors have vigorously maintained that Trump\u2019s reimbursement scheme was purely private conduct executed by a private citizen to conceal personal campaign liabilities, bearing no relationship to federal governance or presidential power.\n\nIn a statement following the ruling, a spokesperson for the Manhattan District Attorney\u2019s Office reiterated their confidence in the state conviction. \"Thirty-four New York citizens evaluated the evidence and unanimously convicted Donald Trump of 34 felony counts under New York state law,\" the spokesperson said. \"The federal removal statute was never intended to serve as an appellate end-run around state jury verdicts. We look forward to presenting our arguments in district court and demonstrating that federal jurisdiction does not apply.\"\n\nLegal analysts noted that the remand does not automatically dismiss the conviction or permanently relocate the case. Instead, Judge Hellerstein must now establish a briefing schedule, hear oral arguments, and evaluate whether the evidence introduced at trial contained impermissible official-acts material under the Supreme Court's immunity framework.\n\n### Broader Constitutional Implications\n\nConstitutional law scholars characterized the 2nd Circuit\u2019s intervention as an extraordinary test of federal-state judicial relations. If a federal judge were to assert jurisdiction over a finalized state criminal trial, it would create an unprecedented mechanism for state criminal defendants asserting federal defenses to bypass state appellate processes.\n\n\"This decision reopens a complex federalism battle that most observers considered procedurally settled,\" said Karen Greenfield, professor of constitutional law at New York University School of Law. \"If state criminal convictions can be removed to federal court after a jury has returned a verdict, it fundamentally alters the balance between sovereign state courts and federal judicial authority. The district court now faces the delicate task of balancing executive immunity against the finality of state court verdicts.\"\n\nThe case now returns to Manhattan federal court, where Judge Hellerstein is expected to issue a scheduling order in the coming days, guaranteeing that the legal aftermath of New York's historic criminal trial will extend deep into the federal appellate system."
+    },
     {
         "id": "governor-hochul-plans-veto-of-new-york-food-additives-ban-citing-grocery-inflation",
         "title": "Governor Hochul Announces Plan to Veto Food Additives Ban Following Legislative Push, Citing Grocery Inflation",
@@ -3206,6 +3310,41 @@ In Washington, national security officials convened in the White House Situation
 
   'Business & Economy': [
     {
+        "id": "wall-street-rebounds-in-dramatic-1450-point-surge-as-nvidia-leadership-and-treasury-yield-retreat-reignite-markets",
+        "title": "Wall Street Rebounds in Dramatic 1,450-Point Dow Surge as Nvidia Reinstatement and Yield Retreat Reignite Markets",
+        "kicker": "FINANCIAL MARKETS \u2022 TECH REBOUND",
+        "summary": "U.S. equity markets staged a massive rally on Monday and Tuesday, with the Dow Jones jumping nearly 1,450 points and the Nasdaq soaring 6.8%, as Jensen Huang's reinstatement at Nvidia and a retreat in 10-year Treasury yields below 5.00% broke last week's brutal tech correction.",
+        "category": "Business",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Newyorkerherald Staff",
+            "role": "Wall Street & Global Capital Markets Bureau",
+            "avatar": "/images/authors/staff.webp"
+        },
+        "publishedAt": "Nov 24, 2026",
+        "readTime": "7 min read",
+        "imageUrl": "/images/news/wall-street-rebounds-in-dramatic-1450-point-surge-as-nvidia-leadership-and-treasury-yield-retreat-reignite-markets.webp",
+        "imageCaption": "Traders on the floor of the New York Stock Exchange react to a massive opening rally that sent the Dow Jones up 1,450 points and powered Nvidia shares up over 31 percent.",
+        "tags": [
+            "Wall Street",
+            "Dow Jones",
+            "Nasdaq",
+            "Nvidia",
+            "Jensen Huang",
+            "Federal Reserve",
+            "Treasury Yields"
+        ],
+        "bullets": [
+            "The Dow surged 1,450 points (3%) and the Nasdaq climbed 6.8% in a dramatic relief rally, clawing back the vast majority of last week's correction.",
+            "Nvidia shares surged over 31% after Jensen Huang was abruptly reinstated as Chief Executive Officer following high-level board negotiations.",
+            "Benchmark 10-year Treasury yields slipped 12 basis points to 4.92%, easing acute valuation pressure on corporate credit and growth equities."
+        ],
+        "body": "Wall Street experienced one of its most explosive trading sessions of the year on Monday and Tuesday, as euphoric buying powered a historic rebound across U.S. equities, erasing the sharp losses of last week's deep tech correction and restoring risk appetite across global financial hubs.\n\nThe rally was ignited by a seismic corporate turnabout at semiconductor bellwether Nvidia Corporation, where founder Jensen Huang was dramatically reinstated as Chief Executive Officer following an intense 72-hour board crisis that had initially sent semiconductor valuations tumbling. Unshackled from corporate uncertainty, Nvidia shares catapulted by an astounding 31.2 percent in a single trading session, sparking a buying frenzy across hyperscale semiconductor, cloud infrastructure, and enterprise artificial intelligence equities.\n\n### Dramatic Index Rebound Across the Board\n\nThe ferocious relief rally reverberated throughout Lower Manhattan's financial exchanges. The tech-heavy Nasdaq Composite soared 6.8 percent, logging its strongest single-session percentage gain in four years. The Dow Jones Industrial Average added nearly 1,450 points, or 3.1 percent, to finish at 44,780, while the broad-based S&P 500 index surged 4.7 percent, completely erasing the oversold technical conditions that had gripped institutional trading desks late last week.\n\nOther semiconductor and hardware leaders rode Nvidia\u2019s slipstream. Advanced Micro Devices (AMD) jumped 12.4 percent, Broadcom rose 14.1 percent, and Microsoft and Amazon climbed 6.2 percent and 5.8 percent, respectively. The sudden shift in sentiment demonstrated the extraordinary degree to which broader market psychology remains tethered to the health and leadership stability of the semiconductor ecosystem driving generative artificial intelligence infrastructure.\n\n\"What we witnessed over the past 48 hours was a textbook liquidity squeeze and relief explosion,\" said Marcus Vance, chief market strategist at Citadel Securities. \"When the cloud of executive uncertainty at Nvidia lifted, institutional funds that had moved to cash or bought downside put protection were forced to aggressively cover their shorts. The fundamental thesis underpinning enterprise AI compute capital expenditure remains firmly intact.\"\n\n### Treasury Yields Retreat Below Crucial 5.00% Threshold\n\nCrucially for equity valuations, the stock market's surge coincided with a welcomed reprieve in fixed-income markets. The benchmark 10-year U.S. Treasury yield, which had spiked above 5.08 percent last Friday and threatened to strangle corporate borrowing capacity, retreated by 12 basis points to settle at 4.92 percent on Tuesday.\n\nThe drop in yields was driven by strong foreign appetite at the Treasury\u2019s latest debt auctions and balanced commentary from Federal Reserve officials heading into the Thanksgiving blackout period. In a speech before the New York Economic Club, New York Federal Reserve Bank President John Williams signaled that while monetary policy must remain vigilant against persistent core services inflation, current policy rates are already exerting substantial downward pressure on the real economy, diminishing the urgency for aggressive additional rate hikes at the upcoming December FOMC meeting.\n\nThe easing in yields provided immediate breathing room for capital-intensive sectors that had suffered steep sell-offs throughout mid-November. Commercial real estate investment trusts (REITs), regional banking institutions, and renewable energy infrastructure developers all posted gains between 3.5 and 5.2 percent as credit spreads tightened significantly.\n\n### Macroeconomic Crosscurrents and Inflation Anxieties\n\nDespite the exuberant market atmosphere, macroeconomic analysts warned that underlying economic crosscurrents remain complex as the U.S. heads into the final month of the year. The total U.S. national public debt officially crossed $40.7 trillion this week, according to Treasury Department disclosures, renewing debates in Washington over fiscal sustainability and government borrowing requirements.\n\nFurthermore, consumer price data and supply chain metrics continue to reflect the sticky impact of newly implemented tariffs on imported industrial components and raw materials, as well as lingering transportation surcharges stemming from ongoing geopolitical friction in the Middle East.\n\n\"Investors are celebrating the return of stability at the pinnacle of tech leadership, but the macro headwinds have not vanished,\" cautioned Sarah Lin, head of global economics at Morgan Stanley. \"Sticky inflation, high baseline interest rates, and mounting corporate refinancing obligations in 2027 will require companies to prove that their massive capital expenditures are translating into tangible bottom-line cash flow. For now, however, the bulls have decisively reclaimed control of the narrative."
+    },
+    {
         "id": "wall-street-plunges-into-correction-as-nasdaq-sheds-1225-points-in-global-tech-selloff",
         "title": "Wall Street Plunges Into Correction as Nasdaq Sheds 1,225 Points in Global Tech Sell-Off Amid AI Capital Valuation Anxieties",
         "kicker": "MARKET DISPATCH \u2022 FINANCIAL CRISIS",
@@ -3744,6 +3883,40 @@ Sports finance experts note that the move mirrors a broader institutional trend 
   ],
 
   'Tech': [
+    {
+        "id": "amazon-acquires-decart-ai-optimization-stack-in-7-5b-deal-for-hyperscale-chip-efficiency",
+        "title": "Amazon Acquires Decart AI Optimization Stack in $7.5B Deal to Accelerate Hyperscale Chip Efficiency",
+        "kicker": "ARTIFICIAL INTELLIGENCE \u2022 SILICON CHIP RACE",
+        "summary": "In one of the year's largest tech acquisitions, Amazon reached a $7.5 billion agreement on Tuesday to acquire startup Decart's core optimization stack and engineering team, integrating specialized neural network tuning into AWS Trainium cloud data centers.",
+        "category": "Tech",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Newyorkerherald Staff",
+            "role": "Emerging Technology & Artificial Intelligence Bureau",
+            "avatar": "/images/authors/staff.webp"
+        },
+        "publishedAt": "Nov 24, 2026",
+        "readTime": "7 min read",
+        "imageUrl": "/images/news/amazon-acquires-decart-ai-optimization-stack-in-7-5b-deal-for-hyperscale-chip-efficiency.webp",
+        "imageCaption": "Server racks housing custom AWS Trainium and Inferentia neural processing units at an Amazon Web Services data center, where Decart's software stack will be integrated.",
+        "tags": [
+            "Amazon",
+            "AWS",
+            "Decart",
+            "Artificial Intelligence",
+            "Semiconductors",
+            "Cloud Computing"
+        ],
+        "bullets": [
+            "Amazon announced an agreement to acquire startup Decart's proprietary Decart Optimization Stack (DOS) and engineering talent for $7.5 billion.",
+            "The acquisition targets the critical compute efficiency bottleneck, enabling AWS custom silicon (Trainium and Inferentia) to reduce model latency by up to 40 percent.",
+            "The move intensifies the cloud rivalry with Microsoft and Google as hyperscalers race to curb soaring data center energy and cooling expenditures."
+        ],
+        "body": "Amazon Web Services (AWS) made a monumental move to solidify its competitive dominance in the artificial intelligence cloud landscape on Tuesday, announcing a definitive agreement to acquire the core technology, intellectual property, and engineering roster of AI systems startup Decart for approximately $7.5 billion.\n\nThe transaction, which marks Amazon\u2019s largest tech acquisition since purchasing MGM for $8.5 billion in 2021, represents a strategic strike aimed directly at the most pressing vulnerability confronting the artificial intelligence industry: the skyrocketing operational costs, thermal output, and electrical power demands of running hyperscale generative models at commercial volume.\n\n### Unlocking the \"Decart Optimization Stack\"\n\nFounded by veteran semiconductor architects and machine learning theorists, Decart achieved widespread industry renown for developing the Decart Optimization Stack (DOS)\u2014a proprietary software-and-compiler ecosystem that sits between foundation AI models and underlying hardware silicon.\n\nWhile traditional AI compilation stacks often result in substantial compute wastage due to sub-optimal memory transfers and memory bandwidth bottlenecks, Decart\u2019s technology dynamically rewrites neural network execution graphs at runtime. The compiler custom-tunes mathematical kernels specifically for the target silicon, enabling foundation models like Claude, Llama, and Mistral to run with up to 40 percent lower inference latency and consuming up to 35 percent less electrical energy per token generated.\n\nAWS plans to deeply embed the Decart optimization architecture into its proprietary silicon roadmap, specifically targeting its custom-designed Trainium2 and Trainium3 AI accelerator chips, as well as its Inferentia inference processors. By pairing Decart\u2019s compiler innovations with its in-house silicon, Amazon aims to offer cloud customers a compelling economic alternative to expensive, power-hungry commercial GPU clusters.\n\n\"The future of enterprise artificial intelligence will not be decided solely by who builds the largest parameters, but by who can deliver ultra-low-latency inference with maximum electrical efficiency,\" said Matt Garman, Chief Executive Officer of AWS, in a released statement. \"Decart\u2019s pioneering optimization architecture will allow our global enterprise customers to deploy frontier intelligence at unprecedented speed and fraction-of-a-cent per-query costs.\"\n\n### The Battle for Data Center Power and Grid Capacity\n\nThe multibillion-dollar acquisition comes as cloud hyperscalers\u2014including Microsoft, Google, and Meta\u2014face acute regulatory scrutiny and physical capacity limitations on local electrical grids across North America, including major tech hubs in the Mid-Atlantic and New York.\n\nWith data center power consumption projected to consume more than 8 percent of total U.S. electricity generation by 2030, technology giants are increasingly constrained by substation capacity and municipal cooling limits rather than capital budgets. By optimizing software execution to squeeze significantly higher throughput from existing chip clusters, Amazon aims to effectively double the compute capacity of its existing data center footprint without requiring corresponding increases in megawatt power allocations.\n\nIndustry analysts noted that the Decart deal also reflects an aggressive \"talent-and-tech\" acquisition model designed to withstand antitrust scrutiny. Rather than absorbing the entire corporate shell, Amazon is purchasing the core technology assets and onboarding Decart\u2019s elite 65-person engineering and compiler team, while allowing Decart\u2019s existing consumer gaming and interactive generative video tools to spin out into an independent open-source entity.\n\n### Competitive Shockwaves Across Cloud and Silicon Giants\n\nThe announcement sent immediate reverberations across Silicon Valley and Wall Street. Semiconductor and cloud infrastructure equities traded higher, but analysts noted that third-party AI optimization startups may now see a wave of consolidation as Big Tech platforms race to lock down proprietary compiler efficiency.\n\n\"This is an emphatic declaration by Amazon that custom silicon, married to hyper-specialized compiler software, is the only sustainable path forward for hyperscale AI economics,\" said Dan Ives, managing director of equity research at Wedbush Securities. \"By integrating Decart into the AWS ecosystem, Amazon is positioning Trainium as an indispensable platform for enterprise deployments, challenging Nvidia\u2019s software moat through raw architectural efficiency.\"\n\nThe transaction is expected to close in early 2027, subject to customary regulatory notifications and closing conditions, with AWS expected to unveil the first Decart-powered cloud instances at its upcoming global developer summit."
+    },
     {
         "id": "new-york-breaks-ground-on-500m-permanent-empire-ai-supercomputing-center-suny-buffalo",
         "title": "New York Breaks Ground on $500M Permanent Empire AI Supercomputing Consortium at SUNY Buffalo",
@@ -4321,6 +4494,41 @@ Aerospace financial analysts estimate that SpaceX's commercial launch and satell
 
   'Entertainment': [
     {
+        "id": "broadway-posts-record-38m-early-thanksgiving-box-office-as-star-studded-revivals-propel-midtown-surge",
+        "title": "Broadway Posts Record $38M Early Thanksgiving Box Office as Star-Studded Revivals Propel Midtown Surge",
+        "kicker": "THEATER & CULTURE \u2022 ECONOMIC RESILIENCE",
+        "summary": "Broadway theaters reported a staggering $38.4 million in cumulative box office grosses for the week leading into Thanksgiving, marking the industry's highest late-November tally in seven years and driving a major economic boost across Midtown hotels and restaurants.",
+        "category": "Entertainment",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Newyorkerherald Staff",
+            "role": "Arts, Culture & Broadway Bureau",
+            "avatar": "/images/authors/staff.webp"
+        },
+        "publishedAt": "Nov 24, 2026",
+        "readTime": "6 min read",
+        "imageUrl": "/images/news/broadway-posts-record-38m-early-thanksgiving-box-office-as-star-studded-revivals-propel-midtown-surge.webp",
+        "imageCaption": "Crowds of theatergoers and holiday tourists gather beneath illuminated marquees along 45th Street in the heart of the Broadway Theater District.",
+        "tags": [
+            "Broadway",
+            "Theater",
+            "Box Office",
+            "Midtown",
+            "New York City",
+            "Tom Hiddleston",
+            "Much Ado About Nothing"
+        ],
+        "bullets": [
+            "Cumulative grosses across 34 active Broadway productions reached $38.4 million for the week ending November 22, outpacing pre-pandemic 2019 figures.",
+            "High-profile revivals led by Hollywood stars\u2014including Tom Hiddleston and Hayley Atwell in 'Much Ado About Nothing'\u2014commanded capacity houses and record premium ticket tiers.",
+            "The box office boom is generating a powerful secondary economic ripple across Midtown Manhattan's hospitality, retail, and dining sectors."
+        ],
+        "body": "The Broadway Theater District is experiencing its most lucrative autumn season in modern history, as holiday tourists and theater enthusiasts flooded box offices over the weekend, generating a staggering $38.4 million in cumulative grosses for the week ending November 22, according to official data released Tuesday by The Broadway League.\n\nThe figure represents an 18 percent increase over the corresponding week in 2025 and surpasses the pre-pandemic benchmarks set in late November 2019, confirming that Broadway\u2019s post-pandemic recovery has transitioned into an era of vigorous financial expansion. Average capacity across the 34 active Broadway houses reached a robust 91.4 percent, with 14 productions reporting total attendance exceeding 98 percent.\n\n### The Star-Studded Magnet: Hollywood Royalty on the West Side\n\nIndustry insiders attribute the unprecedented autumn surge to an extraordinarily potent combination of star-driven limited-run revivals, acclaimed new musical transfers, and an earlier-than-usual influx of domestic and international holiday travelers converging on Manhattan ahead of the 100th Annual Macy's Thanksgiving Day Parade.\n\nLeading the financial charge was the starry Jamie Lloyd Company revival of William Shakespeare\u2019s *Much Ado About Nothing* at the Winter Garden Theatre, starring Marvel Cinematic Universe veterans Tom Hiddleston and Hayley Atwell. The production shattered the historic venue\u2019s all-time eight-performance weekly box office record, pulling in an astonishing $2.64 million with an average ticket price of $248 and premium orchestra seating commanding upward of $650 on secondary exchanges.\n\nOther commercial powerhouses posted equally commanding numbers:\n- **Wicked** and **The Lion King**: Long-running juggernauts at the Gershwin and Minskoff Theatres each surpassed $2.4 million in weekly sales, buoyed by multi-generational family holiday bookings.\n- **Here There Are Blueberries**: The critically lauded documentary play by Mois\u00e9s Kaufman and Amanda Gronich continued to play to sold-out houses at the Lyceum Theatre, demonstrating that rigorous, serious dramatic works can achieve extraordinary commercial success alongside flashy musicals.\n- **Wanted**: The ambitious new western musical at the James Earl Jones Theatre achieved 99 percent capacity in its final preview week ahead of its highly anticipated official opening.\n\n\"What we are seeing this November is a vibrant validation of Broadway as the preeminent cultural and economic engine of New York City,\" said Jason Laks, interim president of The Broadway League. \"Audiences are responding to an extraordinarily diverse theatrical menu. Whether it is classical theater led by world-class actors, groundbreaking new American dramas, or spectacular musical blockbusters, Broadway is proving indispensable to the cultural life of our city.\"\n\n### A Critical Lifeline for Midtown Hospitality and Retail\n\nThe theater district\u2019s financial bonanza is delivering an immediate economic boost to the surrounding Midtown ecosystem, which relies heavily on pre- and post-theater foot traffic.\n\nAccording to data compiled by the Times Square Alliance, hotel occupancy in the district reached 88.6 percent over the weekend, while restaurant reservations in the Theater District and Hell\u2019s Kitchen jumped 24 percent compared to the same period last year. Transportation officials reported heavy subway ridership through the 42nd Street-Times Square and 50th Street stations, with Saturday evening ridership approaching post-2020 records.\n\nRestaurateurs on Restaurant Row (West 46th Street) described a dramatic surge in customer volume. \"The energy on the streets right now feels like the peak holidays in 2018,\" said Gianni Bellini, owner of an upscale Italian trattoria on 46th Street. \"The curtain-call crowds are filling our dining rooms until midnight. When Broadway thrives, every dishwasher, bartender, and cab driver in Midtown feels the benefits.\"\n\n### Looking Ahead to a Packed Winter Slate\n\nThe theatrical momentum shows no signs of slowing as Broadway prepares for a packed winter and spring season. The upcoming arrivals of Steve Carell and John C. Reilly in a major revival of Neil Simon\u2019s *The Odd Couple*, alongside cast announcements for *Schmigadoon!* starring Josh Radnor and Beth Behrs, have already driven millions of dollars in advance ticket sales for early 2027.\n\nWhile ticket affordability remains a central concern for local theatergoers\u2014with student and municipal community discount initiatives continuing to expand across non-profit institutional theaters\u2014Broadway\u2019s commercial vitality heading into the Thanksgiving holiday represents an unequivocal triumph for New York's cultural recovery."
+    },
+    {
         "id": "mayor-mamdani-signs-historic-law-ending-new-york-city-central-park-horse-carriage-industry",
         "title": "Mayor Zohran Mamdani Signs Landmark Law Ending New York City's 150-Year-Old Central Park Carriage Horse Industry",
         "kicker": "CULTURE & HERITAGE \u2022 HISTORIC LEGISLATION",
@@ -4834,6 +5042,40 @@ Furthermore, cloud streaming platforms and mobile distribution networks have low
   ],
 
   'Sports': [
+    {
+        "id": "new-york-knicks-edge-indiana-pacers-106-103-at-msg-behind-clutch-brunson-towns-masterclass",
+        "title": "New York Knicks Edge Indiana Pacers 106-103 at MSG Behind Clutch Brunson and Towns Masterclass",
+        "kicker": "NBA ACTION \u2022 EASTERN CONFERENCE THRILLER",
+        "summary": "In a thrilling playoff rematch on Monday night, Jalen Brunson poured in 31 points and Karl-Anthony Towns anchored the paint with 24 points and 14 rebounds as the New York Knicks held off a ferocious Indiana Pacers rally for a 106-103 victory at Madison Square Garden.",
+        "category": "Sports",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Newyorkerherald Staff",
+            "role": "Professional Basketball & New York Sports Bureau",
+            "avatar": "/images/authors/staff.webp"
+        },
+        "publishedAt": "Nov 24, 2026",
+        "readTime": "6 min read",
+        "imageUrl": "/images/news/new-york-knicks-edge-indiana-pacers-106-103-at-msg-behind-clutch-brunson-towns-masterclass.webp",
+        "imageCaption": "Jalen Brunson celebrates a decisive fourth-quarter step-back jumper as Madison Square Garden erupts during the Knicks' 106-103 victory over the Indiana Pacers.",
+        "tags": [
+            "New York Knicks",
+            "Jalen Brunson",
+            "Karl-Anthony Towns",
+            "Indiana Pacers",
+            "NBA",
+            "Madison Square Garden"
+        ],
+        "bullets": [
+            "The Knicks held off the Indiana Pacers 106-103 on Monday night at Madison Square Garden, extending their winning streak and improving to 11-6 on the season.",
+            "Jalen Brunson led all scorers with 31 points and 9 assists, drilling a contested step-back dagger with 28.4 seconds remaining.",
+            "Karl-Anthony Towns delivered a dominant 24-point, 14-rebound double-double, including three crucial blocks during Indiana's fourth-quarter push."
+        ],
+        "body": "In an electric, playoff-intensity battle that echoed their grueling seven-game postseason clash last spring, the New York Knicks held their nerve in the closing seconds on Monday night, edging the rival Indiana Pacers 106-103 before a deafening, sold-out crowd of 19,812 at Madison Square Garden.\n\nThe victory, New York's fourth consecutive triumph, elevated the Knicks to 11-6 on the season and solidified their standing among the upper tier of the Eastern Conference. It was a gritty, defensively suffocating performance that showcased the lethal synergy between All-NBA point guard Jalen Brunson and star center Karl-Anthony Towns in crunch time.\n\n### Brunson and Towns Deliver in the Clutch\n\nBrunson spearheaded the Knicks' attack with a masterful 31-point, 9-assist display, orchestrating the offense with calm precision against Indiana\u2019s aggressive perimeter blitzes. With New York clinging to a fragile 102-101 lead and the shot clock winding down in the final half-minute, Brunson isolated against Indiana perimeter defender Aaron Nesmith, created separation with a crossover, and buried a signature 18-foot pull-up jumper with 28.4 seconds left on the clock.\n\n\"We knew they were going to make a run; they're an exceptionally talented, fast-paced team that never stops pushing the tempo,\" Brunson said in the locker room following the victory. \"In those late-game situations, it\u2019s all about trust and execution. We got to our spots, took care of the basketball, and got the stops we needed.\"\n\nTowns was an unstoppable force in the interior, recording a monstrous double-double with 24 points, 14 rebounds, and 3 blocks. The seven-foot big man was particularly vital during Indiana\u2019s furious fourth-quarter charge, repeatedly denying Pacers star Tyrese Haliburton at the rim and securing three contested defensive rebounds in the final two minutes to prevent second-chance opportunities.\n\nTowns also demonstrated his elite floor-spacing capability, sinking four of his six attempts from three-point range, pulling Indiana rim protector Myles Turner away from the basket and creating driving lanes for Brunson and Mikal Bridges. Bridges contributed 16 points and anchored the Knicks\u2019 primary defensive assignments, limiting Haliburton to 18 points on 6-of-17 shooting.\n\n### A Tense Fourth-Quarter Standoff\n\nThe game was a physical, bruising affair throughout. New York built a 14-point cushion midway through the third quarter on the back of a 12-2 transition run sparked by OG Anunoby\u2019s defensive deflections. However, Indiana responded with a trademark 15-4 flurry to open the fourth quarter, taking a brief 98-97 lead with 4:12 remaining following consecutive three-pointers by Pascal Siakam, who led Indiana with 26 points.\n\nKnicks head coach Tom Thibodeau called a timeout to reset his defense, shifting into a switching perimeter scheme that effectively smothered Indiana\u2019s high-pick-and-roll offense over the final three minutes. A clutch baseline drive by Josh Hart and a transition putback by Towns swung momentum back to New York, setting the stage for Brunson\u2019s late-game heroics.\n\nIndiana had one final chance to force overtime with 3.8 seconds remaining, but Haliburton\u2019s off-balance 28-foot heave from the right wing clanged off the back of the rim as the final buzzer sounded, sending the Garden crowd into a frenzy.\n\n### Building Championship Chemistry in the East\n\nThe victory provided another compelling proof-of-concept for the new-look Knicks roster, which underwent significant offseason reconstruction to integrate Towns alongside New York\u2019s established core. After a challenging opening fortnight marked by defensive miscommunications, the Knicks have won seven of their last eight games, boasting the NBA's third-ranked defensive rating over that span.\n\n\"We're seeing this group come together and understand how to win different styles of games,\" Thibodeau remarked during his post-game press conference. \"Tonight wasn\u2019t about pretty basketball; it was about physical toughness, fighting for 50-50 balls, and executing when the margin for error was razor-thin. Karl\u2019s presence on the boards and Jalen\u2019s poise down the stretch were the difference.\"\n\nThe Knicks will enjoy a brief Thanksgiving holiday break before returning to the Garden floor on Wednesday evening to host the high-flying Cleveland Cavaliers in another marquee Eastern Conference showdown."
+    },
     {
         "id": "new-york-giants-defeat-afc-leading-jaguars-23-18-behind-dominant-defense-metlife-statement",
         "title": "New York Giants Defeat AFC-Leading Jaguars 23-18 Behind Dominant Defense in Statement MetLife Win",
@@ -5368,6 +5610,41 @@ On the stadium infrastructure front, club executives evaluated demonstrations of
   ],
 
   'Science': [
+    {
+        "id": "landmark-phase-three-orion-four-trial-confirms-twice-yearly-sirna-therapy-slashes-cardiovascular-events",
+        "title": "Landmark Phase III ORION-4 Trial Confirms Twice-Yearly siRNA Therapy Slashes Major Cardiovascular Events",
+        "kicker": "CARDIOLOGY BREAKTHROUGH \u2022 GENE-SILENCING MEDICINE",
+        "summary": "In a historic milestone for RNA therapeutics, top-line results from the global Phase III ORION-4 trial published Monday revealed that the twice-yearly siRNA therapy inclisiran achieved a statistically significant 26% reduction in heart attacks, strokes, and cardiovascular mortality.",
+        "category": "Science",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Newyorkerherald Staff",
+            "role": "Medical Research & Clinical Sciences Bureau",
+            "avatar": "/images/authors/staff.webp"
+        },
+        "publishedAt": "Nov 24, 2026",
+        "readTime": "7 min read",
+        "imageUrl": "/images/news/landmark-phase-three-orion-four-trial-confirms-twice-yearly-sirna-therapy-slashes-cardiovascular-events.webp",
+        "imageCaption": "A clinical researcher inspects vials of targeted small interfering RNA (siRNA) therapies in a molecular cardiology laboratory.",
+        "tags": [
+            "Cardiology",
+            "Medicine",
+            "RNA Therapy",
+            "ORION-4",
+            "Inclisiran",
+            "Science",
+            "Heart Disease"
+        ],
+        "bullets": [
+            "The multinational Phase III ORION-4 trial confirmed that twice-yearly administration of the siRNA drug inclisiran reduces major adverse cardiovascular events (MACE) by 26%.",
+            "It marks the first clinical trial in history to prove that RNA-interference gene silencing directly translates into hard clinical reductions in heart attacks and strokes.",
+            "Cardiologists at Columbia University and Mount Sinai hailed the results as a transformational paradigm shift for treating atherosclerotic cardiovascular disease."
+        ],
+        "body": "In what medical historians are calling a watershed moment for preventive cardiology, global pharmaceutical developer Novartis and clinical trial researchers on Monday announced definitive topline results from the landmark Phase III ORION-4 trial, demonstrating that the small interfering RNA (siRNA) therapy inclisiran significantly reduces heart attacks, ischemic strokes, and cardiovascular mortality in patients with established cardiovascular disease.\n\nThe multinational, double-blind, placebo-controlled study\u2014conducted across 180 academic medical centers worldwide and tracking more than 16,000 patients over five years\u2014met its primary endpoint with high statistical significance, establishing that twice-yearly subcutaneous injections of inclisiran slashed major adverse cardiovascular events (MACE) by an unprecedented 26 percent compared to standard statin therapy alone.\n\nThe announcement represents the first definitive clinical proof that RNA-interference (RNAi) therapeutics, which work by selectively turning off specific genes inside human cells, can alter the trajectory of common chronic degenerative diseases and save lives on a population-wide scale.\n\n### The Science of Targeted Gene Silencing\n\nAtherosclerotic cardiovascular disease (ASCVD), driven by the accumulation of cholesterol-rich plaques inside arterial walls, remains the leading cause of death in the United States and worldwide. While traditional statins and oral cholesterol-lowering medications require strict daily adherence, inclisiran operates through a revolutionary molecular mechanism.\n\nThe drug consists of synthetic short interfering RNA molecules chemically conjugated to N-acetylgalactosamine (GalNAc) sugars. This specialized chemical structure acts as a precision postal code, directing the therapy exclusively to receptors on the surface of liver hepatocytes. Once inside the liver cell, inclisiran hijacks the body\u2019s natural catalytic RNA-induced silencing complex (RISC) to systematically bind and degrade the messenger RNA (mRNA) that encodes PCSK9\u2014a circulating protein that normally degrades LDL receptors.\n\nBy permanently disabling the production of PCSK9 inside the liver, the liver cells are able to recycle and express vast arrays of LDL receptors on their outer membranes, continuously pulling circulating \"bad\" LDL cholesterol out of the bloodstream and clearing it through bile excretion. Remarkably, a single subcutaneous injection sustains this cellular silencing mechanism for over six months.\n\n\"For decades, we have understood the theoretical promise of gene silencing, but today we have irrefutable clinical evidence that targeted RNA therapy prevents heart attacks and saves lives,\" said Dr. Eleanor Vance, professor of cardiology at Columbia University Vagelos College of Physicians and Surgeons and co-principal investigator for the trial\u2019s North American cohort. \"A twice-yearly injection that cuts cardiovascular events by a quarter will fundamentally transform urban preventive cardiology and solve the catastrophic adherence failure that plagues daily pill regimens.\"\n\n### Overcoming the \"Adherence Crisis\" in Urban Populations\n\nClinical cardiologists at major New York medical networks, including Mount Sinai Health System and NYU Langone, emphasized the transformative public health implications of the trial's findings, particularly for vulnerable urban populations.\n\nStudies show that fewer than 50 percent of patients prescribed daily high-intensity statins after suffering a heart attack remain adherent to their medication after one year, often due to muscle aches, side effect anxieties, or pharmacy access barriers. In contrast, inclisiran can be administered during routine semi-annual primary care checkups, virtually eliminating non-adherence.\n\nThroughout the five-year ORION-4 trial, inclisiran demonstrated an exceptional safety profile, with no evidence of liver toxicity, kidney dysfunction, or systemic immunological reactions. The only statistically significant adverse event observed was mild, transient injection-site discomfort that resolved within 48 hours.\n\n### Paving the Way for Expanded Global Regulatory Approvals\n\nWhile inclisiran (marketed commercially as *Leqvio*) had previously received regulatory approval from the U.S. Food and Drug Administration (FDA) to lower cholesterol biomarkers, the lack of definitive cardiovascular outcomes trial (CVOT) data had limited its coverage by commercial insurers and Medicare, often restricting it to patients with rare genetic familial hypercholesterolemia.\n\nWith the ORION-4 trial\u2019s hard clinical outcomes now conclusively established, regulatory health authorities worldwide\u2014including the FDA, the European Medicines Agency (EMA), and the UK National Institute for Health and Care Excellence (NICE)\u2014are expected to broaden clinical guidelines, paving the way for standard insurance reimbursement for millions of high-risk post-infarction patients.\n\n\"We are witnessing the dawn of an era where chronic cardiovascular disease will be managed not through fistfuls of daily pills, but through targeted molecular therapies administered twice a year,\" said Dr. Aris Thorne, chief of cardiovascular medicine at Mount Sinai. \"The ORION-4 results solidify RNA therapeutics not as an experimental frontier, but as the foundational pillar of 21st-century medicine."
+    },
     {
         "id": "new-york-power-authority-names-10-qualified-developers-for-1gw-advanced-nuclear-initiative",
         "title": "New York Power Authority Names 10 Qualified Developers for 1-Gigawatt Advanced Nuclear Energy Initiative",
@@ -5916,6 +6193,41 @@ Domestic automotive manufacturers have committed multi-billion-dollar off-take a
   ],
 
   'Opinion': [
+    {
+        "id": "the-second-circuits-dangerous-reset-why-immunity-cannot-shield-state-criminal-verdicts",
+        "title": "The Second Circuit's Dangerous Reset: Why Presidential Immunity Claims Cannot Shield State Criminal Verdicts",
+        "kicker": "EDITORIAL BOARD \u2022 CONSTITUTIONAL CRISIS",
+        "summary": "The 2nd U.S. Circuit Court of Appeals' decision to revive Donald Trump's federal removal petition over his Manhattan criminal conviction fundamentally misunderstands the federal officer removal statute, establishing a perilous precedent that threatens state judicial sovereignty.",
+        "category": "Opinion",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Newyorkerherald Editorial Board",
+            "role": "Opinion & Constitutional Commentary Bureau",
+            "avatar": "/images/authors/staff.webp"
+        },
+        "publishedAt": "Nov 24, 2026",
+        "readTime": "6 min read",
+        "imageUrl": "/images/news/the-second-circuits-dangerous-reset-why-immunity-cannot-shield-state-criminal-verdicts.webp",
+        "imageCaption": "A statue of Lady Justice stands outside a federal courthouse, symbolizing the delicate constitutional balance between state sovereign courts and federal jurisdiction.",
+        "tags": [
+            "Opinion",
+            "Editorial",
+            "Donald Trump",
+            "Second Circuit",
+            "Supreme Court",
+            "Federalism",
+            "Alvin Bragg"
+        ],
+        "bullets": [
+            "The 2nd Circuit's order remanding Trump's hush-money removal petition threatens the foundational principle that state courts retain sovereign authority over state criminal law.",
+            "Using the federal officer removal statute to relitigate a completed state jury verdict creates a disruptive escape hatch for politically powerful defendants.",
+            "The Supreme Court's immunity doctrine was never intended to eradicate state criminal liability for purely private acts executed to influence elections."
+        ],
+        "body": "In our constitutional republic, federalism is not an abstract theoretical doctrine; it is the structural cornerstone that prevents the centralization of judicial power. For more than two centuries, the principle has remained unassailable: state courts possess independent sovereign authority to enforce their own criminal statutes, and their jury verdicts cannot be casually hijacked into federal jurisdiction simply because a defendant once occupied high federal office.\n\nOn Monday, a three-judge panel of the 2nd U.S. Circuit Court of Appeals in Lower Manhattan dealt a profound and destabilizing blow to that foundational principle. By vacating a lower-court order and reviving Donald Trump\u2019s petition to remove his Manhattan criminal conviction to federal court, the appellate court has opened a perilous escape hatch that threatens to subordinate state criminal justice systems to unprecedented federal interference.\n\n### A Distortion of the Removal Statute\n\nThe statutory vehicle at the center of this legal maneuvers\u2014Title 28, Section 1442 of the U.S. Code\u2014was crafted by Congress during the War of 1812 to protect federal customs collectors from hostile state prosecutions while enforcing federal trade embargoes. It was deliberately designed as a pre-trial protective shield, ensuring that federal officers performing official government duties would not face state court obstructionism.\n\nNever in the two-hundred-year history of the republic did Congress envision that this protective mechanism could be deployed *after* a state criminal trial has concluded, *after* twelve citizens have weighed the evidence, and *after* a unanimous felony verdict has been rendered under state law.\n\nTrump was not prosecuted by Manhattan District Attorney Alvin Bragg for conducting foreign diplomacy, directing military operations, or executing federal laws. He was convicted by a New York jury on 34 felony counts of falsifying business records under Article 175 of the New York Penal Law\u2014a garden-variety state crime involving the fraudulent concealment of personal hush-money reimbursements to a private lawyer. To argue that these private corporate manipulations constitute \"official acts under color of federal office\" requires a level of legal contortion that insults common sense.\n\n### The Misapplication of Presidential Immunity\n\nThe 2nd Circuit panel attempted to justify its procedural reset by pointing to the U.S. Supreme Court\u2019s July 2024 ruling in *Trump v. United States*, which created sweeping constitutional immunity for core presidential functions. But the high court\u2019s majority opinion, authored by Chief Justice John Roberts, explicitly distinguished between official duties and private, personal conduct.\n\nThe payments to Stormy Daniels and the subsequent ledger falsifications were initiated in 2016 before Trump ever took the oath of office, and were continued during his presidency through personal bank accounts and trust disbursements managed by private business associates. Introducing incidental testimony about conversations in the West Wing does not retroactively transform private criminal deceit into an exercise of Article II executive power.\n\nIf any state criminal prosecution of a former federal official can be remanded to federal court whenever private records touch upon incidental White House conversations, the sovereign power of the fifty states to hold powerful individuals accountable is effectively extinguished. It creates a two-tiered system of justice: one where ordinary citizens face the swift finality of state court jury verdicts, while elite political figures can demand endless federal jurisdictional replays.\n\n### An Urgent Need for Judicial Restraint\n\nThe case now returns to the courtroom of U.S. District Judge Alvin Hellerstein, who correctly recognized in his initial ruling that Trump\u2019s reimbursement scheme was private conduct outside the scope of federal officer jurisdiction. Judge Hellerstein must now conduct the mandated hearings with rigorous constitutional clarity.\n\nThe rule of law does not mean that every federal question must be decided in a federal building. State appellate courts\u2014including the New York Appellate Division and the New York Court of Appeals\u2014are fully competent and constitutionally bound under the Supremacy Clause to evaluate federal constitutional claims, including presidential immunity defenses.\n\nBy short-circuiting the established state appellate process, the 2nd Circuit has invited dangerous jurisdictional chaos. If state jury verdicts can be suspended and relitigated under the guise of federal removal whenever a former president claims immunity, the integrity of American trial courts will suffer lasting damage. It is time for the federal judiciary to respect the constitutional limits of its own authority and allow New York\u2019s sovereign legal process to run its rightful course."
+    },
     {
         "id": "the-rikers-2032-compromise-why-city-halls-realistic-timetable-demands-uncompromising-oversight",
         "title": "The Rikers 2032 Compromise: Why City Hall's Realistic Timetable Demands Uncompromising Oversight",
@@ -6799,46 +7111,46 @@ export function getHomepageDepartmentArticles(dept: string): Article[] {
   const all = getAllArticles();
   const mapping: Record<string, string[]> = {
     us: [
+      'nyc-joins-national-lawsuit-challenging-federal-hud-mixed-status-immigrant-housing-rule',
       'mayor-mamdani-unveils-comprehensive-146m-blueprint-to-close-rikers-island-by-2032',
       'nyc-city-council-passes-landmark-commercial-rent-stabilization-bill-small-business-protections',
-      'nyc-orders-emergency-sweeps-160-construction-sites-fatal-flatbush-collapse',
-      'hochul-and-mta-press-congress-for-billions-in-transit-funds'
+      'nyc-orders-emergency-sweeps-160-construction-sites-fatal-flatbush-collapse'
     ],
     politics: [
+      'federal-appeals-court-revives-trump-effort-to-transfer-manhattan-criminal-case-to-federal-court',
       'governor-hochul-plans-veto-of-new-york-food-additives-ban-citing-grocery-inflation',
       'turhan-mildon-caracas-washington-venezuela-business-interests',
-      'governor-hochul-and-legislative-leaders-unveil-emergency-3-2b-transit-bailout-and-subway-safety-pact',
-      'house-democrats-formally-nominate-brooklyn-hakeem-jeffries-speaker'
+      'governor-hochul-and-legislative-leaders-unveil-emergency-3-2b-transit-bailout-and-subway-safety-pact'
     ],
     business: [
+      'wall-street-rebounds-in-dramatic-1450-point-surge-as-nvidia-leadership-and-treasury-yield-retreat-reignite-markets',
       'wall-street-plunges-into-correction-as-nasdaq-sheds-1225-points-in-global-tech-selloff',
       'wall-street-braces-as-sec-finalizes-stringent-liquidity-rules-for-1-7t-private-credit-funds',
-      'federal-reserve-flags-escalating-debt-and-private-credit-risks-ai-boom',
-      'dow-plunges-848-points-as-ai-valuation-anxiety-grips-markets'
+      'federal-reserve-flags-escalating-debt-and-private-credit-risks-ai-boom'
     ],
     tech: [
+      'amazon-acquires-decart-ai-optimization-stack-in-7-5b-deal-for-hyperscale-chip-efficiency',
       'new-york-breaks-ground-on-500m-permanent-empire-ai-supercomputing-center-suny-buffalo',
       'new-york-state-launches-empire-ai-supercomputing-cluster-at-suny-buffalo-open-to-public-researchers',
-      'anthropic-debuts-on-new-york-stock-exchange-in-historic-1-5-trillion-ipo',
-      'google-expands-gemini-into-autonomous-ai-agent-for-real-tasks'
+      'anthropic-debuts-on-new-york-stock-exchange-in-historic-1-5-trillion-ipo'
     ],
     entertainment: [
+      'broadway-posts-record-38m-early-thanksgiving-box-office-as-star-studded-revivals-propel-midtown-surge',
       'mayor-mamdani-signs-historic-law-ending-new-york-city-central-park-horse-carriage-industry',
       'broadway-unveils-record-breaking-winter-season-lineup-with-subsidized-student-and-community-tickets',
-      'macys-unveils-centenary-float-lineup-for-100th-annual-thanksgiving-parade',
-      'raye-leads-2027-grammy-nominations-with-record-tying-11-nods'
+      'macys-unveils-centenary-float-lineup-for-100th-annual-thanksgiving-parade'
     ],
     sports: [
+      'new-york-knicks-edge-indiana-pacers-106-103-at-msg-behind-clutch-brunson-towns-masterclass',
       'new-york-giants-defeat-afc-leading-jaguars-23-18-behind-dominant-defense-metlife-statement',
       'new-york-giants-announce-major-front-office-overhaul-and-rookie-qb-start-ahead-of-rivalry-clash',
-      'towns-and-brunson-drop-28-each-as-knicks-grind-out-112-108-triumph-toronto',
-      'quentin-grimes-drops-47-as-lakers-edge-hornets-118-114-in-ot'
+      'towns-and-brunson-drop-28-each-as-knicks-grind-out-112-108-triumph-toronto'
     ],
     science: [
+      'landmark-phase-three-orion-four-trial-confirms-twice-yearly-sirna-therapy-slashes-cardiovascular-events',
       'new-york-power-authority-names-10-qualified-developers-for-1gw-advanced-nuclear-initiative',
       'columbia-and-mount-sinai-scientists-unveil-breakthrough-air-filtration-network-to-curb-urban-asthma',
-      'new-york-expands-180m-clean-heat-and-urban-geothermal-energy-subsidies',
-      'nasa-astronauts-3d-print-living-human-tissues-aboard-the-iss'
+      'new-york-expands-180m-clean-heat-and-urban-geothermal-energy-subsidies'
     ]
   };
 
