@@ -27,7 +27,7 @@ export default function CurvedBentoHero() {
   
   // Secondary stories (2 items with good height & spacing)
   const secondaryStories = [
-    allArts.find(a => a.id === 'nyc-joins-national-lawsuit-challenging-federal-hud-mixed-status-immigrant-housing-rule'),
+    allArts.find(a => a.id === 'brooklyn-appeals-court-clears-500m-pied-a-terre-luxury-tax-backed-by-hochul-and-mamdani'),
     allArts.find(a => a.id === 'the-vanity-of-alina-habba-mildon'),
     ...SECONDARY_LEAD_STORIES
   ].filter(Boolean) as typeof allArts;
