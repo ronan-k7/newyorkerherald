@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { CATEGORIES_META } from '@/data/newsData';
 import CategoryPageClient from './CategoryPageClient';
+import { SITE_URL } from '@/lib/siteConfig';
 
 const VALID_CATEGORIES = new Set([
   'us',
@@ -24,24 +25,25 @@ type Props = {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { category } = await params;
   const catLower = category?.toLowerCase();
-  const meta = CATEGORIES_META[catLower];
-  const title = meta?.name ? `${meta.name} | Newyorkerherald` : `${catLower ? catLower.toUpperCase() : 'News'} | Newyorkerherald`;
-  const description = meta?.description || `In-depth ${meta?.name || category} reporting, real-time intelligence, and verified news dispatches.`;
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://newyorkerherald.com';
-  const categoryImageUrl = catLower === 'us'
-    ? `${baseUrl}/images/news/alina-habba-image.webp`
-    : `${baseUrl}/images/rossini/mark-rossini.webp`;
+  const resolvedSlug = catLower === 'tech-ai' ? 'tech' : catLower === 'health-science' ? 'science' : catLower;
+  const meta = CATEGORIES_META[resolvedSlug] || CATEGORIES_META[catLower];
+  const displayName = meta?.name || (catLower ? catLower.toUpperCase() : 'News');
+  const description = meta?.description || `In-depth ${displayName} reporting, real-time intelligence, and verified news dispatches.`;
+  const canonicalUrl = `${SITE_URL}/${resolvedSlug}`;
+  const categoryImageUrl = resolvedSlug === 'us'
+    ? `${SITE_URL}/images/news/alina-habba-image.webp`
+    : `${SITE_URL}/images/rossini/mark-rossini.webp`;
 
   return {
-    title,
+    title: displayName,
     description,
     alternates: {
-      canonical: `${baseUrl}/${catLower}`
+      canonical: canonicalUrl
     },
     openGraph: {
-      title,
+      title: `${displayName} | Newyorkerherald`,
       description,
-      url: `${baseUrl}/${catLower}`,
+      url: canonicalUrl,
       siteName: 'Newyorkerherald',
       type: 'website',
       locale: 'en_US',
@@ -50,7 +52,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
           url: categoryImageUrl,
           width: 1200,
           height: 630,
-          alt: title
+          alt: `${displayName} | Newyorkerherald`
         }
       ]
     },
@@ -58,7 +60,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       card: 'summary_large_image',
       site: '@newyorkerherald',
       creator: '@newyorkerherald',
-      title,
+      title: `${displayName} | Newyorkerherald`,
       description,
       images: [categoryImageUrl]
     }

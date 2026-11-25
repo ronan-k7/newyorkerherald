@@ -1,7 +1,8 @@
 import type { Metadata } from 'next';
 import { LEAD_ARTICLE } from '@/data/newsData';
+import { SITE_URL } from '@/lib/siteConfig';
 
-const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://newyorkerherald.com';
+const baseUrl = SITE_URL;
 
 export const metadata: Metadata = {
   title: 'The Vanity of Alina Habba Mildon: Beauty, Power, Ambition and the Price of Loyalty',

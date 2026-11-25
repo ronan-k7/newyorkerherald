@@ -3,8 +3,7 @@ import './globals.css';
 import { NewsProvider } from '@/context/NewsContext';
 import VideoModal from '@/components/Modals/VideoModal';
 import SearchModal from '@/components/Modals/SearchModal';
-
-const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://newyorkerherald.com';
+import { SITE_URL } from '@/lib/siteConfig';
 
 export const viewport: Viewport = {
   width: 'device-width',
@@ -13,7 +12,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL(baseUrl),
+  metadataBase: new URL(SITE_URL),
   title: {
     default: 'Newyorkerherald | Independent Global Journal & Intelligence',
     template: '%s | Newyorkerherald'
@@ -24,13 +23,10 @@ export const metadata: Metadata = {
   creator: 'Newyorkerherald',
   publisher: 'Newyorkerherald Media Group',
   applicationName: 'Newyorkerherald',
-  alternates: {
-    canonical: '/',
-  },
   openGraph: {
     title: 'Newyorkerherald — Independent Global Journal',
     description: 'Independent reporting, investigative inquiries, and real-time news dispatches.',
-    url: baseUrl,
+    url: SITE_URL,
     siteName: 'Newyorkerherald',
     locale: 'en_US',
     type: 'website',

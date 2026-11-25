@@ -1,6 +1,4 @@
-'use client';
-
-import React from 'react';
+import type { Metadata } from 'next';
 import CurvedHeader from '@/components/Header/CurvedHeader';
 import CurvedBentoHero from '@/components/Hero/CurvedBentoHero';
 import ExecutiveDigest from '@/components/Sections/ExecutiveDigest';
@@ -10,6 +8,13 @@ import PhotojournalismGallery from '@/components/Sections/PhotojournalismGallery
 import WeekendLongReads from '@/components/Sections/WeekendLongReads';
 import CurvedOpinionStream from '@/components/Opinion/CurvedOpinionStream';
 import CurvedFooter from '@/components/Footer/CurvedFooter';
+import { SITE_URL } from '@/lib/siteConfig';
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: SITE_URL,
+  },
+};
 
 export default function HomePage() {
   return (

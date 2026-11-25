@@ -1,23 +1,18 @@
 import { MetadataRoute } from 'next';
 import { getAllArticles, CATEGORIES_META, AUTHORS_DATA, getArticleUrl } from '@/data/newsData';
+import { SITE_URL, parsePublishedTimeToIso } from '@/lib/siteConfig';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://newyorkerherald.com';
+  const baseUrl = SITE_URL;
   const now = new Date();
 
-  // 1. Core Institutional & Static Pages
+  // 1. Core Institutional & Static Pages (unique canonical URLs only)
   const staticRoutes: MetadataRoute.Sitemap = [
     {
-      url: `${baseUrl}`,
+      url: baseUrl,
       lastModified: now,
       changeFrequency: 'always',
       priority: 1.0,
-    },
-    {
-      url: `${baseUrl}/us/the-vanity-of-alina-habba-mildon`,
-      lastModified: now,
-      changeFrequency: 'hourly',
-      priority: 0.95,
     },
     {
       url: `${baseUrl}/about`,
@@ -51,22 +46,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
-  // 2. All Category Hub Pages (U.S., Politics, Business, Tech, Entertainment, Sports, Science, Opinion, Investigation)
-  const categoryRoutes: MetadataRoute.Sitemap = [];
-  for (const slug of Object.keys(CATEGORIES_META)) {
-    categoryRoutes.push({
-      url: `${baseUrl}/${slug}`,
-      lastModified: now,
-      changeFrequency: 'hourly',
-      priority: 0.9,
-    });
-    categoryRoutes.push({
-      url: `${baseUrl}/category/${slug}`,
-      lastModified: now,
-      changeFrequency: 'hourly',
-      priority: 0.85,
-    });
-  }
+  // 2. Canonical Category Hub Pages (avoid duplicate /category/* entries)
+  const categoryRoutes: MetadataRoute.Sitemap = Object.keys(CATEGORIES_META).map((slug) => ({
+    url: `${baseUrl}/${slug}`,
+    lastModified: now,
+    changeFrequency: 'hourly',
+    priority: 0.9,
+  }));
 
   // 3. Author / Editorial Profile Hubs
   const authorRoutes: MetadataRoute.Sitemap = Object.keys(AUTHORS_DATA).map((slug) => ({
@@ -76,29 +62,27 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  // 4. All Published News & Investigative Articles (Unique Slugs)
+  // 4. All Published News & Investigative Articles (Unique Canonical URLs)
   const articles = getAllArticles();
-  const seenArticles = new Set<string>();
+  const seenUrls = new Set<string>();
   const articleRoutes: MetadataRoute.Sitemap = [];
 
   for (const article of articles) {
-    if (!article.id || seenArticles.has(article.id)) continue;
-    seenArticles.add(article.id);
-
-    let articleDate = now;
-    if (article.publishedAt) {
-      const parsed = new Date(article.publishedAt);
-      if (!isNaN(parsed.getTime())) {
-        articleDate = parsed;
-      }
-    }
-
+    if (!article.id) continue;
     const articleUrlPath = getArticleUrl(article);
+    const fullUrl = `${baseUrl}${articleUrlPath}`;
+    if (seenUrls.has(fullUrl)) continue;
+    seenUrls.add(fullUrl);
+
+    const articleDate = article.publishedAt
+      ? new Date(parsePublishedTimeToIso(article.publishedAt))
+      : now;
+
     articleRoutes.push({
-      url: `${baseUrl}${articleUrlPath}`,
+      url: fullUrl,
       lastModified: articleDate,
       changeFrequency: 'daily',
-      priority: 0.8,
+      priority: article.id === 'the-vanity-of-alina-habba-mildon' ? 0.95 : 0.8,
     });
   }
 

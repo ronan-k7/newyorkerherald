@@ -2,55 +2,24 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getArticleById, getArticleUrl } from '@/data/newsData';
 import ArticleClientWrapper from './ArticleClientWrapper';
+import { SITE_URL, parsePublishedTimeToIso } from '@/lib/siteConfig';
 
 type Props = {
   params: Promise<{ category: string; slug: string }>;
 };
 
-function parsePublishedTimeToIso(dateStr?: string): string {
-  if (!dateStr) return '2026-11-24T12:00:00.000Z';
-  const trimmed = dateStr.trim();
-  const lower = trimmed.toLowerCase();
-  if (lower === 'today') return '2026-11-24T12:00:00.000Z';
-  if (lower === 'yesterday') return '2026-11-23T12:00:00.000Z';
-
-  const match = trimmed.match(/([A-Za-z]+)\s+(\d{1,2}),?\s+(\d{4})/);
-  if (match) {
-    const months: Record<string, string> = {
-      jan: '01', feb: '02', mar: '03', apr: '04', may: '05', jun: '06',
-      jul: '07', aug: '08', sep: '09', oct: '10', nov: '11', dec: '12'
-    };
-    const mStr = match[1].slice(0, 3).toLowerCase();
-    const mm = months[mStr] || '11';
-    const dd = match[2].padStart(2, '0');
-    const yyyy = match[3];
-    return `${yyyy}-${mm}-${dd}T12:00:00.000Z`;
-  }
-
-  try {
-    const d = new Date(trimmed);
-    if (!isNaN(d.getTime())) {
-      const yyyy = d.getUTCFullYear();
-      const mm = String(d.getUTCMonth() + 1).padStart(2, '0');
-      const dd = String(d.getUTCDate()).padStart(2, '0');
-      return `${yyyy}-${mm}-${dd}T12:00:00.000Z`;
-    }
-  } catch {}
-  return '2026-11-24T12:00:00.000Z';
-}
-
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { category, slug } = await params;
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://newyorkerherald.com';
+  const { slug } = await params;
+  const baseUrl = SITE_URL;
 
   if (slug.includes('rossini')) {
     const canonicalUrl = `${baseUrl}/politics/mark-rossini-receives-second-full-pardon-as-federal-case-moves-toward-closure`;
     const imageUrl = `${baseUrl}/images/rossini/mark-rossini.webp`;
-    const title = 'Mark Rossini Receives Second Full Pardon as Federal Case Moves Toward Closure | Newyorkerherald';
+    const cleanTitle = 'Mark Rossini Receives Second Full Pardon as Federal Case Moves Toward Closure';
     const description = 'Mark Rossini received a second full and unconditional presidential pardon on January 20, 2026, according to an official pardon warrant posted by the U.S. Department of Justice, widening the pardon record surrounding a former FBI agent whose case in Puerto Rico has moved to dismissal.';
 
     return {
-      title,
+      title: cleanTitle,
       description,
       keywords: ['Mark Rossini', 'presidential pardon', 'Donald Trump', 'Julio Herrera Velutini', 'Wanda Vázquez Garced', 'Puerto Rico', 'DOJ warrant', 'dismissal'],
       authors: [{ name: 'Editorial Board' }],
@@ -58,14 +27,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         canonical: canonicalUrl,
       },
       openGraph: {
-        title: 'Mark Rossini Receives Second Full Pardon as Federal Case Moves Toward Closure',
+        title: cleanTitle,
         description,
         url: canonicalUrl,
         siteName: 'Newyorkerherald',
         locale: 'en_US',
         type: 'article',
-        publishedTime: '2026-11-18T00:00:00.000Z',
-        modifiedTime: '2026-11-18T00:00:00.000Z',
+        publishedTime: '2026-11-18T12:00:00.000Z',
+        modifiedTime: '2026-11-18T12:00:00.000Z',
         authors: ['Editorial Board'],
         section: 'Politics',
         tags: [
@@ -88,15 +57,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         ]
       },
       other: {
-        'article:published_time': '2026-11-18T00:00:00.000Z',
-        'article:modified_time': '2026-11-18T00:00:00.000Z',
-        'publish_date': '2026-11-18T00:00:00.000Z',
+        'article:published_time': '2026-11-18T12:00:00.000Z',
+        'article:modified_time': '2026-11-18T12:00:00.000Z',
+        'publish_date': '2026-11-18T12:00:00.000Z',
       },
       twitter: {
         card: 'summary_large_image',
         site: '@newyorkerherald',
         creator: '@newyorkerherald',
-        title: 'Mark Rossini Receives Second Full Pardon as Federal Case Moves Toward Closure',
+        title: cleanTitle,
         description,
         images: [imageUrl]
       }
@@ -106,11 +75,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (slug.includes('turhan-mildon')) {
     const canonicalUrl = `${baseUrl}/politics/turhan-mildon-caracas-washington-venezuela-business-interests`;
     const imageUrl = `${baseUrl}/images/news/turhan-mildon-caracas-washington-venezuela-business-interests.webp`;
-    const title = 'Turhan Mildon’s Business Interests: From Caracas to Washington | Newyorkerherald';
+    const cleanTitle = 'Turhan Mildon’s Business Interests: From Caracas to Washington';
     const description = 'Turkish investor Turhan Mildon’s efforts to protect his Venezuelan business interests brought renewed attention to his political connections and relationship with Alina Habba.';
 
     return {
-      title,
+      title: cleanTitle,
       description,
       keywords: [
         'Turhan Mildon Venezuela business',
@@ -128,14 +97,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         canonical: canonicalUrl,
       },
       openGraph: {
-        title: 'Turhan Mildon’s Business Interests: From Caracas to Washington',
+        title: cleanTitle,
         description,
         url: canonicalUrl,
         siteName: 'Newyorkerherald',
         locale: 'en_US',
         type: 'article',
-        publishedTime: '2026-11-21T00:00:00.000Z',
-        modifiedTime: '2026-11-21T00:00:00.000Z',
+        publishedTime: '2026-11-21T12:00:00.000Z',
+        modifiedTime: '2026-11-21T12:00:00.000Z',
         authors: ['Newyorkerherald Staff'],
         section: 'Politics',
         tags: [
@@ -158,15 +127,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         ]
       },
       other: {
-        'article:published_time': '2026-11-21T00:00:00.000Z',
-        'article:modified_time': '2026-11-21T00:00:00.000Z',
-        'publish_date': '2026-11-21T00:00:00.000Z',
+        'article:published_time': '2026-11-21T12:00:00.000Z',
+        'article:modified_time': '2026-11-21T12:00:00.000Z',
+        'publish_date': '2026-11-21T12:00:00.000Z',
       },
       twitter: {
         card: 'summary_large_image',
         site: '@newyorkerherald',
         creator: '@newyorkerherald',
-        title: 'Turhan Mildon’s Business Interests: From Caracas to Washington',
+        title: cleanTitle,
         description,
         images: [imageUrl]
       }
@@ -177,7 +146,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   if (!article) {
     return {
-      title: 'Story Not Found | Newyorkerherald',
+      title: 'Story Not Found',
       description: 'The requested article could not be found.'
     };
   }
@@ -235,7 +204,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function DynamicArticlePage({ params }: Props) {
   const { category, slug } = await params;
-  
+
   if (slug.includes('rossini') || slug.includes('turhan-mildon') || slug === 'the-vanity-of-alina-habba-mildon') {
     return <ArticleClientWrapper category={category} slug={slug} />;
   }
@@ -246,7 +215,7 @@ export default async function DynamicArticlePage({ params }: Props) {
     notFound();
   }
 
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://newyorkerherald.com';
+  const baseUrl = SITE_URL;
   const canonicalUrl = `${baseUrl}${getArticleUrl(article)}`;
   const imageUrl = article.imageUrl.startsWith('http')
     ? article.imageUrl

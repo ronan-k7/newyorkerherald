@@ -88,7 +88,7 @@ export default function MarkRossiniArticlePage() {
             <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
               <ArticleShareMenu
                 title="Mark Rossini Receives Second Full Pardon as Federal Case Moves Toward Closure"
-                url="https://newyorkerherald.com/politics/mark-rossini-receives-second-full-pardon-as-federal-case-moves-toward-closure"
+                url="https://www.newyorkerherald.com/politics/mark-rossini-receives-second-full-pardon-as-federal-case-moves-toward-closure"
               />
             </div>
           </div>

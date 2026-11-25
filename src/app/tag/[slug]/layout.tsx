@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { SITE_URL } from '@/lib/siteConfig';
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -23,10 +24,10 @@ const tagNames: Record<string, string> = {
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const tagName = tagNames[slug] || slug.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://newyorkerherald.com';
+  const baseUrl = SITE_URL;
 
   return {
-    title: `${tagName} — News, Dispatches & Analysis | Newyorkerherald`,
+    title: `${tagName} — News, Dispatches & Analysis`,
     description: `Explore all investigative reporting, verified dispatches, and in-depth coverage tagged with ${tagName} on Newyorkerherald.`,
     alternates: {
       canonical: `${baseUrl}/tag/${slug}`

@@ -1,34 +1,33 @@
 import type { Metadata } from 'next';
 import { AUTHORS_DATA, AUTHORS } from '@/data/newsData';
-
-type Props = {
-  params: Promise<{ slug: string }>;
-  children: React.ReactNode;
-};
+import { SITE_URL } from '@/lib/siteConfig';
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const author = AUTHORS_DATA[slug] || AUTHORS[slug];
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://newyorkerherald.com';
+  const baseUrl = SITE_URL;
 
   if (!author) {
     return {
-      title: 'Journalist Profile | Newyorkerherald'
+      title: 'Journalist Profile',
+      alternates: {
+        canonical: `${baseUrl}/author/${slug}`
+      }
     };
   }
 
-  const title = `${author.name} — ${author.role} | Newyorkerherald`;
+  const cleanTitle = `${author.name} — ${author.role}`;
   const desc = author.bio || `Read articles, investigative reporting, and news dispatches by ${author.name} on Newyorkerherald.`;
   const shareImageUrl = `${baseUrl}/images/news/alina-habba-image.webp`;
 
   return {
-    title,
+    title: cleanTitle,
     description: desc,
     alternates: {
       canonical: `${baseUrl}/author/${slug}`
     },
     openGraph: {
-      title,
+      title: `${cleanTitle} | Newyorkerherald`,
       description: desc,
       url: `${baseUrl}/author/${slug}`,
       siteName: 'Newyorkerherald',
@@ -46,7 +45,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       card: 'summary_large_image',
       site: '@newyorkerherald',
       creator: '@newyorkerherald',
-      title,
+      title: `${cleanTitle} | Newyorkerherald`,
       description: desc,
       images: [shareImageUrl]
     }

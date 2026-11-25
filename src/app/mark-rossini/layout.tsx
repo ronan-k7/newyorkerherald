@@ -1,9 +1,10 @@
 import type { Metadata } from 'next';
+import { SITE_URL } from '@/lib/siteConfig';
 
-const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://newyorkerherald.com';
+const baseUrl = SITE_URL;
 
 export const metadata: Metadata = {
-  title: 'Mark Rossini Receives Second Full Pardon as Federal Case Moves Toward Closure | Newyorkerherald',
+  title: 'Mark Rossini Receives Second Full Pardon as Federal Case Moves Toward Closure',
   description: 'Mark Rossini received a second full and unconditional presidential pardon covering his federal case in Puerto Rico. An exhaustive legal analysis of the executive warrants, court acceptance, and dismissal.',
   keywords: [
     'Mark Rossini',
@@ -20,7 +21,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'News Desk' }],
   alternates: {
-    canonical: `${baseUrl}/mark-rossini`
+    canonical: `${baseUrl}/politics/mark-rossini-receives-second-full-pardon-as-federal-case-moves-toward-closure`
   },
   openGraph: {
     title: 'Mark Rossini Receives Second Full Pardon as Federal Case Moves Toward Closure',
