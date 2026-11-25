@@ -16,6 +16,95 @@ import {
   FileText 
 } from 'lucide-react';
 
+function renderInlineMarkdown(text: string): React.ReactNode[] {
+  const parts = text.split(/(\*\*[^*]+\*\*|\*[^*\s][^*]*\*)/g);
+  return parts.map((part, idx) => {
+    if (part.startsWith('**') && part.endsWith('**') && part.length > 4) {
+      return <strong key={idx}>{part.slice(2, -2)}</strong>;
+    }
+    if (part.startsWith('*') && part.endsWith('*') && part.length > 2) {
+      return <em key={idx}>{part.slice(1, -1)}</em>;
+    }
+    return part;
+  });
+}
+
+function renderArticleBody(body: string): React.ReactNode[] {
+  const blocks = body.split(/\n\n+/);
+  const nodes: React.ReactNode[] = [];
+
+  blocks.forEach((rawBlock, bIdx) => {
+    const block = rawBlock.trim();
+    if (!block) return;
+
+    const lines = block.split('\n').map(l => l.trim()).filter(Boolean);
+    let bulletBuffer: string[] = [];
+
+    const flushBullets = (keyPrefix: string) => {
+      if (bulletBuffer.length === 0) return;
+      nodes.push(
+        <ul
+          key={`${keyPrefix}-ul`}
+          style={{
+            listStyle: 'disc',
+            paddingLeft: '22px',
+            margin: '10px 0 18px 0',
+            display: 'flex',
+            flexDirection: 'column',
+            gap: '8px'
+          }}
+        >
+          {bulletBuffer.map((item, i) => (
+            <li key={i}>{renderInlineMarkdown(item)}</li>
+          ))}
+        </ul>
+      );
+      bulletBuffer = [];
+    };
+
+    lines.forEach((line, lIdx) => {
+      const headingMatch = line.match(/^#{1,4}\s+(.+)$/);
+      if (headingMatch) {
+        flushBullets(`${bIdx}-${lIdx}`);
+        nodes.push(
+          <h2
+            key={`${bIdx}-${lIdx}-h`}
+            className="font-heading"
+            style={{
+              fontSize: '1.28rem',
+              fontWeight: 800,
+              lineHeight: 1.25,
+              color: 'var(--text-primary)',
+              letterSpacing: '-0.02em',
+              margin: '28px 0 12px 0'
+            }}
+          >
+            {renderInlineMarkdown(headingMatch[1])}
+          </h2>
+        );
+        return;
+      }
+
+      const bulletMatch = line.match(/^[-*]\s+(.+)$/);
+      if (bulletMatch) {
+        bulletBuffer.push(bulletMatch[1]);
+        return;
+      }
+
+      flushBullets(`${bIdx}-${lIdx}`);
+      nodes.push(
+        <p key={`${bIdx}-${lIdx}-p`} style={{ marginBottom: '18px' }}>
+          {renderInlineMarkdown(line)}
+        </p>
+      );
+    });
+
+    flushBullets(`${bIdx}-end`);
+  });
+
+  return nodes;
+}
+
 export default function ArticleDetailPage() {
   const params = useParams();
   const articleId = (params?.slug || params?.id) as string;
@@ -190,11 +279,7 @@ export default function ArticleDetailPage() {
               marginBottom: '36px'
             }}>
               {article.body ? (
-                article.body.split('\n\n').map((paragraph, pIdx) => (
-                  <p key={pIdx} style={{ marginBottom: '18px' }}>
-                    {paragraph}
-                  </p>
-                ))
+                renderArticleBody(article.body)
               ) : (
                 <>
                   <p style={{ marginBottom: '18px' }}>
