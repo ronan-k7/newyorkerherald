@@ -11,37 +11,37 @@ import {
 export const BREAKING_NEWS_ITEMS = [
   {
     id: 'brk-1',
-    kicker: 'MUNICIPAL FINANCE',
-    headline: 'Brooklyn Appeals Court Clears $500 Million Pied-à-Terre Luxury Real Estate Tax Backed by Hochul and Mamdani',
-    time: '12m ago',
-    url: '/us/brooklyn-appeals-court-clears-500m-pied-a-terre-luxury-tax-backed-by-hochul-and-mamdani'
+    kicker: 'EMERGENCY ALERT',
+    headline: 'Hochul Declares State of Emergency Across NYC and Suburbs as 65 MPH Thanksgiving Storm Hits Bridges',
+    time: '10m ago',
+    url: '/us/hochul-declares-state-of-emergency-as-thanksgiving-coastal-storm-forces-bridge-bans-nyc'
   },
   {
     id: 'brk-2',
-    kicker: 'CAPITOL HILL',
-    headline: 'House Judiciary Democrats Expand 1789 Capital Venture Investigation, Subpoenaing Four Portfolio Firms',
-    time: '28m ago',
-    url: '/politics/house-democrats-expand-probe-into-donald-trump-jr-1789-capital-venture-fund'
+    kicker: 'PARADE SHIFT',
+    headline: '100th Macy’s Thanksgiving Day Parade Postponed to Saturday Due to High Winds as NBC Airs 2025 Encore',
+    time: '24m ago',
+    url: '/entertainment/macys-100th-thanksgiving-parade-postponed-to-saturday-as-nbc-airs-2025-encore'
   },
   {
     id: 'brk-3',
-    kicker: 'WALL STREET',
-    headline: 'Dow Surpasses Historic 50,000 Milestone While Nasdaq Retreats on Global AI Volatility and Fed Rate Debate',
-    time: '44m ago',
-    url: '/business/dow-surpasses-50000-milestone-while-nasdaq-slips-on-ai-volatility-and-fed-inflation-debate'
+    kicker: 'FIRST AMENDMENT',
+    headline: 'Federal Judge Enjoins Trump Administration and FCC From Retaliatory Reviews Against ABC Licenses',
+    time: '41m ago',
+    url: '/politics/federal-judge-alikhan-blocks-trump-administration-fcc-retaliation-against-abc-licenses'
   }
 ];
 
 export const TRENDING_TAGS = [
-  '#PiedATerreTax',
-  '#Dow50000',
-  '#1789CapitalProbe',
-  '#ResortsWorldMTA',
-  '#HochulAIToyBan',
-  '#RadioCityRockettes',
-  '#KnicksNBACup',
-  '#DeepMindNeuralGCM',
-  '#EO14438'
+  '#NYCStateOfEmergency',
+  '#MacysParadeSaturday',
+  '#ABCFCCInjunction',
+  '#DOJEthicsProbe',
+  '#PCE38Inflation',
+  '#NvidiaCapEx',
+  '#Knicks121Cavs102',
+  '#NASADragonfly',
+  '#FirstAmendment'
 ];
 
 export const LEAD_ARTICLE: Article = {
@@ -1587,6 +1587,40 @@ As the Federal Energy Regulatory Commission (FERC) convenes national stakeholder
 export const CATEGORY_ARTICLES: Record<string, Article[]> = {
   'Investigation': [
     {
+        "id": "watchdog-files-ethics-complaint-against-doj-officials-over-unredacted-voter-roll-lawsuits",
+        "title": "Legal Watchdog Files Ethics Complaint Against Senior DOJ Officials Over Failed Unredacted Voter-Roll Suits",
+        "kicker": "INVESTIGATIVE ACCOUNTABILITY \u2022 JUSTICE DEPARTMENT",
+        "summary": "A national legal watchdog coalition filed formal professional ethics complaints against senior Justice Department officials over a wave of defeated lawsuits demanding unredacted state voter files, coinciding with fierce congressional pushback over prosecutorial threats.",
+        "category": "Investigation",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Newyorkerherald Staff",
+            "role": "Investigative & Justice Oversight Bureau",
+            "avatar": "/images/authors/staff.webp"
+        },
+        "publishedAt": "Nov 26, 2026",
+        "readTime": "7 min read",
+        "imageUrl": "/images/news/watchdog-files-ethics-complaint-against-doj-officials-over-unredacted-voter-roll-lawsuits.webp",
+        "imageCaption": "The Robert F. Kennedy Department of Justice Building in Washington, where legal ethics watchdogs have challenged senior leadership over failed unredacted voter-data lawsuits.",
+        "tags": [
+            "Investigation",
+            "DOJ",
+            "Voting Rights",
+            "Ethics Complaint",
+            "Adam Schiff",
+            "Aaron Reitz"
+        ],
+        "bullets": [
+            "A coalition of legal ethics watchdogs filed bar complaints against senior DOJ officials following repeated court defeats over demands for unredacted state voter rolls.",
+            "The complaints allege federal litigators misstated statutory authority and ignored state privacy safeguards protecting sensitive Social Security and driver's license data.",
+            "The filings coincide with a sharp clash between Sen. Adam Schiff and Texas federal prosecutor Aaron Reitz over DOJ threats against congressional investigators."
+        ],
+        "body": "Escalating scrutiny over politicized litigation inside the U.S. Department of Justice reached a formal disciplinary threshold this week as a coalition of legal accountability watchdogs lodged sweeping **professional ethics complaints** against several senior Justice Department officials over an aggressive, repeatedly defeated campaign of federal lawsuits demanding **unredacted state voter registration rolls**.\n\nSubmitted to state attorney disciplinary boards and the Justice Department\u2019s internal Office of Professional Responsibility (OPR), the complaints document a pattern of federal court filings across multiple battleground states in which DOJ Civil Rights Division appointees sought full birthdates, partial Social Security numbers, and confidential driver\u2019s license identifiers for tens of millions of American voters\u2014demands federal judges swiftly dismissed as legally baseless.\n\n### Pattern of Defeated Voter-Data Demands\n\nAccording to investigative records compiled in the 44-page ethics dossier, senior DOJ officials initiated coordinated enforcement suits against state election secretaries throughout 2025 and 2026, claiming broad authority under the National Voter Registration Act (NVRA) and the Civil Rights Act of 1960 to inspect unredacted statewide databases.\n\nHowever, bipartisan federal district courts and state governors pushed back forcefully, noting that existing federal election statutes explicitly authorize public inspection of *redacted* list-maintenance logs while preserving strict state confidentiality protections over voters' personal financial and identity numbers. Earlier this week, Alaska\u2019s outgoing Lieutenant Governor Nancy Dahlstrom underscored that mounting pushback by abruptly terminating a 2025 memorandum that had granted DOJ personnel access to Alaska's voter rolls.\n\nWatchdog investigators argue in the ethics filing that Justice Department litigators repeatedly advanced strained statutory readings already rejected by appellate courts, wasting taxpayer resources while eroding confidence in sensitive voter data stewardship ahead of the 2028 cycle.\n\n\"When senior Justice Department officials deploy federal litigation machinery to coerce states into handing over unprotected private citizen files\u2014despite clear statutory barriers and repeated judicial rebukes\u2014it raises grave questions of professional misconduct,\" stated Marcus Gallagher, senior ethics counsel with the coalition. \"Bar authorities must examine whether political directives overrode basic obligations of candor toward the courts.\"\n\n### Oversight Clash Intensifies Between Schiff and Federal Prosecutors\n\nThe ethics filings landed squarely amid an intensifying standoff between senior Capitol Hill lawmakers and Justice Department prosecutors over whether Congress itself can be threatened for investigating administration conduct.\n\nOn Wednesday, **Democratic Senator Adam Schiff** publicly rebuked **U.S. Attorney Aaron Reitz** of the Eastern/Southern Texas federal prosecutorial apparatus after Reitz suggested publicly that incoming congressional oversight probes into Donald Trump and administration allies could run afoul of federal criminal law.\n\nSchiff condemned the Justice Department\u2019s apparent tolerance for prosecutors warning sitting senators and incoming House committee chairs over constitutional oversight duties, pledging comprehensive Senate and House inquiries once the 120th Congress convenes in January.\n\n\"No federal prosecutor\u2014whether in Texas or Washington\u2014gets to intimidate elected representatives out of investigating corruption, abuse of power, or improper political interference inside the Department of Justice,\" Senator Schiff declared. \"Using the badge of the DOJ to threaten members of Congress for executing their Article I oversight oath is an intolerable breach of democratic norms.\"\n\n### Justice Department Defends Enforcement Posture\n\nJustice Department spokespersons dismissed the ethics complaints as partisan lawfare engineered by aligned activist groups, maintaining that federal attorneys possess clear statutory discretion to audit state compliance with federal voter-list maintenance obligations and evaluate potential civil rights violations transparently.\n\nStill, with incoming House Judiciary leadership simultaneously escalating document demands across executive-linked ventures and federal contractors contesting White House disclosure restrictions, this week\u2019s ethics filings ensure that the Justice Department\u2019s internal litigation conduct will stand front and center when Congress opens oversight hearings in the new year."
+    },
+    {
         "id": "new-york-gaming-disclosures-expose-80m-disputed-resorts-world-payments-mta-fiscal-risk",
         "title": "New York Gaming Disclosures Expose Over $80 Million in Disputed Resorts World NYC Payments Threatening MTA Revenue",
         "kicker": "INVESTIGATIVE AUDIT \u2022 TRANSIT & GAMING",
@@ -2132,6 +2166,40 @@ In Albany, Governor Kathy Hochul convened an emergency public health cabinet mee
     }
   ],
   'US': [
+    {
+        "id": "hochul-declares-state-of-emergency-as-thanksgiving-coastal-storm-forces-bridge-bans-nyc",
+        "title": "Hochul Declares State of Emergency Across NYC and Suburbs as 65 MPH Thanksgiving Storm Triggers Coastal Flood Warnings",
+        "kicker": "EMERGENCY RESPONSE \u2022 NEW YORK",
+        "summary": "Governor Kathy Hochul declared a formal State of Emergency across New York City, Long Island, and Westchester County as a powerful Thanksgiving coastal storm packing 60 to 65 mph gusts forced bridge truck bans and widespread travel advisories.",
+        "category": "US",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Newyorkerherald Staff",
+            "role": "New York Metro & Emergency Affairs Bureau",
+            "avatar": "/images/authors/staff.webp"
+        },
+        "publishedAt": "Nov 26, 2026",
+        "readTime": "7 min read",
+        "imageUrl": "/images/news/hochul-declares-state-of-emergency-as-thanksgiving-coastal-storm-forces-bridge-bans-nyc.webp",
+        "imageCaption": "Storm clouds and high winds sweep across New York Harbor and East River bridges as Governor Kathy Hochul and Mayor Zohran Mamdani enact Thanksgiving coastal emergency protocols.",
+        "tags": [
+            "New York City",
+            "Kathy Hochul",
+            "Zohran Mamdani",
+            "State of Emergency",
+            "Thanksgiving Storm",
+            "NYCEM"
+        ],
+        "bullets": [
+            "Governor Kathy Hochul declared a State of Emergency covering New York City, Long Island, Westchester, and contiguous counties ahead of the Thanksgiving storm.",
+            "National Weather Service alerts warned of 60 to 65 mph wind gusts and coastal flooding across low-lying Queens, Brooklyn, and Long Island Shorelines.",
+            "Mayor Zohran Mamdani and NYC Emergency Management banned empty tractor-trailers from metropolitan bridges and urged residents to curtail holiday road travel."
+        ],
+        "body": "With ferocious coastal winds whipping across New York Harbor and heavy rain bands sweeping up the Atlantic seaboard on Thanksgiving morning, **Governor Kathy Hochul** placed **New York City, Long Island, Westchester County**, and contiguous downstate jurisdictions under an official **State of Emergency**, mobilizing state utility crews, swift-water rescue teams, and National Guard support units ahead of peak storm surge.\n\nThe rapid escalation in emergency posture followed urgent advisories from the National Weather Service (NWS), which upgraded warnings across the metropolitan corridor to a **High Wind Warning** and **Coastal Flood Warning**, projecting peak sustained winds and damaging gusts reaching **60 to 65 miles per hour** through Thursday afternoon.\n\n### Bridge Restrictions and Thanksgiving Travel Advisories\n\nWorking in close coordination with state transportation agencies, **Mayor Zohran Mamdani** and **New York City Emergency Management (NYCEM)** issued a sweeping citywide Thanksgiving Day travel advisory urging millions of residents and holiday visitors to delay non-essential highway trips until wind speeds subside overnight.\n\nEffective early Thursday morning, the Port Authority of New York and New Jersey and the Metropolitan Transportation Authority (MTA) imposed mandatory bans on empty tractor-trailers, tandem trucks, and high-profile recreational vehicles crossing major suspension spans\u2014including the Verrazzano-Narrows, George Washington, Robert F. Kennedy, and Throgs Neck bridges\u2014citing extreme crosswind hazards capable of overturning unloaded commercial rigs.\n\n\"Thanksgiving is meant for gathering safely with family and neighbors, and our paramount obligation today is protecting human life as hurricane-force gusts slam our bridges and coastal neighborhoods,\" Governor Hochul declared during an emergency operations briefing. \"We have staged utility bucket trucks, high-water pump assets, and debris-clearance crews across downstate hubs before the worst squalls arrive. Please heed local alerts, stay off flooded roadways, and check on vulnerable elderly neighbors.\"\n\n### Coastal Brooklyn and Queens Brace for Tidal Surge\n\nInside low-lying waterfront communities across Broad Channel, the Rockaways, Howard Beach, and coastal Brooklyn neighborhoods such as Red Hook and Coney Island, municipal crews deployed temporary flood barriers and mobile dewatering pumps ahead of Thursday\u2019s high-tide cycle.\n\nNYCEM Commissioner leadership warned residents in basement apartments and shoreline flood zones to keep emergency go-bags packed, charge backup battery banks, and monitor automated Notify NYC alerts for rapid street-closure notices or localized Con Edison feeder outages caused by downed tree limbs.\n\nMeanwhile, the fierce wind forecast triggered historic scheduling ripples across Midtown Manhattan, prompting city officials, the NYPD, and organizers to postpone the centenary 100th Macy's Thanksgiving Day Parade to Saturday, November 28\u2014preventing giant helium balloons from entering narrow Midtown canyon corridors under 60 mph gusts.\n\n### Transit Agencies Deploy Storm Protocols\n\nMetropolitan Transportation Authority crews stationed tree-clearing teams along exposed Metro-North and Long Island Rail Road right-of-ways while monitoring Third Rail icing and coastal track inundation along the Rockaway A-train peninsula viaduct. Aviation hubs at JFK, LaGuardia, and Newark Liberty International Airports reported mounting departure delays and ground holds as crosswinds forced runway reconfigurations during one of the busiest air-travel weekends of the year.\n\nCity and state officials scheduled follow-up storm assessments for Thursday evening, cautioning commuters that downed power lines and standing tidal water could linger into Friday morning\u2019s retail rush."
+    },
     {
         "id": "brooklyn-appeals-court-clears-500m-pied-a-terre-luxury-tax-backed-by-hochul-and-mamdani",
         "title": "Brooklyn Appeals Court Clears Path for $500 Million Pied-\u00e0-Terre Luxury Real Estate Tax Backed by Hochul and Mamdani",
@@ -2700,6 +2768,40 @@ As the clocks reset, congressional leaders confirmed that bipartisan committee s
     }
   ],
   'Politics': [
+    {
+        "id": "federal-judge-alikhan-blocks-trump-administration-fcc-retaliation-against-abc-licenses",
+        "title": "Federal Judge Blocks Trump Administration and FCC From Retaliatory Action Against ABC Broadcast Licenses",
+        "kicker": "FIRST AMENDMENT \u2022 FEDERAL COURTS",
+        "summary": "U.S. District Judge Loren AliKhan issued a sweeping preliminary injunction blocking the Trump administration and the Federal Communications Commission from pursuing retaliatory reviews against ABC broadcast licenses over news coverage and late-night comedy.",
+        "category": "Politics",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Newyorkerherald Staff",
+            "role": "Federal Judiciary & Media Policy Bureau",
+            "avatar": "/images/authors/staff.webp"
+        },
+        "publishedAt": "Nov 26, 2026",
+        "readTime": "7 min read",
+        "imageUrl": "/images/news/federal-judge-alikhan-blocks-trump-administration-fcc-retaliation-against-abc-licenses.webp",
+        "imageCaption": "The E. Barrett Prettyman U.S. Courthouse in Washington, where Judge Loren AliKhan enjoined the FCC from pursuing retaliatory license reviews against ABC television affiliates.",
+        "tags": [
+            "FCC",
+            "ABC",
+            "First Amendment",
+            "Loren AliKhan",
+            "Donald Trump",
+            "Broadcast Media"
+        ],
+        "bullets": [
+            "U.S. District Judge Loren AliKhan granted a preliminary injunction halting FCC early-review proceedings targeting ABC's broadcast licenses.",
+            "The court concluded that threats to revoke local affiliate licenses over late-night host commentary and news coverage constitute unconstitutional viewpoint retaliation.",
+            "The ruling marks a major judicial check on executive efforts to leverage federal telecommunications licensing power against critical television networks."
+        ],
+        "body": "Handing a stinging First Amendment rebuke to federal regulators on the eve of the Thanksgiving holiday, **U.S. District Judge Loren AliKhan** issued a sweeping preliminary injunction blocking the Trump administration and the **Federal Communications Commission (FCC)** from initiating early license reviews or punitive enforcement proceedings against **ABC\u2019s broadcast television licenses**.\n\nIn a sharply worded federal opinion unsealed Wednesday in Washington, Judge AliKhan concluded that the FCC\u2019s unprecedented regulatory maneuvers\u2014triggered following public presidential attacks targeting ABC news reporting and sharp satirical monologues by late-night network hosts\u2014amounted to unlawful **government viewpoint retaliation** barred squarely by the First Amendment of the U.S. Constitution.\n\n### Rejecting Regulatory Weaponization of Public Airwaves\n\nUnder the Communications Act of 1934, local broadcast stations operating on public electromagnetic spectrum hold eight-year licenses periodically reviewed by the FCC under a \"public interest, convenience, and necessity\" standard. Over recent months, FCC leadership aligned with the White House signaled an intent to open accelerated revocation inquiries against ABC-owned affiliates, citing complaints over perceived political bias in evening news broadcasts and late-night comedy segments.\n\nNetwork attorneys and First Amendment advocacy coalitions swiftly sued in federal district court, arguing that the FCC had inverted narrow technical spectrum rules into an ideological censorship weapon designed to coerce editorial compliance across major broadcast newsrooms.\n\nJudge AliKhan agreed decisively, ruling that ABC and its affiliate stations demonstrated a high likelihood of succeeding on their constitutional claims and faced irreparable harm from regulatory intimidation.\n\n\"The First Amendment does not permit federal telecommunications officials to brandish the existential threat of broadcast license revocation to punish editorial criticism, unflattering news coverage, or late-night political satire,\" Judge AliKhan wrote. \"Using administrative licensing authority as a cudgel against disfavored speech strikes at the heart of democratic self-governance.\"\n\n### Broader Showdown Over Executive Power and Media Oversight\n\nThe preliminary injunction represents the latest high-profile judicial setback for administration efforts to pressure international and domestic media organizations. Just days earlier, the **BBC** lodged an urgent appellate motion before the **11th U.S. Circuit Court of Appeals** seeking dismissal of President Trump\u2019s $10 billion defamation suit concerning a *Panorama* documentary broadcast, arguing that political speech and international public-affairs reporting enjoy robust constitutional protections.\n\nMeanwhile, press freedom organizations welcomed Wednesday\u2019s Washington court order as an essential boundary line separating legitimate spectrum engineering oversight from partisan content policing.\n\n\"If any White House can instruct FCC commissioners to yank local television licenses whenever a late-night comedian lands an uncomfortable joke or a correspondent asks pointed questions, broadcast journalism in the United States effectively ends,\" said Elena Morales, senior litigation director at the Reporters Committee for Free Expression. \"Judge AliKhan\u2019s injunction reaffirms that regulatory agencies cannot be converted into speech ministries.\"\n\n### FCC Signals Appellate Review\n\nSpokespersons for the FCC and the Justice Department indicated Wednesday afternoon that government lawyers are reviewing the injunction and expect to seek emergency appellate review before the D.C. Circuit.\n\nFor major television networks headquartered in New York City\u2014where ABC, CBS, and NBC operate flagship broadcast studios\u2014the ruling delivers vital legal breathing room heading into the 2027 congressional oversight cycle, even as wider legal disputes over executive authority, defamation litigation, and administrative agency independence remain poised to climb toward the U.S. Supreme Court."
+    },
     {
         "id": "house-democrats-expand-probe-into-donald-trump-jr-1789-capital-venture-fund",
         "title": "House Judiciary Democrats Broaden Investigation Into Donald Trump Jr.\u2019s 1789 Capital Venture Fund, Subpoenaing Four Firms",
@@ -3412,6 +3514,40 @@ In Washington, national security officials convened in the White House Situation
 
   'Business & Economy': [
     {
+        "id": "october-pce-inflation-climbs-to-3-8-percent-roiling-fed-december-rate-outlook",
+        "title": "October PCE Inflation Accelerates to 3.8%, Complicating Federal Reserve\u2019s December Policy Outlook Ahead of Holiday Break",
+        "kicker": "MACROECONOMICS \u2022 FEDERAL RESERVE",
+        "summary": "The Bureau of Economic Analysis reported that headline PCE inflation rose to 3.8% year-over-year while core PCE hit 3.3%, topping Wall Street forecasts and cementing hawkish interest-rate anxiety ahead of the Federal Reserve\u2019s December 8\u20139 FOMC meeting.",
+        "category": "Business",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Newyorkerherald Staff",
+            "role": "Wall Street & Macroeconomic Policy Bureau",
+            "avatar": "/images/authors/staff.webp"
+        },
+        "publishedAt": "Nov 26, 2026",
+        "readTime": "7 min read",
+        "imageUrl": "/images/news/october-pce-inflation-climbs-to-3-8-percent-roiling-fed-december-rate-outlook.webp",
+        "imageCaption": "Wall Street trading desks and Treasury yield screens ahead of the Thanksgiving break following Wednesday's hotter-than-expected 3.8% October PCE inflation report.",
+        "tags": [
+            "PCE Inflation",
+            "Federal Reserve",
+            "FOMC",
+            "Interest Rates",
+            "Tariffs",
+            "Wall Street"
+        ],
+        "bullets": [
+            "October headline PCE inflation climbed to 3.8% year-over-year, while core PCE\u2014the Federal Reserve's preferred gauge\u2014accelerated to 3.3%, beating 3.2% forecasts.",
+            "Fresh trade reports detailing proposed excess-capacity tariffs on global partners compounded bond-market fears of entrenched 2027 supply-chain price pressures.",
+            "U.S. equity and bond exchanges remain closed Thursday for Thanksgiving before resuming for a shortened half-day trading session on Friday, November 27."
+        ],
+        "body": "Heading into the quiet of Thursday\u2019s Thanksgiving market closure, Wall Street economists and bond traders were forced to digest an unwelcome dose of inflationary reality after the **U.S. Bureau of Economic Analysis** reported Wednesday that the **October Personal Consumption Expenditures (PCE) price index** accelerated notably above central bank comfort zones.\n\nHeadline PCE inflation climbed to **3.8 percent year-over-year**, while the closely watched **core PCE index**\u2014which strips out volatile food and energy costs and serves as the Federal Reserve\u2019s primary policy benchmark\u2014rose to **3.3 percent**, eclipsing the 3.2 percent consensus estimate across major Wall Street forecasting desks.\n\n### Sticky Services Prices & Tariffs Box In the Fed\n\nThe hotter-than-expected inflation reading arrives at an exceptionally delicate moment for monetary policymakers, arriving less than two weeks before the **Federal Open Market Committee (FOMC)** convenes on **December 8\u20139** in Washington.\n\nDetailed sub-index breakdowns revealed stubbornly persistent price acceleration across housing services, healthcare premiums, auto insurance, and utility electricity tariffs\u2014categories increasingly strained by surging industrial grid loads and tight regional labor markets.\n\nCompounding fixed-income anxiety, financial market sentiment absorbed fresh Washington policy reporting Wednesday indicating that the Trump administration is actively weighing sweeping new **excess-capacity tariffs** aimed at major global trading partners, including sharp duties targeting imported manufactured components from China. Bond strategists warned that layering broad new import levies atop already elevated core services inflation threatens to keep consumer prices well above the Fed\u2019s 2 percent mandate deep into 2027.\n\n\"The October PCE report confirms that the disinflationary tailwinds Wall Street counted on earlier this year have decisively stalled,\" said Diane Swonk, chief economist at KPMG. \"With core inflation accelerating to 3.3 percent and tariff-driven goods inflation looming on the horizon, Federal Reserve officials have almost no room to ease financial conditions. The market is now squarely bracing for a hawkish December rate hike or prolonged restrictive tightening.\"\n\n### Shortened Friday Session Looms Over Retail and Credit Markets\n\nU.S. stock and Treasury exchanges remain closed Thursday in observance of Thanksgiving, with equity trading scheduled to resume Friday, November 27, for an abbreviated holiday half-day session closing at 1:00 p.m. Eastern Time.\n\nDespite thin holiday liquidity, institutional credit desks flagged widening spreads across corporate high-yield bonds and leveraged commercial real estate debt portfolios, reflecting concerns that prolonged elevated borrowing rates could squeeze capital-intensive industries over the first quarter of 2027.\n\nMeanwhile, major U.S. retail chains enter Friday\u2019s Black Friday kickoff facing bifurcated consumer behavior: upper-income households buoyed by Dow 50,000 equity wealth continue spending briskly on travel and services, while lower- and middle-income shoppers grow increasingly selective under cumulative grocery, energy, and financing costs."
+    },
+    {
         "id": "dow-surpasses-50000-milestone-while-nasdaq-slips-on-ai-volatility-and-fed-inflation-debate",
         "title": "Dow Surpasses Historic 50,000 Milestone While Nasdaq Retreats on Global AI Volatility and Fed Inflation Debate",
         "kicker": "WALL STREET & ECONOMY \u2022 MARKET ROTATION",
@@ -4020,6 +4156,40 @@ Sports finance experts note that the move mirrors a broader institutional trend 
   ],
 
   'Tech': [
+    {
+        "id": "nvidia-slump-and-anthropic-ipo-dip-deepen-ai-capex-reckoning-on-wall-street",
+        "title": "Nvidia Tumbles and Anthropic Slips Below IPO Price as Wall Street Deepens Scrutiny of Debt-Fueled AI Spending",
+        "kicker": "TECH & SILICON \u2022 AI VALUATIONS",
+        "summary": "Nvidia dropped sharply alongside rival chipmakers AMD, Micron, and Intel while Anthropic shares slid below their landmark IPO price, underscoring investor anxiety over hyperscale AI capital spending, corporate debt loads, and shifting open-weight model policy.",
+        "category": "Tech",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Newyorkerherald Staff",
+            "role": "Silicon Valley & Enterprise AI Bureau",
+            "avatar": "/images/authors/staff.webp"
+        },
+        "publishedAt": "Nov 26, 2026",
+        "readTime": "7 min read",
+        "imageUrl": "/images/news/nvidia-slump-and-anthropic-ipo-dip-deepen-ai-capex-reckoning-on-wall-street.webp",
+        "imageCaption": "Anthropic and Nvidia trading dashboards reflect intensifying Wall Street scrutiny over multibillion-dollar data center capital expenditure and hardware debt financing.",
+        "tags": [
+            "Nvidia",
+            "Anthropic",
+            "AI Bubble",
+            "Semiconductors",
+            "Open-Weight AI",
+            "CapEx"
+        ],
+        "bullets": [
+            "Nvidia shares dropped roughly 4% to 8% across midweek trading, dragging the VanEck Semiconductor ETF down 3% alongside losses at AMD, Micron, and Intel.",
+            "Shares of newly public frontier AI laboratory Anthropic slipped below their landmark IPO price amid tightening institutional appetite for unprofitable cash burn.",
+            "Corporate credit analysts and policy observers flagged mounting scrutiny of hyperscaler bond issuances alongside White House backing for open-weight AI startups."
+        ],
+        "body": "Only days after a dramatic boardroom intervention briefly ignited a 31 percent relief surge in **Nvidia** shares, harsh financial gravity reasserted itself across the artificial intelligence sector this week, sending bellwether semiconductor equities tumbling and pushing frontier model developer **Anthropic** below its closely watched public offering price.\n\nAcross midweek pre-holiday trading sessions, **Nvidia** surrendered between 4 and 8 percent, dragging the **VanEck Semiconductor ETF (SMH)** down 3 percent while triggering broad retreats across **Advanced Micro Devices (AMD), Micron Technology**, and **Intel**. Simultaneously, **Anthropic**\u2014which debuted on the New York Stock Exchange earlier this season at a historic $1.5 trillion valuation milestone\u2014slipped beneath its IPO reference mark as institutional asset managers questioned how swiftly frontier subscription revenue can justify astronomical compute outlays.\n\n### Credit Markets Question the Hyperscale CapEx Boom\n\nWhat began earlier this autumn as routine valuation rotation has hardened into a fundamental interrogation of the artificial intelligence sector's balance sheets. Fixed-income analysts in New York noted growing caution among corporate bond buyers toward massive hyperscale debt issuances raised to finance regional power substations, liquid-cooled server campuses, and multi-gigawatt GPU clusters.\n\n\"For two years, public and private markets rewarded tech executives purely for announcing larger data center capital budgets,\" noted Bernstein senior semiconductor analyst Stacy Rasgon. \"Heading into December, bondholders and equity desks are demanding hard evidence of enterprise software monetization\u2014especially with 3.8 percent PCE inflation keeping debt financing costs stubbornly expensive.\"\n\nConcerns extend beyond silicon manufacturers to electric utilities, fiber contractors, and cloud landlords that committed billions in debt capital expecting uninterrupted hyperscale leasing absorption through 2028.\n\n### Open-Weight Politics Intersect With Nvidia\u2019s Washington Moment\n\nAdding political volatility to market uncertainty, industry insiders pointed to sharpening White House and Capitol Hill policy clashes over **open-weight artificial intelligence models** versus proprietary closed-weight labs such as OpenAI and Anthropic.\n\nTechnology policy analysts noted that administration officials have increasingly championed open-weight model distribution\u2014allowing domestic startups and university labs to customize and deploy advanced model weights on local hardware\u2014framing open ecosystems as essential to preventing monopoly concentration while maintaining U.S. hardware demand. That strategic debate has become tightly intertwined with political scrutiny surrounding Nvidia\u2019s export compliance ahead of CEO Jensen Huang\u2019s scheduled congressional testimony on **December 3**.\n\nWith U.S. equity exchanges pausing for Thanksgiving before Friday's half-day session, technology fund managers warn that volatility across high-multiple AI stocks is likely to persist until December\u2019s earnings updates and Capitol Hill hearings offer clearer answers on both export regulation and enterprise AI return on investment."
+    },
     {
         "id": "governor-hochul-signs-five-year-ban-on-ai-chatbot-toys-citing-youth-safety-and-privacy",
         "title": "Governor Kathy Hochul Signs Five-Year Ban on AI Chatbot Toys Across New York Citing Youth Data Privacy Risks",
@@ -4665,6 +4835,40 @@ Aerospace financial analysts estimate that SpaceX's commercial launch and satell
 
   'Entertainment': [
     {
+        "id": "macys-100th-thanksgiving-parade-postponed-to-saturday-as-nbc-airs-2025-encore",
+        "title": "100th Macy\u2019s Thanksgiving Day Parade Postponed to Saturday Due to High Winds as NBC Pivots to 2025 Encore Broadcast",
+        "kicker": "MIDTOWN CULTURE \u2022 HISTORIC SCHEDULE SHIFT",
+        "summary": "For the first time in the modern broadcast era, organizers and New York City officials postponed the 100th Macy\u2019s Thanksgiving Day Parade to Saturday, November 28, citing 60\u201365 mph wind gusts as NBC aired a 2025 encore special Thursday morning.",
+        "category": "Entertainment",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Newyorkerherald Staff",
+            "role": "Arts, Television & Midtown Culture Bureau",
+            "avatar": "/images/authors/staff.webp"
+        },
+        "publishedAt": "Nov 26, 2026",
+        "readTime": "6 min read",
+        "imageUrl": "/images/news/macys-100th-thanksgiving-parade-postponed-to-saturday-as-nbc-airs-2025-encore.webp",
+        "imageCaption": "Herald Square outside Macy's flagship department store in Midtown Manhattan, where safety officials rescheduled the 100th anniversary Thanksgiving parade to Saturday, November 28.",
+        "tags": [
+            "Macy's Parade",
+            "Thanksgiving",
+            "NBC",
+            "New York City",
+            "Broadway",
+            "Entertainment"
+        ],
+        "bullets": [
+            "Macy's, Mayor Zohran Mamdani, and the NYPD postponed the 100th anniversary Thanksgiving Day Parade from Thursday to Saturday, November 28, 2026.",
+            "Forecasters warned 60\u201365 mph storm gusts posed severe aerodynamic hazards for giant character balloons along Midtown avenue wind tunnels.",
+            "NBC pivoted its Thursday morning holiday programming to an encore broadcast of the 2025 parade while coordinating Saturday live production with Broadway casts."
+        ],
+        "body": "In an extraordinary decision without modern precedent in New York City\u2019s cultural calendar, organizers of the **100th Annual Macy\u2019s Thanksgiving Day Parade**\u2014acting in lockstep with **Mayor Zohran Mamdani**, the **NYPD**, and city emergency engineers\u2014formally postponed the centenary march from Thanksgiving Thursday morning to **Saturday, November 28, 2026**, after severe coastal storm forecasts threatened Midtown streets with 60 to 65 mph wind gusts.\n\nFor millions of families waking up across Manhattan\u2019s Upper West Side and living rooms nationwide expecting the familiar floats, marching bands, and towering helium icons drifting down Central Park West toward Herald Square, the sudden schedule shift underscored the historic severity of Thursday\u2019s atmospheric system.\n\n### Why 65 MPH Gusts Grounded the Giant Balloons\n\nUnder strict New York City Police Department safety regulations adopted following past high-wind incidents, massive multi-story character balloons cannot fly when sustained winds exceed 23 mph or gusts surpass 34 mph. With Thursday\u2019s coastal storm forecast to unleash gusts nearly double that safety ceiling\u2014amplified further by Venturi wind-tunnel effects between Midtown glass towers along Sixth Avenue\u2014officials concluded late Wednesday that neither balloon inflation nor steel float rigging could proceed safely.\n\n\"Postponing the 100th anniversary march was a heartbreaking call for every volunteer, marching band student, and Broadway performer who rehearsed for months,\" parade executive leadership stated. \"Yet public safety along the 2.5-mile Manhattan route leaves zero margin for compromise. Moving our centennial celebration by forty-eight hours ensures our giant balloons, marching ensembles, and spectators can celebrate safely under clearing Saturday skies.\"\n\n### NBC Broadcast Pivot and Broadway Mega-Medley Adjustments\n\nForced into an overnight programming overhaul, **NBC** aired a special **encore presentation of the 2025 Macy\u2019s Thanksgiving Day Parade** during its traditional 8:30 a.m. Thursday morning broadcast window while coordinating live satellite trucks, national announcers, and camera cranes along 34th Street for Saturday\u2019s rescheduled live centennial telecast.\n\nAcross the Theater District, Broadway production managers scrambled Wednesday evening to coordinate rehearsal call times and weekend curtain logistics for the parade\u2019s centerpiece **10-minute Broadway mega-medley**\u2014featuring principal casts from nine major musicals alongside scheduled appearances by Queen Latifah, Leslie Odom Jr., and Teddy Swims. Because Saturday matinees traditionally begin at 2:00 p.m., stage managers adjusted morning Herald Square performance slots so Broadway cast members can appear on live television before dashing back uptown for packed weekend matinee audiences.\n\nMeanwhile, Midtown hotels along Central Park South and Sixth Avenue reported strong Friday-night extension bookings as out-of-town parade families opted to extend Thanksgiving stays through Saturday\u2019s historic rescheduled centenary march."
+    },
+    {
         "id": "radio-city-christmas-spectacular-and-lincoln-center-seven-guitars-anchor-nyc-holiday-season",
         "title": "Radio City Rockettes Debut New Showcase as Lincoln Center\u2019s \u2018Seven Guitars\u2019 and Met Opera Lead Holiday Cultural Surge",
         "kicker": "NYC ARTS & CULTURE \u2022 HOLIDAY SEASON",
@@ -5247,6 +5451,40 @@ Furthermore, cloud streaming platforms and mobile distribution networks have low
   ],
 
   'Sports': [
+    {
+        "id": "knicks-erupt-for-39-point-fourth-quarter-to-rout-cavaliers-121-102-for-sixth-straight-win",
+        "title": "Knicks Explode for 39-Point Fourth Quarter to Rout Cavaliers 121\u2013102 in NBA Cup Clash as Sabres Down Rangers 5\u20131",
+        "kicker": "NEW YORK SPORTS \u2022 MSG & BUFFALO",
+        "summary": "Trailing entering the final frame at Madison Square Garden, the New York Knicks erupted for a 39\u201317 fourth quarter\u2014sparked by Jose Alvarado\u2019s 21-point bench surge\u2014to rout Cleveland 121\u2013102 for their sixth straight victory, while Buffalo rolled past the Rangers 5\u20131.",
+        "category": "Sports",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Newyorkerherald Staff",
+            "role": "New York Basketball & Hockey Bureau",
+            "avatar": "/images/authors/staff.webp"
+        },
+        "publishedAt": "Nov 26, 2026",
+        "readTime": "6 min read",
+        "imageUrl": "/images/news/knicks-erupt-for-39-point-fourth-quarter-to-rout-cavaliers-121-102-for-sixth-straight-win.webp",
+        "imageCaption": "New York Knicks players celebrate a decisive fourth-quarter breakaway during Wednesday night's 121\u2013102 Emirates NBA Cup triumph over Cleveland at Madison Square Garden.",
+        "tags": [
+            "New York Knicks",
+            "Jose Alvarado",
+            "Cleveland Cavaliers",
+            "NBA Cup",
+            "New York Rangers",
+            "Buffalo Sabres"
+        ],
+        "bullets": [
+            "New York outscored Cleveland 39\u201317 in the fourth quarter Wednesday night at Madison Square Garden to capture a 121\u2013102 Emirates NBA Cup victory.",
+            "Backup guard Jose Alvarado ignited the decisive run with 21 explosive points off the bench as the Knicks extended their winning streak to six consecutive games.",
+            "Upstate at KeyBank Center, Buffalo Sabres defenseman Rasmus Dahlin scored just 17 seconds into the contest as Buffalo routed the New York Rangers 5\u20131."
+        ],
+        "body": "Turning a taut, physical defensive struggle into a runaway Thanksgiving Eve celebration at Madison Square Garden, the **New York Knicks** unleashed a blistering **39\u201317 fourth-quarter avalanche** Wednesday night to overwhelm the **Cleveland Cavaliers 121\u2013102** in high-stakes **Emirates NBA Cup** group play, extending New York\u2019s surging winning streak to six straight games.\n\nStill trailing as the third-quarter horn sounded before a roaring Midtown crowd, head coach Tom Thibodeau turned to a relentless, ball-hawking five-man unit sparked by reserve guard **Jose Alvarado**, whose infectious full-court defensive pressure and shot-making transformed the final twelve minutes into an unforgettable MSG showcase.\n\n### Alvarado Ignites the Garden in Decisive Fourth-Quarter Surge\n\nThe Brooklyn-born Alvarado erupted for **21 points off the bench**, harassing Cleveland ball-handlers ninety feet from the basket, jumping passing lanes for transition layups, and burying dagger three-pointers that forced Cavaliers coach Kenny Atkinson to burn multiple timeouts as New York\u2019s lead ballooned past fifteen points.\n\nWith point differential serving as a pivotal tiebreaker in NBA Cup standings, the Knicks refused to lift their foot off the accelerator down the stretch. Captain **Jalen Brunson** orchestrated late-clock pick-and-rolls with surgical efficiency while **Karl-Anthony Towns** anchored the paint and stretched Cleveland\u2019s twin-tower defense beyond the arc, lifting New York to **12\u20136** on the season and establishing commanding momentum entering December.\n\n\"Jose changed the entire temperature of the building tonight,\" Brunson praised in postgame remarks. \"When you\u2019ve got a guy picking up full court and making plays like that on both ends, everybody feeds off his energy. We stayed composed when shots weren\u2019t falling early, locked in defensively in the fourth, and closed it out the right way.\"\n\n### Sabres Stun Rangers 17 Seconds Into KeyBank Center Rout\n\nLess pleasant holiday tidings awaited New York hockey fans upstate in Buffalo, where the **Buffalo Sabres** overwhelmed the **New York Rangers 5\u20131** at KeyBank Center in a lopsided Thanksgiving Eve division matchup.\n\nBuffalo seized instant control before fans had settled into their seats when captain **Rasmus Dahlin** wired home the opening goal just **17 seconds into the first period**, setting the tone for an unrelenting Sabres attack backed by sharp goaltending that suffocated New York\u2019s power-play units.\n\nElsewhere across the holiday sports landscape, the NFL\u2019s expanded Thanksgiving Week slate kicked off early Wednesday evening with the **Los Angeles Rams defeating the Green Bay Packers 26\u201313** behind the return of defensive star Micah Parsons, setting up Thursday\u2019s traditional Detroit, Dallas, and primetime matchups."
+    },
     {
         "id": "knicks-host-cavaliers-in-pivotal-msg-nba-cup-clash-as-rangers-target-buffalo-rebound",
         "title": "Knicks Brace for Pivotal NBA Cup Showdown With Cavaliers at MSG as Rangers Target Thanksgiving Eve Rebound in Buffalo",
@@ -5849,6 +6087,41 @@ On the stadium infrastructure front, club executives evaluated demonstrations of
   ],
 
   'Science': [
+    {
+        "id": "nasa-equips-titan-bound-dragonfly-rotorcraft-cameras-as-esa-euclid-spots-first-comet",
+        "title": "NASA Completes Dragonfly Titan Camera Integration as ESA\u2019s Euclid Telescope Discovers First Comet and Record Quasar",
+        "kicker": "SPACE & PLANETARY SCIENCE \u2022 NASA & ESA",
+        "summary": "NASA engineers completed installation and testing of all seven science cameras aboard the nuclear-powered Dragonfly rotorcraft bound for Saturn\u2019s moon Titan, coinciding with breakthrough comet and early-universe quasar discoveries by Europe\u2019s Euclid telescope.",
+        "category": "Science",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Newyorkerherald Staff",
+            "role": "Spaceflight, Physics & Astronomy Bureau",
+            "avatar": "/images/authors/staff.webp"
+        },
+        "publishedAt": "Nov 26, 2026",
+        "readTime": "7 min read",
+        "imageUrl": "/images/news/nasa-equips-titan-bound-dragonfly-rotorcraft-cameras-as-esa-euclid-spots-first-comet.webp",
+        "imageCaption": "Engineers complete integration of the seven-camera science imaging suite on NASA's nuclear-powered Dragonfly rotorcraft ahead of its upcoming mission to Saturn's haze-shrouded moon Titan.",
+        "tags": [
+            "NASA",
+            "Dragonfly",
+            "Titan",
+            "ESA Euclid",
+            "Astronomy",
+            "Mars",
+            "Space Exploration"
+        ],
+        "bullets": [
+            "NASA announced that all seven science cameras for the Titan-bound Dragonfly rotorcraft have been integrated and tested at Johns Hopkins Applied Physics Laboratory.",
+            "The European Space Agency's Euclid space telescope discovered its first comet alongside a cosmic-distance record quasar formed roughly 650 million years after the Big Bang.",
+            "Separately, planetary geophysicists traced a high-quality InSight marsquake to Mars's Valles Marineris canyon, pointing to an unexpectedly active fault zone."
+        ],
+        "body": "In a landmark week for planetary engineering and deep-space astronomy, **NASA** confirmed that engineers at the Johns Hopkins Applied Physics Laboratory (APL) have successfully installed, calibrated, and tested **all seven science cameras** aboard the **Dragonfly rotorcraft**\u2014clearing a vital hardware integration milestone for humanity\u2019s first nuclear-powered flying laboratory bound for **Saturn\u2019s giant moon Titan**.\n\nScheduled to soar through Titan\u2019s dense, nitrogen-rich atmosphere and examine prebiotic organic chemistry across towering hydrocarbon sand dunes and frozen impact craters, Dragonfly\u2019s multi-camera optical suite serves both as autonomous hazard-avoidance eyes during flights and as microscopic geological imagers capable of resolving sand grains on the surface of an alien ocean world.\n\n### Eyes Ready for an Alien Methane World\n\nEquipped with specialized panoramic, downward-facing, and microscopic lenses designed to function in cryogenic temperatures near minus 290 degrees Fahrenheit, the Dragonfly camera suite underwent rigorous thermal-vacuum and optical alignment testing inside APL\u2019s cleanrooms in Laurel, Maryland.\n\n\"Integrating all seven flight-qualified science cameras marks a defining step from blueprint to flight-ready spacecraft,\" Dragonfly engineering leads reported this week. \"Titan hosts the only other dense atmosphere and liquid surface cycle in our solar system besides Earth. These optics will allow planetary scientists to map organic chemistry across dozens of landing sites in unprecedented detail.\"\n\nMeanwhile, complementary **NASA InSight** seismic research published this week reshaped scientific views of Martian geology: researchers traced one of the mission\u2019s strongest recorded tremors\u2014marsquake **S0976a**\u2014directly to the colossal **Valles Marineris** canyon system, revealing evidence of an active tectonic fault zone on a planet long assumed geologically dormant.\n\n### ESA\u2019s Euclid Logs First Comet and Record Cosmic Quasar\n\nAcross the Atlantic, scientists operating the **European Space Agency\u2019s (ESA) Euclid space telescope** celebrated an extraordinary double-discovery milestone demonstrating the observatory's wide-field sensitivity beyond its core mission of mapping dark matter and dark energy.\n\nFirst, astronomers announced Tuesday that Euclid set a **new cosmic distance record** by detecting **D\u00fan Aonghasa**, an ancient luminous quasar powered by a colossal black hole observed when the universe was roughly **630 to 662 million years old**\u2014shining unprecedented light on how supermassive black holes assembled astonishingly fast right after Cosmic Dawn.\n\nHours later, ESA researchers revealed that while combing through deep-sky survey frames captured earlier this autumn, Euclid unexpectedly spotted its **very first previously unknown comet**\u2014an icy deep-space wanderer traveling on an extreme orbital trajectory spanning thousands of years across the outer solar system."
+    },
     {
         "id": "deepmind-neuralgcm-and-nasa-ai-earth-models-sharpen-coastal-storm-forecasting-ahead-of-thanksgiving",
         "title": "DeepMind NeuralGCM and NASA AI Atmospheric Models Sharpen Coastal Storm Forecasting Ahead of Holiday Travel",
@@ -6467,6 +6740,40 @@ Domestic automotive manufacturers have committed multi-billion-dollar off-take a
   ],
 
   'Opinion': [
+    {
+        "id": "first-amendment-shield-holds-why-judge-alikhan-injunction-protects-every-newsroom",
+        "title": "The First Amendment Shield Holds: Why Judge AliKhan\u2019s Injunction Against FCC License Threats Protects Every Newsroom",
+        "kicker": "EDITORIAL BOARD \u2022 PRESS FREEDOM",
+        "summary": "U.S. District Judge Loren AliKhan\u2019s preliminary injunction halting FCC retaliatory reviews against ABC broadcast licenses reaffirms a vital constitutional wall between spectrum regulation and political censorship.",
+        "category": "Opinion",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Newyorkerherald Editorial Board",
+            "role": "Opinion & Constitutional Commentary Bureau",
+            "avatar": "/images/authors/staff.webp"
+        },
+        "publishedAt": "Nov 26, 2026",
+        "readTime": "6 min read",
+        "imageUrl": "/images/news/first-amendment-shield-holds-why-judge-alikhan-injunction-protects-every-newsroom.webp",
+        "imageCaption": "Broadcast television antennas rise above Midtown Manhattan; federal courts this week reaffirmed that public airwaves cannot be policed for partisan viewpoint conformity.",
+        "tags": [
+            "Opinion",
+            "Editorial",
+            "First Amendment",
+            "FCC",
+            "ABC",
+            "Press Freedom"
+        ],
+        "bullets": [
+            "Judge Loren AliKhan's injunction stops federal regulators from converting routine broadcast licensing into an ideological loyalty test.",
+            "Public airwaves stewardship was meant to prevent signal interference and serve local communities\u2014not silence late-night comedy or critical journalism.",
+            "Independent broadcast, cable, and digital newsrooms depend on bright constitutional boundaries preventing administrative retaliation."
+        ],
+        "body": "In a media ecosystem routinely tested by political polarization, economic consolidation, and endless litigation, there remains one constitutional bright line that no American administration\u2014Republican or Democratic\u2014may cross: federal regulators cannot use government licensing power to punish journalists or satirists for criticizing those in office.\n\nThat foundational principle received an essential judicial defense on Wednesday when **U.S. District Judge Loren AliKhan** granted a preliminary injunction barring the Trump administration and the **Federal Communications Commission (FCC)** from pursuing punitive early reviews targeting **ABC\u2019s television broadcast licenses**.\n\n### Broadcast Licensing Is Not an Ideological Loyalty Test\n\nFor more than ninety years, the FCC\u2019s statutory mandate under the Communications Act has centered on preventing chaotic radio interference, promoting universal communications access, and ensuring local stations fulfill basic public-service obligations such as emergency weather alerts and community programming. What Congress conspicuously withheld from the commission\u2014under Section 326 of that very act and the overarching command of the First Amendment\u2014is any authority to act as the nation\u2019s censor-in-chief.\n\nYet over the past year, officials openly blurred that statutory boundary, signaling accelerated scrutiny against ABC\u2019s affiliate licenses specifically in response to presidential displeasure over evening news coverage and sharp-tongued late-night comedy monologues. Even when formal revocation remains distant, the mere specter of an adversarial federal license inquiry carries a devastating chilling effect inside corporate boardrooms, where parent conglomerates face multibillion-dollar regulatory approvals and merger reviews.\n\nJudge AliKhan properly saw through that pretext. By recognizing that regulatory coercion directed at critical speech constitutes immediate irreparable constitutional injury, the court refused to let technical administrative procedures mask textbook First Amendment retaliation.\n\n### Why New York\u2019s Newsrooms Depend on Clear Judicial Guardrails\n\nFrom flagship network newsrooms along Sixth Avenue and Hudson Square to independent digital publications and small regional radio stations across upstate New York, press independence cannot survive on polite self-censorship. Today\u2019s target may be a national broadcast network\u2019s late-night comedy desk or documentary editorial choices; tomorrow, an identical precedent handed to a future administration of another party could jeopardize conservative talk-radio affiliates or investigative local outlets.\n\nHealthy democracies encourage fierce public debate over media fairness, bias, and journalistic accountability. Viewers can change the channel, readers can cancel subscriptions, and public officials remain entirely free to criticize reporters loudly from any podium in Washington.\n\nWhat the Constitution forbids is backing those political complaints with the coercive machinery of the state. Judge AliKhan\u2019s ruling is a timely Thanksgiving reminder that America\u2019s independent judiciary remains vigilant\u2014and that the First Amendment shield still holds when power presses hardest against the press."
+    },
     {
         "id": "section-241-and-executive-order-14438-why-curbing-congressional-oversight-invites-constitutional-crisis",
         "title": "Section 241 and Executive Order 14438: Why Weaponizing Federal Law Against Oversight Invites a Constitutional Crisis",
@@ -7384,46 +7691,46 @@ export function getHomepageDepartmentArticles(dept: string): Article[] {
   const all = getAllArticles();
   const mapping: Record<string, string[]> = {
     us: [
+      'hochul-declares-state-of-emergency-as-thanksgiving-coastal-storm-forces-bridge-bans-nyc',
       'brooklyn-appeals-court-clears-500m-pied-a-terre-luxury-tax-backed-by-hochul-and-mamdani',
       'nyc-joins-national-lawsuit-challenging-federal-hud-mixed-status-immigrant-housing-rule',
-      'mayor-mamdani-unveils-comprehensive-146m-blueprint-to-close-rikers-island-by-2032',
-      'nyc-city-council-passes-landmark-commercial-rent-stabilization-bill-small-business-protections'
+      'mayor-mamdani-unveils-comprehensive-146m-blueprint-to-close-rikers-island-by-2032'
     ],
     politics: [
+      'federal-judge-alikhan-blocks-trump-administration-fcc-retaliation-against-abc-licenses',
       'house-democrats-expand-probe-into-donald-trump-jr-1789-capital-venture-fund',
       'federal-appeals-court-revives-trump-effort-to-transfer-manhattan-criminal-case-to-federal-court',
-      'governor-hochul-plans-veto-of-new-york-food-additives-ban-citing-grocery-inflation',
       'turhan-mildon-caracas-washington-venezuela-business-interests'
     ],
     business: [
+      'october-pce-inflation-climbs-to-3-8-percent-roiling-fed-december-rate-outlook',
       'dow-surpasses-50000-milestone-while-nasdaq-slips-on-ai-volatility-and-fed-inflation-debate',
       'wall-street-rebounds-in-dramatic-1450-point-surge-as-nvidia-leadership-and-treasury-yield-retreat-reignite-markets',
-      'wall-street-plunges-into-correction-as-nasdaq-sheds-1225-points-in-global-tech-selloff',
-      'wall-street-braces-as-sec-finalizes-stringent-liquidity-rules-for-1-7t-private-credit-funds'
+      'wall-street-plunges-into-correction-as-nasdaq-sheds-1225-points-in-global-tech-selloff'
     ],
     tech: [
+      'nvidia-slump-and-anthropic-ipo-dip-deepen-ai-capex-reckoning-on-wall-street',
       'governor-hochul-signs-five-year-ban-on-ai-chatbot-toys-citing-youth-safety-and-privacy',
       'amazon-acquires-decart-ai-optimization-stack-in-7-5b-deal-for-hyperscale-chip-efficiency',
-      'new-york-breaks-ground-on-500m-permanent-empire-ai-supercomputing-center-suny-buffalo',
-      'new-york-state-launches-empire-ai-supercomputing-cluster-at-suny-buffalo-open-to-public-researchers'
+      'new-york-breaks-ground-on-500m-permanent-empire-ai-supercomputing-center-suny-buffalo'
     ],
     entertainment: [
+      'macys-100th-thanksgiving-parade-postponed-to-saturday-as-nbc-airs-2025-encore',
       'radio-city-christmas-spectacular-and-lincoln-center-seven-guitars-anchor-nyc-holiday-season',
       'broadway-posts-record-38m-early-thanksgiving-box-office-as-star-studded-revivals-propel-midtown-surge',
-      'mayor-mamdani-signs-historic-law-ending-new-york-city-central-park-horse-carriage-industry',
-      'broadway-unveils-record-breaking-winter-season-lineup-with-subsidized-student-and-community-tickets'
+      'mayor-mamdani-signs-historic-law-ending-new-york-city-central-park-horse-carriage-industry'
     ],
     sports: [
+      'knicks-erupt-for-39-point-fourth-quarter-to-rout-cavaliers-121-102-for-sixth-straight-win',
       'knicks-host-cavaliers-in-pivotal-msg-nba-cup-clash-as-rangers-target-buffalo-rebound',
       'new-york-knicks-edge-indiana-pacers-106-103-at-msg-behind-clutch-brunson-towns-masterclass',
-      'new-york-giants-defeat-afc-leading-jaguars-23-18-behind-dominant-defense-metlife-statement',
-      'new-york-giants-announce-major-front-office-overhaul-and-rookie-qb-start-ahead-of-rivalry-clash'
+      'new-york-giants-defeat-afc-leading-jaguars-23-18-behind-dominant-defense-metlife-statement'
     ],
     science: [
+      'nasa-equips-titan-bound-dragonfly-rotorcraft-cameras-as-esa-euclid-spots-first-comet',
       'deepmind-neuralgcm-and-nasa-ai-earth-models-sharpen-coastal-storm-forecasting-ahead-of-thanksgiving',
       'landmark-phase-three-orion-four-trial-confirms-twice-yearly-sirna-therapy-slashes-cardiovascular-events',
-      'new-york-power-authority-names-10-qualified-developers-for-1gw-advanced-nuclear-initiative',
-      'columbia-and-mount-sinai-scientists-unveil-breakthrough-air-filtration-network-to-curb-urban-asthma'
+      'new-york-power-authority-names-10-qualified-developers-for-1gw-advanced-nuclear-initiative'
     ]
   };
 
