@@ -11,37 +11,37 @@ import {
 export const BREAKING_NEWS_ITEMS = [
   {
     id: 'brk-1',
-    kicker: 'EMERGENCY ALERT',
-    headline: 'Hochul Declares State of Emergency Across NYC and Suburbs as 65 MPH Thanksgiving Storm Hits Bridges',
-    time: '10m ago',
-    url: '/us/hochul-declares-state-of-emergency-as-thanksgiving-coastal-storm-forces-bridge-bans-nyc'
+    kicker: 'STORM IMPACT',
+    headline: 'Thanksgiving Nor’easter Cuts Power to 700,000+ Across Northeast as Coastal Flood Rescues Hit Tri-State',
+    time: '8m ago',
+    url: '/us/thanksgiving-storm-cuts-power-across-new-york-and-northeast-forcing-flood-rescues'
   },
   {
     id: 'brk-2',
-    kicker: 'PARADE SHIFT',
-    headline: '100th Macy’s Thanksgiving Day Parade Postponed to Saturday Due to High Winds as NBC Airs 2025 Encore',
-    time: '24m ago',
-    url: '/entertainment/macys-100th-thanksgiving-parade-postponed-to-saturday-as-nbc-airs-2025-encore'
+    kicker: 'WHITE HOUSE & TECH',
+    headline: 'Trump Defends Nvidia CEO Jensen Huang Reinstatement Amid Scrutiny Over DOJ Security Review Gaps',
+    time: '19m ago',
+    url: '/politics/trump-defends-nvidia-ceo-jensen-huang-amid-reports-of-doj-security-review-gaps'
   },
   {
     id: 'brk-3',
-    kicker: 'FIRST AMENDMENT',
-    headline: 'Federal Judge Enjoins Trump Administration and FCC From Retaliatory Reviews Against ABC Licenses',
-    time: '41m ago',
-    url: '/politics/federal-judge-alikhan-blocks-trump-administration-fcc-retaliation-against-abc-licenses'
+    kicker: 'BLACK FRIDAY TEST',
+    headline: 'Walmart and Meta’s Muse Put Agentic AI Shopping to Live Holiday Stress Test as Wall Street Opens Short Session',
+    time: '34m ago',
+    url: '/tech/black-friday-2026-emerges-as-live-stress-test-for-agentic-ai-shopping-and-site-ops'
   }
 ];
 
 export const TRENDING_TAGS = [
-  '#NYCStateOfEmergency',
-  '#MacysParadeSaturday',
-  '#ABCFCCInjunction',
-  '#DOJEthicsProbe',
-  '#PCE38Inflation',
-  '#NvidiaCapEx',
-  '#Knicks121Cavs102',
-  '#NASADragonfly',
-  '#FirstAmendment'
+  '#NortheastStorm',
+  '#JensenHuangDOJ',
+  '#OperationBlackout',
+  '#BlackFridayAI',
+  '#WalmartMuse',
+  '#SunriseOnTheReaping',
+  '#BillsChiefs1310',
+  '#ColumbiaNeuroscience',
+  '#HeraldSquare'
 ];
 
 export const LEAD_ARTICLE: Article = {
@@ -1587,6 +1587,40 @@ As the Federal Energy Regulatory Commission (FERC) convenes national stakeholder
 export const CATEGORY_ARTICLES: Record<string, Article[]> = {
   'Investigation': [
     {
+        "id": "doj-scam-center-strike-force-and-fbi-detail-billions-in-restrained-cyber-fraud-assets",
+        "title": "DOJ Scam Center Strike Force and FBI Detail Billions in Restrained Crypto and Seized Fraud Assets",
+        "kicker": "FEDERAL ENFORCEMENT \u2022 CYBER CRIME",
+        "summary": "Following Executive Order 14390, federal prosecutors in Washington and FBI Director Kash Patel unveiled sweep results detailing over $1.08 billion in restrained stolen crypto, Operation Blackout's global compound takedowns, and actions against 800 defendants.",
+        "category": "Investigation",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Newyorkerherald Staff",
+            "role": "Justice & Transnational Crime Desk",
+            "avatar": "/images/authors/staff.webp"
+        },
+        "publishedAt": "Nov 27, 2026",
+        "readTime": "8 min read",
+        "imageUrl": "/images/news/doj-scam-center-strike-force-and-fbi-detail-billions-in-restrained-cyber-fraud-assets.webp",
+        "imageCaption": "The U.S. Department of Justice and Federal Bureau of Investigation seal in Washington, where federal authorities detailed sweeping enforcement tallies against transnational cyber-fraud syndicates.",
+        "tags": [
+            "DOJ",
+            "FBI",
+            "Scam Center Strike Force",
+            "Operation Blackout",
+            "Cryptocurrency Fraud",
+            "Executive Order 14390"
+        ],
+        "bullets": [
+            "The multi-agency Scam Center Strike Force reported restraining more than $1.08 billion in stolen cryptocurrency linked to U.S. cyber-fraud victims.",
+            "FBI Director Kash Patel detailed Operation Blackout, dismantling 29 scam compounds across four continents, liberating 2,200+ human trafficking victims, and seizing nearly $17 billion in illicit financial flows and 14,000 devices.",
+            "Attorney General Todd Blanche confirmed federal actions spanning 800+ defendants across 400+ cases in 85 judicial districts since March 2026."
+        ],
+        "body": "In a sweeping accounting timed to International Fraud Awareness Week, the **U.S. Department of Justice (DOJ)** and the **Federal Bureau of Investigation (FBI)** disclosed extensive operational results from a government-wide enforcement offensive that has crippled industrial-scale cyber-scam syndicates stealing billions of dollars from American retirees, retail investors, and small businesses.\n\nLaunched at accelerated scale under **Executive Order 14390**, signed by President Trump on March 6, 2026, the coordinated offensive paired federal prosecutors, Treasury sanctions specialists, diplomatic envoys, and international police across more than 10 partner nations to sever transnational cryptocurrency investment\u2014\"pig butchering\"\u2014networks at their physical and financial roots.\n\n### Strike Force Restrains Over $1.08 Billion in Stolen Crypto\n\nLeading the prosecutorial spearhead is the multi-agency **Scam Center Strike Force**, initially organized in November 2025 out of the U.S. Attorney\u2019s Office for the District of Columbia under **U.S. Attorney Jeanine Pirro** alongside the FBI and U.S. Secret Service. Targeting transnational organized crime syndicates linked heavily to Chinese criminal affiliates operating walled complexes in Cambodia, Laos, and Myanmar, investigators executed aggressive asset freezes across blockchain rails before launderers could cash out victim deposits.\n\nBy late November 2026, the Strike Force confirmed it had successfully **restrained more than $1.08 billion in stolen cryptocurrency** traceable directly to U.S. fraud victims. Prosecutors simultaneously confiscated hundreds of spoofed digital investment domains, dismantled underground clearing infrastructure including the **Xinbi Guarantee Network**, and carried out precedent-setting federal seizures of encrypted **Telegram channels** deployed both to traffic forced laborers into compounds and recruit online fraud crews.\n\n### FBI \"Operation Blackout\" Levels 29 Global Compounds\n\nAlongside judicial asset restraints, **FBI Director Kash Patel** detailed the global tactical scope of **Operation Blackout**, the bureau\u2019s flagship physical demolition and digital forensics initiative conducted with overseas law enforcement counterparts.\n\nThrough Operation Blackout raids spanning four separate continents, allied security forces **disrupted and leveled 29 fortified scam compounds**, rescuing more than **2,200 human trafficking victims** who had been coerced under threat of violence into running scripted romance and crypto-trading frauds targeting American households. Investigators harvested **over 14,000 digital devices** for forensic exploitation while tracing and seizing **nearly $17 billion in illicit funds and syndicate-controlled assets**, blocking hundreds of millions in active secondary theft schemes.\n\n### Over 800 Defendants Charged Across 85 Federal Districts\n\nSummarizing the broader prosecutorial docket since March 2026, **Attorney General Todd Blanche** reported that federal teams\u2014backed by Treasury OFAC sanctions and parallel Securities and Exchange Commission enforcement\u2014have brought actions against **more than 800 defendants across over 400 federal cases spanning 85 judicial districts**, including at least 30 key overseas operatives successfully extradited to face U.S. jury trials. Law enforcement officials urged New York and national victims to preserve wallet hashes and wire logs promptly so restitution teams can match restrained blockchain balances to verified claims."
+    },
+    {
         "id": "watchdog-files-ethics-complaint-against-doj-officials-over-unredacted-voter-roll-lawsuits",
         "title": "Legal Watchdog Files Ethics Complaint Against Senior DOJ Officials Over Failed Unredacted Voter-Roll Suits",
         "kicker": "INVESTIGATIVE ACCOUNTABILITY \u2022 JUSTICE DEPARTMENT",
@@ -2166,6 +2200,40 @@ In Albany, Governor Kathy Hochul convened an emergency public health cabinet mee
     }
   ],
   'US': [
+    {
+        "id": "thanksgiving-storm-cuts-power-across-new-york-and-northeast-forcing-flood-rescues",
+        "title": "Thanksgiving Storm Cuts Power Across New York and Northeast, Forcing Coastal Flood Rescues",
+        "kicker": "WEATHER & PUBLIC SAFETY \u2022 NORTHEAST",
+        "summary": "A destructive Thanksgiving nor'easter packing 50 to 70 mph gusts knocked out electricity to hundreds of thousands across New York and neighboring states while triggering coastal flood rescues from New Jersey through Long Island.",
+        "category": "US",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Newyorkerherald Staff",
+            "role": "New York Metro & Emergency Affairs Bureau",
+            "avatar": "/images/authors/staff.webp"
+        },
+        "publishedAt": "Nov 27, 2026",
+        "readTime": "7 min read",
+        "imageUrl": "/images/news/thanksgiving-storm-cuts-power-across-new-york-and-northeast-forcing-flood-rescues.webp",
+        "imageCaption": "Emergency responders and residents navigate deep tidal floodwaters along inundated coastal streets after the powerful Thanksgiving storm swept across New York and the Northeast.",
+        "tags": [
+            "Thanksgiving Storm",
+            "New York City",
+            "Power Outages",
+            "Coastal Flooding",
+            "Emergency Response",
+            "Long Island"
+        ],
+        "bullets": [
+            "Between 700,000 and 900,000 utility customers lost electricity across New York, New Jersey, Pennsylvania, Maryland, and Virginia as saturated soils and 50 to 70 mph gusts toppled lines.",
+            "First responders executed swift-water motorist rescues along flooded roadways in New York City and coastal New Jersey as high onshore tides inundated low-lying neighborhoods.",
+            "Utility crews worked continuously into Black Friday morning to clear downed limbs and stabilize feeders ahead of Saturday's rescheduled 100th Macy's Thanksgiving Day Parade."
+        ],
+        "body": "Emergency management crews across New York City, Long Island, New Jersey, and neighboring northeastern states transitioned Friday morning from active storm rescue to massive grid restoration after a fast-moving, destructive Thanksgiving nor'easter pounded the Atlantic corridor with **torrential rainfall, coastal storm surge, and damaging wind gusts reaching 50 to 70 miles per hour**.\n\nAccording to utility tracking tallies overnight into Black Friday, roughly **700,000 to 900,000 residential and commercial customers** experienced power outages across the Northeast and Mid-Atlantic\u2014spanning hard-hit corridors in Pennsylvania, New Jersey, Virginia, Maryland, and downstate New York. Saturated ground left weakened root systems unable to resist fierce crosswinds, snapping tree limbs directly onto distribution transformers and feeder trunks.\n\n### Swift-Water Rescues Along Flooded Coastal Corridors\n\nFrom barrier-island avenues along the Jersey Shore to low-lying streets bordering Jamaica Bay, Staten Island, and Nassau County, peak storm tides coincided with heavy downpours Thursday afternoon to submerge coastal thoroughfares and highway underpasses.\n\nMunicipal fire departments, police harbor units, and state swift-water teams conducted **numerous emergency rescues for motorists trapped in rising floodwaters** across New York City and coastal New Jersey. Officials repeatedly urged drivers not to bypass barricades or gauge standing tidal depth on sight, warning that saltwater intrusion rapidly stalls vehicle electrical systems within seconds.\n\nAt regional airports\u2014including John F. Kennedy, LaGuardia, and Newark Liberty\u2014wind shear and wet runways forced rolling ground stops and flight cancellations during one of the peak travel windows of the year. Port Authority and Metropolitan Transportation Authority (MTA) bridges enforced empty-truck restrictions through peak gusts to prevent rollover accidents on elevated spans.\n\n### Black Friday Grid Restoration and Parade Reconfiguration\n\nUtility providers including Con Edison, PSEG Long Island, and upstate mutual-aid partners deployed thousands of line workers, tree-clearance specialists, and mobile substation crews at daybreak Friday under clear but brisk post-storm skies. State transportation crews concurrently worked to clear blocked parkways before early-morning Black Friday retail commuters hit regional highways.\n\nIn Midtown Manhattan, public safety commanders utilized Friday\u2019s calmer weather window to inspect scaffolding, overhead lighting rigs, and steel barricades after high winds compelled organizers to delay the **100th Macy\u2019s Thanksgiving Day Parade to Saturday, November 28**\u2014the first weather postponement in the centenary event's history. Governor Kathy Hochul\u2019s state of emergency coordination centers remained active through Friday afternoon to ensure flooded coastal municipalities retained backup pumping and shelter capacity throughout the long holiday weekend."
+    },
     {
         "id": "hochul-declares-state-of-emergency-as-thanksgiving-coastal-storm-forces-bridge-bans-nyc",
         "title": "Hochul Declares State of Emergency Across NYC and Suburbs as 65 MPH Thanksgiving Storm Triggers Coastal Flood Warnings",
@@ -2768,6 +2836,40 @@ As the clocks reset, congressional leaders confirmed that bipartisan committee s
     }
   ],
   'Politics': [
+    {
+        "id": "trump-defends-nvidia-ceo-jensen-huang-amid-reports-of-doj-security-review-gaps",
+        "title": "Trump Defends Nvidia CEO Jensen Huang Amid Bipartisan Scrutiny Over DOJ Security Review Gaps",
+        "kicker": "NATIONAL SECURITY \u2022 WASHINGTON",
+        "summary": "President Donald Trump and Attorney General Todd Blanche defended Nvidia CEO Jensen Huang's reinstatement as bipartisan lawmakers and House Judiciary Democrats questioned what formal national security clearance the Justice Department actually conducted.",
+        "category": "Politics",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Newyorkerherald Staff",
+            "role": "Washington & National Security Bureau",
+            "avatar": "/images/authors/staff.webp"
+        },
+        "publishedAt": "Nov 27, 2026",
+        "readTime": "7 min read",
+        "imageUrl": "/images/news/trump-defends-nvidia-ceo-jensen-huang-amid-reports-of-doj-security-review-gaps.webp",
+        "imageCaption": "President Donald Trump speaks alongside Nvidia CEO Jensen Huang as lawmakers scrutinize Justice Department assurances surrounding Huang's rapid reinstatement.",
+        "tags": [
+            "Donald Trump",
+            "Jensen Huang",
+            "Nvidia",
+            "DOJ",
+            "Todd Blanche",
+            "National Security"
+        ],
+        "bullets": [
+            "President Trump stood behind Nvidia CEO Jensen Huang's November 23 board reinstatement, declaring his return posed no national security risk based on 'a lot of information.'",
+            "Attorney General Todd Blanche cited a 'collective consensus' among security agencies while facing pointed press questioning over whether Huang himself underwent a formal clearance review.",
+            "Reports that Secretary of State Marco Rubio briefed the White House months earlier intensified House Judiciary Committee demands for transparency on AI export-control investigations."
+        ],
+        "body": "**President Donald Trump** doubled down this week in defense of reinstated **Nvidia CEO Jensen Huang**, telling reporters that his administration\u2019s judgment clearing the Silicon Valley chief executive of national security jeopardy rests on **\"a lot of information\"**\u2014even as bipartisan lawmakers and senior **Department of Justice (DOJ)** correspondents pressed officials over gaps in the underlying vetting record.\n\nThe political firestorm escalated after Nvidia\u2019s board abruptly returned Huang to the corner office on **November 23, 2026**, weeks after his sudden departure following disclosures surrounding extramarital relationships\u2014most prominently with **Alice Huang**, an executive at Singapore-based firm **Megaspeed** whom U.S. intelligence assessments linked to suspected Chinese intelligence ties and illicit advanced AI chip diversion probes.\n\n### Attorney General Todd Blanche Faces Intense Questioning\n\nImmediately following Huang\u2019s reinstatement, President Trump posted and stated publicly that the federal government had \"no reason to believe that Jensen's return to NVIDIA poses any risk to National Security,\" while asserting that **Attorney General Todd Blanche** had found no evidence of unlawful conduct by the chief executive.\n\nDuring a tense Justice Department news conference this week, however, Blanche encountered sharp questioning from reporters demanding clarity on which agencies participated in a formal security review\u2014and whether any comprehensive counterintelligence inquiry into Huang personally had actually concluded.\n\nBlanche insisted that the Justice Department reached a **\"collective consensus\"** alongside partner national security agencies clearing Huang of direct criminal target status. At the same time, critics noted that Blanche sidestepped specifics about individual vetting timelines, emphasizing instead that DOJ prosecutors continue running broader export-control enforcement investigations into third-party intermediaries\u2014including Megaspeed and hardware partners such as Super Micro Computer\u2014suspected of routing restricted high-performance accelerators toward China.\n\n### Congressional Oversight and Prior White House Briefings\n\nFresh reporting by *The New York Times* added fuel to Capitol Hill criticism by revealing that **Secretary of State Marco Rubio** had briefed White House officials on sensitive intelligence surrounding the affair months before November\u2019s board shakeup.\n\nDemocrats on the **House Judiciary Committee**, joined by skeptical national-security hawks in both parties, questioned why senior officials apparently compartmentalized warning signs while giving markets and Nvidia\u2019s board swift public absolution of America\u2019s dominant AI semiconductor supplier.\n\n\"When frontier AI compute sits at the exact center of U.S. defense readiness and export-control enforcement, Congress deserves written documentation\u2014not off-the-cuff assurances\u2014showing how Justice and intelligence agencies vetted ongoing diversion risks,\" a senior committee aide said Thursday. Administration allies countered that maintaining American semiconductor leadership against foreign rivals required stabilizing Nvidia\u2019s engineering leadership once prosecutors confirmed no personal charges were pending."
+    },
     {
         "id": "federal-judge-alikhan-blocks-trump-administration-fcc-retaliation-against-abc-licenses",
         "title": "Federal Judge Blocks Trump Administration and FCC From Retaliatory Action Against ABC Broadcast Licenses",
@@ -3514,6 +3616,40 @@ In Washington, national security officials convened in the White House Situation
 
   'Business & Economy': [
     {
+        "id": "nasdaq-futures-surge-into-black-friday-session-as-wall-street-tests-consumer-resilience",
+        "title": "Wall Street Opens Shortened Black Friday Session Focused on Holiday Consumer Spending and AI Retail Bets",
+        "kicker": "MARKETS \u2022 WALL STREET",
+        "summary": "Equities traders returned Friday for a shortened 9:30 AM to 1:00 PM ET Wall Street session, testing holiday consumer resilience alongside Big Tech's high-stakes agentic commerce shift across the Nasdaq and NYSE.",
+        "category": "Business",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Newyorkerherald Staff",
+            "role": "Wall Street & Retail Markets Bureau",
+            "avatar": "/images/authors/staff.webp"
+        },
+        "publishedAt": "Nov 27, 2026",
+        "readTime": "7 min read",
+        "imageUrl": "/images/news/nasdaq-futures-surge-into-black-friday-session-as-wall-street-tests-consumer-resilience.webp",
+        "imageCaption": "Traders and financial screens on the floor of the New York Stock Exchange in Lower Manhattan as Wall Street navigates a shortened Black Friday trading session.",
+        "tags": [
+            "Wall Street",
+            "Black Friday",
+            "Nasdaq",
+            "NYSE",
+            "Retail Spending",
+            "Agentic Commerce"
+        ],
+        "bullets": [
+            "U.S. stock exchanges opened at 9:30 AM ET for an abbreviated Black Friday session closing early at 1:00 PM ET, with SIFMA bond desks shutting at 2:00 PM ET.",
+            "Portfolio managers are tracking early Black Friday checkout conversion to gauge whether value-conscious households sustain Q4 retail margins.",
+            "Retail-tech attention centers on whether Walmart's Meta Muse gateway and rival AI integrations convert hyperscale AI infrastructure spending into measurable commerce revenue."
+        ],
+        "body": "Floor brokers and algorithmic desks in Lower Manhattan stepped into an **abbreviated Black Friday trading session** Friday following Thursday\u2019s Thanksgiving closure, weighing early foot traffic and digital checkout volume for clues about American household spending power heading into the final month of 2026.\n\nUnder standard post-Thanksgiving holiday rules, the **New York Stock Exchange (NYSE)** and **Nasdaq** opened at **9:30 AM ET** for a compressed three-and-a-half-hour cash equities session closing early at **1:00 PM ET**, while options markets closed at **1:15 PM ET** and U.S. fixed-income bond desks wrapped up at **2:00 PM ET** in line with SIFMA guidelines.\n\n### Testing Consumer Resilience During 'Black November'\n\nNormally characterized by thinner institutional volume, Friday\u2019s post-Thanksgiving tape drew heightened focus from consumer-discretionary and macro analysts after major chains kept brick-and-mortar doors shuttered on Thanksgiving Day before reopening early Friday morning to weather-disrupted East Coast shoppers and brisk digital demand.\n\nRetail economists note that household purchasing patterns in late 2026 have bifurcated sharply around intentional, value-oriented buying: consumers are utilizing price-tracking software throughout a month-long **\"Black November\"** promotional cycle, folding everyday staples alongside seasonal apparel and electronics rather than indulging purely impulsive splurges.\n\nWith lingering storm-driven disruptions across parts of the Northeast offsetting strong Sunbelt and Midwest traffic, equity strategists said weekend digital conversion rates between Friday morning and Cyber Monday will prove decisive for fourth-quarter earnings guidance across department-store banners, big-box discounters, and parcel carriers.\n\n### Can Agentic AI Justify Nasdaq CapEx Valuations?\n\nFor growth-heavy Nasdaq constituents, meanwhile, Black Friday 2026 carries an unprecedented technological catalyst: Wall Street\u2019s first large-scale live read on **agentic commerce monetization**.\n\nFollowing months of debate over multi-trillion-dollar tech valuations tied to data-center buildouts, investors are closely watching whether autonomous purchasing layers meaningfully accelerate checkout velocity for retail ecosystems. **Walmart\u2019s** landmark decision to open a dedicated **Agent Gateway** allowing **Meta\u2019s AI assistant Muse** to build carts and transact directly contrasted sharply with **Amazon\u2019s** strict technical blocks against third-party checkout bots\u2014highlighting an emerging competitive split across big-box and platform valuations. Combined with parallel **OpenAI** wallet features and **Google Gemini** merchant partnerships, Friday\u2019s holiday traffic offers portfolio managers concrete evidence on whether conversational AI can transition from ad impressions into durable transaction economics."
+    },
+    {
         "id": "october-pce-inflation-climbs-to-3-8-percent-roiling-fed-december-rate-outlook",
         "title": "October PCE Inflation Accelerates to 3.8%, Complicating Federal Reserve\u2019s December Policy Outlook Ahead of Holiday Break",
         "kicker": "MACROECONOMICS \u2022 FEDERAL RESERVE",
@@ -4156,6 +4292,40 @@ Sports finance experts note that the move mirrors a broader institutional trend 
   ],
 
   'Tech': [
+    {
+        "id": "black-friday-2026-emerges-as-live-stress-test-for-agentic-ai-shopping-and-site-ops",
+        "title": "Black Friday 2026 Becomes Live Stress Test for Agentic AI Shopping Led by Walmart and Meta\u2019s Muse",
+        "kicker": "ARTIFICIAL INTELLIGENCE \u2022 RETAIL TECH",
+        "summary": "As millions hunt holiday deals, Walmart's new Agent Gateway letting Meta's Muse shop autonomously collides with Amazon's bot blocks, turning Black Friday 2026 into a pivotal test for agentic commerce.",
+        "category": "Tech",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Newyorkerherald Staff",
+            "role": "Artificial Intelligence & Platforms Bureau",
+            "avatar": "/images/authors/staff.webp"
+        },
+        "publishedAt": "Nov 27, 2026",
+        "readTime": "7 min read",
+        "imageUrl": "/images/news/black-friday-2026-emerges-as-live-stress-test-for-agentic-ai-shopping-and-site-ops.webp",
+        "imageCaption": "A shopper reviews checkout permissions on a mobile screen showing Meta's Muse assistant requesting authorization to shop on Walmart under configurable order caps.",
+        "tags": [
+            "Agentic AI",
+            "Walmart",
+            "Meta Muse",
+            "Black Friday",
+            "Amazon",
+            "E-Commerce"
+        ],
+        "bullets": [
+            "Walmart rolled out its Agent Gateway and Agent Profiles architecture just ahead of Black Friday, enabling Meta's Muse assistant to compare prices, assemble carts, and check out for shoppers.",
+            "Shoppers retain granular spending-limit thresholds, manual confirmation toggles, and privacy firewalls preventing Muse from reading broader personal order histories.",
+            "The rollout exposes an industry schism: while Walmart, Google Gemini, and OpenAI embrace structured agent gateways, Amazon continues blocking external third-party checkout bots."
+        ],
+        "body": "Every holiday shopping season stress-tests cloud infrastructure and payment rails, yet **Black Friday 2026** marks a qualitatively different milestone across Silicon Valley and Bentonville: the first high-volume commercial stress test for **autonomous agentic AI shopping** operating live inside mainstream consumer carts.\n\nJust ahead of the Thanksgiving weekend rush, **Walmart** activated an industry-first integration allowing **Meta\u2019s AI assistant, Muse**, to browse Black Friday promotions, compare inventory, build shopping carts, and finalize purchases directly inside a conversational session on consumers\u2019 behalf.\n\n### Inside Walmart\u2019s Agent Gateway and Consumer Guardrails\n\nRather than forcing external language models to scrape brittle HTML storefronts like stealth bots, Walmart engineered two foundational primitives ahead of holiday load: an **Agent Gateway** serving structured catalog and pricing feeds, paired with isolated **Agent Profiles**.\n\nCrucially for privacy and fraud-prevention engineering, Walmart\u2019s architecture explicitly blocks Muse from accessing a shopper\u2019s historical personal purchase logs. Instead, users authorize scoped payment credentials directly on screen and configure explicit financial guardrails\u2014selecting automatic approval caps at **$0, $50, $100, or custom dollar limits** above which the shopper must manually tap confirmation before any card charge executes. Agent-initiated receipts also remain cleanly segregated inside customer account settings so consumers can revoke assistant access with a single toggle.\n\n### A Stark Industry Divide Over Automated Checkouts\n\nWalmart\u2019s embrace of open protocol access highlights a sharp strategic fault line dividing America\u2019s largest digital merchants. While Walmart is courting traffic from external AI assistants\u2014alongside parallel holiday commerce pushes involving **OpenAI\u2019s integrated wallet tooling** and **Google\u2019s Gemini merchant partnerships**\u2014**Amazon** has erected aggressive technical and legal barriers blocking unapproved third-party AI agents from autonomously scraping or executing checkouts across its marketplace.\n\nFor site-reliability engineers across retail tech, Black Friday weekend traffic will determine whether agentic orchestration boosts conversion without triggering inventory-hoarding spikes, flash stockouts, or API rate-limit bottlenecks. For AI labs facing intense Wall Street scrutiny over infrastructure spending, analysts say successful holiday execution will decide whether autonomous buying enters 2027 as an everyday utility or remains a tightly sandboxed dress rehearsal."
+    },
     {
         "id": "nvidia-slump-and-anthropic-ipo-dip-deepen-ai-capex-reckoning-on-wall-street",
         "title": "Nvidia Tumbles and Anthropic Slips Below IPO Price as Wall Street Deepens Scrutiny of Debt-Fueled AI Spending",
@@ -4835,6 +5005,40 @@ Aerospace financial analysts estimate that SpaceX's commercial launch and satell
 
   'Entertainment': [
     {
+        "id": "hunger-games-sunrise-on-the-reaping-dominates-thanksgiving-box-office-past-200m",
+        "title": "\u2018The Hunger Games: Sunrise on the Reaping\u2019 Dominates Thanksgiving Box Office Past $200 Million Domestic",
+        "kicker": "BOX OFFICE \u2022 CINEMA",
+        "summary": "Lionsgate's 'The Hunger Games: Sunrise on the Reaping' commands the five-day Thanksgiving holiday chart after grossing ~$15 million on Thanksgiving Eve, cruising toward ~$233 million domestically.",
+        "category": "Entertainment",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Newyorkerherald Staff",
+            "role": "Culture & Film Industry Bureau",
+            "avatar": "/images/authors/staff.webp"
+        },
+        "publishedAt": "Nov 27, 2026",
+        "readTime": "7 min read",
+        "imageUrl": "/images/news/hunger-games-sunrise-on-the-reaping-dominates-thanksgiving-box-office-past-200m.webp",
+        "imageCaption": "A scene from Lionsgate's 'The Hunger Games: Sunrise on the Reaping,' which shattered expectations over its debut week and leads the 2026 Thanksgiving box office.",
+        "tags": [
+            "Box Office",
+            "Sunrise on the Reaping",
+            "The Hunger Games",
+            "Lionsgate",
+            "Thanksgiving Movies",
+            "NYC Multiplexes"
+        ],
+        "bullets": [
+            "Lionsgate's 'The Hunger Games: Sunrise on the Reaping' collected approximately $15 million on Thanksgiving Eve alone while dominating the five-day holiday frame.",
+            "Holiday projections point to an ~$85 million Wednesday-to-Sunday corridor haul, lifting the prequel's cumulative domestic gross toward roughly $233 million.",
+            "The surge builds on a blowout $120 million North American debut and over $225 million worldwide launch, packing Manhattan and suburban IMAX auditoriums."
+        ],
+        "body": "In an overwhelming victory for theatrical exhibition heading into the peak holiday corridor, Lionsgate\u2019s ***The Hunger Games: Sunrise on the Reaping*** ruled North American multiplexes across Thanksgiving week, powering past the **$200 million domestic milestone** with a commanding five-day holiday hold.\n\nEntering its second frame after detonating a **$120 million North American opening weekend** and surging past **$225 million globally**, the Panem prequel captured approximately **$15 million on Thanksgiving Eve alone**, positioning studio trackers for an estimated **$85 million five-day Wednesday-through-Sunday haul**. Combined through Sunday night, that momentum places *Sunrise on the Reaping* firmly on trajectory to surpass roughly **$233 million domestically**, handily ranking as one of the year\u2019s cleanest four-quadrant theatrical champions.\n\n### Robust Turnout Despite East Coast Coastal Storm\n\nEven as severe Thursday storm bands and high wind warnings disrupted regional transit across New York, New Jersey, and New England, exhibitors across Midtown Manhattan, Lincoln Square, Brooklyn, and nationwide suburban plazas reported packed evening auditoriums once rain squalls eased overnight into Black Friday matinees.\n\nIndustry analysts credited the prequel\u2019s breakout staying power to strong word-of-mouth among multi-generational *Hunger Games* readers alongside an influx of college students and families seeking shared big-screen counterprogramming over the extended holiday break. Premium large-format auditoriums\u2014particularly IMAX and Dolby Cinema screens in New York and Los Angeles\u2014accounted for an outsized share of reserved-seat revenue throughout Wednesday and Thursday evening screenings.\n\n### A Crucial Lift for Lionsgate and Late-Year Theatrical Slate\n\nFor **Lionsgate**, the blockbuster run provides vital fourth-quarter momentum at a moment when studios have scrutinized theatrical marketing budgets closely against streaming windows. *Sunrise on the Reaping* not only reinvigorated YA literary adaptations on major studio release calendars, but also proved that faithful franchise expansions built around character origin stakes can match original-trilogy holiday records. Exhibitors now look toward Saturday\u2019s double boost in Manhattan\u2014when fair post-storm skies bring rescheduled 100th Macy\u2019s Parade spectators straight into Midtown theater corridors\u2014to keep late-November ticket turnstiles spinning into December."
+    },
+    {
         "id": "macys-100th-thanksgiving-parade-postponed-to-saturday-as-nbc-airs-2025-encore",
         "title": "100th Macy\u2019s Thanksgiving Day Parade Postponed to Saturday Due to High Winds as NBC Pivots to 2025 Encore Broadcast",
         "kicker": "MIDTOWN CULTURE \u2022 HISTORIC SCHEDULE SHIFT",
@@ -5451,6 +5655,40 @@ Furthermore, cloud streaming platforms and mobile distribution networks have low
   ],
 
   'Sports': [
+    {
+        "id": "bears-eagles-and-bills-prevail-in-dramatic-thanksgiving-day-nfl-tripleheader",
+        "title": "Rams Open Thanksgiving Week Past Packers Before Bears, Eagles, and Bills Sweep Holiday Tripleheader",
+        "kicker": "NFL \u2022 THANKSGIVING SLATE",
+        "summary": "Following Los Angeles' 26-13 Thanksgiving Eve win over Green Bay, Thursday's NFL tripleheader delivered classic drama as Chicago edged Detroit 39-35, Philadelphia held off Dallas 39-38, and Buffalo clipped Kansas City 13-10.",
+        "category": "Sports",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Newyorkerherald Staff",
+            "role": "National Sports & New York Metro Desk",
+            "avatar": "/images/authors/staff.webp"
+        },
+        "publishedAt": "Nov 27, 2026",
+        "readTime": "7 min read",
+        "imageUrl": "/images/news/bears-eagles-and-bills-prevail-in-dramatic-thanksgiving-day-nfl-tripleheader.webp",
+        "imageCaption": "Action between the Los Angeles Rams and Green Bay Packers during Thanksgiving Week's opening NFC showdown before Thursday's thrilling NFL holiday tripleheader.",
+        "tags": [
+            "NFL",
+            "Thanksgiving NFL",
+            "Buffalo Bills",
+            "Chicago Bears",
+            "Philadelphia Eagles",
+            "Los Angeles Rams"
+        ],
+        "bullets": [
+            "The Los Angeles Rams opened Thanksgiving Week on Wednesday night with a disciplined 26-13 victory over the Green Bay Packers.",
+            "Thursday's tripleheader kicked off with a 74-point shootout as the Chicago Bears stunned the Detroit Lions 39-35 at Ford Field, followed by Philadelphia edging Dallas 39-38.",
+            "In prime time, the Buffalo Bills prevailed 13-10 in a defensive slugfest against the Kansas City Chiefs, reshaping AFC top-seed seeding across New York state."
+        ],
+        "body": "Football fans got everything from an NFC defensive statement on Thanksgiving Eve to two back-and-forth 39-point track meets and a freezing prime-time AFC slugfest as the **NFL\u2019s 2026 Thanksgiving slate** delivered four pivotal clashes across 36 hours.\n\nThe extended holiday showcase began Wednesday night, November 25, when the **Los Angeles Rams** defeated the **Green Bay Packers 26\u201313**, leaning on sharp red-zone efficiency and stifling second-half pass defense to tighten the crowded NFC wild-card race before holiday viewers carved turkeys Thursday afternoon.\n\n### Bears Outlast Lions 39-35, Eagles Survive Cowboys 39-38\n\nThursday\u2019s traditional tripleheader opened at 1:00 PM ET at Ford Field in explosive fashion as the **Chicago Bears** outlasted the **Detroit Lions 39\u201335** in a fierce NFC North shootout. Both offenses traded haymakers down the stretch before Chicago\u2019s final-drive execution silenced Detroit\u2019s home crowd and injected urgent parity atop the division standings heading into December.\n\nThe 4:30 PM ET afternoon window produced an even tighter thriller in Arlington, where the **Philadelphia Eagles** survived a frantic fourth-quarter rally from the **Dallas Cowboys** to escape with a **39\u201338 victory**. One-point margins along key third-down conversions and special-teams extra points tilted the NFC East heavyweight bout Philadelphia\u2019s way\u2014keeping intense divisional pressure squarely on regional East Coast contenders\u2014before attention shifted north toward Western New York.\n\n### Bills Outduel Chiefs 13-10 in Prime-Time Defensive Grinder\n\nWith swirling post-storm winds whipping across western New York for the **8:20 PM ET nightcap**, offense gave way to old-school AFC trenches football as the **Buffalo Bills defeated the Kansas City Chiefs 13\u201310**. Every yard required patience and field-position discipline between two familiar postseason rivals, with Buffalo\u2019s defense slamming the door on late Kansas City drive attempts to hand New York\u2019s only in-state franchise a monumental tiebreaker boost in the race for the AFC\u2019s top playoff seed.\n\nNow entering Friday recovery and a condensed Week 13 weekend slate, coaching staffs across Chicago, Philadelphia, Buffalo, and Los Angeles head into December with decisive late-season tiebreakers safely banked."
+    },
     {
         "id": "knicks-erupt-for-39-point-fourth-quarter-to-rout-cavaliers-121-102-for-sixth-straight-win",
         "title": "Knicks Explode for 39-Point Fourth Quarter to Rout Cavaliers 121\u2013102 in NBA Cup Clash as Sabres Down Rangers 5\u20131",
@@ -6087,6 +6325,40 @@ On the stadium infrastructure front, club executives evaluated demonstrations of
   ],
 
   'Science': [
+    {
+        "id": "columbia-zuckerman-study-finds-neurons-operate-as-versatile-multitaskers-across-brain-regions",
+        "title": "Columbia Zuckerman Study Reveals Brain Neurons Act as Versatile Multitaskers Rather Than Rigid Specialists",
+        "kicker": "NEUROSCIENCE \u2022 COLUMBIA UNIVERSITY",
+        "summary": "Published in Nature, researchers at Columbia's Zuckerman Institute analyzed over 14,000 neurons across 43 brain regions, proving most cortical cells operate like flexible 'Swiss Army knives' rather than single-job tools.",
+        "category": "Science",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Newyorkerherald Staff",
+            "role": "Science & Academic Research Desk",
+            "avatar": "/images/authors/staff.webp"
+        },
+        "publishedAt": "Nov 27, 2026",
+        "readTime": "7 min read",
+        "imageUrl": "/images/news/columbia-zuckerman-study-finds-neurons-operate-as-versatile-multitaskers-across-brain-regions.webp",
+        "imageCaption": "Fluorescent microscopy visualization of densely interconnected brain neurons, highlighting the branching architecture behind mixed-selectivity neural computation.",
+        "tags": [
+            "Columbia University",
+            "Zuckerman Institute",
+            "Neuroscience",
+            "Nature",
+            "Brain Research",
+            "New York Science"
+        ],
+        "bullets": [
+            "Published in Nature, Columbia Zuckerman Institute scientists examined over 14,000 individual neurons spanning 43 regions of the mouse brain using International Brain Laboratory data.",
+            "Rather than single-purpose gears, the vast majority of cortical neurons display 'mixed selectivity,' adapting like Swiss Army knives across sensory, motor, and decision tasks.",
+            "Strict specialists remain concentrated in early sensory regions like primary visual cortex, whereas cognitive flexibility climbs steeply across higher-order associative areas."
+        ],
+        "body": "Challenging decades of textbook neuroscience that pictured individual brain cells like single-function assembly-line gears, a landmark study out of **Columbia University\u2019s Zuckerman Mind Brain Behavior Institute** demonstrates that the overwhelming majority of cortical neurons behave as adaptable **\"multitaskers\"**\u2014reconfiguring rapidly like Swiss Army knives across perception, movement, and choice.\n\nPublished in the peer-reviewed journal ***Nature*** and led by **Stefano Fusi, PhD**, principal investigator at Columbia\u2019s Zuckerman Institute in Manhattanville, alongside co-lead author **Lorenzo Posani, PhD** of the Paris Brain Institute (formerly a researcher at Columbia), the research leveraged an unprecedented collaborative dataset assembled by the **International Brain Laboratory**.\n\n### Mapping 14,000 Neurons Across 43 Brain Regions\n\nTo test how specialization varies across biological intelligence at brain-wide scale, Fusi, Posani, and collaborating theorists analyzed electrical recordings from **more than 14,000 individual neurons spanning 43 distinct regions of the mouse brain** while animals executed complex perceptual decision-making behaviors.\n\nRather than finding tidy silos where one cell fires exclusively for a visual cue and another strictly for a physical paw turn, the team uncovered pervasive **\"mixed selectivity\"** throughout cortical architecture: single neurons routinely encoded shifting, nonlinear combinations of sensory inputs, motor actions, and internal decision states simultaneously.\n\n### Where Specialists End and Generalists Take Over\n\nCrucially, the data revealed an anatomical gradient organizing specialization across the brain. Narrowly tuned **\"specialist\" neurons\u2014comparable to single-task hammers or saws\u2014do exist**, the authors report, yet they are concentrated predominantly within **primary sensory regions** responsible for registering raw incoming data such as basic visual edges. As neural pathways ascend deeper into higher-order frontal and associative regions governing executive planning, cognitive generalists dominate nearly every recorded circuit.\n\nFor New York\u2019s thriving computational neuroscience community\u2014and machine-learning researchers working adjacent to biological architectures\u2014the findings carry major implications. High-dimensional mixed selectivity explains how biological brains generalize cleanly to unfamiliar problems with sparse data and resilient grace under injury, offering blueprints for next-generation neuromorphic and AI systems seeking real-world adaptability without brittle single-task catastrophic forgetting."
+    },
     {
         "id": "nasa-equips-titan-bound-dragonfly-rotorcraft-cameras-as-esa-euclid-spots-first-comet",
         "title": "NASA Completes Dragonfly Titan Camera Integration as ESA\u2019s Euclid Telescope Discovers First Comet and Record Quasar",
@@ -6740,6 +7012,40 @@ Domestic automotive manufacturers have committed multi-billion-dollar off-take a
   ],
 
   'Opinion': [
+    {
+        "id": "the-black-friday-agent-test-why-autonomous-ai-shoppers-need-clearer-rules",
+        "title": "The Black Friday Agent Test: Why Autonomous AI Shoppers Need Clearer Consumer Rules",
+        "kicker": "OPINION \u2022 COMMERCE & GOVERNANCE",
+        "summary": "From Herald Square sidewalks to Walmart's Muse checkout test and Amazon's bot blocks, Black Friday 2026 shows automated AI buyers arriving faster than New York and federal consumer liability law.",
+        "category": "Opinion",
+        "edition": [
+            "US & Americas",
+            "Global"
+        ],
+        "author": {
+            "name": "Newyorkerherald Editorial Board",
+            "role": "Opinion & Digital Policy",
+            "avatar": "/images/authors/staff.webp"
+        },
+        "publishedAt": "Nov 27, 2026",
+        "readTime": "6 min read",
+        "imageUrl": "/images/news/the-black-friday-agent-test-why-autonomous-ai-shoppers-need-clearer-rules.webp",
+        "imageCaption": "Macy's flagship department store at Herald Square in Midtown Manhattan, a perennial centerpiece of American Black Friday commerce now adapting to autonomous AI shopping.",
+        "tags": [
+            "Editorial",
+            "Agentic Commerce",
+            "Consumer Protection",
+            "FTC",
+            "New York Law",
+            "Black Friday"
+        ],
+        "bullets": [
+            "Holiday 2026 marks the first Black Friday where AI assistants like Meta's Muse can shop inside major retail gateways alongside brick-and-mortar flagship crowds.",
+            "Fragmented retailer policies\u2014Walmart welcoming curated agent gateways while Amazon blocks outside bots\u2014expose a vacuum in federal and New York consumer liability rules.",
+            "Regulators at the FTC and New York State Attorney General's office should codify transparent consent limits, itemized algorithmic fee disclosures, and swift chargeback protections."
+        ],
+        "body": "In Midtown Manhattan this Black Friday morning, shoppers bundling up against brisk post-storm winds still poured past brass revolving doors along **34th Street and Herald Square**\u2014some checking Saturday\u2019s rescheduled route for the 100th Macy\u2019s Thanksgiving Day Parade, others scanning barcodes on phones while autonomous software assistants quietly hunted discounts in the background.\n\nThat contrast captures the pivotal shift defining holiday commerce in 2026. For years, \"AI in retail\" meant chatbots answering return questions or predictive search bars sorting winter coats. This weekend, through **Walmart\u2019s new Agent Gateway** integrating **Meta\u2019s Muse** alongside wallet pilots from **OpenAI** and **Google Gemini**, software agents are moving out of advice columns and clicking \"Place Order\" on real credit cards.\n\n### Good Engineering Guardrails Cannot Replace Statutory Law\n\nTo Walmart\u2019s engineering credit, its Muse launch pairs innovation with sensible technical restraint: barring the assistant from trawling decades of sensitive past order history while allowing consumers to lock hard spending approval thresholds\u2014at $0, $50, $100, or custom caps\u2014before checkout executes. Meanwhile, **Amazon\u2019s** aggressive defensive posture blocking unvetted third-party bots underscores a deeper legal anxiety shared across boardrooms: when software buys autonomously, who owns the mistake when terms misfire?\n\nCurrent consumer-protection statutes, including federal **Truth in Lending** dispute protections and **New York General Business Law** anti-deception rules, were drafted when a human eyes every shipping surcharge, dynamic-pricing spike, and non-refundable fine-print box before typing a CVV code. If an agent hallucinates a third-party marketplace warranty, overlooks restocking clauses, or gets nudged toward higher-margin sponsored SKUs via subtle prompt injection or wholesale kickbacks, card issuers and merchants can easily trade blame while households sit stuck waiting for disputed refunds.\n\n### Three Bright-Line Rules Before Next Holiday Season\n\nBefore autonomous buying shifts from early adopters to tens of millions of families in 2027, the **Federal Trade Commission (FTC)**, Congress, and **New York State lawmakers** should establish three crisp, platform-neutral ground rules. First, mandate crystal-clear pre-transaction approval caps paired with irrevocable machine-readable receipts showing exactly which instructions triggered a purchase. Second, require explicit disclosure whenever an assistant accepts affiliate fees or preferred placement inside retail gateways. Third, clarify strict merchant-bank chargeback parity so no consumer loses fraud protection merely because an authorized software agent executed the final tap. Innovation thrives deepest when shoppers know the rules hold firm."
+    },
     {
         "id": "first-amendment-shield-holds-why-judge-alikhan-injunction-protects-every-newsroom",
         "title": "The First Amendment Shield Holds: Why Judge AliKhan\u2019s Injunction Against FCC License Threats Protects Every Newsroom",
@@ -7691,46 +7997,46 @@ export function getHomepageDepartmentArticles(dept: string): Article[] {
   const all = getAllArticles();
   const mapping: Record<string, string[]> = {
     us: [
+      'thanksgiving-storm-cuts-power-across-new-york-and-northeast-forcing-flood-rescues',
       'hochul-declares-state-of-emergency-as-thanksgiving-coastal-storm-forces-bridge-bans-nyc',
       'brooklyn-appeals-court-clears-500m-pied-a-terre-luxury-tax-backed-by-hochul-and-mamdani',
-      'nyc-joins-national-lawsuit-challenging-federal-hud-mixed-status-immigrant-housing-rule',
-      'mayor-mamdani-unveils-comprehensive-146m-blueprint-to-close-rikers-island-by-2032'
+      'nyc-joins-national-lawsuit-challenging-federal-hud-mixed-status-immigrant-housing-rule'
     ],
     politics: [
+      'trump-defends-nvidia-ceo-jensen-huang-amid-reports-of-doj-security-review-gaps',
       'federal-judge-alikhan-blocks-trump-administration-fcc-retaliation-against-abc-licenses',
       'house-democrats-expand-probe-into-donald-trump-jr-1789-capital-venture-fund',
-      'federal-appeals-court-revives-trump-effort-to-transfer-manhattan-criminal-case-to-federal-court',
-      'turhan-mildon-caracas-washington-venezuela-business-interests'
+      'federal-appeals-court-revives-trump-effort-to-transfer-manhattan-criminal-case-to-federal-court'
     ],
     business: [
+      'nasdaq-futures-surge-into-black-friday-session-as-wall-street-tests-consumer-resilience',
       'october-pce-inflation-climbs-to-3-8-percent-roiling-fed-december-rate-outlook',
       'dow-surpasses-50000-milestone-while-nasdaq-slips-on-ai-volatility-and-fed-inflation-debate',
-      'wall-street-rebounds-in-dramatic-1450-point-surge-as-nvidia-leadership-and-treasury-yield-retreat-reignite-markets',
-      'wall-street-plunges-into-correction-as-nasdaq-sheds-1225-points-in-global-tech-selloff'
+      'wall-street-rebounds-in-dramatic-1450-point-surge-as-nvidia-leadership-and-treasury-yield-retreat-reignite-markets'
     ],
     tech: [
+      'black-friday-2026-emerges-as-live-stress-test-for-agentic-ai-shopping-and-site-ops',
       'nvidia-slump-and-anthropic-ipo-dip-deepen-ai-capex-reckoning-on-wall-street',
       'governor-hochul-signs-five-year-ban-on-ai-chatbot-toys-citing-youth-safety-and-privacy',
-      'amazon-acquires-decart-ai-optimization-stack-in-7-5b-deal-for-hyperscale-chip-efficiency',
-      'new-york-breaks-ground-on-500m-permanent-empire-ai-supercomputing-center-suny-buffalo'
+      'amazon-acquires-decart-ai-optimization-stack-in-7-5b-deal-for-hyperscale-chip-efficiency'
     ],
     entertainment: [
+      'hunger-games-sunrise-on-the-reaping-dominates-thanksgiving-box-office-past-200m',
       'macys-100th-thanksgiving-parade-postponed-to-saturday-as-nbc-airs-2025-encore',
       'radio-city-christmas-spectacular-and-lincoln-center-seven-guitars-anchor-nyc-holiday-season',
-      'broadway-posts-record-38m-early-thanksgiving-box-office-as-star-studded-revivals-propel-midtown-surge',
-      'mayor-mamdani-signs-historic-law-ending-new-york-city-central-park-horse-carriage-industry'
+      'broadway-posts-record-38m-early-thanksgiving-box-office-as-star-studded-revivals-propel-midtown-surge'
     ],
     sports: [
+      'bears-eagles-and-bills-prevail-in-dramatic-thanksgiving-day-nfl-tripleheader',
       'knicks-erupt-for-39-point-fourth-quarter-to-rout-cavaliers-121-102-for-sixth-straight-win',
       'knicks-host-cavaliers-in-pivotal-msg-nba-cup-clash-as-rangers-target-buffalo-rebound',
-      'new-york-knicks-edge-indiana-pacers-106-103-at-msg-behind-clutch-brunson-towns-masterclass',
-      'new-york-giants-defeat-afc-leading-jaguars-23-18-behind-dominant-defense-metlife-statement'
+      'new-york-knicks-edge-indiana-pacers-106-103-at-msg-behind-clutch-brunson-towns-masterclass'
     ],
     science: [
+      'columbia-zuckerman-study-finds-neurons-operate-as-versatile-multitaskers-across-brain-regions',
       'nasa-equips-titan-bound-dragonfly-rotorcraft-cameras-as-esa-euclid-spots-first-comet',
       'deepmind-neuralgcm-and-nasa-ai-earth-models-sharpen-coastal-storm-forecasting-ahead-of-thanksgiving',
-      'landmark-phase-three-orion-four-trial-confirms-twice-yearly-sirna-therapy-slashes-cardiovascular-events',
-      'new-york-power-authority-names-10-qualified-developers-for-1gw-advanced-nuclear-initiative'
+      'landmark-phase-three-orion-four-trial-confirms-twice-yearly-sirna-therapy-slashes-cardiovascular-events'
     ]
   };
 
